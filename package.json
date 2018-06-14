@@ -7,7 +7,9 @@
     "stripes": "stripescore",
     "start": "stripescore dev stripes.config.js",
     "postinstall": "node ./build-module-descriptors.js",
-    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripescore dev $f"
+    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripescore dev $f",
+    "test": "mocha ./node_modules/@folio/ui-testing/test-module.js --workingDirectory $PWD --run x",
+    "test-module" : "mocha ./node_modules/@folio/ui-testing/test-module.js --workingDirectory $PWD",
   },
   "dependencies": {
     "@folio/checkin": ">=0.0.0",
@@ -25,5 +27,8 @@
   },
   "resolutions": {
     "**/uglify-es": "3.3.9"
+  },
+  "devDependencies": {
+    "@folio/ui-testing": "folio-org/ui-testing#framework-only",
   }
 }

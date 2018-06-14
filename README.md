@@ -30,3 +30,13 @@ or
     # make the service available to other users
     $ STRIPES_HOST=full.host.name yarn start
 
+
+### run all tests
+```
+$ yarn test
+```
+
+### run a single test
+```
+$ yarn test-module --run :110-auth-success
+```
