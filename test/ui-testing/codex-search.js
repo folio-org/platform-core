@@ -1,4 +1,3 @@
-/* global it describe */
 module.exports.test = (uiTestCtx) => {
   /* Found at https://intoli.com/blog/nightmare-network-idle/ */
   Nightmare.action('waitUntilNetworkIdle',
@@ -25,7 +24,7 @@ module.exports.test = (uiTestCtx) => {
           } else {
             setTimeout(check, waitTime - elapsedTime);
           }
-        }
+        };
         setTimeout(check, waitTime);
       });
 
@@ -57,10 +56,10 @@ module.exports.test = (uiTestCtx) => {
     // const pageLoadPeriod = 2000;
     const actionLoadPeriod = 222;
     const searchResultsTitleSelector = `#list-search div[role="gridcell"][title*="${title}"]`;
-    const titleSortSelector = `#clickable-list-column-title`;
-    const firstResultSelector = `#list-search div[role="listitem"] div[role="gridcell"][title]`;
-    const resultCountSelector = `#paneHeaderpane-results-subtitle span`;
-    const filterCheckBoxSelector = `#clickable-filter-type-Audio`;
+    const titleSortSelector = '#clickable-list-column-title';
+    const firstResultSelector = '#list-search div[role="listitem"] div[role="gridcell"][title]';
+    const resultCountSelector = '#paneHeaderpane-results-subtitle span';
+    const filterCheckBoxSelector = '#clickable-filter-type-Audio';
     const resetButtonLabel = 'Reset all';
     const resetButtonSelector = 'button > span';
 
@@ -125,9 +124,9 @@ module.exports.test = (uiTestCtx) => {
 
       /* NE, 2018-06-13:
         Disabled until further as it inexplicably fails on snapshot (and sometimes on testing iirc)
-        I can at times reproduce it from home on the first try against a new snapshot build, but it usually 
-        passes in subsequent runs, making it all but impossible to experiment with it in one sitting. 
-        Will instead try with, like, one or two test runs per day, while tweaking test code and logging.  
+        I can at times reproduce it from home on the first try against a new snapshot build, but it usually
+        passes in subsequent runs, making it all but impossible to experiment with it in one sitting.
+        Will instead try with, like, one or two test runs per day, while tweaking test code and logging.
       it('should filter results', (done) => {
 
         nightmare
@@ -209,7 +208,7 @@ module.exports.test = (uiTestCtx) => {
           }, resetButtonLabel, resetButtonSelector)
           .evaluate(function confResetOfFilters(resetSelector) {
             const filterCheckBox = document.querySelector(resetSelector);
-            if(filterCheckBox.checked) {
+            if (filterCheckBox.checked) {
               throw new Error('Filters have not been reset.');
             }
           }, filterCheckBoxSelector)
@@ -222,4 +221,4 @@ module.exports.test = (uiTestCtx) => {
       });
     });
   });
-}
+};

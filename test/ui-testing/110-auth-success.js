@@ -1,5 +1,5 @@
 module.exports.test = (uiTestCtx) => {
-  describe('Login Page ("test-good-login")', function () {
+  describe('Login Page ("test-good-login")', function test() {
     const { config } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
     const nightmare = new Nightmare(config.nightmare);
@@ -27,4 +27,4 @@ module.exports.test = (uiTestCtx) => {
       });
     });
   });
-}
+};

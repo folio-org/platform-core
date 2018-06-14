@@ -175,4 +175,4 @@ module.exports.test = (uiTestCtx) => {
       });
     });
   });
-}
+};

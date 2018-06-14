@@ -9,8 +9,8 @@
     "postinstall": "node ./build-module-descriptors.js",
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripescore dev $f",
     "test": "mocha ./node_modules/@folio/ui-testing/test-module.js --workingDirectory $PWD --run x",
-    "test-module" : "mocha ./node_modules/@folio/ui-testing/test-module.js --workingDirectory $PWD",
-    "lint": "eslint test/ui-testing/*.js"
+    "test-module": "mocha ./node_modules/@folio/ui-testing/test-module.js --workingDirectory $PWD",
+    "lint": "eslint test/ui-testing"
   },
   "dependencies": {
     "@folio/checkin": ">=0.0.0",
@@ -32,6 +32,7 @@
   "devDependencies": {
     "@folio/eslint-config-stripes": "^2.0.0",
     "@folio/ui-testing": "folio-org/ui-testing#framework-only",
-    "eslint": "^4.19.1"
+    "eslint": "^4.19.1",
+    "moment": "^2.22.2"
   }
 }

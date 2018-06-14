@@ -515,4 +515,4 @@ module.exports.test = (uiTestCtx) => {
       });
     });
   });
-}
+};
