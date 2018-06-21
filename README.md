@@ -30,3 +30,23 @@ or
     # make the service available to other users
     $ STRIPES_HOST=full.host.name yarn start
 
+
+## Tests
+Tests are run using FOLIO's `ui-testing` framework.  Please refer to [ui-testing](https://github.com/folio-org/ui-testing) for more information on available options.
+
+### Run all tests
+Given a platform is built and running on localhost, the following command will run all of the platform's tests.
+```
+$ yarn test
+```
+
+Optionally provide the URL to a running instance. 
+```
+$ yarn test --url http://localhost:3000
+```
+
+### Run a single test
+This also requires a built and running platform.
+```
+$ yarn test-module --run :110-auth-success
+```
