@@ -32,21 +32,32 @@ or
 
 
 ## Tests
-Tests are run using FOLIO's `ui-testing` framework.  Please refer to [ui-testing](https://github.com/folio-org/ui-testing) for more information on available options.
+Tests are run using FOLIO's `ui-testing` framework.  Please refer to [ui-testing](https://github.com/folio-org/ui-testing) for more information on available options. All examples below require the platform to be built and running at the URL provided.
 
-### Run all tests
-Given a platform is built and running on localhost, the following command will run all of the platform's tests.
-```
-$ yarn test
-```
-
-Optionally provide the URL to a running instance. 
+### Run all platform and app tests
 ```
 $ yarn test --url http://localhost:3000
 ```
 
-### Run a single test
-This also requires a built and running platform.
+### Run platform (cross-module) tests only
 ```
-$ yarn test-module --run :110-auth-success
+$ yarn test-platform --url http://localhost:3000
+```
+
+### Run app module tests only
+```
+$ yarn test-apps --url http://localhost:3000
+```
+
+### Run selected tests
+The `test-module` package script, combined with ui-testing's `--run` option, can be used for running specific tests for the platform and/or apps.  Use `WD` when referencing platform tests, otherwise use the module app module name.
+
+Example platform test:
+```
+$ yarn test-module --run WD:loan_renewal --url http://localhost:3000
+```
+
+Example users test:
+```
+$ yarn test-module --run users:new_user --url http://localhost:3000
 ```
