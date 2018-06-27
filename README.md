@@ -34,19 +34,14 @@ or
 ## Tests
 Tests are run using FOLIO's `ui-testing` framework.  Please refer to [ui-testing](https://github.com/folio-org/ui-testing) for more information on available options. All examples below require the platform to be built and running at the URL provided.
 
-### Run all platform and app tests
+### Run this platform's own (cross-module) tests
 ```
 $ yarn test --url http://localhost:3000
 ```
 
-### Run platform (cross-module) tests only
+### Run tests for the platform and all its apps
 ```
-$ yarn test-platform --url http://localhost:3000
-```
-
-### Run app module tests only
-```
-$ yarn test-apps --url http://localhost:3000
+$ yarn test-regression --url http://localhost:3000
 ```
 
 ### Run selected tests
