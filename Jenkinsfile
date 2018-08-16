@@ -1,4 +1,4 @@
-@Library ('folio_jenkins_shared_libs') _
+@Library ('folio_jenkins_shared_libs@FOLIO-1344') _
 
 pipeline {
 
@@ -18,9 +18,9 @@ pipeline {
       }
     }
 
-    stage('Build platform-core') {
+    stage('Build Stripes Platform') {
       steps {
-        sh 'yarn install && yarn build output'
+        buildStripesPlatform
       }
     }
 
