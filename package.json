@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "export NODE_OPTIONS=\"--max-old-space-size=2048 $NODE_OPTIONS\"; stripescore build stripes.config.js",
-    "stripes": "stripescore",
-    "start": "stripescore dev stripes.config.js",
+    "build": "export NODE_OPTIONS=\"--max-old-space-size=2048 $NODE_OPTIONS\"; stripes build stripes.config.js",
+    "stripes": "stripes",
+    "start": "stripes serve stripes.config.js",
     "generate-mod-descriptors": "node ./build-module-descriptors.js",
-    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripescore dev $f",
-    "test": "mocha ./node_modules/@folio/ui-testing/test-module.js --workingDirectory $PWD --run WD",
-    "test-regression": "mocha ./node_modules/@folio/ui-testing/test-module.js --workingDirectory $PWD --run WD/checkin/checkout/users/inventory/requests/circulation/organization",
-    "test-module": "mocha ./node_modules/@folio/ui-testing/test-module.js --workingDirectory $PWD",
+    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
+    "test": "echo 'No unit tests implemented'",
+    "test-int": "stripes test nightmare stripes.config.js",
+    "test-regression": "stripes test nightmare stripes.config.js --run WD/checkin/checkout/users/inventory/requests/circulation/organization",
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
@@ -28,12 +28,9 @@
     "@folio/users": ">=0.0.0",
     "@folio/tags": ">=0.0.0"
   },
-  "resolutions": {
-    "**/uglify-es": "3.3.9"
-  },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^2.0.0",
-    "@folio/ui-testing": "folio-org/ui-testing#framework-only",
+    "@folio/stripes-cli": "^1.2.0",
     "eslint": "^4.19.1",
     "moment": "^2.22.2"
   }
