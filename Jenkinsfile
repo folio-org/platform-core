@@ -20,7 +20,9 @@ pipeline {
 
     stage('Build Stripes Platform') {
       steps {
-        buildStripesPlatform
+        step {
+          buildStripesPlatform
+        }
       }
     }
 
