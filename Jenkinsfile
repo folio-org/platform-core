@@ -20,9 +20,7 @@ pipeline {
 
     stage('Build Stripes Platform') {
       steps {
-        step {
-          buildStripesPlatform
-        }
+        buildStripesPlatform('http://folio-snapshot-stable.aws.indexdata.com','diku')
       }
     }
 
