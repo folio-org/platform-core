@@ -17,42 +17,73 @@ include a different set of the available modules.  You can copy the
 `stripes.config.js` file to be your `stripes.config.js.local`
 configuration file.
 
-### install node packages first
+# Installation
 
-    $ yarn install
+Install platform dependencies
+```
+$ yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
+$ yarn install
+```
 
-### run the sample
+# Build and serve
 
-    $ yarn start
+To build and serve `platform-core` in isolation for development purposes, run the "start" package script.
+```
+$ yarn start
+```
 
-or
+The default configuration assumes an Okapi instance is running on http://localhost:9130 with tenant "diku".  The options `--okapi` and `--tenant` can be provided to match your environment.
+```
+$ yarn start --okapi http://localhost:9130 --tenant diku
+```
 
-    # make the service available to other users
-    $ STRIPES_HOST=full.host.name yarn start
+To build a `platform-core` bundle for production, modify `stripes.config.js` with your Okapi and tenant, then run the "build" script, passing it the name of the desired directory to place build artifacts.
+```
+$ yarn build ./output
+```
 
+See the [build](https://github.com/folio-org/stripes-cli/blob/master/doc/commands.md#build-command) and [serve](https://github.com/folio-org/stripes-cli/blob/master/doc/commands.md#serve-command) command reference in `stripes-cli` for a list of available options.
 
 ## Tests
-Tests are run using FOLIO's `ui-testing` framework.  Please refer to [ui-testing](https://github.com/folio-org/ui-testing) for more information on available options. All examples below require the platform to be built and running at the URL provided.
 
-### Run this platform's own (cross-module) tests
+Integration tests require a running Okapi.  The default configuration expects Okapi running on http://localhost:9130 with tenant "diku".  To build and run integration tests for `platform-core` with these defaults, run the `test-int` script.
 ```
-$ yarn test --url http://localhost:3000
-```
-
-### Run tests for the platform and all its apps
-```
-$ yarn test-regression --url http://localhost:3000
+$ yarn test-int
 ```
 
-### Run selected tests
-The `test-module` package script, combined with ui-testing's `--run` option, can be used for running specific tests for the platform and/or apps.  Use `WD` when referencing platform tests, otherwise use the module app module name.
-
-Example platform test:
+To view tests while they are run, provide the `--show` option.
 ```
-$ yarn test-module --run WD:loan_renewal --url http://localhost:3000
+$ yarn test-int --show
 ```
 
-Example users test:
+To skip the build step and run integration tests against a build that is already running, provide the URL.
 ```
-$ yarn test-module --run users:new_user --url http://localhost:3000
+$ yarn test-int --url http://folio-testing.aws.indexdata.com/
+```
+
+As a convenience, `--local` can be used in place of `--url http://localhost:3000` for running tests against a development server that has already been started.
+```
+$ yarn test-int --local
+```
+
+## Regression tests
+
+Integration tests for the entire platform and its apps can be run with the "test-regression" script.  This will invoke both cross-module tests defined in this platform's repository as well as all integration tests defined for the individual apps. 
+
+```
+$ yarn test-regression --url http://folio-testing.aws.indexdata.com/
+```
+
+## Running specific tests
+
+The `test-int` package script, when combined with the `--run` option, can be used for running specific tests for the platform and/or apps.  Use `WD` (working directory) when referencing platform tests, otherwise use the module app module name.
+
+Example running "loan_renewal" test in `platform-core`:
+```
+$ yarn test-int --run WD:loan_renewal
+```
+
+Example running "new_user" test in `ui-users`:
+```
+$ yarn test-regression --run users:new_user
 ```
