@@ -5,6 +5,7 @@ pipeline {
   environment {   
     okapiUrl = 'http://folio-snapshot-stable.aws.indexdata.com:9130'
     tenant = "platform_core_${env.BUILD_NUMBER}"
+  }
 
   options { 
     timeout(30)
