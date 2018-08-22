@@ -2,6 +2,14 @@
 
 pipeline {
 
+  environment {   
+    okapiUrl = 'http://folio-snapshot-stable.aws.indexdata.com:9130'
+    tenant = "platform_core_${env.BUILD_NUMBER}"
+
+  options { 
+    timeout(30)
+  }
+
   agent {
     node {
       label 'jenkins-slave-all'
@@ -20,7 +28,13 @@ pipeline {
 
     stage('Build Stripes Platform') {
       steps {
-        buildStripesPlatform('http://folio-snapshot-stable.aws.indexdata.com','diku')
+        buildStripesPlatform(env.okapiUrl,env.tenant)
+        script {
+          def tenantStatus = deployTenant(env.okapiUrl,env.tenant)
+          echo "Okapi URL: ${env.okapiUrl}"
+          echo "Tenant: ${env.tenant}"
+          echo "Tenant Bootstrap Status: $tenantStatus"
+        }
       }
     }
 
