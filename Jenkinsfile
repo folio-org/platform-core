@@ -2,13 +2,22 @@
 
 pipeline {
 
+  parameters { 
+    booleanParam(name: 'DEBUG_TEST', 
+                 defaultValue: false, 
+                 description: 'Enable integration test debugging')
+    string(name: 'OKAPI_URL', 
+           defaultValue: 'http://folio-snapshot-stable.aws.indexdata.com:9130', 
+           description: 'Okapi URL')
+  }
+
   environment {   
-    okapiUrl = 'http://folio-snapshot-stable.aws.indexdata.com:9130'
     tenant = "platform_core_${env.BUILD_NUMBER}"
   }
 
   options { 
     timeout(30)
+    buildDiscarder(logRotator(numToKeepStr: '30')
   }
 
   agent {
@@ -18,7 +27,7 @@ pipeline {
   }
 
   stages {
-    stage('Prep') {
+    stage('Setup') {
       steps {
         script {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
@@ -29,16 +38,24 @@ pipeline {
 
     stage('Build Stripes Platform') {
       steps {
-        buildStripesPlatform(env.okapiUrl,env.tenant)
-        script {
-          def tenantStatus = deployTenant(env.okapiUrl,env.tenant)
-          echo "Okapi URL: ${env.okapiUrl}"
-          echo "Tenant: ${env.tenant}"
-          echo "Tenant Bootstrap Status: $tenantStatus"
-        }
+        echo "Okapi URL: ${params.OKAPI_URL}"
+        echo "Tenant: ${env.tenant}"
+
+        buildStripesPlatform(params.OKAPI_URL,env.tenant)
+      }
+    }
+    
+    stage('Bootstrap Tenant') {
+      steps { 
+        deployTenant(params.OKAPI_URL,env.tenant)
       }
     }
 
+    stage('Run Integration Tests') {
+      steps {
+        runIntegrationTests(params.DEBUG_TEST,params.OKAPI_URL,env.tenant,"${env.tenant}_admin",'admin')
+      }
+    }
   } // end stages
 
   post {
@@ -46,7 +63,5 @@ pipeline {
       sendNotifications currentBuild.result
     }
   }
-
 }
-
 
