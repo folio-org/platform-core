@@ -528,6 +528,5 @@ module.exports.test = (uiTestCtx) => {
         helpers.logout(nightmare, config, done);
       });
     });
-
   });
 };

@@ -12,7 +12,6 @@
 */
 
 module.exports.test = (uiTestCtx) => {
-
   describe('Load test-location', function runMain() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));

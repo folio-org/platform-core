@@ -4,10 +4,6 @@ module.exports.test = (uiTestCtx) => {
     this.timeout(Number(config.test_timeout));
     const nightmare = new Nightmare(config.nightmare);
 
-    beforeEach(() => {
-      nightmare = new Nightmare(config.nightmare);
-    });
-
     describe('given bad data', () => {
       it('Should find a login error message', (done) => {
         nightmare

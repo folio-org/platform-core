@@ -5,7 +5,6 @@ module.exports.test = (uiTestCtx) => {
     const nightmare = new Nightmare(config.nightmare);
 
     describe('Login > Click "About" link > Check for dependency errors > Logout\n', () => {
-      nightmare = new Nightmare(config.nightmare);
       it('should login', (done) => {
         helpers.login(nightmare, config, done);
       });

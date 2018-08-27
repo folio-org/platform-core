@@ -27,8 +27,8 @@ module.exports.test = (uiTestCtx) => {
       let backYear = curYear;
       let nextYear = curYear;
       if (curMonth === 0) {
-      backMonth = 11;
-      backYear--;
+        backMonth = 11;
+        backYear--;
       }
       if (curMonth === 11) {
         nextMonth = 0;

@@ -146,7 +146,7 @@ module.exports.test = (uiTestCtx) => {
           .click('#list-users div[role="listitem"]:first-of-type > a')
           .wait('#userInformationSection > div[role="tabpanel"]')
           .evaluate(() => {
-          const img = document.querySelector('#userInformationSection > div[role="tabpanel"] img');
+            const img = document.querySelector('#userInformationSection > div[role="tabpanel"] img');
             if (img !== null) {
               throw new Error('Image is being displayed');
             }

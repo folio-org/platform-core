@@ -12,14 +12,12 @@
 */
 
 module.exports.test = (uiTestCtx) => {
-
   describe('Load test-vendor', function runMain() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
     const nightmare = new Nightmare(config.nightmare);
 
     // vendor constants
-    const nightmare = new Nightmare(config.nightmare);
     const vendorName = 'GOBI';
     const newVendorName = 'GOBI Library Solutions';
     const vendorCode = 'GOBI';

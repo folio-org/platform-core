@@ -8,10 +8,10 @@ module.exports.test = (uiTestCtx) => {
     // const pageLoadPeriod = 2000;
     const actionLoadPeriod = 222;
     const searchResultsTitleSelector = `#list-search div[role="gridcell"][title*="${title}"]`;
-    const titleSortSelector = `#clickable-list-column-title`;
-    const firstResultSelector = `#list-search div[role="listitem"] div[role="gridcell"][title]`;
-    const resultCountSelector = `#paneHeaderpane-results-subtitle span`;
-    const filterCheckBoxSelector = `#clickable-filter-type-Audio`;
+    const titleSortSelector = '#clickable-list-column-title';
+    const firstResultSelector = '#list-search div[role="listitem"] div[role="gridcell"][title]';
+    const resultCountSelector = '#paneHeaderpane-results-subtitle span';
+    const filterCheckBoxSelector = '#clickable-filter-type-Audio';
     const resetButtonLabel = 'Reset all';
     const resetButtonSelector = '#clickable-reset-all';
 
@@ -160,7 +160,7 @@ module.exports.test = (uiTestCtx) => {
           }, resetButtonSelector)
           .evaluate(function confResetOfFilters(resetSelector) {
             const filterCheckBox = document.querySelector(resetSelector);
-            if(filterCheckBox.checked) {
+            if (filterCheckBox.checked) {
               throw new Error('Filters have not been reset.');
             }
           }, filterCheckBoxSelector)
