@@ -23,7 +23,7 @@ module.exports.test = (uiTestCtx) => {
           .click('#clickable-users-module')
           .wait('#clickable-filter-pg-faculty')
           .click('#clickable-filter-pg-faculty')
-          .wait('#list-users div[role="listitem"]:nth-child(9)')
+          .wait('#list-users div[role="listitem"]:nth-child(1)')
           .evaluate(() => {
             const ubc = [];
             const list = document.querySelectorAll('#list-users div[role="listitem"]');

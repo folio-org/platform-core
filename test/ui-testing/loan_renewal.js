@@ -10,7 +10,7 @@ module.exports.test = (uiTestCtx) => {
 
     describe('Login > Update settings > Create loan policy > Apply Loan rule > Find Active user > Create inventory record > Create holdings record > Create item record > Checkout item > Confirm checkout > Renew success > Renew failure > Renew failure > create fixedDueDateSchedule > Assign fdds to loan policy > Renew failure > Edit loan policy > Renew failure > Check in > delete loan policy > delete fixedDueDateSchedule > logout\n', function descStart() {
       let userid = 'user';
-      const uselector = "#list-users div[role='listitem']:nth-of-type(9) > a > div:nth-of-type(5)";
+      const uselector = "#list-users div[role='listitem']:nth-of-type(1) > a > div:nth-of-type(5)";
       const policyName = `test-policy-${Math.floor(Math.random() * 10000)}`;
       const scheduleName = `test-schedule-${Math.floor(Math.random() * 10000)}`;
       const renewalLimit = 1;
