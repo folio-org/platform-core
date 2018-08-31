@@ -39,7 +39,7 @@ module.exports.test = (uiTestCtx) => {
         nightmare
         /* .on('console', (log, msg) => {
         console.log(msg)
-      }) */
+       }) */
           .click('#clickable-vendors-module')
           .wait('#clickable-newvendors')
           .then(() => { done(); })

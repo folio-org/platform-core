@@ -77,9 +77,8 @@ module.exports.test = (uiTestCtx) => {
       it('should check picture present in user information', (done) => {
         nightmare
           .click('#clickable-users-module')
-          .wait('#clickable-filter-active-Active')
-          // check on active users filter
-          .click('#clickable-filter-active-Active')
+          .wait('#clickable-filter-pg-faculty')
+          .click('#clickable-filter-pg-faculty')
           .wait('#list-users')
           .wait('#list-users div[role="listitem"]:first-of-type > a')
           .click('#list-users div[role="listitem"]:first-of-type > a')
@@ -141,7 +140,8 @@ module.exports.test = (uiTestCtx) => {
           .click('#clickable-users-module')
           .wait('#users-module-display')
           // check on active users filter
-          .check('#clickable-filter-active-Active')
+          .wait('#clickable-filter-pg-faculty')
+          .click('#clickable-filter-pg-faculty')
           .wait('#list-users')
           .click('#list-users div[role="listitem"]:first-of-type > a')
           .wait('#userInformationSection > div[role="tabpanel"]')
