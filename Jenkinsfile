@@ -53,7 +53,13 @@ pipeline {
 
     stage('Run Integration Tests') {
       steps {
-        runIntegrationTests(params.DEBUG_TEST,params.OKAPI_URL,env.tenant,"${env.tenant}_admin",'admin')
+        script { 
+          def testOpts = [ tenant: env.tenant,
+                           folioUser: env.tenant + '_admin',
+                           folioPassword: 'admin']
+
+          //runIntegrationTests(params.DEBUG_TEST,params.OKAPI_URL,env.tenant,"${env.tenant}_admin",'admin')
+          runIntegrationTests2(testOpts,params.DEBUG_TEST)
       }
     }
   } // end stages
