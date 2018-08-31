@@ -58,8 +58,7 @@ pipeline {
                            folioUser: env.tenant + '_admin',
                            folioPassword: 'admin']
 
-          //runIntegrationTests(params.DEBUG_TEST,params.OKAPI_URL,env.tenant,"${env.tenant}_admin",'admin')
-          runIntegrationTests2(testOpts,params.DEBUG_TEST)
+          runIntegrationTests(testOpts,params.DEBUG_TEST)
         }
       }
     }
