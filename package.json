@@ -1,6 +1,6 @@
 {
   "name": "@folio/platform-core",
-  "version": "1.0.0",
+  "version": "1.0.1-SNAPSHOT",
   "license": "Apache-2.0",
   "scripts": {
     "build": "export NODE_OPTIONS=\"--max-old-space-size=2048 $NODE_OPTIONS\"; stripes build stripes.config.js",
