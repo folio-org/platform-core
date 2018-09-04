@@ -46,12 +46,18 @@ pipeline {
     }
     
     stage('Bootstrap Tenant') {
+      when { 
+        changeRequest()  
+      }
       steps { 
         deployTenant(params.OKAPI_URL,env.tenant)
       }
     }
 
     stage('Run Integration Tests') {
+      when { 
+        changeRequest()  
+      }
       steps {
         script { 
           def testOpts = [ tenant: env.tenant,
