@@ -1,6 +1,6 @@
 {
   "name": "@folio/platform-core",
-  "version": "1.0.1-SNAPSHOT",
+  "version": "1.0.2-SNAPSHOT",
   "license": "Apache-2.0",
   "scripts": {
     "build": "export NODE_OPTIONS=\"--max-old-space-size=2048 $NODE_OPTIONS\"; stripes build stripes.config.js",
@@ -27,6 +27,9 @@
     "@folio/stripes-core": ">=0.0.0",
     "@folio/users": ">=0.0.0",
     "@folio/tags": ">=0.0.0",
+    "@folio/plugin-find-instance": ">=0.0.0",
+    "@folio/myprofile": ">=0.0.0",
+    "@folio/servicepoints": ">=0.0.0",
     "@folio/stripes-cli": "^1.2.0"
   },
   "devDependencies": {
