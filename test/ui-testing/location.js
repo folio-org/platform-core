@@ -40,7 +40,7 @@ module.exports.test = (uiTestCtx) => {
       it('it should click on settings and organisation', (done) => {
         nightmare
           /* .on('console', (log, msg) => {
-            console.log(msg);
+          console.log(msg);
           }) */
           .click('#clickable-settings')
           .wait('#ModuleContainer')

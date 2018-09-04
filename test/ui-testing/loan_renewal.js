@@ -1,3 +1,5 @@
+/* eslint no-unused-vars: ["error", { "argsIgnorePattern": "^type" }] */
+
 const moment = require('moment');
 
 module.exports.test = (uiTestCtx) => {
@@ -8,7 +10,7 @@ module.exports.test = (uiTestCtx) => {
 
     describe('Login > Update settings > Create loan policy > Apply Loan rule > Find Active user > Create inventory record > Create holdings record > Create item record > Checkout item > Confirm checkout > Renew success > Renew failure > Renew failure > create fixedDueDateSchedule > Assign fdds to loan policy > Renew failure > Edit loan policy > Renew failure > Check in > delete loan policy > delete fixedDueDateSchedule > logout\n', function descStart() {
       let userid = 'user';
-      const uselector = "#list-users div[role='listitem']:nth-of-type(9) > a > div:nth-of-type(5)";
+      const uselector = "#list-users div[role='listitem']:nth-of-type(1) > a > div:nth-of-type(5)";
       const policyName = `test-policy-${Math.floor(Math.random() * 10000)}`;
       const scheduleName = `test-schedule-${Math.floor(Math.random() * 10000)}`;
       const renewalLimit = 1;
@@ -20,43 +22,11 @@ module.exports.test = (uiTestCtx) => {
       let loanRules = '';
 
       it(`should login as ${config.username}/${config.password}`, (done) => {
-        nightmare
-          .on('page', function onAlert(type = 'alert', message) {
-            throw new Error(message);
-          })
-          .goto(config.url)
-          .wait(Number(config.login_wait))
-          .insert(config.select.username, config.username)
-          .insert(config.select.password, config.password)
-          .click('#clickable-login')
-          .wait('#clickable-logout')
-          .then(done)
-          .catch(done);
+        helpers.login(nightmare, config, done);
       });
 
-      it('should set patron scan ID to "User"', (done) => {
-        nightmare
-          .wait(config.select.settings)
-          .click(config.select.settings)
-          .wait('a[href="/settings/circulation"]')
-          .wait(222)
-          .click('a[href="/settings/circulation"]')
-          .wait('a[href="/settings/circulation/checkout"]')
-          .wait(222)
-          .click('a[href="/settings/circulation/checkout"]')
-          .wait('#username-checkbox')
-          .wait(1000)
-          .evaluate(() => {
-            const list = document.querySelectorAll('[data-checked="true"]');
-            list.forEach(el => (el.click()));
-          })
-          .wait(222)
-          .click('#username-checkbox')
-          .wait(222)
-          .xclick('//button[.="Save"]')
-          .wait(Math.max(1111, debugSleep)) // debugging
-          .then(done)
-          .catch(done);
+      it('should configure checkout for barcode and username', (done) => {
+        helpers.circSettingsCheckoutByBarcodeAndUsername(nightmare, config, done);
       });
 
       it('should create a new loan policy with renewalLimit of 1', (done) => {
@@ -109,18 +79,24 @@ module.exports.test = (uiTestCtx) => {
             const value = `priority: t, s, c, b, a, m, g \nfallback-policy: example-loan-policy \nm book: ${policy}`;
             document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(value);
           }, policyName)
-          .wait(222)
-          .xclick('//button[.="Save"]')
-          .wait(Math.max(1111, debugSleep)) // debugging
-          .then(done)
+          .then(() => {
+            nightmare
+              .wait(222)
+              .xclick('//button[.="Save"]')
+              .wait(Math.max(1111, debugSleep)); // debugging
+            done();
+          })
           .catch(done);
       });
 
       it('should find an active user ', (done) => {
         nightmare
           .click('#clickable-users-module')
-          .wait(2000)
-          .click('#clickable-filter-active-Active')
+          .wait('#input-user-search')
+          .type('#input-user-search', '0')
+          .wait('#clickable-reset-all')
+          .click('#clickable-reset-all')
+          .type('#input-user-search', '0')
           .wait(uselector)
           .evaluate(selector => document.querySelector(selector).title, uselector)
           .then((result) => {
@@ -135,14 +111,9 @@ module.exports.test = (uiTestCtx) => {
       it(`should check out ${barcode} to ${userid}`, (done) => {
         nightmare
           .click('#clickable-checkout-module')
-          .wait('#input-patron-identifier[placeholder*="username"]')
-          .evaluate(() => {
-            const ph = document.querySelector('#input-patron-identifier').placeholder;
-            if (!ph.match(/username/i)) {
-              throw new Error(`Placeholder is not asking for Username! (${ph})`);
-            }
-          })
-          .insert('#input-patron-identifier', userid)
+          .wait('#input-patron-identifier')
+          .type('#input-patron-identifier', userid)
+          .wait('#clickable-find-patron')
           .click('#clickable-find-patron')
           .wait(() => {
             const err = document.querySelector('#patron-form div[class^="textfieldError"]');
@@ -177,6 +148,9 @@ module.exports.test = (uiTestCtx) => {
         nightmare
           .click('#clickable-users-module')
           .wait('#input-user-search')
+          .type('#input-user-search', '0')
+          .wait('#clickable-reset-all')
+          .click('#clickable-reset-all')
           .wait(222)
           .insert('#input-user-search', userid)
           .wait(`#list-users div[title="${userid}"]`)
@@ -196,20 +170,28 @@ module.exports.test = (uiTestCtx) => {
           .catch(done);
       });
 
-      it('should Renew the loan and succeed', (done) => {
+      it('should renew the loan and succeed', (done) => {
         nightmare
           .wait(222)
           .wait(`div[title="${barcode}"]`)
           .evaluate((fbarcode) => {
             const ele = document.querySelector(`div[title="${fbarcode}"]`);
             ele.parentElement.querySelector('input[type="checkbox"]').click();
+            console.log('checked renewable checkbox');
           }, barcode)
-          .wait('button[title="Renew"]')
-          .click('button[title="Renew"]')
-          .wait('div[class^="calloutBase"]')
-          .wait(555)
-          .then(done)
-          .catch(done);
+          .then(() => {
+            nightmare
+              .wait('button[title="Renew"]')
+              .click('button[title="Renew"]')
+              .wait('div[class^="calloutBase"]')
+              .then(done)
+              .catch(done);
+          })
+          .catch((e) => {
+            console.error('FAILED');
+            console.error(e);
+            done();
+          });
       });
 
       it('should renew the loan second time and hit the renewal limit', (done) => {
@@ -221,22 +203,26 @@ module.exports.test = (uiTestCtx) => {
             const ele = document.querySelector(`div[title="${fbarcode}"]`);
             ele.parentElement.querySelector('input[type="checkbox"]').click();
           }, barcode)
-          .wait(1000)
-          .wait('button[title="Renew"]')
-          .wait(333)
-          .click('button[title="Renew"]')
-          .wait(333)
-          .wait('#renewal-failure-modal')
-          .wait(333)
-          .evaluate(() => {
-            const errorMsg = document.querySelector('#renewal-failure-modal > div:nth-of-type(2) > p').innerText;
-            if (errorMsg === null) {
-              throw new Error('Should throw an error as the renewalLimit is reached');
-            } else if (!errorMsg.match('Loan cannot be renewed because: loan has reached its maximum number of renewals')) {
-              throw new Error('Expected only the renewal failure error message');
-            }
+          .then(() => {
+            nightmare
+              .wait(1000)
+              .wait('button[title="Renew"]')
+              .wait(333)
+              .click('button[title="Renew"]')
+              .wait(333)
+              .wait('#renewal-failure-modal')
+              .wait(333)
+              .evaluate(() => {
+                const errorMsg = document.querySelector('#renewal-failure-modal > div:nth-of-type(2) > p').innerText;
+                if (errorMsg === null) {
+                  throw new Error('Should throw an error as the renewalLimit is reached');
+                } else if (!errorMsg.match('Loan cannot be renewed because: loan has reached its maximum number of renewals')) {
+                  throw new Error('Expected only the renewal failure error message');
+                }
+              })
+              .then(done)
+              .catch(done);
           })
-          .then(done)
           .catch(done);
       });
 
@@ -256,38 +242,45 @@ module.exports.test = (uiTestCtx) => {
           .evaluate(() => {
             document.querySelector('#input_allowed_renewals').value = '';
           })
-          .wait(1000)
-          .type('#input_allowed_renewals', 2)
-          .wait('#select_renew_from')
-          .type('#select_renew_from', 'sy')
-          .xclick('//button[.="Save and close"]')
-          .wait(1000)
-          .evaluate(() => {
-            const sel = document.querySelector('div[class^="textfieldError"]');
-            if (sel) {
-              throw new Error(sel.textContent);
-            }
+          .then(() => {
+            nightmare
+              .wait(1000)
+              .type('#input_allowed_renewals', 2)
+              .wait('#select_renew_from')
+              .type('#select_renew_from', 'sy')
+              .xclick('//button[.="Save and close"]')
+              .wait(1000)
+              .evaluate(() => {
+                const sel = document.querySelector('div[class^="textfieldError"]');
+                if (sel) {
+                  throw new Error(sel.textContent);
+                }
+              })
+              .then(() => {
+                nightmare
+                  .wait('#clickable-users-module')
+                  .click('#clickable-users-module')
+                  .wait(`div[title="${barcode}"]`)
+                  .evaluate((fbarcode) => {
+                    const ele = document.querySelector(`div[title="${fbarcode}"]`);
+                    ele.parentElement.querySelector('input[type="checkbox"]').click();
+                  }, barcode)
+                  .wait(333)
+                  .wait('button[title="Renew"]')
+                  .click('button[title="Renew"]')
+                  .wait('#renewal-failure-modal')
+                  .evaluate(() => {
+                    const errorMsg = document.querySelector('#renewal-failure-modal > div:nth-of-type(2) > p').innerText;
+                    if (errorMsg === null) {
+                      throw new Error('Should throw an error as the renewalLimit is reached');
+                    } else if (!errorMsg.match('Loan cannot be renewed because: renewal at this time would not change the due date')) {
+                      throw new Error('Expected only the renewal failure error message');
+                    }
+                  })
+                  .then(done)
+                  .catch(done);
+              });
           })
-          .wait('#clickable-users-module')
-          .click('#clickable-users-module')
-          .wait(`div[title="${barcode}"]`)
-          .evaluate((fbarcode) => {
-            const ele = document.querySelector(`div[title="${fbarcode}"]`);
-            ele.parentElement.querySelector('input[type="checkbox"]').click();
-          }, barcode)
-          .wait(333)
-          .wait('button[title="Renew"]')
-          .click('button[title="Renew"]')
-          .wait('#renewal-failure-modal')
-          .evaluate(() => {
-            const errorMsg = document.querySelector('#renewal-failure-modal > div:nth-of-type(2) > p').innerText;
-            if (errorMsg === null) {
-              throw new Error('Should throw an error as the renewalLimit is reached');
-            } else if (!errorMsg.match('Loan cannot be renewed because: renewal at this time would not change the due date')) {
-              throw new Error('Expected only the renewal failure error message');
-            }
-          })
-          .then(done)
           .catch(done);
       });
 
@@ -303,10 +296,12 @@ module.exports.test = (uiTestCtx) => {
           .xclick('//button[.="+ New"]')
           .wait('#input_schedule_name')
           .type('#input_schedule_name', scheduleName)
-          .type('input[name="schedules[0].from"]', tomorrowValue)
-          .type('input[name="schedules[0].to"]', dayAfterValue)
-          .type('input[name="schedules[0].due"]', nextMonthValue)
-          .wait(555)
+          .wait('input[name="schedules[0].from"]')
+          .insert('input[name="schedules[0].from"]', tomorrowValue)
+          .wait('input[name="schedules[0].to"]')
+          .insert('input[name="schedules[0].to"]', dayAfterValue)
+          .wait('input[name="schedules[0].due"]')
+          .insert('input[name="schedules[0].due"]', nextMonthValue)
           .wait('#clickable-save-fixedDueDateSchedule')
           .click('#clickable-save-fixedDueDateSchedule')
           .wait(1000)
@@ -331,7 +326,7 @@ module.exports.test = (uiTestCtx) => {
           .wait('#input_loan_profile')
           .type('#input_loan_profile', 'fi')
           .wait('#input_loansPolicy_fixedDueDateSchedule')
-          .type('#input_loansPolicy_fixedDueDateSchedule', `${scheduleName}`)
+          .type('#input_loansPolicy_fixedDueDateSchedule', scheduleName)
           .wait(333)
           .xclick('//button[.="Save and close"]')
           .wait(1000)
@@ -505,13 +500,32 @@ module.exports.test = (uiTestCtx) => {
           .catch(done);
       });
 
-      it('should logout', (done) => {
+      it('should confirm deletion', (done) => {
         nightmare
-          .click('#clickable-logout')
-          .wait(config.select.username)
-          .end()
+          .click(config.select.settings)
+          .wait(222)
+          .wait('a[href="/settings/circulation"]')
+          .wait(222)
+          .wait('a[href="/settings/circulation/fixed-due-date-schedules"]')
+          .click('a[href="/settings/circulation/fixed-due-date-schedules"]')
+          .wait(333)
+          .xclick(`id("ModuleContainer")//a[.="${scheduleName}"]`)
+          .wait('#clickable-edit-item')
+          .click('#clickable-edit-item')
+          .wait('#clickable-delete-set')
+          .click('#clickable-delete-set')
+          .wait('#clickable-deletefixedduedateschedule-confirmation-confirm')
+          .click('#clickable-deletefixedduedateschedule-confirmation-confirm')
+          .wait(222)
           .then(done)
-          .catch(done);
+          .catch((e) => {
+            console.dir(e);
+            done();
+          });
+      });
+
+      it('should logout', (done) => {
+        helpers.logout(nightmare, config, done);
       });
     });
   });
