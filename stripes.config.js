@@ -16,6 +16,9 @@ module.exports = {
     '@folio/developer' : {},
     '@folio/circulation' : {},
     '@folio/plugin-find-user' : {},
+    '@folio/plugin-find-instance' : {},
+    '@folio/servicepoints' : {},
+    '@folio/myprofile' : {},
     '@folio/tags': {}
   },
   branding: {
