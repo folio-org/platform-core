@@ -1,6 +1,6 @@
 /* global it describe Nightmare before after */
 module.exports.test = function foo(uiTestCtx) {
-  describe('Module test: users:new_proxy', function bar() {
+  describe('Module test: new_proxy', function bar() {
     const { config, helpers: { login, openApp, logout }, meta: { testVersion } } = uiTestCtx;
 
     const nightmare = new Nightmare(config.nightmare);
@@ -32,7 +32,7 @@ module.exports.test = function foo(uiTestCtx) {
           .wait(1000)
           .type('#input-user-search', '0')
           .wait(1000)
-          .wait('#list-users div[role="listitem"]:nth-child(9)')
+          .wait('#list-users div[role="listitem"]:nth-child(1)')
           .evaluate(() => {
             const ubc = [];
             const list = document.querySelectorAll('#list-users div[role="listitem"]');
