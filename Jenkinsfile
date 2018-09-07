@@ -12,7 +12,7 @@ pipeline {
   }
 
   environment {   
-    tenant = "platform_core_${env.BUILD_NUMBER}"
+    tenant = "platform_core_${env.BRANCH_NAME}_${env.BUILD_NUMBER}"
   }
 
   options { 
