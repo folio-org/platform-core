@@ -1,4 +1,4 @@
-@Library ('folio_jenkins_shared_libs@FOLIO-1344') _
+@Library ('folio_jenkins_shared_libs') _
 
 pipeline {
 
@@ -13,6 +13,7 @@ pipeline {
 
   environment {   
     tenant = "platform_core_${env.BRANCH_NAME}_${env.BUILD_NUMBER}"
+    npmConfig = 'jenkins-npm-folio'
   }
 
   options { 
@@ -68,6 +69,22 @@ pipeline {
         }
       }
     }
+
+    stage('Publish NPM Package') { 
+      when { 
+        buildingTag()
+      } 
+      steps { 
+        withCredentials([string(credentialsId: 'jenkins-npm-folioci',variable: 'NPM_TOKEN')]) {
+           withNPM(npmrcConfig: env.npmConfig) {
+             // clean up generated artifacts before publishing
+             sh 'rm -rf ci artifacts output'
+             sh 'npm publish'
+           }
+        }
+      }
+    }
+            
   } // end stages
 
   post {
