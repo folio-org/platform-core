@@ -2,21 +2,21 @@
 
 pipeline {
 
-  parameters { 
-    booleanParam(name: 'DEBUG_TEST', 
-                 defaultValue: false, 
+  parameters {
+    booleanParam(name: 'DEBUG_TEST',
+                 defaultValue: false,
                  description: 'Enable integration test debugging')
-    string(name: 'OKAPI_URL', 
-           defaultValue: 'http://folio-snapshot-stable.aws.indexdata.com:9130', 
+    string(name: 'OKAPI_URL',
+           defaultValue: 'http://folio-snapshot-stable.aws.indexdata.com:9130',
            description: 'Okapi URL')
   }
 
-  environment {   
+  environment {
     tenant = "platform_core_${env.BRANCH_NAME}_${env.BUILD_NUMBER}"
     npmConfig = 'jenkins-npm-folio'
   }
 
-  options { 
+  options {
     timeout(30)
     buildDiscarder(logRotator(numToKeepStr: '30'))
   }
@@ -45,22 +45,22 @@ pipeline {
         buildStripesPlatform(params.OKAPI_URL,env.tenant)
       }
     }
-    
+
     stage('Bootstrap Tenant') {
-      when { 
-        changeRequest()  
+      when {
+        changeRequest()
       }
-      steps { 
+      steps {
         deployTenant(params.OKAPI_URL,env.tenant)
       }
     }
 
     stage('Run Integration Tests') {
-      when { 
-        changeRequest()  
+      when {
+        changeRequest()
       }
       steps {
-        script { 
+        script {
           def testOpts = [ tenant: env.tenant,
                            folioUser: env.tenant + '_admin',
                            folioPassword: 'admin']
@@ -70,11 +70,11 @@ pipeline {
       }
     }
 
-    stage('Publish NPM Package') { 
-      when { 
+    stage('Publish NPM Package') {
+      when {
         buildingTag()
-      } 
-      steps { 
+      }
+      steps {
         withCredentials([string(credentialsId: 'jenkins-npm-folioci',variable: 'NPM_TOKEN')]) {
            withNPM(npmrcConfig: env.npmConfig) {
              // clean up generated artifacts before publishing
@@ -84,7 +84,7 @@ pipeline {
         }
       }
     }
-            
+
   } // end stages
 
   post {
