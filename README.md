@@ -5,7 +5,7 @@ NPM [`package.json`](https://docs.npmjs.com/files/package.json) that
 specifies the version of `@folio/stripes-core` and of any Stripes
 modules you wish to make available as part of the "core" platform
 to generate client bundles along with a utility for generating
-module descriptors for each Stripes module.  
+module descriptors for each Stripes module.
 
 Please see the
 [quick start guide](https://github.com/folio-org/stripes-core/blob/master/doc/quick-start.md)
@@ -68,7 +68,7 @@ $ yarn test-int --local
 
 ## Regression tests
 
-Integration tests for the entire platform and its apps can be run with the "test-regression" script.  This will invoke both cross-module tests defined in this platform's repository as well as all integration tests defined for the individual apps. 
+Integration tests for the entire platform and its apps can be run with the "test-regression" script.  This will invoke both cross-module tests defined in this platform's repository as well as all integration tests defined for the individual apps.
 
 ```
 $ yarn test-regression --url http://folio-testing.aws.indexdata.com/
