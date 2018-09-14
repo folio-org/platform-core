@@ -23,17 +23,16 @@
     "@folio/plugin-find-user": ">=0.0.0",
     "@folio/requests": ">=0.0.0",
     "@folio/search": ">=0.0.0",
-    "@folio/stripes-components": ">=0.0.0",
-    "@folio/stripes-core": ">=0.0.0",
-    "@folio/users": ">=0.0.0",
+    "@folio/stripes": "^0.1.0",
+    "@folio/users": "folio-org/ui-users#STRIPES-547-stripes-framework-example",
     "@folio/tags": ">=0.0.0",
     "@folio/plugin-find-instance": ">=0.0.0",
     "@folio/myprofile": ">=0.0.0",
-    "@folio/servicepoints": ">=0.0.0",
-    "@folio/stripes-cli": "^1.2.0"
+    "@folio/servicepoints": ">=0.0.0"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^2.0.0",
+    "@folio/eslint-config-stripes": "^3.1.0",
+    "@folio/stripes-cli": "^1.2.0",
     "eslint": "^4.19.1",
     "moment": "^2.22.2"
   }
