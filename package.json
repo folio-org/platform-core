@@ -19,18 +19,18 @@
     "@folio/circulation": ">=0.0.0",
     "@folio/developer": ">=0.0.0",
     "@folio/inventory": ">=0.0.0",
+    "@folio/myprofile": ">=0.0.0",
     "@folio/organization": ">=0.0.0",
+    "@folio/plugin-find-instance": ">=0.0.0",
     "@folio/plugin-find-user": ">=0.0.0",
     "@folio/requests": ">=0.0.0",
     "@folio/search": ">=0.0.0",
+    "@folio/servicepoints": ">=0.0.0",
+    "@folio/stripes-cli": "^1.2.0",
     "@folio/stripes-components": ">=0.0.0",
     "@folio/stripes-core": ">=0.0.0",
-    "@folio/users": ">=0.0.0",
     "@folio/tags": ">=0.0.0",
-    "@folio/plugin-find-instance": ">=0.0.0",
-    "@folio/myprofile": ">=0.0.0",
-    "@folio/servicepoints": ">=0.0.0",
-    "@folio/stripes-cli": "^1.2.0"
+    "@folio/users": ">=0.0.0"
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^2.0.0",
