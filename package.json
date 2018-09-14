@@ -14,26 +14,26 @@
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
-    "@folio/checkin": ">=0.0.0",
-    "@folio/checkout": ">=0.0.0",
-    "@folio/circulation": ">=0.0.0",
-    "@folio/developer": ">=0.0.0",
-    "@folio/inventory": ">=0.0.0",
-    "@folio/organization": ">=0.0.0",
-    "@folio/plugin-find-user": ">=0.0.0",
-    "@folio/requests": ">=0.0.0",
-    "@folio/search": ">=0.0.0",
-    "@folio/stripes-components": ">=0.0.0",
-    "@folio/stripes-core": ">=0.0.0",
-    "@folio/users": ">=0.0.0",
-    "@folio/tags": ">=0.0.0",
-    "@folio/plugin-find-instance": ">=0.0.0",
-    "@folio/myprofile": ">=0.0.0",
-    "@folio/servicepoints": ">=0.0.0",
-    "@folio/stripes-cli": "^1.2.0"
+    "@folio/checkin": "~1.2.0",
+    "@folio/checkout": "~1.2.0",
+    "@folio/circulation": "~1.2.0",
+    "@folio/developer": "~1.4.0",
+    "@folio/inventory": "~1.2.1",
+    "@folio/organization": "~2.3.0",
+    "@folio/plugin-find-user": "~1.2.0",
+    "@folio/requests": "~1.2.0",
+    "@folio/search": "~1.2.0",
+    "@folio/stripes-components": "~3.1.0",
+    "@folio/stripes-core": "~2.12.0",
+    "@folio/users": "~2.15.1",
+    "@folio/tags": "~1.0.2",
+    "@folio/plugin-find-instance": "~1.0.1",
+    "@folio/myprofile": "~0.2.0",
+    "@folio/servicepoints": "~1.0.2"
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^2.0.0",
+    "@folio/stripes-cli": "^1.4.0",
     "eslint": "^4.19.1",
     "moment": "^2.22.2"
   }
