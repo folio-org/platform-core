@@ -18,8 +18,8 @@ module.exports = {
     '@folio/requests' : {},
     '@folio/search' : {},
     '@folio/servicepoints' : {},
-    '@folio/tags': {}
-    '@folio/users' : {},
+    '@folio/tags': {},
+    '@folio/users' : {}
   },
   branding: {
     logo: {
