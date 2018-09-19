@@ -46,30 +46,31 @@ pipeline {
       }
     }
 
-    stage('Bootstrap Tenant') {
-      when {
-        changeRequest()
-      }
-      steps {
-        deployTenant(params.OKAPI_URL,env.tenant)
-      }
-    }
-
-    stage('Run Integration Tests') {
-      when {
-        changeRequest()
-      }
-      steps {
-        script {
-          def testOpts = [ tenant: env.tenant,
-                           folioUser: env.tenant + '_admin',
-                           folioPassword: 'admin']
-
-          runIntegrationTests(testOpts,params.DEBUG_TEST)
-        }
-      }
-    }
-
+/*
+ *   stage('Bootstrap Tenant') {
+ *     when {
+ *       changeRequest()
+ *     }
+ *     steps {
+ *       deployTenant(params.OKAPI_URL,env.tenant)
+ *     }
+ *   }
+ *
+ *   stage('Run Integration Tests') {
+ *     when {
+ *       changeRequest()
+ *     }
+ *     steps {
+ *       script {
+ *         def testOpts = [ tenant: env.tenant,
+ *                          folioUser: env.tenant + '_admin',
+ *                          folioPassword: 'admin']
+ *
+ *         runIntegrationTests(testOpts,params.DEBUG_TEST)
+ *       }
+ *     }
+ *   }
+ */
     stage('Publish NPM Package') {
       when {
         buildingTag()
