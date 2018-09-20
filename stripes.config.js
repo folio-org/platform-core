@@ -18,6 +18,7 @@ module.exports = {
     '@folio/plugin-find-user' : {},
     '@folio/plugin-find-instance' : {},
     '@folio/servicepoints' : {},
+    '@folio/stripes-smart-components' : {},
     '@folio/myprofile' : {},
     '@folio/tags': {}
   },

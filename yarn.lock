@@ -234,8 +234,8 @@
     eslint-plugin-react "7.9.1"
 
 "@folio/inventory@^1.0.3", "@folio/inventory@~1.2.2":
-  version "1.2.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.2.2.tgz#1cf06ad0aae4841c11943bca7faa04a69ec4510d"
+  version "1.2.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.2.3.tgz#8665af1ed6505433da8d8c01a3c5f40986ce1551"
   dependencies:
     "@folio/stripes-components" "^3.0.8"
     "@folio/stripes-form" "^0.9.0"
@@ -395,7 +395,7 @@
     webpack-bundle-analyzer "^2.9.1"
     yargs "^10.0.3"
 
-"@folio/stripes-components@^3.0.0", "@folio/stripes-components@^3.0.10", "@folio/stripes-components@^3.0.8", "@folio/stripes-components@^3.1.0", "@folio/stripes-components@~3.1.0":
+"@folio/stripes-components@^3.0.0", "@folio/stripes-components@^3.0.10", "@folio/stripes-components@^3.0.8", "@folio/stripes-components@~3.1.0":
   version "3.1.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-3.1.0.tgz#92f53322b503226ef3d4f915fe959c573116d220"
   dependencies:
@@ -429,10 +429,9 @@
     typeface-source-sans-pro "^0.0.44"
 
 "@folio/stripes-connect@^3.1.2", "@folio/stripes-connect@^3.1.3":
-  version "3.2.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-connect/-/stripes-connect-3.2.0.tgz#69f7920ff0581ed8b04bed89fef29597d2370d54"
+  version "3.2.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-connect/-/stripes-connect-3.2.1.tgz#f28241273718f7340acfa5d0c50f24c127a24d43"
   dependencies:
-    "@folio/stripes-core" "^2.10.4"
     isomorphic-fetch "^2.2.1"
     lodash "^4.17.2"
     prop-types "^15.5.10"
@@ -442,7 +441,7 @@
     redux-crud "^3.0.0"
     uuid "^3.0.1"
 
-"@folio/stripes-core@^2.10.0", "@folio/stripes-core@^2.10.2", "@folio/stripes-core@^2.10.4", "@folio/stripes-core@^2.11.0", "@folio/stripes-core@~2.13.0":
+"@folio/stripes-core@^2.10.0", "@folio/stripes-core@~2.13.0":
   version "2.13.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-2.13.0.tgz#b323014f4b6faaf8ae53e7e79b15648d56053e32"
   dependencies:
@@ -551,13 +550,12 @@
     mousetrap "^1.6.1"
     prop-types "^15.5.10"
 
-"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0":
-  version "1.8.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-1.8.0.tgz#6a6be0c5ac80a771d7d036406683456ea46d6dbc"
+"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0", "@folio/stripes-smart-components@~1.7.3":
+  version "1.7.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-1.7.3.tgz#4792ea55a5434acecdc1e84e0f7430ecc46fde5b"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
-    "@folio/stripes-components" "^3.1.0"
-    "@folio/stripes-core" "^2.10.2"
+    "@folio/stripes-components" "^3.0.0"
     "@folio/stripes-form" "^0.9.0"
     classnames "^2.2.6"
     lodash "^4.17.4"
@@ -592,11 +590,10 @@
     query-string "^5.0.0"
 
 "@folio/tags@~1.0.3":
-  version "1.0.3"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/tags/-/tags-1.0.3.tgz#d2cb65f261173a92be83cd8c0e0f2666ad64ef2d"
+  version "1.0.4"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/tags/-/tags-1.0.4.tgz#e09ef07cf2ee6d4078d26b7e4121e3ab851ffb13"
   dependencies:
     "@folio/stripes-components" "^3.0.10"
-    "@folio/stripes-core" "^2.11.0"
     "@folio/stripes-form" "^0.9.0"
     "@folio/stripes-smart-components" "^1.6.0"
     isomorphic-fetch "^2.2.1"
@@ -2393,8 +2390,8 @@ chrome-trace-event@^1.0.0:
     tslib "^1.9.0"
 
 ci-info@^1.5.0:
-  version "1.5.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/ci-info/-/ci-info-1.5.1.tgz#17e8eb5de6f8b2b6038f0cbb714d410bfa9f3030"
+  version "1.6.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ci-info/-/ci-info-1.6.0.tgz#2ca20dbb9ceb32d4524a683303313f0304b1e497"
 
 cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   version "1.0.4"
@@ -8359,8 +8356,8 @@ redent@^1.0.0:
     strip-indent "^1.0.1"
 
 reduce-css-calc@^2.0.0:
-  version "2.1.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/reduce-css-calc/-/reduce-css-calc-2.1.4.tgz#c20e9cda8445ad73d4ff4bea960c6f8353791708"
+  version "2.1.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/reduce-css-calc/-/reduce-css-calc-2.1.5.tgz#f283712f0c9708ef952d328f4b16112d57b03714"
   dependencies:
     css-unit-converter "^1.1.1"
     postcss-value-parser "^3.3.0"
@@ -9950,8 +9947,8 @@ webpack-dev-middleware@^3.1.3:
     webpack-log "^2.0.0"
 
 webpack-hot-middleware@^2.22.2:
-  version "2.24.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-hot-middleware/-/webpack-hot-middleware-2.24.0.tgz#d67ae5107edff29debbab3631a424c998856fd47"
+  version "2.24.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-hot-middleware/-/webpack-hot-middleware-2.24.1.tgz#52fcc54fd4e5f962af2440ce8ed37717f1a5e81c"
   dependencies:
     ansi-html "0.0.7"
     html-entities "^1.2.0"
@@ -9975,8 +9972,8 @@ webpack-log@^2.0.0:
     uuid "^3.3.2"
 
 webpack-sources@^1.0.1, webpack-sources@^1.1.0, webpack-sources@^1.2.0:
-  version "1.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-sources/-/webpack-sources-1.2.0.tgz#18181e0d013fce096faf6f8e6d41eeffffdceac2"
+  version "1.3.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-sources/-/webpack-sources-1.3.0.tgz#2a28dcb9f1f45fe960d8f1493252b5ee6530fa85"
   dependencies:
     source-list-map "^2.0.0"
     source-map "~0.6.1"

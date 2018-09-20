@@ -1,6 +1,6 @@
 {
   "name": "@folio/platform-core",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "Apache-2.0",
   "repository": "folio-org/platform-core",
   "publishConfig": {
@@ -32,13 +32,17 @@
     "@folio/servicepoints": "~1.0.2",
     "@folio/stripes-components": "~3.1.0",
     "@folio/stripes-core": "~2.13.0",
+    "@folio/stripes-smart-components": "~1.7.3",
     "@folio/tags": "~1.0.3",
     "@folio/users": "~2.15.2"
   },
+  "resolutions": {
+    "@folio/stripes-smart-components": "~1.7.3"
+  },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^2.0.0",
+    "@folio/stripes-cli": "^1.4.0",
     "eslint": "^4.19.1",
-    "moment": "^2.22.2",
-    "@folio/stripes-cli": "^1.4.0"
+    "moment": "^2.22.2"
   }
 }
