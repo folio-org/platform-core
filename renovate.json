@@ -1,0 +1,4 @@
+{
+  "branchPrefix": "renovate_",
+  "separateMinorPatch": true 
+}
