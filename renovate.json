@@ -1,3 +1,4 @@
 {
-  "branchPrefix": "renovate_" 
+  "branchPrefix": "renovate_",
+  "separateMinorPatch": true 
 }
