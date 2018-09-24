@@ -701,7 +701,7 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^1.1.0"
 
-"@folio/users@~2.15.3":
+"@folio/users@~2.15.0":
   version "2.15.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.15.3.tgz#0fa94288c8f2d36b79301871791788569335bd07"
   dependencies:
