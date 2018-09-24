@@ -336,9 +336,9 @@
     react-router-dom "^4.1.1"
     redux-form "^7.0.3"
 
-"@folio/organization@~2.3.2":
-  version "2.3.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/organization/-/organization-2.3.2.tgz#42debc2aab86fce04cfa2246be04fd40f960c2cd"
+"@folio/organization@~2.3.3":
+  version "2.3.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/organization/-/organization-2.3.3.tgz#fad6f16c432baddcf25fee72d0f7743f4f5bac55"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     "@folio/stripes-components" "^3.0.0"
@@ -680,9 +680,30 @@
     react-router-dom "^4.0.0"
     redux-form "^7.0.3"
 
-"@folio/users@^2.12.2", "@folio/users@~2.15.2":
+"@folio/users@^2.12.2":
   version "2.15.2"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.15.2.tgz#50f305891ee6dd9fa98fb1e36f530b9ecf8b20f4"
+  dependencies:
+    "@folio/react-intl-safe-html" "^1.0.0"
+    "@folio/stripes-components" "^3.0.8"
+    "@folio/stripes-form" "^0.9.0"
+    "@folio/stripes-smart-components" "^1.4.23"
+    classnames "^2.2.5"
+    hashcode "^1.0.3"
+    lodash "^4.17.4"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-intl "^2.3.0"
+    react-router "^4.2.0"
+    react-router-dom "^4.0.0"
+    redux-form "^7.0.3"
+    uuid "^3.0.1"
+  optionalDependencies:
+    "@folio/plugin-find-user" "^1.1.0"
+
+"@folio/users@~2.15.3":
+  version "2.15.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.15.3.tgz#0fa94288c8f2d36b79301871791788569335bd07"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     "@folio/stripes-components" "^3.0.8"
