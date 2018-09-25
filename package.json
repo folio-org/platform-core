@@ -1,10 +1,10 @@
 {
   "name": "@folio/platform-core",
-  "version": "1.0.5-SNAPSHOT",
+  "version": "1.0.10001",
   "license": "Apache-2.0",
   "repository": "folio-org/platform-core",
   "publishConfig": {
-    "registry": "https://repository.folio.org/repository/npm-folio/"
+    "registry": "https://repository.folio.org/repository/npm-folioci/"
   },
   "scripts": {
     "build": "export NODE_OPTIONS=\"--max-old-space-size=2048 $NODE_OPTIONS\"; stripes build stripes.config.js",
