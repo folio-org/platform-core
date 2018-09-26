@@ -96,24 +96,12 @@ module.exports.test = (uiTestCtx) => {
               return false;
             }
           })
-          .wait(222)
+          .wait('#input-item-barcode')
           .type('#input-item-barcode', barcode)
-          .wait(222)
+          .wait('#clickable-add-item')
           .click('#clickable-add-item')
-          .wait(1111)
-          .evaluate(() => {
-            const sel = document.querySelector('div[class^="textfieldError"]');
-            if (sel) {
-              throw new Error(sel.textContent);
-            }
-          })
-          .then(() => {
-            nightmare
-              .wait(222)
-              .click('#section-item button')
-              .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 555) // debugging
-              .then(done);
-          })
+          .wait(`#list-items-checked-out div[title*="${barcode}"]`)
+          .then(done)
           .catch(done);
       });
       it(`should find ${barcode} in ${userid}'s open loans`, (done) => {
