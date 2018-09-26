@@ -76,6 +76,9 @@ pipeline {
         buildingTag()
       }
       steps {
+        // clean up any artifacts
+        sh 'rm -rf output artifacts ci node_modules'
+
         withCredentials([string(credentialsId: 'jenkins-npm-folioci',variable: 'NPM_TOKEN')]) {
            withNPM(npmrcConfig: env.npmConfig) {
              // clean up generated artifacts before publishing
