@@ -471,7 +471,7 @@
     webpack-bundle-analyzer "^3.0.1"
     yargs "^10.0.3"
 
-"@folio/stripes-components@^3.0.0", "@folio/stripes-components@^3.0.10", "@folio/stripes-components@^3.0.8", "@folio/stripes-components@~3.1.0":
+"@folio/stripes-components@^3.0.0", "@folio/stripes-components@^3.0.10", "@folio/stripes-components@^3.0.8", "@folio/stripes-components@^3.1.0", "@folio/stripes-components@~3.1.0":
   version "3.1.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-3.1.0.tgz#92f53322b503226ef3d4f915fe959c573116d220"
   dependencies:
@@ -614,6 +614,17 @@
     react-router "^4.1.1"
     redux-form "^7.0.3"
 
+"@folio/stripes-form@^1.0.0":
+  version "1.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-form/-/stripes-form-1.0.0.tgz#c66af5f94cf8de7a0c6e768c118f39fd67e4435a"
+  dependencies:
+    "@folio/stripes-components" "^3.0.0"
+    flat "^4.0.0"
+    prop-types "^15.5.10"
+    react-intl "^2.4.0"
+    react-router "^4.1.1"
+    redux-form "^7.0.3"
+
 "@folio/stripes-logger@^0.0.2":
   version "0.0.2"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-logger/-/stripes-logger-0.0.2.tgz#7ca7bb45c6c3eea7c81f65abb93a45d1566b0ebb"
@@ -627,7 +638,7 @@
     mousetrap "^1.6.1"
     prop-types "^15.5.10"
 
-"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0", "@folio/stripes-smart-components@~1.7.3":
+"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0", "@folio/stripes-smart-components@^1.8.0", "@folio/stripes-smart-components@~1.7.3":
   version "1.7.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-1.7.3.tgz#4792ea55a5434acecdc1e84e0f7430ecc46fde5b"
   dependencies:
@@ -680,7 +691,7 @@
     react-router-dom "^4.0.0"
     redux-form "^7.0.3"
 
-"@folio/users@^2.12.2", "@folio/users@~2.15.3":
+"@folio/users@^2.12.2":
   version "2.15.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.15.3.tgz#0fa94288c8f2d36b79301871791788569335bd07"
   dependencies:
@@ -695,6 +706,26 @@
     query-string "^5.0.0"
     react-intl "^2.3.0"
     react-router "^4.2.0"
+    react-router-dom "^4.0.0"
+    redux-form "^7.0.3"
+    uuid "^3.0.1"
+  optionalDependencies:
+    "@folio/plugin-find-user" "^1.1.0"
+
+"@folio/users@~2.16.0":
+  version "2.16.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.16.0.tgz#23bc851c5d7825be48126ef7743643c97dcd9c36"
+  dependencies:
+    "@folio/react-intl-safe-html" "^1.0.0"
+    "@folio/stripes-components" "^3.1.0"
+    "@folio/stripes-form" "^1.0.0"
+    "@folio/stripes-smart-components" "^1.8.0"
+    hashcode "^1.0.3"
+    lodash "^4.17.4"
+    moment "^2.22.2"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-intl "^2.5.0"
     react-router-dom "^4.0.0"
     redux-form "^7.0.3"
     uuid "^3.0.1"
@@ -8239,6 +8270,16 @@ react-hotkeys@^0.10.0:
 react-intl@^2.3.0, react-intl@^2.4.0:
   version "2.6.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-2.6.0.tgz#b822fa91f1b55209b36c63d849f66e8c1bd08ea0"
+  dependencies:
+    hoist-non-react-statics "^2.5.5"
+    intl-format-cache "^2.0.5"
+    intl-messageformat "^2.1.0"
+    intl-relativeformat "^2.1.0"
+    invariant "^2.1.1"
+
+react-intl@^2.5.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.7.0.tgz#be1244769ce51f71476afb9556485a46090db5fa"
   dependencies:
     hoist-non-react-statics "^2.5.5"
     intl-format-cache "^2.0.5"
