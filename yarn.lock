@@ -2,12 +2,6 @@
 # yarn lockfile v1
 
 
-"@babel/code-frame@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/code-frame/-/code-frame-7.0.0-beta.44.tgz#2a02643368de80916162be70865c97774f3adbd9"
-  dependencies:
-    "@babel/highlight" "7.0.0-beta.44"
-
 "@babel/code-frame@7.0.0-beta.51":
   version "7.0.0-beta.51"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/code-frame/-/code-frame-7.0.0-beta.51.tgz#bd71d9b192af978df915829d39d4094456439a0c"
@@ -19,16 +13,6 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/code-frame/-/code-frame-7.0.0.tgz#06e2ab19bdb535385559aabb5ba59729482800f8"
   dependencies:
     "@babel/highlight" "^7.0.0"
-
-"@babel/generator@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/generator/-/generator-7.0.0-beta.44.tgz#c7e67b9b5284afcf69b309b50d7d37f3e5033d42"
-  dependencies:
-    "@babel/types" "7.0.0-beta.44"
-    jsesc "^2.5.1"
-    lodash "^4.2.0"
-    source-map "^0.5.0"
-    trim-right "^1.0.1"
 
 "@babel/generator@7.0.0-beta.51":
   version "7.0.0-beta.51"
@@ -50,14 +34,6 @@
     source-map "^0.5.0"
     trim-right "^1.0.1"
 
-"@babel/helper-function-name@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/helper-function-name/-/helper-function-name-7.0.0-beta.44.tgz#e18552aaae2231100a6e485e03854bc3532d44dd"
-  dependencies:
-    "@babel/helper-get-function-arity" "7.0.0-beta.44"
-    "@babel/template" "7.0.0-beta.44"
-    "@babel/types" "7.0.0-beta.44"
-
 "@babel/helper-function-name@7.0.0-beta.51":
   version "7.0.0-beta.51"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/helper-function-name/-/helper-function-name-7.0.0-beta.51.tgz#21b4874a227cf99ecafcc30a90302da5a2640561"
@@ -74,12 +50,6 @@
     "@babel/template" "^7.1.0"
     "@babel/types" "^7.0.0"
 
-"@babel/helper-get-function-arity@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/helper-get-function-arity/-/helper-get-function-arity-7.0.0-beta.44.tgz#d03ca6dd2b9f7b0b1e6b32c56c72836140db3a15"
-  dependencies:
-    "@babel/types" "7.0.0-beta.44"
-
 "@babel/helper-get-function-arity@7.0.0-beta.51":
   version "7.0.0-beta.51"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/helper-get-function-arity/-/helper-get-function-arity-7.0.0-beta.51.tgz#3281b2d045af95c172ce91b20825d85ea4676411"
@@ -92,12 +62,6 @@
   dependencies:
     "@babel/types" "^7.0.0"
 
-"@babel/helper-split-export-declaration@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.44.tgz#c0b351735e0fbcb3822c8ad8db4e583b05ebd9dc"
-  dependencies:
-    "@babel/types" "7.0.0-beta.44"
-
 "@babel/helper-split-export-declaration@7.0.0-beta.51":
   version "7.0.0-beta.51"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.51.tgz#8a6c3f66c4d265352fc077484f9f6e80a51ab978"
@@ -109,14 +73,6 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0.tgz#3aae285c0311c2ab095d997b8c9a94cad547d813"
   dependencies:
     "@babel/types" "^7.0.0"
-
-"@babel/highlight@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/highlight/-/highlight-7.0.0-beta.44.tgz#18c94ce543916a80553edcdcf681890b200747d5"
-  dependencies:
-    chalk "^2.0.0"
-    esutils "^2.0.2"
-    js-tokens "^3.0.0"
 
 "@babel/highlight@7.0.0-beta.51":
   version "7.0.0-beta.51"
@@ -142,15 +98,6 @@
   version "7.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/parser/-/parser-7.1.0.tgz#a7cd42cb3c12aec52e24375189a47b39759b783e"
 
-"@babel/template@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/template/-/template-7.0.0-beta.44.tgz#f8832f4fdcee5d59bf515e595fc5106c529b394f"
-  dependencies:
-    "@babel/code-frame" "7.0.0-beta.44"
-    "@babel/types" "7.0.0-beta.44"
-    babylon "7.0.0-beta.44"
-    lodash "^4.2.0"
-
 "@babel/template@7.0.0-beta.51":
   version "7.0.0-beta.51"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/template/-/template-7.0.0-beta.51.tgz#9602a40aebcf357ae9677e2532ef5fc810f5fbff"
@@ -167,21 +114,6 @@
     "@babel/code-frame" "^7.0.0"
     "@babel/parser" "^7.1.0"
     "@babel/types" "^7.0.0"
-
-"@babel/traverse@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/traverse/-/traverse-7.0.0-beta.44.tgz#a970a2c45477ad18017e2e465a0606feee0d2966"
-  dependencies:
-    "@babel/code-frame" "7.0.0-beta.44"
-    "@babel/generator" "7.0.0-beta.44"
-    "@babel/helper-function-name" "7.0.0-beta.44"
-    "@babel/helper-split-export-declaration" "7.0.0-beta.44"
-    "@babel/types" "7.0.0-beta.44"
-    babylon "7.0.0-beta.44"
-    debug "^3.1.0"
-    globals "^11.1.0"
-    invariant "^2.2.0"
-    lodash "^4.2.0"
 
 "@babel/traverse@7.0.0-beta.51":
   version "7.0.0-beta.51"
@@ -211,14 +143,6 @@
     debug "^3.1.0"
     globals "^11.1.0"
     lodash "^4.17.10"
-
-"@babel/types@7.0.0-beta.44":
-  version "7.0.0-beta.44"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/types/-/types-7.0.0-beta.44.tgz#6b1b164591f77dec0a0342aca995f2d046b3a757"
-  dependencies:
-    esutils "^2.0.2"
-    lodash "^4.2.0"
-    to-fast-properties "^2.0.0"
 
 "@babel/types@7.0.0-beta.51":
   version "7.0.0-beta.51"
@@ -504,6 +428,38 @@
     redux-form "^7.0.3"
     typeface-source-sans-pro "^0.0.44"
 
+"@folio/stripes-components@^3.3.0":
+  version "3.3.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-3.3.0.tgz#8126bf9f798a22a83ce1845bb5f8de9056a664b9"
+  dependencies:
+    "@folio/stripes-connect" "^3.1.3"
+    "@folio/stripes-react-hotkeys" "^1.1.0"
+    "@folio/stripes-util" "^1.0.0"
+    classnames "^2.2.5"
+    dom-helpers "^3.2.1"
+    downshift "^2.0.16"
+    json2csv "^4.2.1"
+    lodash "^4.17.4"
+    memoize-one "^4.0.0"
+    moment "^2.17.1"
+    moment-range "^3.0.3"
+    moment-timezone "^0.5.14"
+    normalize.css "^7.0.0"
+    prop-types "^15.5.10"
+    prop-types-extra "^1.0.1"
+    query-string "^6.1.0"
+    react-flexbox-grid "1.1.3"
+    react-highlighter "^0.4.2"
+    react-intl "^2.5.0"
+    react-overlays "^0.8.3"
+    react-redux "^5.0.2"
+    react-router-dom "^4.1.1"
+    react-tether "^1.0.1"
+    react-transition-group "^2.2.1"
+    redux "^3.6.0"
+    redux-form "^7.0.3"
+    typeface-source-sans-pro "^0.0.44"
+
 "@folio/stripes-connect@^3.1.2", "@folio/stripes-connect@^3.1.3":
   version "3.2.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-connect/-/stripes-connect-3.2.1.tgz#f28241273718f7340acfa5d0c50f24c127a24d43"
@@ -517,12 +473,12 @@
     redux-crud "^3.0.0"
     uuid "^3.0.1"
 
-"@folio/stripes-core@^2.10.0", "@folio/stripes-core@~2.12.0":
-  version "2.12.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-2.12.0.tgz#25ad763c61806be7f2c58b790943c42dfa6d8ca4"
+"@folio/stripes-core@^2.10.0", "@folio/stripes-core@~2.14.0":
+  version "2.14.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-2.14.0.tgz#cbea993c2f821bb6812471f72c0e2a24609d9fbf"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
-    "@folio/stripes-components" "^3.0.0"
+    "@folio/stripes-components" "^3.3.0"
     "@folio/stripes-connect" "^3.1.2"
     "@folio/stripes-logger" "^0.0.2"
     apollo-cache-inmemory "^1.1.1"
@@ -531,7 +487,6 @@
     autoprefixer "^9.1.1"
     awesome-typescript-loader "^5.2.0"
     babel-core "^6.23.1"
-    babel-eslint "^8.2.2"
     babel-loader "^7.1.4"
     babel-plugin-react-transform "^3.0.0"
     babel-plugin-remove-jsx-attributes "^0.0.2"
@@ -545,7 +500,7 @@
     commander "^2.9.0"
     connect-history-api-fallback "^1.3.0"
     css-loader "^1.0.0"
-    debug "^3.1.0"
+    debug "^4.0.1"
     duplicate-package-checker-webpack-plugin "^3.0.0"
     express "^4.14.0"
     favicons-webpack-plugin "^0.0.9"
@@ -578,7 +533,8 @@
     react-apollo "^2.1.3"
     react-cookie "^2.1.4"
     react-dom "^16.3.0"
-    react-intl "^2.3.0"
+    react-hot-loader "^4.3.10"
+    react-intl "^2.5.0"
     react-overlays "^0.8.3"
     react-redux "^5.0.2"
     react-router "^4.0.0"
@@ -1309,17 +1265,6 @@ babel-core@^6.23.1, babel-core@^6.26.0:
     slash "^1.0.0"
     source-map "^0.5.7"
 
-babel-eslint@^8.2.2:
-  version "8.2.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/babel-eslint/-/babel-eslint-8.2.6.tgz#6270d0c73205628067c0f7ae1693a9e797acefd9"
-  dependencies:
-    "@babel/code-frame" "7.0.0-beta.44"
-    "@babel/traverse" "7.0.0-beta.44"
-    "@babel/types" "7.0.0-beta.44"
-    babylon "7.0.0-beta.44"
-    eslint-scope "3.7.1"
-    eslint-visitor-keys "^1.0.0"
-
 babel-generator@^6.18.0, babel-generator@^6.26.0:
   version "6.26.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/babel-generator/-/babel-generator-6.26.1.tgz#1844408d3b8f0d35a404ea7ac180f087a601bd90"
@@ -1957,10 +1902,6 @@ babel-types@^6.18.0, babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26
     esutils "^2.0.2"
     lodash "^4.17.4"
     to-fast-properties "^1.0.3"
-
-babylon@7.0.0-beta.44:
-  version "7.0.0-beta.44"
-  resolved "https://repository.folio.org/repository/npm-ci-all/babylon/-/babylon-7.0.0-beta.44.tgz#89159e15e6e30c5096e22d738d8c0af8a0e8ca1d"
 
 babylon@^6.18.0:
   version "6.18.0"
@@ -3799,13 +3740,6 @@ eslint-restricted-globals@^0.1.1:
   version "0.1.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/eslint-restricted-globals/-/eslint-restricted-globals-0.1.1.tgz#35f0d5cbc64c2e3ed62e93b4b1a7af05ba7ed4d7"
 
-eslint-scope@3.7.1:
-  version "3.7.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/eslint-scope/-/eslint-scope-3.7.1.tgz#3d63c3edfda02e06e01a452ad88caacc7cdcb6e8"
-  dependencies:
-    esrecurse "^4.1.0"
-    estraverse "^4.1.1"
-
 eslint-scope@^3.7.1:
   version "3.7.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/eslint-scope/-/eslint-scope-3.7.3.tgz#bb507200d3d17f60247636160b4826284b108535"
@@ -4088,9 +4022,9 @@ fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
 
-fast-levenshtein@~2.0.4:
+fast-levenshtein@^2.0.6, fast-levenshtein@~2.0.4:
   version "2.0.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
+  resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
 fastparse@^1.1.1:
   version "1.1.1"
@@ -6287,7 +6221,7 @@ lodash@^3.2.0:
   version "3.10.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.0.0, lodash@^4.11.1, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.17.10, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.5.0, lodash@^4.6.1:
+lodash@^4.0.0, lodash@^4.11.1, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.17.10, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.5.0, lodash@^4.6.1:
   version "4.17.11"
   resolved "https://repository.folio.org/repository/npm-ci-all/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
@@ -8227,6 +8161,17 @@ react-highlighter@^0.4.2:
     escape-string-regexp "^1.0.5"
     prop-types "^15.6.0"
 
+react-hot-loader@^4.3.10:
+  version "4.3.11"
+  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.3.11.tgz#fe5cf7be7700c249b58293f977c1e6e0900f0d87"
+  dependencies:
+    fast-levenshtein "^2.0.6"
+    global "^4.3.0"
+    hoist-non-react-statics "^2.5.0"
+    prop-types "^15.6.1"
+    react-lifecycles-compat "^3.0.4"
+    shallowequal "^1.0.2"
+
 react-hotkeys@^0.10.0:
   version "0.10.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-hotkeys/-/react-hotkeys-0.10.0.tgz#d1e78bd63f16d6db58d550d33c8eb071f35d94fb"
@@ -8239,6 +8184,16 @@ react-hotkeys@^0.10.0:
 react-intl@^2.3.0, react-intl@^2.4.0:
   version "2.6.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-2.6.0.tgz#b822fa91f1b55209b36c63d849f66e8c1bd08ea0"
+  dependencies:
+    hoist-non-react-statics "^2.5.5"
+    intl-format-cache "^2.0.5"
+    intl-messageformat "^2.1.0"
+    intl-relativeformat "^2.1.0"
+    invariant "^2.1.1"
+
+react-intl@^2.5.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.7.0.tgz#be1244769ce51f71476afb9556485a46090db5fa"
   dependencies:
     hoist-non-react-statics "^2.5.5"
     intl-format-cache "^2.0.5"
@@ -8969,6 +8924,10 @@ sha.js@^2.4.0, sha.js@^2.4.8:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
+
+shallowequal@^1.0.2:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
 
 shebang-command@^1.2.0:
   version "1.2.0"
