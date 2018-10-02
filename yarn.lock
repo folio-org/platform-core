@@ -309,13 +309,27 @@
     eslint-plugin-jsx-a11y "6.0.3"
     eslint-plugin-react "7.9.1"
 
-"@folio/inventory@^1.0.3", "@folio/inventory@~1.2.2":
+"@folio/inventory@^1.0.3":
   version "1.2.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.2.3.tgz#8665af1ed6505433da8d8c01a3c5f40986ce1551"
   dependencies:
     "@folio/stripes-components" "^3.0.8"
     "@folio/stripes-form" "^0.9.0"
     "@folio/stripes-smart-components" "^1.5.0"
+    lodash "^4.17.4"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-intl "^2.3.0"
+    react-router-dom "^4.0.0"
+    redux-form "^7.0.3"
+
+"@folio/inventory@~1.3.0":
+  version "1.3.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.3.0.tgz#6452cad808ab628a0d6490f900542632a81b3fc8"
+  dependencies:
+    "@folio/stripes-components" "^3.1.0"
+    "@folio/stripes-form" "^1.0.0"
+    "@folio/stripes-smart-components" "^1.8.0"
     lodash "^4.17.4"
     prop-types "^15.5.10"
     query-string "^5.0.0"
@@ -504,6 +518,38 @@
     redux-form "^7.0.3"
     typeface-source-sans-pro "^0.0.44"
 
+"@folio/stripes-components@^3.1.0":
+  version "3.3.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-3.3.0.tgz#8126bf9f798a22a83ce1845bb5f8de9056a664b9"
+  dependencies:
+    "@folio/stripes-connect" "^3.1.3"
+    "@folio/stripes-react-hotkeys" "^1.1.0"
+    "@folio/stripes-util" "^1.0.0"
+    classnames "^2.2.5"
+    dom-helpers "^3.2.1"
+    downshift "^2.0.16"
+    json2csv "^4.2.1"
+    lodash "^4.17.4"
+    memoize-one "^4.0.0"
+    moment "^2.17.1"
+    moment-range "^3.0.3"
+    moment-timezone "^0.5.14"
+    normalize.css "^7.0.0"
+    prop-types "^15.5.10"
+    prop-types-extra "^1.0.1"
+    query-string "^6.1.0"
+    react-flexbox-grid "1.1.3"
+    react-highlighter "^0.4.2"
+    react-intl "^2.5.0"
+    react-overlays "^0.8.3"
+    react-redux "^5.0.2"
+    react-router-dom "^4.1.1"
+    react-tether "^1.0.1"
+    react-transition-group "^2.2.1"
+    redux "^3.6.0"
+    redux-form "^7.0.3"
+    typeface-source-sans-pro "^0.0.44"
+
 "@folio/stripes-connect@^3.1.2", "@folio/stripes-connect@^3.1.3":
   version "3.2.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-connect/-/stripes-connect-3.2.1.tgz#f28241273718f7340acfa5d0c50f24c127a24d43"
@@ -614,6 +660,17 @@
     react-router "^4.1.1"
     redux-form "^7.0.3"
 
+"@folio/stripes-form@^1.0.0":
+  version "1.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-form/-/stripes-form-1.0.0.tgz#c66af5f94cf8de7a0c6e768c118f39fd67e4435a"
+  dependencies:
+    "@folio/stripes-components" "^3.0.0"
+    flat "^4.0.0"
+    prop-types "^15.5.10"
+    react-intl "^2.4.0"
+    react-router "^4.1.1"
+    redux-form "^7.0.3"
+
 "@folio/stripes-logger@^0.0.2":
   version "0.0.2"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-logger/-/stripes-logger-0.0.2.tgz#7ca7bb45c6c3eea7c81f65abb93a45d1566b0ebb"
@@ -627,7 +684,7 @@
     mousetrap "^1.6.1"
     prop-types "^15.5.10"
 
-"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0", "@folio/stripes-smart-components@~1.7.3":
+"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0", "@folio/stripes-smart-components@^1.8.0", "@folio/stripes-smart-components@~1.7.3":
   version "1.7.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-1.7.3.tgz#4792ea55a5434acecdc1e84e0f7430ecc46fde5b"
   dependencies:
@@ -8239,6 +8296,16 @@ react-hotkeys@^0.10.0:
 react-intl@^2.3.0, react-intl@^2.4.0:
   version "2.6.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-2.6.0.tgz#b822fa91f1b55209b36c63d849f66e8c1bd08ea0"
+  dependencies:
+    hoist-non-react-statics "^2.5.5"
+    intl-format-cache "^2.0.5"
+    intl-messageformat "^2.1.0"
+    intl-relativeformat "^2.1.0"
+    invariant "^2.1.1"
+
+react-intl@^2.5.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.7.0.tgz#be1244769ce51f71476afb9556485a46090db5fa"
   dependencies:
     hoist-non-react-statics "^2.5.5"
     intl-format-cache "^2.0.5"
