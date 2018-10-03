@@ -31,6 +31,8 @@
     "@folio/search": ">=0.0.0",
     "@folio/servicepoints": ">=0.0.0",
     "@folio/stripes": ">=0.0.0",
+    "@folio/stripes-core": ">=0.0.0",
+    "@folio/stripes-components": ">=0.0.0",
     "@folio/tags": ">=0.0.0",
     "@folio/users": ">=0.0.0"
   },
