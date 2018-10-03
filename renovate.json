@@ -1,5 +1,5 @@
 {
-  "baseBranches": ["next_release","snapshot"],
+  "baseBranches": ["next-release","snapshot"],
   "branchPrefix": "renovate_",
   "separateMinorPatch": true 
 }
