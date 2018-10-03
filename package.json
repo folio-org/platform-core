@@ -33,7 +33,7 @@
     "@folio/stripes-components": "~3.1.0",
     "@folio/stripes-core": "~2.12.0",
     "@folio/stripes-smart-components": "~1.7.3",
-    "@folio/tags": "~1.0.4",
+    "@folio/tags": "~1.1.0",
     "@folio/users": "~2.15.3"
   },
   "resolutions": {

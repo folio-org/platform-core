@@ -471,7 +471,7 @@
     webpack-bundle-analyzer "^3.0.1"
     yargs "^10.0.3"
 
-"@folio/stripes-components@^3.0.0", "@folio/stripes-components@^3.0.10", "@folio/stripes-components@^3.0.8", "@folio/stripes-components@~3.1.0":
+"@folio/stripes-components@^3.0.0", "@folio/stripes-components@^3.0.8", "@folio/stripes-components@~3.1.0":
   version "3.1.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-3.1.0.tgz#92f53322b503226ef3d4f915fe959c573116d220"
   dependencies:
@@ -627,7 +627,7 @@
     mousetrap "^1.6.1"
     prop-types "^15.5.10"
 
-"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0", "@folio/stripes-smart-components@~1.7.3":
+"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@~1.7.3":
   version "1.7.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-1.7.3.tgz#4792ea55a5434acecdc1e84e0f7430ecc46fde5b"
   dependencies:
@@ -666,18 +666,11 @@
     lodash "^4.17.4"
     query-string "^5.0.0"
 
-"@folio/tags@~1.0.4":
-  version "1.0.4"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/tags/-/tags-1.0.4.tgz#e09ef07cf2ee6d4078d26b7e4121e3ab851ffb13"
+"@folio/tags@~1.1.0":
+  version "1.1.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/tags/-/tags-1.1.0.tgz#a2472e1e0e1f2daa0f381c83a10aef15b062bd71"
   dependencies:
-    "@folio/stripes-components" "^3.0.10"
-    "@folio/stripes-form" "^0.9.0"
-    "@folio/stripes-smart-components" "^1.6.0"
-    isomorphic-fetch "^2.2.1"
-    lodash "^4.17.4"
     prop-types "^15.5.10"
-    react-intl "^2.4.0"
-    react-router-dom "^4.0.0"
     redux-form "^7.0.3"
 
 "@folio/users@^2.12.2", "@folio/users@~2.15.3":
