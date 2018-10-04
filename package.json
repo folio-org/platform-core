@@ -31,7 +31,7 @@
     "@folio/search": ">=1.2.100099",
     "@folio/servicepoints": ">=1.0.200024",
     "@folio/stripes-components": ">=4.0.1000550",
-    "@folio/stripes-core": ">=2.15.1000397",
+    "@folio/stripes-core": "2.15.1",
     "@folio/stripes": ">=1.0.1",
     "@folio/tags": ">=1.0.200013",
     "@folio/users": ">=2.16.1000442"
