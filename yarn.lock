@@ -336,19 +336,16 @@
     react-router-dom "^4.1.1"
     redux-form "^7.0.3"
 
-"@folio/organization@~2.3.3":
-  version "2.3.3"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/organization/-/organization-2.3.3.tgz#fad6f16c432baddcf25fee72d0f7743f4f5bac55"
+"@folio/organization@~2.5.0":
+  version "2.5.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/organization/-/organization-2.5.0.tgz#c973d7cd66470f3d2976af8f38c4b92e3c6e2eca"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
-    "@folio/stripes-components" "^3.0.0"
-    "@folio/stripes-form" "^0.9.0"
-    "@folio/stripes-smart-components" "^1.4.22"
     downshift "^2.0.19"
     lodash "^4.17.4"
     prop-types "^15.6.0"
     react-intl "^2.3.0"
-    react-router-dom "^4.0.0"
+    react-tether "^1.0.1"
     redux-form "^7.0.3"
 
 "@folio/plugin-find-instance@~1.0.1":
@@ -627,7 +624,7 @@
     mousetrap "^1.6.1"
     prop-types "^15.5.10"
 
-"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0", "@folio/stripes-smart-components@~1.7.3":
+"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0", "@folio/stripes-smart-components@~1.7.3":
   version "1.7.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-1.7.3.tgz#4792ea55a5434acecdc1e84e0f7430ecc46fde5b"
   dependencies:
