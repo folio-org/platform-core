@@ -37,7 +37,7 @@
     "@folio/users": ">=2.16.1000442"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": ">=3.2.100038",
+    "@folio/eslint-config-stripes": "3.2.1",
     "eslint": "^4.19.1",
     "moment": "^2.22.2",
     "@folio/stripes-cli": ">=1.5.1000127"
