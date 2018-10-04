@@ -28,7 +28,7 @@
     "@folio/plugin-find-instance": ">=1.0.10006",
     "@folio/plugin-find-user": ">=1.2.100030",
     "@folio/requests": ">=1.2.1000136",
-    "@folio/search": ">=1.2.100099",
+    "@folio/search": "1.2.1",
     "@folio/servicepoints": ">=1.0.200024",
     "@folio/stripes-components": ">=4.0.1000550",
     "@folio/stripes-core": ">=2.15.1000397",
