@@ -40,6 +40,6 @@
     "@folio/eslint-config-stripes": ">=3.2.100038",
     "eslint": "^4.19.1",
     "moment": "^2.22.2",
-    "@folio/stripes-cli": ">=1.5.1000127"
+    "@folio/stripes-cli": "1.5.0"
   }
 }
