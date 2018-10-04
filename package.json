@@ -34,7 +34,7 @@
     "@folio/stripes-core": ">=2.15.1000397",
     "@folio/stripes": ">=1.0.1",
     "@folio/tags": ">=1.0.200013",
-    "@folio/users": ">=2.16.1000442"
+    "@folio/users": "2.16.0"
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": ">=3.2.100038",
