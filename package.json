@@ -18,7 +18,7 @@
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
-    "@folio/checkin": ">=1.2.100068",
+    "@folio/checkin": "1.2.0",
     "@folio/checkout": ">=1.2.1000189",
     "@folio/circulation":">=1.2.1000116",
     "@folio/developer": ">=1.4.100025",
