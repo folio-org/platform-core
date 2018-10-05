@@ -309,7 +309,18 @@
     eslint-plugin-jsx-a11y "6.0.3"
     eslint-plugin-react "7.9.1"
 
-"@folio/inventory@^1.0.3", "@folio/inventory@~1.2.2":
+"@folio/inventory@^1.4.0":
+  version "1.4.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.4.0.tgz#0324d0eff8ed536d780727eaab2a7e32c9b1e278"
+  dependencies:
+    lodash "^4.17.4"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-intl "^2.3.0"
+    react-router-dom "^4.0.0"
+    redux-form "^7.0.3"
+
+"@folio/inventory@~1.2.2":
   version "1.2.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.2.3.tgz#8665af1ed6505433da8d8c01a3c5f40986ce1551"
   dependencies:
@@ -351,12 +362,11 @@
     react-router-dom "^4.0.0"
     redux-form "^7.0.3"
 
-"@folio/plugin-find-instance@~1.0.1":
-  version "1.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-instance/-/plugin-find-instance-1.0.1.tgz#2aef9b8a8c4c97f012f5350e1e40049e26f96383"
+"@folio/plugin-find-instance@~1.1.0":
+  version "1.1.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-instance/-/plugin-find-instance-1.1.0.tgz#97fcbd852daed62d9106c65f0d270bbce3076df4"
   dependencies:
-    "@folio/inventory" "^1.0.3"
-    "@folio/stripes-components" "^3.0.0"
+    "@folio/inventory" "^1.4.0"
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
