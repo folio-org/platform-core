@@ -378,15 +378,11 @@
   dependencies:
     sanitize-html "1.18.2"
 
-"@folio/requests@~1.2.1":
-  version "1.2.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/requests/-/requests-1.2.1.tgz#9cfdf06c7a30cde1b917e7592c951720319ef449"
+"@folio/requests@~1.4.0":
+  version "1.4.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/requests/-/requests-1.4.1.tgz#2972f04bdb3c14169b058854fa4b7035597af3fc"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
-    "@folio/stripes-components" "^3.0.0"
-    "@folio/stripes-form" "^0.9.0"
-    "@folio/stripes-smart-components" "^1.4.19"
-    "@folio/stripes-util" "^1.0.0"
     isomorphic-fetch "^2.2.1"
     lodash "^4.17.4"
     moment-timezone "^0.5.14"
@@ -627,7 +623,7 @@
     mousetrap "^1.6.1"
     prop-types "^15.5.10"
 
-"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0", "@folio/stripes-smart-components@~1.7.3":
+"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0", "@folio/stripes-smart-components@~1.7.3":
   version "1.7.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-1.7.3.tgz#4792ea55a5434acecdc1e84e0f7430ecc46fde5b"
   dependencies:
