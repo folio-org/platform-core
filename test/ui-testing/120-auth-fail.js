@@ -13,9 +13,9 @@ module.exports.test = (uiTestCtx) => {
           .insert(config.select.password, 'invalid password')
           .click('#clickable-login')
           .wait('div[class^="formMessage"]') // failure
-          .wait(parseInt(process.env.FOLIO_UI_DEBUG) ? parseInt(config.debug_sleep) : 0) // debugging
+          .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 0) // debugging
           .end()
-          .then((result) => { done(); })
+          .then(() => { done(); })
           .catch(done);
       });
     });
