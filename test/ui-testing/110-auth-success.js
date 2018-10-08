@@ -13,7 +13,7 @@ module.exports.test = (uiTestCtx) => {
           .type(config.select.password, config.password)
           .click('#clickable-login')
           .wait('#clickable-logout')
-          .then((result) => { done(); })
+          .then(() => { done(); })
           .catch(done);
       });
 
@@ -22,10 +22,9 @@ module.exports.test = (uiTestCtx) => {
           .click('#clickable-logout') // logout
           .wait('#clickable-login')
           .end()
-          .then((result) => { done(); })
+          .then(() => { done(); })
           .catch(done);
       });
     });
   });
 };
-

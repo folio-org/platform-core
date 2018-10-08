@@ -8,9 +8,9 @@ module.exports.test = (uiTestCtx) => {
     // const pageLoadPeriod = 2000;
     const actionLoadPeriod = 222;
     const searchResultsTitleSelector = `#list-search div[role="gridcell"][title*="${title}"]`;
-    const titleSortSelector = '#clickable-list-column-title';
+    // const titleSortSelector = '#clickable-list-column-title';
     const firstResultSelector = '#list-search div[role="listitem"] div[role="gridcell"][title]';
-    const resultCountSelector = '#paneHeaderpane-results-subtitle span';
+    // const resultCountSelector = '#paneHeaderpane-results-subtitle span';
     const filterCheckBoxSelector = '#clickable-filter-type-Audio';
     const resetButtonLabel = 'Reset all';
     const resetButtonSelector = '#clickable-reset-all';
@@ -125,7 +125,7 @@ module.exports.test = (uiTestCtx) => {
             if (matches.length === 0) {
               throw new Error('No buttons found');
             }
-            matches.forEach(function codexClick(currentValue, currentIndex, listObj) {
+            matches.forEach(function codexClick(currentValue) {
               if (currentValue.textContent === resetLabel) {
                 currentValue.click();
                 found = true;
@@ -151,7 +151,7 @@ module.exports.test = (uiTestCtx) => {
           }, '#input-record-search')
           .evaluate(function confResetAgain(resetSelector) {
             const matches = document.querySelectorAll(resetSelector);
-            matches.forEach(function confResetEach(currentValue, currentIndex, listObj) {
+            matches.forEach(function confResetEach(currentValue) {
               if (!currentValue.disabled) {
                 throw new Error('Reset all button is visible. '
                   + 'Content: ' + currentValue.textContent
