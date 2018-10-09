@@ -1,6 +1,6 @@
 {
   "name": "@folio/platform-core",
-  "version": "1.1.20001",
+  "version": "1.1.2-SNAPSHOT",
   "license": "Apache-2.0",
   "repository": "folio-org/platform-core",
   "publishConfig": {
