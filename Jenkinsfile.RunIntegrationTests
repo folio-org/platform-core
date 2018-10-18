@@ -1,0 +1,64 @@
+@Library ('folio_jenkins_shared_libs') _
+
+pipeline {
+
+  parameters {
+    booleanParam(name: 'DEBUG_TEST',
+                 defaultValue: false,
+                 description: 'Enable integration test debugging')
+    string(name: 'TENANT',
+           defaultValue: 'diku',
+           description: 'FOLIO tenant')
+    string(name: 'FOLIO_URL',
+           defaultValue: 'http://folio-snapshot.aws.indexdata.com',
+           description: 'Okapi URL')
+  }
+
+  options {
+    timeout(30)
+    buildDiscarder(logRotator(numToKeepStr: '30'))
+  }
+
+  agent {
+    node {
+      label 'jenkins-slave-all'
+    }
+  }
+
+  stages {
+    stage('Setup') {
+      steps {
+        script {
+          currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
+        }
+        // sendNotifications 'STARTED'
+      }
+    }
+
+    stage('Run UI Integration Tests') {
+      steps {
+        echo "FOLIO URL: ${params.FOLIO_URL}"
+        echo "Tenant: ${params.TENANT}"
+
+        sh 'yarn install'
+        script {
+          def testOpts = [
+                     tenant: params.tenant,
+                     folioUser: params.tenant + '_admin',
+                     folioPassword: 'admin',
+                     folioUrl: params.FOLIO_URL ]
+
+           def testStatus = runIntegrationTests(testOpts)
+        }
+      }
+    }
+
+  } // end stages
+
+  post {
+    always {
+      // sendNotifications currentBuild.result
+    }
+  }
+}
+
