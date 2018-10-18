@@ -43,8 +43,8 @@ pipeline {
         sh 'yarn install'
         script {
           def testOpts = [
-                     tenant: params.tenant,
-                     folioUser: params.tenant + '_admin',
+                     tenant: params.TENANT,
+                     folioUser: params.TENANT + '_admin',
                      folioPassword: 'admin',
                      folioUrl: params.FOLIO_URL ]
 
