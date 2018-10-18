@@ -31,7 +31,7 @@ pipeline {
         script {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
         }
-        // sendNotifications 'STARTED'
+        sendNotifications 'STARTED'
       }
     }
 
@@ -48,7 +48,8 @@ pipeline {
                      folioPassword: 'admin',
                      folioUrl: params.FOLIO_URL ]
 
-           def testStatus = runIntegrationTests(testOpts)
+          def testStatus = runIntegrationTests(testOpts)
+          echo "$testStatus"
         }
       }
     }
@@ -57,7 +58,7 @@ pipeline {
 
   post {
     always {
-      // sendNotifications currentBuild.result
+      sendNotifications currentBuild.result
     }
   }
 }
