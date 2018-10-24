@@ -45,7 +45,6 @@ pipeline {
         buildStripesPlatform(params.OKAPI_URL,env.tenant)
       }
     }
-
   } // end stages
 
   post {

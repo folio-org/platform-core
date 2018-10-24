@@ -25,6 +25,8 @@ module.exports.test = (uiTestCtx) => {
           .click('#clickable-search-module')
           .wait('#input-record-search')
           .type('#input-record-search', title)
+          .wait('button[type=submit]')
+          .click('button[type=submit]')
           .wait(searchResultsTitleSelector)
           .then(done)
           .catch(done);
@@ -39,7 +41,7 @@ module.exports.test = (uiTestCtx) => {
               throw new Error(`Title not found in first position. Title found is (${firstResult})`);
             }
           }, firstResultSelector, title)
-          .then((result) => { done(); })
+          .then(done)
           .catch(done);
       });
 
@@ -133,7 +135,7 @@ module.exports.test = (uiTestCtx) => {
               throw new Error('Reset all button not found');
             }
           }, resetButtonLabel, resetButtonSelector)
-          .then((result) => { done(); })
+          .then(done)
           .catch(done);
       });
 
@@ -164,7 +166,7 @@ module.exports.test = (uiTestCtx) => {
               throw new Error('Filters have not been reset.');
             }
           }, filterCheckBoxSelector)
-          .then((result) => { done(); })
+          .then(done)
           .catch(done);
       });
 
