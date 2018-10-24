@@ -12,10 +12,9 @@ module.exports.test = (uiTestCtx) => {
           .insert(config.select.username, 'notgonnawork')
           .insert(config.select.password, 'invalid password')
           .click('#clickable-login')
-          .wait('div[class^="formMessage"]') // failure
-          .wait(parseInt(process.env.FOLIO_UI_DEBUG) ? parseInt(config.debug_sleep) : 0) // debugging
+          .wait('div[class^="AuthErrorsContainer"]') // failure
           .end()
-          .then((result) => { done(); })
+          .then(done)
           .catch(done);
       });
     });
