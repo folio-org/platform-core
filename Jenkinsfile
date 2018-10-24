@@ -45,50 +45,6 @@ pipeline {
         buildStripesPlatform(params.OKAPI_URL,env.tenant)
       }
     }
-
-/*
- *   stage('Bootstrap Tenant') {
- *     when {
- *       changeRequest()
- *     }
- *     steps {
- *       deployTenant(params.OKAPI_URL,env.tenant)
- *     }
- *   }
- *
- *   stage('Run Integration Tests') {
- *     when {
- *       changeRequest()
- *     }
- *     steps {
- *       script {
- *         def testOpts = [ tenant: env.tenant,
- *                          folioUser: env.tenant + '_admin',
- *                          folioPassword: 'admin']
- *
- *         runIntegrationTests(testOpts,params.DEBUG_TEST)
- *       }
- *     }
- *   }
- */
-    stage('Publish NPM Package') {
-      when {
-        buildingTag()
-      }
-      steps {
-        // clean up any artifacts
-        sh 'rm -rf output artifacts ci node_modules'
-
-        withCredentials([string(credentialsId: 'jenkins-npm-folioci',variable: 'NPM_TOKEN')]) {
-           withNPM(npmrcConfig: env.npmConfig) {
-             // clean up generated artifacts before publishing
-             sh 'rm -rf ci artifacts output'
-             sh 'npm publish'
-           }
-        }
-      }
-    }
-
   } // end stages
 
   post {
