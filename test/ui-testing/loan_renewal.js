@@ -230,13 +230,12 @@ module.exports.test = (uiTestCtx) => {
 
       it('Edit loan policy, renew from system date should fail the renewal', (done) => {
         nightmare
-          .wait(222)
-          .xclick('//span[.="Settings"]')
-          .wait(222)
-          .xclick('id("ModuleContainer")//a[.="Circulation"]')
-          .wait(222)
-          .xclick('id("ModuleContainer")//a[.="Loan policies"]')
-          .wait(222)
+          .click(config.select.settings)
+          .wait('a[href="/settings/circulation"]')
+          .click('a[href="/settings/circulation"]')
+          .wait('a[href="/settings/circulation/loan-policies"]')
+          .click('a[href="/settings/circulation/loan-policies"]')
+          .wait('div.hasEntries')
           .xclick(`id("ModuleContainer")//a[.="${policyName}"]`)
           .wait('#clickable-edit-item')
           .click('#clickable-edit-item')
@@ -294,8 +293,8 @@ module.exports.test = (uiTestCtx) => {
           .click('a[href="/settings/circulation"]')
           .wait('a[href="/settings/circulation/fixed-due-date-schedules"]')
           .click('a[href="/settings/circulation/fixed-due-date-schedules"]')
-          .wait(222)
-          .xclick('//button[.="+ New"]')
+          .wait('#fixedduedateschedule-add-new')
+          .click('#fixedduedateschedule-add-new')
           .wait('#input_schedule_name')
           .type('#input_schedule_name', scheduleName)
           .wait('input[name="schedules[0].from"]')
@@ -321,7 +320,7 @@ module.exports.test = (uiTestCtx) => {
         nightmare
           .wait('a[href="/settings/circulation/loan-policies"]')
           .click('a[href="/settings/circulation/loan-policies"]')
-          .wait(222)
+          .wait('div.hasEntries')
           .xclick(`id("ModuleContainer")//a[.="${policyName}"]`)
           .wait('#clickable-edit-item')
           .click('#clickable-edit-item')
@@ -427,9 +426,9 @@ module.exports.test = (uiTestCtx) => {
       it(`should check in ${barcode}`, (done) => {
         nightmare
           .click('#clickable-checkin-module')
-          .wait(222)
+          .wait('#input-item-barcode')
           .insert('#input-item-barcode', barcode)
-          .wait(222)
+          .wait('#clickable-add-item')
           .click('#clickable-add-item')
           .wait('#list-items-checked-in')
           .evaluate(() => {
@@ -455,28 +454,25 @@ module.exports.test = (uiTestCtx) => {
           .evaluate(() => {
             document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(loanRules);
           })
-          .wait(666)
-          .xclick('//button[.="Save"]')
-          .wait(Math.max(1111, debugSleep)) // debugging
+          .wait('#clickable-save-loan-rules')
+          .click('#clickable-save-loan-rules')
           .then(done)
           .catch(done);
       });
 
       it('should delete the loan policy', (done) => {
         nightmare
-          .wait(222)
-          .xclick('//span[.="Settings"]')
-          .wait(222)
-          .xclick('id("ModuleContainer")//a[.="Circulation"]')
-          .wait(222)
-          .xclick('id("ModuleContainer")//a[.="Loan policies"]')
-          .wait(222)
+          .click(config.select.settings)
+          .wait('a[href="/settings/circulation"]')
+          .click('a[href="/settings/circulation"]')
+          .wait('a[href="/settings/circulation/loan-policies"]')
+          .click('a[href="/settings/circulation/loan-policies"]')
+          .wait('div.hasEntries')
           .xclick(`id("ModuleContainer")//a[.="${policyName}"]`)
           .wait('#clickable-edit-item')
           .click('#clickable-edit-item')
           .wait('button[title="Delete Loan Policy"]')
           .click('button[title="Delete Loan Policy"]')
-          .wait(222)
           .wait('#clickable-deleteloanpolicy-confirmation-confirm')
           .click('#clickable-deleteloanpolicy-confirmation-confirm')
           .wait(222)
@@ -486,10 +482,12 @@ module.exports.test = (uiTestCtx) => {
 
       it('should delete the fixedDueDateSchedule', (done) => {
         nightmare
-          .wait(222)
+          .click(config.select.settings)
+          .wait('a[href="/settings/circulation"]')
+          .click('a[href="/settings/circulation"]')
           .wait('a[href="/settings/circulation/fixed-due-date-schedules"]')
           .click('a[href="/settings/circulation/fixed-due-date-schedules"]')
-          .wait(333)
+          .wait('div.hasEntries')
           .xclick(`id("ModuleContainer")//a[.="${scheduleName}"]`)
           .wait('#clickable-edit-item')
           .click('#clickable-edit-item')
@@ -500,30 +498,6 @@ module.exports.test = (uiTestCtx) => {
           .wait(222)
           .then(done)
           .catch(done);
-      });
-
-      it('should confirm deletion', (done) => {
-        nightmare
-          .click(config.select.settings)
-          .wait(222)
-          .wait('a[href="/settings/circulation"]')
-          .wait(222)
-          .wait('a[href="/settings/circulation/fixed-due-date-schedules"]')
-          .click('a[href="/settings/circulation/fixed-due-date-schedules"]')
-          .wait(333)
-          .xclick(`id("ModuleContainer")//a[.="${scheduleName}"]`)
-          .wait('#clickable-edit-item')
-          .click('#clickable-edit-item')
-          .wait('#clickable-delete-set')
-          .click('#clickable-delete-set')
-          .wait('#clickable-deletefixedduedateschedule-confirmation-confirm')
-          .click('#clickable-deletefixedduedateschedule-confirmation-confirm')
-          .wait(222)
-          .then(done)
-          .catch((e) => {
-            console.dir(e);
-            done();
-          });
       });
 
       it('should logout', (done) => {

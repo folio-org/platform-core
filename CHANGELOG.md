@@ -4,6 +4,7 @@
 
 * Manually click the search button in tests. Refs STCOM-354.
 * Don't use the search button in OverlayContainers; that submits the underlying forms in addition.
+* Wait for elements instead of timers, if possible. Refs UITEST-55.
 
 
 ## [1.1.0](https://github.com/folio-org/platform-core/tree/v1.1.0) (2018-10-09)
