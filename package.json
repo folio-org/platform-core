@@ -36,9 +36,9 @@
     "react": "^16.3.0"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^2.0.0",
+    "@folio/eslint-config-stripes": "^3.2.1",
     "@folio/stripes-cli": "^1.5.0",
-    "eslint": "^4.19.1",
+    "eslint": "^5.6.1",
     "moment": "^2.22.2"
   }
 }

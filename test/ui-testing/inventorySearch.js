@@ -29,7 +29,7 @@ module.exports.test = (uiTestCtx) => {
               throw new Error('First item not matched');
             }
           }, title)
-          .then((result) => { done(); })
+          .then(() => { done(); })
           .catch(done);
       });
       it('Click Reset All button', (done) => {
@@ -43,7 +43,7 @@ module.exports.test = (uiTestCtx) => {
               }
             });
           })
-          .then((result) => { done(); })
+          .then(() => { done(); })
           .catch(done);
       });
       it('title search', (done) => {
@@ -61,7 +61,7 @@ module.exports.test = (uiTestCtx) => {
               throw new Error('First item not matched');
             }
           }, title)
-          .then((result) => { done(); })
+          .then(() => { done(); })
           .catch(done);
       });
       it('Click Reset All button', (done) => {
@@ -75,7 +75,7 @@ module.exports.test = (uiTestCtx) => {
               }
             });
           })
-          .then((result) => { done(); })
+          .then(() => { done(); })
           .catch(done);
       });
       it('contributor search', (done) => {
@@ -94,7 +94,7 @@ module.exports.test = (uiTestCtx) => {
               throw new Error('First item not matched');
             }
           }, authorName)
-          .then((result) => { done(); })
+          .then(() => { done(); })
           .catch(done);
       });
       it('Click Reset All button', (done) => {
@@ -108,7 +108,7 @@ module.exports.test = (uiTestCtx) => {
               }
             });
           })
-          .then((result) => { done(); })
+          .then(() => { done(); })
           .catch(done);
       });
       it('should logout', (done) => {
