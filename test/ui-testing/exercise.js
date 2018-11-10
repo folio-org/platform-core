@@ -8,7 +8,7 @@ module.exports.test = (uiTestCtx) => {
     const nightmare = new Nightmare(config.nightmare);
 
     describe('Login > Update settings > Find user > Create inventory record > Create holdings record > Create item record > Checkout item > Confirm checkout > Checkin > Confirm checkin > Logout\n', function descStart() {
-      let userid = 'user';
+      let userid = 'undefined';
 
       it(`should login as ${config.username}/${config.password}`, (done) => {
         helpers.login(nightmare, config, done);
@@ -52,7 +52,11 @@ module.exports.test = (uiTestCtx) => {
 
       it(`should find current loans count for ${userid}`, (done) => {
         nightmare
-          .click(`div[title="${userid}"]`)
+          .click(`#list-users a[aria-label*="Username: ${userid}"]`)
+          .wait((un) => {
+            console.error(`username: ${un}`);
+            return true;
+          }, userid)
           .wait('#clickable-viewcurrentloans')
           .wait(1999)
           .evaluate(() => document.querySelector('#clickable-viewcurrentloans').textContent)
@@ -100,7 +104,7 @@ module.exports.test = (uiTestCtx) => {
           .type('#input-item-barcode', barcode)
           .wait('#clickable-add-item')
           .click('#clickable-add-item')
-          .wait(`#list-items-checked-out div[title*="${barcode}"]`)
+          .wait(`#list-items-checked-out div[aria-label*="Barcode: ${barcode}"]`)
           .then(done)
           .catch(e => {
             console.error(e);
@@ -117,8 +121,8 @@ module.exports.test = (uiTestCtx) => {
           .insert('#input-user-search', userid)
           .wait('button[type=submit]')
           .click('button[type=submit]')
-          .wait(`#list-users div[title="${userid}"]`)
-          .click(`#list-users div[title="${userid}"]`)
+          .wait(`#list-users a[aria-label*="${userid}"]`)
+          .click(`#list-users a[aria-label*="${userid}"]`)
           .wait('#clickable-viewcurrentloans')
           .click('#clickable-viewcurrentloans')
           .wait((fbarcode) => {
@@ -144,7 +148,7 @@ module.exports.test = (uiTestCtx) => {
           .click('#clickable-add-item')
           .wait('#list-items-checked-in')
           .evaluate(() => {
-            const a = document.querySelector('div[title="Available"]');
+            const a = document.querySelector('#list-items-checked-in div[aria-label*="Status: Available"]');
             if (a === null) {
               throw new Error("Checkin did not return 'Available' status");
             }
@@ -162,8 +166,8 @@ module.exports.test = (uiTestCtx) => {
           .insert('#input-user-search', userid)
           .wait('button[type=submit]')
           .click('button[type=submit]')
-          .wait(`div[title="${userid}"]`)
-          .click(`div[title="${userid}"]`)
+          .wait(`#list-users a[aria-label*="${userid}"]`)
+          .click(`#list-users a[aria-label*="${userid}"]`)
           .wait('#clickable-viewclosedloans')
           .click('#clickable-viewclosedloans')
           .wait((fbarcode) => {

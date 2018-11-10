@@ -109,20 +109,33 @@ module.exports.test = function foo(uiTestCtx) {
           .type('#input-user-search', proxyId)
           .wait('button[type=submit]')
           .click('button[type=submit]')
-          .wait(`#list-users div[role="listitem"] > a > div[title="${proxyId}"]`)
-          .click(`#list-users div[role="listitem"] > a > div[title="${proxyId}"]`)
-          .wait('#accordion-toggle-button-proxySection')
-          .wait('#clickable-edituser')
-          .click('#clickable-edituser')
-          .wait('#accordion-toggle-button-proxy')
-          .click('#accordion-toggle-button-proxy')
-          .wait(`#proxy a[href*="${userIds[0].uuid}"]`)
-          .xclick(`id("proxy")//a[contains(@href, "${userIds[0].uuid}")]/../../../..//button`)
-          .wait('#clickable-deleteproxies-confirmation-confirm')
-          .click('#clickable-deleteproxies-confirmation-confirm')
-          .wait('#clickable-updateuser')
-          .click('#clickable-updateuser')
-          .then(() => { done(); })
+          .wait('#list-users[data-total-count="1"]')
+          .evaluate((pid) => {
+            const node = Array.from(
+              document.querySelectorAll('#list-users div[role="listitem"] > a > div[role="gridcell"]')
+            ).find(e => e.textContent === pid);
+            if (node) {
+              node.parentElement.click();
+            } else {
+              throw new Error(`Could not find the user ${pid} to edit`);
+            }
+          }, proxyId)
+          .then(() => {
+            nightmare
+              .wait('#accordion-toggle-button-proxySection')
+              .wait('#clickable-edituser')
+              .click('#clickable-edituser')
+              .wait('#accordion-toggle-button-proxy')
+              .click('#accordion-toggle-button-proxy')
+              .wait(`#proxy a[href*="${userIds[0].uuid}"]`)
+              .xclick(`id("proxy")//a[contains(@href, "${userIds[0].uuid}")]/../../../..//button`)
+              .wait('#clickable-deleteproxies-confirmation-confirm')
+              .click('#clickable-deleteproxies-confirmation-confirm')
+              .wait('#clickable-updateuser')
+              .click('#clickable-updateuser')
+              .then(() => { done(); })
+              .catch(done);
+          })
           .catch(done);
       });
     });
