@@ -4,12 +4,11 @@ module.exports.test = (uiTestCtx) => {
     this.timeout(Number(config.test_timeout));
     const nightmare = new Nightmare(config.nightmare);
 
-    const title = 'Bridget';
+    const title = 'Bridget Jones';
     // const pageLoadPeriod = 2000;
     const actionLoadPeriod = 222;
-    const searchResultsTitleSelector = `#list-search div[role="gridcell"][title*="${title}"]`;
     // const titleSortSelector = '#clickable-list-column-title';
-    const firstResultSelector = '#list-search div[role="listitem"] div[role="gridcell"][title]';
+    const firstResultSelector = '#list-search div[role="listitem"] div[role="gridcell"]:nth-of-type(2)';
     // const resultCountSelector = '#paneHeaderpane-results-subtitle span';
     const filterCheckBoxSelector = '#clickable-filter-type-Audio';
     const resetButtonLabel = 'Reset all';
@@ -27,7 +26,7 @@ module.exports.test = (uiTestCtx) => {
           .type('#input-record-search', title)
           .wait('button[type=submit]')
           .click('button[type=submit]')
-          .wait(searchResultsTitleSelector)
+          .wait(`#list-search div[role="listitem"] a[aria-label*="${title}"]`)
           .then(done)
           .catch(done);
       });
@@ -35,8 +34,8 @@ module.exports.test = (uiTestCtx) => {
       it('should confirm search results', (done) => {
         nightmare
           .wait(firstResultSelector)
-          .evaluate(function csearch(selector, itemTitle) {
-            const firstResult = document.querySelector(selector).title; // the entered title should be the first result
+          .evaluate((selector, itemTitle) => {
+            const firstResult = document.querySelector(selector).textContent; // the entered title should be the first result
             if (firstResult.indexOf(itemTitle) === -1) {
               throw new Error(`Title not found in first position. Title found is (${firstResult})`);
             }
