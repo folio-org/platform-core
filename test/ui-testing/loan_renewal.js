@@ -53,8 +53,8 @@ module.exports.test = (uiTestCtx) => {
           .click('a[href="/settings/circulation"]')
           .wait('a[href="/settings/circulation/loan-policies"]')
           .click('a[href="/settings/circulation/loan-policies"]')
-          .wait('#clickable-create-loanpolicy')
-          .click('#clickable-create-loanpolicy')
+          .wait('#clickable-create-entry')
+          .click('#clickable-create-entry')
           .wait('#input_policy_name')
           .type('#input_policy_name', policyName)
           .wait('#input_loan_period')
@@ -68,8 +68,8 @@ module.exports.test = (uiTestCtx) => {
           .type('#input_allowed_renewals', renewalLimit)
           .wait('#select_renew_from')
           .type('#select_renew_from', 'cu')
-          .wait('#clickable-save-item')
-          .click('#clickable-save-item')
+          .wait('#clickable-save-entry')
+          .click('#clickable-save-entry')
           .wait(1000)
           .evaluate(() => {
             const sel = document.querySelector('div[class^="textfieldError"]');
@@ -236,25 +236,29 @@ module.exports.test = (uiTestCtx) => {
           .click('a[href="/settings/circulation/loan-policies"]')
           .wait('div.hasEntries')
           .evaluate((pn) => {
-            const node = Array.from(
+            const index = Array.from(
               document.querySelectorAll('#ModuleContainer div.hasEntries a div')
-            ).find(e => e.textContent === pn);
-            if (node) {
-              node.parentElement.click();
-            } else {
+            ).findIndex(e => e.textContent === pn);
+
+            if (index === -1) {
               throw new Error(`Could not find the loan policy ${pn} to edit`);
             }
+
+            // CSS selectors are 1-based, which is just totally awesome.
+            return index + 1;
           }, policyName)
-          .then(() => {
+          .then((entryIndex) => {
             nightmare
+              .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+              .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
               .wait('#clickable-edit-item')
               .click('#clickable-edit-item')
               .wait('#input_allowed_renewals')
               .type('#input_allowed_renewals', 2)
               .wait('#select_renew_from')
               .type('#select_renew_from', 'sy')
-              .wait('#clickable-save-item')
-              .click('#clickable-save-item')
+              .wait('#clickable-save-entry')
+              .click('#clickable-save-entry')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="textfieldError"]');
@@ -299,8 +303,8 @@ module.exports.test = (uiTestCtx) => {
           .click('a[href="/settings/circulation"]')
           .wait('a[href="/settings/circulation/fixed-due-date-schedules"]')
           .click('a[href="/settings/circulation/fixed-due-date-schedules"]')
-          .wait('#clickable-create-fixedduedateschedule')
-          .click('#clickable-create-fixedduedateschedule')
+          .wait('#clickable-create-entry')
+          .click('#clickable-create-entry')
           .wait('#input_schedule_name')
           .type('#input_schedule_name', scheduleName)
           .wait('input[name="schedules[0].from"]')
@@ -328,25 +332,29 @@ module.exports.test = (uiTestCtx) => {
           .click('a[href="/settings/circulation/loan-policies"]')
           .wait('div.hasEntries')
           .evaluate((pn) => {
-            const node = Array.from(
+            const index = Array.from(
               document.querySelectorAll('#ModuleContainer div.hasEntries a div')
-            ).find(e => e.textContent === pn);
-            if (node) {
-              node.parentElement.click();
-            } else {
+            ).findIndex(e => e.textContent === pn);
+
+            if (index === -1) {
               throw new Error(`Could not find the loan policy ${pn} to edit`);
             }
+
+            // CSS selectors are 1-based, which is just totally awesome.
+            return index + 1;
           }, policyName)
-          .then(() => {
+          .then((entryIndex) => {
             nightmare
+              .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+              .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
               .wait('#clickable-edit-item')
               .click('#clickable-edit-item')
               .wait('#input_loan_profile')
               .type('#input_loan_profile', 'fi')
               .wait('#input_loansPolicy_fixedDueDateSchedule')
               .type('#input_loansPolicy_fixedDueDateSchedule', scheduleName)
-              .wait('#clickable-save-item')
-              .click('#clickable-save-item')
+              .wait('#clickable-save-entry')
+              .click('#clickable-save-entry')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="feedbackError"]');
@@ -505,8 +513,8 @@ module.exports.test = (uiTestCtx) => {
             nightmare
               .wait('#clickable-edit-item')
               .click('#clickable-edit-item')
-              .wait('#clickable-delete-item')
-              .click('#clickable-delete-item')
+              .wait('#clickable-delete-entry')
+              .click('#clickable-delete-entry')
               .wait('#clickable-delete-item-confirmation-confirm')
               .click('#clickable-delete-item-confirmation-confirm')
               .then(done)
@@ -524,17 +532,21 @@ module.exports.test = (uiTestCtx) => {
           .click('a[href="/settings/circulation/fixed-due-date-schedules"]')
           .wait('div.hasEntries')
           .evaluate((sn) => {
-            const node = Array.from(
+            const index = Array.from(
               document.querySelectorAll('#ModuleContainer div.hasEntries a div')
-            ).find(e => e.textContent === sn);
-            if (node) {
-              node.parentElement.click();
-            } else {
+            ).findIndex(e => e.textContent === sn);
+
+            if (index === -1) {
               throw new Error(`Could not find the fixed due date schedule ${sn} to delete`);
             }
+
+            // CSS selectors are 1-based, which is just totally awesome.
+            return index + 1;
           }, scheduleName)
-          .then(() => {
+          .then((entryIndex) => {
             nightmare
+              .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+              .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
               .wait('#generalInformation')
               .wait('#fixedDueDateSchedule')
               .wait('#clickable-edit-item')
