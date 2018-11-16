@@ -517,6 +517,7 @@ module.exports.test = (uiTestCtx) => {
               .click('#clickable-delete-entry')
               .wait('#clickable-delete-item-confirmation-confirm')
               .click('#clickable-delete-item-confirmation-confirm')
+              .wait(3000)
               .then(done)
               .catch(done);
           })
@@ -531,6 +532,13 @@ module.exports.test = (uiTestCtx) => {
           .wait('a[href="/settings/circulation/fixed-due-date-schedules"]')
           .click('a[href="/settings/circulation/fixed-due-date-schedules"]')
           .wait('div.hasEntries')
+          .wait((sn) => {
+            const index = Array.from(
+              document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+            ).findIndex(e => e.textContent === sn);
+
+            return index >= 0;
+          }, scheduleName)
           .evaluate((sn) => {
             const index = Array.from(
               document.querySelectorAll('#ModuleContainer div.hasEntries a div')
