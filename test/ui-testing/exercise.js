@@ -8,7 +8,10 @@ module.exports.test = (uiTestCtx) => {
     const nightmare = new Nightmare(config.nightmare);
 
     describe('Login > Update settings > Find user > Create inventory record > Create holdings record > Create item record > Checkout item > Confirm checkout > Checkin > Confirm checkin > Logout\n', function descStart() {
-      let userid = 'undefined';
+      let userid = '';
+      let userBarcode = '';
+      let openLoans = -1;
+      let closedLoans = -1;
 
       it(`should login as ${config.username}/${config.password}`, (done) => {
         helpers.login(nightmare, config, done);
@@ -23,6 +26,7 @@ module.exports.test = (uiTestCtx) => {
           .click('#clickable-users-module')
           .wait('#clickable-filter-pg-faculty')
           .click('#clickable-filter-pg-faculty')
+          .wait('#list-users:not([data-total-count="0"])')
           .wait('#list-users div[role="listitem"]:nth-child(1)')
           .evaluate(() => {
             const ubc = [];
@@ -44,38 +48,33 @@ module.exports.test = (uiTestCtx) => {
           })
           .then((result) => {
             userid = result[0].username;
-            console.log(`          Found user ${userid}`);
+            userBarcode = result[0].barcode;
             done();
+            console.log(`          Found user ${userid}/${userBarcode}`);
           })
           .catch(done);
       });
 
-      it(`should find current loans count for ${userid}`, (done) => {
+      it(`should find current loans count for ${userid}/${userBarcode}`, (done) => {
         nightmare
           .click(`#list-users a[aria-label*="Username: ${userid}"]`)
-          .wait((un) => {
-            console.error(`username: ${un}`);
-            return true;
-          }, userid)
           .wait('#clickable-viewcurrentloans')
-          .wait(1999)
           .evaluate(() => document.querySelector('#clickable-viewcurrentloans').textContent)
-          .then(() => {
-            // const ol = result;
-            // openLoans = Number(ol.replace(/^(\d+).*/, '$1'));
+          .then((result) => {
+            openLoans = Number(result.replace(/^(\d+).*/, '$1'));
             done();
-            // console.log(`          Open loans: ${openLoans}`);
+            console.log(`          Open loans: ${openLoans}`);
           })
           .catch(done);
       });
+
       it(`should find closed loans count for ${userid}`, (done) => {
         nightmare
           .evaluate(() => document.querySelector('#clickable-viewclosedloans').textContent)
-          .then(() => {
-            // const ol = result;
-            // openLoans = Number(ol.replace(/^(\d+).*/, '$1'));
+          .then((result) => {
+            closedLoans = Number(result.replace(/^(\d+).*/, '$1'));
             done();
-            // console.log(`          Closed loans: ${openLoans}`);
+            console.log(`          Closed loans: ${closedLoans}`);
           })
           .catch(done);
       });
@@ -86,7 +85,8 @@ module.exports.test = (uiTestCtx) => {
         nightmare
           .click('#clickable-checkout-module')
           .wait('#input-patron-identifier')
-          .type('#input-patron-identifier', userid)
+          .type('#input-patron-identifier', userBarcode)
+          .wait(1000)
           .wait('#clickable-find-patron')
           .click('#clickable-find-patron')
           .wait(() => {
@@ -111,6 +111,30 @@ module.exports.test = (uiTestCtx) => {
             done();
           });
       });
+
+      it('should change open-loan count', (done) => {
+        nightmare
+          .click('#clickable-users-module')
+          .wait('#input-user-search')
+          .insert('#input-user-search', userid)
+          .wait('#clickable-reset-all')
+          .click('#clickable-reset-all')
+          .insert('#input-user-search', userid)
+          .wait('button[type=submit]')
+          .click('button[type=submit]')
+          .wait(`#list-users a[aria-label*="Barcode: ${userBarcode}"]`)
+          .click(`#list-users a[aria-label*="Barcode: ${userBarcode}"]`)
+          .wait('#clickable-viewcurrentloans')
+          .evaluate(() => document.querySelector('#clickable-viewcurrentloans').textContent)
+          .then((result) => {
+            if (Number(result.replace(/^(\d+).*/, '$1')) !== openLoans + 1) {
+              throw new Error('Open loan count did not change.');
+            }
+            done();
+          })
+          .catch(done);
+      });
+
       it(`should find ${barcode} in ${userid}'s open loans`, (done) => {
         nightmare
           .click('#clickable-users-module')
@@ -139,6 +163,7 @@ module.exports.test = (uiTestCtx) => {
           .then(done)
           .catch(done);
       });
+
       it(`should check in ${barcode}`, (done) => {
         nightmare
           .click('#clickable-checkin-module')
@@ -156,7 +181,8 @@ module.exports.test = (uiTestCtx) => {
           .then(done)
           .catch(done);
       });
-      it(`should confirm ${barcode} in ${userid}'s closed loans`, (done) => {
+
+      it('should change closed-loan count', (done) => {
         nightmare
           .click('#clickable-users-module')
           .wait('#input-user-search')
@@ -166,8 +192,21 @@ module.exports.test = (uiTestCtx) => {
           .insert('#input-user-search', userid)
           .wait('button[type=submit]')
           .click('button[type=submit]')
-          .wait(`#list-users a[aria-label*="${userid}"]`)
-          .click(`#list-users a[aria-label*="${userid}"]`)
+          .wait(`#list-users a[aria-label*="Barcode: ${userBarcode}"]`)
+          .click(`#list-users a[aria-label*="Barcode: ${userBarcode}"]`)
+          .wait('#clickable-viewclosedloans')
+          .evaluate(() => document.querySelector('#clickable-viewclosedloans').textContent)
+          .then((result) => {
+            if (Number(result.replace(/^(\d+).*/, '$1')) !== closedLoans + 1) {
+              throw new Error('Close loan count did not change.');
+            }
+            done();
+          })
+          .catch(done);
+      });
+
+      it(`should confirm ${barcode} in ${userid}'s closed loans`, (done) => {
+        nightmare
           .wait('#clickable-viewclosedloans')
           .click('#clickable-viewclosedloans')
           .wait((fbarcode) => {
