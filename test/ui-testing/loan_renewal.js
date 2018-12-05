@@ -2,11 +2,10 @@
 
 const moment = require('moment');
 
-module.exports.test = (uiTestCtx) => {
+module.exports.test = (uiTestCtx, nightmare) => {
   describe('Tests to validate the loan renewals', function descRoot() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
-    const nightmare = new Nightmare(config.nightmare);
 
     // note the comparison uses string interpolation because we want to
     // force string context and barcodes may appear numeric.
@@ -570,7 +569,7 @@ module.exports.test = (uiTestCtx) => {
       });
 
       it('should logout', (done) => {
-        helpers.logout(nightmare, config, done);
+        helpers.logoutWithoutEnd(nightmare, config, done);
       });
     });
   });

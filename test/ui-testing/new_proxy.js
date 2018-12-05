@@ -1,9 +1,7 @@
 /* global it describe Nightmare before after */
-module.exports.test = function foo(uiTestCtx) {
+module.exports.test = function foo(uiTestCtx, nightmare) {
   describe('Module test: new_proxy', function bar() {
-    const { config, helpers: { login, openApp, logout }, meta: { testVersion } } = uiTestCtx;
-
-    const nightmare = new Nightmare(config.nightmare);
+    const { config, helpers: { login, openApp, logoutWithoutEnd }, meta: { testVersion } } = uiTestCtx;
 
     this.timeout(Number(config.test_timeout));
 
@@ -14,7 +12,7 @@ module.exports.test = function foo(uiTestCtx) {
         login(nightmare, config, done); // logs in with the default admin credentials
       });
       after((done) => {
-        logout(nightmare, config, done);
+        logoutWithoutEnd(nightmare, config, done);
       });
 
       it('should open app and find version tag', (done) => {

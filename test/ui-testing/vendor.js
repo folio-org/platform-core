@@ -11,11 +11,10 @@
  vendor information - complete? or basic?
 */
 
-module.exports.test = (uiTestCtx) => {
+module.exports.test = (uiTestCtx, nightmare) => {
   describe('Load test-vendor', function runMain() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
-    const nightmare = new Nightmare(config.nightmare);
 
     // vendor constants
     const vendorName = 'GOBI';
@@ -171,7 +170,7 @@ module.exports.test = (uiTestCtx) => {
       });
 
       it('should logout', (done) => {
-        helpers.logout(nightmare, config, done);
+        helpers.logoutWithoutEnd(nightmare, config, done);
       });
     });
   });

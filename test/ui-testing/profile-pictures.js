@@ -15,11 +15,10 @@
  11) go back to a user record an confirm that 100 x 100 pixel image is not present.
 */
 
-module.exports.test = (uiTestCtx) => {
+module.exports.test = (uiTestCtx, nightmare) => {
   describe('Load test-profilePictures', function runMain() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
-    const nightmare = new Nightmare(config.nightmare);
 
     const pageLoadPeriod = 2000;
     const actionLoadPeriod = 222;
@@ -156,7 +155,7 @@ module.exports.test = (uiTestCtx) => {
       });
 
       it('should logout', (done) => {
-        helpers.logout(nightmare, config, done);
+        helpers.logoutWithoutEnd(nightmare, config, done);
       });
     });
   });

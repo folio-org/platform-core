@@ -1,11 +1,11 @@
 /* eslint-disable no-console */
 /* eslint no-unused-vars: ["error", { "argsIgnorePattern": "^type" }] */
 
-module.exports.test = (uiTestCtx) => {
+module.exports.test = (uiTestCtx, nightmare) => {
   describe('Exercise users, inventory, checkout, checkin, settings ("test-exercise")', function descRoot() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
-    const nightmare = new Nightmare(config.nightmare);
+    
 
     describe('Login > Update settings > Find user > Create inventory record > Create holdings record > Create item record > Checkout item > Confirm checkout > Checkin > Confirm checkin > Logout\n', function descStart() {
       let userid = '';
@@ -225,7 +225,7 @@ module.exports.test = (uiTestCtx) => {
       });
 
       it('should logout', (done) => {
-        helpers.logout(nightmare, config, done);
+        helpers.logoutWithoutEnd(nightmare, config, done);
       });
     });
   });

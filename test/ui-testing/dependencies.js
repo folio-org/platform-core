@@ -1,8 +1,7 @@
-module.exports.test = (uiTestCtx) => {
+module.exports.test = (uiTestCtx, nightmare) => {
   describe('Checking for dependency issues on FOLIO UI App /about ("test-dependencies")', function start() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
-    const nightmare = new Nightmare(config.nightmare);
 
     describe('Login > Click "About" link > Check for dependency errors > Logout\n', () => {
       it('should login', (done) => {
@@ -63,7 +62,7 @@ module.exports.test = (uiTestCtx) => {
           .catch(done);
       });
       it('should logout', (done) => {
-        helpers.logout(nightmare, config, done);
+        helpers.logoutWithoutEnd(nightmare, config, done);
       });
     });
   });

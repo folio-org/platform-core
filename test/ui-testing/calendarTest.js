@@ -1,8 +1,7 @@
-module.exports.test = (uiTestCtx) => {
+module.exports.test = (uiTestCtx, nightmare) => {
   describe('Calendar Test ("test-calendartest")', function runMain() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
-    const nightmare = new Nightmare(config.nightmare);
 
     describe('Login > Click Caledar > Check Month (Check the Back, Next, Today) > Check Week (Check Back, Next, Today) > Logout\n', () => {
       const today = new Date();

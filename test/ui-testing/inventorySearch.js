@@ -1,8 +1,7 @@
-module.exports.test = (uiTestCtx) => {
+module.exports.test = (uiTestCtx, nightmare) => {
   describe('Inventory Search ("test-inventorysearch")', function runMain() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
-    const nightmare = new Nightmare(config.nightmare);
 
     describe('Login > Click Inventory > Ente Search Term > Wait for Results > Confirm search term at top of results > Click Reset All > Wait for results pan to change state > Logout\n', () => {
       const title = '14 cows for America';
@@ -112,7 +111,7 @@ module.exports.test = (uiTestCtx) => {
           .catch(done);
       });
       it('should logout', (done) => {
-        helpers.logout(nightmare, config, done);
+        helpers.logoutWithoutEnd(nightmare, config, done);
       });
     });
   });

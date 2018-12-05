@@ -5,7 +5,27 @@
   "repository": "folio-org/platform-core",
   "publishConfig": {
     "registry": "https://repository.folio.org/repository/npm-folioci/"
-  },
+  },"nyc" : {
+  "require": [],
+
+  "exclude": [
+    "!**/node_modules/@folio/circulation",
+	"!**/node_modules/@folio/inventory",
+	"!**/node_modules/@folio/checkout",
+	"!**/node_modules/@folio/checkin",
+	"!**/node_modules/@folio/developer",
+	"!**/node_modules/@folio/myprofile",
+	"!**/node_modules/@folio/organization",
+	"!**/node_modules/@folio/plugin-find-instance",
+	"!**/node_modules/@folio/plugin",
+	"!**/node_modules/@folio/requests",
+	"!**/node_modules/@folio/search",
+	"!**/node_modules/@folio/servicepoints",
+	"!**/node_modules/@folio/tags",
+	"!**/node_modules/@folio/users"
+  ],
+  "all": false
+},
   "scripts": {
     "build": "export NODE_OPTIONS=\"--max-old-space-size=2048 $NODE_OPTIONS\"; stripes build stripes.config.js",
     "stripes": "stripes",

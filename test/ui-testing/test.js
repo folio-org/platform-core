@@ -14,7 +14,7 @@ const newProxy = require('./new_proxy');
 // const vendor = require('./vendor');
 
 
-module.exports.test = (uiTestCtx) => {
+module.exports.test = (uiTestCtx, nightmare) => {
   const allTests = [
     // startPage,
     // authSuccess,
@@ -33,5 +33,5 @@ module.exports.test = (uiTestCtx) => {
     // vendor
   ];
 
-  allTests.forEach(testModule => testModule.test(uiTestCtx));
+  allTests.forEach(testModule => testModule.test(uiTestCtx, nightmare));
 };

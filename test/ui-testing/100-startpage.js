@@ -1,7 +1,6 @@
-module.exports.test = (uiTestCtx) => {
+module.exports.test = (uiTestCtx, nightmare) => {
   describe(`Load ${uiTestCtx.config.url} ("test-simple")`, function test() {
     const { config } = uiTestCtx;
-    const nightmare = new Nightmare(config.nightmare);
     config.nightmare.gotoTimeout = 90000;
 
     // Recommended: 5s locally, 10s to remote server, 30s from airplane
