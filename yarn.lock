@@ -226,10 +226,10 @@
     react-to-print "^1.0.21"
     redux-form "^7.0.3"
 
-"@folio/developer@~1.5.0":
-  version "1.5.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/developer/-/developer-1.5.0.tgz#88714b8da667a3b10a48483612e29482c3c661d6"
-  integrity sha512-zu1DgMkSQe9+dQWapaEWZ9yhoLsrUr8iHItGJWv1ctx23Op4oE2aMk7yAvOoJm5IbWacQDpF3RegdpE7x+7SWg==
+"@folio/developer@~1.6.0":
+  version "1.6.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/developer/-/developer-1.6.0.tgz#a75fd76f87159ccbd6b919ab408b710b48e02c6c"
+  integrity sha512-RB7VZmYhyFrG+w4D4gRaY/ae076FOKePU/nQDp+TrlNYRsZqD8UtGHA2lanWkDHMX9kwWVoissdyIFI+hPt3wQ==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
