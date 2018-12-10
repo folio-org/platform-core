@@ -295,10 +295,19 @@
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-user@^1.1.0", "@folio/plugin-find-user@~1.3.0":
+"@folio/plugin-find-user@^1.1.0":
   version "1.3.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.3.0.tgz#16803a3236b72042a8e9af9615116fe0fa2d9f0d"
   integrity sha512-BwFh3cKLepRf+B1bNh5jhJcpSW2jKYUNzDl767qJiq+Ci+LqkUjmWVXyrpf/62gaqtJtLF1i8Wor8YD7NUWNiw==
+  dependencies:
+    "@folio/users" "^2.17.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.0"
+
+"@folio/plugin-find-user@~1.4.0":
+  version "1.4.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.4.0.tgz#10e19a61077d95ad215b275e2f53f66f7cd7b3ea"
+  integrity sha512-MxxnrVH9QrlLfUP3+I/BVepn2cShWQ6vvsOyvgCENaMaknnil42+fRJGQA6Zjv4Y2CZGHwbrQavjq/FI1P3CIQ==
   dependencies:
     "@folio/users" "^2.17.0"
     classnames "^2.2.5"
