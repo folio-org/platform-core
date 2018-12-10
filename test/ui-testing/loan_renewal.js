@@ -30,9 +30,9 @@ module.exports.test = (uiTestCtx, nightmare) => {
       const scheduleName = `test-schedule-${Math.floor(Math.random() * 10000)}`;
       const renewalLimit = 1;
       const loanPeriod = 1;
-      const nextMonthValue = moment().add(65, 'days').format('MM/DD/YYYY');
-      const tomorrowValue = moment().add(3, 'days').format('MM/DD/YYYY');
-      const dayAfterValue = moment().add(4, 'days').format('MM/DD/YYYY');
+      const nextMonthValue = moment().add(65, 'days').format('YYYY-MM-DD');
+      const tomorrowValue = moment().add(3, 'days').format('YYYY-MM-DD');
+      const dayAfterValue = moment().add(4, 'days').format('YYYY-MM-DD');
       const debugSleep = parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 0;
       let loanRules = '';
 
@@ -99,14 +99,15 @@ module.exports.test = (uiTestCtx, nightmare) => {
             nightmare
               .wait('#clickable-save-loan-rules')
               .click('#clickable-save-loan-rules')
-              .wait(Math.max(1111, debugSleep)); // debugging
-            done();
+              .wait(Math.max(555, debugSleep)); // debugging
+              done();
           })
           .catch(done);
       });
 
       it('should find an active user ', (done) => {
         nightmare
+          .wait(1111)
           .click('#clickable-users-module')
           .wait('#input-user-search')
           .type('#input-user-search', '0')
@@ -148,7 +149,6 @@ module.exports.test = (uiTestCtx, nightmare) => {
           .insert('#input-item-barcode', barcode)
           .wait('#clickable-add-item')
           .click('#clickable-add-item')
-          .wait(1111)
           .evaluate(() => {
             const sel = document.querySelector('div[class^="textfieldError"]');
             if (sel) {
@@ -212,14 +212,14 @@ module.exports.test = (uiTestCtx, nightmare) => {
               .click('#renew-all')
               .wait('#renewal-failure-modal')
               .wait(333)
-              .evaluate(() => {
+              .evaluate((policy) => {
                 const errorMsg = document.querySelector('#renewal-failure-modal > div:nth-of-type(2) > p').innerText;
                 if (errorMsg === null) {
                   throw new Error('Should throw an error as the renewalLimit is reached');
-                } else if (!errorMsg.match('Loan cannot be renewed because: loan has reached its maximum number of renewals')) {
+                } else if (!errorMsg.match(`Loan cannot be renewed because: loan has reached its maximum number of renewals. Please review ${policy} before retrying renewal.`)) {
                   throw new Error('Expected only the renewal failure error message');
                 }
-              })
+              }, policyName)
               .then(done)
               .catch(done);
           })
@@ -307,11 +307,11 @@ module.exports.test = (uiTestCtx, nightmare) => {
           .wait('#input_schedule_name')
           .type('#input_schedule_name', scheduleName)
           .wait('input[name="schedules[0].from"]')
-          .insert('input[name="schedules[0].from"]', tomorrowValue)
+          .type('input[name="schedules[0].from"]', tomorrowValue)
           .wait('input[name="schedules[0].to"]')
-          .insert('input[name="schedules[0].to"]', dayAfterValue)
+          .type('input[name="schedules[0].to"]', dayAfterValue)
           .wait('input[name="schedules[0].due"]')
-          .insert('input[name="schedules[0].due"]', nextMonthValue)
+          .type('input[name="schedules[0].due"]', nextMonthValue)
           .wait('#clickable-save-fixedDueDateSchedule')
           .click('#clickable-save-fixedDueDateSchedule')
           .wait(1000)
@@ -457,12 +457,12 @@ module.exports.test = (uiTestCtx, nightmare) => {
           .wait('#clickable-add-item')
           .click('#clickable-add-item')
           .wait('#list-items-checked-in')
-          .evaluate(() => {
-            const a = document.querySelector('#list-items-checked-in div[aria-label*="Status: Available"]');
+          .evaluate((barcode) => {
+            const a = document.querySelector(`#list-items-checked-in div[aria-label*= "Barcode: ${barcode}"]`)
             if (a === null) {
               throw new Error("Checkin did not return 'Available' status");
             }
-          })
+          }, barcode)
           .then(done)
           .catch(done);
       });
