@@ -286,10 +286,10 @@
     react-tether "^1.0.1"
     redux-form "^7.0.3"
 
-"@folio/plugin-find-instance@~1.1.0":
-  version "1.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-instance/-/plugin-find-instance-1.1.0.tgz#97fcbd852daed62d9106c65f0d270bbce3076df4"
-  integrity sha512-7uIut7P6NjIPFoUFnMHdEFlBZse0x6zaqLmrjG7mgqgRvULc3qSDSOf0bll87pHDkmQQ9TMenDbHqKY1aUjBjQ==
+"@folio/plugin-find-instance@~1.2.0":
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-instance/-/plugin-find-instance-1.2.0.tgz#8631471eddb72b830b4dceb8b18ab144f74cce37"
+  integrity sha512-gzuf+gRDAB+bVBxssMylvix/aPzd998elceNdR+oRimSl1gOUtraSgc5lAv5KVtFGgT99znApPTRYXV9H1VR+g==
   dependencies:
     "@folio/inventory" "^1.4.0"
     classnames "^2.2.5"
