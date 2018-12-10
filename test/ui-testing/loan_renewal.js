@@ -99,7 +99,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
             nightmare
               .wait('#clickable-save-loan-rules')
               .click('#clickable-save-loan-rules')
-              .wait(Math.max(9999, debugSleep)); // debugging
+              .wait(Math.max(555, debugSleep)); // debugging
               done();
           })
           .catch(done);
@@ -214,7 +214,6 @@ module.exports.test = (uiTestCtx, nightmare) => {
               .wait(333)
               .evaluate((policy) => {
                 const errorMsg = document.querySelector('#renewal-failure-modal > div:nth-of-type(2) > p').innerText;
-                console.log(errorMsg,'errorMsg');
                 if (errorMsg === null) {
                   throw new Error('Should throw an error as the renewalLimit is reached');
                 } else if (!errorMsg.match(`Loan cannot be renewed because: loan has reached its maximum number of renewals. Please review ${policy} before retrying renewal.`)) {
