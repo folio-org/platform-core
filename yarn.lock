@@ -611,12 +611,13 @@
     "@folio/stripes-util" "^1.1.0"
     react "^16.3.0"
 
-"@folio/tags@~1.1.0":
-  version "1.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/tags/-/tags-1.1.0.tgz#a2472e1e0e1f2daa0f381c83a10aef15b062bd71"
-  integrity sha512-xjF42LRWb2yGbIIHBU2ex7ghaFnIksEs42idVFdPNulrpg2huB66dxhVbUahLbJ0J8GMuFyLe3FiQYDQfOZ9fg==
+"@folio/tags@~1.2.0":
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/tags/-/tags-1.2.0.tgz#4523a73689df4cdd42750c4357949d21acdc0ef4"
+  integrity sha512-z8Rkw7r2TJ2C/8SmQ23NOK5XN2drNi8Q7eyUgu8jtZcc/ImPlmppcx8OIbXEU8ici101k4F8ViuALmg4+wiPQQ==
   dependencies:
     prop-types "^15.5.10"
+    react-intl "^2.7.2"
     redux-form "^7.0.3"
 
 "@folio/users@^2.17.0", "@folio/users@~2.17.0":
@@ -9410,6 +9411,17 @@ react-intl@^2.3.0, react-intl@^2.4.0, react-intl@^2.5.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.7.0.tgz#be1244769ce51f71476afb9556485a46090db5fa"
   integrity sha512-H7Exnn+PwHCe4YlwBTSpfkSFb8+ex346b6NVaKtAXvTJr1Xnq2HvsEPpLjLfwBdt3/SS9dq4oAkY9/0g8Kj+ug==
+  dependencies:
+    hoist-non-react-statics "^2.5.5"
+    intl-format-cache "^2.0.5"
+    intl-messageformat "^2.1.0"
+    intl-relativeformat "^2.1.0"
+    invariant "^2.1.1"
+
+react-intl@^2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.7.2.tgz#efe97e3fc0e99b4e88a6e6150854d3d1852a4381"
+  integrity sha512-3dcNGLqEw2FKkX+1L2WYLgjP0MVJkvWuVd1uLcnwifIQe8JQvnd9Bss4hb4Gvg/YhBIRcs4LM6C2bAgyklucjw==
   dependencies:
     hoist-non-react-statics "^2.5.5"
     intl-format-cache "^2.0.5"
