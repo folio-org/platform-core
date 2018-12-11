@@ -261,10 +261,10 @@
     react-router-dom "^4.0.0"
     redux-form "^7.0.3"
 
-"@folio/myprofile@~1.1.0":
-  version "1.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/myprofile/-/myprofile-1.1.0.tgz#ecdfd6a7c157426e07194db66e3bc3a6033cd80d"
-  integrity sha512-t/m0ZW+lcj9sMoxzpHYI9DN5FkEmSyTwTBNGBRU5xdTK6pU8RZpE1Khc5GmiG7tih3Yq0evNUyFR4T19VFI9rA==
+"@folio/myprofile@~1.2.0":
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/myprofile/-/myprofile-1.2.0.tgz#bc7bf16a1e5015b7bcb4f386910d48b6559cb7cb"
+  integrity sha512-IzE4iMg1jhYPTWwGE+qPGtGNK4zwf3vCevzX4tIkMgCAE8zY2Jrm77184tv0wUzGQgIrljPwZYTGpWMM9SFOAw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     "@folio/stripes-cli" "^1.4.0"
