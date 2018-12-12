@@ -172,12 +172,12 @@ module.exports.test = (uiTestCtx, nightmare) => {
           .wait('#clickable-add-item')
           .click('#clickable-add-item')
           .wait('#list-items-checked-in')
-          .evaluate(() => {
-            const a = document.querySelector(`#list-items-checked-in div[aria-label*= "Barcode: ${barcode}"]`);
+          .evaluate((fbarcode) => {
+            const a = document.querySelector(`#list-items-checked-in div[aria-label*= "Barcode: ${fbarcode}"]`);
             if (a === null) {
               throw new Error('Item barcode not found');
             }
-          })
+          }, barcode)
           .then(done)
           .catch(done);
       });
