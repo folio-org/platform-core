@@ -5,7 +5,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
   describe('Exercise users, inventory, checkout, checkin, settings ("test-exercise")', function descRoot() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
-    
+
 
     describe('Login > Update settings > Find user > Create inventory record > Create holdings record > Create item record > Checkout item > Confirm checkout > Checkin > Confirm checkin > Logout\n', function descStart() {
       let userid = '';
@@ -173,9 +173,9 @@ module.exports.test = (uiTestCtx, nightmare) => {
           .click('#clickable-add-item')
           .wait('#list-items-checked-in')
           .evaluate(() => {
-            const a = document.querySelector('#list-items-checked-in div[aria-label*="Status: Available"]');
+            const a = document.querySelector(`#list-items-checked-in div[aria-label*= "Barcode: ${barcode}"]`);
             if (a === null) {
-              throw new Error("Checkin did not return 'Available' status");
+              throw new Error('Item barcode not found');
             }
           })
           .then(done)

@@ -100,7 +100,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
               .wait('#clickable-save-loan-rules')
               .click('#clickable-save-loan-rules')
               .wait(Math.max(555, debugSleep)); // debugging
-              done();
+            done();
           })
           .catch(done);
       });
@@ -458,9 +458,9 @@ module.exports.test = (uiTestCtx, nightmare) => {
           .click('#clickable-add-item')
           .wait('#list-items-checked-in')
           .evaluate((barcode) => {
-            const a = document.querySelector(`#list-items-checked-in div[aria-label*= "Barcode: ${barcode}"]`)
+            const a = document.querySelector(`#list-items-checked-in div[aria-label*= "Barcode: ${barcode}"]`);
             if (a === null) {
-              throw new Error("Checkin did not return 'Available' status");
+              throw new Error('Item barcode not found');
             }
           }, barcode)
           .then(done)
