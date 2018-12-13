@@ -6,6 +6,12 @@ module.exports.test = (uiTestCtx, nightmare) => {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
 
+    const findUserNameCell = (username) => {
+      const usernameCell = Array.from(
+        document.querySelectorAll('#list-users div[role="listitem"]')
+      ).find(e => e.childNodes[0].children[4].textContent === `${username}`);
+      usernameCell.querySelector('a').click();
+    };
 
     describe('Login > Update settings > Find user > Create inventory record > Create holdings record > Create item record > Checkout item > Confirm checkout > Checkin > Confirm checkin > Logout\n', function descStart() {
       let userid = '';
@@ -70,6 +76,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
 
       it(`should find closed loans count for ${userid}`, (done) => {
         nightmare
+          .wait(222)
           .evaluate(() => document.querySelector('#clickable-viewclosedloans').textContent)
           .then((result) => {
             closedLoans = Number(result.replace(/^(\d+).*/, '$1'));
@@ -145,22 +152,26 @@ module.exports.test = (uiTestCtx, nightmare) => {
           .insert('#input-user-search', userid)
           .wait('button[type=submit]')
           .click('button[type=submit]')
-          .wait(`#list-users a[aria-label*="${userid}"]`)
-          .click(`#list-users a[aria-label*="${userid}"]`)
-          .wait('#clickable-viewcurrentloans')
-          .click('#clickable-viewcurrentloans')
-          .wait((fbarcode) => {
-            const element = document.evaluate(`id("list-loanshistory")//div[.="${fbarcode}"]`, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
-            if (element.singleNodeValue) {
-              return true;
-            } else {
-              return false;
-            }
-          }, barcode)
-          .wait('div[class*="LayerRoot"] button[class*="paneHeaderCloseIcon"]')
-          .click('div[class*="LayerRoot"] button[class*="paneHeaderCloseIcon"]')
-          .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 555) // debugging
-          .then(done)
+          .wait('#list-users div[role="gridcell"]')
+          .evaluate(findUserNameCell, userid)
+          .then(() => {
+            nightmare
+              .wait('#clickable-viewcurrentloans')
+              .click('#clickable-viewcurrentloans')
+              .wait((fbarcode) => {
+                const element = document.evaluate(`id("list-loanshistory")//div[.="${fbarcode}"]`, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
+                if (element.singleNodeValue) {
+                  return true;
+                } else {
+                  return false;
+                }
+              }, barcode)
+              .wait('div[class*="LayerRoot"] button[class*="paneHeaderCloseIcon"]')
+              .click('div[class*="LayerRoot"] button[class*="paneHeaderCloseIcon"]')
+              .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 555) // debugging
+              .then(done)
+              .catch(done);
+          })
           .catch(done);
       });
 

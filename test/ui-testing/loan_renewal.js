@@ -15,6 +15,13 @@ module.exports.test = (uiTestCtx, nightmare) => {
       ).find(e => e.textContent === `${fbarcode}`));
     };
 
+    const findUserNameCell = (username) => {
+      const usernameCell = Array.from(
+        document.querySelectorAll('#list-users div[role="listitem"]')
+      ).find(e => e.childNodes[0].children[4].textContent === `${username}`);
+      usernameCell.querySelector('a').click();
+    };
+
     const tickRenewCheckbox = (fbarcode) => {
       const barcodeCell = Array.from(
         document.querySelectorAll('#list-loanshistory div[role="gridcell"]')
@@ -176,13 +183,17 @@ module.exports.test = (uiTestCtx, nightmare) => {
           .insert('#input-user-search', userid)
           .wait('button[type=submit]')
           .click('button[type=submit]')
-          .wait(`#list-users a[aria-label*="${userid}"]`)
-          .click(`#list-users a[aria-label*="${userid}"]`)
-          .wait('#clickable-viewcurrentloans')
-          .click('#clickable-viewcurrentloans')
-          .wait('#list-loanshistory:not([data-total-count="0"])')
-          .wait(findBarcodeCell, barcode)
-          .then(done)
+          .wait('#list-users div[role="gridcell"]')
+          .evaluate(findUserNameCell, userid)
+          .then(() => {
+            nightmare
+              .wait('#clickable-viewcurrentloans')
+              .click('#clickable-viewcurrentloans')
+              .wait('#list-loanshistory:not([data-total-count="0"])')
+              .wait(findBarcodeCell, barcode)
+              .then(done)
+              .catch(done);
+          })
           .catch(done);
       });
 
