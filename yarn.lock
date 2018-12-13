@@ -209,10 +209,10 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^1.1.0"
 
-"@folio/circulation@~1.3.0":
-  version "1.3.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/circulation/-/circulation-1.3.0.tgz#33c60fc414e04eab0295985f1b3ea6339a97c043"
-  integrity sha512-44poDSeBnDQUQSDtgRmfBiQ7ejmII1/eX4N41Hw/KiD2wRSmdCpXpKxUTsxa9lJ6Y8k1aj8iGCzw5L4yoXLJ3w==
+"@folio/circulation@~1.4.0":
+  version "1.4.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/circulation/-/circulation-1.4.0.tgz#c15d90024ef60ac6585d3c2f9df9edecf6e6cfc6"
+  integrity sha512-SpcvX9oAhNxqLdOLWAUSAsz1pFS83iQhmWltv+xnWT46jLaQ2mJqrS0FcRCNSMUro7De83KNLsMypN6HXoIUFg==
   dependencies:
     html-to-react "^1.3.3"
     isomorphic-fetch "^2.2.1"
