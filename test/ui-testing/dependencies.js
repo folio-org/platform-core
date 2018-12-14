@@ -1,12 +1,15 @@
-module.exports.test = (uiTestCtx, nightmare) => {
+module.exports.test = (uiTestCtx, nightmareX) => {
   describe('Checking for dependency issues on FOLIO UI App /about ("test-dependencies")', function start() {
     const { config, helpers } = uiTestCtx;
+    const nightmare = new Nightmare(config.nightmare);
+
     this.timeout(Number(config.test_timeout));
 
     describe('Login > Click "About" link > Check for dependency errors > Logout\n', () => {
       it('should login', (done) => {
         helpers.login(nightmare, config, done);
       });
+
       it('should load "about" page', (done) => {
         nightmare
           .click('#clickable-settings')
@@ -15,6 +18,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
           .then(() => { done(); })
           .catch(done);
       });
+
       it('should check for "red" errors', (done) => {
         nightmare
           .evaluate(() => {
@@ -38,6 +42,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
           })
           .catch(done);
       });
+
       it('should check for "orange" errors', (done) => {
         nightmare
           .evaluate(() => {
@@ -61,8 +66,9 @@ module.exports.test = (uiTestCtx, nightmare) => {
           })
           .catch(done);
       });
+
       it('should logout', (done) => {
-        helpers.logoutWithoutEnd(nightmare, config, done);
+        helpers.logout(nightmare, config, done);
       });
     });
   });

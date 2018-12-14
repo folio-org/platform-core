@@ -1,6 +1,7 @@
-module.exports.test = (uiTestCtx, nightmare) => {
+module.exports.test = (uiTestCtx, nightmareX) => {
   describe('Load test-codexsearch', function runMain() {
     const { config, helpers } = uiTestCtx;
+    const nightmare = new Nightmare(config.nightmare);
     this.timeout(Number(config.test_timeout));
 
     const title = 'Bridget Jones';
@@ -95,7 +96,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
       });
 
       it('should logout', (done) => {
-        helpers.logoutWithoutEnd(nightmare, config, done);
+        helpers.logout(nightmare, config, done);
       });
     });
   });

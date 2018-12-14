@@ -1,9 +1,10 @@
 /* eslint-disable no-console */
 /* eslint no-unused-vars: ["error", { "argsIgnorePattern": "^type" }] */
 
-module.exports.test = (uiTestCtx, nightmare) => {
+module.exports.test = (uiTestCtx, nightmareX) => {
   describe('Exercise users, inventory, checkout, checkin, settings ("test-exercise")', function descRoot() {
     const { config, helpers } = uiTestCtx;
+    const nightmare = new Nightmare(config.nightmare);
     this.timeout(Number(config.test_timeout));
 
     const findUserNameCell = (username) => {
@@ -236,7 +237,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
       });
 
       it('should logout', (done) => {
-        helpers.logoutWithoutEnd(nightmare, config, done);
+        helpers.logout(nightmare, config, done);
       });
     });
   });

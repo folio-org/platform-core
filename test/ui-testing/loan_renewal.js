@@ -2,9 +2,10 @@
 
 const moment = require('moment');
 
-module.exports.test = (uiTestCtx, nightmare) => {
+module.exports.test = (uiTestCtx, nightmareX) => {
   describe('Tests to validate the loan renewals', function descRoot() {
     const { config, helpers } = uiTestCtx;
+    const nightmare = new Nightmare(config.nightmare);
     this.timeout(Number(config.test_timeout));
 
     // note the comparison uses string interpolation because we want to
@@ -581,7 +582,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
       });
 
       it('should logout', (done) => {
-        helpers.logoutWithoutEnd(nightmare, config, done);
+        helpers.logout(nightmare, config, done);
       });
     });
   });
