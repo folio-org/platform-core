@@ -14,6 +14,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .wait('#clickable-login')
           .click('#clickable-login')
           .wait('div[class^="AuthErrorsContainer"]') // failure
+          .end()
           .then(done)
           .catch(done);
       });
