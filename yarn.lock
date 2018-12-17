@@ -273,17 +273,15 @@
     react-router-dom "^4.1.1"
     redux-form "^7.0.3"
 
-"@folio/organization@~2.5.1":
-  version "2.5.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/organization/-/organization-2.5.1.tgz#1df7c3cc202801471d8bf456686138a367ed8372"
-  integrity sha512-U47V8tu8lLk/xSCR3DcI6cSjxDTWomypITWBBoI+F4vIn34Otxkmy4hWYoeDXlYn91StKnDdkmGbCoT6xdvdCQ==
+"@folio/organization@~2.6.0":
+  version "2.6.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/organization/-/organization-2.6.0.tgz#0223e0c61fba4acf7e59f531d13d1f549c2d6369"
+  integrity sha512-fYHBh3YjrpwzvHaUDWF9/ibF+r7hEAYCM/hj4Lra63Aw84M3uTC6IiKpuFdOLd61FjVNr8HQpg/kVBGLHslzHA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
-    downshift "^2.0.19"
     lodash "^4.17.4"
     prop-types "^15.6.0"
     react-intl "^2.3.0"
-    react-tether "^1.0.1"
     redux-form "^7.0.3"
 
 "@folio/plugin-find-instance@~1.1.0":
@@ -3947,7 +3945,7 @@ dot-prop@^4.1.0, dot-prop@^4.1.1:
   dependencies:
     is-obj "^1.0.0"
 
-downshift@^2.0.16, downshift@^2.0.19:
+downshift@^2.0.16:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/downshift/-/downshift-2.2.3.tgz#85187568455134e72025fbddd40bb9cf96c55eed"
   integrity sha512-SXFgGq5QYT9mxbaSsYdp4Ng0tP87F5z33PD+tZ2kyK0qIBYd1rcPe90+ykCOYqsWHsb/gcrjaAav2Jpa6qNbQg==
