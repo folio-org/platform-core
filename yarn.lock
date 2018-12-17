@@ -619,7 +619,7 @@
     prop-types "^15.5.10"
     redux-form "^7.0.3"
 
-"@folio/users@^2.17.0", "@folio/users@~2.17.0":
+"@folio/users@^2.17.0":
   version "2.17.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.17.0.tgz#0ddcbbead5e35a96131a1710542ca9530f628f91"
   integrity sha512-4hZO6Yz18tmTOPfBoDkFVv+4gl+I/eKuggoaSXaZO2HcFGAMdVjBUVj1mhidYfxynqkbwjuG8Q+FtNTLmX4XcA==
@@ -630,6 +630,25 @@
     moment "^2.22.2"
     prop-types "^15.5.10"
     query-string "^5.0.0"
+    react-intl "^2.5.0"
+    react-router-dom "^4.0.0"
+    redux-form "^7.0.3"
+    uuid "^3.0.1"
+  optionalDependencies:
+    "@folio/plugin-find-user" "^1.1.0"
+
+"@folio/users@~2.18.0":
+  version "2.18.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.18.0.tgz#5178a149e75ded233317613053c0445a127a1df9"
+  integrity sha512-u0zf85BzSjAkdLoeNDciiM8TplPDLrPdAUu6JZWGsBZRmt5xKcd9rXBYTFVNbCvALe+IgQgIAvovnpgSoawo/A==
+  dependencies:
+    "@folio/react-intl-safe-html" "^1.0.0"
+    hashcode "^1.0.3"
+    lodash "^4.17.4"
+    moment "^2.22.2"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-hot-loader "^4.3.12"
     react-intl "^2.5.0"
     react-router-dom "^4.0.0"
     redux-form "^7.0.3"
@@ -7178,6 +7197,11 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
+lodash.merge@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.1.tgz#adc25d9cb99b9391c59624f379fbba60d7111d54"
+  integrity sha512-AOYza4+Hf5z1/0Hztxpm2/xiPZgi/cjMqdnKTUWTBSKchJlxXXuUSxCCl8rJlf4g6yww/j6mA8nC8Hw/EZWxKQ==
+
 lodash.mergewith@^4.6.0:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
@@ -9406,6 +9430,21 @@ react-hot-loader@^4.3.10:
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.0.2"
 
+react-hot-loader@^4.3.12:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.6.1.tgz#7b4ebbbf931d864e78b31c25eee813fcf1ecfa99"
+  integrity sha512-BrMa/zyVq7aeHa2TDG6cVFgMiUut6OHZ/RkPqVHovsFbo0VI8VX7qCz2dYTDHFc9HtVrSUbJGd9LpFPIWtExBg==
+  dependencies:
+    fast-levenshtein "^2.0.6"
+    global "^4.3.0"
+    hoist-non-react-statics "^2.5.0"
+    loader-utils "^1.1.0"
+    lodash.merge "^4.6.1"
+    prop-types "^15.6.1"
+    react-lifecycles-compat "^3.0.4"
+    shallowequal "^1.0.2"
+    source-map "^0.7.3"
+
 react-intl@^2.3.0, react-intl@^2.4.0, react-intl@^2.5.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.7.0.tgz#be1244769ce51f71476afb9556485a46090db5fa"
@@ -10466,6 +10505,11 @@ source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
+
+source-map@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
+  integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
 
 sourcemapped-stacktrace@^1.1.6:
   version "1.1.9"
