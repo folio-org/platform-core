@@ -1,14 +1,22 @@
 [ 
   {
+    "id" : "mod-permissions-5.4.0",
+    "action" : "enable"
+  }, 
+  {
+    "id" : "mod-inventory-storage-14.0.0",
+    "action" : "enable"
+  }, 
+  {
+    "id" : "mod-circulation-storage-6.2.0",
+    "action" : "enable"
+  },
+  {
     "id" : "mod-authtoken-2.0.3",
     "action" : "enable"
   }, 
   {
     "id" : "mod-circulation-14.1.0",
-    "action" : "enable"
-  }, 
-  {
-    "id" : "mod-circulation-storage-6.2.0",
     "action" : "enable"
   }, 
   {
@@ -32,10 +40,6 @@
     "action" : "enable"
   }, 
   {
-    "id" : "mod-inventory-storage-14.0.0",
-    "action" : "enable"
-  }, 
-  {
     "id" : "mod-login-4.6.0",
     "action" : "enable"
   }, 
@@ -53,10 +57,6 @@
   }, 
   {
     "id" : "mod-password-validator-1.0.1",
-    "action" : "enable"
-  }, 
-  {
-    "id" : "mod-permissions-5.4.0",
     "action" : "enable"
   }, 
   {
