@@ -1,4 +1,4 @@
-module.exports.test = (uiTestCtx, nightmareX) => {
+module.exports.test = (uiTestCtx) => {
   describe('Load test-codexsearch', function runMain() {
     const { config, helpers } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
@@ -39,17 +39,33 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .catch(done);
       });
 
-      it('should filter results and change result-count', (done) => {
+      it('should filter results and find 0 results', (done) => {
         nightmare
-          .wait('#clickable-filter-type-Audiobooks')
-          .click('#clickable-filter-type-Audiobooks')
-          .wait(`#list-search:not([data-total-count="${resultCount}"])`)
-          .click('#clickable-filter-type-Audiobooks')
-          .wait(`#list-search[data-total-count="${resultCount}"]`)
+          .wait('#clickable-filter-location-Annex')
+          .click('#clickable-filter-location-Annex')
+          .wait(() => {
+            return !(document.querySelector('#list-search'));
+          })
           .then(done)
           .catch(done);
       });
 
+      it('should remove filter results and find results', (done) => {
+        nightmare
+          .wait('#clickable-filter-location-Annex')
+          .click('#clickable-filter-location-Annex')
+          .wait('#list-search:not([data-total-count="0"])')
+          .evaluate(() => {
+            return document.querySelector('#list-search').getAttribute('data-total-count');
+          })
+          .then((result) => {
+            if (result !== resultCount) {
+              throw new Error(`Result count changed from ${resultCount} to ${result}!`);
+            }
+          })
+          .then(done)
+          .catch(done);
+      });
 
       /*
         This test is failing do to this functionality having regressed.
