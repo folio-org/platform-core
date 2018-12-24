@@ -229,7 +229,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
                 const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
                 if (errorMsg === null) {
                   throw new Error('Should throw an error as the renewalLimit is reached');
-                } else if (!errorMsg.match(`Item not renewedLoan cannot be renewed because: loan has reached its maximum number of renewals. Please review ${policy} before retrying renewal.`)) {
+                } else if (!errorMsg.match(`Item not renewedloan has reached its maximum number of renewals`)) {
                   throw new Error('Expected only the renewal failure error message');
                 }
               }, policyName)
@@ -293,7 +293,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
                         const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
                         if (errorMsg === null) {
                           throw new Error('Should throw an error as the renewalLimit is reached');
-                        } else if (!errorMsg.match('Item not renewedLoan cannot be renewed because: renewal at this time would not change the due date')) {
+                        } else if (!errorMsg.match('Item not renewedrenewal at this time would not change the due date')) {
                           throw new Error('Expected only the renewal failure error message');
                         }
                       })
@@ -396,7 +396,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
                 const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
                 if (errorMsg === null) {
                   throw new Error('Should throw an error as the renewalLimit is reached');
-                } else if (!errorMsg.match('Item not renewedLoan cannot be renewed because: renewal date falls outside of the date ranges in the loan policy')) {
+                } else if (!errorMsg.match('Item not renewedrenewal date falls outside of the date ranges in the loan policy')) {
                   throw new Error('Expected Loan cannot be renewed because: renewal date falls outside of the date ranges in the loan policy error message');
                 }
               })
