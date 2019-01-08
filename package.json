@@ -33,7 +33,7 @@
     "@folio/stripes": "~1.1.0",
     "@folio/tags": "~1.2.0",
     "@folio/users": "~2.18.0",
-    "react": "~16.6.3",
+    "react": "~16.7.0",
     "react-dom": "~16.6.3",
     "react-redux": "~5.1.1",
     "redux": "~3.7.2"
