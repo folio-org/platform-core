@@ -22,7 +22,7 @@
     "@folio/checkout": "~1.4.0",
     "@folio/circulation": "~1.4.0",
     "@folio/developer": "~1.6.0",
-    "@folio/inventory": "~1.5.1",
+    "@folio/inventory": "~1.5.2",
     "@folio/myprofile": "~1.2.0",
     "@folio/organization": "~2.6.0",
     "@folio/plugin-find-instance": "~1.2.0",
@@ -32,7 +32,7 @@
     "@folio/servicepoints": "~1.2.0",
     "@folio/stripes": "~1.1.0",
     "@folio/tags": "~1.2.0",
-    "@folio/users": "~2.18.0"
+    "@folio/users": "~2.19.0"
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^3.2.1",
