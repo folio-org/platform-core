@@ -592,9 +592,27 @@
     react-intl "^2.7.2"
     redux-form "^7.0.3"
 
-"@folio/users@^2.17.0", "@folio/users@~2.18.0":
+"@folio/users@^2.17.0":
   version "2.18.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.18.0.tgz#5178a149e75ded233317613053c0445a127a1df9"
+  dependencies:
+    "@folio/react-intl-safe-html" "^1.0.0"
+    hashcode "^1.0.3"
+    lodash "^4.17.4"
+    moment "^2.22.2"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-hot-loader "^4.3.12"
+    react-intl "^2.5.0"
+    react-router-dom "^4.0.0"
+    redux-form "^7.0.3"
+    uuid "^3.0.1"
+  optionalDependencies:
+    "@folio/plugin-find-user" "^1.1.0"
+
+"@folio/users@~2.19.0":
+  version "2.19.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.19.0.tgz#c4ecdb29e49d3af645375995bbc1be924d32c86e"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
