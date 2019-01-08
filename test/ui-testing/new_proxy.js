@@ -1,8 +1,7 @@
 /* global it describe Nightmare before after */
-module.exports.test = function foo(uiTestCtx) {
+module.exports.test = function foo(uiTestCtx, nightmareX) {
   describe('Module test: new_proxy', function bar() {
     const { config, helpers: { login, openApp, logout }, meta: { testVersion } } = uiTestCtx;
-
     const nightmare = new Nightmare(config.nightmare);
 
     this.timeout(Number(config.test_timeout));
@@ -59,7 +58,7 @@ module.exports.test = function foo(uiTestCtx) {
       });
 
       it('should add a proxy for user 1', (done) => {
-        const selector = '#OverlayContainer #list-users div[role="listitem"]:nth-child(1) div[role=gridcell]:nth-child(4)';
+        const selector = '#OverlayContainer #list-users div[role="listitem"]:nth-child(1) div[role=gridcell]:nth-child(5)';
         nightmare
           .wait('#input-user-search')
           .type('#input-user-search', '0')
@@ -109,20 +108,33 @@ module.exports.test = function foo(uiTestCtx) {
           .type('#input-user-search', proxyId)
           .wait('button[type=submit]')
           .click('button[type=submit]')
-          .wait(`#list-users div[role="listitem"] > a > div[title="${proxyId}"]`)
-          .click(`#list-users div[role="listitem"] > a > div[title="${proxyId}"]`)
-          .wait('#accordion-toggle-button-proxySection')
-          .wait('#clickable-edituser')
-          .click('#clickable-edituser')
-          .wait('#accordion-toggle-button-proxy')
-          .click('#accordion-toggle-button-proxy')
-          .wait(`#proxy a[href*="${userIds[0].uuid}"]`)
-          .xclick(`id("proxy")//a[contains(@href, "${userIds[0].uuid}")]/../../../..//button`)
-          .wait('#clickable-deleteproxies-confirmation-confirm')
-          .click('#clickable-deleteproxies-confirmation-confirm')
-          .wait('#clickable-updateuser')
-          .click('#clickable-updateuser')
-          .then(() => { done(); })
+          .wait('#list-users[data-total-count="1"]')
+          .evaluate((pid) => {
+            const node = Array.from(
+              document.querySelectorAll('#list-users div[role="listitem"] > a > div[role="gridcell"]')
+            ).find(e => e.textContent === pid);
+            if (node) {
+              node.parentElement.click();
+            } else {
+              throw new Error(`Could not find the user ${pid} to edit`);
+            }
+          }, proxyId)
+          .then(() => {
+            nightmare
+              .wait('#accordion-toggle-button-proxySection')
+              .wait('#clickable-edituser')
+              .click('#clickable-edituser')
+              .wait('#accordion-toggle-button-proxy')
+              .click('#accordion-toggle-button-proxy')
+              .wait(`#proxy a[href*="${userIds[0].uuid}"]`)
+              .xclick(`id("proxy")//a[contains(@href, "${userIds[0].uuid}")]/../../../..//button`)
+              .wait('#clickable-deleteproxies-confirmation-confirm')
+              .click('#clickable-deleteproxies-confirmation-confirm')
+              .wait('#clickable-updateuser')
+              .click('#clickable-updateuser')
+              .then(() => { done(); })
+              .catch(done);
+          })
           .catch(done);
       });
     });
