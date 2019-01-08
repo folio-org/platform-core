@@ -7725,7 +7725,7 @@ react-dom@^16.3.0:
     prop-types "^15.6.2"
     scheduler "^0.12.0"
 
-react-dom@~16.6.0, react-dom@~16.6.3:
+react-dom@~16.6.3:
   version "16.6.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-dom/-/react-dom-16.6.3.tgz#8fa7ba6883c85211b8da2d0efeffc9d3825cccc0"
   dependencies:
@@ -7916,7 +7916,7 @@ react@^16.2.0, react@^16.3.0:
     prop-types "^15.6.2"
     scheduler "^0.12.0"
 
-react@~16.6.0, react@~16.6.3:
+react@~16.6.3:
   version "16.6.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/react/-/react-16.6.3.tgz#25d77c91911d6bbdd23db41e70fb094cc1e0871c"
   dependencies:
