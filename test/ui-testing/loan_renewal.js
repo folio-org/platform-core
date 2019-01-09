@@ -52,7 +52,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
         helpers.circSettingsCheckoutByBarcodeAndUsername(nightmare, config, done);
       });
 
-      it('should create a new loan policy with renewalLimit of 1', (done) => {
+      it(`should create a new loan policy(${policyName}) with renewalLimit of 1`, (done) => {
         nightmare
           .wait(config.select.settings)
           .click(config.select.settings)
@@ -64,19 +64,16 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .click('#clickable-create-entry')
           .wait('#input_policy_name')
           .type('#input_policy_name', policyName)
-          .wait('#input_loan_period')
-          .type('#input_loan_period', loanPeriod)
-          .wait('#select_policy_period')
-          .click('#select_policy_period')
-          .wait(222)
-          .type('#select_policy_period', 'mo')
-          .wait(222)
+          .wait('select[name="loansPolicy.period.intervalId"]')
+          .select('select[name="loansPolicy.period.intervalId"]', "Minutes")
+          .wait('input[name="loansPolicy.period.duration"')
+          .type('input[name="loansPolicy.period.duration"', loanPeriod)
           .wait('#input_allowed_renewals')
           .type('#input_allowed_renewals', renewalLimit)
           .wait('#select_renew_from')
           .type('#select_renew_from', 'cu')
-          .wait('#clickable-save-entry')
-          .click('#clickable-save-entry')
+          .wait('#clickable-save-fixedDueDateSchedule')
+          .click('#clickable-save-fixedDueDateSchedule')
           .wait(1000)
           .evaluate(() => {
             const sel = document.querySelector('div[class^="textfieldError"]');
@@ -139,6 +136,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .click('#clickable-checkout-module')
           .wait('#input-patron-identifier')
           .type('#input-patron-identifier', userid)
+          .wait(111)
           .wait('#clickable-find-patron')
           .click('#clickable-find-patron')
           .wait(() => {
@@ -269,8 +267,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .type('#input_allowed_renewals', 2)
               .wait('#select_renew_from')
               .type('#select_renew_from', 'sy')
-              .wait('#clickable-save-entry')
-              .click('#clickable-save-entry')
+              .wait('#clickable-save-fixedDueDateSchedule')
+              .click('#clickable-save-fixedDueDateSchedule')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="textfieldError"]');
@@ -338,7 +336,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .catch(done);
       });
 
-      it('Assign the fixedDueDateSchedule to the loan policy', (done) => {
+      it(`Assign the fixedDueDateSchedule(${scheduleName}) to the loan policy`, (done) => {
         nightmare
           .wait('a[href="/settings/circulation/loan-policies"]')
           .click('a[href="/settings/circulation/loan-policies"]')
@@ -365,8 +363,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .type('#input_loan_profile', 'fi')
               .wait('#input_loansPolicy_fixedDueDateSchedule')
               .type('#input_loansPolicy_fixedDueDateSchedule', scheduleName)
-              .wait('#clickable-save-entry')
-              .click('#clickable-save-entry')
+              .wait('#clickable-save-fixedDueDateSchedule')
+              .click('#clickable-save-fixedDueDateSchedule')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="feedbackError"]');
@@ -527,8 +525,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .click('#clickable-edit-item')
               .wait('#clickable-delete-entry')
               .click('#clickable-delete-entry')
-              .wait('#clickable-delete-item-confirmation-confirm')
-              .click('#clickable-delete-item-confirmation-confirm')
+              .wait('[data-test-confirmation-modal-confirm-button]')
+              .click('[data-test-confirmation-modal-confirm-button]')
               .wait(3000)
               .then(done)
               .catch(done);
@@ -573,8 +571,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .click('#clickable-edit-item')
               .wait('#clickable-delete-item')
               .click('#clickable-delete-item')
-              .wait('#clickable-deletefixedduedateschedule-confirmation-confirm')
-              .click('#clickable-deletefixedduedateschedule-confirmation-confirm')
+              .wait('[data-test-confirmation-modal-confirm-button]')
+              .click('[data-test-confirmation-modal-confirm-button]')
               .then(done)
               .catch(done);
           })
