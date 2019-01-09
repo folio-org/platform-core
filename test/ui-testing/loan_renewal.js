@@ -37,7 +37,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
       const policyName = `test-policy-${Math.floor(Math.random() * 10000)}`;
       const scheduleName = `test-schedule-${Math.floor(Math.random() * 10000)}`;
       const renewalLimit = 1;
-      const loanPeriod = 1;
+      const loanPeriod = 2;
       const nextMonthValue = moment().add(65, 'days').format('YYYY-MM-DD');
       const tomorrowValue = moment().add(3, 'days').format('YYYY-MM-DD');
       const dayAfterValue = moment().add(4, 'days').format('YYYY-MM-DD');
@@ -65,7 +65,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .wait('#input_policy_name')
           .type('#input_policy_name', policyName)
           .wait('select[name="loansPolicy.period.intervalId"]')
-          .select('select[name="loansPolicy.period.intervalId"]', "Minutes")
+          .select('select[name="loansPolicy.period.intervalId"]', 'Minutes')
           .wait('input[name="loansPolicy.period.duration"')
           .type('input[name="loansPolicy.period.duration"', loanPeriod)
           .wait('#input_allowed_renewals')
@@ -227,7 +227,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
                 const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
                 if (errorMsg === null) {
                   throw new Error('Should throw an error as the renewalLimit is reached');
-                } else if (!errorMsg.match(`Item not renewedloan has reached its maximum number of renewals`)) {
+                } else if (!errorMsg.match('Item not renewedloan has reached its maximum number of renewals')) {
                   throw new Error('Expected only the renewal failure error message');
                 }
               }, policyName)
@@ -525,8 +525,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .click('#clickable-edit-item')
               .wait('#clickable-delete-entry')
               .click('#clickable-delete-entry')
-              .wait('[data-test-confirmation-modal-confirm-button]')
-              .click('[data-test-confirmation-modal-confirm-button]')
+              .wait('#clickable-delete-item-confirmation-confirm')
+              .click('#clickable-delete-item-confirmation-confirm')
               .wait(3000)
               .then(done)
               .catch(done);
@@ -571,8 +571,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .click('#clickable-edit-item')
               .wait('#clickable-delete-item')
               .click('#clickable-delete-item')
-              .wait('[data-test-confirmation-modal-confirm-button]')
-              .click('[data-test-confirmation-modal-confirm-button]')
+              .wait('#clickable-deletefixedduedateschedule-confirmation-confirm')
+              .click('#clickable-deletefixedduedateschedule-confirmation-confirm')
               .then(done)
               .catch(done);
           })
