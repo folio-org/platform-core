@@ -37,7 +37,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
       const policyName = `test-policy-${Math.floor(Math.random() * 10000)}`;
       const scheduleName = `test-schedule-${Math.floor(Math.random() * 10000)}`;
       const renewalLimit = 1;
-      const loanPeriod = 1;
+      const loanPeriod = 2;
       const nextMonthValue = moment().add(65, 'days').format('YYYY-MM-DD');
       const tomorrowValue = moment().add(3, 'days').format('YYYY-MM-DD');
       const dayAfterValue = moment().add(4, 'days').format('YYYY-MM-DD');
@@ -52,7 +52,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
         helpers.circSettingsCheckoutByBarcodeAndUsername(nightmare, config, done);
       });
 
-      it('should create a new loan policy with renewalLimit of 1', (done) => {
+      it(`should create a new loan policy(${policyName}) with renewalLimit of 1`, (done) => {
         nightmare
           .wait(config.select.settings)
           .click(config.select.settings)
@@ -64,19 +64,16 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .click('#clickable-create-entry')
           .wait('#input_policy_name')
           .type('#input_policy_name', policyName)
-          .wait('#input_loan_period')
-          .type('#input_loan_period', loanPeriod)
-          .wait('#select_policy_period')
-          .click('#select_policy_period')
-          .wait(222)
-          .type('#select_policy_period', 'mo')
-          .wait(222)
+          .wait('select[name="loansPolicy.period.intervalId"]')
+          .select('select[name="loansPolicy.period.intervalId"]', 'Minutes')
+          .wait('input[name="loansPolicy.period.duration"')
+          .type('input[name="loansPolicy.period.duration"', loanPeriod)
           .wait('#input_allowed_renewals')
           .type('#input_allowed_renewals', renewalLimit)
           .wait('#select_renew_from')
           .type('#select_renew_from', 'cu')
-          .wait('#clickable-save-entry')
-          .click('#clickable-save-entry')
+          .wait('#clickable-save-fixedDueDateSchedule')
+          .click('#clickable-save-fixedDueDateSchedule')
           .wait(1000)
           .evaluate(() => {
             const sel = document.querySelector('div[class^="textfieldError"]');
@@ -139,6 +136,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .click('#clickable-checkout-module')
           .wait('#input-patron-identifier')
           .type('#input-patron-identifier', userid)
+          .wait(111)
           .wait('#clickable-find-patron')
           .click('#clickable-find-patron')
           .wait(() => {
@@ -229,7 +227,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
                 const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
                 if (errorMsg === null) {
                   throw new Error('Should throw an error as the renewalLimit is reached');
-                } else if (!errorMsg.match(`Item not renewedloan has reached its maximum number of renewals`)) {
+                } else if (!errorMsg.match('Item not renewedloan has reached its maximum number of renewals')) {
                   throw new Error('Expected only the renewal failure error message');
                 }
               }, policyName)
@@ -269,8 +267,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .type('#input_allowed_renewals', 2)
               .wait('#select_renew_from')
               .type('#select_renew_from', 'sy')
-              .wait('#clickable-save-entry')
-              .click('#clickable-save-entry')
+              .wait('#clickable-save-fixedDueDateSchedule')
+              .click('#clickable-save-fixedDueDateSchedule')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="textfieldError"]');
@@ -338,7 +336,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .catch(done);
       });
 
-      it('Assign the fixedDueDateSchedule to the loan policy', (done) => {
+      it(`Assign the fixedDueDateSchedule(${scheduleName}) to the loan policy`, (done) => {
         nightmare
           .wait('a[href="/settings/circulation/loan-policies"]')
           .click('a[href="/settings/circulation/loan-policies"]')
@@ -365,8 +363,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .type('#input_loan_profile', 'fi')
               .wait('#input_loansPolicy_fixedDueDateSchedule')
               .type('#input_loansPolicy_fixedDueDateSchedule', scheduleName)
-              .wait('#clickable-save-entry')
-              .click('#clickable-save-entry')
+              .wait('#clickable-save-fixedDueDateSchedule')
+              .click('#clickable-save-fixedDueDateSchedule')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="feedbackError"]');
