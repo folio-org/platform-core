@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@folio/checkin": "~1.4.0",
-    "@folio/checkout": "~1.4.0",
+    "@folio/checkout": "~1.5.0",
     "@folio/circulation": "~1.4.0",
     "@folio/developer": "~1.6.0",
     "@folio/inventory": "~1.5.2",
@@ -27,7 +27,7 @@
     "@folio/organization": "~2.6.0",
     "@folio/plugin-find-instance": "~1.2.0",
     "@folio/plugin-find-user": "~1.4.0",
-    "@folio/requests": "~1.5.0",
+    "@folio/requests": "~1.6.0",
     "@folio/search": "~1.4.0",
     "@folio/servicepoints": "~1.2.0",
     "@folio/stripes": "~1.1.0",
