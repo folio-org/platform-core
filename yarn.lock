@@ -286,15 +286,12 @@
     react-to-print "^1.0.21"
     redux-form "^7.0.3"
 
-"@folio/developer@~1.4.0":
-  version "1.4.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/developer/-/developer-1.4.0.tgz#e1de65905d5311eb7fc03a40121564bb0b4ce43c"
+"@folio/developer@~1.6.0":
+  version "1.6.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/developer/-/developer-1.6.0.tgz#a75fd76f87159ccbd6b919ab408b710b48e02c6c"
   dependencies:
-    "@folio/stripes-components" "^3.0.0"
-    "@folio/stripes-smart-components" "^1.4.0"
     lodash "^4.17.4"
     prop-types "^15.6.0"
-    react-hotkeys "^0.10.0"
     react-router-dom "^4.0.0"
     redux-form "^7.0.3"
 
@@ -2872,7 +2869,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.5.2, create-react-class@^15.5.3, create-react-class@^15.6.0, create-react-class@^15.6.2:
+create-react-class@^15.5.3, create-react-class@^15.6.0, create-react-class@^15.6.2:
   version "15.6.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   dependencies:
@@ -6287,7 +6284,7 @@ lodash@^3.2.0:
   version "3.10.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.0.0, lodash@^4.11.1, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.17.10, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.5.0, lodash@^4.6.1:
+lodash@^4.0.0, lodash@^4.11.1, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.17.10, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.5.0, lodash@^4.6.1:
   version "4.17.11"
   resolved "https://repository.folio.org/repository/npm-ci-all/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
@@ -6683,7 +6680,7 @@ moment-timezone@^0.5.14, moment-timezone@^0.5.17:
   version "2.22.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
 
-mousetrap@^1.5.2, mousetrap@^1.6.1:
+mousetrap@^1.6.1:
   version "1.6.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/mousetrap/-/mousetrap-1.6.2.tgz#caadd9cf886db0986fb2fee59a82f6bd37527587"
 
@@ -8226,15 +8223,6 @@ react-highlighter@^0.4.2:
     create-react-class "^15.6.2"
     escape-string-regexp "^1.0.5"
     prop-types "^15.6.0"
-
-react-hotkeys@^0.10.0:
-  version "0.10.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-hotkeys/-/react-hotkeys-0.10.0.tgz#d1e78bd63f16d6db58d550d33c8eb071f35d94fb"
-  dependencies:
-    create-react-class "^15.5.2"
-    lodash "^4.13.1"
-    mousetrap "^1.5.2"
-    prop-types "^15.5.8"
 
 react-intl@^2.3.0, react-intl@^2.4.0:
   version "2.6.0"
