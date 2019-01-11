@@ -41,7 +41,7 @@
     "@folio/stripes-core": "~2.12.0"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^2.0.0",
+    "@folio/eslint-config-stripes": "^3.0.0",
     "@folio/stripes-cli": "^1.4.0",
     "eslint": "^4.19.1",
     "moment": "^2.22.2"
