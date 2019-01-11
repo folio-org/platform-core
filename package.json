@@ -29,7 +29,7 @@
     "@folio/plugin-find-user": "~1.2.0",
     "@folio/requests": "~1.2.1",
     "@folio/search": "~1.2.1",
-    "@folio/servicepoints": "~1.0.2",
+    "@folio/servicepoints": "~1.2.0",
     "@folio/stripes-components": "~3.1.0",
     "@folio/stripes-core": "~2.12.0",
     "@folio/stripes-smart-components": "~1.7.3",
