@@ -16,11 +16,11 @@ module.exports.test = (uiTestCtx, nightmareX) => {
       ).find(e => e.textContent === `${fbarcode}`));
     };
 
-    const findUserNameCell = (username) => {
-      const usernameCell = Array.from(
+    const findUsersBarcodeCell = (barcode) => {
+      const userCell = Array.from(
         document.querySelectorAll('#list-users div[role="listitem"]')
-      ).find(e => e.childNodes[0].children[4].textContent === `${username}`);
-      usernameCell.querySelector('a').click();
+      ).find(e => e.childNodes[0].children[2].textContent === `${barcode}`);
+      userCell.querySelector('a').click();
     };
 
     const tickRenewCheckbox = (fbarcode) => {
@@ -33,7 +33,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
 
     describe('Login > Update settings > Create loan policy > Apply Loan rule > Find Active user > Create inventory record > Create holdings record > Create item record > Checkout item > Confirm checkout > Renew success > Renew failure > Renew failure > create fixedDueDateSchedule > Assign fdds to loan policy > Renew failure > Edit loan policy > Renew failure > Check in > delete loan policy > delete fixedDueDateSchedule > logout\n', function descStart() {
       let userid = 'user';
-      const uselector = "#list-users div[role='listitem']:nth-of-type(1) > a > div:nth-of-type(5)";
+      const uselector = "#list-users div[role='listitem']:nth-of-type(1) > a > div:nth-of-type(3)";
       const policyName = `test-policy-${Math.floor(Math.random() * 10000)}`;
       const scheduleName = `test-schedule-${Math.floor(Math.random() * 10000)}`;
       const renewalLimit = 1;
@@ -183,7 +183,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .wait('button[type=submit]')
           .click('button[type=submit]')
           .wait('#list-users div[role="gridcell"]')
-          .evaluate(findUserNameCell, userid)
+          .evaluate(findUsersBarcodeCell, userid)
           .then(() => {
             nightmare
               .wait('#clickable-viewcurrentloans')
