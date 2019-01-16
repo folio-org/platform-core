@@ -504,6 +504,34 @@
     redux-form "^7.0.3"
     typeface-source-sans-pro "^0.0.44"
 
+"@folio/stripes-components@^5.0.1":
+  version "5.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-5.0.1.tgz#2248171bdb4a51126476d3b9d8929ea94dac7860"
+  dependencies:
+    "@folio/stripes-react-hotkeys" "^2.0.0"
+    classnames "^2.2.5"
+    dom-helpers "^3.2.1"
+    downshift "^2.0.16"
+    hoist-non-react-statics "^3.1.0"
+    json2csv "^4.2.1"
+    lodash "^4.17.4"
+    memoize-one "^4.0.0"
+    moment "^2.17.1"
+    moment-range "^3.0.3"
+    moment-timezone "^0.5.14"
+    normalize.css "^7.0.0"
+    prop-types "^15.5.10"
+    prop-types-extra "^1.1.0"
+    query-string "^6.1.0"
+    react-flexbox-grid "1.1.3"
+    react-highlighter "^0.4.2"
+    react-intl "^2.5.0"
+    react-overlays "^0.8.3"
+    react-router-dom "^4.1.1"
+    react-tether "^1.0.1"
+    react-transition-group "^2.2.1"
+    tai-password-strength "^1.1.1"
+
 "@folio/stripes-connect@^3.1.2", "@folio/stripes-connect@^3.1.3":
   version "3.2.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-connect/-/stripes-connect-3.2.1.tgz#f28241273718f7340acfa5d0c50f24c127a24d43"
@@ -517,7 +545,20 @@
     redux-crud "^3.0.0"
     uuid "^3.0.1"
 
-"@folio/stripes-core@^2.10.0", "@folio/stripes-core@~2.12.0":
+"@folio/stripes-connect@^3.4.0":
+  version "3.4.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-connect/-/stripes-connect-3.4.0.tgz#7be2dd1cfeff9bc2950e8fe5759fc633bf0941cd"
+  dependencies:
+    "@folio/stripes-core" "^2.15.0 || ^3.0.0"
+    isomorphic-fetch "^2.2.1"
+    lodash "^4.17.2"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-redux "^5.0.2"
+    redux "^3.6.0"
+    uuid "^3.0.1"
+
+"@folio/stripes-core@^2.10.0", "@folio/stripes-core@^2.15.0 || ^3.0.0", "@folio/stripes-core@^3.0.0", "@folio/stripes-core@~2.12.0":
   version "2.12.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-2.12.0.tgz#25ad763c61806be7f2c58b790943c42dfa6d8ca4"
   dependencies:
@@ -614,9 +655,25 @@
     react-router "^4.1.1"
     redux-form "^7.0.3"
 
+"@folio/stripes-form@^1.3.0":
+  version "1.3.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-form/-/stripes-form-1.3.0.tgz#f4ca2f6f1eaa015495e2757a267ba7d8a16d13ce"
+  dependencies:
+    "@folio/stripes-components" "^5.0.1"
+    "@folio/stripes-core" "^3.0.0"
+    flat "^4.0.0"
+    prop-types "^15.5.10"
+    react-intl "^2.4.0"
+    react-router "^4.1.1"
+    redux-form "^7.0.3"
+
 "@folio/stripes-logger@^0.0.2":
   version "0.0.2"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-logger/-/stripes-logger-0.0.2.tgz#7ca7bb45c6c3eea7c81f65abb93a45d1566b0ebb"
+
+"@folio/stripes-logger@^1.0.0":
+  version "1.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-logger/-/stripes-logger-1.0.0.tgz#588cdf4d27f90ce99389ccbb87a221fa6dd9e683"
 
 "@folio/stripes-react-hotkeys@^1.1.0":
   version "1.1.0"
@@ -627,26 +684,37 @@
     mousetrap "^1.6.1"
     prop-types "^15.5.10"
 
-"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0", "@folio/stripes-smart-components@~1.7.3":
-  version "1.7.3"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-1.7.3.tgz#4792ea55a5434acecdc1e84e0f7430ecc46fde5b"
+"@folio/stripes-react-hotkeys@^2.0.0":
+  version "2.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-react-hotkeys/-/stripes-react-hotkeys-2.0.0.tgz#5b30a6f59b6e45c6c5862e98532a60905fabdf98"
+  dependencies:
+    create-react-class "^15.5.3"
+    lodash "^4.17.4"
+    mousetrap "^1.6.1"
+    prop-types "^15.5.10"
+
+"@folio/stripes-smart-components@^1.4.0", "@folio/stripes-smart-components@^1.4.15", "@folio/stripes-smart-components@^1.4.19", "@folio/stripes-smart-components@^1.4.22", "@folio/stripes-smart-components@^1.4.23", "@folio/stripes-smart-components@^1.5.0", "@folio/stripes-smart-components@^1.6.0", "@folio/stripes-smart-components@~2.0.0":
+  version "2.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-2.0.0.tgz#6180ec6f1f39666d79d3e7a425e9fcef4910f6da"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
-    "@folio/stripes-components" "^3.0.0"
-    "@folio/stripes-form" "^0.9.0"
+    "@folio/stripes-components" "^5.0.1"
+    "@folio/stripes-connect" "^3.4.0"
+    "@folio/stripes-core" "^3.0.0"
+    "@folio/stripes-form" "^1.3.0"
+    "@folio/stripes-logger" "^1.0.0"
     classnames "^2.2.6"
     lodash "^4.17.4"
     moment "^2.22.1"
     moment-timezone "^0.5.17"
     prop-types "^15.5.10"
+    prop-types-extra "^1.1.0"
     query-string "^5.0.0"
-    react-bootstrap "0.32.1"
     react-intl "^2.4.0"
     react-router "^4.2.0"
     react-router-dom "^4.0.0"
     react-transition-group "^2.4.0"
     redux-form "^7.0.3"
-    tai-password-strength "^1.1.1"
 
 "@folio/stripes-testing@^1.0.0":
   version "1.0.1"
@@ -1918,7 +1986,7 @@ babel-register@^6.26.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@^6.0.0, babel-runtime@^6.11.6, babel-runtime@^6.18.0, babel-runtime@^6.2.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
+babel-runtime@^6.0.0, babel-runtime@^6.18.0, babel-runtime@^6.2.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   dependencies:
@@ -3352,7 +3420,7 @@ dom-converter@~0.1:
   dependencies:
     utila "~0.3"
 
-dom-helpers@^3.2.0, dom-helpers@^3.2.1, dom-helpers@^3.3.1:
+dom-helpers@^3.2.1, dom-helpers@^3.3.1:
   version "3.3.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/dom-helpers/-/dom-helpers-3.3.1.tgz#fc1a4e15ffdf60ddde03a480a9c0fece821dd4a6"
 
@@ -4853,6 +4921,12 @@ hoist-non-react-statics@^3.0.0:
   dependencies:
     react-is "^16.3.2"
 
+hoist-non-react-statics@^3.1.0:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.2.1.tgz#c09c0555c84b38a7ede6912b61efddafd6e75e1e"
+  dependencies:
+    react-is "^16.3.2"
+
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/home-or-tmp/-/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -5961,10 +6035,6 @@ karma@^3.0.0:
 kew@^0.7.0:
   version "0.7.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/kew/-/kew-0.7.0.tgz#79d93d2d33363d6fdd2970b335d9141ad591d79b"
-
-keycode@^2.1.2:
-  version "2.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/keycode/-/keycode-2.2.0.tgz#3d0af56dc7b8b8e5cba8d0a97f107204eec22b04"
 
 keypress@0.1.x:
   version "0.1.0"
@@ -7917,9 +7987,9 @@ promise@^7.0.1, promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types-extra@^1.0.1:
+prop-types-extra@^1.0.1, prop-types-extra@^1.1.0:
   version "1.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/prop-types-extra/-/prop-types-extra-1.1.0.tgz#32609910ea2dcf190366bacd3490d5a6412a605f"
+  resolved "https://registry.yarnpkg.com/prop-types-extra/-/prop-types-extra-1.1.0.tgz#32609910ea2dcf190366bacd3490d5a6412a605f"
   dependencies:
     react-is "^16.3.2"
     warning "^3.0.0"
@@ -8149,23 +8219,6 @@ react-barcode@^1.3.2:
     jsbarcode "^3.8.0"
     prop-types "^15.5.10"
 
-react-bootstrap@0.32.1:
-  version "0.32.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-bootstrap/-/react-bootstrap-0.32.1.tgz#60624c1b48a39d773ef6cce6421a4f33ecc166bb"
-  dependencies:
-    babel-runtime "^6.11.6"
-    classnames "^2.2.5"
-    dom-helpers "^3.2.0"
-    invariant "^2.2.1"
-    keycode "^2.1.2"
-    prop-types "^15.5.10"
-    prop-types-extra "^1.0.1"
-    react-overlays "^0.8.0"
-    react-prop-types "^0.4.0"
-    react-transition-group "^2.0.0"
-    uncontrollable "^4.1.0"
-    warning "^3.0.0"
-
 react-codemirror2@^1.0.0:
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-codemirror2/-/react-codemirror2-1.0.0.tgz#b529a6c5c91219f92c751f43a17721cdaf36b05f"
@@ -8246,6 +8299,16 @@ react-intl@^2.3.0, react-intl@^2.4.0:
     intl-relativeformat "^2.1.0"
     invariant "^2.1.1"
 
+react-intl@^2.5.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.8.0.tgz#20b0c1f01d1292427768aa8ec9e51ab7e36503ba"
+  dependencies:
+    hoist-non-react-statics "^2.5.5"
+    intl-format-cache "^2.0.5"
+    intl-messageformat "^2.1.0"
+    intl-relativeformat "^2.1.0"
+    invariant "^2.1.1"
+
 react-is@^16.3.2, react-is@^16.5.2:
   version "16.5.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-is/-/react-is-16.5.2.tgz#e2a7b7c3f5d48062eb769fcb123505eb928722e3"
@@ -8254,7 +8317,7 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
-react-overlays@^0.8.0, react-overlays@^0.8.3:
+react-overlays@^0.8.3:
   version "0.8.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-overlays/-/react-overlays-0.8.3.tgz#fad65eea5b24301cca192a169f5dddb0b20d3ac5"
   dependencies:
@@ -8263,12 +8326,6 @@ react-overlays@^0.8.0, react-overlays@^0.8.3:
     prop-types "^15.5.10"
     prop-types-extra "^1.0.1"
     react-transition-group "^2.2.0"
-    warning "^3.0.0"
-
-react-prop-types@^0.4.0:
-  version "0.4.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-prop-types/-/react-prop-types-0.4.0.tgz#f99b0bfb4006929c9af2051e7c1414a5c75b93d0"
-  dependencies:
     warning "^3.0.0"
 
 react-proxy@^1.1.7:
@@ -8365,7 +8422,7 @@ react-transform-hmr@^1.0.3:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react-transition-group@^2.0.0, react-transition-group@^2.2.0, react-transition-group@^2.2.1, react-transition-group@^2.4.0:
+react-transition-group@^2.2.0, react-transition-group@^2.2.1, react-transition-group@^2.4.0:
   version "2.4.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-transition-group/-/react-transition-group-2.4.0.tgz#1d9391fabfd82e016f26fabd1eec329dbd922b5a"
   dependencies:
@@ -9752,12 +9809,6 @@ ultron@~1.1.0:
 unc-path-regex@^0.1.0:
   version "0.1.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/unc-path-regex/-/unc-path-regex-0.1.2.tgz#e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa"
-
-uncontrollable@^4.1.0:
-  version "4.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/uncontrollable/-/uncontrollable-4.1.0.tgz#e0358291252e1865222d90939b19f2f49f81c1a9"
-  dependencies:
-    invariant "^2.1.0"
 
 underscore.string.fp@^1.0.4:
   version "1.0.4"
