@@ -13,12 +13,13 @@ pipeline {
 
   environment {
     tenant = "platform_core_${env.BRANCH_NAME}_${env.BUILD_NUMBER}"
-    npmConfig = 'jenkins-npm-folio'
+    npmConfig = 'jenkins-npm-folioci'
   }
 
   options {
     timeout(30)
-    buildDiscarder(logRotator(numToKeepStr: '30'))
+    buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '10', 
+                   daysToKeepStr: '', numToKeepStr: '30'))
   }
 
   agent {
@@ -45,6 +46,21 @@ pipeline {
         buildStripesPlatform(params.OKAPI_URL,env.tenant)
       }
     }
+
+    stage('Publish Snapshot NPM') {
+      when {
+        buildingTag()
+      }
+      steps {
+        sh 'rm -rf output artifacts ci node_modules yarn.lock'
+        withCredentials([string(credentialsId: env.npmConfig,variable: 'NPM_TOKEN')]) {
+          withNPM(npmrcConfig: env.npmConfig) {
+            sh 'npm publish'
+          }
+        }
+      }
+    }
+
   } // end stages
 
   post {
