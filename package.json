@@ -26,7 +26,7 @@
     "@folio/myprofile": "~0.2.1",
     "@folio/organization": "~2.3.3",
     "@folio/plugin-find-instance": "~1.0.1",
-    "@folio/plugin-find-user": "~1.2.0",
+    "@folio/plugin-find-user": "~1.5.0",
     "@folio/requests": "~1.2.1",
     "@folio/search": "~1.2.1",
     "@folio/servicepoints": "~1.0.2",
