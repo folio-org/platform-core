@@ -2,7 +2,7 @@
 
 const moment = require('moment');
 
-module.exports.test = (uiTestCtx, nightmareX) => {
+module.exports.test = (uiTestCtx) => {
   describe('Tests to validate the loan renewals', function descRoot() {
     const { config, helpers } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
@@ -16,11 +16,11 @@ module.exports.test = (uiTestCtx, nightmareX) => {
       ).find(e => e.textContent === `${fbarcode}`));
     };
 
-    const findUsersBarcodeCell = (barcode) => {
-      const userCell = Array.from(
+    const findUserNameCell = (username) => {
+      const usernameCell = Array.from(
         document.querySelectorAll('#list-users div[role="listitem"]')
-      ).find(e => e.childNodes[0].children[2].textContent === `${barcode}`);
-      userCell.querySelector('a').click();
+      ).find(e => e.childNodes[0].children[4].textContent === `${username}`);
+      usernameCell.querySelector('a').click();
     };
 
     const tickRenewCheckbox = (fbarcode) => {
@@ -33,7 +33,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
 
     describe('Login > Update settings > Create loan policy > Apply Loan rule > Find Active user > Create inventory record > Create holdings record > Create item record > Checkout item > Confirm checkout > Renew success > Renew failure > Renew failure > create fixedDueDateSchedule > Assign fdds to loan policy > Renew failure > Edit loan policy > Renew failure > Check in > delete loan policy > delete fixedDueDateSchedule > logout\n', function descStart() {
       let userid = 'user';
-      const uselector = "#list-users div[role='listitem']:nth-of-type(1) > a > div:nth-of-type(3)";
+      const uselector = "#list-users div[role='listitem']:nth-of-type(1) > a > div:nth-of-type(5)";
       const policyName = `test-policy-${Math.floor(Math.random() * 10000)}`;
       const scheduleName = `test-schedule-${Math.floor(Math.random() * 10000)}`;
       const renewalLimit = 1;
@@ -52,7 +52,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
         helpers.circSettingsCheckoutByBarcodeAndUsername(nightmare, config, done);
       });
 
-      it(`should create a new loan policy(${policyName}) with renewalLimit of 1`, (done) => {
+      it(`should create a new loan policy (${policyName}) with renewalLimit of 1`, (done) => {
         nightmare
           .wait(config.select.settings)
           .click(config.select.settings)
@@ -72,8 +72,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .type('#input_allowed_renewals', renewalLimit)
           .wait('#select_renew_from')
           .type('#select_renew_from', 'cu')
-          .wait('#clickable-save-fixedDueDateSchedule')
-          .click('#clickable-save-fixedDueDateSchedule')
+          .wait('#clickable-save-entry')
+          .click('#clickable-save-entry')
           .wait(1000)
           .evaluate(() => {
             const sel = document.querySelector('div[class^="textfieldError"]');
@@ -183,7 +183,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .wait('button[type=submit]')
           .click('button[type=submit]')
           .wait('#list-users div[role="gridcell"]')
-          .evaluate(findUsersBarcodeCell, userid)
+          .evaluate(findUserNameCell, userid)
           .then(() => {
             nightmare
               .wait('#clickable-viewcurrentloans')
@@ -267,8 +267,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .type('#input_allowed_renewals', 2)
               .wait('#select_renew_from')
               .type('#select_renew_from', 'sy')
-              .wait('#clickable-save-fixedDueDateSchedule')
-              .click('#clickable-save-fixedDueDateSchedule')
+              .wait('#clickable-save-entry')
+              .click('#clickable-save-entry')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="textfieldError"]');
@@ -363,8 +363,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .type('#input_loan_profile', 'fi')
               .wait('#input_loansPolicy_fixedDueDateSchedule')
               .type('#input_loansPolicy_fixedDueDateSchedule', scheduleName)
-              .wait('#clickable-save-fixedDueDateSchedule')
-              .click('#clickable-save-fixedDueDateSchedule')
+              .wait('#clickable-save-entry')
+              .click('#clickable-save-entry')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="feedbackError"]');
