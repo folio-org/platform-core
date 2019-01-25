@@ -21,7 +21,7 @@
     "@folio/checkin": "~1.2.0",
     "@folio/checkout": "~1.2.0",
     "@folio/circulation": "~1.2.1",
-    "@folio/developer": "~1.4.0",
+    "@folio/developer": "~1.7.0",
     "@folio/inventory": "~1.2.2",
     "@folio/myprofile": "~0.2.1",
     "@folio/organization": "~2.3.3",
