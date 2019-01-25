@@ -72,8 +72,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .type('#input_allowed_renewals', renewalLimit)
           .wait('#select_renew_from')
           .type('#select_renew_from', 'cu')
-          .wait('#clickable-save-fixedDueDateSchedule')
-          .click('#clickable-save-fixedDueDateSchedule')
+          .wait('#clickable-save-entry')
+          .click('#clickable-save-entry')
           .wait(1000)
           .evaluate(() => {
             const sel = document.querySelector('div[class^="textfieldError"]');
@@ -267,8 +267,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .type('#input_allowed_renewals', 2)
               .wait('#select_renew_from')
               .type('#select_renew_from', 'sy')
-              .wait('#clickable-save-fixedDueDateSchedule')
-              .click('#clickable-save-fixedDueDateSchedule')
+              .wait('#clickable-save-entry')
+              .click('#clickable-save-entry')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="textfieldError"]');
@@ -363,8 +363,8 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .type('#input_loan_profile', 'fi')
               .wait('#input_loansPolicy_fixedDueDateSchedule')
               .type('#input_loansPolicy_fixedDueDateSchedule', scheduleName)
-              .wait('#clickable-save-fixedDueDateSchedule')
-              .click('#clickable-save-fixedDueDateSchedule')
+              .wait('#clickable-save-entry')
+              .click('#clickable-save-entry')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="feedbackError"]');
