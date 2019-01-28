@@ -216,12 +216,13 @@
     react-to-print "^1.0.21"
     redux-form "^7.0.3"
 
-"@folio/developer@~1.6.0":
-  version "1.6.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/developer/-/developer-1.6.0.tgz#a75fd76f87159ccbd6b919ab408b710b48e02c6c"
+"@folio/developer@~1.7.0":
+  version "1.7.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/developer/-/developer-1.7.0.tgz#faa4617b7049e80671f530f24685827b34630716"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
+    react-hot-loader "^4.3.12"
     react-router-dom "^4.0.0"
     redux-form "^7.0.3"
 
