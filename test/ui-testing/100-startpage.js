@@ -12,12 +12,11 @@ module.exports.test = (uiTestCtx) => {
         // your actual testing urls will likely be `http://localhost:port/path`
         nightmare.goto(config.url)
           .wait('#clickable-login')
-          .wait(parseInt(process.env.FOLIO_UI_DEBUG) ? parseInt(config.debug_sleep) : 0) // debugging
+          .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 0) // debugging
           .end()
-          .then(function (result) { done(); })
+          .then(() => { done(); })
           .catch(done);
       });
     });
   });
 };
-
