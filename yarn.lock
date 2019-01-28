@@ -237,9 +237,21 @@
     eslint-plugin-react "7.11.0"
     webpack "^4.0.0"
 
-"@folio/inventory@^1.4.0", "@folio/inventory@~1.5.2":
+"@folio/inventory@^1.4.0":
   version "1.5.2"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.5.2.tgz#dd8bcefeafab910eb32752231c8f5ede09adb013"
+  dependencies:
+    lodash "^4.17.4"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-hot-loader "^4.3.12"
+    react-intl "^2.3.0"
+    react-router-dom "^4.0.0"
+    redux-form "^7.0.3"
+
+"@folio/inventory@~1.6.0":
+  version "1.6.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.6.0.tgz#176b45da9bf3fa2bae3f003b0a56f31fd7cd4e69"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
