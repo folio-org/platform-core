@@ -372,7 +372,7 @@
     webpack-bundle-analyzer "^3.0.1"
     yargs "^10.0.3"
 
-"@folio/stripes-components@^4.0.0", "@folio/stripes-components@^4.5.0", "@folio/stripes-components@~4.5.0":
+"@folio/stripes-components@^4.5.0":
   version "4.5.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-4.5.1.tgz#afc3addddc106bc9d221337d426bfb6afeaa4e78"
   dependencies:
@@ -402,7 +402,35 @@
     tai-password-strength "^1.1.1"
     typeface-source-sans-pro "^0.0.44"
 
-"@folio/stripes-connect@^3.1.2", "@folio/stripes-connect@~3.3.1":
+"@folio/stripes-components@^5.0.0", "@folio/stripes-components@^5.0.1", "@folio/stripes-components@~5.0.1":
+  version "5.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-5.0.2.tgz#31b8f823adff2da6f7a426570796079ed7d75a59"
+  dependencies:
+    "@folio/stripes-react-hotkeys" "^2.0.0"
+    classnames "^2.2.5"
+    dom-helpers "^3.2.1"
+    downshift "^2.0.16"
+    hoist-non-react-statics "^3.1.0"
+    json2csv "^4.2.1"
+    lodash "^4.17.4"
+    memoize-one "^5.0.0"
+    moment "^2.17.1"
+    moment-range "^3.0.3"
+    moment-timezone "^0.5.14"
+    normalize.css "^7.0.0"
+    prop-types "^15.5.10"
+    prop-types-extra "^1.1.0"
+    query-string "^6.1.0"
+    react-flexbox-grid "1.1.3"
+    react-highlighter "^0.4.2"
+    react-intl "^2.5.0"
+    react-overlays "^0.8.3"
+    react-router-dom "^4.1.1"
+    react-tether "^1.0.1"
+    react-transition-group "^2.2.1"
+    tai-password-strength "^1.1.1"
+
+"@folio/stripes-connect@^3.1.2":
   version "3.3.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-connect/-/stripes-connect-3.3.1.tgz#85973ad0fd8d9666f58e08882654b147e499e4be"
   dependencies:
@@ -415,7 +443,20 @@
     redux "^3.6.0"
     uuid "^3.0.1"
 
-"@folio/stripes-core@^2.14.0", "@folio/stripes-core@^2.15.0", "@folio/stripes-core@^2.15.1", "@folio/stripes-core@^2.16.0", "@folio/stripes-core@~2.17.0":
+"@folio/stripes-connect@^4.0.0", "@folio/stripes-connect@~4.0.0":
+  version "4.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-connect/-/stripes-connect-4.0.0.tgz#9cd7ffe0ea09a65f02b226165dcc440afe200d29"
+  dependencies:
+    "@folio/stripes-core" "^3.0.0"
+    isomorphic-fetch "^2.2.1"
+    lodash "^4.17.2"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-redux "^5.0.2"
+    redux "^3.6.0"
+    uuid "^3.0.1"
+
+"@folio/stripes-core@^2.15.0", "@folio/stripes-core@^2.16.0":
   version "2.17.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-2.17.1.tgz#b9271125e1d08c63d4d9094445f6a80531e13fe3"
   dependencies:
@@ -501,12 +542,99 @@
     webpack-hot-middleware "^2.22.2"
     webpack-virtual-modules "^0.1.10"
 
-"@folio/stripes-form@^1.0.0", "@folio/stripes-form@~1.2.0":
-  version "1.2.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-form/-/stripes-form-1.2.0.tgz#b2f7bd33fd668154e27f883dbd47ad92d74f01c0"
+"@folio/stripes-core@^3.0.0", "@folio/stripes-core@~3.0.0":
+  version "3.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-3.0.2.tgz#061fb9b809fa405c4d0ffa73c7c5c953824cbce6"
   dependencies:
-    "@folio/stripes-components" "^4.0.0"
-    "@folio/stripes-core" "^2.14.0"
+    "@folio/react-intl-safe-html" "^1.0.2"
+    "@folio/stripes-components" "^5.0.0"
+    "@folio/stripes-connect" "^4.0.0"
+    "@folio/stripes-logger" "^1.0.0"
+    apollo-cache-inmemory "^1.1.1"
+    apollo-client "^2.0.3"
+    apollo-link-http "^1.2.0"
+    autoprefixer "^9.1.1"
+    awesome-typescript-loader "^5.2.0"
+    babel-core "^6.23.1"
+    babel-loader "^7.1.4"
+    babel-plugin-react-transform "^3.0.0"
+    babel-plugin-remove-jsx-attributes "^0.0.2"
+    babel-plugin-transform-decorators-legacy "^1.3.5"
+    babel-polyfill "^6.16.0"
+    babel-preset-env "^1.6.0"
+    babel-preset-react "^6.16.0"
+    babel-preset-react-hmre "^1.1.1"
+    babel-preset-stage-2 "^6.16.0"
+    classnames "^2.2.5"
+    commander "^2.9.0"
+    connect-history-api-fallback "^1.3.0"
+    css-loader "^1.0.0"
+    debug "^4.0.1"
+    duplicate-package-checker-webpack-plugin "^3.0.0"
+    express "^4.14.0"
+    favicons-webpack-plugin "^0.0.9"
+    file-loader "^1.1.11"
+    graphql "^0.11.7"
+    hard-source-webpack-plugin "^0.12.0"
+    history "^4.6.3"
+    html-webpack-plugin "^3.2.0"
+    isomorphic-fetch "^2.2.1"
+    jwt-decode "^2.2.0"
+    localforage "^1.5.6"
+    lodash "^4.16.4"
+    mini-css-extract-plugin "^0.4.0"
+    moment "^2.19.1"
+    moment-timezone "^0.5.14"
+    node-object-hash "^1.2.0"
+    optimize-css-assets-webpack-plugin "^5.0.0"
+    postcss "^7.0.2"
+    postcss-calc "^6.0.0"
+    postcss-color-function "^4.0.0"
+    postcss-custom-media "^6.0.0"
+    postcss-custom-properties "^7.0.0"
+    postcss-import "^12.0.0"
+    postcss-loader "^3.0.0"
+    postcss-media-minmax "^3.0.0"
+    postcss-nesting "^6.0.0"
+    postcss-url "^8.0.0"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react "^16.3.0"
+    react-apollo "^2.1.3"
+    react-cookie "^2.1.4"
+    react-dom "^16.3.0"
+    react-hot-loader "^4.3.10"
+    react-intl "^2.5.0"
+    react-overlays "^0.8.3"
+    react-redux "^5.0.2"
+    react-router "^4.0.0"
+    react-router-dom "^4.0.0"
+    react-titled "^1.0.0"
+    react-transform-catch-errors "^1.0.2"
+    redux "^3.6.0"
+    redux-form "^7.0.3"
+    redux-logger "^3.0.6"
+    redux-observable "^0.15.0"
+    redux-thunk "^2.1.0"
+    rimraf "^2.5.4"
+    rtl-detect "^1.0.2"
+    rxjs "^5.4.3"
+    serialize-javascript "^1.4.0"
+    style-loader "^0.22.1"
+    tapable "^1.0.0"
+    typescript "^2.8.1"
+    uuid "^3.0.0"
+    webpack "^4.10.2"
+    webpack-dev-middleware "^3.1.3"
+    webpack-hot-middleware "^2.22.2"
+    webpack-virtual-modules "^0.1.10"
+
+"@folio/stripes-form@^2.0.0", "@folio/stripes-form@~2.0.0":
+  version "2.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-form/-/stripes-form-2.0.0.tgz#785241be8004db8345d07d28c85cff184f7feff7"
+  dependencies:
+    "@folio/stripes-components" "^5.0.1"
+    "@folio/stripes-core" "^3.0.0"
     flat "^4.0.0"
     prop-types "^15.5.10"
     react-intl "^2.4.0"
@@ -526,15 +654,15 @@
     mousetrap "^1.6.1"
     prop-types "^15.5.10"
 
-"@folio/stripes-smart-components@~1.12.0":
-  version "1.12.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-1.12.0.tgz#f3d25735a7a6a2376741e832fc7b536bdcd3480b"
+"@folio/stripes-smart-components@~2.0.0":
+  version "2.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-2.0.1.tgz#0b239c1258a51fdc727abf5298e50302e4238b48"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
-    "@folio/stripes-components" "^4.5.0"
-    "@folio/stripes-connect" "^3.1.2"
-    "@folio/stripes-core" "^2.15.1"
-    "@folio/stripes-form" "^1.0.0"
+    "@folio/stripes-components" "^5.0.1"
+    "@folio/stripes-connect" "^4.0.0"
+    "@folio/stripes-core" "^3.0.0"
+    "@folio/stripes-form" "^2.0.0"
     "@folio/stripes-logger" "^1.0.0"
     classnames "^2.2.6"
     lodash "^4.17.4"
@@ -543,9 +671,7 @@
     prop-types "^15.5.10"
     prop-types-extra "^1.1.0"
     query-string "^5.0.0"
-    react-bootstrap "0.32.1"
     react-intl "^2.4.0"
-    react-intl-formatted-xml-message "^1.0.1"
     react-router "^4.2.0"
     react-router-dom "^4.0.0"
     react-transition-group "^2.4.0"
@@ -569,16 +695,16 @@
     lodash "^4.17.4"
     query-string "^5.0.0"
 
-"@folio/stripes@~1.1.0":
-  version "1.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-1.1.0.tgz#686a1fcdbbd964914616c33e22c046e5cefd1b9d"
+"@folio/stripes@~2.0.0":
+  version "2.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-2.0.0.tgz#27d4c855f1e18b310a7a93650b9ef2adb667f142"
   dependencies:
-    "@folio/stripes-components" "~4.5.0"
-    "@folio/stripes-connect" "~3.3.1"
-    "@folio/stripes-core" "~2.17.0"
-    "@folio/stripes-form" "~1.2.0"
+    "@folio/stripes-components" "~5.0.1"
+    "@folio/stripes-connect" "~4.0.0"
+    "@folio/stripes-core" "~3.0.0"
+    "@folio/stripes-form" "~2.0.0"
     "@folio/stripes-logger" "~1.0.0"
-    "@folio/stripes-smart-components" "~1.12.0"
+    "@folio/stripes-smart-components" "~2.0.0"
     "@folio/stripes-util" "~1.3.0"
     react "~16.6.3"
     react-dom "~16.6.3"
@@ -1777,7 +1903,7 @@ babel-register@^6.26.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@^6.0.0, babel-runtime@^6.11.6, babel-runtime@^6.18.0, babel-runtime@^6.2.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
+babel-runtime@^6.0.0, babel-runtime@^6.18.0, babel-runtime@^6.2.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   dependencies:
@@ -3168,7 +3294,7 @@ dom-converter@~0.2:
   dependencies:
     utila "~0.4"
 
-dom-helpers@^3.2.0, dom-helpers@^3.2.1, dom-helpers@^3.3.1:
+dom-helpers@^3.2.1, dom-helpers@^3.3.1:
   version "3.4.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
   dependencies:
@@ -4894,7 +5020,7 @@ intl-relativeformat@^2.1.0:
   dependencies:
     intl-messageformat "^2.0.0"
 
-invariant@^2.1.0, invariant@^2.1.1, invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
+invariant@^2.1.1, invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   dependencies:
@@ -5529,6 +5655,10 @@ just-pascal-case@^1.0.0:
   version "1.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/just-pascal-case/-/just-pascal-case-1.1.0.tgz#24f9a93614ecb58c41c180440bb2696138c72ffa"
 
+jwt-decode@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-2.2.0.tgz#7d86bd56679f58ce6a84704a657dd392bba81a79"
+
 karma-browserstack-launcher@^1.3.0:
   version "1.4.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/karma-browserstack-launcher/-/karma-browserstack-launcher-1.4.0.tgz#22f92e969d2db6cfc00e578708bda39378d5f2ab"
@@ -5623,10 +5753,6 @@ karma@^3.0.0:
 kew@^0.7.0:
   version "0.7.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/kew/-/kew-0.7.0.tgz#79d93d2d33363d6fdd2970b335d9141ad591d79b"
-
-keycode@^2.1.2:
-  version "2.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/keycode/-/keycode-2.2.0.tgz#3d0af56dc7b8b8e5cba8d0a97f107204eec22b04"
 
 keypress@0.1.x:
   version "0.1.0"
@@ -6014,6 +6140,10 @@ mem@^1.1.0:
 memoize-one@^4.0.0:
   version "4.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/memoize-one/-/memoize-one-4.1.0.tgz#a2387c58c03fff27ca390c31b764a79addf3f906"
+
+memoize-one@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-5.0.0.tgz#d55007dffefb8de7546659a1722a5d42e128286e"
 
 memory-fs@^0.2.0:
   version "0.2.0"
@@ -7678,23 +7808,6 @@ react-barcode@^1.3.2:
     jsbarcode "^3.8.0"
     prop-types "^15.5.10"
 
-react-bootstrap@0.32.1:
-  version "0.32.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-bootstrap/-/react-bootstrap-0.32.1.tgz#60624c1b48a39d773ef6cce6421a4f33ecc166bb"
-  dependencies:
-    babel-runtime "^6.11.6"
-    classnames "^2.2.5"
-    dom-helpers "^3.2.0"
-    invariant "^2.2.1"
-    keycode "^2.1.2"
-    prop-types "^15.5.10"
-    prop-types-extra "^1.0.1"
-    react-overlays "^0.8.0"
-    react-prop-types "^0.4.0"
-    react-transition-group "^2.0.0"
-    uncontrollable "^4.1.0"
-    warning "^3.0.0"
-
 react-codemirror2@^1.0.0:
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-codemirror2/-/react-codemirror2-1.0.0.tgz#b529a6c5c91219f92c751f43a17721cdaf36b05f"
@@ -7765,10 +7878,6 @@ react-hot-loader@^4.3.10, react-hot-loader@^4.3.12:
     shallowequal "^1.0.2"
     source-map "^0.7.3"
 
-react-intl-formatted-xml-message@^1.0.1:
-  version "1.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-intl-formatted-xml-message/-/react-intl-formatted-xml-message-1.0.1.tgz#83f8b3d9077a46d35bb2fddf4cdfb2a23c6bcec5"
-
 react-intl@^2.3.0, react-intl@^2.4.0, react-intl@^2.5.0, react-intl@^2.7.2:
   version "2.7.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-2.7.2.tgz#efe97e3fc0e99b4e88a6e6150854d3d1852a4381"
@@ -7787,7 +7896,7 @@ react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
-react-overlays@^0.8.0, react-overlays@^0.8.3:
+react-overlays@^0.8.3:
   version "0.8.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-overlays/-/react-overlays-0.8.3.tgz#fad65eea5b24301cca192a169f5dddb0b20d3ac5"
   dependencies:
@@ -7796,12 +7905,6 @@ react-overlays@^0.8.0, react-overlays@^0.8.3:
     prop-types "^15.5.10"
     prop-types-extra "^1.0.1"
     react-transition-group "^2.2.0"
-    warning "^3.0.0"
-
-react-prop-types@^0.4.0:
-  version "0.4.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-prop-types/-/react-prop-types-0.4.0.tgz#f99b0bfb4006929c9af2051e7c1414a5c75b93d0"
-  dependencies:
     warning "^3.0.0"
 
 react-proxy@^1.1.7:
@@ -7899,7 +8002,7 @@ react-transform-hmr@^1.0.3:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react-transition-group@^2.0.0, react-transition-group@^2.2.0, react-transition-group@^2.2.1, react-transition-group@^2.4.0:
+react-transition-group@^2.2.0, react-transition-group@^2.2.1, react-transition-group@^2.4.0:
   version "2.5.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-transition-group/-/react-transition-group-2.5.2.tgz#9457166a9ba6ce697a3e1b076b3c049b9fb2c408"
   dependencies:
@@ -8325,6 +8428,10 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
   dependencies:
     hash-base "^3.0.0"
     inherits "^2.0.1"
+
+rtl-detect@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/rtl-detect/-/rtl-detect-1.0.2.tgz#8eca316f5c6563d54df4e406171dd7819adda67f"
 
 run-async@^2.2.0:
   version "2.3.0"
@@ -9253,12 +9360,6 @@ uglify-js@3.4.x, uglify-js@^3.1.4:
 ultron@~1.1.0:
   version "1.1.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
-
-uncontrollable@^4.1.0:
-  version "4.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/uncontrollable/-/uncontrollable-4.1.0.tgz#e0358291252e1865222d90939b19f2f49f81c1a9"
-  dependencies:
-    invariant "^2.1.0"
 
 underscore@^1.8.3:
   version "1.9.1"
