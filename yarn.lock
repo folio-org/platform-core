@@ -7908,7 +7908,7 @@ react-transition-group@^2.0.0, react-transition-group@^2.2.0, react-transition-g
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react@^16.2.0, react@^16.3.0:
+react@^16.2.0, react@^16.3.0, react@~16.7.0:
   version "16.7.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react/-/react-16.7.0.tgz#b674ec396b0a5715873b350446f7ea0802ab6381"
   dependencies:
