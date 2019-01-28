@@ -260,9 +260,9 @@
     react-router-dom "^4.1.1"
     redux-form "^7.0.3"
 
-"@folio/organization@~2.6.0":
-  version "2.6.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/organization/-/organization-2.6.0.tgz#0223e0c61fba4acf7e59f531d13d1f549c2d6369"
+"@folio/organization@~2.7.0":
+  version "2.7.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/organization/-/organization-2.7.0.tgz#537971cb050617db4f266b0bc09b34fe706d4a65"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
