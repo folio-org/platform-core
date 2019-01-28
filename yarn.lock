@@ -309,9 +309,9 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^1.1.0"
 
-"@folio/search@~1.4.0":
-  version "1.4.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/search/-/search-1.4.0.tgz#9e372153451a829930a062649b6c26bad4506b25"
+"@folio/search@~1.5.0":
+  version "1.5.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/search/-/search-1.5.0.tgz#a3cf716736a713177b6578a92f972936bd44d8d8"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
