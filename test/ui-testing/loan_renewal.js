@@ -49,31 +49,31 @@ module.exports.test = (uiTestCtx, nightmareX) => {
     let loanRules = '';
     let barcode = '';
 
-
     describe(
-      `Login >
-      Update settings >
-      Create loan policy >
-      Apply Loan rule >
-      Find Active user >
-      Create inventory record >
-      Create holdings record >
-      Create item record >
-      Checkout item >
-      Confirm checkout >
-      Renew success >
-      Renew failure >
-      Renew failure >
-      Create fixedDueDateSchedule >
-      Assign fdds to loan policy >
-      Renew failure > 
-      // Edit loan policy >
-      // Renew failure >
-      Check in >
-      Restore the loan rules >
-      delete loan policy >
-      delete fixedDueDateSchedule >
-      logout`,
+      // eslint-disable-next-line quotes
+      `Login > \
+      Update settings >\
+      Create loan policy >\
+      Apply Loan rule >\
+      Find Active user >\
+      Create inventory record >\
+      Create holdings record >\
+      Create item record >\
+      Checkout item >\
+      Confirm checkout >\
+      Renew success >\
+      Renew failure >\
+      Renew failure >\
+      Create fixedDueDateSchedule >\
+      Assign fdds to loan policy >\
+      Renew failure > \
+      // Edit loan policy >\
+      // Renew failure >\
+      Check in >\
+      Restore the loan rules >\
+      delete loan policy >\
+      delete fixedDueDateSchedule >\
+      logout\n`,
       function descStart() {
         describe('Login', () => {
           it(`should login as ${config.username}/${config.password}`, (done) => {
@@ -171,7 +171,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .then((result) => {
                 done();
                 userid = result;
-                console.log(`Found user ${userid}`);
+                console.log(`\tFound user ${userid}`);
               })
               .catch(done);
           });
@@ -349,7 +349,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
                   })
                   .then(() => {
                     nightmare
-                      .wait('#clickable-users-module')
+                      .wait(1111)
                       .click('#clickable-users-module')
                       .wait(findBarcodeCell, barcode)
                       .evaluate(tickRenewCheckbox, barcode)
@@ -361,9 +361,10 @@ module.exports.test = (uiTestCtx, nightmareX) => {
                           .wait(1000)
                           .evaluate(() => {
                             const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
+
                             if (errorMsg === null) {
                               throw new Error('Should throw an error as the renewalLimit is reached');
-                            } else if (!errorMsg.match('Item not renewedrenewal date falls outside of the date ranges in the fixed schedule of fixed loan policy')) {
+                            } else if (!errorMsg.match('Item not renewedrenewal would not change the due date')) {
                               throw new Error('Expected only the renewal failure error message');
                             }
                           })
@@ -473,7 +474,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
                     const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
                     if (errorMsg === null) {
                       throw new Error('Should throw an error as the renewalLimit is reached');
-                    } else if (!errorMsg.match('Item not renewedrenewal date falls outside of the date ranges in the loan policy')) {
+                    } else if (!errorMsg.match('Item not renewedrenewal date falls outside of the date ranges in the fixed schedule of fixed loan policy')) {
                       throw new Error('Expected Loan cannot be renewed because: renewal date falls outside of the date ranges in the loan policy error message');
                     }
                   })
