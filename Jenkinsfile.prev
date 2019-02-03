@@ -13,6 +13,7 @@ pipeline {
 
   environment {
     tenant = "platform_core_${env.BRANCH_NAME}_${env.BUILD_NUMBER}"
+    folioRegistry = 'http://folio-registry.aws.indexdata.com'
     npmConfig = 'jenkins-npm-folio'
   }
 
