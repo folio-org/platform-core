@@ -14,6 +14,7 @@ pipeline {
   environment {
     folioRegistry = 'http://folio-registry.aws.indexdata.com'
     npmConfig = 'jenkins-npm-folio'
+    releaseOnly = 'true'
   }
 
   options {
