@@ -12,7 +12,6 @@ pipeline {
   }
 
   environment {
-    tenant = "platform_core_${env.BRANCH_NAME}_${env.BUILD_NUMBER}"
     folioRegistry = 'http://folio-registry.aws.indexdata.com'
     npmConfig = 'jenkins-npm-folio'
   }
@@ -31,11 +30,19 @@ pipeline {
   stages {
     stage('Setup') {
       steps {
+        sendNotifications 'STARTED'
         script {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
+          def foliociLib = new org.folio.foliociCommands()
+          def tenant
+          if (env.CHANGE_ID) { 
+            tenant = "pr_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
+          }
+          else {
+            tenant = 'diku'
+          }
+          env.tenant = foliociLib.replaceHyphen(tenant)
         }
-        sendNotifications 'STARTED'
-      }
     }
 
     stage('Build Stripes Platform') {
