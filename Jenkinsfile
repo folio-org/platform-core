@@ -60,6 +60,7 @@ pipeline {
         script {
           def stripesInstallJson = readFile('./stripes-install.json')
           platformDepCheck(env.tenant,stripesInstallJson)
+          sh 'cat install.json'
         }
       }
     }
