@@ -43,6 +43,7 @@ pipeline {
           }
           env.tenant = foliociLib.replaceHyphen(tenant)
         }
+      }
     }
 
     stage('Build Stripes Platform') {
