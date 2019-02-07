@@ -60,7 +60,9 @@ pipeline {
         script {
           def stripesInstallJson = readFile('./stripes-install.json')
           platformDepCheck(env.tenant,stripesInstallJson)
-          sh 'cat install.json'
+          echo 'Generating backend dependency list to okapi-install.json'
+          sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
+          sh 'cat okapi-install.json'
         }
       }
     }
