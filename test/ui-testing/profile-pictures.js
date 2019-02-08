@@ -16,7 +16,7 @@
 */
 
 module.exports.test = (uiTestCtx, nightmare) => {
-  describe('Load test-profilePictures', function runMain() {
+  describe('User profile pictures ("profile-pictures")', function runMain() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
 

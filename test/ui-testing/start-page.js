@@ -1,5 +1,5 @@
 module.exports.test = (uiTestCtx, nightmare) => {
-  describe(`Load ${uiTestCtx.config.url} ("test-simple")`, function test() {
+  describe(`Load ${uiTestCtx.config.url} ("start-page")`, function test() {
     const { config } = uiTestCtx;
     config.nightmare.gotoTimeout = 90000;
 

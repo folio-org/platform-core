@@ -16,6 +16,12 @@ module.exports.test = (uiTestCtx, nightmare) => {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
 
+    const forContent = (c) => {
+      const re = new RegExp(c, 'i');
+      return !!Array.from(document.querySelectorAll('#list-vendors div[role="row"] > a div[role="gridcell"]'))
+        .find(e => re.test(e.textContent));
+    };
+
     // vendor constants
     const vendorName = 'GOBI';
     const newVendorName = 'GOBI Library Solutions';
@@ -25,7 +31,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
     const vendorDesc = 'GOBI Library Solutions from EBSCO (formerly YBP Library Services) provides acquisition, collection development and technical services to academic and research libraries around the world';
 
     // selector constants
-    const vendorListSelector = 'div[role="listitem"]';
+    const vendorListSelector = 'div[role="role"]';
     const vendorNameSelector = `div[role="gridcell"][title="${vendorName}"]`;
     const vendorNewNameSelector = `div[role="gridcell"][title="${newVendorName}"]`;
 
@@ -36,9 +42,6 @@ module.exports.test = (uiTestCtx, nightmare) => {
 
       it('should click on vendors module', (done) => {
         nightmare
-        /* .on('console', (log, msg) => {
-        console.log(msg)
-       }) */
           .click('#clickable-vendors-module')
           .wait('#clickable-newvendors')
           .then(() => { done(); })
@@ -47,13 +50,19 @@ module.exports.test = (uiTestCtx, nightmare) => {
 
       it('should add a vendor', (done) => {
         nightmare
+          .wait('#clickable-newvendors')
           .click('#clickable-newvendors')
           .wait('#form-add-new-vendor')
         // populate form
+          .wait('#name')
           .insert('#name', vendorName)
+          .wait('#code')
           .insert('#code', vendorCode)
+          .wait('#description')
           .insert('#description', vendorDesc)
+          .wait('#vendor_status')
           .select('#vendor_status', vendorStatus)
+          .wait('#language')
           .select('#language', vendorLang)
         // vendor names
           .wait('#clickable-createnewvendor')
@@ -66,6 +75,8 @@ module.exports.test = (uiTestCtx, nightmare) => {
       it('should confirm vendor created and edit the vendor', (done) => {
         nightmare
           .wait('#clickable-newvendors')
+          .wait(forContent, vendorName)
+
           .evaluate((vendListSelector, vendNameSelector, vendName) => {
             let found = false;
             const matches = document.querySelectorAll(vendListSelector);

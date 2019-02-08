@@ -1,5 +1,5 @@
-module.exports.test = (uiTestCtx, nightmareX) => {
-  describe('Login Page ("test-bad-login")', function test() {
+module.exports.test = (uiTestCtx) => {
+  describe('Login Page ("auth-fail")', function test() {
     const { config } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
 

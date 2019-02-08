@@ -1,5 +1,5 @@
-module.exports.test = (uiTestCtx, nightmareX) => {
-  describe('Checking for dependency issues on FOLIO UI App /about ("test-dependencies")', function start() {
+module.exports.test = (uiTestCtx) => {
+  describe('Checking for dependency issues on FOLIO UI App /about ("dependencies")', function start() {
     const { config, helpers } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
 
