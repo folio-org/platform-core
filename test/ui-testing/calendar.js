@@ -1,5 +1,5 @@
 module.exports.test = (uiTestCtx, nightmare) => {
-  describe('Calendar Test ("test-calendartest")', function runMain() {
+  describe('Calendar Test ("calendar")', function runMain() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
 

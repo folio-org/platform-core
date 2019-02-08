@@ -2,8 +2,8 @@
 
 const moment = require('moment');
 
-module.exports.test = (uiTestCtx, nightmareX) => {
-  describe('Tests to validate the loan renewals', function descRoot() {
+module.exports.test = (uiTestCtx) => {
+  describe('Tests to validate the loan renewals ("loan-renewal")', function descRoot() {
     const { config, helpers } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
     this.timeout(Number(config.test_timeout));
@@ -16,13 +16,6 @@ module.exports.test = (uiTestCtx, nightmareX) => {
       ).find(e => e.textContent === `${fbarcode}`));
     };
 
-    const findUsersBarcodeCell = (barcode) => {
-      const userCell = Array.from(
-        document.querySelectorAll('#list-users div[role="listitem"]')
-      ).find(e => e.childNodes[0].children[2].textContent === `${barcode}`);
-      userCell.querySelector('a').click();
-    };
-
     const tickRenewCheckbox = (fbarcode) => {
       const barcodeCell = Array.from(
         document.querySelectorAll('#list-loanshistory div[role="gridcell"]')
@@ -30,10 +23,9 @@ module.exports.test = (uiTestCtx, nightmareX) => {
       barcodeCell.parentElement.querySelector('input[type="checkbox"]').click();
     };
 
-
     describe('Login > Update settings > Create loan policy > Apply Loan rule > Find Active user > Create inventory record > Create holdings record > Create item record > Checkout item > Confirm checkout > Renew success > Renew failure > Renew failure > create fixedDueDateSchedule > Assign fdds to loan policy > Renew failure > Edit loan policy > Renew failure > Check in > delete loan policy > delete fixedDueDateSchedule > logout\n', function descStart() {
       let userid = 'user';
-      const uselector = "#list-users div[role='listitem']:nth-of-type(1) > a > div:nth-of-type(3)";
+      const uselector = "#list-users div[role='row'][aria-rowindex='2'] > a > div:nth-of-type(3)";
       const policyName = `test-policy-${Math.floor(Math.random() * 10000)}`;
       const scheduleName = `test-schedule-${Math.floor(Math.random() * 10000)}`;
       const renewalLimit = 1;
@@ -182,17 +174,13 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .insert('#input-user-search', userid)
           .wait('button[type=submit]')
           .click('button[type=submit]')
-          .wait('#list-users div[role="gridcell"]')
-          .evaluate(findUsersBarcodeCell, userid)
-          .then(() => {
-            nightmare
-              .wait('#clickable-viewcurrentloans')
-              .click('#clickable-viewcurrentloans')
-              .wait('#list-loanshistory:not([data-total-count="0"])')
-              .wait(findBarcodeCell, barcode)
-              .then(done)
-              .catch(done);
-          })
+          .wait('#list-users[data-total-count="1"] div[role="row"] > a')
+          .click('#list-users[data-total-count="1"] div[role="row"] > a')
+          .wait('#clickable-viewcurrentloans')
+          .click('#clickable-viewcurrentloans')
+          .wait('#list-loanshistory:not([data-total-count="0"])')
+          .wait(findBarcodeCell, barcode)
+          .then(done)
           .catch(done);
       });
 
@@ -223,7 +211,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
               .click('#renew-all')
               .wait('#bulk-renewal-modal')
               .wait(333)
-              .evaluate((policy) => {
+              .evaluate(() => {
                 const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
                 if (errorMsg === null) {
                   throw new Error('Should throw an error as the renewalLimit is reached');
