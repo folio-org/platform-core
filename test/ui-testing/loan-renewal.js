@@ -128,8 +128,8 @@ module.exports.test = (uiTestCtx) => {
               .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
-              .wait('a[href="/settings/circulation/loan-rules"]')
-              .click('a[href="/settings/circulation/loan-rules"]')
+              .wait('a[href="/settings/circulation/rules"]')
+              .click('a[href="/settings/circulation/rules"]')
               .wait('#form-loan-rules')
               .wait(1000)
               .evaluate((policy) => {
@@ -499,8 +499,8 @@ module.exports.test = (uiTestCtx) => {
               .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
-              .wait('a[href="/settings/circulation/loan-rules"]')
-              .click('a[href="/settings/circulation/loan-rules"]')
+              .wait('a[href="/settings/circulation/rules"]')
+              .click('a[href="/settings/circulation/rules"]')
               .wait('#form-loan-rules')
               .wait(1000)
               .evaluate(() => {
