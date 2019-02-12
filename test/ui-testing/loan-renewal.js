@@ -277,7 +277,7 @@ module.exports.test = (uiTestCtx) => {
                     const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
                     if (errorMsg === null) {
                       throw new Error('Should throw an error as the renewalLimit is reached');
-                    } else if (!errorMsg.match('Item not renewedloan has reached its maximum number of renewals')) {
+                    } else if (!errorMsg.match('Item not renewed:loan at maximum renewal number')) {
                       throw new Error('Expected only the renewal failure error message');
                     }
                   }, policyName)
@@ -353,7 +353,7 @@ module.exports.test = (uiTestCtx) => {
 
                             if (errorMsg === null) {
                               throw new Error('Should throw an error as the renewalLimit is reached');
-                            } else if (!errorMsg.match('Item not renewedrenewal would not change the due date')) {
+                            } else if (!errorMsg.match('Item not renewed:renewal would not change the due date')) {
                               throw new Error('Expected only the renewal failure error message');
                             }
                           })
@@ -463,7 +463,7 @@ module.exports.test = (uiTestCtx) => {
                     const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
                     if (errorMsg === null) {
                       throw new Error('Should throw an error as the renewalLimit is reached');
-                    } else if (!errorMsg.match('Item not renewedrenewal date falls outside of the date ranges in the fixed schedule of fixed loan policy')) {
+                    } else if (!errorMsg.match('Item not renewed:renewal date falls outside of date ranges in fixed loan policy')) {
                       throw new Error('Expected Loan cannot be renewed because: renewal date falls outside of the date ranges in the loan policy error message');
                     }
                   })
