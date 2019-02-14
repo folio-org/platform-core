@@ -128,13 +128,13 @@ module.exports.test = (uiTestCtx) => {
               .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
-              .wait('a[href="/settings/circulation/loan-rules"]')
-              .click('a[href="/settings/circulation/loan-rules"]')
+              .wait('a[href="/settings/circulation/rules"]')
+              .click('a[href="/settings/circulation/rules"]')
               .wait('#form-loan-rules')
               .wait(1000)
               .evaluate((policy) => {
                 loanRules = document.getElementsByClassName('CodeMirror')[0].CodeMirror.getValue();
-                const value = `priority: t, s, c, b, a, m, g \nfallback-policy: example-loan-policy \nm book: ${policy}`;
+                const value = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy \nm book: l ${policy} r request-policy-1 n notice-policy-1`;
                 document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(value);
               }, policyName)
               .then(() => {
@@ -499,8 +499,8 @@ module.exports.test = (uiTestCtx) => {
               .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
-              .wait('a[href="/settings/circulation/loan-rules"]')
-              .click('a[href="/settings/circulation/loan-rules"]')
+              .wait('a[href="/settings/circulation/rules"]')
+              .click('a[href="/settings/circulation/rules"]')
               .wait('#form-loan-rules')
               .wait(1000)
               .evaluate(() => {
