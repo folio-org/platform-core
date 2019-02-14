@@ -134,7 +134,7 @@ module.exports.test = (uiTestCtx) => {
               .wait(1000)
               .evaluate((policy) => {
                 loanRules = document.getElementsByClassName('CodeMirror')[0].CodeMirror.getValue();
-                const value = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy \nm book: l ${policy} r request-policy-1 n notice-policy-1`;
+                const value = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r request-policy-1 n notice-policy-1 \nm book: l ${policy} r request-policy-1 n notice-policy-1`;
                 document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(value);
               }, policyName)
               .then(() => {
