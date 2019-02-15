@@ -8,6 +8,7 @@ const exercise = require('./exercise');
 // const inventorySearch = require('./inventory-search');
 const loanRenewal = require('./loan-renewal');
 const newProxy = require('./new-proxy');
+const newRequest = require('./new-request');
 // const location = require('./location');
 // const profilePictures = require('./profile-pictures');
 // const stub = require('./stub');
@@ -24,7 +25,8 @@ module.exports.test = (uiTestCtx, nightmare) => {
     exercise,
     // inventorySearch,
     loanRenewal,
-    newProxy
+    newProxy,
+    newRequest
     // location,
     // profilePictures,
     // stub,
