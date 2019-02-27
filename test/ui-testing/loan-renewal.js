@@ -81,7 +81,7 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Create loan policy', () => {
-          it('should reach out "Create loan policy" page', (done) => {
+          it('should reach "Create loan policy" page', (done) => {
             nightmare
               .wait(config.select.settings)
               .click(config.select.settings)
@@ -133,16 +133,19 @@ module.exports.test = (uiTestCtx) => {
               .wait('#form-loan-rules')
               .wait(1000)
               .evaluate((policy) => {
-                loanRules = document.getElementsByClassName('CodeMirror')[0].CodeMirror.getValue();
+                const defaultRules = document.getElementsByClassName('CodeMirror')[0].CodeMirror.getValue();
                 const value = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r request-policy-1 n notice-policy-1 \nm book: l ${policy} r request-policy-1 n notice-policy-1`;
                 document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(value);
+                return defaultRules;
               }, policyName)
-              .then(() => {
+              .then((defaultRules) => {
                 nightmare
                   .wait('#clickable-save-loan-rules')
                   .click('#clickable-save-loan-rules')
                   .wait(Math.max(555, debugSleep)); // debugging
+
                 done();
+                loanRules = defaultRules;
               })
               .catch(done);
           });
@@ -171,8 +174,7 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe(
-          `Create inventory record >
-           Create item record`,
+          'Create inventory > holdings > item records',
           () => {
             barcode = helpers.createInventory(nightmare, config, 'Soul station / Hank Mobley');
           }
@@ -181,6 +183,11 @@ module.exports.test = (uiTestCtx) => {
         describe('Checkout item', () => {
           it(`should check out ${barcode} to ${userid}`, (done) => {
             nightmare
+              // if we don't wait a second after creating the item record,
+              // we seem to get stuck there and cannot navigate to checkout.
+              // does this make any sense at all? no. no it does not. and yet.
+              .wait(1111)
+              .wait('#clickable-checkout-module')
               .click('#clickable-checkout-module')
               .wait('#input-patron-identifier')
               .type('#input-patron-identifier', userid)
@@ -289,7 +296,7 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Renew failure', () => {
-          it('should reach out "loan policy settings" page', (done) => {
+          it('should reach "loan policy settings" page', (done) => {
             nightmare
               .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
@@ -503,9 +510,9 @@ module.exports.test = (uiTestCtx) => {
               .click('a[href="/settings/circulation/rules"]')
               .wait('#form-loan-rules')
               .wait(1000)
-              .evaluate(() => {
-                document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(loanRules);
-              })
+              .evaluate((lr) => {
+                document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(lr);
+              }, loanRules)
               .then(() => {
                 nightmare
                   .wait('#clickable-save-loan-rules')
