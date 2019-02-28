@@ -23,6 +23,7 @@ module.exports.test = (uiTestCtx) => {
 
       it('should find an active user', (done) => {
         nightmare
+          .wait('#clickable-users-module')
           .click('#clickable-users-module')
           .wait('#clickable-filter-pg-faculty')
           .click('#clickable-filter-pg-faculty')
@@ -94,6 +95,8 @@ module.exports.test = (uiTestCtx) => {
 
       it(`should check out ${barcode}`, (done) => {
         nightmare
+          .wait(1111)
+          .wait('#clickable-checkout-module')
           .click('#clickable-checkout-module')
           .wait('#input-patron-identifier')
           .type('#input-patron-identifier', userBarcode)
@@ -128,6 +131,8 @@ module.exports.test = (uiTestCtx) => {
 
       it('should change open-loan count', (done) => {
         nightmare
+          .wait(1111)
+          .wait('#clickable-users-module')
           .click('#clickable-users-module')
           .wait('#input-user-search')
           .insert('#input-user-search', userBarcode)
