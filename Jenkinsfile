@@ -2,19 +2,15 @@
 
 pipeline {
 
-  parameters {
-    booleanParam(name: 'DEBUG_TEST',
-                 defaultValue: false,
-                 description: 'Enable integration test debugging')
-    string(name: 'OKAPI_URL',
-           defaultValue: 'http://folio-snapshot-stable.aws.indexdata.com:9130',
-           description: 'Okapi URL')
-  }
-
   environment {
     folioRegistry = 'http://folio-registry.aws.indexdata.com'
     npmConfig = 'jenkins-npm-folio'
+    sshKeyId = '11657186-f4d4-4099-ab72-2a32e023cced'
     releaseOnly = 'true'
+    ansiblePlaybook = 'platform-core.yml'
+    folioHostname = "plaform-core-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
+    okapiUrl = "http://${env.folioHostname}:9130"
+    ec2Group = "platform_core_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
   }
 
   options {
@@ -49,10 +45,10 @@ pipeline {
 
     stage('Build Stripes Platform') {
       steps {
-        echo "Okapi URL: ${params.OKAPI_URL}"
+        echo "Okapi URL: ${env.okapiUrl}"
         echo "Tenant: ${env.tenant}"
 
-        buildStripesPlatform(params.OKAPI_URL,env.tenant)
+        buildStripesPlatform(env.okapiUrl,env.tenant)
       }
     }
 
@@ -65,54 +61,61 @@ pipeline {
           sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
           sh 'cat okapi-install.json'
         }
+        // archive install.json
+        sh 'mkdir -p ci'
+        sh 'cp install.json ci'
+        publishHTML([allowMissing: false, alwaysLinkToLastBuild: false,
+                     keepAll: true, reportDir: 'ci',
+                     reportFiles: 'install.json',
+                     reportName: "install.json",
+                     reportTitles: "install.json"])
       }
+      
     }
 
-/*
- *   stage('Bootstrap Tenant') {
- *     when {
- *       changeRequest()
- *     }
- *     steps {
- *       deployTenant(params.OKAPI_URL,env.tenant)
- *     }
- *   }
- *
- *   stage('Run Integration Tests') {
- *     when {
- *       changeRequest()
- *     }
- *     steps {
- *       script {
- *         def testOpts = [ tenant: env.tenant,
- *                          folioUser: env.tenant + '_admin',
- *                          folioPassword: 'admin']
- *
- *         runIntegrationTests(testOpts,params.DEBUG_TEST)
- *       }
- *     }
- *   }
- */
 
-/*
- *   stage('Publish NPM Package') {
- *     when {
- *       buildingTag()
- *     }
- *     steps {
- *       // clean up any artifacts
- *       sh 'rm -rf output artifacts ci node_modules'
- *
- *       withCredentials([string(credentialsId: 'jenkins-npm-folioci',variable: 'NPM_TOKEN')]) {
- *          withNPM(npmrcConfig: env.npmConfig) {
- *            // clean up generated artifacts before publishing
- *            sh 'rm -rf ci output'
- *            sh 'npm publish'
- *          }
- *       }
- *     }
- *   }
- */
+    stage('Build FOLIO Instance') {
+
+      when {
+        changeRequest()
+      }
+      steps {
+        // build FOLIO instance
+        buildPlatformInstance(env.ansiblePlaybook,env.ec2Group,env.folioHostname,env.tenant)
+      }
+   }
+
+/* ENABLE WHEN SAMPLE DATA IS ENABLED IN PLAYBOOK 
+*   stage('Run Integration Tests') {
+*     when {
+*       changeRequest()
+*     }
+*     steps {
+*       script {
+*         def testOpts = [ tenant: env.tenant,
+*                          folioUser: env.tenant + '_admin',
+*                          folioPassword: 'admin']
+*
+*         runIntegrationTests(testOpts,params.DEBUG_TEST)
+*       }
+*     }
+*   }
+*/
+
+   stage('Publish NPM Package') {
+     when {
+       buildingTag()
+     }
+     steps {
+       withCredentials([string(credentialsId: 'jenkins-npm-folioci',variable: 'NPM_TOKEN')]) {
+          withNPM(npmrcConfig: env.npmConfig) {
+            // clean up generated artifacts before publishing
+            sh 'rm -rf ci artifacts bundle node_modules'
+            sh 'npm publish'
+          }
+       }
+     }
+   }
 
   } // end stages
 
