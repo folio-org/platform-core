@@ -51,6 +51,7 @@ module.exports.test = function uiTest(uiTestCtx) {
 
       it('should check out newly created item', (done) => {
         nightmare
+          .wait(1111)
           .wait('#clickable-checkout-module')
           .click('#clickable-checkout-module')
           .wait('#section-patron #clickable-find-user')
@@ -75,15 +76,17 @@ module.exports.test = function uiTest(uiTestCtx) {
 
       it('should add a new "Hold" request', (done) => {
         nightmare
+          .wait(1111)
+          .wait('#clickable-requests-module')
           .click('#clickable-requests-module')
           .wait('#clickable-newrequest')
           .click('#clickable-newrequest')
-          .wait('select[name="requestType"]')
-          .select('select[name="requestType"]', 'Hold')
           .insert('input[name="item.barcode"]', itembc)
           .wait('#clickable-select-item')
           .click('#clickable-select-item')
           .wait('#section-item-info a[href^="/inventory/view/"]')
+          .wait('select[name="requestType"]')
+          .select('select[name="requestType"]', 'Hold')
           .wait('input[name="requester.barcode"]')
           .insert('input[name="requester.barcode"]', userbc)
           .wait('#clickable-select-requester')
