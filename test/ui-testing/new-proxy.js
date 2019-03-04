@@ -62,7 +62,7 @@ module.exports.test = function foo(uiTestCtx) {
       });
 
       it('should add a proxy for user 1', (done) => {
-        const selector = '#OverlayContainer #list-users div[role="row"][aria-rowindex="2"] div[role="gridcell"]:nth-child(5)';
+        const selector = '#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] div[role="gridcell"]:nth-child(5)';
         nightmare
           .wait('#input-user-search')
           .type('#input-user-search', '0')
@@ -84,14 +84,14 @@ module.exports.test = function foo(uiTestCtx) {
           // so we lose the ability to capture the proxy we just found.
           .wait('#OverlayContainer #clickable-filter-pg-undergrad')
           .click('#OverlayContainer #clickable-filter-pg-undergrad')
-          .wait('#OverlayContainer #list-users:not([data-total-count="0"])')
+          .wait('#OverlayContainer #list-plugin-find-user:not([data-total-count="0"])')
           .evaluate((s) => {
             return document.querySelector(s).textContent;
           }, selector)
           .then(barcode => {
             nightmare
-              .wait('#OverlayContainer #list-users div[role="row"][aria-rowindex="2"] a')
-              .click('#OverlayContainer #list-users div[role="row"][aria-rowindex="2"] a')
+              .wait('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] a')
+              .click('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] a')
               .wait('#clickable-updateuser')
               .click('#clickable-updateuser')
               .then(done)
