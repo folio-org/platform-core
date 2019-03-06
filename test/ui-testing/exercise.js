@@ -163,8 +163,8 @@ module.exports.test = (uiTestCtx) => {
             return !!(Array.from(document.querySelectorAll('#list-loanshistory div[role="gridcell"]'))
               .find(e => e.textContent === `${bc}`));
           }, barcode)
-          .wait('div[class*="LayerRoot"] button[icon="times"][class*="paneHeaderCloseIcon"]')
-          .click('div[class*="LayerRoot"] button[icon="times"][class*="paneHeaderCloseIcon"]')
+          .wait('div[class*="LayerRoot"] button[icon="times"][class*="iconButton"]')
+          .click('div[class*="LayerRoot"] button[icon="times"][class*="iconButton"]')
           .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 555) // debugging
           .then(done)
           .catch(done);
@@ -172,6 +172,7 @@ module.exports.test = (uiTestCtx) => {
 
       it(`should check in ${barcode}`, (done) => {
         nightmare
+          .wait('#clickable-checkin-module')
           .click('#clickable-checkin-module')
           .wait('#input-item-barcode')
           .insert('#input-item-barcode', barcode)
@@ -188,6 +189,7 @@ module.exports.test = (uiTestCtx) => {
 
       it('should change closed-loan count', (done) => {
         nightmare
+          .wait('#clickable-users-module')
           .click('#clickable-users-module')
           .wait('#pane-userdetails')
           .wait('#clickable-viewclosedloans')
@@ -209,8 +211,8 @@ module.exports.test = (uiTestCtx) => {
             return !!(Array.from(document.querySelectorAll('#list-loanshistory div[role="gridcell"]'))
               .find(e => e.textContent === `${bc}`));
           }, barcode)
-          .wait('div[class*="LayerRoot"] button[icon="times"][class*="paneHeaderCloseIcon"]')
-          .click('div[class*="LayerRoot"] button[icon="times"][class*="paneHeaderCloseIcon"]')
+          .wait('div[class*="LayerRoot"] button[icon="times"][class*="iconButton"]')
+          .click('div[class*="LayerRoot"] button[icon="times"][class*="iconButton"]')
           .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 555) // debugging
           .then(done)
           .catch(done);
