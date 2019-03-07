@@ -32,7 +32,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
 
       it('should enable profile pictures', (done) => {
         nightmare
-          .click('#clickable-settings')
+          .click('#app-list-item-clickable-settings')
           .wait('a[href="/settings/users"]')
           .click('a[href="/settings/users"]')
           .wait('a[href="/settings/users/profilepictures"]')
@@ -100,7 +100,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
 
       it('should disable profile pictures', (done) => {
         nightmare
-          .click('#clickable-settings')
+          .click('#app-list-item-clickable-settings')
           .wait(pageLoadPeriod)
           .evaluate(() => {
             const elem = document.querySelector('#profile_pictures');

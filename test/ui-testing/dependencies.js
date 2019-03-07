@@ -12,7 +12,7 @@ module.exports.test = (uiTestCtx) => {
 
       it('should load "about" page', (done) => {
         nightmare
-          .click('#clickable-settings')
+          .click('#app-list-item-clickable-settings')
           .click('a[href="/settings/about"]')
           .wait(555)
           .then(() => { done(); })
