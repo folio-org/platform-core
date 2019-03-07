@@ -73,7 +73,6 @@ pipeline {
       
     }
 
-
     stage('Build FOLIO Instance') {
 
       when {
