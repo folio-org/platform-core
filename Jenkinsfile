@@ -3,14 +3,14 @@
 pipeline {
 
   environment {
-    folioRegistry = 'http://folio-registry.aws.indexdata.com'
+    folioPlatform = 'platform-core'
     npmConfig = 'jenkins-npm-folio'
     sshKeyId = '11657186-f4d4-4099-ab72-2a32e023cced'
+    folioRegistry = 'http://folio-registry.aws.indexdata.com'
     releaseOnly = 'true'
-    ansiblePlaybook = 'platform-core.yml'
-    folioHostname = "platform-core-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
+    folioHostname = "${folioPlatform}-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
     okapiUrl = "http://${env.folioHostname}:9130"
-    ec2Group = "platform_core_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
+    ec2Group = "${env.folioPlaform}_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
   }
 
   options {
@@ -81,7 +81,7 @@ pipeline {
       }
       steps {
         // build FOLIO instance
-        buildPlatformInstance(env.ansiblePlaybook,env.ec2Group,env.folioHostname,env.tenant)
+        buildPlatformInstance(env.ec2Group,env.folioHostname,env.tenant)
       }
    }
 
