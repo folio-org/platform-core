@@ -8,7 +8,7 @@ pipeline {
     sshKeyId = '11657186-f4d4-4099-ab72-2a32e023cced'
     releaseOnly = 'true'
     ansiblePlaybook = 'platform-core.yml'
-    folioHostname = "plaform-core-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
+    folioHostname = "platform-core-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
     okapiUrl = "http://${env.folioHostname}:9130"
     ec2Group = "platform_core_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
   }
