@@ -10,7 +10,7 @@ pipeline {
     releaseOnly = 'true'
     folioHostname = "${folioPlatform}-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
     okapiUrl = "http://${env.folioHostname}:9130"
-    ec2Group = "${env.folioPlaform}_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
+    ec2Group = "${env.folioPlatform}_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
   }
 
   options {
