@@ -96,6 +96,8 @@ module.exports.test = function uiTest(uiTestCtx) {
           .select('select[name="fulfilmentPreference"]', 'Hold Shelf')
           .wait('input[name="requestExpirationDate"]')
           .insert('input[name="requestExpirationDate"]', nextMonth)
+          .wait('select[name="pickupServicePointId"]')
+          .select('select[name="pickupServicePointId"]', 'Circ Desk 1')
           .wait('#clickable-create-request')
           .click('#clickable-create-request')
           .wait(1111)
