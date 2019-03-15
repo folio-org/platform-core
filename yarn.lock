@@ -216,12 +216,14 @@
     react-to-print "^1.0.21"
     redux-form "^7.0.3"
 
-"@folio/developer@~1.6.0":
-  version "1.6.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/developer/-/developer-1.6.0.tgz#a75fd76f87159ccbd6b919ab408b710b48e02c6c"
+"@folio/developer@~1.8.0":
+  version "1.8.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/developer/-/developer-1.8.0.tgz#ec270f6ae3ba75dbc4ea7d46e6c35d69b275a3f6"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
+    react-hot-loader "^4.3.12"
+    react-intl "^2.8.0"
     react-router-dom "^4.0.0"
     redux-form "^7.0.3"
 
@@ -7772,6 +7774,16 @@ react-intl-formatted-xml-message@^1.0.1:
 react-intl@^2.3.0, react-intl@^2.4.0, react-intl@^2.5.0, react-intl@^2.7.2:
   version "2.7.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-2.7.2.tgz#efe97e3fc0e99b4e88a6e6150854d3d1852a4381"
+  dependencies:
+    hoist-non-react-statics "^2.5.5"
+    intl-format-cache "^2.0.5"
+    intl-messageformat "^2.1.0"
+    intl-relativeformat "^2.1.0"
+    invariant "^2.1.1"
+
+react-intl@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.8.0.tgz#20b0c1f01d1292427768aa8ec9e51ab7e36503ba"
   dependencies:
     hoist-non-react-statics "^2.5.5"
     intl-format-cache "^2.0.5"
