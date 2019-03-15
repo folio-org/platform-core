@@ -5,6 +5,8 @@ module.exports.test = function uiTest(uiTestCtx) {
     const { config, helpers: { login, openApp, createInventory, logout }, meta: { testVersion } } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
 
+    const servicePoint = 'Circ Desk 1';
+
     this.timeout(Number(config.test_timeout));
 
     describe('Login > Open module "Requests" > Create new request > Logout', () => {
@@ -96,11 +98,28 @@ module.exports.test = function uiTest(uiTestCtx) {
           .select('select[name="fulfilmentPreference"]', 'Hold Shelf')
           .wait('input[name="requestExpirationDate"]')
           .insert('input[name="requestExpirationDate"]', nextMonth)
-          .wait('#clickable-create-request')
-          .click('#clickable-create-request')
-          .wait(1111)
-          .then(() => {
-            done();
+
+          .evaluate((servicePointName) => {
+            const node = Array.from(
+              document.querySelectorAll('select[name="pickupServicePointId"] option')
+            ).find(e => e.text.startsWith(servicePointName));
+            if (node) {
+              return node.value;
+            }
+
+            throw new Error(`Could not find the ID for the servicePoint ${servicePointName} ${node}`);
+          }, servicePoint)
+          .then((servicePointId) => {
+            nightmare
+              .select('select[name="pickupServicePointId"]', servicePointId)
+              .wait('input[name="requestExpirationDate"]')
+              .insert('input[name="requestExpirationDate"]', nextMonth)
+              .wait('#clickable-create-request')
+              .click('#clickable-create-request')
+              .wait(() => !document.querySelector('#clickable-create-request'))
+              .wait(3333)
+              .then(done)
+              .catch(done);
           })
           .catch(done);
       });
