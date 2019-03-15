@@ -110,7 +110,6 @@ module.exports.test = function uiTest(uiTestCtx) {
             throw new Error(`Could not find the ID for the servicePoint ${servicePointName} ${node}`);
           }, servicePoint)
           .then((servicePointId) => {
-            console.log(servicePointId, 'servicePointId');
             nightmare
               .select('select[name="pickupServicePointId"]', servicePointId)
               .wait('input[name="requestExpirationDate"]')
