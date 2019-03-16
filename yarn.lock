@@ -166,9 +166,9 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@folio/checkin@~1.4.0":
-  version "1.4.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/checkin/-/checkin-1.4.0.tgz#a7a08945b07d7ca98a989ba60179516ad137df94"
+"@folio/checkin@~1.6.0":
+  version "1.6.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/checkin/-/checkin-1.6.0.tgz#47f2215cba6d27372eef7d481897d50f5bffb6eb"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     dateformat "^2.0.0"
