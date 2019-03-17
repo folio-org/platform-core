@@ -309,13 +309,14 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^1.1.0"
 
-"@folio/search@~1.4.0":
-  version "1.4.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/search/-/search-1.4.0.tgz#9e372153451a829930a062649b6c26bad4506b25"
+"@folio/search@~1.6.0":
+  version "1.6.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/search/-/search-1.6.0.tgz#e02e6516a3b93ee356aebedffedecd9ce5d23e3e"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
     react-hot-loader "^4.3.12"
+    react-intl "^2.8.0"
     react-router "^4.2.0"
     react-router-dom "^4.0.0"
 
@@ -7772,6 +7773,16 @@ react-intl-formatted-xml-message@^1.0.1:
 react-intl@^2.3.0, react-intl@^2.4.0, react-intl@^2.5.0, react-intl@^2.7.2:
   version "2.7.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-2.7.2.tgz#efe97e3fc0e99b4e88a6e6150854d3d1852a4381"
+  dependencies:
+    hoist-non-react-statics "^2.5.5"
+    intl-format-cache "^2.0.5"
+    intl-messageformat "^2.1.0"
+    intl-relativeformat "^2.1.0"
+    invariant "^2.1.1"
+
+react-intl@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.8.0.tgz#20b0c1f01d1292427768aa8ec9e51ab7e36503ba"
   dependencies:
     hoist-non-react-statics "^2.5.5"
     intl-format-cache "^2.0.5"
