@@ -200,9 +200,9 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^1.1.0"
 
-"@folio/circulation@~1.4.0":
-  version "1.4.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/circulation/-/circulation-1.4.0.tgz#c15d90024ef60ac6585d3c2f9df9edecf6e6cfc6"
+"@folio/circulation@~1.6.0":
+  version "1.6.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/circulation/-/circulation-1.6.0.tgz#00706e41a53bc338292702378249c00c1c5168b7"
   dependencies:
     html-to-react "^1.3.3"
     isomorphic-fetch "^2.2.1"
