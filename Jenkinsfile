@@ -4,13 +4,13 @@ pipeline {
 
   environment {
     folioPlatform = 'platform-core'
+    folioHostname = "${folioPlatform}-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
+    ec2Group = "platform_core_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
     npmConfig = 'jenkins-npm-folio'
     sshKeyId = '11657186-f4d4-4099-ab72-2a32e023cced'
     folioRegistry = 'http://folio-registry.aws.indexdata.com'
     releaseOnly = 'true'
-    folioHostname = "${folioPlatform}-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
     okapiUrl = "http://${env.folioHostname}:9130"
-    ec2Group = "${env.folioPlatform}_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
   }
 
   options {
