@@ -73,7 +73,6 @@ pipeline {
       
     }
 
-
     stage('Build FOLIO Instance') {
 
       when {
@@ -85,22 +84,20 @@ pipeline {
       }
    }
 
-/* ENABLE WHEN SAMPLE DATA IS ENABLED IN PLAYBOOK 
-*   stage('Run Integration Tests') {
-*     when {
-*       changeRequest()
-*     }
-*     steps {
-*       script {
-*         def testOpts = [ tenant: env.tenant,
-*                          folioUser: env.tenant + '_admin',
-*                          folioPassword: 'admin']
-*
-*         runIntegrationTests(testOpts,params.DEBUG_TEST)
-*       }
-*     }
-*   }
-*/
+   stage('Run Integration Tests') {
+     when {
+       changeRequest()
+     }
+     steps {
+       script {
+         def testOpts = [ tenant: env.tenant,
+                          folioUser: env.tenant + '_admin',
+                          folioPassword: 'admin']
+
+         runIntegrationTests(testOpts,params.DEBUG_TEST)
+       }
+     }
+   }
 
    stage('Publish NPM Package') {
      when {
