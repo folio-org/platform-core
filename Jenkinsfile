@@ -10,7 +10,7 @@ pipeline {
     sshKeyId = '11657186-f4d4-4099-ab72-2a32e023cced'
     folioRegistry = 'http://folio-registry.aws.indexdata.com'
     releaseOnly = 'true'
-    okapiUrl = "http://${env.folioHostname}:9130"
+    okapiUrl = "http://${env.folioHostname}.aws.indexdata.com:9130"
   }
 
   options {
