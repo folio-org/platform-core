@@ -270,9 +270,9 @@
     react-intl "^2.3.0"
     redux-form "^7.0.3"
 
-"@folio/plugin-find-instance@~1.2.0":
-  version "1.2.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-instance/-/plugin-find-instance-1.2.0.tgz#8631471eddb72b830b4dceb8b18ab144f74cce37"
+"@folio/plugin-find-instance@~1.4.0":
+  version "1.4.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-instance/-/plugin-find-instance-1.4.0.tgz#94f84ee34eacaa1981a7573dc117214164155015"
   dependencies:
     "@folio/inventory" "^1.4.0"
     classnames "^2.2.5"
