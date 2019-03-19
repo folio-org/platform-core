@@ -11,6 +11,7 @@ pipeline {
     folioRegistry = 'http://folio-registry.aws.indexdata.com'
     releaseOnly = 'true'
     okapiUrl = "http://${env.folioHostname}.aws.indexdata.com:9130"
+    folioUrl = "http://${env.folioHostname}.aws.indexdata.com"
   }
 
   options {
@@ -91,10 +92,12 @@ pipeline {
      steps {
        script {
          def testOpts = [ tenant: env.tenant,
+                          folioUrl: env.folioUrl,
+                          okapiUrl: env.okapiUrl,
                           folioUser: env.tenant + '_admin',
                           folioPassword: 'admin']
 
-         runIntegrationTests(testOpts,params.DEBUG_TEST)
+         runIntegrationTests(testOpts)
        }
      }
    }
