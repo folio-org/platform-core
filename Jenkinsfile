@@ -83,43 +83,65 @@ pipeline {
         // build FOLIO instance
         buildPlatformInstance(env.ec2Group,env.folioHostname,env.tenant)
       }
-   }
+    }
 
-   stage('Run Integration Tests') {
-     when {
-       changeRequest()
-     }
-     steps {
-       script {
-         def testOpts = [ tenant: env.tenant,
-                          folioUrl: env.folioUrl,
-                          okapiUrl: env.okapiUrl,
-                          folioUser: env.tenant + '_admin',
-                          folioPassword: 'admin']
+    stage('Run Integration Tests') {
+      when {
+        changeRequest()
+      }
+      steps {
+        script {
+          def testOpts = [ tenant: env.tenant,
+                           folioUrl: env.folioUrl,
+                           okapiUrl: env.okapiUrl,
+                           folioUser: env.tenant + '_admin',
+                           folioPassword: 'admin']
 
-         def testStatus = runIntegrationTests(testOpts)
+          def testStatus = runIntegrationTests(testOpts)
 
-         if (testStatus == 'FAILED') { 
-           error('UI Integration test failures')
-         }
-       }
-     }
-   }
+          if (testStatus == 'FAILED') { 
+            error('UI Integration test failures')
+          }
+        }
+      }
+    }
 
-   stage('Publish NPM Package') {
-     when {
-       buildingTag()
-     }
-     steps {
-       withCredentials([string(credentialsId: 'jenkins-npm-folioci',variable: 'NPM_TOKEN')]) {
+    stage('Commit Install Files') {
+      when {
+        branch 'master'
+      } 
+      steps {
+        sh 'git checkout master'
+        sh "git add ${env.WORKSPACE}/stripes-install.json"
+        sh "git add ${env.WORKSPACE}/okapi-install.json"
+        sh "git add ${env.WORKSPACE}/yarn.lock"
+
+        script {
+          def commitStatus = sh(returnStatus: true,
+                                script: 'git commit -m "updating install files"')
+          if (commitStatus == 0) {
+            sshGitPush(origin: env.folioPlatform, branch: 'master')
+          }
+        }
+      }
+    }
+
+    stage('Publish NPM Package') {
+      when {
+        buildingTag()
+      }
+      steps {
+        withCredentials([string(credentialsId: 'jenkins-npm-folioci',variable: 'NPM_TOKEN')]) {
           withNPM(npmrcConfig: env.npmConfig) {
             // clean up generated artifacts before publishing
             sh 'rm -rf ci artifacts bundle node_modules'
+            // don't include these in package
+            sh 'rm -rf yarn.lock stripes-install.json okapi-install.json'
             sh 'npm publish'
           }
-       }
-     }
-   }
+        }
+      }
+    }
 
   } // end stages
 
