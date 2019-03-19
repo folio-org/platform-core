@@ -97,7 +97,11 @@ pipeline {
                           folioUser: env.tenant + '_admin',
                           folioPassword: 'admin']
 
-         runIntegrationTests(testOpts)
+         def testStatus = runIntegrationTests(testOpts)
+
+         if (testStatus == 'FAILED') { 
+           error('UI Integration test failures')
+         }
        }
      }
    }
