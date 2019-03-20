@@ -12,6 +12,7 @@ pipeline {
     releaseOnly = 'true'
     okapiUrl = "http://${env.folioHostname}.aws.indexdata.com:9130"
     folioUrl = "http://${env.folioHostname}.aws.indexdata.com"
+    tenant = 'diku'
   }
 
   options {
@@ -31,15 +32,6 @@ pipeline {
         sendNotifications 'STARTED'
         script {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
-          def foliociLib = new org.folio.foliociCommands()
-          def tenant
-          if (env.CHANGE_ID) { 
-            tenant = "pr_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
-          }
-          else {
-            tenant = 'diku'
-          }
-          env.tenant = foliociLib.replaceHyphen(tenant)
         }
       }
     }
