@@ -46,6 +46,14 @@ pipeline {
     }
 
     stage('Check Platform Dependencies') {
+      when {
+        not {
+          not changeRequest()
+        }
+        not {
+          branch 'master'
+        }
+      }  
       steps {
         script {
           def stripesInstallJson = readFile('./stripes-install.json')
@@ -67,7 +75,6 @@ pipeline {
     }
 
     stage('Build FOLIO Instance') {
-
       when {
         changeRequest()
       }
@@ -115,13 +122,19 @@ pipeline {
       }
     }
 
-    stage('Update Install Artifacts') {
+    stage('Update Branch Install Artifacts') {
+      // Update branch with install artifacts
       when {
-        branch 'master'
+        not { 
+          branch 'master'
+        }
+        not {
+          changeRequest()
+        }
       } 
       steps {
         script {
-          sh 'git checkout master'
+          sh "git checkout $env.BRANCH_NAME"
 
           // determine if we should skip a git commit by searching 
           // for [CI SKIP] in the previous commit in order to prevent
@@ -140,7 +153,7 @@ pipeline {
             def commitStatus = sh(returnStatus: true,
                                 script: 'git commit -m "[CI SKIP] Updating install files"')
             if (commitStatus == 0) {
-              sshGitPush(origin: env.folioPlatform, branch: 'master')
+              sshGitPush(origin: env.folioPlatform, branch: env.BRANCH_NAME)
             }
             else {
               echo "No new changes.  No push to git origin needed" 
