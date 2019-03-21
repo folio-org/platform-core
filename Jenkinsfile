@@ -1,4 +1,4 @@
-@Library ('folio_jenkins_shared_libs@FOLIO-1738') _
+@Library ('folio_jenkins_shared_libs') _
 
 pipeline {
 
