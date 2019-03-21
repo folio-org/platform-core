@@ -48,10 +48,10 @@ pipeline {
     stage('Check Platform Dependencies') {
       when {
         not {
-          not changeRequest()
-        }
-        not {
-          branch 'master'
+          anyOf { 
+            changeRequest()
+            branch 'master'
+          }
         }
       }  
       steps {
@@ -126,10 +126,10 @@ pipeline {
       // Update branch with install artifacts
       when {
         not { 
-          branch 'master'
-        }
-        not {
-          changeRequest()
+          anyOf {
+            branch 'master'
+            changeRequest()
+          }
         }
       } 
       steps {
