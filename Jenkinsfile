@@ -36,8 +36,8 @@ pipeline {
           def lastCommit = sh(returnStatus: true,
                               script: "git log -1 | grep '.*\\[CI SKIP\\].*'")
           if (lastCommit == 0) { 
-              echo "CI SKIP detected.  Aborting buil d" 
-              env.skipBuild = true
+              echo "CI SKIP detected.  Aborting build" 
+              env.skipBuild = 'true'
           }
         }
       }
@@ -46,7 +46,7 @@ pipeline {
     stage('Do Build') {
       when { 
         expression {
-          env.skipBuild != true
+          env.skipBuild != 'true'
         }
       }
       stages {
