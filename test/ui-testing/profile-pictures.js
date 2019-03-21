@@ -15,11 +15,10 @@
  11) go back to a user record an confirm that 100 x 100 pixel image is not present.
 */
 
-module.exports.test = (uiTestCtx) => {
-  describe('Load test-profilePictures', function runMain() {
+module.exports.test = (uiTestCtx, nightmare) => {
+  describe('User profile pictures ("profile-pictures")', function runMain() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
-    const nightmare = new Nightmare(config.nightmare);
 
     const pageLoadPeriod = 2000;
     const actionLoadPeriod = 222;
@@ -33,7 +32,7 @@ module.exports.test = (uiTestCtx) => {
 
       it('should enable profile pictures', (done) => {
         nightmare
-          .click('#clickable-settings')
+          .click('#app-list-item-clickable-settings')
           .wait('a[href="/settings/users"]')
           .click('a[href="/settings/users"]')
           .wait('a[href="/settings/users/profilepictures"]')
@@ -101,7 +100,7 @@ module.exports.test = (uiTestCtx) => {
 
       it('should disable profile pictures', (done) => {
         nightmare
-          .click('#clickable-settings')
+          .click('#app-list-item-clickable-settings')
           .wait(pageLoadPeriod)
           .evaluate(() => {
             const elem = document.querySelector('#profile_pictures');
@@ -156,7 +155,7 @@ module.exports.test = (uiTestCtx) => {
       });
 
       it('should logout', (done) => {
-        helpers.logout(nightmare, config, done);
+        helpers.logoutWithoutEnd(nightmare, config, done);
       });
     });
   });

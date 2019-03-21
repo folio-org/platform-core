@@ -11,11 +11,16 @@
  vendor information - complete? or basic?
 */
 
-module.exports.test = (uiTestCtx) => {
+module.exports.test = (uiTestCtx, nightmare) => {
   describe('Load test-vendor', function runMain() {
     const { config, helpers } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
-    const nightmare = new Nightmare(config.nightmare);
+
+    const forContent = (c) => {
+      const re = new RegExp(c, 'i');
+      return !!Array.from(document.querySelectorAll('#list-vendors div[role="row"] > a div[role="gridcell"]'))
+        .find(e => re.test(e.textContent));
+    };
 
     // vendor constants
     const vendorName = 'GOBI';
@@ -26,7 +31,7 @@ module.exports.test = (uiTestCtx) => {
     const vendorDesc = 'GOBI Library Solutions from EBSCO (formerly YBP Library Services) provides acquisition, collection development and technical services to academic and research libraries around the world';
 
     // selector constants
-    const vendorListSelector = 'div[role="listitem"]';
+    const vendorListSelector = 'div[role="role"]';
     const vendorNameSelector = `div[role="gridcell"][title="${vendorName}"]`;
     const vendorNewNameSelector = `div[role="gridcell"][title="${newVendorName}"]`;
 
@@ -37,9 +42,6 @@ module.exports.test = (uiTestCtx) => {
 
       it('should click on vendors module', (done) => {
         nightmare
-        /* .on('console', (log, msg) => {
-        console.log(msg)
-       }) */
           .click('#clickable-vendors-module')
           .wait('#clickable-newvendors')
           .then(() => { done(); })
@@ -48,13 +50,19 @@ module.exports.test = (uiTestCtx) => {
 
       it('should add a vendor', (done) => {
         nightmare
+          .wait('#clickable-newvendors')
           .click('#clickable-newvendors')
           .wait('#form-add-new-vendor')
         // populate form
+          .wait('#name')
           .insert('#name', vendorName)
+          .wait('#code')
           .insert('#code', vendorCode)
+          .wait('#description')
           .insert('#description', vendorDesc)
+          .wait('#vendor_status')
           .select('#vendor_status', vendorStatus)
+          .wait('#language')
           .select('#language', vendorLang)
         // vendor names
           .wait('#clickable-createnewvendor')
@@ -67,6 +75,8 @@ module.exports.test = (uiTestCtx) => {
       it('should confirm vendor created and edit the vendor', (done) => {
         nightmare
           .wait('#clickable-newvendors')
+          .wait(forContent, vendorName)
+
           .evaluate((vendListSelector, vendNameSelector, vendName) => {
             let found = false;
             const matches = document.querySelectorAll(vendListSelector);
@@ -171,7 +181,7 @@ module.exports.test = (uiTestCtx) => {
       });
 
       it('should logout', (done) => {
-        helpers.logout(nightmare, config, done);
+        helpers.logoutWithoutEnd(nightmare, config, done);
       });
     });
   });

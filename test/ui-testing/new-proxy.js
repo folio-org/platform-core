@@ -1,6 +1,6 @@
 /* global it describe Nightmare before after */
-module.exports.test = function foo(uiTestCtx, nightmareX) {
-  describe('Module test: new_proxy', function bar() {
+module.exports.test = function foo(uiTestCtx) {
+  describe('User proxies ("new-proxy")', function bar() {
     const { config, helpers: { login, openApp, logout }, meta: { testVersion } } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
 
@@ -33,15 +33,19 @@ module.exports.test = function foo(uiTestCtx, nightmareX) {
           .click('#clickable-reset-all')
           .wait('#clickable-filter-pg-faculty')
           .click('#clickable-filter-pg-faculty')
-          .wait('#list-users div[role="listitem"]:nth-child(1)')
+          .wait('#list-users div[role="row"][aria-rowindex="2"]')
           .evaluate(() => {
             const ubc = [];
-            const list = document.querySelectorAll('#list-users div[role="listitem"]');
+            const list = document.querySelectorAll('#list-users div[role="row"]');
             list.forEach((node) => {
-              const status = node.querySelector('a div:nth-child(1)').innerText;
-              const barcode = node.querySelector('a div:nth-child(3)').innerText;
-              const uuid = node.querySelector('a').href.replace(/.+?([^/]+)\?.*/, '$1');
-              if (barcode && status.match(/Active/)) {
+              const status = node.querySelector('div:nth-child(1)').innerText;
+              const barcode = node.querySelector('div:nth-child(3)').innerText;
+              const anchor = node.querySelector('a');
+              // there's no longer an easy way to skip the header row of an MCL
+              // so the hack here is to make sure the barcode is numeric, which
+              // it won't be in the header row. Kinda hacky but it works.
+              if (anchor && barcode && RegExp(/^\d+$/).test(barcode) && status.match(/Active/)) {
+                const uuid = anchor.href.replace(/.+?([^/]+)\?.*/, '$1');
                 ubc.push({
                   barcode,
                   uuid,
@@ -58,7 +62,7 @@ module.exports.test = function foo(uiTestCtx, nightmareX) {
       });
 
       it('should add a proxy for user 1', (done) => {
-        const selector = '#OverlayContainer #list-users div[role="listitem"]:nth-child(1) div[role=gridcell]:nth-child(5)';
+        const selector = '#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] div[role="gridcell"]:nth-child(5)';
         nightmare
           .wait('#input-user-search')
           .type('#input-user-search', '0')
@@ -71,8 +75,8 @@ module.exports.test = function foo(uiTestCtx, nightmareX) {
           .click('#clickable-edituser')
           .wait('#accordion-toggle-button-proxy')
           .click('#accordion-toggle-button-proxy')
-          .wait('#proxy #clickable-plugin-find-user')
-          .click('#proxy #clickable-plugin-find-user')
+          .wait('#proxy #clickable-plugin-find-proxy')
+          .click('#proxy #clickable-plugin-find-proxy')
 
           // you'd think we could just execute a search here,
           // but clicking the "search" button in the modal submits
@@ -80,61 +84,59 @@ module.exports.test = function foo(uiTestCtx, nightmareX) {
           // so we lose the ability to capture the proxy we just found.
           .wait('#OverlayContainer #clickable-filter-pg-undergrad')
           .click('#OverlayContainer #clickable-filter-pg-undergrad')
-          .wait('#OverlayContainer #list-users div[role="listitem"]:nth-child(1)')
+          .wait('#OverlayContainer #list-plugin-find-user:not([data-total-count="0"])')
           .evaluate((s) => {
-            const pid = document.querySelector(s).innerText;
-            return pid;
+            return document.querySelector(s).textContent;
           }, selector)
-          .then(text => {
+          .then(barcode => {
             nightmare
-              .click('#OverlayContainer #list-users div[role="listitem"]:nth-child(1) a')
+              .wait('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] a')
+              .click('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] a')
               .wait('#clickable-updateuser')
-              .click('#clickable-updateuser');
-            done();
-            proxyId = text;
+              .click('#clickable-updateuser')
+              .then(done)
+              .catch(done);
+            proxyId = barcode;
           })
           .catch(done);
       });
 
       it(`should delete a sponsor of user 2 (${proxyId})`, (done) => {
         nightmare
-          .wait(2222)
+          // close the sponsor's detail pane
+          // then search for the proxy
+          .wait('#pane-userdetails button[icon="times"]')
+          .click('#pane-userdetails button[icon="times"]')
+          .wait(() => {
+            return !(document.querySelector('#pane-userdetails'));
+          })
           // put some junk in the search field to get the reset button
           // so we can click it and be sure the field is clear before
           // entering new data.
           .type('#input-user-search', 'asdf')
           .wait('#clickable-reset-all')
           .click('#clickable-reset-all')
+          .wait('#pane-results div[class*=mclEmptyMessage]')
           .type('#input-user-search', proxyId)
           .wait('button[type=submit]')
           .click('button[type=submit]')
           .wait('#list-users[data-total-count="1"]')
-          .evaluate((pid) => {
-            const node = Array.from(
-              document.querySelectorAll('#list-users div[role="listitem"] > a > div[role="gridcell"]')
-            ).find(e => e.textContent === pid);
-            if (node) {
-              node.parentElement.click();
-            } else {
-              throw new Error(`Could not find the user ${pid} to edit`);
-            }
-          }, proxyId)
-          .then(() => {
-            nightmare
-              .wait('#accordion-toggle-button-proxySection')
-              .wait('#clickable-edituser')
-              .click('#clickable-edituser')
-              .wait('#accordion-toggle-button-proxy')
-              .click('#accordion-toggle-button-proxy')
-              .wait(`#proxy a[href*="${userIds[0].uuid}"]`)
-              .xclick(`id("proxy")//a[contains(@href, "${userIds[0].uuid}")]/../../../..//button`)
-              .wait('#clickable-deleteproxies-confirmation-confirm')
-              .click('#clickable-deleteproxies-confirmation-confirm')
-              .wait('#clickable-updateuser')
-              .click('#clickable-updateuser')
-              .then(() => { done(); })
-              .catch(done);
-          })
+          .wait('#list-users div[role="row"][aria-rowindex="2"] > a')
+          .click('#list-users div[role="row"][aria-rowindex="2"] > a')
+          .wait('#accordion-toggle-button-proxySection')
+          .wait('#clickable-edituser')
+          .click('#clickable-edituser')
+          .wait('#accordion-toggle-button-proxy')
+          .click('#accordion-toggle-button-proxy')
+          .wait('#proxy div[class*=sectionActions] button')
+          .click('#proxy div[class*=sectionActions] button')
+          .wait('#OverlayContainer div[role="dialog"]')
+          .wait('#deletesponsors-confirmation-footer')
+          .wait('#clickable-deletesponsors-confirmation-confirm')
+          .click('#clickable-deletesponsors-confirmation-confirm')
+          .wait('#clickable-updateuser')
+          .click('#clickable-updateuser')
+          .then(done)
           .catch(done);
       });
     });

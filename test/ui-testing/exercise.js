@@ -1,25 +1,18 @@
 /* eslint-disable no-console */
 /* eslint no-unused-vars: ["error", { "argsIgnorePattern": "^type" }] */
 
-module.exports.test = (uiTestCtx, nightmareX) => {
-  describe('Exercise users, inventory, checkout, checkin, settings ("test-exercise")', function descRoot() {
+module.exports.test = (uiTestCtx) => {
+  describe('Exercise users, inventory, checkout, checkin, settings ("exercise")', function descRoot() {
     const { config, helpers } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
     this.timeout(Number(config.test_timeout));
 
-    const findUserNameCell = (username) => {
-      const usernameCell = Array.from(
-        document.querySelectorAll('#list-users div[role="listitem"]')
-      ).find(e => e.childNodes[0].children[4].textContent === `${username}`);
-      usernameCell.querySelector('a').click();
-    };
+    let username = '';
+    let userBarcode = '';
+    let openLoans = -1;
+    let closedLoans = -1;
 
     describe('Login > Update settings > Find user > Create inventory record > Create holdings record > Create item record > Checkout item > Confirm checkout > Checkin > Confirm checkin > Logout\n', function descStart() {
-      let userid = '';
-      let userBarcode = '';
-      let openLoans = -1;
-      let closedLoans = -1;
-
       it(`should login as ${config.username}/${config.password}`, (done) => {
         helpers.login(nightmare, config, done);
       });
@@ -28,43 +21,54 @@ module.exports.test = (uiTestCtx, nightmareX) => {
         helpers.circSettingsCheckoutByBarcodeAndUsername(nightmare, config, done);
       });
 
-      it('should find an active user ', (done) => {
+      it('should find an active user', (done) => {
         nightmare
+          .wait('#clickable-users-module')
           .click('#clickable-users-module')
           .wait('#clickable-filter-pg-faculty')
           .click('#clickable-filter-pg-faculty')
           .wait('#list-users:not([data-total-count="0"])')
-          .wait('#list-users div[role="listitem"]:nth-child(1)')
+          .wait('#list-users div[role="row"][aria-rowindex="2"]')
           .evaluate(() => {
             const ubc = [];
-            const list = document.querySelectorAll('#list-users div[role="listitem"]');
+            const list = document.querySelectorAll('#list-users div[role="row"]');
             list.forEach((node) => {
-              const status = node.querySelector('a div:nth-child(1)').innerText;
-              const barcode = node.querySelector('a div:nth-child(3)').innerText;
-              const username = node.querySelector('a div:nth-child(5)').innerText;
-              const uuid = node.querySelector('a').href.replace(/.+?([^/]+)\?.*/, '$1');
-              if (barcode && status.match(/Active/)) {
+              const status = node.querySelector('div:nth-child(1)').innerText;
+              const barcode = node.querySelector('div:nth-child(3)').innerText;
+              const un = node.querySelector('div:nth-child(5)').innerText;
+              const anchor = node.querySelector('a');
+              if (anchor && barcode && RegExp(/^\d+$/).test(barcode) && status.match(/Active/)) {
+                const uuid = anchor.href.replace(/.+?([^/]+)\?.*/, '$1');
                 ubc.push({
                   barcode,
                   uuid,
-                  username,
+                  username: un,
                 });
               }
             });
             return ubc;
           })
           .then((result) => {
-            userid = result[0].username;
-            userBarcode = result[0].barcode;
             done();
-            console.log(`          Found user ${userid}/${userBarcode}`);
+            username = result[0].username;
+            userBarcode = result[0].barcode;
+            console.log(`          Found user ${username}/${userBarcode}`);
           })
           .catch(done);
       });
 
-      it(`should find current loans count for ${userid}/${userBarcode}`, (done) => {
+      it('should find current loans count', (done) => {
         nightmare
-          .click(`#list-users a[aria-label*="Username: ${userid}"]`)
+          .wait('#input-user-search')
+          .insert('#input-user-search', userBarcode)
+          .wait('#clickable-reset-all')
+          .click('#clickable-reset-all')
+          .insert('#input-user-search', userBarcode)
+          .wait('button[type=submit]')
+          .click('button[type=submit]')
+          .wait('#list-users[data-total-count="1"]')
+          .wait('#list-users div[role="row"][aria-rowindex="2"] > a')
+          .click('#list-users div[role="row"][aria-rowindex="2"] > a')
           .wait('#clickable-viewcurrentloans')
           .evaluate(() => document.querySelector('#clickable-viewcurrentloans').textContent)
           .then((result) => {
@@ -75,7 +79,7 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .catch(done);
       });
 
-      it(`should find closed loans count for ${userid}`, (done) => {
+      it('should find closed loans count', (done) => {
         nightmare
           .wait(222)
           .evaluate(() => document.querySelector('#clickable-viewclosedloans').textContent)
@@ -89,8 +93,10 @@ module.exports.test = (uiTestCtx, nightmareX) => {
 
       const barcode = helpers.createInventory(nightmare, config, 'Soul station / Hank Mobley');
 
-      it(`should check out ${barcode} to ${userid}`, (done) => {
+      it(`should check out ${barcode}`, (done) => {
         nightmare
+          .wait(1111)
+          .wait('#clickable-checkout-module')
           .click('#clickable-checkout-module')
           .wait('#input-patron-identifier')
           .type('#input-patron-identifier', userBarcode)
@@ -112,7 +118,10 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .type('#input-item-barcode', barcode)
           .wait('#clickable-add-item')
           .click('#clickable-add-item')
-          .wait(`#list-items-checked-out div[aria-label*="Barcode: ${barcode}"]`)
+          .wait(bc => {
+            return !!(Array.from(document.querySelectorAll('#list-items-checked-out div[role="row"] div[role="gridcell"]'))
+              .find(e => `${bc}` === e.textContent)); // `${}` forces string interpolation for numeric barcodes
+          }, barcode)
           .then(done)
           .catch(e => {
             console.error(e);
@@ -122,16 +131,19 @@ module.exports.test = (uiTestCtx, nightmareX) => {
 
       it('should change open-loan count', (done) => {
         nightmare
+          .wait(1111)
+          .wait('#clickable-users-module')
           .click('#clickable-users-module')
           .wait('#input-user-search')
-          .insert('#input-user-search', userid)
+          .insert('#input-user-search', userBarcode)
           .wait('#clickable-reset-all')
           .click('#clickable-reset-all')
-          .insert('#input-user-search', userid)
+          .insert('#input-user-search', userBarcode)
           .wait('button[type=submit]')
           .click('button[type=submit]')
-          .wait(`#list-users a[aria-label*="Barcode: ${userBarcode}"]`)
-          .click(`#list-users a[aria-label*="Barcode: ${userBarcode}"]`)
+          .wait('#list-users[data-total-count="1"]')
+          .wait('#list-users div[role="row"][aria-rowindex="2"] > a')
+          .click('#list-users div[role="row"][aria-rowindex="2"] > a')
           .wait('#clickable-viewcurrentloans')
           .evaluate(() => document.querySelector('#clickable-viewcurrentloans').textContent)
           .then((result) => {
@@ -143,52 +155,33 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .catch(done);
       });
 
-      it(`should find ${barcode} in ${userid}'s open loans`, (done) => {
+      it(`should find ${barcode} in open loans`, (done) => {
         nightmare
-          .click('#clickable-users-module')
-          .wait('#input-user-search')
-          .insert('#input-user-search', userid)
-          .wait('#clickable-reset-all')
-          .click('#clickable-reset-all')
-          .insert('#input-user-search', userid)
-          .wait('button[type=submit]')
-          .click('button[type=submit]')
-          .wait('#list-users div[role="gridcell"]')
-          .evaluate(findUserNameCell, userid)
-          .then(() => {
-            nightmare
-              .wait('#clickable-viewcurrentloans')
-              .click('#clickable-viewcurrentloans')
-              .wait((fbarcode) => {
-                const element = document.evaluate(`id("list-loanshistory")//div[.="${fbarcode}"]`, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
-                if (element.singleNodeValue) {
-                  return true;
-                } else {
-                  return false;
-                }
-              }, barcode)
-              .wait('div[class*="LayerRoot"] button[class*="paneHeaderCloseIcon"]')
-              .click('div[class*="LayerRoot"] button[class*="paneHeaderCloseIcon"]')
-              .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 555) // debugging
-              .then(done)
-              .catch(done);
-          })
+          .wait('#clickable-viewcurrentloans')
+          .click('#clickable-viewcurrentloans')
+          .wait(bc => {
+            return !!(Array.from(document.querySelectorAll('#list-loanshistory div[role="gridcell"]'))
+              .find(e => e.textContent === `${bc}`));
+          }, barcode)
+          .wait('div[class*="LayerRoot"] button[icon="times"][class*="iconButton"]')
+          .click('div[class*="LayerRoot"] button[icon="times"][class*="iconButton"]')
+          .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 555) // debugging
+          .then(done)
           .catch(done);
       });
 
       it(`should check in ${barcode}`, (done) => {
         nightmare
+          .wait('#clickable-checkin-module')
           .click('#clickable-checkin-module')
           .wait('#input-item-barcode')
           .insert('#input-item-barcode', barcode)
           .wait('#clickable-add-item')
           .click('#clickable-add-item')
           .wait('#list-items-checked-in')
-          .evaluate((fbarcode) => {
-            const a = document.querySelector(`#list-items-checked-in div[aria-label*= "Barcode: ${fbarcode}"]`);
-            if (a === null) {
-              throw new Error('Item barcode not found');
-            }
+          .wait(bc => {
+            return !!(Array.from(document.querySelectorAll('#list-items-checked-in div[role="gridcell"]'))
+              .find(e => e.textContent === `${bc}`));
           }, barcode)
           .then(done)
           .catch(done);
@@ -196,16 +189,9 @@ module.exports.test = (uiTestCtx, nightmareX) => {
 
       it('should change closed-loan count', (done) => {
         nightmare
+          .wait('#clickable-users-module')
           .click('#clickable-users-module')
-          .wait('#input-user-search')
-          .insert('#input-user-search', userid)
-          .wait('#clickable-reset-all')
-          .click('#clickable-reset-all')
-          .insert('#input-user-search', userid)
-          .wait('button[type=submit]')
-          .click('button[type=submit]')
-          .wait(`#list-users a[aria-label*="Barcode: ${userBarcode}"]`)
-          .click(`#list-users a[aria-label*="Barcode: ${userBarcode}"]`)
+          .wait('#pane-userdetails')
           .wait('#clickable-viewclosedloans')
           .evaluate(() => document.querySelector('#clickable-viewclosedloans').textContent)
           .then((result) => {
@@ -217,20 +203,16 @@ module.exports.test = (uiTestCtx, nightmareX) => {
           .catch(done);
       });
 
-      it(`should confirm ${barcode} in ${userid}'s closed loans`, (done) => {
+      it(`should confirm ${barcode} in closed loans`, (done) => {
         nightmare
           .wait('#clickable-viewclosedloans')
           .click('#clickable-viewclosedloans')
-          .wait((fbarcode) => {
-            const element = document.evaluate(`id("list-loanshistory")//div[.="${fbarcode}"]`, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
-            if (element.singleNodeValue) {
-              return true;
-            } else {
-              return false;
-            }
+          .wait(bc => {
+            return !!(Array.from(document.querySelectorAll('#list-loanshistory div[role="gridcell"]'))
+              .find(e => e.textContent === `${bc}`));
           }, barcode)
-          .wait('div[class*="LayerRoot"] button[class*="paneHeaderCloseIcon"]')
-          .click('div[class*="LayerRoot"] button[class*="paneHeaderCloseIcon"]')
+          .wait('div[class*="LayerRoot"] button[icon="times"][class*="iconButton"]')
+          .click('div[class*="LayerRoot"] button[icon="times"][class*="iconButton"]')
           .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 555) // debugging
           .then(done)
           .catch(done);

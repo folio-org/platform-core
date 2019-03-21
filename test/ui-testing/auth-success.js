@@ -1,8 +1,7 @@
-module.exports.test = (uiTestCtx) => {
-  describe('Login Page ("test-good-login")', function test() {
+module.exports.test = (uiTestCtx, nightmare) => {
+  describe('Login Page ("auth-success")', function test() {
     const { config } = uiTestCtx;
     this.timeout(Number(config.test_timeout));
-    const nightmare = new Nightmare(config.nightmare);
 
     describe('Login and logout without error', () => {
       it('Login successfully', (done) => {

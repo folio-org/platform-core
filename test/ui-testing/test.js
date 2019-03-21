@@ -1,20 +1,21 @@
-// const startPage = require('./100-startpage');
-// const authSuccess = require('./110-auth-success');
-const authFail = require('./120-auth-fail');
-// const calendarTest = require('./calendarTest');
+// const startPage = require('./start-page');
+// const authSuccess = require('./auth-success');
+const authFail = require('./auth-fail');
+// const calendarTest = require('./calendar');
 const codexSearch = require('./codex-search');
 const dependencies = require('./dependencies');
 const exercise = require('./exercise');
-// const inventorySearch = require('./inventorySearch');
-const loanRenewal = require('./loan_renewal');
-const newProxy = require('./new_proxy');
+// const inventorySearch = require('./inventory-search');
+const loanRenewal = require('./loan-renewal');
+const newProxy = require('./new-proxy');
+const newRequest = require('./new-request');
 // const location = require('./location');
 // const profilePictures = require('./profile-pictures');
 // const stub = require('./stub');
 // const vendor = require('./vendor');
 
 
-module.exports.test = (uiTestCtx) => {
+module.exports.test = (uiTestCtx, nightmare) => {
   const allTests = [
     // startPage,
     // authSuccess,
@@ -24,7 +25,8 @@ module.exports.test = (uiTestCtx) => {
     exercise,
     // inventorySearch,
     loanRenewal,
-    newProxy
+    newProxy,
+    newRequest
     // location,
     // profilePictures,
     // stub,
@@ -33,5 +35,5 @@ module.exports.test = (uiTestCtx) => {
     // vendor
   ];
 
-  allTests.forEach(testModule => testModule.test(uiTestCtx));
+  allTests.forEach(testModule => testModule.test(uiTestCtx, nightmare));
 };
