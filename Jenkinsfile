@@ -98,26 +98,6 @@ pipeline {
       }
     }
 
-    stage('Commit Install Files') {
-      when {
-        branch 'master'
-      } 
-      steps {
-        sh 'git checkout master'
-        sh "git add ${env.WORKSPACE}/stripes-install.json"
-        sh "git add ${env.WORKSPACE}/okapi-install.json"
-        sh "git add ${env.WORKSPACE}/yarn.lock"
-
-        script {
-          def commitStatus = sh(returnStatus: true,
-                                script: 'git commit -m "updating install files"')
-          if (commitStatus == 0) {
-            sshGitPush(origin: env.folioPlatform, branch: 'master')
-          }
-        }
-      }
-    }
-
     stage('Publish NPM Package') {
       when {
         buildingTag()
@@ -130,6 +110,41 @@ pipeline {
             // don't include these in package
             sh 'rm -rf yarn.lock stripes-install.json okapi-install.json'
             sh 'npm publish'
+          }
+        }
+      }
+    }
+
+    stage('Update Install Artifacts') {
+      when {
+        branch 'master'
+      } 
+      steps {
+        script {
+          sh 'git checkout master'
+
+          // determine if we should skip a git commit by searching 
+          // for [CI SKIP] in the previous commit in order to prevent
+          // possible build loops. 
+
+          def lastCommit = sh(returnStatus: true,
+                              script: "git log -1 | grep '.*\\[CI SKIP\\].*'")
+          if (lastCommit == 0) { 
+              echo "CI SKIP detected.  No push to git origin needed" 
+          }
+          else {
+            sh "git add ${env.WORKSPACE}/stripes-install.json"
+            sh "git add ${env.WORKSPACE}/okapi-install.json"
+            sh "git add ${env.WORKSPACE}/yarn.lock"
+
+            def commitStatus = sh(returnStatus: true,
+                                script: 'git commit -m "[CI SKIP] Updating install files"')
+            if (commitStatus == 0) {
+              sshGitPush(origin: env.folioPlatform, branch: 'master')
+            }
+            else {
+              echo "No new changes.  No push to git origin needed" 
+            }
           }
         }
       }
