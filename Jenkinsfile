@@ -115,7 +115,7 @@ pipeline {
             // clean up generated artifacts before publishing
             sh 'rm -rf ci artifacts bundle node_modules'
             // don't include these in package
-            sh 'rm -rf yarn.lock stripes-install.json okapi-install.json'
+            sh 'rm -rf yarn.lock install.json stripes-install.json okapi-install.json'
             sh 'npm publish'
           }
         }
@@ -148,6 +148,7 @@ pipeline {
           else {
             sh "git add ${env.WORKSPACE}/stripes-install.json"
             sh "git add ${env.WORKSPACE}/okapi-install.json"
+            sh "git add ${env.WORKSPACE}/install.json"
             sh "git add ${env.WORKSPACE}/yarn.lock"
 
             def commitStatus = sh(returnStatus: true,
