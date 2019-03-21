@@ -1,5 +1,6 @@
 # FOLIO core platform
 
+
 Copyright (C) 2015-2018 The Open Library Foundation
 
 This software is distributed under the terms of the Apache License,
