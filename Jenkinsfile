@@ -34,7 +34,7 @@ pipeline {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
           // These two variable are set by Github Branch Source plugin
           echo "Origin branch: $env.CHANGE_BRANCH"
-          echo "Target branch: $env.CHANGE_TARGET
+          echo "Target branch: $env.CHANGE_TARGET"
 
           def lastCommit = sh(returnStatus: true,
                               script: "git log -1 | grep '.*\\[CI SKIP\\].*'")
