@@ -32,6 +32,7 @@ pipeline {
         sendNotifications 'STARTED'
         script {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
+          sh 'printenv'
 
           def lastCommit = sh(returnStatus: true,
                               script: "git log -1 | grep '.*\\[CI SKIP\\].*'")
@@ -62,10 +63,7 @@ pipeline {
         stage('Check Platform Dependencies') {
           when {
             not {
-              anyOf { 
-                changeRequest()
-                branch 'master'
-              }
+              branch 'master'
             }
           }  
           steps {
