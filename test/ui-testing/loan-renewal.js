@@ -27,6 +27,9 @@ module.exports.test = (uiTestCtx) => {
     const uselector = '#list-users div[role="row"][aria-rowindex="2"] > a > div:nth-of-type(3)';
     const policyName = `test-policy-${Math.floor(Math.random() * 10000)}`;
     const scheduleName = `test-schedule-${Math.floor(Math.random() * 10000)}`;
+    const noticePolicyName = `test-notice-policy-${Math.floor(Math.random() * 10000)}`;
+    const requestPolicyName = `test-request-policy-${Math.floor(Math.random() * 10000)}`;
+
     const renewalLimit = 1;
     const loanPeriod = 2;
     const nextMonthValue = moment()
@@ -95,7 +98,7 @@ module.exports.test = (uiTestCtx) => {
               .catch(done);
           });
 
-          it(`should create a new loan policy(${policyName}) with renewalLimit of 1`, (done) => {
+          it(`should create a new loan policy (${policyName}) with renewalLimit of 1`, (done) => {
             nightmare
               .wait('#input_policy_name')
               .type('#input_policy_name', policyName)
@@ -121,8 +124,82 @@ module.exports.test = (uiTestCtx) => {
           });
         });
 
+        describe('Create notice policy', () => {
+          it('should reach "Create notice policy" page', (done) => {
+            nightmare
+              .wait(config.select.settings)
+              .click(config.select.settings)
+              .wait('a[href="/settings/circulation"]')
+              .click('a[href="/settings/circulation"]')
+              .wait('a[href="/settings/circulation/notice-policies"]')
+              .click('a[href="/settings/circulation/notice-policies"]')
+              .wait('#clickable-create-entry')
+              .click('#clickable-create-entry')
+              .then(done)
+              .catch(done);
+          });
+
+          it(`should create a new notice policy (${noticePolicyName})`, (done) => {
+            nightmare
+              .wait('#notice_policy_name')
+              .type('#notice_policy_name', noticePolicyName)
+              .wait('#notice_policy_active')
+              .check('#notice_policy_active')
+              .wait('#clickable-save-entry')
+              .click('#clickable-save-entry')
+              .wait(1000)
+              .evaluate(() => {
+                const sel = document.querySelector('div[class^="textfieldError"]');
+                if (sel) {
+                  throw new Error(sel.textContent);
+                }
+              })
+              .then(done)
+              .catch(done);
+          });
+        });
+
+        describe('Create request policy', () => {
+          it('should reach "Create request policy" page', (done) => {
+            nightmare
+              .wait(config.select.settings)
+              .click(config.select.settings)
+              .wait('a[href="/settings/circulation"]')
+              .click('a[href="/settings/circulation"]')
+              .wait('a[href="/settings/circulation/request-policies"]')
+              .click('a[href="/settings/circulation/request-policies"]')
+              .wait('#clickable-create-entry')
+              .click('#clickable-create-entry')
+              .then(done)
+              .catch(done);
+          });
+
+          it(`should create a new request policy (${requestPolicyName})`, (done) => {
+            nightmare
+              .wait('#request_policy_name')
+              .type('#request_policy_name', requestPolicyName)
+              .wait('#hold-checkbox')
+              .check('#hold-checkbox')
+              .wait('#page-checkbox')
+              .check('#page-checkbox')
+              .wait('#recall-checkbox')
+              .check('#recall-checkbox')
+              .wait('#clickable-save-entry')
+              .click('#clickable-save-entry')
+              .wait(1000)
+              .evaluate(() => {
+                const sel = document.querySelector('div[class^="textfieldError"]');
+                if (sel) {
+                  throw new Error(sel.textContent);
+                }
+              })
+              .then(done)
+              .catch(done);
+          });
+        });
+
         describe('Apply Loan rule', () => {
-          it('Apply the loan policy created as a loan rule to material-type book', (done) => {
+          it('should reach "Circulation rules" page', (done) => {
             nightmare
               .wait(config.select.settings)
               .click(config.select.settings)
@@ -130,21 +207,27 @@ module.exports.test = (uiTestCtx) => {
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/rules"]')
               .click('a[href="/settings/circulation/rules"]')
+              .then(done)
+              .catch(done);
+          });
+
+          it('Apply the loan policy created as a loan rule to material-type book', (done) => {
+            nightmare
               .wait('#form-loan-rules')
-              .wait(1000)
-              .evaluate((policy) => {
+              .wait('.CodeMirror')
+              .evaluate((policy, requestPolicy, noticePolicy) => {
                 const defaultRules = document.getElementsByClassName('CodeMirror')[0].CodeMirror.getValue();
-                const value = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r request-policy-1 n notice-policy-1 \nm book: l ${policy} r request-policy-1 n notice-policy-1`;
+                const value = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r ${requestPolicy} n ${noticePolicy} \nm book: l ${policy} r ${requestPolicy} n ${noticePolicy}`;
                 document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(value);
                 return defaultRules;
-              }, policyName)
+              }, policyName, requestPolicyName, noticePolicyName)
               .then((defaultRules) => {
                 nightmare
                   .wait('#clickable-save-loan-rules')
                   .click('#clickable-save-loan-rules')
-                  .wait(Math.max(555, debugSleep)); // debugging
-
-                done();
+                  .wait(Math.max(555, debugSleep))
+                  .then(done)
+                  .catch(done);
                 loanRules = defaultRules;
               })
               .catch(done);
