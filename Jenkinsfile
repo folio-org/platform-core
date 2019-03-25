@@ -97,7 +97,7 @@ pipeline {
           }
           steps {
             script {
-              sh "git checkout $env.BRANCH_NAME"
+              //sh "git checkout $env.BRANCH_NAME"
 
               sh "git add ${env.WORKSPACE}/stripes-install.json"
               sh "git add ${env.WORKSPACE}/okapi-install.json"
