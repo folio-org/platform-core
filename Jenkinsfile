@@ -32,10 +32,9 @@ pipeline {
         sendNotifications 'STARTED'
         script {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
-          sh 'printenv'
-          echo 'Try to determine origin branch'
-          def b = scm.branches[0].name
-          echo "Origin branch: $b"
+          // These two variable are set by Github Branch Source plugin
+          echo "Origin branch: $env.CHANGE_BRANCH"
+          echo "Target branch: $env.CHANGE_TARGET
 
           def lastCommit = sh(returnStatus: true,
                               script: "git log -1 | grep '.*\\[CI SKIP\\].*'")
@@ -98,7 +97,7 @@ pipeline {
           }
           steps {
             script {
-              //sh "git checkout $env.BRANCH_NAME"
+              sh "git checkout $env.CHANGE_BRANCH"
 
               sh "git add ${env.WORKSPACE}/stripes-install.json"
               sh "git add ${env.WORKSPACE}/okapi-install.json"
@@ -108,7 +107,7 @@ pipeline {
               def commitStatus = sh(returnStatus: true,
                                     script: 'git commit -m "[CI SKIP] Updating install files"')
               if (commitStatus == 0) {
-                sshGitPush(origin: env.folioPlatform, branch: env.BRANCH_NAME)
+                sshGitPush(origin: env.folioPlatform, branch: env.CHANGE_BRANCH)
               }
               else {
                 echo "No new changes.  No push to git origin needed" 
