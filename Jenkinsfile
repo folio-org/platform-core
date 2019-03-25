@@ -70,11 +70,11 @@ pipeline {
           }  
           steps {
             script {
+              echo "Adding additional modules to stripes-install.json"
+              sh 'mv stripes-install.json stripes-install-pre.json'
+              sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install-pre.json install-extras.json > stripes-install.json'
               def stripesInstallJson = readFile('./stripes-install.json')
               platformDepCheck(env.tenant,stripesInstallJson)
-              echo "Adding additional modules to install.json"
-              sh 'mv install.json install-dep.json'
-              sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' install-dep.json install-extras.json > install.json'
               echo 'Generating backend dependency list to okapi-install.json'
               sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
               sh 'cat okapi-install.json'
@@ -90,64 +90,11 @@ pipeline {
           }
         }
 
-        stage('Build FOLIO Instance') {
-          when {
-            changeRequest()
-          }
-          steps {
-            // build FOLIO instance
-            buildPlatformInstance(env.ec2Group,env.folioHostname,env.tenant)
-          }
-        }
-
-        stage('Run Integration Tests') {
-          when {
-            changeRequest()
-          }
-          steps {
-            script {
-              def testOpts = [ tenant: env.tenant,
-                               folioUrl: env.folioUrl,
-                               okapiUrl: env.okapiUrl,
-                               folioUser: env.tenant + '_admin',
-                               folioPassword: 'admin']
-
-              def testStatus = runIntegrationTests(testOpts)
-
-              if (testStatus == 'FAILED') { 
-                error('UI Integration test failures')
-              }
-            }
-          }
-        }
-
-        stage('Publish NPM Package') {
-          when {
-            buildingTag()
-          }
-          steps {
-            withCredentials([string(credentialsId: 'jenkins-npm-folioci',variable: 'NPM_TOKEN')]) {
-              withNPM(npmrcConfig: env.npmConfig) {
-                // clean up generated artifacts before publishing
-                sh 'rm -rf ci artifacts bundle node_modules'
-                // don't include these in package
-                sh 'rm -rf yarn.lock install.json stripes-install.json okapi-install.json'
-                sh 'npm publish'
-              }
-            }
-          }
-        }
-
         stage('Update Branch Install Artifacts') {
           // Update branch with install artifacts
           when {
-            not { 
-              anyOf {
-                branch 'master'
-                changeRequest()
-              }
-            }
-          } 
+            changeRequest()
+          }
           steps {
             script {
               sh "git checkout $env.BRANCH_NAME"
