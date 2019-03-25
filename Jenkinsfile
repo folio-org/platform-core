@@ -33,6 +33,9 @@ pipeline {
         script {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
           sh 'printenv'
+          echo 'Try to determine origin branch'
+          def b = scm.branches[0].name
+          echo "Origin branch: $b"
 
           def lastCommit = sh(returnStatus: true,
                               script: "git log -1 | grep '.*\\[CI SKIP\\].*'")
