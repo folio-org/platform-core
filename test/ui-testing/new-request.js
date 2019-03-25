@@ -27,6 +27,34 @@ module.exports.test = function uiTest(uiTestCtx) {
           .then(result => result);
       });
 
+      let initialRules = '';
+      it('should configure default circulation rules', (done) => {
+        nightmare
+          .wait(config.select.settings)
+          .click(config.select.settings)
+          .wait('a[href="/settings/circulation"]')
+          .click('a[href="/settings/circulation"]')
+          .wait('a[href="/settings/circulation/rules"]')
+          .click('a[href="/settings/circulation/rules"]')
+          .wait('#form-loan-rules')
+          .wait(1000)
+          .evaluate(() => {
+            const defaultRules = document.getElementsByClassName('CodeMirror')[0].CodeMirror.getValue();
+            const value = 'priority: t, s, c, b, a, m, g\nfallback-policy: l one-hour r hold-only n basic-notice-policy \nm book: l example-loan-policy r allow-all n alternate-notice-policy';
+            document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(value);
+            return defaultRules;
+          })
+          .then((rules) => {
+            nightmare
+              .wait('#clickable-save-loan-rules')
+              .click('#clickable-save-loan-rules')
+              .then(done)
+              .catch(done);
+            initialRules = rules;
+          })
+          .catch(done);
+      });
+
       it('should find an active user barcode', (done) => {
         const listitem = '#list-users div[role="row"] > a';
         const bcodeNode = `${listitem} > div:nth-child(3)`;
@@ -132,6 +160,30 @@ module.exports.test = function uiTest(uiTestCtx) {
           .click('button[type="submit"]')
           .wait('#list-requests[data-total-count="1"]')
           .then(done)
+          .catch(done);
+      });
+
+      it('should restore initial circulation rules', (done) => {
+        nightmare
+          .wait(config.select.settings)
+          .click(config.select.settings)
+          .wait('a[href="/settings/circulation"]')
+          .click('a[href="/settings/circulation"]')
+          .wait('a[href="/settings/circulation/rules"]')
+          .click('a[href="/settings/circulation/rules"]')
+          .wait('#form-loan-rules')
+          .wait(1000)
+          .evaluate((r) => {
+            document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(r);
+            return r;
+          }, initialRules)
+          .then(() => {
+            nightmare
+              .wait('#clickable-save-loan-rules')
+              .click('#clickable-save-loan-rules')
+              .then(done)
+              .catch(done);
+          })
           .catch(done);
       });
     });
