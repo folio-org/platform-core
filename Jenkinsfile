@@ -98,9 +98,8 @@ pipeline {
           }
           steps {
             script {
-              sh "git remote update"
-              sh "git fetch"
-              sh "git checkout origin/$env.CHANGE_BRANCH"
+              sh "git fetch --no-tags ${env.projUrl} +refs/heads/${env.CHANGE_BRANCH}:refs/remotes/origin/${env.CHANGE_BRANCH}"
+              sh "git checkout -f $env.CHANGE_BRANCH"
               sh 'git branch'
 
               sh "git add ${env.WORKSPACE}/stripes-install.json"
