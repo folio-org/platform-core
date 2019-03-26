@@ -98,9 +98,10 @@ pipeline {
           }
           steps {
             script {
-              sh "git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'"
-              sh "git fetch --all"
-              sh "git checkout $env.CHANGE_BRANCH"
+              sh "git remote update"
+              sh "git fetch"
+              sh "git checkout --track origin/$env.CHANGE_BRANCH"
+              sh 'git branch'
 
               sh "git add ${env.WORKSPACE}/stripes-install.json"
               sh "git add ${env.WORKSPACE}/okapi-install.json"
