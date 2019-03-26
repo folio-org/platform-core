@@ -616,26 +616,34 @@ module.exports.test = (uiTestCtx) => {
               .wait('a[href="/settings/circulation/loan-policies"]')
               .click('a[href="/settings/circulation/loan-policies"]')
               .wait('div.hasEntries')
-              .evaluate((pn) => {
-                const node = Array.from(
+              .wait((pn) => {
+                const index = Array.from(
                   document.querySelectorAll('#ModuleContainer div.hasEntries a div')
-                )
-                  .find(e => e.textContent === pn);
-                if (node) {
-                  node.parentElement.click();
-                } else {
-                  throw new Error(`Could not find the loan policy ${pn} to edit`);
-                }
+                ).findIndex(e => e.textContent === pn);
+                return index >= 0;
               }, policyName)
-              .then(() => {
+              .evaluate((pn) => {
+                const index = Array.from(
+                  document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+                ).findIndex(e => e.textContent === pn);
+                if (index === -1) {
+                  throw new Error(`Could not find the loan policy ${pn} to delete`);
+                }
+
+                // CSS selectors are 1-based, which is just totally awesome.
+                return index + 1;
+              }, policyName)
+              .then((entryIndex) => {
                 nightmare
+                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
                   .wait('#clickable-edit-item')
                   .click('#clickable-edit-item')
                   .wait('#clickable-delete-entry')
                   .click('#clickable-delete-entry')
                   .wait('#clickable-delete-item-confirmation-confirm')
                   .click('#clickable-delete-item-confirmation-confirm')
-                  .wait(3000)
+                  .wait('#clickable-edit-item')
                   .then(done)
                   .catch(done);
               })
