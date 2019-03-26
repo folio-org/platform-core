@@ -98,6 +98,7 @@ pipeline {
           }
           steps {
             script {
+              def pr_comment = pullRequest.comment("Instance available at $env.folioUrl") 
               sh "git fetch --no-tags ${env.projUrl} +refs/heads/${env.CHANGE_BRANCH}:refs/remotes/origin/${env.CHANGE_BRANCH}"
               sh "git checkout -b ${env.CHANGE_BRANCH} origin/$env.CHANGE_BRANCH"
               sh 'git branch'
