@@ -98,7 +98,8 @@ pipeline {
           }
           steps {
             script {
-              sh "git fetch"
+              sh "git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'"
+              sh "git fetch --all"
               sh "git checkout $env.CHANGE_BRANCH"
 
               sh "git add ${env.WORKSPACE}/stripes-install.json"
