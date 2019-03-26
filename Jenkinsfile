@@ -98,8 +98,7 @@ pipeline {
           }
           steps {
             script {
-              sh "git fetch --no-tags ${env.projUrl} +refs/heads/${env.CHANGE_BRANCH}:refs/remotes/origin/${env.CHANGE_BRANCH}"
-
+              sh "git fetch --no-tags ${env.projUrl} ${env.CHANGE_BRANCH}"
               sh "git checkout $env.CHANGE_BRANCH"
 
               sh "git add ${env.WORKSPACE}/stripes-install.json"
