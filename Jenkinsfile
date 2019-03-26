@@ -5,7 +5,7 @@ pipeline {
 
   environment {
     folioPlatform = 'platform-core'
-    folioHostname = "${folioPlatform}-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
+    folioHostname = "${env.folioPlatform}-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
     ec2Group = "platform_core_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
     npmConfig = 'jenkins-npm-folio'
     sshKeyId = '11657186-f4d4-4099-ab72-2a32e023cced'
@@ -13,6 +13,7 @@ pipeline {
     releaseOnly = 'true'
     okapiUrl = "http://${env.folioHostname}.aws.indexdata.com:9130"
     folioUrl = "http://${env.folioHostname}.aws.indexdata.com"
+    projUrl = "https://github.com/folio-org/${env.folioPlatform}"
     tenant = 'diku'
   }
 
@@ -33,6 +34,9 @@ pipeline {
         sendNotifications 'STARTED'
         script {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
+          // These two variable are set by Github Branch Source plugin
+          echo "Origin branch: $env.CHANGE_BRANCH"
+          echo "Target branch: $env.CHANGE_TARGET"
 
           def lastCommit = sh(returnStatus: true,
                               script: "git log -1 | grep '.*\\[CI SKIP\\].*'")
@@ -63,12 +67,9 @@ pipeline {
         stage('Check Platform Dependencies') {
           when {
             not {
-              anyOf { 
-                changeRequest()
-                branch 'master'
-              }
+              branch 'master'
             }
-          }  
+          }
           steps {
             script {
               echo "Adding additional modules to stripes-install.json"
@@ -142,16 +143,13 @@ pipeline {
         stage('Update Branch Install Artifacts') {
           // Update branch with install artifacts
           when {
-            not { 
-              anyOf {
-                branch 'master'
-                changeRequest()
-              }
-            }
-          } 
+            changeRequest()
+          }
           steps {
             script {
-              sh "git checkout $env.BRANCH_NAME"
+              sh "git fetch --no-tags ${env.projUrl} " +
+                 "+refs/heads/${env.CHANGE_BRANCH}:refs/remotes/origin/${env.CHANGE_BRANCH}"
+              sh "git checkout -b ${env.CHANGE_BRANCH} origin/${env.CHANGE_BRANCH}"
 
               sh "git add ${env.WORKSPACE}/stripes-install.json"
               sh "git add ${env.WORKSPACE}/okapi-install.json"
@@ -161,7 +159,7 @@ pipeline {
               def commitStatus = sh(returnStatus: true,
                                     script: 'git commit -m "[CI SKIP] Updating install files"')
               if (commitStatus == 0) {
-                sshGitPush(origin: env.folioPlatform, branch: env.BRANCH_NAME)
+                sshGitPush(origin: env.folioPlatform, branch: env.CHANGE_BRANCH)
               }
               else {
                 echo "No new changes.  No push to git origin needed" 
