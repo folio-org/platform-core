@@ -92,39 +92,6 @@ pipeline {
           }
         }
 
-        stage('Build FOLIO Instance') {
-          when {
-            changeRequest()
-          }
-          steps {
-            // build FOLIO instance
-            buildPlatformInstance(env.ec2Group,env.folioHostname,env.tenant)
-            script { 
-              def pr_comment = pullRequest.comment("Instance available at $env.folioUrl")
-            }
-          }
-        }
-
-        stage('Run Integration Tests') {
-          when {
-            changeRequest()
-          }
-          steps {
-            script {
-              def testOpts = [ tenant: env.tenant,
-                               folioUrl: env.folioUrl,
-                               okapiUrl: env.okapiUrl,
-                               folioUser: env.tenant + '_admin',
-                               folioPassword: 'admin']
-
-              def testStatus = runIntegrationTests(testOpts)
-
-              if (testStatus == 'FAILED') { 
-                error('UI Integration test failures')
-              }
-            }
-          }
-        }
 
         stage('Publish NPM Package') {
           when {
@@ -150,14 +117,27 @@ pipeline {
           }
           steps {
             script {
+              def installFiles = ['stripes-install.json',
+                                  'okapi-install.json',
+                                  'install.json',
+                                  'yarn.lock']
+
+              
+              //for (int i = 0; i < installFiles.size(); i++) {
+              //  sh "cp ${env.WORKSPACE}/${installFiles[i]} " +
+              //     "${env.WORKSPACE}/${installFiles[i]}-${env.BUILD_NUMBER}"
+              //  sh "git stash save ${env.WORKSPACE}/${installFiles[i]}"
+              //}
+
               sh "git fetch --no-tags ${env.projUrl} " +
                  "+refs/heads/${env.CHANGE_BRANCH}:refs/remotes/origin/${env.CHANGE_BRANCH}"
               sh "git checkout -b ${env.CHANGE_BRANCH} origin/${env.CHANGE_BRANCH}"
 
-              sh "git add ${env.WORKSPACE}/stripes-install.json"
-              sh "git add ${env.WORKSPACE}/okapi-install.json"
-              sh "git add ${env.WORKSPACE}/install.json"
-              sh "git add ${env.WORKSPACE}/yarn.lock"
+              for (int i = 0; i < installFiles.size(); i++) {
+                sh "cp ${env.WORKSPACE}/${installFiles[i]}-${env.BUILD_NUMBER} " +
+                   "${env.WORKSPACE}/${installFiles[i]}"
+                sh "git add ${env.WORKSPACE}/${installFiles[i]}"
+              }
 
               def commitStatus = sh(returnStatus: true,
                                     script: 'git commit -m "[CI SKIP] Updating install files"')
