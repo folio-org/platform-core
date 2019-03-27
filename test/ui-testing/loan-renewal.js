@@ -32,15 +32,17 @@ module.exports.test = (uiTestCtx) => {
 
     const renewalLimit = 1;
     const loanPeriod = 2;
+    // note the format MUST match that expected by the locale
+    // otherwise the fixed-due-date-schedule dates will not register
     const nextMonthValue = moment()
       .add(65, 'days')
-      .format('YYYY-MM-DD');
+      .format('MM/DD/YYYY');
     const tomorrowValue = moment()
       .add(3, 'days')
-      .format('YYYY-MM-DD');
+      .format('MM/DD/YYYY');
     const dayAfterValue = moment()
       .add(4, 'days')
-      .format('YYYY-MM-DD');
+      .format('MM/DD/YYYY');
     const debugSleep = parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 0;
     let loanRules = '';
     let barcode = '';
@@ -80,6 +82,37 @@ module.exports.test = (uiTestCtx) => {
         describe('Update settings', () => {
           it('should configure checkout for barcode and username', (done) => {
             helpers.circSettingsCheckoutByBarcodeAndUsername(nightmare, config, done);
+          });
+
+          it('should configure US English locale and timezone', (done) => {
+            nightmare
+              .wait(config.select.settings)
+              .click(config.select.settings)
+              .wait('a[href="/settings/organization"]')
+              .click('a[href="/settings/organization"]')
+              .wait('a[href="/settings/organization/locale"]')
+              .click('a[href="/settings/organization/locale"]')
+              .wait('#locale')
+              .select('#locale', 'en-US')
+              .wait('#timezone')
+              .select('#timezone', 'America/New_York')
+              .wait(1000)
+              .exists('#clickable-save-config[type=submit]:enabled')
+              .then((hasChanged) => {
+                if (hasChanged) {
+                  nightmare
+                    .click('#clickable-save-config')
+                    .wait('#clickable-save-config[type=submit]:disabled')
+                    // saving the locale has a 2s timout and we want to
+                    // make sure we wait for that to finish
+                    .wait(4000)
+                    .then(done)
+                    .catch(done);
+                } else {
+                  done();
+                }
+              })
+              .catch(done);
           });
         });
 
@@ -616,26 +649,34 @@ module.exports.test = (uiTestCtx) => {
               .wait('a[href="/settings/circulation/loan-policies"]')
               .click('a[href="/settings/circulation/loan-policies"]')
               .wait('div.hasEntries')
-              .evaluate((pn) => {
-                const node = Array.from(
+              .wait((pn) => {
+                const index = Array.from(
                   document.querySelectorAll('#ModuleContainer div.hasEntries a div')
-                )
-                  .find(e => e.textContent === pn);
-                if (node) {
-                  node.parentElement.click();
-                } else {
-                  throw new Error(`Could not find the loan policy ${pn} to edit`);
-                }
+                ).findIndex(e => e.textContent === pn);
+                return index >= 0;
               }, policyName)
-              .then(() => {
+              .evaluate((pn) => {
+                const index = Array.from(
+                  document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+                ).findIndex(e => e.textContent === pn);
+                if (index === -1) {
+                  throw new Error(`Could not find the loan policy ${pn} to delete`);
+                }
+
+                // CSS selectors are 1-based, which is just totally awesome.
+                return index + 1;
+              }, policyName)
+              .then((entryIndex) => {
                 nightmare
+                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
                   .wait('#clickable-edit-item')
                   .click('#clickable-edit-item')
                   .wait('#clickable-delete-entry')
                   .click('#clickable-delete-entry')
                   .wait('#clickable-delete-item-confirmation-confirm')
                   .click('#clickable-delete-item-confirmation-confirm')
-                  .wait(3000)
+                  .wait('#clickable-edit-item')
                   .then(done)
                   .catch(done);
               })

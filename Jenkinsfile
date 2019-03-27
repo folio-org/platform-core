@@ -151,6 +151,7 @@ pipeline {
           steps {
             script {
 
+
               def installFiles = ['stripes-install.json',
                                   'okapi-install.json',
                                   'install.json',
@@ -164,8 +165,8 @@ pipeline {
                 sh "git add ${env.WORKSPACE}/${installFiles[i]}"
               }
 
-              def commitStatus = sh(returnStatus: true,
-                                    script: 'git commit -m "[CI SKIP] Updating install files"')
+              commitStatus = sh(returnStatus: true,
+                                    script: 'git commit -m "[CI SKIP] Updating install files on branch"')
               if (commitStatus == 0) {
                 sshGitPush(origin: env.folioPlatform, branch: env.CHANGE_BRANCH)
               }
