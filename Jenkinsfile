@@ -150,6 +150,15 @@ pipeline {
           }
           steps {
             script {
+              def commitStatus
+
+              sh "git add ${env.WORKSPACE}/stripes-install.json"
+              sh "git add ${env.WORKSPACE}/okapi-install.json"
+              sh "git add ${env.WORKSPACE}/install.json"
+              sh "git add ${env.WORKSPACE}/yarn.lock"
+              commitStatus = sh(returnStatus: true,
+                                script: 'git commit -m "[CI SKIP] Updating install files in PR branch"')
+
               sh "git fetch --no-tags ${env.projUrl} " +
                  "+refs/heads/${env.CHANGE_BRANCH}:refs/remotes/origin/${env.CHANGE_BRANCH}"
               sh "git checkout -b ${env.CHANGE_BRANCH} origin/${env.CHANGE_BRANCH}"
@@ -159,8 +168,8 @@ pipeline {
               sh "git add ${env.WORKSPACE}/install.json"
               sh "git add ${env.WORKSPACE}/yarn.lock"
 
-              def commitStatus = sh(returnStatus: true,
-                                    script: 'git commit -m "[CI SKIP] Updating install files"')
+              commitStatus = sh(returnStatus: true,
+                                    script: 'git commit -m "[CI SKIP] Updating install files on branch"')
               if (commitStatus == 0) {
                 sshGitPush(origin: env.folioPlatform, branch: env.CHANGE_BRANCH)
               }
