@@ -150,14 +150,19 @@ pipeline {
           }
           steps {
             script {
+
+              def installFiles = ['stripes-install.json',
+                                  'okapi-install.json',
+                                  'install.json',
+                                  'yarn.lock']
+
               sh "git fetch --no-tags ${env.projUrl} " +
                  "+refs/heads/${env.CHANGE_BRANCH}:refs/remotes/origin/${env.CHANGE_BRANCH}"
               sh "git checkout -b ${env.CHANGE_BRANCH} origin/${env.CHANGE_BRANCH}"
 
-              sh "git add ${env.WORKSPACE}/stripes-install.json"
-              sh "git add ${env.WORKSPACE}/okapi-install.json"
-              sh "git add ${env.WORKSPACE}/install.json"
-              sh "git add ${env.WORKSPACE}/yarn.lock"
+              for (int i = 0; i < installFiles.size(); i++) {
+                sh "git add ${env.WORKSPACE}/${installFiles[i]}"
+              }
 
               def commitStatus = sh(returnStatus: true,
                                     script: 'git commit -m "[CI SKIP] Updating install files"')
