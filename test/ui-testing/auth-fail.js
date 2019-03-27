@@ -1,9 +1,9 @@
 module.exports.test = (uiTestCtx) => {
-  describe('Login Page ("test-bad-login")', function test() {
+  describe('Login Page ("auth-fail")', function test() {
     const { config } = uiTestCtx;
-    this.timeout(Number(config.test_timeout));
     const nightmare = new Nightmare(config.nightmare);
 
+    this.timeout(Number(config.test_timeout));
     describe('given bad data', () => {
       it('Should find a login error message', (done) => {
         nightmare
@@ -11,6 +11,7 @@ module.exports.test = (uiTestCtx) => {
           .wait(config.select.username)
           .insert(config.select.username, 'notgonnawork')
           .insert(config.select.password, 'invalid password')
+          .wait('#clickable-login')
           .click('#clickable-login')
           .wait('div[class^="AuthErrorsContainer"]') // failure
           .end()

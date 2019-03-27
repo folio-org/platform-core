@@ -1,5 +1,5 @@
 module.exports.test = (uiTestCtx) => {
-  describe('Load test-codexsearch', function runMain() {
+  describe('Codex ("codex-search")', function runMain() {
     const { config, helpers } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
     this.timeout(Number(config.test_timeout));

@@ -6,20 +6,21 @@ module.exports = {
     showPerms: false
   },
   modules: {
-    '@folio/users' : {},
-    '@folio/inventory' : {},
-    '@folio/checkout' : {},
+    '@folio/calendar' : {},
     '@folio/checkin' : {},
-    '@folio/requests' : {},
-    '@folio/search' : {},
-    '@folio/organization' : {},
-    '@folio/developer' : {},
+    '@folio/checkout' : {},
     '@folio/circulation' : {},
+    '@folio/developer' : {},
+    '@folio/inventory' : {},
+    '@folio/myprofile' : {},
+    '@folio/organization' : {},
     '@folio/plugin-find-user' : {},
     '@folio/plugin-find-instance' : {},
+    '@folio/requests' : {},
+    '@folio/search' : {},
     '@folio/servicepoints' : {},
-    '@folio/myprofile' : {},
-    '@folio/tags': {}
+    '@folio/tags': {},
+    '@folio/users' : {}
   },
   branding: {
     logo: {
