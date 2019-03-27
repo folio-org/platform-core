@@ -122,11 +122,11 @@ pipeline {
                                   'yarn.lock']
 
               
-              //for (int i = 0; i < installFiles.size(); i++) {
-              //  sh "cp ${env.WORKSPACE}/${installFiles[i]} " +
-              //     "${env.WORKSPACE}/${installFiles[i]}-${env.BUILD_NUMBER}"
-              //  sh "git stash save ${env.WORKSPACE}/${installFiles[i]}"
-              //}
+              for (int i = 0; i < installFiles.size(); i++) {
+                sh "cp ${env.WORKSPACE}/${installFiles[i]} " +
+                   "${env.WORKSPACE}/${installFiles[i]}-${env.BUILD_NUMBER}"
+                sh "git stash save ${env.WORKSPACE}/${installFiles[i]}"
+              }
 
               sh "git fetch --no-tags ${env.projUrl} " +
                  "+refs/heads/${env.CHANGE_BRANCH}:refs/remotes/origin/${env.CHANGE_BRANCH}"
