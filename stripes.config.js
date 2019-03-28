@@ -6,8 +6,9 @@ module.exports = {
     showPerms: false
   },
   modules: {
-    '@folio/checkout' : {},
+    '@folio/calendar' : {},
     '@folio/checkin' : {},
+    '@folio/checkout' : {},
     '@folio/circulation' : {},
     '@folio/developer' : {},
     '@folio/inventory' : {},
