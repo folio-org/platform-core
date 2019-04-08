@@ -3,8 +3,8 @@
   "branchPrefix": "renovate_",
   "autoMerge": false,
   "separateMinorPatch": true,
-  "updateLockFiles: false,
-  "rangeStrategy: "replace",
+  "updateLockFiles": false,
+  "rangeStrategy": "replace",
   "ignoreDeps": ["react","react-dom","react-redux","redux"],
  
 
