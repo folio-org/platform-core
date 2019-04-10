@@ -53,7 +53,7 @@ module.exports.test = (uiTestCtx) => {
       `Login > \
       Update settings >\
       Create loan policy >\
-      Apply Loan rule >\
+      Apply circulation rule >\
       Find Active user >\
       Create inventory record >\
       Create holdings record >\
@@ -69,7 +69,7 @@ module.exports.test = (uiTestCtx) => {
       // Edit loan policy >\
       // Renew failure >\
       Check in >\
-      Restore the loan rules >\
+      Restore the circulation rules >\
       delete loan policy >\
       delete fixedDueDateSchedule >\
       logout\n`,
@@ -109,10 +109,14 @@ module.exports.test = (uiTestCtx) => {
             nightmare
               .wait('#input_policy_name')
               .type('#input_policy_name', policyName)
-              .wait('select[name="loansPolicy.period.intervalId"]')
-              .select('select[name="loansPolicy.period.intervalId"]', 'Minutes')
+              .wait('#input_loan_profile')
+              .select('#input_loan_profile', 'Rolling')
               .wait('input[name="loansPolicy.period.duration"')
               .type('input[name="loansPolicy.period.duration"', loanPeriod)
+              .wait('select[name="loansPolicy.period.intervalId"]')
+              .select('select[name="loansPolicy.period.intervalId"]', 'Minutes')
+              .wait('select[name="loansPolicy.closedLibraryDueDateManagementId"]')
+              .type('select[name="loansPolicy.closedLibraryDueDateManagementId"]', 'keep')
               .wait('#input_allowed_renewals')
               .type('#input_allowed_renewals', renewalLimit)
               .wait('#select_renew_from')
@@ -205,7 +209,7 @@ module.exports.test = (uiTestCtx) => {
           });
         });
 
-        describe('Apply Loan rule', () => {
+        describe('Apply circulation rule', () => {
           it('should reach "Circulation rules" page', (done) => {
             nightmare
               .wait(config.select.settings)
@@ -218,7 +222,7 @@ module.exports.test = (uiTestCtx) => {
               .catch(done);
           });
 
-          it('Apply the loan policy created as a loan rule to material-type book', (done) => {
+          it('Apply the loan policy created as a circulation rule to material-type book', (done) => {
             nightmare
               .wait('#form-loan-rules')
               .wait('.CodeMirror')
@@ -309,8 +313,14 @@ module.exports.test = (uiTestCtx) => {
               })
               .then(() => {
                 nightmare
+                  .wait('#section-item button')
                   .click('#section-item button')
-                  .wait(Math.max(555, debugSleep)) // debugging
+                  .wait('#list-items-checked-out')
+                  .wait((bc) => {
+                    return Array.from(
+                      document.querySelectorAll('#list-items-checked-out div[role="gridcell"]')
+                    ).findIndex(e => e.textContent === `${bc}`) >= 0;
+                  }, barcode)
                   .then(done)
                   .catch(done);
               })
@@ -589,8 +599,8 @@ module.exports.test = (uiTestCtx) => {
           });
         });
 
-        describe('Restore the loan rules', () => {
-          it('should restore the loan rules', (done) => {
+        describe('Restore the circulation rules', () => {
+          it('should restore the circulation rules', (done) => {
             nightmare
               .wait(config.select.settings)
               .click(config.select.settings)
