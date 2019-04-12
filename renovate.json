@@ -1,5 +1,5 @@
 {
-  "baseBranches": ["master", "q1-2019"]
+  "baseBranches": ["master", "q1-2019"],
   "branchPrefix": "renovate_",
   "automerge": false,
   "separateMinorPatch": true,
@@ -16,7 +16,6 @@
   "patch": {
     "enabled": true
   },
- 
 
   "packageRules": [
     { 
