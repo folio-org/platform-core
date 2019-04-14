@@ -44,7 +44,6 @@ module.exports.test = (uiTestCtx) => {
     const dayAfterValue = moment()
       .add(4, 'days')
       .format('MM/DD/YYYY');
-    const debugSleep = parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 0;
     let loanRules = '';
     let barcode = '';
 
@@ -130,6 +129,9 @@ module.exports.test = (uiTestCtx) => {
                   throw new Error(sel.textContent);
                 }
               })
+              .wait(() => {
+                return !document.querySelector('#clickable-save-entry');
+              })
               .then(done)
               .catch(done);
           });
@@ -164,6 +166,9 @@ module.exports.test = (uiTestCtx) => {
                 if (sel) {
                   throw new Error(sel.textContent);
                 }
+              })
+              .wait(() => {
+                return !document.querySelector('#clickable-save-entry');
               })
               .then(done)
               .catch(done);
@@ -204,6 +209,9 @@ module.exports.test = (uiTestCtx) => {
                   throw new Error(sel.textContent);
                 }
               })
+              .wait(() => {
+                return !document.querySelector('#clickable-save-entry');
+              })
               .then(done)
               .catch(done);
           });
@@ -236,7 +244,11 @@ module.exports.test = (uiTestCtx) => {
                 nightmare
                   .wait('#clickable-save-loan-rules')
                   .click('#clickable-save-loan-rules')
-                  .wait(Math.max(555, debugSleep))
+                  .wait(() => {
+                    return Array.from(
+                      document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
+                    ).findIndex(e => e.textContent === 'Rules were successfully updated.') >= 0;
+                  })
                   .then(done)
                   .catch(done);
                 loanRules = defaultRules;
@@ -537,6 +549,8 @@ module.exports.test = (uiTestCtx) => {
                   .type('#input_loan_profile', 'fi')
                   .wait('#input_loansPolicy_fixedDueDateSchedule')
                   .type('#input_loansPolicy_fixedDueDateSchedule', scheduleName)
+                  .wait('select[name="loansPolicy.closedLibraryDueDateManagementId"]')
+                  .type('select[name="loansPolicy.closedLibraryDueDateManagementId"]', 'keep')
                   .wait('#clickable-save-entry')
                   .click('#clickable-save-entry')
                   .wait(1000)
@@ -646,7 +660,6 @@ module.exports.test = (uiTestCtx) => {
                 if (index === -1) {
                   throw new Error(`Could not find the loan policy ${pn} to delete`);
                 }
-
                 // CSS selectors are 1-based, which is just totally awesome.
                 return index + 1;
               }, policyName)
@@ -654,12 +667,15 @@ module.exports.test = (uiTestCtx) => {
                 nightmare
                   .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
                   .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
-                  .wait('#clickable-edit-item')
-                  .click('#clickable-edit-item')
-                  .wait('#clickable-delete-entry')
-                  .click('#clickable-delete-entry')
+                  .wait('#dropdown-clickable-delete-item')
+                  .click('#dropdown-clickable-delete-item')
                   .wait('#clickable-delete-item-confirmation-confirm')
                   .click('#clickable-delete-item-confirmation-confirm')
+                  .wait((pn) => {
+                    return Array.from(
+                      document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
+                    ).findIndex(e => e.textContent === `The Loan policy ${pn} was successfully deleted.`) >= 0;
+                  }, policyName)
                   .wait('#clickable-edit-item')
                   .then(done)
                   .catch(done);
@@ -667,6 +683,7 @@ module.exports.test = (uiTestCtx) => {
               .catch(done);
           });
         });
+
         describe('Delete fixedDueDateSchedule', () => {
           it('should delete the fixedDueDateSchedule', (done) => {
             nightmare
@@ -679,21 +696,16 @@ module.exports.test = (uiTestCtx) => {
               .wait((sn) => {
                 const index = Array.from(
                   document.querySelectorAll('#ModuleContainer div.hasEntries a div')
-                )
-                  .findIndex(e => e.textContent === sn);
-
+                ).findIndex(e => e.textContent === sn);
                 return index >= 0;
               }, scheduleName)
               .evaluate((sn) => {
                 const index = Array.from(
                   document.querySelectorAll('#ModuleContainer div.hasEntries a div')
-                )
-                  .findIndex(e => e.textContent === sn);
-
+                ).findIndex(e => e.textContent === sn);
                 if (index === -1) {
                   throw new Error(`Could not find the fixed due date schedule ${sn} to delete`);
                 }
-
                 // CSS selectors are 1-based, which is just totally awesome.
                 return index + 1;
               }, scheduleName)
@@ -709,6 +721,103 @@ module.exports.test = (uiTestCtx) => {
                   .click('#clickable-delete-item')
                   .wait('#clickable-deletefixedduedateschedule-confirmation-confirm')
                   .click('#clickable-deletefixedduedateschedule-confirmation-confirm')
+                  .wait((sn) => {
+                    return Array.from(
+                      document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
+                    ).findIndex(e => e.textContent === `The fixed due date schedule ${sn} was successfully deleted.`) >= 0;
+                  }, scheduleName)
+                  .then(done)
+                  .catch(done);
+              })
+              .catch(done);
+          });
+        });
+
+        describe('Delete request policy', () => {
+          it('should delete the request policy', (done) => {
+            nightmare
+              .click(config.select.settings)
+              .wait('a[href="/settings/circulation"]')
+              .click('a[href="/settings/circulation"]')
+              .wait('a[href="/settings/circulation/request-policies"]')
+              .click('a[href="/settings/circulation/request-policies"]')
+              .wait('div.hasEntries')
+              .wait((rpn) => {
+                const index = Array.from(
+                  document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+                ).findIndex(e => e.textContent === rpn);
+                return index >= 0;
+              }, requestPolicyName)
+              .evaluate((rpn) => {
+                const index = Array.from(
+                  document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+                ).findIndex(e => e.textContent === rpn);
+                if (index === -1) {
+                  throw new Error(`Could not find the request policy ${rpn} to delete`);
+                }
+                // CSS selectors are 1-based, which is just totally awesome.
+                return index + 1;
+              }, requestPolicyName)
+              .then((entryIndex) => {
+                nightmare
+                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .wait('#general')
+                  .wait('#dropdown-clickable-delete-item')
+                  .click('#dropdown-clickable-delete-item')
+                  .wait('#clickable-delete-item-confirmation-confirm')
+                  .click('#clickable-delete-item-confirmation-confirm')
+                  .wait((rpn) => {
+                    return Array.from(
+                      document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
+                    ).findIndex(e => e.textContent === `The Request policy ${rpn} was successfully deleted.`) >= 0;
+                  }, requestPolicyName)
+                  .then(done)
+                  .catch(done);
+              })
+              .catch(done);
+          });
+        });
+
+        describe('Delete notice policy', () => {
+          it('should delete the fixedDueDateSchedule', (done) => {
+            nightmare
+              .click(config.select.settings)
+              .wait('a[href="/settings/circulation"]')
+              .click('a[href="/settings/circulation"]')
+              .wait('a[href="/settings/circulation/notice-policies"]')
+              .click('a[href="/settings/circulation/notice-policies"]')
+              .wait('div.hasEntries')
+              .wait((npn) => {
+                const index = Array.from(
+                  document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+                ).findIndex(e => e.textContent === npn);
+                return index >= 0;
+              }, noticePolicyName)
+              .evaluate((npn) => {
+                const index = Array.from(
+                  document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+                ).findIndex(e => e.textContent === npn);
+                if (index === -1) {
+                  throw new Error(`Could not find the notice policy${npn} to delete`);
+                }
+                // CSS selectors are 1-based, which is just totally awesome.
+                return index + 1;
+              }, noticePolicyName)
+              .then((entryIndex) => {
+                nightmare
+                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .wait('#generalInformation')
+                  .wait('#dropdown-clickable-delete-item')
+                  .click('#dropdown-clickable-delete-item')
+                  .wait('#clickable-delete-item-confirmation-confirm')
+                  .click('#clickable-delete-item-confirmation-confirm')
+                  .wait((npn) => {
+                    return Array.from(
+                      document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
+                    ).findIndex(e => e.textContent === `The Notice Policy ${npn} was successfully deleted.`) >= 0;
+                  }, noticePolicyName)
                   .then(done)
                   .catch(done);
               })
