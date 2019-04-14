@@ -11,6 +11,7 @@ module.exports.test = function uiTest(uiTestCtx) {
 
     describe('Login > Open module "Requests" > Create new request > Logout', () => {
       let userbc = null;
+      let userbcReqeustor = null;
       const nextMonthValue = new Date().valueOf() + 2419200000;
       const nextMonth = new Date(nextMonthValue).toLocaleDateString('en-US');
       before((done) => {
@@ -55,7 +56,29 @@ module.exports.test = function uiTest(uiTestCtx) {
           .catch(done);
       });
 
-      it('should find an active user barcode', (done) => {
+      it('should find an active user barcode for checkout', (done) => {
+        const listitem = '#list-users div[role="row"] > a';
+        const bcodeNode = `${listitem} > div:nth-child(3)`;
+        nightmare
+          .wait(1111)
+          .wait('#clickable-users-module')
+          .click('#clickable-users-module')
+          .wait('#clickable-filter-pg-undergrad')
+          .click('#clickable-filter-pg-undergrad')
+          .wait('#list-users:not([data-total-count="0"])')
+          .wait(listitem)
+          .evaluate((bcode) => {
+            return document.querySelector(bcode).textContent;
+          }, bcodeNode)
+          .then((result) => {
+            done();
+            userbc = result;
+            console.log(`        Found ${userbc}`);
+          })
+          .catch(done);
+      });
+
+      it('should find an active user barcode for request', (done) => {
         const listitem = '#list-users div[role="row"] > a';
         const bcodeNode = `${listitem} > div:nth-child(3)`;
         nightmare
@@ -71,12 +94,11 @@ module.exports.test = function uiTest(uiTestCtx) {
           }, bcodeNode)
           .then((result) => {
             done();
-            userbc = result;
+            userbcReqeustor = result;
             console.log(`        Found ${userbc}`);
           })
           .catch(done);
       });
-
       const itembc = createInventory(nightmare, config, 'Request title');
 
       it('should check out newly created item', (done) => {
@@ -118,7 +140,7 @@ module.exports.test = function uiTest(uiTestCtx) {
           .wait('select[name="requestType"]')
           .select('select[name="requestType"]', 'Hold')
           .wait('input[name="requester.barcode"]')
-          .insert('input[name="requester.barcode"]', userbc)
+          .insert('input[name="requester.barcode"]', userbcReqeustor)
           .wait('#clickable-select-requester')
           .click('#clickable-select-requester')
           .wait('#section-requester-info a[href^="/users/view/"]')
