@@ -676,6 +676,7 @@ module.exports.test = (uiTestCtx) => {
                       document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
                     ).findIndex(e => e.textContent === `The Loan policy ${pn} was successfully deleted.`) >= 0;
                   }, policyName)
+                  .wait('#clickable-edit-item')
                   .then(done)
                   .catch(done);
               })
@@ -779,7 +780,7 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Delete notice policy', () => {
-          it('should delete the fixedDueDateSchedule', (done) => {
+          it('should delete the notice policy', (done) => {
             nightmare
               .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
@@ -815,7 +816,7 @@ module.exports.test = (uiTestCtx) => {
                   .wait((npn) => {
                     return Array.from(
                       document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
-                    ).findIndex(e => e.textContent === `The Notice Policy ${npn} was successfully deleted.`) >= 0;
+                    ).findIndex(e => e.textContent === `The Patron notice policy ${npn} was successfully deleted.`) >= 0;
                   }, noticePolicyName)
                   .then(done)
                   .catch(done);
