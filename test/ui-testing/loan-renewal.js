@@ -676,7 +676,6 @@ module.exports.test = (uiTestCtx) => {
                       document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
                     ).findIndex(e => e.textContent === `The Loan policy ${pn} was successfully deleted.`) >= 0;
                   }, policyName)
-                  .wait('#clickable-edit-item')
                   .then(done)
                   .catch(done);
               })
