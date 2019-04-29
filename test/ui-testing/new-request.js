@@ -11,7 +11,7 @@ module.exports.test = function uiTest(uiTestCtx) {
 
     describe('Login > Open module "Requests" > Create new request > Logout', () => {
       let userbc = null;
-      let userbcReqeustor = null;
+      let userbcRequestor = null;
       const nextMonthValue = new Date().valueOf() + 2419200000;
       const nextMonth = new Date(nextMonthValue).toLocaleDateString('en-US');
       before((done) => {
@@ -85,6 +85,10 @@ module.exports.test = function uiTest(uiTestCtx) {
           .wait(1111)
           .wait('#clickable-users-module')
           .click('#clickable-users-module')
+          .wait('#OverlayContainer #clickable-filter-pg-undergrad')
+          .click('#OverlayContainer #clickable-filter-pg-undergrad')
+          .wait('#clickable-filter-active-active')
+          .click('#clickable-filter-active-active')
           .wait('#clickable-filter-pg-faculty')
           .click('#clickable-filter-pg-faculty')
           .wait('#list-users:not([data-total-count="0"])')
@@ -94,8 +98,8 @@ module.exports.test = function uiTest(uiTestCtx) {
           }, bcodeNode)
           .then((result) => {
             done();
-            userbcReqeustor = result;
-            console.log(`        Found ${userbc}`);
+            userbcRequestor = result;
+            console.log(`        Found ${userbcRequestor}`);
           })
           .catch(done);
       });
@@ -111,7 +115,7 @@ module.exports.test = function uiTest(uiTestCtx) {
           .wait('#OverlayContainer #clickable-filter-pg-faculty')
           .click('#OverlayContainer #clickable-filter-pg-faculty')
           .wait('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"]')
-          .click('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] a')
+          .click('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"]')
           .wait(2222)
           .wait('#input-item-barcode')
           .insert('#input-item-barcode', itembc)
@@ -140,7 +144,7 @@ module.exports.test = function uiTest(uiTestCtx) {
           .wait('select[name="requestType"]')
           .select('select[name="requestType"]', 'Hold')
           .wait('input[name="requester.barcode"]')
-          .insert('input[name="requester.barcode"]', userbcReqeustor)
+          .insert('input[name="requester.barcode"]', userbcRequestor)
           .wait('#clickable-select-requester')
           .click('#clickable-select-requester')
           .wait('#section-requester-info a[href^="/users/view/"]')

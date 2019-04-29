@@ -53,6 +53,8 @@ module.exports.test = (uiTestCtx) => {
         nightmare
           .wait('#clickable-users-module')
           .click('#clickable-users-module')
+          .wait('#clickable-filter-active-active')
+          .click('#clickable-filter-active-active')
           .wait('#clickable-filter-pg-faculty')
           .click('#clickable-filter-pg-faculty')
           .wait('#list-users:not([data-total-count="0"])')

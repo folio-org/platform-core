@@ -266,6 +266,8 @@ module.exports.test = (uiTestCtx) => {
               .type('#input-user-search', '0')
               .wait('#clickable-reset-all')
               .click('#clickable-reset-all')
+              .wait('#clickable-filter-active-active')
+              .click('#clickable-filter-active-active')
               .wait('#clickable-filter-pg-faculty')
               .click('#clickable-filter-pg-faculty')
               .wait(uselector)
