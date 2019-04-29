@@ -64,7 +64,7 @@ module.exports.test = function foo(uiTestCtx) {
       });
 
       it('should add a proxy for user 1', (done) => {
-        const selector = '#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] div[role="gridcell"]:nth-child(5)';
+        const selector = '#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] div[role="gridcell"]:nth-child(3)';
         nightmare
           .wait('#input-user-search')
           .type('#input-user-search', '0')
