@@ -31,6 +31,8 @@ module.exports.test = function foo(uiTestCtx) {
           .type('#input-user-search', '0')
           .wait('#clickable-reset-all')
           .click('#clickable-reset-all')
+          .wait('#clickable-filter-active-active')
+          .click('#clickable-filter-active-active')
           .wait('#clickable-filter-pg-faculty')
           .click('#clickable-filter-pg-faculty')
           .wait('#list-users div[role="row"][aria-rowindex="2"]')
@@ -62,7 +64,7 @@ module.exports.test = function foo(uiTestCtx) {
       });
 
       it('should add a proxy for user 1', (done) => {
-        const selector = '#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] div[role="gridcell"]:nth-child(5)';
+        const selector = '#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] div[role="gridcell"]:nth-child(3)';
         nightmare
           .wait('#input-user-search')
           .type('#input-user-search', '0')
@@ -82,6 +84,8 @@ module.exports.test = function foo(uiTestCtx) {
           // but clicking the "search" button in the modal submits
           // the underlying user-edit form in addition to this form,
           // so we lose the ability to capture the proxy we just found.
+          .wait('#OverlayContainer #clickable-filter-active-active')
+          .click('#OverlayContainer #clickable-filter-active-active')
           .wait('#OverlayContainer #clickable-filter-pg-undergrad')
           .click('#OverlayContainer #clickable-filter-pg-undergrad')
           .wait('#OverlayContainer #list-plugin-find-user:not([data-total-count="0"])')
