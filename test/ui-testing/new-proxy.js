@@ -94,10 +94,10 @@ module.exports.test = function foo(uiTestCtx) {
           }, selector)
           .then(barcode => {
             nightmare
-              .wait('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"]')
-              .click('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"]')
-              .wait('#clickable-updateuser')
-              .click('#clickable-updateuser')
+              .wait('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] a')
+              .click('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] a')
+              .wait('#clickable-save')
+              .click('#clickable-save')
               .then(done)
               .catch(done);
             proxyId = barcode;
@@ -138,8 +138,8 @@ module.exports.test = function foo(uiTestCtx) {
           .wait('#deletesponsors-confirmation-footer')
           .wait('#clickable-deletesponsors-confirmation-confirm')
           .click('#clickable-deletesponsors-confirmation-confirm')
-          .wait('#clickable-updateuser')
-          .click('#clickable-updateuser')
+          .wait('#clickable-save')
+          .click('#clickable-save')
           .then(done)
           .catch(done);
       });
