@@ -94,8 +94,8 @@ module.exports.test = function foo(uiTestCtx) {
           }, selector)
           .then(barcode => {
             nightmare
-              .wait('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] a')
-              .click('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] a')
+              .wait('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"]')
+              .click('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"]')
               .wait('#clickable-save')
               .click('#clickable-save')
               .then(done)
