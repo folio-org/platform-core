@@ -357,8 +357,8 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.8.1000275"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.8.1000275.tgz#fa8ebe93ca1cf6cde63fdfc2048ed539baaff6e9"
+  version "1.8.1000276"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.8.1000276.tgz#33a5f090cd61c5c29fe4b02d4c554ed8a6f39773"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     isomorphic-fetch "^2.2.1"
