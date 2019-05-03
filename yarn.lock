@@ -440,8 +440,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.2.0":
-  version "5.2.1000780"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.2.1000780.tgz#3dfd0e435018f2b173378e846730754bda012ad5"
+  version "5.2.1000781"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.2.1000781.tgz#db610641458b944913a6a5718ea2ab3e2dfbe2af"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -463,6 +463,7 @@
     react-highlighter "^0.4.2"
     react-intl "^2.5.0"
     react-overlays "^0.8.3"
+    react-quill "^1.3.3"
     react-router-dom "^4.1.1"
     react-tether "^1.0.1"
     react-transition-group "^2.2.1"
@@ -661,8 +662,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.21.1000653"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.21.1000653.tgz#36f0bde5c05cdc4d6ba5d5dab980977026a2396c"
+  version "2.21.1000654"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.21.1000654.tgz#2ac768ff4e96c461c168cab4ac2b9c0dfaf25934"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -8920,7 +8921,7 @@ react-proxy@^1.1.7:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
 
-react-quill@^1.2.7:
+react-quill@^1.2.7, react-quill@^1.3.3:
   version "1.3.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-quill/-/react-quill-1.3.3.tgz#95b8e088ad4e4acc6c79c2f85bdc0460eebe08eb"
   dependencies:
