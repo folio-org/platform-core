@@ -2,24 +2,16 @@
 
 pipeline {
 
-  parameters {
-    booleanParam(name: 'DEBUG_TEST',
-                 defaultValue: false,
-                 description: 'Enable integration test debugging')
-    string(name: 'OKAPI_URL',
-           defaultValue: 'http://folio-snapshot-stable.aws.indexdata.com:9130',
-           description: 'Okapi URL')
-  }
 
   environment {
-    tenant = "platform_core_${env.BRANCH_NAME}_${env.BUILD_NUMBER}"
+    origin = 'platform-core'
+    branch = 'snapshot'
     npmConfig = 'jenkins-npm-folioci'
   }
 
   options {
     timeout(30)
-    buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '10', 
-                   daysToKeepStr: '', numToKeepStr: '30'))
+    buildDiscarder(logRotator(numToKeepStr: '30'))
   }
 
   agent {
@@ -40,10 +32,35 @@ pipeline {
 
     stage('Build Stripes Platform') {
       steps {
-        echo "Okapi URL: ${params.OKAPI_URL}"
-        echo "Tenant: ${env.tenant}"
+        // remove existing yarn.lock
+        sh 'rm -f yarn.lock'
+        sh 'yarn install'
+        sh 'yarn build ./output'
+      }
+    }
 
-        buildStripesPlatform(params.OKAPI_URL,env.tenant)
+    // If stripes build is successful, update yarn.lock and commit
+    stage('Commit yarn.lock') {
+      when { 
+        anyOf {
+          environment name:  'JOB_NAME', value: 'Automation/build-platform-core-snapshot'
+          branch 'snapshot'
+        }
+      }
+      steps {
+        sh "git checkout $env.branch"
+        sh 'git add yarn.lock'
+        script { 
+          def commitStatus = sh(returnStatus: true, 
+                                script: 'git commit -m "FOLIO CI: Update yarn.lock"')
+          if ( commitStatus == 0 ) {
+            sshGitPush(origin: env.origin, branch: env.branch)
+          }
+          else {
+            echo "No changes to yarn.lock file"
+          }
+
+        }
       }
     }
 
