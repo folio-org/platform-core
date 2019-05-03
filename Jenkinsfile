@@ -6,7 +6,6 @@ pipeline {
   environment {
     origin = 'platform-core'
     branch = 'snapshot'
-    npmConfig = 'jenkins-npm-folioci'
   }
 
   options {
