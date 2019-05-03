@@ -357,8 +357,8 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.8.1000276"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.8.1000276.tgz#33a5f090cd61c5c29fe4b02d4c554ed8a6f39773"
+  version "1.8.1000277"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.8.1000277.tgz#a049f8d08a3892eb0f700848721b138f73137d63"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     isomorphic-fetch "^2.2.1"
@@ -3825,8 +3825,8 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 ecstatic@^3.0.0:
-  version "3.3.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/ecstatic/-/ecstatic-3.3.1.tgz#b15b5b036c2233defc78d7bacbd8765226c95577"
+  version "3.3.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ecstatic/-/ecstatic-3.3.2.tgz#6d1dd49814d00594682c652adb66076a69d46c48"
   dependencies:
     he "^1.1.1"
     mime "^1.6.0"
@@ -10972,8 +10972,8 @@ wordwrap@~1.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
 
 worker-farm@^1.5.2:
-  version "1.6.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/worker-farm/-/worker-farm-1.6.0.tgz#aecc405976fab5a95526180846f0dba288f3a4a0"
+  version "1.7.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/worker-farm/-/worker-farm-1.7.0.tgz#26a94c5391bbca926152002f69b84a4bf772e5a8"
   dependencies:
     errno "~0.1.7"
 
