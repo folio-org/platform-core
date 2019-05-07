@@ -439,8 +439,8 @@ module.exports.test = (uiTestCtx) => {
               }, policyName)
               .then((entryIndex) => {
                 nightmare
-                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
-                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
                   .wait('#clickable-edit-item')
                   .click('#clickable-edit-item')
                   .wait('#input_allowed_renewals')
@@ -543,8 +543,8 @@ module.exports.test = (uiTestCtx) => {
               }, policyName)
               .then((entryIndex) => {
                 nightmare
-                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
-                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
                   .wait('#clickable-edit-item')
                   .click('#clickable-edit-item')
                   .wait('#input_loan_profile')
@@ -667,8 +667,8 @@ module.exports.test = (uiTestCtx) => {
               }, policyName)
               .then((entryIndex) => {
                 nightmare
-                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
-                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
                   .wait('#dropdown-clickable-delete-item')
                   .click('#dropdown-clickable-delete-item')
                   .wait('#clickable-delete-item-confirmation-confirm')
@@ -712,8 +712,8 @@ module.exports.test = (uiTestCtx) => {
               }, scheduleName)
               .then((entryIndex) => {
                 nightmare
-                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
-                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
                   .wait('#generalInformation')
                   .wait('#fixedDueDateSchedule')
                   .wait('#clickable-edit-item')
@@ -761,8 +761,8 @@ module.exports.test = (uiTestCtx) => {
               }, requestPolicyName)
               .then((entryIndex) => {
                 nightmare
-                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
-                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
                   .wait('#general')
                   .wait('#dropdown-clickable-delete-item')
                   .click('#dropdown-clickable-delete-item')
@@ -807,8 +807,8 @@ module.exports.test = (uiTestCtx) => {
               }, noticePolicyName)
               .then((entryIndex) => {
                 nightmare
-                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
-                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
                   .wait('#generalInformation')
                   .wait('#dropdown-clickable-delete-item')
                   .click('#dropdown-clickable-delete-item')
