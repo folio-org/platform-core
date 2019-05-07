@@ -664,6 +664,16 @@
     react-intl "^2.7.2"
     redux-form "^7.0.3"
 
+"@folio/tenant-settings@>=2.5.1":
+  version "2.8.10002"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.8.10002.tgz#f5269da0708ee38018240c5e722f2f46f0289253"
+  dependencies:
+    "@folio/react-intl-safe-html" "^1.0.1"
+    lodash "^4.17.4"
+    prop-types "^15.6.0"
+    react-intl "^2.3.0"
+    redux-form "^7.0.3"
+
 "@folio/users@>=2.17.0":
   version "2.21.1000655"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.21.1000655.tgz#49e936b2e202de932f52f13d0ad1f0149166ad84"
