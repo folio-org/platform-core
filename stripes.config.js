@@ -14,6 +14,7 @@ module.exports = {
     '@folio/inventory' : {},
     '@folio/myprofile' : {},
     '@folio/organization' : {},
+    '@folio/tenant-settings' : {},
     '@folio/plugin-find-instance' : {},
     '@folio/plugin-find-user' : {},
     '@folio/requests' : {},
