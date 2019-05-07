@@ -3,6 +3,7 @@
 ## 1.4.0 (IN PROGRESS)
 
 * Update integration tests to accommodate MCL aria changes, STRIPES-596
+* Add ui-tenant-settings, the eventual replacement for ui-organization, UIORG-156
 
 ## [1.3.0](https://github.com/folio-org/platform-core/tree/v1.3.0-SNAPSHOT) (2019-01-23)
 
