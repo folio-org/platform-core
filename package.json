@@ -46,6 +46,7 @@
     "@folio/developer": ">=1.5.0",
     "@folio/inventory": ">=1.4.0",
     "@folio/myprofile": ">=1.1.0",
+    "@folio/notes": ">=1.0.0",
     "@folio/organization": ">=2.5.1",
     "@folio/tenant-settings": ">=2.5.1",
     "@folio/plugin-find-instance": ">=1.1.0",

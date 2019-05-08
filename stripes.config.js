@@ -13,6 +13,7 @@ module.exports = {
     '@folio/developer' : {},
     '@folio/inventory' : {},
     '@folio/myprofile' : {},
+    '@folio/notes': {},
     '@folio/organization' : {},
     '@folio/tenant-settings' : {},
     '@folio/plugin-find-instance' : {},
