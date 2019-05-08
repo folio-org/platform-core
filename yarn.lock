@@ -641,8 +641,8 @@
     query-string "^5.0.0"
 
 "@folio/stripes@^2.0.0":
-  version "2.6.100036"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-2.6.100036.tgz#87e9085629a371afe952332bbc9fc0b9c00503d0"
+  version "2.6.100037"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-2.6.100037.tgz#6ea5a0ac518fc11e3e815a1a94d1e0bfb5d64a73"
   dependencies:
     "@folio/stripes-components" "~5.2.0"
     "@folio/stripes-connect" "~5.1.0"
