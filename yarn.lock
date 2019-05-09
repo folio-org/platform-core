@@ -260,9 +260,10 @@
     redux-form "^7.0.3"
 
 "@folio/developer@>=1.5.0":
-  version "1.8.100044"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-1.8.100044.tgz#8cd47224fcf4a646aaa960973203dc96efdc1fa4"
+  version "1.8.100045"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-1.8.100045.tgz#ca4ff8acf7cc965751062c87f423a90cfb2186be"
   dependencies:
+    "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
     prop-types "^15.6.0"
     react-hot-loader "^4.3.12"
