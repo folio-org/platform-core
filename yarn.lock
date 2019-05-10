@@ -210,8 +210,8 @@
     uuid "^3.1.0"
 
 "@folio/checkin@>=1.3.0":
-  version "1.6.1000151"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-1.6.1000151.tgz#a33eabd9a84119816f8df55231c810aee4eac600"
+  version "1.7.1000152"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-1.7.1000152.tgz#98f9a87438dceaf076777bcc304e464b5cb95969"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     dateformat "^2.0.0"
