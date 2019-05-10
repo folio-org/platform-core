@@ -20,7 +20,7 @@
   "dependencies": {
     "@folio/calendar": "2.1.2",
     "@folio/checkin": "1.6.0",
-    "@folio/checkout": "1.7.0",
+    "@folio/checkout": "1.8.0",
     "@folio/circulation": "1.6.1",
     "@folio/developer": "1.8.0",
     "@folio/inventory": "1.7.0",
