@@ -260,8 +260,8 @@
     redux-form "^7.0.3"
 
 "@folio/developer@>=1.5.0":
-  version "1.8.100045"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-1.8.100045.tgz#ca4ff8acf7cc965751062c87f423a90cfb2186be"
+  version "1.8.100046"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-1.8.100046.tgz#bf5d1de078c166319d613312558596f8ee3a0971"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -598,8 +598,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.6.0":
-  version "2.6.2000430"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.6.2000430.tgz#639470356e766962abe89de577493eb9e6d5bf0b"
+  version "2.6.2000431"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.6.2000431.tgz#867f673823ee4c4436d798bb1506a4937a2f92c6"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.2.0"
@@ -664,8 +664,8 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "2.8.10003"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.8.10003.tgz#d6fec6395788f92fbf97e4fb7675c25400f7d389"
+  version "2.8.10004"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.8.10004.tgz#025e95a40cc305bc5c59cd66708c24d0ab5a2736"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
