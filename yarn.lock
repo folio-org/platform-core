@@ -500,7 +500,7 @@
     react-transition-group "^2.2.1"
     tai-password-strength "^1.1.1"
 
-"@folio/stripes-connect@~5.1.0", "@folio/stripes-connect@~5.1.2":
+"@folio/stripes-connect@~5.1.0":
   version "5.1.300074"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-5.1.300074.tgz#577c12c35ce9160051e9d9ae47f30dffe7ea2070"
   dependencies:
@@ -524,7 +524,7 @@
     redux "^3.6.0"
     uuid "^3.0.1"
 
-"@folio/stripes-core@^2.17.1 || ^3.0.0":
+"@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.5.0":
   version "3.5.1000553"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.5.1000553.tgz#590f331f99d568b0add5e72c343448d11635222c"
   dependencies:
@@ -730,13 +730,13 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.6.0":
-  version "2.6.2000432"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.6.2000432.tgz#bf4aaf34cbffc35a8ce6e68e3c3d8170b303cfd2"
+  version "2.6.2000433"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.6.2000433.tgz#565f96f04971e3b8d7cb708ad330e5e4e49aec85"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.3.0"
-    "@folio/stripes-connect" "~5.1.2"
-    "@folio/stripes-core" "~3.4.0"
+    "@folio/stripes-connect" "~5.2.0"
+    "@folio/stripes-core" "~3.5.0"
     "@folio/stripes-form" "~2.4.0"
     "@folio/stripes-logger" "~1.0.0"
     classnames "^2.2.6"
