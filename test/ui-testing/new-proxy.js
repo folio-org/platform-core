@@ -1,7 +1,7 @@
 /* global it describe Nightmare before after */
 module.exports.test = function foo(uiTestCtx) {
   describe('User proxies ("new-proxy")', function bar() {
-    const { config, helpers: { login, openApp, logout }, meta: { testVersion } } = uiTestCtx;
+    const { config, helpers: { login, openApp, clickApp, logout }, meta: { testVersion } } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
 
     this.timeout(Number(config.test_timeout));
@@ -23,10 +23,12 @@ module.exports.test = function foo(uiTestCtx) {
           .catch(done);
       });
 
+      it('should navigate to users', (done) => {
+        clickApp(nightmare, done, 'users');
+      });
+
       it('should get active user barcodes', (done) => {
         nightmare
-          .wait('#clickable-users-module')
-          .click('#clickable-users-module')
           .wait('#input-user-search')
           .type('#input-user-search', '0')
           .wait('#clickable-reset-all')
