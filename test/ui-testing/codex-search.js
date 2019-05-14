@@ -7,15 +7,17 @@ module.exports.test = (uiTestCtx) => {
     const title = 'Bridget Jones';
     let resultCount = 0;
 
-    describe('Login > Codex Search > Filtering Results > Reset Search > Logout\n', () => {
+    describe('Login > Codex Search > Filtering Results > Reset Search > Logout > Wang chung\n', () => {
       it(`should login as ${config.username}/${config.password}`, (done) => {
         helpers.login(nightmare, config, done);
       });
 
+      it('should navigate to codex-search', (done) => {
+        helpers.clickApp(nightmare, done, 'search');
+      });
+
       it('should open codex search and execute search', (done) => {
         nightmare
-          .wait('#clickable-search-module')
-          .click('#clickable-search-module')
           .wait('#input-record-search')
           .type('#input-record-search', 'a')
           .wait('#clickable-reset-all')

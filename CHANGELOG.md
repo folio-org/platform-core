@@ -4,6 +4,7 @@
 
 * Update integration tests to accommodate MCL aria changes, STRIPES-596
 * Add ui-tenant-settings, the eventual replacement for ui-organization, UIORG-156
+* Update stripes-cli to get a newer stripes-testing with support for `clickApp` and `clickSettings`
 
 ## [1.3.0](https://github.com/folio-org/platform-core/tree/v1.3.0-SNAPSHOT) (2019-01-23)
 

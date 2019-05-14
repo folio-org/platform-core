@@ -90,10 +90,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Create loan policy', () => {
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should reach "Create loan policy" page', (done) => {
             nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/loan-policies"]')
@@ -138,10 +140,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Create notice policy', () => {
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should reach "Create notice policy" page', (done) => {
             nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/notice-policies"]')
@@ -176,10 +180,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Create request policy', () => {
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should reach "Create request policy" page', (done) => {
             nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/request-policies"]')
@@ -218,10 +224,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Apply circulation rule', () => {
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should reach "Circulation rules" page', (done) => {
             nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/rules"]')
@@ -258,10 +266,13 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Find Active user', () => {
+          it('should navigate to users', (done) => {
+            helpers.clickApp(nightmare, done, 'users');
+          });
+
           it('should find an active user ', (done) => {
             nightmare
               .wait(1111)
-              .click('#clickable-users-module')
               .wait('#input-user-search')
               .type('#input-user-search', '0')
               .wait('#clickable-reset-all')
@@ -289,14 +300,15 @@ module.exports.test = (uiTestCtx) => {
         );
 
         describe('Checkout item', () => {
+          // if we don't wait a second after creating the item record,
+          // we seem to get stuck there and cannot navigate to checkout.
+          // does this make any sense at all? no. no it does not. and yet.
+          it('should navigate to checkoout', (done) => {
+            helpers.clickApp(nightmare, done, 'checkout', 1000);
+          });
+
           it(`should check out ${barcode} to ${userid}`, (done) => {
             nightmare
-              // if we don't wait a second after creating the item record,
-              // we seem to get stuck there and cannot navigate to checkout.
-              // does this make any sense at all? no. no it does not. and yet.
-              .wait(1111)
-              .wait('#clickable-checkout-module')
-              .click('#clickable-checkout-module')
               .wait('#input-patron-identifier')
               .type('#input-patron-identifier', userid)
               .wait(111)
@@ -343,9 +355,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Confirm checkout', () => {
+          it('should navigate to users', (done) => {
+            helpers.clickApp(nightmare, done, 'users');
+          });
+
           it(`should find ${barcode} in ${userid}'s open loans`, (done) => {
             nightmare
-              .click('#clickable-users-module')
               .wait('#input-user-search')
               .type('#input-user-search', '0')
               .wait('#clickable-reset-all')
@@ -410,9 +425,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Renew failure', () => {
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should reach "loan policy settings" page', (done) => {
             nightmare
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/loan-policies"]')
@@ -421,7 +439,7 @@ module.exports.test = (uiTestCtx) => {
               .catch(done);
           });
 
-          it('Edit loan policy, renew from system date should fail the renewal', (done) => {
+          it('Edit loan policy to renew from system datel', (done) => {
             nightmare
               .wait('div.hasEntries')
               .evaluate((pn) => {
@@ -452,37 +470,39 @@ module.exports.test = (uiTestCtx) => {
                   .wait(1000)
                   .evaluate(() => {
                     const sel = document.querySelector('div[class^="textfieldError"]');
-
                     if (sel) {
                       throw new Error(sel.textContent);
                     }
                   })
-                  .then(() => {
-                    nightmare
-                      .wait(1111)
-                      .click('#clickable-users-module')
-                      .wait(findBarcodeCell, barcode)
-                      .evaluate(tickRenewCheckbox, barcode)
-                      .then(() => {
-                        nightmare
-                          .wait('#renew-all')
-                          .click('#renew-all')
-                          .wait('#bulk-renewal-modal')
-                          .wait(1000)
-                          .evaluate(() => {
-                            const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
+                  .then(done)
+                  .catch(done);
+              })
+              .catch(done);
+          });
 
-                            if (errorMsg === null) {
-                              throw new Error('Should throw an error as the renewalLimit is reached');
-                            } else if (!errorMsg.match('Item not renewed:renewal would not change the due date')) {
-                              throw new Error('Expected only the renewal failure error message');
-                            }
-                          })
-                          .then(done)
-                          .catch(done);
-                      })
-                      .catch(done);
+          it('should navigate to users', (done) => {
+            helpers.clickApp(nightmare, done, 'users', 1000);
+          });
+
+          it('should fail the renewal', (done) => {
+            nightmare
+              .wait(findBarcodeCell, barcode)
+              .evaluate(tickRenewCheckbox, barcode)
+              .then(() => {
+                nightmare
+                  .wait('#renew-all')
+                  .click('#renew-all')
+                  .wait('#bulk-renewal-modal')
+                  .wait(1000)
+                  .evaluate(() => {
+                    const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
+                    if (errorMsg === null) {
+                      throw new Error('Should throw an error as the renewalLimit is reached');
+                    } else if (!errorMsg.match('Item not renewed:renewal would not change the due date')) {
+                      throw new Error('Expected only the renewal failure error message');
+                    }
                   })
+                  .then(done)
                   .catch(done);
               })
               .catch(done);
@@ -490,10 +510,14 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Create fixed due date schedule', () => {
+
+
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should create a new fixed due date schedule', (done) => {
             nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/fixed-due-date-schedules"]')
@@ -570,11 +594,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Renew failure', () => {
+          it('should navigate to users', (done) => {
+            helpers.clickApp(nightmare, done, 'users', 555);
+          });
+
           it('Renewal should fail as renewal date falls outside of the date ranges', (done) => {
             nightmare
-              .wait(555)
-              .wait('#clickable-users-module')
-              .click('#clickable-users-module')
               .wait(findBarcodeCell, barcode)
               .evaluate(tickRenewCheckbox, barcode)
               .then(() => {
@@ -598,9 +623,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Check in', () => {
+          it('should navigate to checkin', (done) => {
+            helpers.clickApp(nightmare, done, 'checkin');
+          });
+
           it(`should check in ${barcode}`, (done) => {
             nightmare
-              .click('#clickable-checkin-module')
               .wait('#input-item-barcode')
               .insert('#input-item-barcode', barcode)
               .wait('#clickable-add-item')
@@ -616,10 +644,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Restore the circulation rules', () => {
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should restore the circulation rules', (done) => {
             nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/rules"]')
