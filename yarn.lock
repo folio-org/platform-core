@@ -394,7 +394,7 @@
     prop-types "^15.6.0"
     react-router-dom "^4.1.1"
 
-"@folio/stripes-cli@^1.10.0":
+"@folio/stripes-cli@^1.11.0":
   version "1.11.1000186"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.11.1000186.tgz#59882d4b0c12d97f5885212cfb5122ffaef23eb1"
   dependencies:
