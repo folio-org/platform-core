@@ -227,8 +227,8 @@
     redux-form "^7.0.3"
 
 "@folio/checkout@>=1.3.0":
-  version "1.8.1000280"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.8.1000280.tgz#f9a76f6b12a202464889e2240428f34b741416f0"
+  version "1.8.1000281"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.8.1000281.tgz#90f9dec8d36c721744ef572c589428603be3760a"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
@@ -598,8 +598,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.6.3":
-  version "2.6.3000435"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.6.3000435.tgz#d59d99bd101428da636a94a4da7478029cca1f35"
+  version "2.6.3000436"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.6.3000436.tgz#180c94dacbed91975d9b3ac433dadb047b81a07f"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.3.0"
@@ -6987,10 +6987,10 @@ natural-compare@^1.4.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
 
 needle@^2.2.1:
-  version "2.3.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/needle/-/needle-2.3.1.tgz#d272f2f4034afb9c4c9ab1379aabc17fc85c9388"
+  version "2.4.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/needle/-/needle-2.4.0.tgz#6833e74975c444642590e15a750288c5f939b57c"
   dependencies:
-    debug "^4.1.0"
+    debug "^3.2.6"
     iconv-lite "^0.4.4"
     sax "^1.2.4"
 
