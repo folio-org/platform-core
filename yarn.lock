@@ -624,8 +624,8 @@
     redux-form "^7.0.3"
 
 "@folio/stripes-testing@^1.4.0":
-  version "1.4.100026"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-1.4.100026.tgz#5f2f1e9d8bca928ad89da6d29e7168cc762c2e7c"
+  version "1.4.100027"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-1.4.100027.tgz#c2e2f79ed604a3f78d47741feef5414784e29f5d"
   dependencies:
     debug "^4.0.1"
     minimist "^1.2.0"
