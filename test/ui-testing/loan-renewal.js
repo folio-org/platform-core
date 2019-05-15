@@ -757,6 +757,7 @@ module.exports.test = (uiTestCtx) => {
                       document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
                     ).findIndex(e => e.textContent === `The fixed due date schedule ${sn} was successfully deleted.`) >= 0;
                   }, scheduleName)
+                  .wait(() => !document.querySelector('#OverlayContainer div[class^="calloutBase"]'))
                   .then(done)
                   .catch(done);
               })
@@ -803,6 +804,7 @@ module.exports.test = (uiTestCtx) => {
                       document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
                     ).findIndex(e => e.textContent === `The Request policy ${rpn} was successfully deleted.`) >= 0;
                   }, requestPolicyName)
+                  .wait(() => !document.querySelector('#OverlayContainer div[class^="calloutBase"]'))
                   .then(done)
                   .catch(done);
               })
@@ -849,6 +851,7 @@ module.exports.test = (uiTestCtx) => {
                       document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
                     ).findIndex(e => e.textContent === `The Patron notice policy ${npn} was successfully deleted.`) >= 0;
                   }, noticePolicyName)
+                  .wait(() => !document.querySelector('#OverlayContainer div[class^="calloutBase"]'))
                   .then(done)
                   .catch(done);
               })
