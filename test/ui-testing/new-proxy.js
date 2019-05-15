@@ -1,7 +1,7 @@
 /* global it describe Nightmare before after */
 module.exports.test = function foo(uiTestCtx) {
   describe('User proxies ("new-proxy")', function bar() {
-    const { config, helpers: { login, openApp, clickApp, logout }, meta: { testVersion } } = uiTestCtx;
+    const { config, helpers: { login, clickApp, logout } } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
 
     this.timeout(Number(config.test_timeout));
@@ -14,13 +14,6 @@ module.exports.test = function foo(uiTestCtx) {
       });
       after((done) => {
         logout(nightmare, config, done);
-      });
-
-      it('should open app and find version tag', (done) => {
-        nightmare
-          .use(openApp(nightmare, config, done, 'users', testVersion))
-          .then(result => result)
-          .catch(done);
       });
 
       it('should navigate to users', (done) => {

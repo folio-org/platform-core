@@ -227,8 +227,8 @@
     redux-form "^7.0.3"
 
 "@folio/checkout@>=1.3.0":
-  version "1.8.1000280"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.8.1000280.tgz#f9a76f6b12a202464889e2240428f34b741416f0"
+  version "1.8.1000281"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.8.1000281.tgz#90f9dec8d36c721744ef572c589428603be3760a"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
@@ -394,7 +394,7 @@
     prop-types "^15.6.0"
     react-router-dom "^4.1.1"
 
-"@folio/stripes-cli@^1.10.0":
+"@folio/stripes-cli@^1.11.0":
   version "1.11.1000186"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.11.1000186.tgz#59882d4b0c12d97f5885212cfb5122ffaef23eb1"
   dependencies:
@@ -441,8 +441,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.3.0":
-  version "5.3.1000789"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.3.1000789.tgz#77e79f9ca4ada767b42fca8ee8d2a68f0b350d73"
+  version "5.3.1000792"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.3.1000792.tgz#7958cfd7bdbc23a57d7585bb27381fd1202ab39a"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -598,8 +598,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.6.3":
-  version "2.6.3000435"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.6.3000435.tgz#d59d99bd101428da636a94a4da7478029cca1f35"
+  version "2.6.3000436"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.6.3000436.tgz#180c94dacbed91975d9b3ac433dadb047b81a07f"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.3.0"
@@ -674,8 +674,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.22.1000657"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.22.1000657.tgz#e279bc510ff7674095e0c2766a4cff9e84cc2b78"
+  version "2.22.1000659"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.22.1000659.tgz#1ebc9a65caacbd1b3635aa5210fe7be44b2128ef"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -917,8 +917,8 @@
     core-js "^2.5.7"
 
 "@types/node@*":
-  version "12.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.0.1.tgz#3dde31f8da274dfeb90e96abf55038fef46285f0"
+  version "12.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.0.2.tgz#3452a24edf9fea138b48fad4a0a028a683da1e40"
 
 "@types/node@^8.0.24":
   version "8.10.48"
@@ -3858,8 +3858,8 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.133, electron-to-chromium@^1.3.47:
-  version "1.3.133"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.133.tgz#c47639c19b91feee3e22fad69f5556142007008c"
+  version "1.3.134"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.134.tgz#550222bddac43c6bd6c445c3543a0fe8a615021d"
 
 electron@^2.0.18:
   version "2.0.18"
@@ -6987,10 +6987,10 @@ natural-compare@^1.4.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
 
 needle@^2.2.1:
-  version "2.3.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/needle/-/needle-2.3.1.tgz#d272f2f4034afb9c4c9ab1379aabc17fc85c9388"
+  version "2.4.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/needle/-/needle-2.4.0.tgz#6833e74975c444642590e15a750288c5f939b57c"
   dependencies:
-    debug "^4.1.0"
+    debug "^3.2.6"
     iconv-lite "^0.4.4"
     sax "^1.2.4"
 
