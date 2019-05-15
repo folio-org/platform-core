@@ -2,7 +2,7 @@
 
 module.exports.test = function uiTest(uiTestCtx) {
   describe('New request ("new-request")', function modTest() {
-    const { config, helpers: { login, openApp, clickApp, clickSettings, createInventory, logout }, meta: { testVersion } } = uiTestCtx;
+    const { config, helpers: { login, clickApp, clickSettings, createInventory, logout } } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
 
     const servicePoint = 'Circ Desk 1';
@@ -20,12 +20,6 @@ module.exports.test = function uiTest(uiTestCtx) {
 
       after((done) => {
         logout(nightmare, config, done);
-      });
-
-      it('should open module "Requests" and find version tag ', (done) => {
-        nightmare
-          .use(openApp(nightmare, config, done, 'requests', testVersion))
-          .then(result => result);
       });
 
       let initialRules = '';
