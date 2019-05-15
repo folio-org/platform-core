@@ -664,8 +664,8 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "2.8.10006"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.8.10006.tgz#b0dadd9c1dcf4e4cdb65d5f1c1e91e880a891f73"
+  version "2.8.10007"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.8.10007.tgz#b9c83476718b2436f9ee73c313f0d31fc4d26725"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
