@@ -598,8 +598,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.6.3":
-  version "2.6.3000438"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.6.3000438.tgz#753e3232369e2aa9572c5351c141fa36bc823154"
+  version "2.6.3000440"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.6.3000440.tgz#55bdc87afabbe0f6af5f17a16b682906c3a62d4b"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.3.0"
@@ -664,8 +664,8 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "2.8.10007"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.8.10007.tgz#b9c83476718b2436f9ee73c313f0d31fc4d26725"
+  version "2.9.10008"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.9.10008.tgz#a85c1af7e78fceb5424a4d623c239328c7cf734d"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
@@ -2656,12 +2656,12 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000968"
-  resolved "https://repository.folio.org/repository/npm-ci-all/caniuse-db/-/caniuse-db-1.0.30000968.tgz#bc2d885c253a92570528368aaf1cbad39752f167"
+  version "1.0.30000969"
+  resolved "https://repository.folio.org/repository/npm-ci-all/caniuse-db/-/caniuse-db-1.0.30000969.tgz#e6aeca9b1bac88865990913a0b041f587180cd59"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30000957, caniuse-lite@^1.0.30000967:
-  version "1.0.30000967"
-  resolved "https://repository.folio.org/repository/npm-ci-all/caniuse-lite/-/caniuse-lite-1.0.30000967.tgz#a5039577806fccee80a04aaafb2c0890b1ee2f73"
+  version "1.0.30000969"
+  resolved "https://repository.folio.org/repository/npm-ci-all/caniuse-lite/-/caniuse-lite-1.0.30000969.tgz#7664f571f2072657bde70b00a1fc1ba41f1942a9"
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -4598,8 +4598,8 @@ fill-range@^4.0.0:
     to-regex-range "^2.1.0"
 
 final-form@^4.12.0:
-  version "4.12.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.12.0.tgz#1844e2a3bc9789d51115c76a94d0ea6a19e219c0"
+  version "4.13.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.13.0.tgz#ef2b36a850d6287cd968f328180590e5a64a57bb"
   dependencies:
     "@babel/runtime" "^7.3.1"
 
