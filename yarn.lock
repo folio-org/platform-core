@@ -307,16 +307,6 @@
     react-router-dom "^4.1.1"
     redux-form "^7.0.3"
 
-"@folio/organization@>=2.5.1":
-  version "2.8.10001"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/organization/-/organization-2.8.10001.tgz#052b73e420660a79b8774979bf0d72bf7ff98edf"
-  dependencies:
-    "@folio/react-intl-safe-html" "^1.0.1"
-    lodash "^4.17.4"
-    prop-types "^15.6.0"
-    react-intl "^2.3.0"
-    redux-form "^7.0.3"
-
 "@folio/plugin-find-instance@>=1.1.0":
   version "1.4.100024"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-1.4.100024.tgz#0203f41cbc2d132710315fbfef69cf97fd3720ab"
