@@ -76,6 +76,8 @@ module.exports.test = (uiTestCtx, nightmare) => {
       it('should check picture present in user information', (done) => {
         nightmare
           .click('#clickable-users-module')
+          .wait('#clickable-filter-active-active')
+          .click('#clickable-filter-active-active')
           .wait('#clickable-filter-pg-faculty')
           .click('#clickable-filter-pg-faculty')
           .wait('#list-users')
@@ -139,6 +141,8 @@ module.exports.test = (uiTestCtx, nightmare) => {
           .click('#clickable-users-module')
           .wait('#users-module-display')
           // check on active users filter
+          .wait('#clickable-filter-active-active')
+          .click('#clickable-filter-active-active')
           .wait('#clickable-filter-pg-faculty')
           .click('#clickable-filter-pg-faculty')
           .wait('#list-users')
