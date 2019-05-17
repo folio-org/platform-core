@@ -1,7 +1,7 @@
 /* global it describe Nightmare before after */
 module.exports.test = function foo(uiTestCtx) {
   describe('User proxies ("new-proxy")', function bar() {
-    const { config, helpers: { login, openApp, logout }, meta: { testVersion } } = uiTestCtx;
+    const { config, helpers: { login, clickApp, logout } } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
 
     this.timeout(Number(config.test_timeout));
@@ -16,21 +16,18 @@ module.exports.test = function foo(uiTestCtx) {
         logout(nightmare, config, done);
       });
 
-      it('should open app and find version tag', (done) => {
-        nightmare
-          .use(openApp(nightmare, config, done, 'users', testVersion))
-          .then(result => result)
-          .catch(done);
+      it('should navigate to users', (done) => {
+        clickApp(nightmare, done, 'users');
       });
 
       it('should get active user barcodes', (done) => {
         nightmare
-          .wait('#clickable-users-module')
-          .click('#clickable-users-module')
           .wait('#input-user-search')
           .type('#input-user-search', '0')
           .wait('#clickable-reset-all')
           .click('#clickable-reset-all')
+          .wait('#clickable-filter-active-active')
+          .click('#clickable-filter-active-active')
           .wait('#clickable-filter-pg-faculty')
           .click('#clickable-filter-pg-faculty')
           .wait('#list-users div[role="row"][aria-rowindex="2"]')
@@ -62,7 +59,7 @@ module.exports.test = function foo(uiTestCtx) {
       });
 
       it('should add a proxy for user 1', (done) => {
-        const selector = '#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] div[role="gridcell"]:nth-child(5)';
+        const selector = '#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] div[role="gridcell"]:nth-child(3)';
         nightmare
           .wait('#input-user-search')
           .type('#input-user-search', '0')
@@ -82,6 +79,8 @@ module.exports.test = function foo(uiTestCtx) {
           // but clicking the "search" button in the modal submits
           // the underlying user-edit form in addition to this form,
           // so we lose the ability to capture the proxy we just found.
+          .wait('#OverlayContainer #clickable-filter-active-active')
+          .click('#OverlayContainer #clickable-filter-active-active')
           .wait('#OverlayContainer #clickable-filter-pg-undergrad')
           .click('#OverlayContainer #clickable-filter-pg-undergrad')
           .wait('#OverlayContainer #list-plugin-find-user:not([data-total-count="0"])')
@@ -90,10 +89,10 @@ module.exports.test = function foo(uiTestCtx) {
           }, selector)
           .then(barcode => {
             nightmare
-              .wait('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] a')
-              .click('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] a')
-              .wait('#clickable-updateuser')
-              .click('#clickable-updateuser')
+              .wait('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"]')
+              .click('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"]')
+              .wait('#clickable-save')
+              .click('#clickable-save')
               .then(done)
               .catch(done);
             proxyId = barcode;
@@ -134,8 +133,8 @@ module.exports.test = function foo(uiTestCtx) {
           .wait('#deletesponsors-confirmation-footer')
           .wait('#clickable-deletesponsors-confirmation-confirm')
           .click('#clickable-deletesponsors-confirmation-confirm')
-          .wait('#clickable-updateuser')
-          .click('#clickable-updateuser')
+          .wait('#clickable-save')
+          .click('#clickable-save')
           .then(done)
           .catch(done);
       });

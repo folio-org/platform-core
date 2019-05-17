@@ -10,9 +10,13 @@ module.exports.test = (uiTestCtx) => {
         helpers.login(nightmare, config, done);
       });
 
+
+      it('should navigate to checkin', (done) => {
+        helpers.clickSettings(nightmare, done);
+      });
+
       it('should load "about" page', (done) => {
         nightmare
-          .click('#app-list-item-clickable-settings')
           .click('a[href="/settings/about"]')
           .wait(555)
           .then(() => { done(); })

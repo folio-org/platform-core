@@ -2,7 +2,7 @@
 
 module.exports.test = function uiTest(uiTestCtx) {
   describe('New request ("new-request")', function modTest() {
-    const { config, helpers: { login, openApp, createInventory, logout }, meta: { testVersion } } = uiTestCtx;
+    const { config, helpers: { login, clickApp, clickSettings, createInventory, logout } } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
 
     const servicePoint = 'Circ Desk 1';
@@ -11,6 +11,7 @@ module.exports.test = function uiTest(uiTestCtx) {
 
     describe('Login > Open module "Requests" > Create new request > Logout', () => {
       let userbc = null;
+      let userbcRequestor = null;
       const nextMonthValue = new Date().valueOf() + 2419200000;
       const nextMonth = new Date(nextMonthValue).toLocaleDateString('en-US');
       before((done) => {
@@ -21,17 +22,14 @@ module.exports.test = function uiTest(uiTestCtx) {
         logout(nightmare, config, done);
       });
 
-      it('should open module "Requests" and find version tag ', (done) => {
-        nightmare
-          .use(openApp(nightmare, config, done, 'requests', testVersion))
-          .then(result => result);
+      let initialRules = '';
+
+      it('should navigate to settings', (done) => {
+        clickSettings(nightmare, done);
       });
 
-      let initialRules = '';
       it('should configure default circulation rules', (done) => {
         nightmare
-          .wait(config.select.settings)
-          .click(config.select.settings)
           .wait('a[href="/settings/circulation"]')
           .click('a[href="/settings/circulation"]')
           .wait('a[href="/settings/circulation/rules"]')
@@ -55,42 +53,73 @@ module.exports.test = function uiTest(uiTestCtx) {
           .catch(done);
       });
 
-      it('should find an active user barcode', (done) => {
-        const listitem = '#list-users div[role="row"] > a';
-        const bcodeNode = `${listitem} > div:nth-child(3)`;
+      it('should navigate to users', (done) => {
+        clickApp(nightmare, done, 'users', 1000);
+      });
+
+      it('should find an active user barcode for checkout', (done) => {
+        const listitem = '#list-users div[role="row"]:nth-of-type(2) > a div:nth-child(3)';
         nightmare
-          .wait(1111)
-          .wait('#clickable-users-module')
-          .click('#clickable-users-module')
-          .wait('#clickable-filter-pg-faculty')
-          .click('#clickable-filter-pg-faculty')
+          .wait('#clickable-filter-active-active')
+          .click('#clickable-filter-active-active')
           .wait('#list-users:not([data-total-count="0"])')
-          .wait(listitem)
+          .evaluate(() => {
+            return document.querySelector('#list-users').getAttribute('data-total-count');
+          })
+          .then((count) => {
+            nightmare
+              .wait('#clickable-filter-pg-undergrad')
+              .click('#clickable-filter-pg-undergrad')
+              .wait(`#list-users:not([data-total-count="${count}"])`)
+              .wait(listitem)
+              .evaluate((bcode) => {
+                return document.querySelector(bcode).textContent;
+              }, listitem)
+              .then((result) => {
+                done();
+                userbc = result;
+                console.log(`        Found ${userbc}`);
+              })
+              .catch(done);
+          })
+          .catch(done);
+      });
+
+      it('should find an active user barcode for request', (done) => {
+        const listitem = '#list-users div[role="row"]:nth-of-type(3) > a div:nth-child(3)';
+        nightmare
           .evaluate((bcode) => {
             return document.querySelector(bcode).textContent;
-          }, bcodeNode)
+          }, listitem)
           .then((result) => {
             done();
-            userbc = result;
-            console.log(`        Found ${userbc}`);
+            userbcRequestor = result;
+            console.log(`        Found ${userbcRequestor}`);
           })
           .catch(done);
       });
 
       const itembc = createInventory(nightmare, config, 'Request title');
 
+      it('should navigate to checkout', (done) => {
+        clickApp(nightmare, done, 'checkout', 1000);
+      });
+
       it('should check out newly created item', (done) => {
         nightmare
-          .wait(1111)
-          .wait('#clickable-checkout-module')
-          .click('#clickable-checkout-module')
-          .wait('#section-patron #clickable-find-user')
-          .click('#section-patron #clickable-find-user')
-          .wait('#OverlayContainer #clickable-filter-pg-faculty')
-          .click('#OverlayContainer #clickable-filter-pg-faculty')
-          .wait('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"]')
-          .click('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] a')
-          .wait(2222)
+          .wait('#input-patron-identifier')
+          .type('#input-patron-identifier', userbc)
+          .wait('#clickable-find-patron')
+          .click('#clickable-find-patron')
+          .wait(() => {
+            const err = document.querySelector('#patron-form div[class^="textfieldError"]');
+            const yay = !!document.querySelector('#patron-form ~ div a > strong');
+            if (err) {
+              throw new Error(err.textContent);
+            } else {
+              return yay;
+            }
+          })
           .wait('#input-item-barcode')
           .insert('#input-item-barcode', itembc)
           .wait('#clickable-add-item')
@@ -104,11 +133,12 @@ module.exports.test = function uiTest(uiTestCtx) {
           .catch(done);
       });
 
+      it('should navigate to requests', (done) => {
+        clickApp(nightmare, done, 'requests', 1000);
+      });
+
       it('should add a new "Hold" request', (done) => {
         nightmare
-          .wait(1111)
-          .wait('#clickable-requests-module')
-          .click('#clickable-requests-module')
           .wait('#clickable-newrequest')
           .click('#clickable-newrequest')
           .insert('input[name="item.barcode"]', itembc)
@@ -118,7 +148,7 @@ module.exports.test = function uiTest(uiTestCtx) {
           .wait('select[name="requestType"]')
           .select('select[name="requestType"]', 'Hold')
           .wait('input[name="requester.barcode"]')
-          .insert('input[name="requester.barcode"]', userbc)
+          .insert('input[name="requester.barcode"]', userbcRequestor)
           .wait('#clickable-select-requester')
           .click('#clickable-select-requester')
           .wait('#section-requester-info a[href^="/users/view/"]')
@@ -163,10 +193,12 @@ module.exports.test = function uiTest(uiTestCtx) {
           .catch(done);
       });
 
+      it('should navigate to settings', (done) => {
+        clickSettings(nightmare, done);
+      });
+
       it('should restore initial circulation rules', (done) => {
         nightmare
-          .wait(config.select.settings)
-          .click(config.select.settings)
           .wait('a[href="/settings/circulation"]')
           .click('a[href="/settings/circulation"]')
           .wait('a[href="/settings/circulation/rules"]')
