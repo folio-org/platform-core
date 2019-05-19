@@ -43,7 +43,6 @@ module.exports.test = (uiTestCtx) => {
     const dayAfterValue = moment()
       .add(4, 'days')
       .format('MM/DD/YYYY');
-    const debugSleep = parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 0;
     let loanRules = '';
     let barcode = '';
 
@@ -52,7 +51,7 @@ module.exports.test = (uiTestCtx) => {
       `Login > \
       Update settings >\
       Create loan policy >\
-      Apply Loan rule >\
+      Apply circulation rule >\
       Find Active user >\
       Create inventory record >\
       Create holdings record >\
@@ -68,7 +67,7 @@ module.exports.test = (uiTestCtx) => {
       // Edit loan policy >\
       // Renew failure >\
       Check in >\
-      Restore the loan rules >\
+      Restore the circulation rules >\
       delete loan policy >\
       delete fixedDueDateSchedule >\
       logout\n`,
@@ -85,42 +84,17 @@ module.exports.test = (uiTestCtx) => {
           });
 
           it('should configure US English locale and timezone', (done) => {
-            nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
-              .wait('a[href="/settings/organization"]')
-              .click('a[href="/settings/organization"]')
-              .wait('a[href="/settings/organization/locale"]')
-              .click('a[href="/settings/organization/locale"]')
-              .wait('#locale')
-              .select('#locale', 'en-US')
-              .wait('#timezone')
-              .select('#timezone', 'America/New_York')
-              .wait(1000)
-              .exists('#clickable-save-config[type=submit]:enabled')
-              .then((hasChanged) => {
-                if (hasChanged) {
-                  nightmare
-                    .click('#clickable-save-config')
-                    .wait('#clickable-save-config[type=submit]:disabled')
-                    // saving the locale has a 2s timout and we want to
-                    // make sure we wait for that to finish
-                    .wait(4000)
-                    .then(done)
-                    .catch(done);
-                } else {
-                  done();
-                }
-              })
-              .catch(done);
+            helpers.setUsEnglishLocale(nightmare, config, done);
           });
         });
 
         describe('Create loan policy', () => {
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should reach "Create loan policy" page', (done) => {
             nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/loan-policies"]')
@@ -135,10 +109,14 @@ module.exports.test = (uiTestCtx) => {
             nightmare
               .wait('#input_policy_name')
               .type('#input_policy_name', policyName)
-              .wait('select[name="loansPolicy.period.intervalId"]')
-              .select('select[name="loansPolicy.period.intervalId"]', 'Minutes')
+              .wait('#input_loan_profile')
+              .select('#input_loan_profile', 'Rolling')
               .wait('input[name="loansPolicy.period.duration"')
               .type('input[name="loansPolicy.period.duration"', loanPeriod)
+              .wait('select[name="loansPolicy.period.intervalId"]')
+              .select('select[name="loansPolicy.period.intervalId"]', 'Minutes')
+              .wait('select[name="loansPolicy.closedLibraryDueDateManagementId"]')
+              .type('select[name="loansPolicy.closedLibraryDueDateManagementId"]', 'keep')
               .wait('#input_allowed_renewals')
               .type('#input_allowed_renewals', renewalLimit)
               .wait('#select_renew_from')
@@ -152,16 +130,21 @@ module.exports.test = (uiTestCtx) => {
                   throw new Error(sel.textContent);
                 }
               })
+              .wait(() => {
+                return !document.querySelector('#clickable-save-entry');
+              })
               .then(done)
               .catch(done);
           });
         });
 
         describe('Create notice policy', () => {
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should reach "Create notice policy" page', (done) => {
             nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/notice-policies"]')
@@ -187,16 +170,21 @@ module.exports.test = (uiTestCtx) => {
                   throw new Error(sel.textContent);
                 }
               })
+              .wait(() => {
+                return !document.querySelector('#clickable-save-entry');
+              })
               .then(done)
               .catch(done);
           });
         });
 
         describe('Create request policy', () => {
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should reach "Create request policy" page', (done) => {
             nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/request-policies"]')
@@ -226,16 +214,21 @@ module.exports.test = (uiTestCtx) => {
                   throw new Error(sel.textContent);
                 }
               })
+              .wait(() => {
+                return !document.querySelector('#clickable-save-entry');
+              })
               .then(done)
               .catch(done);
           });
         });
 
-        describe('Apply Loan rule', () => {
+        describe('Apply circulation rule', () => {
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should reach "Circulation rules" page', (done) => {
             nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/rules"]')
@@ -244,7 +237,7 @@ module.exports.test = (uiTestCtx) => {
               .catch(done);
           });
 
-          it('Apply the loan policy created as a loan rule to material-type book', (done) => {
+          it('Apply the loan policy created as a circulation rule to material-type book', (done) => {
             nightmare
               .wait('#form-loan-rules')
               .wait('.CodeMirror')
@@ -258,7 +251,11 @@ module.exports.test = (uiTestCtx) => {
                 nightmare
                   .wait('#clickable-save-loan-rules')
                   .click('#clickable-save-loan-rules')
-                  .wait(Math.max(555, debugSleep))
+                  .wait(() => {
+                    return Array.from(
+                      document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
+                    ).findIndex(e => e.textContent === 'Rules were successfully updated.') >= 0;
+                  })
                   .then(done)
                   .catch(done);
                 loanRules = defaultRules;
@@ -268,14 +265,19 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Find Active user', () => {
+          it('should navigate to users', (done) => {
+            helpers.clickApp(nightmare, done, 'users');
+          });
+
           it('should find an active user ', (done) => {
             nightmare
               .wait(1111)
-              .click('#clickable-users-module')
               .wait('#input-user-search')
               .type('#input-user-search', '0')
               .wait('#clickable-reset-all')
               .click('#clickable-reset-all')
+              .wait('#clickable-filter-active-active')
+              .click('#clickable-filter-active-active')
               .wait('#clickable-filter-pg-faculty')
               .click('#clickable-filter-pg-faculty')
               .wait(uselector)
@@ -297,14 +299,15 @@ module.exports.test = (uiTestCtx) => {
         );
 
         describe('Checkout item', () => {
+          // if we don't wait a second after creating the item record,
+          // we seem to get stuck there and cannot navigate to checkout.
+          // does this make any sense at all? no. no it does not. and yet.
+          it('should navigate to checkoout', (done) => {
+            helpers.clickApp(nightmare, done, 'checkout', 1000);
+          });
+
           it(`should check out ${barcode} to ${userid}`, (done) => {
             nightmare
-              // if we don't wait a second after creating the item record,
-              // we seem to get stuck there and cannot navigate to checkout.
-              // does this make any sense at all? no. no it does not. and yet.
-              .wait(1111)
-              .wait('#clickable-checkout-module')
-              .click('#clickable-checkout-module')
               .wait('#input-patron-identifier')
               .type('#input-patron-identifier', userid)
               .wait(111)
@@ -335,8 +338,14 @@ module.exports.test = (uiTestCtx) => {
               })
               .then(() => {
                 nightmare
+                  .wait('#section-item button')
                   .click('#section-item button')
-                  .wait(Math.max(555, debugSleep)) // debugging
+                  .wait('#list-items-checked-out')
+                  .wait((bc) => {
+                    return Array.from(
+                      document.querySelectorAll('#list-items-checked-out div[role="gridcell"]')
+                    ).findIndex(e => e.textContent === `${bc}`) >= 0;
+                  }, barcode)
                   .then(done)
                   .catch(done);
               })
@@ -345,9 +354,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Confirm checkout', () => {
+          it('should navigate to users', (done) => {
+            helpers.clickApp(nightmare, done, 'users');
+          });
+
           it(`should find ${barcode} in ${userid}'s open loans`, (done) => {
             nightmare
-              .click('#clickable-users-module')
               .wait('#input-user-search')
               .type('#input-user-search', '0')
               .wait('#clickable-reset-all')
@@ -412,9 +424,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Renew failure', () => {
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should reach "loan policy settings" page', (done) => {
             nightmare
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/loan-policies"]')
@@ -423,7 +438,7 @@ module.exports.test = (uiTestCtx) => {
               .catch(done);
           });
 
-          it('Edit loan policy, renew from system date should fail the renewal', (done) => {
+          it('Edit loan policy to renew from system datel', (done) => {
             nightmare
               .wait('div.hasEntries')
               .evaluate((pn) => {
@@ -441,8 +456,8 @@ module.exports.test = (uiTestCtx) => {
               }, policyName)
               .then((entryIndex) => {
                 nightmare
-                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
-                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
                   .wait('#clickable-edit-item')
                   .click('#clickable-edit-item')
                   .wait('#input_allowed_renewals')
@@ -454,37 +469,39 @@ module.exports.test = (uiTestCtx) => {
                   .wait(1000)
                   .evaluate(() => {
                     const sel = document.querySelector('div[class^="textfieldError"]');
-
                     if (sel) {
                       throw new Error(sel.textContent);
                     }
                   })
-                  .then(() => {
-                    nightmare
-                      .wait(1111)
-                      .click('#clickable-users-module')
-                      .wait(findBarcodeCell, barcode)
-                      .evaluate(tickRenewCheckbox, barcode)
-                      .then(() => {
-                        nightmare
-                          .wait('#renew-all')
-                          .click('#renew-all')
-                          .wait('#bulk-renewal-modal')
-                          .wait(1000)
-                          .evaluate(() => {
-                            const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
+                  .then(done)
+                  .catch(done);
+              })
+              .catch(done);
+          });
 
-                            if (errorMsg === null) {
-                              throw new Error('Should throw an error as the renewalLimit is reached');
-                            } else if (!errorMsg.match('Item not renewed:renewal would not change the due date')) {
-                              throw new Error('Expected only the renewal failure error message');
-                            }
-                          })
-                          .then(done)
-                          .catch(done);
-                      })
-                      .catch(done);
+          it('should navigate to users', (done) => {
+            helpers.clickApp(nightmare, done, 'users', 1000);
+          });
+
+          it('should fail the renewal', (done) => {
+            nightmare
+              .wait(findBarcodeCell, barcode)
+              .evaluate(tickRenewCheckbox, barcode)
+              .then(() => {
+                nightmare
+                  .wait('#renew-all')
+                  .click('#renew-all')
+                  .wait('#bulk-renewal-modal')
+                  .wait(1000)
+                  .evaluate(() => {
+                    const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
+                    if (errorMsg === null) {
+                      throw new Error('Should throw an error as the renewalLimit is reached');
+                    } else if (!errorMsg.match('Item not renewed:renewal would not change the due date')) {
+                      throw new Error('Expected only the renewal failure error message');
+                    }
                   })
+                  .then(done)
                   .catch(done);
               })
               .catch(done);
@@ -492,10 +509,14 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Create fixed due date schedule', () => {
+
+
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
           it('should create a new fixed due date schedule', (done) => {
             nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/fixed-due-date-schedules"]')
@@ -545,14 +566,16 @@ module.exports.test = (uiTestCtx) => {
               }, policyName)
               .then((entryIndex) => {
                 nightmare
-                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
-                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
                   .wait('#clickable-edit-item')
                   .click('#clickable-edit-item')
                   .wait('#input_loan_profile')
                   .type('#input_loan_profile', 'fi')
                   .wait('#input_loansPolicy_fixedDueDateSchedule')
                   .type('#input_loansPolicy_fixedDueDateSchedule', scheduleName)
+                  .wait('select[name="loansPolicy.closedLibraryDueDateManagementId"]')
+                  .type('select[name="loansPolicy.closedLibraryDueDateManagementId"]', 'keep')
                   .wait('#clickable-save-entry')
                   .click('#clickable-save-entry')
                   .wait(1000)
@@ -570,11 +593,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Renew failure', () => {
+          it('should navigate to users', (done) => {
+            helpers.clickApp(nightmare, done, 'users', 555);
+          });
+
           it('Renewal should fail as renewal date falls outside of the date ranges', (done) => {
             nightmare
-              .wait(555)
-              .wait('#clickable-users-module')
-              .click('#clickable-users-module')
               .wait(findBarcodeCell, barcode)
               .evaluate(tickRenewCheckbox, barcode)
               .then(() => {
@@ -598,9 +622,12 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Check in', () => {
+          it('should navigate to checkin', (done) => {
+            helpers.clickApp(nightmare, done, 'checkin');
+          });
+
           it(`should check in ${barcode}`, (done) => {
             nightmare
-              .click('#clickable-checkin-module')
               .wait('#input-item-barcode')
               .insert('#input-item-barcode', barcode)
               .wait('#clickable-add-item')
@@ -615,11 +642,13 @@ module.exports.test = (uiTestCtx) => {
           });
         });
 
-        describe('Restore the loan rules', () => {
-          it('should restore the loan rules', (done) => {
+        describe('Restore the circulation rules', () => {
+          it('should navigate to settings', (done) => {
+            helpers.clickSettings(nightmare, done);
+          });
+
+          it('should restore the circulation rules', (done) => {
             nightmare
-              .wait(config.select.settings)
-              .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
               .click('a[href="/settings/circulation"]')
               .wait('a[href="/settings/circulation/rules"]')
@@ -662,27 +691,29 @@ module.exports.test = (uiTestCtx) => {
                 if (index === -1) {
                   throw new Error(`Could not find the loan policy ${pn} to delete`);
                 }
-
                 // CSS selectors are 1-based, which is just totally awesome.
                 return index + 1;
               }, policyName)
               .then((entryIndex) => {
                 nightmare
-                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
-                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
-                  .wait('#clickable-edit-item')
-                  .click('#clickable-edit-item')
-                  .wait('#clickable-delete-entry')
-                  .click('#clickable-delete-entry')
+                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .wait('#dropdown-clickable-delete-item')
+                  .click('#dropdown-clickable-delete-item')
                   .wait('#clickable-delete-item-confirmation-confirm')
                   .click('#clickable-delete-item-confirmation-confirm')
-                  .wait('#clickable-edit-item')
+                  .wait((pn) => {
+                    return Array.from(
+                      document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
+                    ).findIndex(e => e.textContent === `The Loan policy ${pn} was successfully deleted.`) >= 0;
+                  }, policyName)
                   .then(done)
                   .catch(done);
               })
               .catch(done);
           });
         });
+
         describe('Delete fixedDueDateSchedule', () => {
           it('should delete the fixedDueDateSchedule', (done) => {
             nightmare
@@ -695,28 +726,23 @@ module.exports.test = (uiTestCtx) => {
               .wait((sn) => {
                 const index = Array.from(
                   document.querySelectorAll('#ModuleContainer div.hasEntries a div')
-                )
-                  .findIndex(e => e.textContent === sn);
-
+                ).findIndex(e => e.textContent === sn);
                 return index >= 0;
               }, scheduleName)
               .evaluate((sn) => {
                 const index = Array.from(
                   document.querySelectorAll('#ModuleContainer div.hasEntries a div')
-                )
-                  .findIndex(e => e.textContent === sn);
-
+                ).findIndex(e => e.textContent === sn);
                 if (index === -1) {
                   throw new Error(`Could not find the fixed due date schedule ${sn} to delete`);
                 }
-
                 // CSS selectors are 1-based, which is just totally awesome.
                 return index + 1;
               }, scheduleName)
               .then((entryIndex) => {
                 nightmare
-                  .wait(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
-                  .click(`#ModuleContainer div.hasEntries a:nth-of-type(${entryIndex})`)
+                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
                   .wait('#generalInformation')
                   .wait('#fixedDueDateSchedule')
                   .wait('#clickable-edit-item')
@@ -725,6 +751,106 @@ module.exports.test = (uiTestCtx) => {
                   .click('#clickable-delete-item')
                   .wait('#clickable-deletefixedduedateschedule-confirmation-confirm')
                   .click('#clickable-deletefixedduedateschedule-confirmation-confirm')
+                  .wait((sn) => {
+                    return Array.from(
+                      document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
+                    ).findIndex(e => e.textContent === `The fixed due date schedule ${sn} was successfully deleted.`) >= 0;
+                  }, scheduleName)
+                  .wait(() => !document.querySelector('#OverlayContainer div[class^="calloutBase"]'))
+                  .then(done)
+                  .catch(done);
+              })
+              .catch(done);
+          });
+        });
+
+        describe('Delete request policy', () => {
+          it('should delete the request policy', (done) => {
+            nightmare
+              .click(config.select.settings)
+              .wait('a[href="/settings/circulation"]')
+              .click('a[href="/settings/circulation"]')
+              .wait('a[href="/settings/circulation/request-policies"]')
+              .click('a[href="/settings/circulation/request-policies"]')
+              .wait('div.hasEntries')
+              .wait((rpn) => {
+                const index = Array.from(
+                  document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+                ).findIndex(e => e.textContent === rpn);
+                return index >= 0;
+              }, requestPolicyName)
+              .evaluate((rpn) => {
+                const index = Array.from(
+                  document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+                ).findIndex(e => e.textContent === rpn);
+                if (index === -1) {
+                  throw new Error(`Could not find the request policy ${rpn} to delete`);
+                }
+                // CSS selectors are 1-based, which is just totally awesome.
+                return index + 1;
+              }, requestPolicyName)
+              .then((entryIndex) => {
+                nightmare
+                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .wait('#general')
+                  .wait('#dropdown-clickable-delete-item')
+                  .click('#dropdown-clickable-delete-item')
+                  .wait('#clickable-delete-item-confirmation-confirm')
+                  .click('#clickable-delete-item-confirmation-confirm')
+                  .wait((rpn) => {
+                    return Array.from(
+                      document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
+                    ).findIndex(e => e.textContent === `The Request policy ${rpn} was successfully deleted.`) >= 0;
+                  }, requestPolicyName)
+                  .wait(() => !document.querySelector('#OverlayContainer div[class^="calloutBase"]'))
+                  .then(done)
+                  .catch(done);
+              })
+              .catch(done);
+          });
+        });
+
+        describe('Delete notice policy', () => {
+          it('should delete the notice policy', (done) => {
+            nightmare
+              .click(config.select.settings)
+              .wait('a[href="/settings/circulation"]')
+              .click('a[href="/settings/circulation"]')
+              .wait('a[href="/settings/circulation/notice-policies"]')
+              .click('a[href="/settings/circulation/notice-policies"]')
+              .wait('div.hasEntries')
+              .wait((npn) => {
+                const index = Array.from(
+                  document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+                ).findIndex(e => e.textContent === npn);
+                return index >= 0;
+              }, noticePolicyName)
+              .evaluate((npn) => {
+                const index = Array.from(
+                  document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+                ).findIndex(e => e.textContent === npn);
+                if (index === -1) {
+                  throw new Error(`Could not find the notice policy${npn} to delete`);
+                }
+                // CSS selectors are 1-based, which is just totally awesome.
+                return index + 1;
+              }, noticePolicyName)
+              .then((entryIndex) => {
+                nightmare
+                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                  .wait('#generalInformation')
+                  .wait('#dropdown-clickable-delete-item')
+                  .click('#dropdown-clickable-delete-item')
+                  .wait('#clickable-delete-item-confirmation-confirm')
+                  .click('#clickable-delete-item-confirmation-confirm')
+                  .wait((npn) => {
+                    return Array.from(
+                      document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
+                    ).findIndex(e => e.textContent === `The Patron notice policy ${npn} was successfully deleted.`) >= 0;
+                  }, noticePolicyName)
+                  .wait(() => !document.querySelector('#OverlayContainer div[class^="calloutBase"]'))
                   .then(done)
                   .catch(done);
               })
