@@ -13,13 +13,13 @@ module.exports = {
     '@folio/developer' : {},
     '@folio/inventory' : {},
     '@folio/myprofile' : {},
-    '@folio/organization' : {},
-    '@folio/plugin-find-user' : {},
     '@folio/plugin-find-instance' : {},
+    '@folio/plugin-find-user' : {},
     '@folio/requests' : {},
     '@folio/search' : {},
     '@folio/servicepoints' : {},
     '@folio/tags': {},
+    '@folio/tenant-settings' : {},
     '@folio/users' : {}
   },
   branding: {
@@ -28,7 +28,7 @@ module.exports = {
       alt: 'Opentown Libraries',
     },
     favicon: {
-      src: './tenant-assets/opentown-libraries-favicon.png',
+      src: './tenant-assets/folio-favicon.png',
     },
   },
 };

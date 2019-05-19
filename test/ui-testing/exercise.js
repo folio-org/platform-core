@@ -21,11 +21,13 @@ module.exports.test = (uiTestCtx) => {
         helpers.circSettingsCheckoutByBarcodeAndUsername(nightmare, config, done);
       });
 
+      it('should navigate to settings', (done) => {
+        helpers.clickSettings(nightmare, done);
+      });
+
       let initialRules = '';
       it('should configure default circulation rules', (done) => {
         nightmare
-          .wait(config.select.settings)
-          .click(config.select.settings)
           .wait('a[href="/settings/circulation"]')
           .click('a[href="/settings/circulation"]')
           .wait('a[href="/settings/circulation/rules"]')
@@ -49,10 +51,14 @@ module.exports.test = (uiTestCtx) => {
           .catch(done);
       });
 
+      it('should navigate to users', (done) => {
+        helpers.clickApp(nightmare, done, 'users');
+      });
+
       it('should find an active user', (done) => {
         nightmare
-          .wait('#clickable-users-module')
-          .click('#clickable-users-module')
+          .wait('#clickable-filter-active-active')
+          .click('#clickable-filter-active-active')
           .wait('#clickable-filter-pg-faculty')
           .click('#clickable-filter-pg-faculty')
           .wait('#list-users:not([data-total-count="0"])')
@@ -121,11 +127,12 @@ module.exports.test = (uiTestCtx) => {
 
       const barcode = helpers.createInventory(nightmare, config, 'Soul station / Hank Mobley');
 
+      it('should navigate to checkout', (done) => {
+        helpers.clickApp(nightmare, done, 'checkout', 1000);
+      });
+
       it(`should check out ${barcode}`, (done) => {
         nightmare
-          .wait(1111)
-          .wait('#clickable-checkout-module')
-          .click('#clickable-checkout-module')
           .wait('#input-patron-identifier')
           .type('#input-patron-identifier', userBarcode)
           .wait(1000)
@@ -157,11 +164,12 @@ module.exports.test = (uiTestCtx) => {
           });
       });
 
+      it('should navigate to users', (done) => {
+        helpers.clickApp(nightmare, done, 'users', 1000);
+      });
+
       it('should change open-loan count', (done) => {
         nightmare
-          .wait(1111)
-          .wait('#clickable-users-module')
-          .click('#clickable-users-module')
           .wait('#input-user-search')
           .insert('#input-user-search', userBarcode)
           .wait('#clickable-reset-all')
@@ -198,10 +206,12 @@ module.exports.test = (uiTestCtx) => {
           .catch(done);
       });
 
+      it('should navigate to checkin', (done) => {
+        helpers.clickApp(nightmare, done, 'checkin');
+      });
+
       it(`should check in ${barcode}`, (done) => {
         nightmare
-          .wait('#clickable-checkin-module')
-          .click('#clickable-checkin-module')
           .wait('#input-item-barcode')
           .insert('#input-item-barcode', barcode)
           .wait('#clickable-add-item')
@@ -215,10 +225,12 @@ module.exports.test = (uiTestCtx) => {
           .catch(done);
       });
 
+      it('should navigate to users', (done) => {
+        helpers.clickApp(nightmare, done, 'users');
+      });
+
       it('should change closed-loan count', (done) => {
         nightmare
-          .wait('#clickable-users-module')
-          .click('#clickable-users-module')
           .wait('#pane-userdetails')
           .wait('#clickable-viewclosedloans')
           .evaluate(() => document.querySelector('#clickable-viewclosedloans').textContent)
@@ -246,10 +258,12 @@ module.exports.test = (uiTestCtx) => {
           .catch(done);
       });
 
+      it('should navigate to settings', (done) => {
+        helpers.clickSettings(nightmare, done);
+      });
+
       it('should restore initial circulation rules', (done) => {
         nightmare
-          .wait(config.select.settings)
-          .click(config.select.settings)
           .wait('a[href="/settings/circulation"]')
           .click('a[href="/settings/circulation"]')
           .wait('a[href="/settings/circulation/rules"]')
