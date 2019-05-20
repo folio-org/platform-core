@@ -25,7 +25,6 @@
     "@folio/developer": "1.9.0",
     "@folio/inventory": "1.8.0",
     "@folio/myprofile": "1.5.0",
-    "@folio/organization": "2.8.1",
     "@folio/plugin-find-instance": "1.4.0",
     "@folio/plugin-find-user": "1.7.0",
     "@folio/requests": "1.9.0",
