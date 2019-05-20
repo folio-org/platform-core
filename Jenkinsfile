@@ -6,6 +6,7 @@ pipeline {
   environment {
     origin = 'platform-core'
     branch = 'snapshot'
+    folioRegistry = 'http://folio-registry.aws.indexdata.com'
   }
 
   options {
@@ -31,10 +32,17 @@ pipeline {
 
     stage('Build Stripes Platform') {
       steps {
-        // remove existing yarn.lock
-        sh 'rm -f yarn.lock'
-        sh 'yarn install'
-        sh 'yarn build ./output'
+        // the tenant and okapi url are irrelevant here. 
+        buildStripesPlatform('https://folio-snapshot-core-okapi.aws.indexdata.com','diku')
+      }
+    }
+
+    stage('Test Interface Dependencies') {
+      steps { 
+        script {
+          def stripesInstallJson = readFile('./stripes-install.json')
+          platformDepCheck('diku',stripesInstallJson)
+        }
       }
     }
 
