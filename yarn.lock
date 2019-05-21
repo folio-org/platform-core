@@ -10397,8 +10397,8 @@ uglify-js@3.4.x:
     source-map "~0.6.1"
 
 uglify-js@^3.1.4:
-  version "3.5.14"
-  resolved "https://repository.folio.org/repository/npm-ci-all/uglify-js/-/uglify-js-3.5.14.tgz#edf2a322c37fd7173a954fb35af199b52fb10946"
+  version "3.5.15"
+  resolved "https://repository.folio.org/repository/npm-ci-all/uglify-js/-/uglify-js-3.5.15.tgz#fe2b5378fd0b09e116864041437bff889105ce24"
   dependencies:
     commander "~2.20.0"
     source-map "~0.6.1"
