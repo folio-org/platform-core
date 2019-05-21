@@ -112,8 +112,8 @@
     regenerator-runtime "^0.13.2"
 
 "@babel/runtime-corejs2@^7.0.0":
-  version "7.4.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime-corejs2/-/runtime-corejs2-7.4.4.tgz#4d4519a4c85e9d98fdff59f5371758a34ae07923"
+  version "7.4.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime-corejs2/-/runtime-corejs2-7.4.5.tgz#3d892f0560df21bafb384dd7727e33853e95d3c9"
   dependencies:
     core-js "^2.6.5"
     regenerator-runtime "^0.13.2"
