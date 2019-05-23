@@ -589,8 +589,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.6.3":
-  version "2.6.3000445"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.6.3000445.tgz#e7a4000df913e12f7122fba77f47b096b60ef561"
+  version "2.6.3000446"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.6.3000446.tgz#fe8090ad00af57947e14a9d4aeff03f95772b1fd"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.3.0"
@@ -8734,8 +8734,8 @@ react-highlighter@^0.4.2:
     prop-types "^15.6.0"
 
 react-hot-loader@^4.3.10, react-hot-loader@^4.3.12:
-  version "4.8.7"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-hot-loader/-/react-hot-loader-4.8.7.tgz#8bcec3105d4e0e3cba52aa59800568fc9fb3322d"
+  version "4.8.8"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-hot-loader/-/react-hot-loader-4.8.8.tgz#71e3c7ba301556aa24c52cef2f6ed0af82395eea"
   dependencies:
     fast-levenshtein "^2.0.6"
     global "^4.3.0"
