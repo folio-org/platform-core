@@ -284,8 +284,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
-  version "1.8.1000486"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.8.1000486.tgz#f2b40b5f9ee251855a39e87d08395a19fbe42ac3"
+  version "1.8.1000487"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.8.1000487.tgz#a974c0534ef2c265b6908441e8adb9c1a92c3f23"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -348,8 +348,8 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.9.1000282"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.9.1000282.tgz#ff5a3e63f45de97086284582dc6b0def6cba3c0d"
+  version "1.9.1000283"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.9.1000283.tgz#dffc58f87139b10b507f28a360196016f0750495"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     isomorphic-fetch "^2.2.1"
