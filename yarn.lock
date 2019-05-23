@@ -10095,8 +10095,8 @@ symbol-observable@^1.0.2, symbol-observable@^1.0.3, symbol-observable@^1.0.4, sy
   resolved "https://repository.folio.org/repository/npm-ci-all/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
 
 table@^5.2.3:
-  version "5.3.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/table/-/table-5.3.3.tgz#eae560c90437331b74200e011487a33442bd28b4"
+  version "5.4.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/table/-/table-5.4.0.tgz#d772a3216e68829920a41a32c18eda286c95d780"
   dependencies:
     ajv "^6.9.1"
     lodash "^4.17.11"
