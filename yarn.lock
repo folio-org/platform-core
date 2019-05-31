@@ -284,8 +284,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
-  version "1.8.1000488"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.8.1000488.tgz#7be9c81de7899234a26c8b11c7b1b952ba4db033"
+  version "1.8.1000490"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.8.1000490.tgz#1d60a8dcf143eb84ba16c1ec3b34791921751d58"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -431,8 +431,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.4.0":
-  version "5.4.1000800"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.4.1000800.tgz#5bc0f68ca4045e55e7f3ffe9e63c3ce44d5dde69"
+  version "5.4.1000801"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.4.1000801.tgz#787b291f0d5d195a8dac38ea60f9186d4291a668"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -589,8 +589,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.7.0":
-  version "2.7.1000458"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.7.1000458.tgz#0fc204213c0bd1dce88841bd134f46de55ebbf9b"
+  version "2.7.1000461"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.7.1000461.tgz#e6c36ff01592c61fb7129637d8fffceeeb48e0d6"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.4.0"
