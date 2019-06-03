@@ -210,8 +210,8 @@
     uuid "^3.1.0"
 
 "@folio/checkin@>=1.3.0":
-  version "1.7.1000153"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-1.7.1000153.tgz#1a4545c0fa91b60c0fa7f9a3b0722d75e33a9a41"
+  version "1.7.1000154"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-1.7.1000154.tgz#30091dd53fe08d2859119ac433632eba5c504cfc"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     dateformat "^2.0.0"
@@ -589,8 +589,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.7.0":
-  version "2.7.1000461"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.7.1000461.tgz#e6c36ff01592c61fb7129637d8fffceeeb48e0d6"
+  version "2.7.1000462"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.7.1000462.tgz#6827074b5b930180eb95a9d92d43a9d005d69674"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.4.0"
