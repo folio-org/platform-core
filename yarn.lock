@@ -1076,8 +1076,8 @@
     tslib "^1.9.3"
 
 "@wry/equality@^0.1.2":
-  version "0.1.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/equality/-/equality-0.1.5.tgz#1c9103749040363d57720c8eee351bf9a4238caa"
+  version "0.1.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/equality/-/equality-0.1.7.tgz#512234d078341c32cabda66b89b5dddb5741d9b9"
   dependencies:
     tslib "^1.9.3"
 
@@ -4030,8 +4030,8 @@ es6-promise@^3.0.2:
   resolved "https://repository.folio.org/repository/npm-ci-all/es6-promise/-/es6-promise-3.3.1.tgz#a08cdde84ccdbf34d027a1451bc91d4bcd28a613"
 
 es6-promise@^4.0.3, es6-promise@^4.0.5:
-  version "4.2.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/es6-promise/-/es6-promise-4.2.6.tgz#b685edd8258886365ea62b57d30de28fadcd974f"
+  version "4.2.8"
+  resolved "https://repository.folio.org/repository/npm-ci-all/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
 
 es6-promisify@^5.0.0:
   version "5.0.0"
