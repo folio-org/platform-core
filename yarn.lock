@@ -8149,8 +8149,8 @@ query-string@^5.0.0, query-string@^5.1.0:
     strict-uri-encode "^1.0.0"
 
 query-string@^6.1.0:
-  version "6.6.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/query-string/-/query-string-6.6.0.tgz#a6b7dfd57ad67e346b143d033df2b1e4cfb6b53a"
+  version "6.7.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/query-string/-/query-string-6.7.0.tgz#7e92bf8525140cf8c5ebf500f26716b0de5b7023"
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
