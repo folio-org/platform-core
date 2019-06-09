@@ -221,8 +221,8 @@
     redux-form "^7.0.3"
 
 "@folio/checkout@>=1.3.0":
-  version "1.8.1000287"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.8.1000287.tgz#0336b50f1be187138ce16dcc06cce7546560afd7"
+  version "1.8.1000288"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.8.1000288.tgz#b08798673968d73a7027df6ca97884f2a73474bc"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
@@ -238,8 +238,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/circulation@>=1.3.0":
-  version "1.7.1000279"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.7.1000279.tgz#8f442ebf905ef5bf57e41f3d4c326f03e4741efb"
+  version "1.7.1000280"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.7.1000280.tgz#b6a7b5bbed897f1be3f868c98751e025fd1c46ec"
   dependencies:
     html-to-react "^1.3.3"
     isomorphic-fetch "^2.2.1"
@@ -278,8 +278,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
-  version "1.8.1000496"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.8.1000496.tgz#539d2341021e64db21c3ece525d7409808e153bf"
+  version "1.8.1000497"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.8.1000497.tgz#84657b9384d4778b59b2cb34ae375b99f1fbe573"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -342,8 +342,8 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.9.1000290"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.9.1000290.tgz#0bced8395a9017c912e03b6ce104b083ce6e1fcf"
+  version "1.9.1000291"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.9.1000291.tgz#34aa8c14d9b4db964c800bb7bf53fed229c6e585"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     isomorphic-fetch "^2.2.1"
@@ -583,8 +583,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.7.0":
-  version "2.7.1000472"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.7.1000472.tgz#bf76f0e5694d8a73f27c9ce5264935d5e2a3b56f"
+  version "2.7.1000473"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.7.1000473.tgz#28bf3a8c68f49be261fa646f221fb399e58c3546"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.4.0"
@@ -659,8 +659,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.22.1000683"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.22.1000683.tgz#f1eafe72737676a41fcf45f8a59a3503d9096d1d"
+  version "2.22.1000684"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.22.1000684.tgz#3befec2b6e4b2147b33addef0e45af76ef82f687"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -3718,8 +3718,8 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.150, electron-to-chromium@^1.3.47:
-  version "1.3.154"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.154.tgz#e5b73beecd4db9f024d807ba1faad93fe1fb98aa"
+  version "1.3.155"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.155.tgz#ebf0cc8eeaffd6151d1efad60fd9e021fb45fd3a"
 
 electron@^2.0.18:
   version "2.0.18"
