@@ -430,7 +430,7 @@
     webpack-bundle-analyzer "^3.0.1"
     yargs "^13.1.0"
 
-"@folio/stripes-components@~5.4.0":
+"@folio/stripes-components@~5.4.0", "@folio/stripes-components@~5.4.1":
   version "5.4.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-5.4.1.tgz#52b1ea08fd7d4b929eabee6aa38aad04ee16f9e3"
   dependencies:
@@ -630,11 +630,11 @@
     lodash "^4.17.4"
     query-string "^5.0.0"
 
-"@folio/stripes@2.7.1":
-  version "2.7.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-2.7.1.tgz#f595c9e80cdb6dc257de79f9e6bd5993d5271ee0"
+"@folio/stripes@2.7.2":
+  version "2.7.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-2.7.2.tgz#04708d139af80dc341c65cb5b31225100eacb670"
   dependencies:
-    "@folio/stripes-components" "~5.4.0"
+    "@folio/stripes-components" "~5.4.1"
     "@folio/stripes-connect" "~5.2.1"
     "@folio/stripes-core" "~3.6.0"
     "@folio/stripes-form" "~2.6.0"
