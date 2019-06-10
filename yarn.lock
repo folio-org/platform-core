@@ -588,9 +588,9 @@
     mousetrap "^1.6.1"
     prop-types "^15.5.10"
 
-"@folio/stripes-smart-components@~2.7.0":
-  version "2.7.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-2.7.0.tgz#7cc1d4f98bfd085668b69e2fde63ea8780fd9855"
+"@folio/stripes-smart-components@~2.7.1":
+  version "2.7.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-2.7.1.tgz#9cfbe27edb503c9095202f315b09cc23c5790ad7"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.4.0"
@@ -630,16 +630,16 @@
     lodash "^4.17.4"
     query-string "^5.0.0"
 
-"@folio/stripes@2.7.0":
-  version "2.7.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-2.7.0.tgz#089ca69fc58dd361f5d790611b3a86276f55ca1a"
+"@folio/stripes@2.7.1":
+  version "2.7.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-2.7.1.tgz#f595c9e80cdb6dc257de79f9e6bd5993d5271ee0"
   dependencies:
     "@folio/stripes-components" "~5.4.0"
     "@folio/stripes-connect" "~5.2.1"
     "@folio/stripes-core" "~3.6.0"
     "@folio/stripes-form" "~2.6.0"
     "@folio/stripes-logger" "~1.0.0"
-    "@folio/stripes-smart-components" "~2.7.0"
+    "@folio/stripes-smart-components" "~2.7.1"
     "@folio/stripes-util" "~1.4.0"
     react "~16.8.6"
     react-dom "~16.8.6"
