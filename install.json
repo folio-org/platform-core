@@ -41,7 +41,7 @@
   "id" : "folio_checkout-1.8.0",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-1.7.0",
+  "id" : "folio_circulation-1.8.0",
   "action" : "enable"
 }, {
   "id" : "folio_developer-1.9.0",
