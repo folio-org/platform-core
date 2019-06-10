@@ -342,8 +342,8 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.9.1000291"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.9.1000291.tgz#34aa8c14d9b4db964c800bb7bf53fed229c6e585"
+  version "1.9.1000292"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.9.1000292.tgz#204c992cd5ebd14af8e713077cf089be332f00b9"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     isomorphic-fetch "^2.2.1"
@@ -424,7 +424,7 @@
     webpack-bundle-analyzer "^3.3.2"
     yargs "^13.1.0"
 
-"@folio/stripes-components@~5.4.0":
+"@folio/stripes-components@~5.4.0", "@folio/stripes-components@~5.4.1":
   version "5.4.1000809"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.4.1000809.tgz#fde4551152fe64ae74d5642536410b620bda6a02"
   dependencies:
@@ -625,10 +625,10 @@
     query-string "^5.0.0"
 
 "@folio/stripes@^2.0.0":
-  version "2.7.100045"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-2.7.100045.tgz#ae6e24ab4c74368509425adf275eff11e753807a"
+  version "2.7.200046"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-2.7.200046.tgz#daab808c8bf24cbd1b2684b5311b9bc0239178cb"
   dependencies:
-    "@folio/stripes-components" "~5.4.0"
+    "@folio/stripes-components" "~5.4.1"
     "@folio/stripes-connect" "~5.2.1"
     "@folio/stripes-core" "~3.6.0"
     "@folio/stripes-form" "~2.6.0"
@@ -3045,15 +3045,6 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
 corser@~2.0.0:
   version "2.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/corser/-/corser-2.0.1.tgz#8eda252ecaab5840dcd975ceb90d9370c819ff87"
-
-cosmiconfig@^4.0.0:
-  version "4.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/cosmiconfig/-/cosmiconfig-4.0.0.tgz#760391549580bbd2df1e562bc177b13c290972dc"
-  dependencies:
-    is-directory "^0.3.1"
-    js-yaml "^3.9.0"
-    parse-json "^4.0.0"
-    require-from-string "^2.0.1"
 
 cosmiconfig@^5.0.0:
   version "5.2.1"
@@ -5899,7 +5890,7 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "4.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
 
-js-yaml@^3.13.0, js-yaml@^3.13.1, js-yaml@^3.9.0:
+js-yaml@^3.13.0, js-yaml@^3.13.1:
   version "3.13.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   dependencies:
@@ -7692,10 +7683,10 @@ postcss-import@^12.0.0:
     resolve "^1.1.7"
 
 postcss-load-config@^2.0.0:
-  version "2.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-load-config/-/postcss-load-config-2.0.0.tgz#f1312ddbf5912cd747177083c5ef7a19d62ee484"
+  version "2.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-load-config/-/postcss-load-config-2.1.0.tgz#c84d692b7bb7b41ddced94ee62e8ab31b417b003"
   dependencies:
-    cosmiconfig "^4.0.0"
+    cosmiconfig "^5.0.0"
     import-cwd "^2.0.0"
 
 postcss-loader@^3.0.0:
@@ -8850,10 +8841,6 @@ request@^2.45.0, request@^2.65.0, request@^2.81.0:
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
-
-require-from-string@^2.0.1:
-  version "2.0.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
 
 require-main-filename@^1.0.1:
   version "1.0.1"
