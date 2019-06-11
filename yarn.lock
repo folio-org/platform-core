@@ -278,8 +278,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
-  version "1.8.1000499"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.8.1000499.tgz#e601bc31a38e3e97315981b42767de2b465b0010"
+  version "1.8.1000500"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.8.1000500.tgz#cd278ed15332dc6774ef331b25e551e79e0d3a32"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -342,8 +342,8 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.9.1000293"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.9.1000293.tgz#498c3adc1d458a9a1fc9fb94d583fab1da732b67"
+  version "1.9.1000294"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.9.1000294.tgz#ce9226624d641900f1d7b6cef2d75a9c1dcb688d"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     isomorphic-fetch "^2.2.1"
@@ -4445,8 +4445,8 @@ fill-range@^4.0.0:
     to-regex-range "^2.1.0"
 
 final-form@^4.12.0:
-  version "4.14.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.14.0.tgz#d3c1e471365d64827507c8120a9d5876c9117f31"
+  version "4.14.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.14.1.tgz#260b680fe89cb1a78ad0f4bd42f589272007eded"
   dependencies:
     "@babel/runtime" "^7.3.1"
 
