@@ -4445,8 +4445,8 @@ fill-range@^4.0.0:
     to-regex-range "^2.1.0"
 
 final-form@^4.12.0:
-  version "4.13.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.13.1.tgz#5893b1fe490a36198b219b351eec135d7394cdcf"
+  version "4.14.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.14.0.tgz#d3c1e471365d64827507c8120a9d5876c9117f31"
   dependencies:
     "@babel/runtime" "^7.3.1"
 
