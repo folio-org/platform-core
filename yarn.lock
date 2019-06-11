@@ -385,8 +385,8 @@
     react-router-dom "^4.1.1"
 
 "@folio/stripes-cli@^1.12.0":
-  version "1.12.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-cli/-/stripes-cli-1.12.0.tgz#db841bf2ecb943606296dd343aa9c5b4d24aa2df"
+  version "1.12.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-cli/-/stripes-cli-1.12.1.tgz#330aee85b365d0150bee9161435f7d491c80bc79"
   dependencies:
     "@folio/stripes-core" "^2.17.1 || ^3.0.0"
     "@folio/stripes-testing" "^1.5.0"
@@ -427,7 +427,7 @@
     supports-color "^4.5.0"
     update-notifier "^2.3.0"
     webpack "^4.10.2"
-    webpack-bundle-analyzer "^3.0.1"
+    webpack-bundle-analyzer "^3.3.2"
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.4.0", "@folio/stripes-components@~5.4.1":
@@ -588,9 +588,9 @@
     mousetrap "^1.6.1"
     prop-types "^15.5.10"
 
-"@folio/stripes-smart-components@~2.7.1":
-  version "2.7.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-2.7.1.tgz#9cfbe27edb503c9095202f315b09cc23c5790ad7"
+"@folio/stripes-smart-components@~2.7.2":
+  version "2.7.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-2.7.2.tgz#433b69e183a87e82307aa8323549f63b3f29a673"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.4.0"
@@ -630,16 +630,16 @@
     lodash "^4.17.4"
     query-string "^5.0.0"
 
-"@folio/stripes@2.7.2":
-  version "2.7.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-2.7.2.tgz#04708d139af80dc341c65cb5b31225100eacb670"
+"@folio/stripes@2.7.3":
+  version "2.7.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-2.7.3.tgz#78564d4ce02c731532850b8fd4f1cb73c5fcc861"
   dependencies:
     "@folio/stripes-components" "~5.4.1"
     "@folio/stripes-connect" "~5.2.1"
     "@folio/stripes-core" "~3.6.0"
     "@folio/stripes-form" "~2.6.0"
     "@folio/stripes-logger" "~1.0.0"
-    "@folio/stripes-smart-components" "~2.7.1"
+    "@folio/stripes-smart-components" "~2.7.2"
     "@folio/stripes-util" "~1.4.0"
     react "~16.8.6"
     react-dom "~16.8.6"
@@ -3111,15 +3111,6 @@ corser@~2.0.0:
   version "2.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/corser/-/corser-2.0.1.tgz#8eda252ecaab5840dcd975ceb90d9370c819ff87"
 
-cosmiconfig@^4.0.0:
-  version "4.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/cosmiconfig/-/cosmiconfig-4.0.0.tgz#760391549580bbd2df1e562bc177b13c290972dc"
-  dependencies:
-    is-directory "^0.3.1"
-    js-yaml "^3.9.0"
-    parse-json "^4.0.0"
-    require-from-string "^2.0.1"
-
 cosmiconfig@^5.0.0:
   version "5.2.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/cosmiconfig/-/cosmiconfig-5.2.1.tgz#040f726809c591e77a17c0a3626ca45b4f168b1a"
@@ -4590,8 +4581,8 @@ fill-range@^4.0.0:
     to-regex-range "^2.1.0"
 
 final-form@^4.12.0:
-  version "4.13.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.13.1.tgz#5893b1fe490a36198b219b351eec135d7394cdcf"
+  version "4.14.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.14.1.tgz#260b680fe89cb1a78ad0f4bd42f589272007eded"
   dependencies:
     "@babel/runtime" "^7.3.1"
 
@@ -6045,7 +6036,7 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "4.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
 
-js-yaml@^3.13.0, js-yaml@^3.13.1, js-yaml@^3.9.0:
+js-yaml@^3.13.0, js-yaml@^3.13.1:
   version "3.13.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   dependencies:
@@ -7918,10 +7909,10 @@ postcss-import@^12.0.0:
     resolve "^1.1.7"
 
 postcss-load-config@^2.0.0:
-  version "2.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-load-config/-/postcss-load-config-2.0.0.tgz#f1312ddbf5912cd747177083c5ef7a19d62ee484"
+  version "2.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-load-config/-/postcss-load-config-2.1.0.tgz#c84d692b7bb7b41ddced94ee62e8ab31b417b003"
   dependencies:
-    cosmiconfig "^4.0.0"
+    cosmiconfig "^5.0.0"
     import-cwd "^2.0.0"
 
 postcss-loader@^2.1.6:
@@ -9263,10 +9254,6 @@ require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
 
-require-from-string@^2.0.1:
-  version "2.0.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
-
 require-main-filename@^1.0.1:
   version "1.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/require-main-filename/-/require-main-filename-1.0.1.tgz#97f717b69d48784f5f526a6c5aa8ffdda055a4d1"
@@ -10381,8 +10368,8 @@ ts-invariant@^0.4.0, ts-invariant@^0.4.2:
     tslib "^1.9.3"
 
 tslib@^1.9.0, tslib@^1.9.3:
-  version "1.9.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
+  version "1.10.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
 
 tty-browserify@0.0.0:
   version "0.0.0"
@@ -10481,8 +10468,8 @@ unique-filename@^1.1.1:
     unique-slug "^2.0.0"
 
 unique-slug@^2.0.0:
-  version "2.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/unique-slug/-/unique-slug-2.0.1.tgz#5e9edc6d1ce8fb264db18a507ef9bd8544451ca6"
+  version "2.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/unique-slug/-/unique-slug-2.0.2.tgz#baabce91083fc64e945b0f3ad613e264f7cd4e6c"
   dependencies:
     imurmurhash "^0.1.4"
 
@@ -10722,7 +10709,7 @@ webapp-webpack-plugin@^2.6.1:
     parse-author "^2.0.0"
     tapable "^1.1.3"
 
-webpack-bundle-analyzer@^3.0.1:
+webpack-bundle-analyzer@^3.3.2:
   version "3.3.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/webpack-bundle-analyzer/-/webpack-bundle-analyzer-3.3.2.tgz#3da733a900f515914e729fcebcd4c40dde71fc6f"
   dependencies:
