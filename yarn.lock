@@ -278,8 +278,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
-  version "1.9.1000507"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.9.1000507.tgz#68928ecb02ac648092173ecfa9c5cae9515f912f"
+  version "1.10.1000508"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.10.1000508.tgz#7dd3c5c7e23e93e5735e888e4b8be4635a4d454b"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
