@@ -278,8 +278,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
-  version "1.10.1000508"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.10.1000508.tgz#7dd3c5c7e23e93e5735e888e4b8be4635a4d454b"
+  version "1.10.1000509"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.10.1000509.tgz#abc9c199f06963356bea3970dcdf166ca6122455"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -649,8 +649,8 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "2.11.100023"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.11.100023.tgz#07a57c159ae51af10f257f00a402da906673c53f"
+  version "2.11.100024"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.11.100024.tgz#fb5e472dd6468cdde2f555651e9a8d394c2044bf"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
