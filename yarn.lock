@@ -238,8 +238,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/circulation@>=1.3.0":
-  version "1.8.1000283"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.8.1000283.tgz#c3906699466606968c6e76958d92e031a54aad52"
+  version "1.8.1000284"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.8.1000284.tgz#a119266b357d04a9c7b2c907a9c1ef887ef1436a"
   dependencies:
     html-to-react "^1.3.3"
     isomorphic-fetch "^2.2.1"
@@ -583,8 +583,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.7.2":
-  version "2.7.2000478"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.7.2000478.tgz#86bfe03522a8ce279ee356388dbad5565324fb26"
+  version "2.7.2000479"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.7.2000479.tgz#e85204aaee28b883a8d7ed04e1c264c23214afe4"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.4.0"
