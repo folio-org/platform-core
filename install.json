@@ -32,7 +32,7 @@
   "id" : "mod-notify-2.3.0",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-16.2.0",
+  "id" : "mod-circulation-16.3.0",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-1.7.0",
@@ -50,7 +50,7 @@
   "id" : "mod-inventory-11.5.0",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-1.9.0",
+  "id" : "folio_inventory-1.10.0",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-1.6.0",
