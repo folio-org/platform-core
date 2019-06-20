@@ -278,8 +278,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
-  version "1.10.1000514"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.10.1000514.tgz#b27b2b905c5035cd316d494fce93ed19da7919dd"
+  version "1.10.1000515"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.10.1000515.tgz#41a4bbbc270e1f6948ea4ad94a0c9ac121cc694b"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -659,8 +659,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.23.1000690"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.23.1000690.tgz#75271a0869d7c2dee5f28c5a7ce4ab171f1e8b99"
+  version "2.23.1000691"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.23.1000691.tgz#930725d8b88afec45cd5f23efc601eefa5de6f57"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -8152,8 +8152,8 @@ query-string@^5.0.0, query-string@^5.1.0:
     strict-uri-encode "^1.0.0"
 
 query-string@^6.1.0:
-  version "6.7.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/query-string/-/query-string-6.7.0.tgz#7e92bf8525140cf8c5ebf500f26716b0de5b7023"
+  version "6.8.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/query-string/-/query-string-6.8.0.tgz#08be5c20ea6657150bacaa6bd9829cfa8e546dc2"
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
