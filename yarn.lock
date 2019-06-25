@@ -187,8 +187,8 @@
     to-fast-properties "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "2.2.1000118"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.2.1000118.tgz#282ead64b103f9f8a54e88350e98dd440bb8c1af"
+  version "2.2.1000119"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.2.1000119.tgz#b529d69249af6b24942c18fe7b3eda044faaa4c6"
   dependencies:
     "@folio/react-big-calendar" "^2.0.0"
     "@folio/react-intl-safe-html" "^1.0.2"
