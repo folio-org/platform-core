@@ -660,8 +660,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.23.1000699"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.23.1000699.tgz#ca9927f2a6bfbbb1628a3edd335b58d6175031ce"
+  version "2.23.1000703"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.23.1000703.tgz#07b8b299775d77222bf26aa6ca0281e17107d55c"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -7194,8 +7194,8 @@ opener@~1.4.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/opener/-/opener-1.4.3.tgz#5c6da2c5d7e5831e8ffa3964950f8d6674ac90b8"
 
 optimism@^0.9.0:
-  version "0.9.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/optimism/-/optimism-0.9.5.tgz#b8b5dc9150e97b79ddbf2d2c6c0e44de4d255527"
+  version "0.9.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/optimism/-/optimism-0.9.6.tgz#5621195486b294c3bfc518d17ac47767234b029f"
   dependencies:
     "@wry/context" "^0.4.0"
 
