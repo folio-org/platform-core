@@ -379,8 +379,8 @@
     react-router-dom "^4.1.1"
 
 "@folio/stripes-cli@^1.11.0":
-  version "1.12.1000191"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.12.1000191.tgz#efaa6daeccdf12106db5c804df54d7c1f700b21d"
+  version "1.12.1000192"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.12.1000192.tgz#dda3f3951a573ce290028b6124ccef62f9ac692f"
   dependencies:
     "@folio/stripes-core" "^2.17.1 || ^3.0.0"
     "@folio/stripes-testing" "^1.5.0"
