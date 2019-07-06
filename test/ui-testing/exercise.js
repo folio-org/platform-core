@@ -134,25 +134,23 @@ module.exports.test = (uiTestCtx) => {
       it(`should check out ${barcode}`, (done) => {
         nightmare
           .wait('#input-patron-identifier')
-          .type('#input-patron-identifier', userBarcode)
-          .wait(1000)
+          .insert('#input-patron-identifier', userBarcode)
           .wait('#clickable-find-patron')
           .click('#clickable-find-patron')
+          .wait('#clickable-done')
           .wait(() => {
             const err = document.querySelector('#patron-form div[class^="textfieldError"]');
-            const yay = document.querySelector('#patron-form ~ div a > strong');
+            // if (err) return false;
             if (err) {
               throw new Error(err.textContent);
-            } else if (yay) {
-              return true;
-            } else {
-              return false;
             }
+            return !!(document.querySelector('#patron-form ~ div a > strong'));
           })
           .wait('#input-item-barcode')
-          .type('#input-item-barcode', barcode)
+          .insert('#input-item-barcode', barcode)
           .wait('#clickable-add-item')
           .click('#clickable-add-item')
+          .wait('#list-items-checked-out')
           .wait(bc => {
             return !!(Array.from(document.querySelectorAll('#list-items-checked-out div[role="row"] div[role="gridcell"]'))
               .find(e => `${bc}` === e.textContent)); // `${}` forces string interpolation for numeric barcodes
