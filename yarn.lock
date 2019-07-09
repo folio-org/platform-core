@@ -112,15 +112,15 @@
     regenerator-runtime "^0.13.2"
 
 "@babel/runtime-corejs2@^7.0.0":
-  version "7.5.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime-corejs2/-/runtime-corejs2-7.5.2.tgz#e06518c2e7a5cdd029a175034eae23744169cdfc"
+  version "7.5.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime-corejs2/-/runtime-corejs2-7.5.3.tgz#b34668181df94e43d0e765e5de59b3f75eef7fc0"
   dependencies:
     core-js "^2.6.5"
     regenerator-runtime "^0.13.2"
 
 "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4":
-  version "7.5.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime/-/runtime-7.5.2.tgz#98f584f4d03be5d8142c77107ffaedee4d5956f1"
+  version "7.5.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime/-/runtime-7.5.3.tgz#ad06e9d28539426fc20869f0b3d9ed6c21bed909"
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -278,8 +278,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
-  version "1.11.1000526"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.11.1000526.tgz#b2b1eaf34fb6a2a790f5cc3e14209320d9e5d734"
+  version "1.11.1000527"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.11.1000527.tgz#3213ad3040f87474c4b09c8100fd3ca29891ad21"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -584,8 +584,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.7.2":
-  version "2.7.3000496"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.7.3000496.tgz#3fbd4063e77a99520e59431eedc2351ace7e3a5a"
+  version "2.7.3000497"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.7.3000497.tgz#488533b442296405fe83d484edb823f3d1255e2d"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.4.0"
@@ -650,8 +650,8 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "2.11.100027"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.11.100027.tgz#5b548642f0bf104e33e053754a5c04c33c907a4e"
+  version "2.11.100028"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.11.100028.tgz#4110551051404acd45b7239a7b3b8c998fe8879e"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
