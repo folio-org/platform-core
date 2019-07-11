@@ -552,8 +552,8 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.6.0":
-  version "3.6.1000569"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.6.1000569.tgz#c61b1f0386bb9274b1c97cca82cbc37591d8844b"
+  version "3.6.1000570"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.6.1000570.tgz#e39963bd11a0964a133afc57f611c94c4ebd006a"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.4.0"
