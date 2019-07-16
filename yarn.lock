@@ -1214,7 +1214,7 @@ ajv-keywords@^3.1.0:
   version "3.4.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/ajv-keywords/-/ajv-keywords-3.4.1.tgz#ef916e271c64ac12171fd8384eaae6b2345854da"
 
-ajv@^6.1.0, ajv@^6.5.5, ajv@^6.9.1:
+ajv@^6.1.0, ajv@^6.10.2, ajv@^6.5.5, ajv@^6.9.1:
   version "6.10.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/ajv/-/ajv-6.10.2.tgz#d3cea04d6b017b2894ad69040fec8b623eb4bd52"
   dependencies:
@@ -3834,6 +3834,10 @@ emoji-regex@^7.0.1:
   version "7.0.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/emoji-regex/-/emoji-regex-7.0.3.tgz#933a04052860c85e83c122479c4748a8e4c72156"
 
+emoji-regex@^8.0.0:
+  version "8.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
+
 emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
@@ -5605,6 +5609,10 @@ is-fullwidth-code-point@^2.0.0:
   version "2.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
 
+is-fullwidth-code-point@^3.0.0:
+  version "3.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
+
 is-function@^1.0.1:
   version "1.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/is-function/-/is-function-1.0.1.tgz#12cfb98b65b57dd3d193a3121f5f6e2f437602b5"
@@ -7227,8 +7235,8 @@ object.values@^1.1.0:
     has "^1.0.3"
 
 omggif@^1.0.9:
-  version "1.0.9"
-  resolved "https://repository.folio.org/repository/npm-ci-all/omggif/-/omggif-1.0.9.tgz#dcb7024dacd50c52b4d303f04802c91c057c765f"
+  version "1.0.10"
+  resolved "https://repository.folio.org/repository/npm-ci-all/omggif/-/omggif-1.0.10.tgz#ddaaf90d4a42f532e9e7cb3a95ecdd47f17c7b19"
 
 on-finished@~2.3.0:
   version "2.3.0"
@@ -9635,6 +9643,14 @@ string-width@^3.0.0, string-width@^3.1.0:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^5.1.0"
 
+string-width@^4.1.0:
+  version "4.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/string-width/-/string-width-4.1.0.tgz#ba846d1daa97c3c596155308063e075ed1c99aff"
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^5.2.0"
+
 string.prototype.trim@^1.1.2:
   version "1.1.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/string.prototype.trim/-/string.prototype.trim-1.1.2.tgz#d04de2c89e137f4d7d206f086b5ed2fae6be8cea"
@@ -9795,13 +9811,13 @@ symbol-observable@^1.0.2, symbol-observable@^1.0.3, symbol-observable@^1.0.4, sy
   resolved "https://repository.folio.org/repository/npm-ci-all/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
 
 table@^5.2.3:
-  version "5.4.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/table/-/table-5.4.1.tgz#0691ae2ebe8259858efb63e550b6d5f9300171e8"
+  version "5.4.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/table/-/table-5.4.2.tgz#e837706859a17b5a9a6352c6695d4c8534543b4d"
   dependencies:
-    ajv "^6.9.1"
-    lodash "^4.17.11"
+    ajv "^6.10.2"
+    lodash "^4.17.14"
     slice-ansi "^2.1.0"
-    string-width "^3.0.0"
+    string-width "^4.1.0"
 
 tai-password-strength@^1.1.1:
   version "1.1.1"
