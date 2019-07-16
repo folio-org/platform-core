@@ -4527,8 +4527,8 @@ fill-range@^4.0.0:
     to-regex-range "^2.1.0"
 
 final-form@^4.12.0:
-  version "4.18.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.18.1.tgz#760500b441f5d1de867fc229778281c73cd0193d"
+  version "4.18.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.18.2.tgz#3e7447ba36049a747d4becc61eb35e65a90f22a1"
   dependencies:
     "@babel/runtime" "^7.3.1"
 
@@ -9811,8 +9811,8 @@ symbol-observable@^1.0.2, symbol-observable@^1.0.3, symbol-observable@^1.0.4, sy
   resolved "https://repository.folio.org/repository/npm-ci-all/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
 
 table@^5.2.3:
-  version "5.4.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/table/-/table-5.4.2.tgz#e837706859a17b5a9a6352c6695d4c8534543b4d"
+  version "5.4.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/table/-/table-5.4.3.tgz#1f6a1377966ce70a33230d9457fb48ac173d216b"
   dependencies:
     ajv "^6.10.2"
     lodash "^4.17.14"
