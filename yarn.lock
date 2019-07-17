@@ -10460,8 +10460,8 @@ webpack-virtual-modules@^0.1.10:
     debug "^3.0.0"
 
 webpack@^4.0.0, webpack@^4.10.2:
-  version "4.35.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.35.3.tgz#66bc35ef215a7b75e8790f84d560013ffecf0ca3"
+  version "4.36.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.36.0.tgz#d49474e54acd6eed51c3aff70333cbd172f21101"
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"
