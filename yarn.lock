@@ -360,8 +360,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
-  version "1.11.1000536"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.11.1000536.tgz#3791bf108d02b3f34db85a223c709afa2b9aeab1"
+  version "1.11.1000539"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.11.1000539.tgz#6e597d1d3d47b810d4dab06f209716c30263b95f"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -507,8 +507,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.4.0", "@folio/stripes-components@~5.4.2":
-  version "5.4.2000833"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.4.2000833.tgz#f3fd03900b69fc35d815a1b005a58f63585b436d"
+  version "5.4.2000834"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.4.2000834.tgz#6b6dac1564003ec88d62951a6b53cb46f702e5cb"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -745,8 +745,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.23.4000720"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.23.4000720.tgz#7e20b9d9c8e9194725962d6765ea462599dba1cc"
+  version "2.23.4000721"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.23.4000721.tgz#094b87074fdda1d6630cdf63e0c23070fb3552c2"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
