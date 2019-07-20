@@ -374,8 +374,8 @@
     redux-form "^7.0.3"
 
 "@folio/myprofile@>=1.1.0":
-  version "1.6.100051"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-1.6.100051.tgz#8bad78e1f726b4f84b5ab7888a1082f8e0b357e8"
+  version "1.6.100052"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-1.6.100052.tgz#d23041e5ab36779034ecc8518f43eb1090edfc84"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     prop-types "^15.6.0"
