@@ -441,8 +441,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/search@>=1.3.0":
-  version "1.7.1000139"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-1.7.1000139.tgz#b74af3ce37a22386e6fad84db2b15b8919efb98e"
+  version "1.7.1000140"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-1.7.1000140.tgz#b81cadeb804f7aac39d51eba18f8bfc130ed907c"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
