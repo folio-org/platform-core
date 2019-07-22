@@ -2,7 +2,7 @@
 
 module.exports.test = function uiTest(uiTestCtx) {
   describe('New request ("new-request")', function modTest() {
-    const { config, helpers: { login, clickApp, clickSettings, createInventory, logout } } = uiTestCtx;
+    const { config, helpers: { login, clickApp, clickSettings, createInventory, setCirculationRules, checkout, logout } } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
 
     const servicePoint = 'Circ Desk 1';
@@ -29,28 +29,8 @@ module.exports.test = function uiTest(uiTestCtx) {
       });
 
       it('should configure default circulation rules', (done) => {
-        nightmare
-          .wait('a[href="/settings/circulation"]')
-          .click('a[href="/settings/circulation"]')
-          .wait('a[href="/settings/circulation/rules"]')
-          .click('a[href="/settings/circulation/rules"]')
-          .wait('#form-loan-rules')
-          .wait(1000)
-          .evaluate(() => {
-            const defaultRules = document.getElementsByClassName('CodeMirror')[0].CodeMirror.getValue();
-            const value = 'priority: t, s, c, b, a, m, g\nfallback-policy: l one-hour r hold-only n basic-notice-policy \nm book: l example-loan-policy r allow-all n alternate-notice-policy';
-            document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(value);
-            return defaultRules;
-          })
-          .then((rules) => {
-            nightmare
-              .wait('#clickable-save-loan-rules')
-              .click('#clickable-save-loan-rules')
-              .then(done)
-              .catch(done);
-            initialRules = rules;
-          })
-          .catch(done);
+        const newRules = 'priority: t, s, c, b, a, m, g\nfallback-policy: l one-hour r hold-only n basic-notice-policy \nm book: l example-loan-policy r allow-all n alternate-notice-policy';
+        initialRules = setCirculationRules(nightmare, done, newRules);
       });
 
       it('should navigate to users', (done) => {
@@ -106,31 +86,7 @@ module.exports.test = function uiTest(uiTestCtx) {
       });
 
       it('should check out newly created item', (done) => {
-        nightmare
-          .wait('#input-patron-identifier')
-          .type('#input-patron-identifier', userbc)
-          .wait('#clickable-find-patron')
-          .click('#clickable-find-patron')
-          .wait(() => {
-            const err = document.querySelector('#patron-form div[class^="textfieldError"]');
-            const yay = !!document.querySelector('#patron-form ~ div a > strong');
-            if (err) {
-              throw new Error(err.textContent);
-            } else {
-              return yay;
-            }
-          })
-          .wait('#input-item-barcode')
-          .insert('#input-item-barcode', itembc)
-          .wait('#clickable-add-item')
-          .click('#clickable-add-item')
-          .wait('#list-items-checked-out')
-          .wait('#clickable-done')
-          .click('#clickable-done')
-          .then(() => {
-            done();
-          })
-          .catch(done);
+        checkout(nightmare, done, itembc, userbc);
       });
 
       it('should navigate to requests', (done) => {
@@ -198,25 +154,7 @@ module.exports.test = function uiTest(uiTestCtx) {
       });
 
       it('should restore initial circulation rules', (done) => {
-        nightmare
-          .wait('a[href="/settings/circulation"]')
-          .click('a[href="/settings/circulation"]')
-          .wait('a[href="/settings/circulation/rules"]')
-          .click('a[href="/settings/circulation/rules"]')
-          .wait('#form-loan-rules')
-          .wait(1000)
-          .evaluate((r) => {
-            document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(r);
-            return r;
-          }, initialRules)
-          .then(() => {
-            nightmare
-              .wait('#clickable-save-loan-rules')
-              .click('#clickable-save-loan-rules')
-              .then(done)
-              .catch(done);
-          })
-          .catch(done);
+        setCirculationRules(nightmare, done, initialRules);
       });
     });
   });
