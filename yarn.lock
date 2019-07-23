@@ -320,8 +320,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/circulation@>=1.3.0":
-  version "1.8.1000302"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.8.1000302.tgz#bfb6ea19671f24789e91aef117babb1247b36cc8"
+  version "1.8.1000303"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.8.1000303.tgz#ccb2f77cbef0e752c5cf6e835d12acded1debd44"
   dependencies:
     html-to-react "^1.3.3"
     isomorphic-fetch "^2.2.1"
