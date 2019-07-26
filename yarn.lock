@@ -320,8 +320,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/circulation@>=1.3.0":
-  version "1.9.1000309"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.9.1000309.tgz#e039fec875418880fd3d81f17b9b925bee6e717a"
+  version "1.9.1000310"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.9.1000310.tgz#71948339b8ae1db05296c0191a9f9551e3582fff"
   dependencies:
     html-to-react "^1.3.3"
     isomorphic-fetch "^2.2.1"
@@ -360,8 +360,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
-  version "1.11.1000552"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.11.1000552.tgz#798155be78ff0e1858b50e6fdc1d4acd6863115b"
+  version "1.11.1000553"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.11.1000553.tgz#48aa067b580511aaddb1113b24769ff7f78d1773"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
