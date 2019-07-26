@@ -240,7 +240,12 @@ module.exports.test = (uiTestCtx) => {
 
           it('Apply the loan policy created as a circulation rule to material-type book', (done) => {
             const rules = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r ${requestPolicyName} n ${noticePolicyName} \nm book: l ${policyName} r ${requestPolicyName} n ${noticePolicyName}`;
-            loanRules = helpers.setCirculationRules(nightmare, done, rules);
+            helpers.setCirculationRules(nightmare, rules)
+              .then(oldRules => {
+                loanRules = oldRules;
+              })
+              .then(done)
+              .catch(done);
           });
         });
 
@@ -584,7 +589,9 @@ module.exports.test = (uiTestCtx) => {
           });
 
           it('should restore the circulation rules', (done) => {
-            helpers.setCirculationRules(nightmare, done, loanRules);
+            helpers.setCirculationRules(nightmare, loanRules)
+              .then(() => done())
+              .catch(done);
           });
         });
 
