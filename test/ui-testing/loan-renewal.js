@@ -32,6 +32,7 @@ module.exports.test = (uiTestCtx) => {
 
     const renewalLimit = 1;
     const loanPeriod = 2;
+
     // note the format MUST match that expected by the locale
     // otherwise the fixed-due-date-schedule dates will not register
     const nextMonthValue = moment()
@@ -238,29 +239,9 @@ module.exports.test = (uiTestCtx) => {
           });
 
           it('Apply the loan policy created as a circulation rule to material-type book', (done) => {
-            nightmare
-              .wait('#form-loan-rules')
-              .wait('.CodeMirror')
-              .evaluate((policy, requestPolicy, noticePolicy) => {
-                const defaultRules = document.getElementsByClassName('CodeMirror')[0].CodeMirror.getValue();
-                const value = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r ${requestPolicy} n ${noticePolicy} \nm book: l ${policy} r ${requestPolicy} n ${noticePolicy}`;
-                document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(value);
-                return defaultRules;
-              }, policyName, requestPolicyName, noticePolicyName)
-              .then((defaultRules) => {
-                nightmare
-                  .wait('#clickable-save-loan-rules')
-                  .click('#clickable-save-loan-rules')
-                  .wait(() => {
-                    return Array.from(
-                      document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
-                    ).findIndex(e => e.textContent === 'Rules were successfully updated.') >= 0;
-                  })
-                  .then(done)
-                  .catch(done);
-                loanRules = defaultRules;
-              })
-              .catch(done);
+            const rules = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r ${requestPolicyName} n ${noticePolicyName} \nm book: l ${policyName} r ${requestPolicyName} n ${noticePolicyName}`;
+            loanRules = helpers.setCirculationRules(nightmare, done, rules);
+            console.log('captured original rules: ', loanRules);
           });
         });
 
@@ -284,8 +265,8 @@ module.exports.test = (uiTestCtx) => {
               .evaluate(selector => document.querySelector(selector).textContent, uselector)
               .then((result) => {
                 done();
+                console.log(`\t    Found user ${result}`);
                 userid = result;
-                console.log(`\tFound user ${userid}`);
               })
               .catch(done);
           });
@@ -307,49 +288,7 @@ module.exports.test = (uiTestCtx) => {
           });
 
           it(`should check out ${barcode} to ${userid}`, (done) => {
-            nightmare
-              .wait('#input-patron-identifier')
-              .type('#input-patron-identifier', userid)
-              .wait(111)
-              .wait('#clickable-find-patron')
-              .click('#clickable-find-patron')
-              .wait(() => {
-                const err = document.querySelector('#patron-form div[class^="textfieldError"]');
-                const yay = document.querySelector('#patron-form ~ div a > strong');
-                if (err) {
-                  throw new Error(err.textContent);
-                } else if (yay) {
-                  return true;
-                } else {
-                  return false;
-                }
-              })
-              .wait(222)
-              .wait('#input-item-barcode')
-              .insert('#input-item-barcode', barcode)
-              .wait(222)
-              .wait('#clickable-add-item')
-              .click('#clickable-add-item')
-              .evaluate(() => {
-                const sel = document.querySelector('div[class^="textfieldError"]');
-                if (sel) {
-                  throw new Error(sel.textContent);
-                }
-              })
-              .then(() => {
-                nightmare
-                  .wait('#section-item button')
-                  .click('#section-item button')
-                  .wait('#list-items-checked-out')
-                  .wait((bc) => {
-                    return Array.from(
-                      document.querySelectorAll('#list-items-checked-out div[role="gridcell"]')
-                    ).findIndex(e => e.textContent === `${bc}`) >= 0;
-                  }, barcode)
-                  .then(done)
-                  .catch(done);
-              })
-              .catch(done);
+            helpers.checkout(nightmare, done, barcode, userid);
           });
         });
 
@@ -509,8 +448,6 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Create fixed due date schedule', () => {
-
-
           it('should navigate to settings', (done) => {
             helpers.clickSettings(nightmare, done);
           });
@@ -648,24 +585,8 @@ module.exports.test = (uiTestCtx) => {
           });
 
           it('should restore the circulation rules', (done) => {
-            nightmare
-              .wait('a[href="/settings/circulation"]')
-              .click('a[href="/settings/circulation"]')
-              .wait('a[href="/settings/circulation/rules"]')
-              .click('a[href="/settings/circulation/rules"]')
-              .wait('#form-loan-rules')
-              .wait(1000)
-              .evaluate((lr) => {
-                document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(lr);
-              }, loanRules)
-              .then(() => {
-                nightmare
-                  .wait('#clickable-save-loan-rules')
-                  .click('#clickable-save-loan-rules')
-                  .then(done)
-                  .catch(done);
-              })
-              .catch(done);
+            console.log('restoring loan rules: ', loanRules);
+            helpers.setCirculationRules(nightmare, done, loanRules);
           });
         });
 
