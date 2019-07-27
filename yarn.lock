@@ -8412,8 +8412,8 @@ react-highlighter@^0.4.2:
     prop-types "^15.6.0"
 
 react-hot-loader@^4.3.10, react-hot-loader@^4.3.12:
-  version "4.12.9"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-hot-loader/-/react-hot-loader-4.12.9.tgz#cb2a85731ca38366b0e9e28e7fd1dbd7dcacc1ef"
+  version "4.12.10"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-hot-loader/-/react-hot-loader-4.12.10.tgz#b3457c0f733423c4827c6d2672e50c9f8bedaf6b"
   dependencies:
     fast-levenshtein "^2.0.6"
     global "^4.3.0"
