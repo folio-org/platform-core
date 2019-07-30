@@ -43,8 +43,8 @@ module.exports.test = (uiTestCtx) => {
 
       it('should filter results and find 0 results', (done) => {
         nightmare
-          .wait('#clickable-filter-location-Annex')
-          .click('#clickable-filter-location-Annex')
+          .wait('#clickable-filter-location-annex')
+          .click('#clickable-filter-location-annex')
           .wait(() => {
             return !(document.querySelector('#list-search'));
           })
@@ -58,8 +58,8 @@ module.exports.test = (uiTestCtx) => {
       //
       it('should remove filter results and find results', (done) => {
         nightmare
-          .wait('#clickable-filter-location-Annex')
-          .click('#clickable-filter-location-Annex')
+          .wait('#clickable-filter-location-annex')
+          .click('#clickable-filter-location-annex')
           .wait('#list-search:not([data-total-count="0"])')
           .evaluate(() => {
             return document.querySelector('#list-search').getAttribute('data-total-count');
