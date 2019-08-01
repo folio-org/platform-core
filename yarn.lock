@@ -200,7 +200,7 @@
     core-js "^2.6.5"
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5":
   version "7.5.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
   dependencies:
@@ -643,6 +643,22 @@
     webpack-hot-middleware "^2.22.2"
     webpack-virtual-modules "^0.1.10"
 
+"@folio/stripes-final-form@~1.0.0":
+  version "1.0.10008"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-1.0.10008.tgz#fe172d89b6296177e038d775310450ba5a237942"
+  dependencies:
+    "@folio/stripes-components" "~5.5.0"
+    "@folio/stripes-core" "~3.7.0"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.1"
+    final-form-focus "^1.1.2"
+    flat "^4.0.0"
+    prop-types "^15.5.10"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+    react-intl "^2.4.0"
+    react-router "^4.1.1"
+
 "@folio/stripes-form@~2.7.0":
   version "2.7.100062"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-2.7.100062.tgz#80e8532be46f4543766f9ea83ed9bdc73b14c8a7"
@@ -712,12 +728,13 @@
     react-intl "^2.4.0"
 
 "@folio/stripes@^2.0.0":
-  version "2.8.100050"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-2.8.100050.tgz#1ea8191676cb9ac80cd2cbbb85031c8693125529"
+  version "2.9.100051"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-2.9.100051.tgz#af468576e396ebdd64f2b3acba1a51ca0c274ac7"
   dependencies:
     "@folio/stripes-components" "~5.5.0"
     "@folio/stripes-connect" "~5.3.0"
     "@folio/stripes-core" "~3.7.0"
+    "@folio/stripes-final-form" "~1.0.0"
     "@folio/stripes-form" "~2.7.0"
     "@folio/stripes-logger" "~1.0.0"
     "@folio/stripes-smart-components" "~2.8.0"
@@ -3795,8 +3812,8 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.191, electron-to-chromium@^1.3.47:
-  version "1.3.209"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.209.tgz#cd43879f1d3fb85c75bb843fb11a828570fa1ce4"
+  version "1.3.210"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.210.tgz#0ce6247366c5771d4f5663a5879388fd1adefb7e"
 
 electron@^2.0.18:
   version "2.0.18"
@@ -4513,7 +4530,15 @@ fill-range@^4.0.0:
     repeat-string "^1.6.1"
     to-regex-range "^2.1.0"
 
-final-form@^4.12.0:
+final-form-arrays@^3.0.1:
+  version "3.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/final-form-arrays/-/final-form-arrays-3.0.1.tgz#862e5e946d391039ebcdfadbe55fc3a63849e559"
+
+final-form-focus@^1.1.2:
+  version "1.1.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/final-form-focus/-/final-form-focus-1.1.2.tgz#8ea5c4bd802e220cebaa47a587bb0be164eb6806"
+
+final-form@^4.12.0, final-form@^4.18.2:
   version "4.18.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.18.2.tgz#3e7447ba36049a747d4becc61eb35e65a90f22a1"
   dependencies:
@@ -8382,11 +8407,24 @@ react-dom@^16.8.6, react-dom@~16.8.6:
     prop-types "^15.6.2"
     scheduler "^0.13.6"
 
+react-final-form-arrays@^3.1.0:
+  version "3.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form-arrays/-/react-final-form-arrays-3.1.0.tgz#8ebaab391a665e7e17e463b88cdf3b1078e3f4f0"
+  dependencies:
+    "@babel/runtime" "^7.4.5"
+
 react-final-form@^4.1.0:
   version "4.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form/-/react-final-form-4.1.0.tgz#4e1b513de164771b2b824f3fb9c0548014255971"
   dependencies:
     "@babel/runtime" "^7.3.4"
+
+react-final-form@^6.3.0:
+  version "6.3.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form/-/react-final-form-6.3.0.tgz#b85ae123a3796b3e0c8f56033c8a5037f4497e76"
+  dependencies:
+    "@babel/runtime" "^7.4.5"
+    ts-essentials "^2.0.8"
 
 react-flexbox-grid@1.1.3:
   version "1.1.3"
@@ -10009,6 +10047,10 @@ trim-right@^1.0.1:
 tryer@^1.0.1:
   version "1.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
+
+ts-essentials@^2.0.8:
+  version "2.0.12"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ts-essentials/-/ts-essentials-2.0.12.tgz#c9303f3d74f75fa7528c3d49b80e089ab09d8745"
 
 ts-invariant@^0.4.0, ts-invariant@^0.4.2:
   version "0.4.4"
