@@ -507,8 +507,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.5.0":
-  version "5.5.1000843"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.5.1000843.tgz#4808608a9f58b6c64a886f4e4daae84577c38208"
+  version "5.5.1000844"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.5.1000844.tgz#3fd14fdbeb108da19e74c3f6200599e6251b2412"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
