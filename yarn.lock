@@ -320,8 +320,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/circulation@>=1.3.0":
-  version "1.9.1000316"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.9.1000316.tgz#17e5698eec58ce39bbc8b39ada4314ae2277da46"
+  version "1.9.1000318"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.9.1000318.tgz#9289557c5e4635837e06d6ce35c3323b0ce40b85"
   dependencies:
     html-to-react "^1.3.3"
     isomorphic-fetch "^2.2.1"
@@ -427,8 +427,8 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.11.1000319"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.11.1000319.tgz#bfe22b3dd677b59914ea31f4346183304c9bd69d"
+  version "1.11.1000320"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.11.1000320.tgz#b7e0133a80cae64b6279aa3a52cf54a1a7ac8d0e"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     isomorphic-fetch "^2.2.1"
