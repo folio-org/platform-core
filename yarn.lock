@@ -10119,8 +10119,8 @@ type-is@~1.6.17, type-is@~1.6.18:
     mime-types "~2.1.24"
 
 type@^1.0.1:
-  version "1.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/type/-/type-1.0.1.tgz#084c9a17fcc9151a2cdb1459905c2e45e4bb7d61"
+  version "1.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/type/-/type-1.0.2.tgz#fbcf8c758cc147da3c254c7091fa4d56f8e59a6d"
 
 typedarray@^0.0.6:
   version "0.0.6"
