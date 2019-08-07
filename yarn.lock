@@ -303,8 +303,8 @@
     redux-form "^7.0.3"
 
 "@folio/checkout@>=1.3.0":
-  version "1.10.1000304"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.10.1000304.tgz#2a3a88d314a5472cf673c2ef63f8dc3a4af9e5ab"
+  version "1.10.1000305"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.10.1000305.tgz#0fcfb72820425a3d6f8dc721ce15d5dcb563b84e"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
@@ -360,8 +360,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
-  version "1.12.1000567"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.12.1000567.tgz#30ead2125e44ce350fda7472b190b1a9a201d15a"
+  version "1.12.1000568"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.12.1000568.tgz#7333d81f107d4bd036655d92d25f6c1fdd5067ad"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -444,8 +444,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/search@>=1.3.0":
-  version "1.8.1000142"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-1.8.1000142.tgz#37bf5d94ca30f3bcb6c1bb955c5d45f4935ca2d9"
+  version "1.8.1000143"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-1.8.1000143.tgz#0c23c2e726467d9718ee99fd370ebabba19762be"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
@@ -512,8 +512,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.5.0":
-  version "5.5.1000851"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.5.1000851.tgz#2496a7591a6bc1135af9728ba6b046eb325b92ee"
+  version "5.5.1000852"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.5.1000852.tgz#80ba8c2efcb0e8a43adb7cd9070e24712b059101"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -690,8 +690,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.8.0":
-  version "2.8.1000515"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.8.1000515.tgz#bf28ebba304f013aa28186cecbbdf29bb8df4394"
+  version "2.8.1000516"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.8.1000516.tgz#0f8c43d18f904f6f6da20403ead4b729ed48ff45"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.5.0"
