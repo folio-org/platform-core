@@ -770,8 +770,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.24.1000740"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.24.1000740.tgz#4c88d0b89f9d2a1fa21d159861f50e367b25fd32"
+  version "2.24.1000741"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.24.1000741.tgz#d69fb9d55398ba69ac51fefe5ca4b9f7eee924fe"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -782,6 +782,7 @@
     react-hot-loader "^4.3.12"
     react-intl "^2.5.0"
     react-router-dom "^4.0.0"
+    react-router-prop-types "^1.0.4"
     redux-form "^7.0.3"
     uuid "^3.0.1"
   optionalDependencies:
@@ -1035,8 +1036,8 @@
     parchment "^1.1.2"
 
 "@types/react@*":
-  version "16.9.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.0.tgz#27434f16d889a335eb4626d1f1e67eda54039e5b"
+  version "16.9.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.1.tgz#862c83b4c9d5cd116e42fd9a4f3694843cd2c051"
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -5799,6 +5800,10 @@ is-wsl@^1.1.0:
   version "1.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
 
+is-wsl@^2.1.0:
+  version "2.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/is-wsl/-/is-wsl-2.1.0.tgz#94369bbeb2249ef07b831b1b08590e686330ccbb"
+
 isarray@0.0.1:
   version "0.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
@@ -6188,8 +6193,10 @@ karma-coverage-istanbul-reporter@^2.0.3:
     minimatch "^3.0.4"
 
 karma-firefox-launcher@^1.1.0:
-  version "1.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/karma-firefox-launcher/-/karma-firefox-launcher-1.1.0.tgz#2c47030452f04531eb7d13d4fc7669630bb93339"
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/karma-firefox-launcher/-/karma-firefox-launcher-1.2.0.tgz#64fe03dd10300f9754d48f9ebfbf31f6c94a200c"
+  dependencies:
+    is-wsl "^2.1.0"
 
 karma-junit-reporter@^1.2.0:
   version "1.2.0"
