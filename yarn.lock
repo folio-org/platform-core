@@ -770,8 +770,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.24.1000738"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.24.1000738.tgz#644932b5e68665c22b017cadf7b9456e0afefcb8"
+  version "2.24.1000740"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.24.1000740.tgz#4c88d0b89f9d2a1fa21d159861f50e367b25fd32"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
