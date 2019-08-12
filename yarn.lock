@@ -512,8 +512,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.6.0":
-  version "5.6.1000855"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.6.1000855.tgz#fe7a28d455c4188b8a43578daf28528c500259fa"
+  version "5.6.1000856"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.6.1000856.tgz#9bfbcf24e05c9c246bd5591b4c0ab56a37c75966"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -714,8 +714,8 @@
     redux-form "^7.0.3"
 
 "@folio/stripes-testing@^1.6.0":
-  version "1.6.100035"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-1.6.100035.tgz#972010c4954b6410c2d8ed286485fcc06e8674d0"
+  version "1.6.100036"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-1.6.100036.tgz#587fd0d5b72cbeb06840aa6e03974e84975af04e"
   dependencies:
     debug "^4.0.1"
     minimist "^1.2.0"
@@ -9252,8 +9252,8 @@ semver-diff@^2.0.0:
     semver "^5.0.3"
 
 "semver@2 || 3 || 4 || 5", semver@^5.0.3, semver@^5.1.0, semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
-  version "5.7.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/semver/-/semver-5.7.0.tgz#790a7cf6fea5459bac96110b29b60412dc8ff96b"
+  version "5.7.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
 
 semver@^6.0.0:
   version "6.3.0"
