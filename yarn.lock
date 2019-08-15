@@ -8502,8 +8502,8 @@ react-dom@~16.8.6:
     scheduler "^0.13.6"
 
 react-final-form-arrays@^3.1.0:
-  version "3.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form-arrays/-/react-final-form-arrays-3.1.0.tgz#8ebaab391a665e7e17e463b88cdf3b1078e3f4f0"
+  version "3.1.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form-arrays/-/react-final-form-arrays-3.1.1.tgz#39d23e7ede966e418cad209e8fde46da1d603e99"
   dependencies:
     "@babel/runtime" "^7.4.5"
 
