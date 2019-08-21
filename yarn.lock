@@ -733,8 +733,8 @@
     react-intl "^2.4.0"
 
 "@folio/stripes@^2.0.0":
-  version "2.9.100052"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-2.9.100052.tgz#12f5ae586a17fcbc1de8f82a423c9419194cd590"
+  version "2.9.100053"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-2.9.100053.tgz#85f1fe59d297d37bb6d55a644112cb2d0bdfc462"
   dependencies:
     "@folio/stripes-components" "~5.6.0"
     "@folio/stripes-connect" "~5.3.0"
