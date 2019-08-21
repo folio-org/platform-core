@@ -514,8 +514,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.6.0":
-  version "5.6.1000859"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.6.1000859.tgz#78bebb1faa94aa29aa40b0b3c7efef37a8c1c2b6"
+  version "5.6.1000861"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.6.1000861.tgz#81479f3ddc2b9319ab75a9351bc109380f8875a9"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -2778,8 +2778,8 @@ check-types@^8.0.3:
   resolved "https://repository.folio.org/repository/npm-ci-all/check-types/-/check-types-8.0.3.tgz#3356cca19c889544f2d7a95ed49ce508a0ecf552"
 
 chokidar@^2.0.2, chokidar@^2.0.3:
-  version "2.1.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/chokidar/-/chokidar-2.1.6.tgz#b6cad653a929e244ce8a834244164d241fa954c5"
+  version "2.1.8"
+  resolved "https://repository.folio.org/repository/npm-ci-all/chokidar/-/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
   dependencies:
     anymatch "^2.0.0"
     async-each "^1.0.1"
