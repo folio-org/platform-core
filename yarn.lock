@@ -4675,10 +4675,10 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.8.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/follow-redirects/-/follow-redirects-1.8.0.tgz#dcf34930bcfdb6c1eb22b8eb7c457ec95a3dcf40"
+  version "1.8.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/follow-redirects/-/follow-redirects-1.8.1.tgz#24804f9eaab67160b0e840c085885d606371a35b"
   dependencies:
-    debug "^4.1.1"
+    debug "^3.0.0"
 
 for-each@^0.3.3:
   version "0.3.3"
@@ -8663,8 +8663,8 @@ react-titled@^1.0.0:
     react-test-renderer "^16.3.1"
 
 react-to-print@^2.3.2:
-  version "2.3.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-to-print/-/react-to-print-2.3.2.tgz#7690bd50c5286c4e5a3010bf48adc14c4e1a5926"
+  version "2.4.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-to-print/-/react-to-print-2.4.0.tgz#8f33c9627536501035fc7557d3ad0272df1bcb6b"
   dependencies:
     prop-types "^15.7.2"
 
