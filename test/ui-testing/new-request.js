@@ -43,11 +43,11 @@ module.exports.test = function uiTest(uiTestCtx) {
       });
 
       it('should find an active user barcode for checkout', (done) => {
-        const listitem = '#list-users div[role="row"]:nth-of-type(2) > a div:nth-child(3)';
+        const listitem = '#list-users [data-row-index]:nth-of-type(2) [role=gridcell]:nth-of-type(3)';
         nightmare
           .wait('#clickable-filter-active-active')
           .click('#clickable-filter-active-active')
-          .wait('#list-users:not([data-total-count="0"])')
+          .wait('#list-users[data-total-count]')
           .evaluate(() => {
             return document.querySelector('#list-users').getAttribute('data-total-count');
           })
@@ -71,7 +71,7 @@ module.exports.test = function uiTest(uiTestCtx) {
       });
 
       it('should find an active user barcode for request', (done) => {
-        const listitem = '#list-users div[role="row"]:nth-of-type(3) > a div:nth-child(3)';
+        const listitem = '#list-users [data-row-index]:nth-of-type(3) [role=gridcell]:nth-of-type(3)';
         nightmare
           .evaluate((bcode) => {
             return document.querySelector(bcode).textContent;
