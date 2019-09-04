@@ -71,7 +71,7 @@ module.exports.test = function uiTest(uiTestCtx) {
       });
 
       it('should find an active user barcode for request', (done) => {
-        const listitem = '#list-users [data-row-index]:nth-of-type(3) [role=gridcell]:nth-of-type(3)';
+        const listitem = '#list-users [aria-rowIndex="5"] [role=gridcell]:nth-of-type(3)';
         nightmare
           .evaluate((bcode) => {
             return document.querySelector(bcode).textContent;
