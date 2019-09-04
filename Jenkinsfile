@@ -119,8 +119,8 @@ pipeline {
                                 secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
 
                 def s3Opts = [ s3Bucket: "${env.folioPlatform}-${env.CHANGE_ID}",
-                           s3Tags: "Key=Pr,Value=${env.folioPlatform}-${env.CHANGE_ID}",
-                           srcPath: "${env.WORKSPACE}/output"
+                               s3Tags: "Key=Pr,Value=${env.folioPlatform}-${env.CHANGE_ID}",
+                               srcPath: "${env.WORKSPACE}/output" ]
                    
                 def s3Endpoint = s3Upload(s3Opts)
                 env.folioUrl = s3Endpoint + '/index.html'
