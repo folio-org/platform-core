@@ -43,7 +43,7 @@ module.exports.test = function uiTest(uiTestCtx) {
       });
 
       it('should find an active user barcode for checkout', (done) => {
-        const listitem = '#list-users [data-row-index]:nth-of-type(2) [role=gridcell]:nth-of-type(3)';
+        const listitem = '#list-users [aria-rowindex="4"] [role=gridcell]:nth-of-type(3)';
         nightmare
           .wait('#clickable-filter-active-active')
           .click('#clickable-filter-active-active')
