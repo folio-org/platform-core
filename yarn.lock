@@ -324,8 +324,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/circulation@>=1.3.0":
-  version "1.9.1000338"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.9.1000338.tgz#5134d0c3d84cf888b60b6955254c1f8d0140605c"
+  version "1.9.1000339"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.9.1000339.tgz#12cdd94dffdeace4aa47666cd7c6c0e134fda33b"
   dependencies:
     html-to-react "^1.3.3"
     isomorphic-fetch "^2.2.1"
@@ -363,7 +363,7 @@
     eslint-plugin-react "7.11.0"
     webpack "^4.0.0"
 
-"@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
+"@folio/inventory@>=1.4.0":
   version "1.12.1000589"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.12.1000589.tgz#6807aed72c5eee5726d869810a1e2cdaaa5e4adb"
   dependencies:
@@ -393,12 +393,13 @@
     redux-form "^7.0.3"
 
 "@folio/plugin-find-instance@>=1.1.0":
-  version "1.4.100024"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-1.4.100024.tgz#0203f41cbc2d132710315fbfef69cf97fd3720ab"
+  version "1.4.100025"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-1.4.100025.tgz#c30735e9dc396954599974c4bc602c275a663067"
   dependencies:
-    "@folio/inventory" "^1.4.0"
-    classnames "^2.2.5"
+    classnames "^2.2.6"
+    lodash "^4.17.11"
     prop-types "^15.6.0"
+    react-intl "^2.8.0"
 
 "@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@^1.1.0":
   version "1.8.100071"
