@@ -393,8 +393,8 @@
     redux-form "^7.0.3"
 
 "@folio/plugin-find-instance@>=1.1.0":
-  version "1.4.100026"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-1.4.100026.tgz#e88865882b6c12434b0292edd446978c9e2bc483"
+  version "1.5.100027"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-1.5.100027.tgz#ece36da01585a85346b839a5cc105d61e1833823"
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
