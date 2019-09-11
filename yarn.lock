@@ -462,8 +462,8 @@
     react-router-dom "^4.0.0"
 
 "@folio/servicepoints@>=1.1.0":
-  version "1.4.100048"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-1.4.100048.tgz#d1f84acdd396cbd160f89ccaf80f039821c1e0c4"
+  version "1.4.100049"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-1.4.100049.tgz#0677a7fb6237bc7d3cc5e82ddeae2e3185ad7343"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     lodash "^4.17.4"
