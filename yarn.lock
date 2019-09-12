@@ -8097,8 +8097,8 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.5:
     supports-color "^6.1.0"
 
 prebuild-install@^5.3.0:
-  version "5.3.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/prebuild-install/-/prebuild-install-5.3.1.tgz#7d220b978e03b0e067e0d8cffd13e84b3515131d"
+  version "5.3.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/prebuild-install/-/prebuild-install-5.3.2.tgz#6392e9541ac0b879ef0f22b3d65037417eb2035e"
   dependencies:
     detect-libc "^1.0.3"
     expand-template "^2.0.3"
