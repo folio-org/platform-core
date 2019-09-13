@@ -519,8 +519,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.7.0", "@folio/stripes-components@~5.7.1":
-  version "5.7.1000870"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.7.1000870.tgz#1e182a499790254bcd596c0086d5db6bdfa62445"
+  version "5.7.1000871"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.7.1000871.tgz#615cc6ddaee30caa6eb07f220ba9beb442c8831e"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -10570,8 +10570,8 @@ webpack-virtual-modules@^0.1.10:
     debug "^3.0.0"
 
 webpack@^4.0.0, webpack@^4.10.2:
-  version "4.40.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.40.1.tgz#26ec01fc9ee7ea5ab5ec1d4ab95cb185ac20c116"
+  version "4.40.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.40.2.tgz#d21433d250f900bf0facbabe8f50d585b2dc30a7"
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"
