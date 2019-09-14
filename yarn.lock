@@ -430,8 +430,8 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.12.1000337"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.12.1000337.tgz#2b9c828ccedb49e0132e8c4a2a19e22fc9a6b7f0"
+  version "1.12.1000338"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.12.1000338.tgz#f5576294d22259d44774cc43f30a180ed5dd815b"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     isomorphic-fetch "^2.2.1"
@@ -772,8 +772,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.25.1000771"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.25.1000771.tgz#a81c2a68b1b47c213c9a9f970ae39244d5010090"
+  version "2.25.1000772"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.25.1000772.tgz#cec64689f575aa472dde86fa722294804340fb72"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
