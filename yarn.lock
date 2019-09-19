@@ -268,9 +268,9 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@folio/calendar@2.4.0":
-  version "2.4.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/calendar/-/calendar-2.4.0.tgz#05745117e4437367320edf517dc8608385056754"
+"@folio/calendar@2.5.0":
+  version "2.5.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/calendar/-/calendar-2.5.0.tgz#15ae048cb62b531d725640f34c561e05587d6c0f"
   dependencies:
     "@folio/react-big-calendar" "^2.0.0"
     "@folio/react-intl-safe-html" "^1.0.2"
@@ -335,9 +335,9 @@
     react-to-print "^2.3.2"
     redux-form "^7.0.3"
 
-"@folio/developer@1.10.0":
-  version "1.10.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/developer/-/developer-1.10.0.tgz#a4045ef5338e5516ffc8e4222ccd93eb48ffc7f1"
+"@folio/developer@1.10.1":
+  version "1.10.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/developer/-/developer-1.10.1.tgz#f31689484e0d16b212f10a8bb62ea3e4d7bc665e"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -359,21 +359,7 @@
     eslint-plugin-react "7.11.0"
     webpack "^4.0.0"
 
-"@folio/inventory@1.11.1":
-  version "1.11.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.11.1.tgz#3ed2bfa56c56af5d1ceebcbe5f6b612ae5ef9701"
-  dependencies:
-    "@folio/react-intl-safe-html" "^1.0.2"
-    lodash "^4.17.4"
-    prop-types "^15.5.10"
-    query-string "^5.0.0"
-    react-hot-loader "^4.3.12"
-    react-intl "^2.3.0"
-    react-router "^4.0.0"
-    react-router-dom "^4.0.0"
-    redux-form "^7.0.3"
-
-"@folio/inventory@^1.4.0":
+"@folio/inventory@1.12.0":
   version "1.12.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.12.0.tgz#1de1657df154986bebaa7539fc3fe81f19c32cc5"
   dependencies:
@@ -402,24 +388,16 @@
     react-router-dom "^4.1.1"
     redux-form "^7.0.3"
 
-"@folio/plugin-find-instance@1.4.0":
-  version "1.4.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-instance/-/plugin-find-instance-1.4.0.tgz#94f84ee34eacaa1981a7573dc117214164155015"
+"@folio/plugin-find-instance@1.5.0":
+  version "1.5.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-instance/-/plugin-find-instance-1.5.0.tgz#bc8c6ca6bbf27c8d0df1c398c8a84058eb593632"
   dependencies:
-    "@folio/inventory" "^1.4.0"
-    classnames "^2.2.5"
+    classnames "^2.2.6"
+    lodash "^4.17.11"
     prop-types "^15.6.0"
+    react-intl "^2.8.0"
 
-"@folio/plugin-find-user@1.8.0":
-  version "1.8.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.8.0.tgz#16ce7cca2fbaa5bc5f17a0576e02269d4febac19"
-  dependencies:
-    classnames "^2.2.5"
-    dom-helpers "^3.4.0"
-    lodash "^4.17.4"
-    prop-types "^15.6.0"
-
-"@folio/plugin-find-user@^1.1.0":
+"@folio/plugin-find-user@1.9.0", "@folio/plugin-find-user@^1.1.0":
   version "1.9.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.9.0.tgz#ce741d4698615cb605ee9003100bfea0652d5fe9"
   dependencies:
@@ -451,9 +429,9 @@
   dependencies:
     sanitize-html "1.18.2"
 
-"@folio/requests@1.11.0":
-  version "1.11.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/requests/-/requests-1.11.0.tgz#48f05dddb2af4c09f014bec1d9b82d9d83bffaa7"
+"@folio/requests@1.12.0":
+  version "1.12.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/requests/-/requests-1.12.0.tgz#ba43c2f4a00af221648c02faf650e750d899f06f"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     isomorphic-fetch "^2.2.1"
@@ -468,9 +446,9 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^1.1.0"
 
-"@folio/search@1.8.0":
-  version "1.8.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/search/-/search-1.8.0.tgz#e728d0019d6505fe9a1d21249a098d14a2f2e7a6"
+"@folio/search@1.9.0":
+  version "1.9.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/search/-/search-1.9.0.tgz#4a6823431566cecd91123dbfcbffaa524abd0fe0"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
@@ -479,9 +457,9 @@
     react-router "^4.2.0"
     react-router-dom "^4.0.0"
 
-"@folio/servicepoints@1.4.0":
-  version "1.4.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/servicepoints/-/servicepoints-1.4.0.tgz#ed4abb7ab63c3d5fc334ea91c65f26b162564939"
+"@folio/servicepoints@1.4.1":
+  version "1.4.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/servicepoints/-/servicepoints-1.4.1.tgz#de777663ac092dafbafe02120f3bfd1aa7440bfd"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     lodash "^4.17.4"
