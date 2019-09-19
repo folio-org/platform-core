@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-17.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-2.4.0",
+  "id" : "folio_calendar-2.5.0",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-9.3.0",
@@ -47,7 +47,7 @@
   "id" : "folio_circulation-1.11.0",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-1.10.0",
+  "id" : "folio_developer-1.10.1",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-2.6.0",
@@ -56,28 +56,28 @@
   "id" : "mod-inventory-13.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-1.11.1",
+  "id" : "folio_inventory-1.12.0",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-1.7.0",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-1.4.0",
+  "id" : "folio_plugin-find-instance-1.5.0",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-1.8.0",
+  "id" : "folio_plugin-find-user-1.9.0",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-1.11.0",
+  "id" : "folio_requests-1.12.0",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.6.0",
   "action" : "enable"
 }, {
-  "id" : "folio_search-1.8.0",
+  "id" : "folio_search-1.9.0",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-1.4.0",
+  "id" : "folio_servicepoints-1.4.1",
   "action" : "enable"
 }, {
   "id" : "mod-permissions-5.8.1",
