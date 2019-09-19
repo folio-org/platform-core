@@ -22,7 +22,7 @@
     "@folio/checkin": "1.9.0",
     "@folio/checkout": "1.10.0",
     "@folio/circulation": "1.11.0",
-    "@folio/developer": "1.10.0",
+    "@folio/developer": "1.10.1",
     "@folio/inventory": "1.11.1",
     "@folio/myprofile": "1.7.0",
     "@folio/plugin-find-instance": "1.4.0",
