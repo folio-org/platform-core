@@ -410,16 +410,7 @@
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-user@1.8.0":
-  version "1.8.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.8.0.tgz#16ce7cca2fbaa5bc5f17a0576e02269d4febac19"
-  dependencies:
-    classnames "^2.2.5"
-    dom-helpers "^3.4.0"
-    lodash "^4.17.4"
-    prop-types "^15.6.0"
-
-"@folio/plugin-find-user@^1.1.0":
+"@folio/plugin-find-user@1.9.0", "@folio/plugin-find-user@^1.1.0":
   version "1.9.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.9.0.tgz#ce741d4698615cb605ee9003100bfea0652d5fe9"
   dependencies:

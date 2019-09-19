@@ -65,7 +65,7 @@
   "id" : "folio_plugin-find-instance-1.4.0",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-1.8.0",
+  "id" : "folio_plugin-find-user-1.9.0",
   "action" : "enable"
 }, {
   "id" : "folio_requests-1.11.0",
