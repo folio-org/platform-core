@@ -22,7 +22,7 @@
     { 
       "baseBranchList": ["q3.2-2019"],
       "packagePatterns": ["^@folio/"],
-      "groupName": "FOLIO Q1 packages",
+      "groupName": "FOLIO Q3 packages",
       "updateTypes": ["patch"], 
       "enabled": true
     },
