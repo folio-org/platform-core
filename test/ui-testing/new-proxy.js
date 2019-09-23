@@ -59,7 +59,7 @@ module.exports.test = function foo(uiTestCtx) {
       });
 
       it('should add a proxy for user 1', (done) => {
-        const selector = '#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"] div[role="gridcell"]:nth-child(3)';
+        const selector = '#OverlayContainer #list-plugin-find-user [role="row"][aria-rowindex="2"] [role="gridcell"]:nth-child(3)';
         nightmare
           .wait('#input-user-search')
           .type('#input-user-search', '0')
@@ -89,8 +89,8 @@ module.exports.test = function foo(uiTestCtx) {
           }, selector)
           .then(barcode => {
             nightmare
-              .wait('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"]')
-              .click('#OverlayContainer #list-plugin-find-user div[role="row"][aria-rowindex="2"]')
+              .wait('#OverlayContainer #list-plugin-find-user [role="row"][aria-rowindex="2"]')
+              .click('#OverlayContainer #list-plugin-find-user [role="row"][aria-rowindex="2"]')
               .wait('#clickable-save')
               .click('#clickable-save')
               .then(done)
@@ -120,8 +120,8 @@ module.exports.test = function foo(uiTestCtx) {
           .wait('button[type=submit]')
           .click('button[type=submit]')
           .wait('#list-users[data-total-count="1"]')
-          .wait('#list-users div[role="row"][aria-rowindex="2"] > a')
-          .click('#list-users div[role="row"][aria-rowindex="2"] > a')
+          .wait('#list-users [role="row"][aria-rowindex="2"] > a')
+          .click('#list-users [role="row"][aria-rowindex="2"] > a')
           .wait('#accordion-toggle-button-proxySection')
           .wait('#clickable-edituser')
           .click('#clickable-edituser')
@@ -129,7 +129,7 @@ module.exports.test = function foo(uiTestCtx) {
           .click('#accordion-toggle-button-proxy')
           .wait('#proxy div[class*=sectionActions] button')
           .click('#proxy div[class*=sectionActions] button')
-          .wait('#OverlayContainer div[role="dialog"]')
+          .wait('#OverlayContainer [role="dialog"]')
           .wait('#deletesponsors-confirmation-footer')
           .wait('#clickable-deletesponsors-confirmation-confirm')
           .click('#clickable-deletesponsors-confirmation-confirm')
