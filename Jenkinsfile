@@ -1,19 +1,15 @@
-@Library ('folio_jenkins_shared_libs') _
+@Library ('folio_jenkins_shared_libs@FOLIO-2011a') _
 
 pipeline {
 
   environment {
     folioPlatform = 'platform-core'
-    folioHostname = "${env.folioPlatform}-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
-    ec2Group = "platform_core_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
     npmConfig = 'jenkins-npm-folio'
     sshKeyId = '11657186-f4d4-4099-ab72-2a32e023cced'
     folioRegistry = 'http://folio-registry.aws.indexdata.com'
     releaseOnly = 'true'
-    okapiUrl = "http://${env.folioHostname}.aws.indexdata.com:9130"
-    folioUrl = "http://${env.folioHostname}.aws.indexdata.com"
+    okapiUrl = 'https://okapi-default.ci.folio.org'
     projUrl = "https://github.com/folio-org/${env.folioPlatform}"
-    tenant = 'diku'
   }
 
   options {
@@ -61,6 +57,17 @@ pipeline {
             }
           }
           steps {
+            script {
+              if (env.CHANGE_ID) { 
+                def tenant = "${env.folioPlatform}_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
+                def foliociLib = new org.folio.foliociCommands()
+                env.tenant = foliociLib.replaceHyphen(tenant)
+              }
+              else { 
+                env.tenant = 'diku'
+              }
+            }
+
             echo "Okapi URL: ${env.okapiUrl}"
             echo "Tenant: ${env.tenant}"
 
@@ -96,15 +103,33 @@ pipeline {
           }
         }
 
-        stage('Build FOLIO Instance') {
+        stage('Deploy Tenant') {
           when {
             changeRequest()
           }
           steps {
-            // build FOLIO instance
-            buildPlatformInstance(env.ec2Group,env.folioHostname,env.tenant)
+            // Enable tenant
+            deployTenantK8()
+
             script { 
-              def pr_comment = pullRequest.comment("Instance available at $env.folioUrl")
+              // Deploy tenant bundle to S3
+              withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',
+                                accessKeyVariable: 'AWS_ACCESS_KEY_ID',
+                                credentialsId: 'jenkins-aws',
+                                secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
+
+                def s3Opts = [ s3Bucket: "${env.folioPlatform}-${env.CHANGE_ID}",
+                               s3Tags: "Key=Pr,Value=${env.folioPlatform}-${env.CHANGE_ID}",
+                               srcPath: "${env.WORKSPACE}/output" ]
+                   
+                def s3Endpoint = s3Upload(s3Opts)
+                env.folioUrl = s3Endpoint + '/index.html'
+              }
+            
+              def githubSummary = "Bundle deployed for tenant,${tenant}," + 
+                                  "to ${env.folioUrl}" 
+              @NonCPS
+              def comment = pullRequest.comment(githubSummary)
             }
           }
         }
