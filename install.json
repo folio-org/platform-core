@@ -83,7 +83,7 @@
   "id" : "mod-permissions-5.8.1",
   "action" : "enable"
 }, {
-  "id" : "mod-login-6.0.0",
+  "id" : "mod-login-6.1.0",
   "action" : "enable"
 }, {
   "id" : "mod-password-validator-1.4.1",
