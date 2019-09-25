@@ -1014,16 +1014,16 @@
     core-js "^2.5.7"
 
 "@types/node@>=6":
-  version "12.7.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.7.5.tgz#e19436e7f8e9b4601005d73673b6dc4784ffcc2f"
+  version "12.7.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.7.7.tgz#f9bd8c00fa9e1a8129af910fc829f6139c397d6c"
 
 "@types/node@^8.0.24":
   version "8.10.54"
   resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-8.10.54.tgz#1c88eb253ac1210f1a5876953fb70f7cc4928402"
 
 "@types/prop-types@*", "@types/prop-types@^15.5.3":
-  version "15.7.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/prop-types/-/prop-types-15.7.2.tgz#0e58ae66773d7fd7c372a493aff740878ec9ceaa"
+  version "15.7.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
 
 "@types/q@^1.5.1":
   version "1.5.2"
@@ -1036,8 +1036,8 @@
     parchment "^1.1.2"
 
 "@types/react@*":
-  version "16.9.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.2.tgz#6d1765431a1ad1877979013906731aae373de268"
+  version "16.9.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.3.tgz#6d13251e441a3e67fb60d719d1fc8785b984a2ec"
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -2789,8 +2789,8 @@ chokidar@^2.0.2, chokidar@^2.0.3:
     fsevents "^1.2.7"
 
 chownr@^1.1.1:
-  version "1.1.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/chownr/-/chownr-1.1.2.tgz#a18f1e0b269c8a6a5d3c86eb298beb14c3dd7bf6"
+  version "1.1.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/chownr/-/chownr-1.1.3.tgz#42d837d5239688d55f303003a508230fa6727142"
 
 chrome-trace-event@^1.0.2:
   version "1.0.2"
@@ -3848,8 +3848,8 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.47:
-  version "1.3.265"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.265.tgz#d69afa05a33e551b913a9798f072a6442f46b348"
+  version "1.3.266"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.266.tgz#a33fb529c75f8d133e75ea7cbedb73a62f2158d2"
 
 electron@^2.0.18:
   version "2.0.18"
@@ -3894,8 +3894,8 @@ encoding@^0.1.11:
     iconv-lite "~0.4.13"
 
 end-of-stream@^1.0.0, end-of-stream@^1.1.0, end-of-stream@^1.4.1:
-  version "1.4.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/end-of-stream/-/end-of-stream-1.4.3.tgz#9db9861620e47283cd49513be9c344f339ec5153"
+  version "1.4.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
   dependencies:
     once "^1.4.0"
 
@@ -5000,8 +5000,8 @@ gzip-size@^5.0.0:
     pify "^4.0.1"
 
 handlebars@^4.0.3, handlebars@^4.1.2:
-  version "4.3.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/handlebars/-/handlebars-4.3.0.tgz#427391b584626c9c9c6ffb7d1fb90aa9789221cc"
+  version "4.3.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/handlebars/-/handlebars-4.3.1.tgz#6febc1890851f62a8932d495cc88d29390fa850d"
   dependencies:
     neo-async "^2.6.0"
     optimist "^0.6.1"
@@ -6782,9 +6782,9 @@ minimist@~0.0.1:
   version "0.0.10"
   resolved "https://repository.folio.org/repository/npm-ci-all/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
 
-minipass@^2.2.1, minipass@^2.6.0, minipass@^2.6.4:
-  version "2.8.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/minipass/-/minipass-2.8.5.tgz#072f3c67b1f05fe4703f58a3c38e186c03a17692"
+minipass@^2.2.1, minipass@^2.6.0, minipass@^2.8.6:
+  version "2.8.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/minipass/-/minipass-2.8.6.tgz#620d889ace26356391d010ecb9458749df9b6db5"
   dependencies:
     safe-buffer "^5.1.2"
     yallist "^3.0.0"
@@ -9948,12 +9948,12 @@ tar-stream@^2.0.0:
     readable-stream "^3.1.1"
 
 tar@^4, tar@^4.4.8:
-  version "4.4.11"
-  resolved "https://repository.folio.org/repository/npm-ci-all/tar/-/tar-4.4.11.tgz#7ac09801445a3cf74445ed27499136b5240ffb73"
+  version "4.4.13"
+  resolved "https://repository.folio.org/repository/npm-ci-all/tar/-/tar-4.4.13.tgz#43b364bc52888d555298637b10d60790254ab525"
   dependencies:
     chownr "^1.1.1"
     fs-minipass "^1.2.5"
-    minipass "^2.6.4"
+    minipass "^2.8.6"
     minizlib "^1.2.1"
     mkdirp "^0.5.0"
     safe-buffer "^5.1.2"
@@ -10565,8 +10565,8 @@ webpack-virtual-modules@^0.1.10:
     debug "^3.0.0"
 
 webpack@^4.0.0, webpack@^4.10.2:
-  version "4.40.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.40.2.tgz#d21433d250f900bf0facbabe8f50d585b2dc30a7"
+  version "4.41.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.41.0.tgz#db6a254bde671769f7c14e90a1a55e73602fc70b"
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"
