@@ -50,13 +50,13 @@
   "id" : "folio_developer-1.10.1",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-2.6.0",
+  "id" : "mod-source-record-storage-2.6.1",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-13.0.1",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-1.12.0",
+  "id" : "folio_inventory-1.12.1",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-1.7.0",
@@ -80,7 +80,7 @@
   "id" : "folio_servicepoints-1.4.1",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-5.8.1",
+  "id" : "mod-permissions-5.8.2",
   "action" : "enable"
 }, {
   "id" : "mod-login-6.1.1",
