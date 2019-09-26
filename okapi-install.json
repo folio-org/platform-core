@@ -48,11 +48,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-2.6.0",
+    "id": "mod-source-record-storage-2.6.1",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-13.0.0",
+    "id": "mod-inventory-13.0.1",
     "action": "enable"
   },
   {
@@ -60,11 +60,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-permissions-5.8.1",
+    "id": "mod-permissions-5.8.2",
     "action": "enable"
   },
   {
-    "id": "mod-login-6.1.0",
+    "id": "mod-login-6.1.1",
     "action": "enable"
   },
   {
@@ -72,11 +72,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-authtoken-2.2.1",
+    "id": "mod-authtoken-2.3.0",
     "action": "enable"
   },
   {
-    "id": "mod-users-bl-5.0.0",
+    "id": "mod-users-bl-5.1.0",
     "action": "enable"
   },
   {

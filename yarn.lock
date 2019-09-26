@@ -358,9 +358,9 @@
     eslint-plugin-react "7.11.0"
     webpack "^4.0.0"
 
-"@folio/inventory@1.12.0":
-  version "1.12.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.12.0.tgz#1de1657df154986bebaa7539fc3fe81f19c32cc5"
+"@folio/inventory@1.12.1":
+  version "1.12.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.12.1.tgz#4f2e347aa2792416bd4c28dcaf32c26f06f07a79"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -374,8 +374,7 @@
     react-final-form-listeners "^1.0.2"
     react-hot-loader "^4.3.12"
     react-intl "^2.3.0"
-    react-router "^4.0.0"
-    react-router-dom "^4.0.0"
+    redux-form "^7.0.3"
 
 "@folio/myprofile@1.7.0":
   version "1.7.0"
@@ -546,6 +545,39 @@
     react-virtualized-auto-sizer "^1.0.2"
     tai-password-strength "^1.1.1"
 
+"@folio/stripes-components@~5.8.0":
+  version "5.8.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-5.8.0.tgz#aaf916313b54617a46a0e6922bff86db5304b481"
+  dependencies:
+    "@folio/stripes-react-hotkeys" "^2.0.0"
+    classnames "^2.2.5"
+    currency-codes "^1.5.0"
+    dom-helpers "^3.2.1"
+    downshift "^2.0.16"
+    hoist-non-react-statics "^3.1.0"
+    json2csv "^4.2.1"
+    lodash "^4.17.4"
+    memoize-one "^5.0.0"
+    moment "^2.17.1"
+    moment-range "^3.0.3"
+    moment-timezone "^0.5.14"
+    normalize.css "^7.0.0"
+    popper.js "^1.14.6"
+    prop-types "^15.5.10"
+    prop-types-extra "^1.1.0"
+    query-string "^6.1.0"
+    react-flexbox-grid "1.1.3"
+    react-highlighter "^0.4.2"
+    react-intl "^2.5.0"
+    react-overlays "^0.8.3"
+    react-quill "^1.3.3"
+    react-router-dom "^4.1.1"
+    react-svg-loader "^3.0.3"
+    react-tether "^1.0.1"
+    react-transition-group "^2.2.1"
+    react-virtualized-auto-sizer "^1.0.2"
+    tai-password-strength "^1.1.1"
+
 "@folio/stripes-connect@~5.4.0":
   version "5.4.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-connect/-/stripes-connect-5.4.0.tgz#fa9a5578d35275207f5de9829269c8517ace0d7b"
@@ -558,7 +590,97 @@
     redux "^3.6.0"
     uuid "^3.0.1"
 
-"@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.9.0":
+"@folio/stripes-core@^2.17.1 || ^3.0.0":
+  version "3.10.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-3.10.0.tgz#56a94b301dd3238b0182911db481c8537c59fe37"
+  dependencies:
+    "@folio/react-intl-safe-html" "^1.0.2"
+    "@folio/stripes-components" "~5.8.0"
+    "@folio/stripes-connect" "~5.4.0"
+    "@folio/stripes-logger" "~1.0.0"
+    apollo-cache-inmemory "^1.1.1"
+    apollo-client "^2.0.3"
+    apollo-link-http "^1.2.0"
+    autoprefixer "^9.1.1"
+    awesome-typescript-loader "^5.2.0"
+    babel-core "^6.26.3"
+    babel-loader "^7.1.4"
+    babel-plugin-lodash "^3.3.4"
+    babel-plugin-react-transform "^3.0.0"
+    babel-plugin-remove-jsx-attributes "^0.0.2"
+    babel-plugin-transform-decorators-legacy "^1.3.5"
+    babel-polyfill "^6.16.0"
+    babel-preset-env "^1.6.0"
+    babel-preset-react "^6.16.0"
+    babel-preset-react-hmre "^1.1.1"
+    babel-preset-stage-2 "^6.16.0"
+    classnames "^2.2.5"
+    commander "^2.9.0"
+    connect-history-api-fallback "^1.3.0"
+    css-loader "^1.0.0"
+    debug "^4.0.1"
+    duplicate-package-checker-webpack-plugin "^3.0.0"
+    express "^4.14.0"
+    file-loader "^1.1.11"
+    graphql "^0.11.7"
+    hard-source-webpack-plugin "^0.12.0"
+    history "^4.6.3"
+    hoist-non-react-statics "^3.3.0"
+    html-webpack-plugin "^3.2.0"
+    isomorphic-fetch "^2.2.1"
+    jwt-decode "^2.2.0"
+    localforage "^1.5.6"
+    lodash "^4.17.11"
+    lodash-webpack-plugin "^0.11.5"
+    mini-css-extract-plugin "^0.4.0"
+    moment "^2.19.1"
+    moment-timezone "^0.5.14"
+    node-object-hash "^1.2.0"
+    optimize-css-assets-webpack-plugin "^5.0.0"
+    postcss "^7.0.2"
+    postcss-calc "^6.0.0"
+    postcss-color-function "^4.0.0"
+    postcss-custom-media "^6.0.0"
+    postcss-custom-properties "^7.0.0"
+    postcss-import "^12.0.0"
+    postcss-loader "^3.0.0"
+    postcss-media-minmax "^3.0.0"
+    postcss-nesting "^6.0.0"
+    postcss-url "^8.0.0"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-apollo "^2.1.3"
+    react-cookie "^2.1.4"
+    react-hot-loader "^4.3.10"
+    react-intl "^2.5.0"
+    react-overlays "^0.8.3"
+    react-redux "^5.0.2"
+    react-router "^4.0.0"
+    react-router-dom "^4.0.0"
+    react-titled "^1.0.0"
+    react-transform-catch-errors "^1.0.2"
+    redux "^3.6.0"
+    redux-form "^7.0.3"
+    redux-logger "^3.0.6"
+    redux-observable "^0.15.0"
+    redux-thunk "^2.1.0"
+    rimraf "^2.5.4"
+    rtl-detect "^1.0.2"
+    rxjs "^5.4.3"
+    serialize-javascript "^1.4.0"
+    style-loader "^0.22.1"
+    svgo "^1.2.2"
+    svgo-loader "^2.2.1"
+    tapable "^1.0.0"
+    typescript "^2.8.1"
+    uuid "^3.0.0"
+    webapp-webpack-plugin "^2.6.1"
+    webpack "^4.10.2"
+    webpack-dev-middleware "^3.1.3"
+    webpack-hot-middleware "^2.22.2"
+    webpack-virtual-modules "^0.1.10"
+
+"@folio/stripes-core@~3.9.0":
   version "3.9.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-3.9.0.tgz#7a1d35d5f7932f83e943bef1277083c8a238b931"
   dependencies:
@@ -716,8 +838,8 @@
     redux-form "^7.0.3"
 
 "@folio/stripes-testing@^1.6.0":
-  version "1.6.6"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-testing/-/stripes-testing-1.6.6.tgz#2786e909eb1eeb64c16537f50ae079687901a308"
+  version "1.6.7"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-testing/-/stripes-testing-1.6.7.tgz#12f53585894307772b50b1703240ed2f1892ca6b"
   dependencies:
     debug "^4.0.1"
     minimist "^1.2.0"
@@ -757,9 +879,9 @@
     react-intl "^2.7.2"
     redux-form "^7.0.3"
 
-"@folio/tenant-settings@2.13.0":
-  version "2.13.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/tenant-settings/-/tenant-settings-2.13.0.tgz#5c1e37ca92909d10f839862a43bd6ffe1686f81b"
+"@folio/tenant-settings@2.13.1":
+  version "2.13.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/tenant-settings/-/tenant-settings-2.13.1.tgz#2feddd87ca620b633f19fdeffb8d30066f8d4e58"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
@@ -1014,16 +1136,16 @@
     core-js "^2.5.7"
 
 "@types/node@>=6":
-  version "12.7.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.7.5.tgz#e19436e7f8e9b4601005d73673b6dc4784ffcc2f"
+  version "12.7.8"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.7.8.tgz#cb1bf6800238898bc2ff6ffa5702c3cadd350708"
 
 "@types/node@^8.0.24":
   version "8.10.54"
   resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-8.10.54.tgz#1c88eb253ac1210f1a5876953fb70f7cc4928402"
 
 "@types/prop-types@*", "@types/prop-types@^15.5.3":
-  version "15.7.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/prop-types/-/prop-types-15.7.2.tgz#0e58ae66773d7fd7c372a493aff740878ec9ceaa"
+  version "15.7.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
 
 "@types/q@^1.5.1":
   version "1.5.2"
@@ -1036,8 +1158,8 @@
     parchment "^1.1.2"
 
 "@types/react@*":
-  version "16.9.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.2.tgz#6d1765431a1ad1877979013906731aae373de268"
+  version "16.9.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.3.tgz#6d13251e441a3e67fb60d719d1fc8785b984a2ec"
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -2789,8 +2911,8 @@ chokidar@^2.0.2, chokidar@^2.0.3:
     fsevents "^1.2.7"
 
 chownr@^1.1.1:
-  version "1.1.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/chownr/-/chownr-1.1.2.tgz#a18f1e0b269c8a6a5d3c86eb298beb14c3dd7bf6"
+  version "1.1.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/chownr/-/chownr-1.1.3.tgz#42d837d5239688d55f303003a508230fa6727142"
 
 chrome-trace-event@^1.0.2:
   version "1.0.2"
@@ -3848,8 +3970,8 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.47:
-  version "1.3.265"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.265.tgz#d69afa05a33e551b913a9798f072a6442f46b348"
+  version "1.3.266"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.266.tgz#a33fb529c75f8d133e75ea7cbedb73a62f2158d2"
 
 electron@^2.0.18:
   version "2.0.18"
@@ -3894,8 +4016,8 @@ encoding@^0.1.11:
     iconv-lite "~0.4.13"
 
 end-of-stream@^1.0.0, end-of-stream@^1.1.0, end-of-stream@^1.4.1:
-  version "1.4.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/end-of-stream/-/end-of-stream-1.4.3.tgz#9db9861620e47283cd49513be9c344f339ec5153"
+  version "1.4.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
   dependencies:
     once "^1.4.0"
 
@@ -5000,8 +5122,8 @@ gzip-size@^5.0.0:
     pify "^4.0.1"
 
 handlebars@^4.0.3, handlebars@^4.1.2:
-  version "4.3.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/handlebars/-/handlebars-4.3.0.tgz#427391b584626c9c9c6ffb7d1fb90aa9789221cc"
+  version "4.3.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/handlebars/-/handlebars-4.3.1.tgz#6febc1890851f62a8932d495cc88d29390fa850d"
   dependencies:
     neo-async "^2.6.0"
     optimist "^0.6.1"
@@ -6782,18 +6904,25 @@ minimist@~0.0.1:
   version "0.0.10"
   resolved "https://repository.folio.org/repository/npm-ci-all/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
 
-minipass@^2.2.1, minipass@^2.6.0, minipass@^2.6.4:
-  version "2.8.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/minipass/-/minipass-2.8.5.tgz#072f3c67b1f05fe4703f58a3c38e186c03a17692"
+minipass@^2.6.0, minipass@^2.8.6:
+  version "2.8.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/minipass/-/minipass-2.8.6.tgz#620d889ace26356391d010ecb9458749df9b6db5"
+  dependencies:
+    safe-buffer "^5.1.2"
+    yallist "^3.0.0"
+
+minipass@^2.9.0:
+  version "2.9.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/minipass/-/minipass-2.9.0.tgz#e713762e7d3e32fed803115cf93e04bca9fcc9a6"
   dependencies:
     safe-buffer "^5.1.2"
     yallist "^3.0.0"
 
 minizlib@^1.2.1:
-  version "1.2.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/minizlib/-/minizlib-1.2.2.tgz#6f0ccc82fa53e1bf2ff145f220d2da9fa6e3a166"
+  version "1.3.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/minizlib/-/minizlib-1.3.1.tgz#7335640a57f584320b4fcf41069082c442bc6bf7"
   dependencies:
-    minipass "^2.2.1"
+    minipass "^2.9.0"
 
 minstache@^1.2.0:
   version "1.2.0"
@@ -9948,12 +10077,12 @@ tar-stream@^2.0.0:
     readable-stream "^3.1.1"
 
 tar@^4, tar@^4.4.8:
-  version "4.4.11"
-  resolved "https://repository.folio.org/repository/npm-ci-all/tar/-/tar-4.4.11.tgz#7ac09801445a3cf74445ed27499136b5240ffb73"
+  version "4.4.13"
+  resolved "https://repository.folio.org/repository/npm-ci-all/tar/-/tar-4.4.13.tgz#43b364bc52888d555298637b10d60790254ab525"
   dependencies:
     chownr "^1.1.1"
     fs-minipass "^1.2.5"
-    minipass "^2.6.4"
+    minipass "^2.8.6"
     minizlib "^1.2.1"
     mkdirp "^0.5.0"
     safe-buffer "^5.1.2"
@@ -10499,8 +10628,8 @@ webapp-webpack-plugin@^2.6.1:
     tapable "^1.1.3"
 
 webpack-bundle-analyzer@^3.3.2:
-  version "3.5.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-bundle-analyzer/-/webpack-bundle-analyzer-3.5.1.tgz#84aabb1547178d842ebb4ccc7324084b6c3b0ea9"
+  version "3.5.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-bundle-analyzer/-/webpack-bundle-analyzer-3.5.2.tgz#ac02834f4b31de8e27d71e6c7a612301ebddb79f"
   dependencies:
     acorn "^6.0.7"
     acorn-walk "^6.1.1"
@@ -10565,8 +10694,8 @@ webpack-virtual-modules@^0.1.10:
     debug "^3.0.0"
 
 webpack@^4.0.0, webpack@^4.10.2:
-  version "4.40.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.40.2.tgz#d21433d250f900bf0facbabe8f50d585b2dc30a7"
+  version "4.41.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.41.0.tgz#db6a254bde671769f7c14e90a1a55e73602fc70b"
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"
