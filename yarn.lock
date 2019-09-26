@@ -352,8 +352,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0":
-  version "1.12.1000605"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.12.1000605.tgz#7523dd3f76b6889e37b46a4bca963369df83b69c"
+  version "1.12.1000606"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.12.1000606.tgz#abf2579e5562ee82ba6872d2675141a291309917"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -746,8 +746,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.25.1000786"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.25.1000786.tgz#c146f9610e648e76469afb8f710f2b4b59765af9"
+  version "2.25.1000787"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.25.1000787.tgz#9ec2754feedb49b21b34a57497ebce7d3a37c455"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
