@@ -301,9 +301,9 @@
     react-to-print "^2.3.2"
     redux-form "^7.0.3"
 
-"@folio/checkout@1.11.0":
-  version "1.11.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/checkout/-/checkout-1.11.0.tgz#a68aec9f4f2e9c1c41d79eeda648c0c218daebe7"
+"@folio/checkout@1.11.1":
+  version "1.11.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/checkout/-/checkout-1.11.1.tgz#79a0649ca85d643ef5ca77ae6a27900e81e3e604"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
