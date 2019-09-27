@@ -879,9 +879,9 @@
     react-intl "^2.7.2"
     redux-form "^7.0.3"
 
-"@folio/tenant-settings@2.13.0":
-  version "2.13.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/tenant-settings/-/tenant-settings-2.13.0.tgz#5c1e37ca92909d10f839862a43bd6ffe1686f81b"
+"@folio/tenant-settings@2.13.1":
+  version "2.13.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/tenant-settings/-/tenant-settings-2.13.1.tgz#2feddd87ca620b633f19fdeffb8d30066f8d4e58"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
@@ -891,9 +891,9 @@
     react-router-dom "^4.1.1"
     redux-form "^7.0.3"
 
-"@folio/users@2.25.2":
-  version "2.25.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.25.2.tgz#e66a9b6bf13f8f865c4c47a68a0d64f747ac6515"
+"@folio/users@2.25.3":
+  version "2.25.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.25.3.tgz#4d19985715929edffd5927a67fbea3af1fa58f26"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
