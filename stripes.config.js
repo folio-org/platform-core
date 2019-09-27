@@ -12,6 +12,7 @@ module.exports = {
     '@folio/circulation' : {},
     '@folio/developer' : {},
     '@folio/inventory' : {},
+    '@folio/marccat' : {},
     '@folio/myprofile' : {},
     '@folio/plugin-find-instance' : {},
     '@folio/plugin-find-user' : {},
