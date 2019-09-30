@@ -59,6 +59,12 @@
   "id" : "folio_inventory-1.12.1",
   "action" : "enable"
 }, {
+  "id" : "mod-marccat-2.0.0",
+  "action" : "enable"
+}, {
+  "id" : "folio_marccat-1.8.5",
+  "action" : "enable"
+}, {
   "id" : "folio_myprofile-1.7.0",
   "action" : "enable"
 }, {

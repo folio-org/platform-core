@@ -56,6 +56,10 @@
     "action": "enable"
   },
   {
+    "id": "mod-marccat-2.0.0",
+    "action": "enable"
+  },
+  {
     "id": "mod-codex-mux-2.6.0",
     "action": "enable"
   },
