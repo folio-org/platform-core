@@ -378,7 +378,7 @@
 
 "@folio/marccat@git+https://github.com/folio-org/ui-marccat.git#master":
   version "1.8.5"
-  resolved "git+https://github.com/folio-org/ui-marccat.git#d5e9717525e6094b75a1f327c65241360b838c41"
+  resolved "git+https://github.com/folio-org/ui-marccat.git#6a083441bf294c9a542d4c7eed7a1a9c59cf4e08"
   dependencies:
     classnames "^2.2.5"
     lint-staged "^4.0.3"
@@ -1165,8 +1165,8 @@
     core-js "^2.5.7"
 
 "@types/node@>=6":
-  version "12.7.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.7.8.tgz#cb1bf6800238898bc2ff6ffa5702c3cadd350708"
+  version "12.7.9"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.7.9.tgz#da0210f91096aa67138cf5afd04c4d629f8a406a"
 
 "@types/node@^8.0.24":
   version "8.10.54"
@@ -2532,8 +2532,8 @@ blob@0.0.5:
   resolved "https://repository.folio.org/repository/npm-ci-all/blob/-/blob-0.0.5.tgz#d680eeef25f8cd91ad533f5b01eed48e64caf683"
 
 bluebird@^3.3.0, bluebird@^3.5.5:
-  version "3.5.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
+  version "3.7.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/bluebird/-/bluebird-3.7.0.tgz#56a6a886e03f6ae577cffedeb524f8f2450293cf"
 
 bmp-js@0.0.1:
   version "0.0.1"
@@ -4041,8 +4041,8 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.47:
-  version "1.3.270"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.270.tgz#a3faa2c51f73bf7a020370b3e28a99b32eae47ed"
+  version "1.3.272"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.272.tgz#946a3532fe187b6e4d3503f3d9aa851739339aa4"
 
 electron@^2.0.18:
   version "2.0.18"
