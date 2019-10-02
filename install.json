@@ -59,7 +59,7 @@
   "id" : "folio_inventory-1.12.1",
   "action" : "enable"
 }, {
-  "id" : "mod-marccat-2.1.5",
+  "id" : "mod-marccat-2.2.0",
   "action" : "enable"
 }, {
   "id" : "folio_marccat-1.8.5",
