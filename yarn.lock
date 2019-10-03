@@ -352,8 +352,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000609"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000609.tgz#1802324b8133af534d1ed3b3a6defacbe8ed71fc"
+  version "1.13.1000610"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000610.tgz#9925129f1c1e59555c474c3d2d7f5dd252b361fc"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -489,8 +489,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.9.0":
-  version "5.9.1000881"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000881.tgz#30dbf875d7cd876204f09d2ab1c5b44847d91f3a"
+  version "5.9.1000882"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000882.tgz#cc7d8046109fdd0a5e8d050e209f31b68a63b8a8"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -10179,11 +10179,12 @@ ultron@~1.1.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
 
 uncontrollable@^7.0.0:
-  version "7.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/uncontrollable/-/uncontrollable-7.0.1.tgz#9451ecd13ed480c3e8318c2ee5f0f7522b13b33c"
+  version "7.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/uncontrollable/-/uncontrollable-7.0.2.tgz#8c8fc4d04c2c13a8cb463991838ca3016945475f"
   dependencies:
     "@babel/runtime" "^7.4.5"
     invariant "^2.2.4"
+    react-lifecycles-compat "^3.0.4"
 
 underscore@~1.6.0:
   version "1.6.0"
