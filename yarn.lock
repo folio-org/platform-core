@@ -3403,8 +3403,8 @@ csso@^3.5.1:
     css-tree "1.0.0-alpha.29"
 
 csstype@^2.2.0, csstype@^2.6.6:
-  version "2.6.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/csstype/-/csstype-2.6.6.tgz#c34f8226a94bbb10c32cc0d714afdf942291fc41"
+  version "2.6.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/csstype/-/csstype-2.6.7.tgz#20b0024c20b6718f4eda3853a1f5a1cce7f5e4a5"
 
 cuint@^0.2.2:
   version "0.2.2"
