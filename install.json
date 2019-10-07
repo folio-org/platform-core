@@ -80,7 +80,7 @@
   "id" : "folio_servicepoints-1.4.1",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-5.8.2",
+  "id" : "mod-permissions-5.8.3",
   "action" : "enable"
 }, {
   "id" : "mod-login-6.1.1",
