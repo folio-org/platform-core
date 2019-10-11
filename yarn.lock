@@ -8523,8 +8523,8 @@ react-overlays@^0.8.3:
     warning "^3.0.0"
 
 react-overlays@^2.0.0-0:
-  version "2.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-overlays/-/react-overlays-2.0.0.tgz#2dc17ae278aca68c9794968f2af8d49e06d96bf4"
+  version "2.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-overlays/-/react-overlays-2.1.0.tgz#3671cadab085a519c90a51b9b1402a70281e31d4"
   dependencies:
     "@babel/runtime" "^7.4.5"
     "@restart/hooks" "^0.3.12"
