@@ -665,8 +665,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.12.0":
-  version "2.12.1000556"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.12.1000556.tgz#50d583f8d7b6d9986f128f34e660bc40f4156fe1"
+  version "2.12.1000557"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.12.1000557.tgz#a44acf55353afe94e272236f3f4feb7732a50aae"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.9.0"
@@ -3134,8 +3134,8 @@ core-js@^2.2.0, core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7, core-js@^2.6.5:
   resolved "https://repository.folio.org/repository/npm-ci-all/core-js/-/core-js-2.6.10.tgz#8a5b8391f8cc7013da703411ce5b585706300d7f"
 
 core-js@^3.0.1:
-  version "3.3.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/core-js/-/core-js-3.3.1.tgz#636a3dc323c3f9ba618e74c5900366e19f48e959"
+  version "3.3.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/core-js/-/core-js-3.3.2.tgz#cd42da1d7b0bb33ef11326be3a721934277ceb42"
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
