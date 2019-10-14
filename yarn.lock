@@ -1018,8 +1018,8 @@
     parchment "^1.1.2"
 
 "@types/react@*":
-  version "16.9.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.5.tgz#079dabd918b19b32118c25fd00a786bb6d0d5e51"
+  version "16.9.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.6.tgz#40722a2ef9f67b054c15b0a0b0d7f09409176134"
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
