@@ -278,8 +278,8 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "1.9.1000174"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-1.9.1000174.tgz#761fc3009243e451b016e278d9258a75257e4d33"
+  version "1.9.1000175"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-1.9.1000175.tgz#f8fbb2668077e3da333160a4c0637b8957551e83"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     dateformat "^2.0.0"
@@ -295,8 +295,8 @@
     redux-form "^7.0.3"
 
 "@folio/checkout@>=1.3.0":
-  version "1.12.1000326"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.12.1000326.tgz#dd99db9f4b8edfb28bd57c221d0ded17e08f0f78"
+  version "1.12.1000327"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.12.1000327.tgz#83061a1e671606d0f3907b317a681fb8f3c590bb"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
@@ -328,8 +328,8 @@
     redux-form "^7.0.3"
 
 "@folio/developer@>=1.5.0":
-  version "1.10.100056"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-1.10.100056.tgz#31e2082729b8f86238d1aeb03295d7071c328694"
+  version "1.10.100057"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-1.10.100057.tgz#4c004182ff63541a0b1977a1bc9ae61a16994547"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -370,8 +370,8 @@
     redux-form "^7.0.3"
 
 "@folio/myprofile@>=1.1.0":
-  version "1.7.100056"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-1.7.100056.tgz#623ab370aba40cb09c092c3f5cac3460303e2870"
+  version "1.7.100057"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-1.7.100057.tgz#74b522420f9f363738348402ecef80a3843c76ba"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     prop-types "^15.6.0"
@@ -380,8 +380,8 @@
     redux-form "^7.0.3"
 
 "@folio/plugin-find-instance@>=1.1.0":
-  version "1.5.100030"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-1.5.100030.tgz#611713d90af656f50df04177fc6a4a3343ffb793"
+  version "1.5.100031"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-1.5.100031.tgz#8ebd547297039d115cd7c04a578536cdaded6575"
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
@@ -389,8 +389,8 @@
     react-intl "^2.8.0"
 
 "@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@^1.1.0":
-  version "1.9.100077"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-1.9.100077.tgz#aefe71a8351ae3792e8639e7bd8e7c16970f8b10"
+  version "1.9.100078"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-1.9.100078.tgz#d858faa61ffdc3f135d78803902c5dfe37735845"
   dependencies:
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
@@ -421,8 +421,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/search@>=1.3.0":
-  version "1.9.1000147"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-1.9.1000147.tgz#ecbca78d8d42a64c622b7ffa49d9917c915445a7"
+  version "1.9.1000148"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-1.9.1000148.tgz#30fd07611731df26875d599e9f337b9061e89cef"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
@@ -432,8 +432,8 @@
     react-router-dom "^4.0.0"
 
 "@folio/servicepoints@>=1.1.0":
-  version "1.4.100049"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-1.4.100049.tgz#0677a7fb6237bc7d3cc5e82ddeae2e3185ad7343"
+  version "1.4.100050"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-1.4.100050.tgz#5d7a0e4fa150611958b2834cafa7fece83da04eb"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     lodash "^4.17.4"
@@ -489,8 +489,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.9.0":
-  version "5.9.1000887"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000887.tgz#6c229d7e8b9bb91741db7be7b3d289d82460dc2e"
+  version "5.9.1000888"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000888.tgz#680761d55f9cdcfe84b149b4a6f5ac064dc40676"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -534,8 +534,8 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.11.0":
-  version "3.11.1000606"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.11.1000606.tgz#c01ca7a2ffa5b35f9b4f1df91436346513809080"
+  version "3.11.1000607"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.11.1000607.tgz#9ef7ceba93e903762b040ab4e11b218cc8ad540e"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.9.0"
@@ -565,6 +565,7 @@
     duplicate-package-checker-webpack-plugin "^3.0.0"
     express "^4.14.0"
     file-loader "^1.1.11"
+    final-form "^4.18.2"
     graphql "^0.11.7"
     hard-source-webpack-plugin "^0.12.0"
     history "^4.6.3"
@@ -594,6 +595,7 @@
     query-string "^5.0.0"
     react-apollo "^2.1.3"
     react-cookie "^2.1.4"
+    react-final-form "^6.3.0"
     react-hot-loader "^4.3.10"
     react-intl "^2.5.0"
     react-overlays "^0.8.3"
@@ -624,8 +626,8 @@
     webpack-virtual-modules "^0.1.10"
 
 "@folio/stripes-final-form@~1.4.0":
-  version "1.4.100017"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-1.4.100017.tgz#ec183ef24bdcdfb2b7076e5d230d633c1b65b263"
+  version "1.4.100018"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-1.4.100018.tgz#79a7d6638224018d7526efd6098280878abe5e1c"
   dependencies:
     "@folio/stripes-components" "~5.9.0"
     "@folio/stripes-core" "~3.11.0"
@@ -640,8 +642,8 @@
     react-router "^4.1.1"
 
 "@folio/stripes-form@~2.11.0":
-  version "2.11.100069"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-2.11.100069.tgz#c35c9aa2e2bccbb14d7dde229f44a56df92af737"
+  version "2.11.100070"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-2.11.100070.tgz#5a36e232ea456c053430a2daf5cd3761ee156c42"
   dependencies:
     "@folio/stripes-components" "~5.9.0"
     "@folio/stripes-core" "~3.11.0"
@@ -665,8 +667,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.12.0":
-  version "2.12.1000557"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.12.1000557.tgz#a44acf55353afe94e272236f3f4feb7732a50aae"
+  version "2.12.1000558"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.12.1000558.tgz#40b4a78eec447af806224f9025d894dffc0796d6"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.9.0"
@@ -726,16 +728,16 @@
     redux "~3.7.2"
 
 "@folio/tags@>=1.1.0":
-  version "1.3.200035"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-1.3.200035.tgz#9703e9788c0c7df2d95a92227e19442eaa6acf9a"
+  version "1.3.200036"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-1.3.200036.tgz#f26f91f0db32ddc208783530eba3138b74b38193"
   dependencies:
     prop-types "^15.5.10"
     react-intl "^2.7.2"
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "2.14.100051"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.14.100051.tgz#58aa5e40bce9d5adf8e4f3a912cd6de295674746"
+  version "2.14.100052"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.14.100052.tgz#f9680e9ef4771b54d3d4ebb3f7f319a20e923255"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
