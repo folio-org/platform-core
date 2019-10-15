@@ -352,8 +352,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000621"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000621.tgz#d71cc40b4f5cd279592a42e5d4b4bff216cdca31"
+  version "1.13.1000624"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000624.tgz#e10f08d086fceda08ddf8d7b116ff30e5060c0c0"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
