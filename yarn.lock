@@ -7047,8 +7047,8 @@ node-pre-gyp@^0.12.0:
     tar "^4"
 
 node-releases@^1.1.29:
-  version "1.1.35"
-  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.35.tgz#32a74a3cd497aa77f23d509f483475fd160e4c48"
+  version "1.1.36"
+  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.36.tgz#44b7cb8254138e87bdbfa47761d0f825e20900b4"
   dependencies:
     semver "^6.3.0"
 
@@ -7667,8 +7667,8 @@ pngjs@^3.0.0, pngjs@^3.2.0, pngjs@^3.3.3:
   resolved "https://repository.folio.org/repository/npm-ci-all/pngjs/-/pngjs-3.4.0.tgz#99ca7d725965fb655814eaf65f38f12bbdbf555f"
 
 popper.js@^1.14.6, popper.js@^1.15.0:
-  version "1.15.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/popper.js/-/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
+  version "1.16.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/popper.js/-/popper.js-1.16.0.tgz#2e1816bcbbaa518ea6c2e15a466f4cb9c6e2fbb3"
 
 portfinder@^1.0.13:
   version "1.0.25"
