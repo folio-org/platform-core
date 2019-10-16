@@ -8635,8 +8635,8 @@ react-titled@^1.0.0:
     react-test-renderer "^16.3.1"
 
 react-to-print@^2.3.2:
-  version "2.4.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-to-print/-/react-to-print-2.4.0.tgz#8f33c9627536501035fc7557d3ad0272df1bcb6b"
+  version "2.5.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-to-print/-/react-to-print-2.5.0.tgz#1aabdf18fd9b10b85311e16e8a7a81a441ee2a09"
   dependencies:
     prop-types "^15.7.2"
 
