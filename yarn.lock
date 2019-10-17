@@ -312,8 +312,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/circulation@>=1.3.0":
-  version "1.11.1000373"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.11.1000373.tgz#2aada2a3dffcb2e796dd32e89b5b04c3f79f5e2d"
+  version "1.11.1000374"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.11.1000374.tgz#331df983b32ac55c83620eee806967169d83dcef"
   dependencies:
     html-to-react "^1.3.3"
     lodash "^4.17.4"
