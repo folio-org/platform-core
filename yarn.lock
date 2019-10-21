@@ -994,8 +994,8 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@restart/hooks/-/hooks-0.3.14.tgz#1e0f045aadf0b06229b58eeba91351d90fb9452a"
 
 "@types/node@>=6":
-  version "12.11.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.11.1.tgz#1fd7b821f798b7fa29f667a1be8f3442bb8922a3"
+  version "12.11.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.11.2.tgz#75ba3beda30d690b89a5089ca1c6e8e386150b76"
 
 "@types/node@^8.0.24":
   version "8.10.55"
