@@ -6973,8 +6973,8 @@ no-case@^2.2.0:
     lower-case "^1.1.1"
 
 node-abi@^2.7.0:
-  version "2.11.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/node-abi/-/node-abi-2.11.0.tgz#b7dce18815057544a049be5ae75cd1fdc2e9ea59"
+  version "2.12.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/node-abi/-/node-abi-2.12.0.tgz#40e9cfabdda1837863fa825e7dfa0b15686adf6f"
   dependencies:
     semver "^5.4.1"
 
