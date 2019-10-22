@@ -747,8 +747,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.1000810"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000810.tgz#d4cea5dc105d13fd3a45727662e435de98361e75"
+  version "2.26.1000811"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000811.tgz#4a028e1fcf8665d5db855747de23f916ad02ee75"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -5282,8 +5282,8 @@ https-browserify@^1.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
 
 https-proxy-agent@^2.2.1:
-  version "2.2.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/https-proxy-agent/-/https-proxy-agent-2.2.2.tgz#271ea8e90f836ac9f119daccd39c19ff7dfb0793"
+  version "2.2.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/https-proxy-agent/-/https-proxy-agent-2.2.3.tgz#fb6cd98ed5b9c35056b5a73cd01a8a721d7193d1"
   dependencies:
     agent-base "^4.3.0"
     debug "^3.1.0"
