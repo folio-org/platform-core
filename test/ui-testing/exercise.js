@@ -7,7 +7,6 @@ module.exports.test = (uiTestCtx) => {
     const nightmare = new Nightmare(config.nightmare);
     this.timeout(Number(config.test_timeout));
 
-    let username = '';
     let userBarcode = '';
     let openLoans = -1;
     let closedLoans = -1;
@@ -56,37 +55,11 @@ module.exports.test = (uiTestCtx) => {
       });
 
       it('should find an active user', (done) => {
-        nightmare
-          .wait('#clickable-filter-active-active')
-          .click('#clickable-filter-active-active')
-          .wait('#clickable-filter-pg-faculty')
-          .click('#clickable-filter-pg-faculty')
-          .wait('#list-users:not([data-total-count="0"])')
-          .wait('#list-users div[role="row"][aria-rowindex="2"]')
-          .evaluate(() => {
-            const ubc = [];
-            const list = document.querySelectorAll('#list-users div[role="row"]');
-            list.forEach((node) => {
-              const status = node.querySelector('div:nth-child(1)').innerText;
-              const barcode = node.querySelector('div:nth-child(3)').innerText;
-              const un = node.querySelector('div:nth-child(5)').innerText;
-              const anchor = node.querySelector('a');
-              if (anchor && barcode && RegExp(/^\d+$/).test(barcode) && status.match(/Active/)) {
-                const uuid = anchor.href.replace(/.+?([^/]+)\?.*/, '$1');
-                ubc.push({
-                  barcode,
-                  uuid,
-                  username: un,
-                });
-              }
-            });
-            return ubc;
-          })
-          .then((result) => {
+        helpers.findActiveUserBarcode(nightmare, 'faculty')
+          .then(bc => {
             done();
-            username = result[0].username;
-            userBarcode = result[0].barcode;
-            console.log(`          Found user ${username}/${userBarcode}`);
+            console.log(`\t    Found user ${bc}`);
+            userBarcode = bc;
           })
           .catch(done);
       });
@@ -100,9 +73,9 @@ module.exports.test = (uiTestCtx) => {
           .insert('#input-user-search', userBarcode)
           .wait('button[type=submit]')
           .click('button[type=submit]')
-          .wait('#list-users[data-total-count="1"]')
-          .wait('#list-users div[role="row"][aria-rowindex="2"] > a')
-          .click('#list-users div[role="row"][aria-rowindex="2"] > a')
+          .wait('#list-users[aria-rowcount="2"]')
+          .wait('#list-users a[role="row"][aria-rowindex="2"]')
+          .click('#list-users a[role="row"][aria-rowindex="2"]')
           .wait('#clickable-viewcurrentloans')
           .evaluate(() => document.querySelector('#clickable-viewcurrentloans').textContent)
           .then((result) => {
@@ -132,36 +105,7 @@ module.exports.test = (uiTestCtx) => {
       });
 
       it(`should check out ${barcode}`, (done) => {
-        nightmare
-          .wait('#input-patron-identifier')
-          .type('#input-patron-identifier', userBarcode)
-          .wait(1000)
-          .wait('#clickable-find-patron')
-          .click('#clickable-find-patron')
-          .wait(() => {
-            const err = document.querySelector('#patron-form div[class^="textfieldError"]');
-            const yay = document.querySelector('#patron-form ~ div a > strong');
-            if (err) {
-              throw new Error(err.textContent);
-            } else if (yay) {
-              return true;
-            } else {
-              return false;
-            }
-          })
-          .wait('#input-item-barcode')
-          .type('#input-item-barcode', barcode)
-          .wait('#clickable-add-item')
-          .click('#clickable-add-item')
-          .wait(bc => {
-            return !!(Array.from(document.querySelectorAll('#list-items-checked-out div[role="row"] div[role="gridcell"]'))
-              .find(e => `${bc}` === e.textContent)); // `${}` forces string interpolation for numeric barcodes
-          }, barcode)
-          .then(done)
-          .catch(e => {
-            console.error(e);
-            done();
-          });
+        helpers.checkout(nightmare, done, barcode, userBarcode);
       });
 
       it('should navigate to users', (done) => {
@@ -177,9 +121,9 @@ module.exports.test = (uiTestCtx) => {
           .insert('#input-user-search', userBarcode)
           .wait('button[type=submit]')
           .click('button[type=submit]')
-          .wait('#list-users[data-total-count="1"]')
-          .wait('#list-users div[role="row"][aria-rowindex="2"] > a')
-          .click('#list-users div[role="row"][aria-rowindex="2"] > a')
+          .wait('#list-users[aria-rowcount="2"]')
+          .wait('#list-users a[role="row"][aria-rowindex="2"]')
+          .click('#list-users a[role="row"][aria-rowindex="2"]')
           .wait('#clickable-viewcurrentloans')
           .evaluate(() => document.querySelector('#clickable-viewcurrentloans').textContent)
           .then((result) => {
@@ -196,11 +140,11 @@ module.exports.test = (uiTestCtx) => {
           .wait('#clickable-viewcurrentloans')
           .click('#clickable-viewcurrentloans')
           .wait(bc => {
-            return !!(Array.from(document.querySelectorAll('#list-loanshistory div[role="gridcell"]'))
+            return !!(Array.from(document.querySelectorAll('#list-loanshistory [role="gridcell"]'))
               .find(e => e.textContent === `${bc}`));
           }, barcode)
-          .wait('div[class*="LayerRoot"] button[icon="times"][class*="iconButton"]')
-          .click('div[class*="LayerRoot"] button[icon="times"][class*="iconButton"]')
+          .wait('#users-module-display button[icon="times"][class*="iconButton"]')
+          .click('#users-module-display button[icon="times"][class*="iconButton"]')
           .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 555) // debugging
           .then(done)
           .catch(done);
@@ -218,7 +162,7 @@ module.exports.test = (uiTestCtx) => {
           .click('#clickable-add-item')
           .wait('#list-items-checked-in')
           .wait(bc => {
-            return !!(Array.from(document.querySelectorAll('#list-items-checked-in div[role="gridcell"]'))
+            return !!(Array.from(document.querySelectorAll('#list-items-checked-in [role="gridcell"]'))
               .find(e => e.textContent === `${bc}`));
           }, barcode)
           .then(done)
@@ -248,11 +192,11 @@ module.exports.test = (uiTestCtx) => {
           .wait('#clickable-viewclosedloans')
           .click('#clickable-viewclosedloans')
           .wait(bc => {
-            return !!(Array.from(document.querySelectorAll('#list-loanshistory div[role="gridcell"]'))
+            return !!(Array.from(document.querySelectorAll('#list-loanshistory [role="gridcell"]'))
               .find(e => e.textContent === `${bc}`));
           }, barcode)
-          .wait('div[class*="LayerRoot"] button[icon="times"][class*="iconButton"]')
-          .click('div[class*="LayerRoot"] button[icon="times"][class*="iconButton"]')
+          .wait('#users-module-display button[icon="times"][class*="iconButton"]')
+          .click('#users-module-display button[icon="times"][class*="iconButton"]')
           .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 555) // debugging
           .then(done)
           .catch(done);

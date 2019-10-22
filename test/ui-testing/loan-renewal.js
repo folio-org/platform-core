@@ -3,7 +3,7 @@
 const moment = require('moment');
 
 module.exports.test = (uiTestCtx) => {
-  describe('Tests to validate the loan renewals', function descRoot() {
+  describe('Tests to validate the loan renewals ("loan-renewal")', function descRoot() {
     const { config, helpers } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
     this.timeout(Number(config.test_timeout));
@@ -24,7 +24,6 @@ module.exports.test = (uiTestCtx) => {
     };
 
     let userid = 'user';
-    const uselector = '#list-users div[role="row"][aria-rowindex="2"] > a > div:nth-of-type(3)';
     const policyName = `test-policy-${Math.floor(Math.random() * 10000)}`;
     const scheduleName = `test-schedule-${Math.floor(Math.random() * 10000)}`;
     const noticePolicyName = `test-notice-policy-${Math.floor(Math.random() * 10000)}`;
@@ -255,22 +254,11 @@ module.exports.test = (uiTestCtx) => {
           });
 
           it('should find an active user ', (done) => {
-            nightmare
-              .wait(1111)
-              .wait('#input-user-search')
-              .type('#input-user-search', '0')
-              .wait('#clickable-reset-all')
-              .click('#clickable-reset-all')
-              .wait('#clickable-filter-active-active')
-              .click('#clickable-filter-active-active')
-              .wait('#clickable-filter-pg-faculty')
-              .click('#clickable-filter-pg-faculty')
-              .wait(uselector)
-              .evaluate(selector => document.querySelector(selector).textContent, uselector)
-              .then((result) => {
+            helpers.findActiveUserBarcode(nightmare, 'faculty')
+              .then(bc => {
                 done();
-                console.log(`\t    Found user ${result}`);
-                userid = result;
+                console.log(`\t    Found user ${bc}`);
+                userid = bc;
               })
               .catch(done);
           });
@@ -287,7 +275,7 @@ module.exports.test = (uiTestCtx) => {
           // if we don't wait a second after creating the item record,
           // we seem to get stuck there and cannot navigate to checkout.
           // does this make any sense at all? no. no it does not. and yet.
-          it('should navigate to checkoout', (done) => {
+          it('should navigate to checkout', (done) => {
             helpers.clickApp(nightmare, done, 'checkout', 1000);
           });
 
@@ -310,8 +298,8 @@ module.exports.test = (uiTestCtx) => {
               .insert('#input-user-search', userid)
               .wait('button[type=submit]')
               .click('button[type=submit]')
-              .wait('#list-users[data-total-count="1"] div[role="row"] > a')
-              .click('#list-users[data-total-count="1"] div[role="row"] > a')
+              .wait('#list-users[data-total-count="1"] a[role="row"]')
+              .click('#list-users[data-total-count="1"] a[role="row"]')
               .wait('#clickable-viewcurrentloans')
               .click('#clickable-viewcurrentloans')
               .wait('#list-loanshistory:not([data-total-count="0"])')
