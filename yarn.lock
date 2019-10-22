@@ -261,8 +261,8 @@
     to-fast-properties "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "2.5.100013"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.5.100013.tgz#5604b5f81b2add1a63a19f59da6780a8cbd81fec"
+  version "2.5.100015"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.5.100015.tgz#9a7e9b702d18b404f0d65fd89c73eb5d023dee02"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     dateformat "^2.0.0"
@@ -295,8 +295,8 @@
     redux-form "^7.0.3"
 
 "@folio/checkout@>=1.3.0":
-  version "1.12.1000327"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.12.1000327.tgz#83061a1e671606d0f3907b317a681fb8f3c590bb"
+  version "1.12.1000328"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.12.1000328.tgz#b1850aef85b1bcd23843e3a6f012fc43b675ae9a"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
@@ -327,8 +327,8 @@
     redux-form "^7.0.3"
 
 "@folio/developer@>=1.5.0":
-  version "1.10.100058"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-1.10.100058.tgz#42d7f6475904667961683907f306a6de73f6dfab"
+  version "1.10.100059"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-1.10.100059.tgz#cf929c8b2359ed38c01d021ec07c77062a53129a"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -351,8 +351,8 @@
     webpack "^4.0.0"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000628"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000628.tgz#0991e186513aca327dd9a64020cfb2180e6c3538"
+  version "1.13.1000629"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000629.tgz#4e451658c922d59cb9af3c69dfb52eed9ebabf1b"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -666,8 +666,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.12.0":
-  version "2.12.1000560"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.12.1000560.tgz#1c422696ead6ac0f168407496e79714731fcfdf1"
+  version "2.12.1000561"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.12.1000561.tgz#83be3398e186d2fef7287e60f95a2b2539282b99"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.9.0"
@@ -747,8 +747,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.1000813"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000813.tgz#f438471529067b39bd9602e44ce6001fb0887441"
+  version "2.26.1000814"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000814.tgz#8eb6ff5853ca86696ac68a961ab44382d857caf6"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
