@@ -403,8 +403,8 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.14.1000346"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000346.tgz#28e580a41d9ff5b09aac7a8b0bb84622089a90cc"
+  version "1.14.1000348"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000348.tgz#36f63c5514075efedc8e94abaf32b4ffa72a3132"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     isomorphic-fetch "^2.2.1"
@@ -488,8 +488,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.9.0":
-  version "5.9.1000891"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000891.tgz#766be6d56d9031fd45d12fa2d0f0f9cd58168aaf"
+  version "5.9.1000892"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000892.tgz#f6faa423950ca58c953af9a87f414b84e18d6f9f"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
