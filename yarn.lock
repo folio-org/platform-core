@@ -8496,8 +8496,8 @@ react-intl@^2.3.0, react-intl@^2.4.0, react-intl@^2.5.0, react-intl@^2.7.0, reac
     invariant "^2.1.1"
 
 react-is@^16.3.2, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
-  version "16.10.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-is/-/react-is-16.10.2.tgz#984120fd4d16800e9a738208ab1fba422d23b5ab"
+  version "16.11.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-is/-/react-is-16.11.0.tgz#b85dfecd48ad1ce469ff558a882ca8e8313928fa"
 
 react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.2, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
@@ -8607,13 +8607,13 @@ react-svg-loader@^3.0.3:
     react-svg-core "^3.0.3"
 
 react-test-renderer@^16.3.1:
-  version "16.10.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-test-renderer/-/react-test-renderer-16.10.2.tgz#4d8492f8678c9b43b721a7d79ed0840fdae7c518"
+  version "16.11.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-test-renderer/-/react-test-renderer-16.11.0.tgz#72574566496462c808ac449b0287a4c0a1a7d8f8"
   dependencies:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     react-is "^16.8.6"
-    scheduler "^0.16.2"
+    scheduler "^0.17.0"
 
 react-tether@^1.0.1:
   version "1.0.4"
@@ -9170,9 +9170,9 @@ scheduler@^0.13.6:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-scheduler@^0.16.2:
-  version "0.16.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/scheduler/-/scheduler-0.16.2.tgz#f74cd9d33eff6fc554edfb79864868e4819132c1"
+scheduler@^0.17.0:
+  version "0.17.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/scheduler/-/scheduler-0.17.0.tgz#7c9c673e4ec781fac853927916d1c426b6f3ddfe"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
