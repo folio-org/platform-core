@@ -312,8 +312,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/circulation@>=1.3.0":
-  version "1.11.1000375"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.11.1000375.tgz#7fa60ec303a3ec5c6127c88f4a7a26b28e4153c5"
+  version "1.11.1000376"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.11.1000376.tgz#c299f3d740b2c8461465db76af02cabf52414e2d"
   dependencies:
     html-to-react "^1.3.3"
     lodash "^4.17.4"
@@ -747,8 +747,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.1000814"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000814.tgz#8eb6ff5853ca86696ac68a961ab44382d857caf6"
+  version "2.26.1000815"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000815.tgz#32d805bb9b2b5cdc7f38a67e08e1ef1c627a78fc"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -7041,8 +7041,8 @@ node-pre-gyp@^0.12.0:
     tar "^4"
 
 node-releases@^1.1.36:
-  version "1.1.37"
-  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.37.tgz#af787db03833a7cda5d197cbb8262d5527270bd8"
+  version "1.1.38"
+  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.38.tgz#d81b365df2936654ba37f509ba2fbe91eff2578b"
   dependencies:
     semver "^6.3.0"
 
