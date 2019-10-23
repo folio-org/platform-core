@@ -238,7 +238,7 @@ module.exports.test = (uiTestCtx) => {
           });
 
           it('Apply the loan policy created as a circulation rule to material-type book', (done) => {
-            const rules = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r ${requestPolicyName} n ${noticePolicyName} \nm book: l ${policyName} r ${requestPolicyName} n ${noticePolicyName}`;
+            const rules = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r ${requestPolicyName} n ${noticePolicyName} o overdue-test\nm book: l ${policyName} r ${requestPolicyName} n ${noticePolicyName} o overdue-test`;
             helpers.setCirculationRules(nightmare, rules)
               .then(oldRules => {
                 loanRules = oldRules;

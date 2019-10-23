@@ -29,7 +29,7 @@ module.exports.test = function uiTest(uiTestCtx) {
       });
 
       it('should configure default circulation rules', (done) => {
-        const newRules = 'priority: t, s, c, b, a, m, g\nfallback-policy: l one-hour r hold-only n basic-notice-policy \nm book: l example-loan-policy r allow-all n alternate-notice-policy';
+        const newRules = 'priority: t, s, c, b, a, m, g\nfallback-policy: l one-hour r hold-only n basic-notice-policy o overdue-test\nm book: l example-loan-policy r allow-all n alternate-notice-policy o overdue-test';
         setCirculationRules(nightmare, newRules)
           .then(oldRules => {
             initialRules = oldRules;
