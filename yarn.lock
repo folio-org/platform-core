@@ -990,8 +990,8 @@
     core-js "^2.5.7"
 
 "@restart/hooks@^0.3.12":
-  version "0.3.14"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@restart/hooks/-/hooks-0.3.14.tgz#1e0f045aadf0b06229b58eeba91351d90fb9452a"
+  version "0.3.15"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@restart/hooks/-/hooks-0.3.15.tgz#17cb37a272dfb9cbacf83614a5a7170e68f17d75"
 
 "@types/node@>=6":
   version "12.11.5"
