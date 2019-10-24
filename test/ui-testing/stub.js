@@ -1,4 +1,3 @@
-/* global it describe */
 module.exports.test = (uiTestCtx, nightmare) => {
   describe(`Load ${uiTestCtx.config.url} ("stub")`, function runMain() {
     const { config, helpers } = uiTestCtx;
