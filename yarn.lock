@@ -261,8 +261,8 @@
     to-fast-properties "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "2.5.100015"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.5.100015.tgz#9a7e9b702d18b404f0d65fd89c73eb5d023dee02"
+  version "2.6.100016"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.6.100016.tgz#abc0bedcc13bc6055f42c2838919b1c11fafa69e"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     dateformat "^2.0.0"
