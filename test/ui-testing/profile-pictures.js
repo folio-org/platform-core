@@ -1,5 +1,3 @@
-/* global it describe */
-
 /*
  Test for Settings > Users > Profile Picture
  1) login

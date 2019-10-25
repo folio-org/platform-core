@@ -1,4 +1,3 @@
-/* global it describe Nightmare before after */
 module.exports.test = function foo(uiTestCtx) {
   describe('User proxies ("new-proxy")', function bar() {
     const { config, helpers: { login, clickApp, logout } } = uiTestCtx;
