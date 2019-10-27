@@ -1,5 +1,3 @@
-/* global it describe Nightmare before after */
-
 module.exports.test = function uiTest(uiTestCtx) {
   describe('New request ("new-request")', function modTest() {
     const { config, helpers: { login, clickApp, clickSettings, createInventory, setCirculationRules, checkout, logout } } = uiTestCtx;
