@@ -25,28 +25,14 @@ module.exports.test = (uiTestCtx) => {
       });
 
       let initialRules = '';
-      it('should configure default circulation rules', (done) => {
-        nightmare
-          .wait('a[href="/settings/circulation"]')
-          .click('a[href="/settings/circulation"]')
-          .wait('a[href="/settings/circulation/rules"]')
-          .click('a[href="/settings/circulation/rules"]')
-          .wait('#form-loan-rules')
-          .wait(1000)
-          .evaluate(() => {
-            const defaultRules = document.getElementsByClassName('CodeMirror')[0].CodeMirror.getValue();
-            const value = 'priority: t, s, c, b, a, m, g\nfallback-policy: l one-hour r hold-only n basic-notice-policy \nm book: l example-loan-policy r allow-all n alternate-notice-policy';
-            document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(value);
-            return defaultRules;
+
+      it('should configure circulation rules', (done) => {
+        const rules = 'priority: t, s, c, b, a, m, g\nfallback-policy: l one-hour r hold-only n basic-notice-policy o test-overdue \nm book: l example-loan-policy r allow-all n alternate-notice-policy o test-overdue';
+        helpers.setCirculationRules(nightmare, rules)
+          .then(oldRules => {
+            initialRules = oldRules;
           })
-          .then((rules) => {
-            nightmare
-              .wait('#clickable-save-loan-rules')
-              .click('#clickable-save-loan-rules')
-              .then(done)
-              .catch(done);
-            initialRules = rules;
-          })
+          .then(done)
           .catch(done);
       });
 
@@ -206,25 +192,9 @@ module.exports.test = (uiTestCtx) => {
         helpers.clickSettings(nightmare, done);
       });
 
-      it('should restore initial circulation rules', (done) => {
-        nightmare
-          .wait('a[href="/settings/circulation"]')
-          .click('a[href="/settings/circulation"]')
-          .wait('a[href="/settings/circulation/rules"]')
-          .click('a[href="/settings/circulation/rules"]')
-          .wait('#form-loan-rules')
-          .wait(1000)
-          .evaluate((r) => {
-            document.getElementsByClassName('CodeMirror')[0].CodeMirror.setValue(r);
-            return r;
-          }, initialRules)
-          .then(() => {
-            nightmare
-              .wait('#clickable-save-loan-rules')
-              .click('#clickable-save-loan-rules')
-              .then(done)
-              .catch(done);
-          })
+      it('should restore the circulation rules', (done) => {
+        helpers.setCirculationRules(nightmare, initialRules)
+          .then(() => done())
           .catch(done);
       });
 
