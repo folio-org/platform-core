@@ -161,8 +161,8 @@ module.exports.test = (uiTestCtx) => {
               .type('#notice_policy_name', noticePolicyName)
               .wait('#notice_policy_active')
               .check('#notice_policy_active')
-              .wait('#clickable-save-entry')
-              .click('#clickable-save-entry')
+              .wait('#footer-save-entity')
+              .click('#footer-save-entity')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="textfieldError"]');
@@ -340,7 +340,7 @@ module.exports.test = (uiTestCtx) => {
                   .wait('#bulk-renewal-modal')
                   .wait(333)
                   .evaluate(() => {
-                    const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
+                    const errorMsg = document.querySelectorAll('#bulk-renewal-modal [role="gridcell"]')[0].textContent;
                     if (errorMsg === null) {
                       throw new Error('Should throw an error as the renewalLimit is reached');
                     } else if (!errorMsg.match('Item not renewed:loan at maximum renewal number')) {
@@ -369,7 +369,7 @@ module.exports.test = (uiTestCtx) => {
               .catch(done);
           });
 
-          it('Edit loan policy to renew from system datel', (done) => {
+          it('edit loan policy to renew from system datel', (done) => {
             nightmare
               .wait('div.hasEntries')
               .evaluate((pn) => {
@@ -425,11 +425,12 @@ module.exports.test = (uiTestCtx) => {
                   .wait('#bulk-renewal-modal')
                   .wait(1000)
                   .evaluate(() => {
+                    const expectedMessage = 'Item not renewed:renewal would not change the due date';
                     const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
                     if (errorMsg === null) {
                       throw new Error('Should throw an error as the renewalLimit is reached');
-                    } else if (!errorMsg.match('Item not renewed:renewal would not change the due date')) {
-                      throw new Error('Expected only the renewal failure error message');
+                    } else if (!errorMsg.match(expectedMessage)) {
+                      throw new Error(`Expected "${expectedMessage}"; got "${errorMsg}"`);
                     }
                   })
                   .then(done)
@@ -475,7 +476,7 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Assign fixed due date schedule to loan policy', () => {
-          it(`Assign the fixed due date schedule (${scheduleName}) to the loan policy`, (done) => {
+          it(`assign the fixed due date schedule (${scheduleName}) to the loan policy`, (done) => {
             nightmare
               .wait('a[href="/settings/circulation/loan-policies"]')
               .click('a[href="/settings/circulation/loan-policies"]')
@@ -628,8 +629,8 @@ module.exports.test = (uiTestCtx) => {
           });
         });
 
-        describe('Delete fixedDueDateSchedule', () => {
-          it('should delete the fixedDueDateSchedule', (done) => {
+        describe('Delete fixed due date schedule', () => {
+          it('should delete the fixed due date schedule', (done) => {
             nightmare
               .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
