@@ -9,6 +9,7 @@ const exercise = require('./exercise');
 const loanRenewal = require('./loan-renewal');
 const newProxy = require('./new-proxy');
 const newRequest = require('./new-request');
+const manyItems = require('./many-items');
 // const location = require('./location');
 // const profilePictures = require('./profile-pictures');
 // const stub = require('./stub');
@@ -23,6 +24,7 @@ module.exports.test = (uiTestCtx, nightmare) => {
     codexSearch,
     dependencies,
     exercise,
+    manyItems,
     // inventorySearch,
     loanRenewal,
     newProxy,
