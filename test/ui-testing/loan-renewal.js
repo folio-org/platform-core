@@ -121,8 +121,8 @@ module.exports.test = (uiTestCtx) => {
               .type('#input_allowed_renewals', renewalLimit)
               .wait('#select_renew_from')
               .type('#select_renew_from', 'cu')
-              .wait('#clickable-save-entry')
-              .click('#clickable-save-entry')
+              .wait('#footer-save-entity')
+              .click('#footer-save-entity')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="textfieldError"]');
@@ -131,7 +131,7 @@ module.exports.test = (uiTestCtx) => {
                 }
               })
               .wait(() => {
-                return !document.querySelector('#clickable-save-entry');
+                return !document.querySelector('#footer-save-entity');
               })
               .then(done)
               .catch(done);
@@ -171,7 +171,7 @@ module.exports.test = (uiTestCtx) => {
                 }
               })
               .wait(() => {
-                return !document.querySelector('#clickable-save-entry');
+                return !document.querySelector('#footer-save-entity');
               })
               .then(done)
               .catch(done);
