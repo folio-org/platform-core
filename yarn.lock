@@ -8778,8 +8778,8 @@ react-test-renderer@^16.3.1:
     scheduler "^0.17.0"
 
 react-tether@^1.0.1:
-  version "1.0.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-tether/-/react-tether-1.0.4.tgz#a1f0973391ba4c3c2b5c38d5be16c42f0fd96759"
+  version "1.0.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-tether/-/react-tether-1.0.5.tgz#6d106e0039b1aa0e14d1266925486cd9cff2d217"
   dependencies:
     prop-types "^15.6.2"
     tether "^1.4.5"
