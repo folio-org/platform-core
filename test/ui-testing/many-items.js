@@ -16,7 +16,7 @@ module.exports.test = (uiTestCtx) => {
     });
 
     describe(`create ${count} item records`, () => {
-      barcodes = helpers.createNInventory(nightmare, config, 'L’Apprenti sorcier / Paul Dukas', 7);
+      barcodes = helpers.createNInventory(nightmare, config, 'L’Apprenti sorcier / Paul Dukas', count);
     });
 
     describe('retrieve an active user', () => {
