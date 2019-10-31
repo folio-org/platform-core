@@ -413,11 +413,10 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.14.1000353"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000353.tgz#b982397a18c32cdd32ce9c2dfe41198f2814db7e"
+  version "1.14.1000354"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000354.tgz#b8384bba1b0b38bff0b7e3ca26560e2e9ab7f6ad"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
-    isomorphic-fetch "^2.2.1"
     lodash "^4.17.4"
     moment-timezone "^0.5.14"
     prop-types "^15.5.10"
