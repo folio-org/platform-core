@@ -319,8 +319,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/circulation@>=1.3.0":
-  version "1.11.1000386"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.11.1000386.tgz#6d6d27e86bbc26772e81dfb392f91e48ed0b1d0f"
+  version "1.11.1000387"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.11.1000387.tgz#9a48590073da74453087f4a9d3bd5dce422549fa"
   dependencies:
     html-to-react "^1.3.3"
     lodash "^4.17.4"
@@ -360,8 +360,8 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000649"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000649.tgz#ddcbf0fa904ceff85db5895ff7097745a2cd1b7a"
+  version "1.13.1000653"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000653.tgz#b2e819d9f660b8ef7572a2200c4d441441b65c75"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -760,8 +760,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.1000835"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000835.tgz#c5f67353efe5eeab7c1358018759d0623eb95642"
+  version "2.26.1000837"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000837.tgz#d13749ecf223f3c4ad6264ed85f9d9b52b812d02"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -4702,8 +4702,8 @@ flatted@^2.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/flatted/-/flatted-2.0.1.tgz#69e57caa8f0eacbc281d2e2cb458d46fdb449e08"
 
 flatten@^1.0.2:
-  version "1.0.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
+  version "1.0.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/flatten/-/flatten-1.0.3.tgz#c1283ac9f27b368abc1e36d1ff7b04501a30356b"
 
 flexboxgrid@^6.3.0:
   version "6.3.1"
