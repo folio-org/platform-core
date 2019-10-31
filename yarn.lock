@@ -360,8 +360,8 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000655"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000655.tgz#25e092437c06f65d79a4e2a44afed093adc68ca9"
+  version "1.13.1000657"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000657.tgz#13c630140834515394313c027f948b1436567c6d"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -3157,8 +3157,8 @@ core-js@^2.2.0, core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7, core-js@^2.6.5:
   resolved "https://repository.folio.org/repository/npm-ci-all/core-js/-/core-js-2.6.10.tgz#8a5b8391f8cc7013da703411ce5b585706300d7f"
 
 core-js@^3.0.1:
-  version "3.3.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/core-js/-/core-js-3.3.5.tgz#58d20f48a95a07304b62ff752742b82b56431ed8"
+  version "3.3.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/core-js/-/core-js-3.3.6.tgz#6ad1650323c441f45379e176ed175c0d021eac92"
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
