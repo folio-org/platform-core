@@ -7,7 +7,7 @@ module.exports.test = (uiTestCtx) => {
     const title = 'Bridget Jones';
     let resultCount = 0;
 
-    describe('Login > Codex Search > Filtering Results > Reset Search > Logout > Wang chung\n', () => {
+    describe('Login > Codex Search > Filtering Results > Reset Search > Logout\n', () => {
       it(`should login as ${config.username}/${config.password}`, (done) => {
         helpers.login(nightmare, config, done);
       });
