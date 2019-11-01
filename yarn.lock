@@ -759,8 +759,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.1000837"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000837.tgz#d13749ecf223f3c4ad6264ed85f9d9b52b812d02"
+  version "2.26.1000838"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000838.tgz#ae53b006e71ac81fd602c1b040c9a9e188a49efb"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -3847,8 +3847,8 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.295, electron-to-chromium@^1.3.47:
-  version "1.3.297"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.297.tgz#e28621c1b36c0c4556fdc70b4f4a7fe16a1866e3"
+  version "1.3.298"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.298.tgz#6f2b09c9b4ffca6a6745d80272dad987bcf5689c"
 
 electron@^2.0.18:
   version "2.0.18"
