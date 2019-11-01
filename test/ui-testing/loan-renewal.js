@@ -369,7 +369,7 @@ module.exports.test = (uiTestCtx) => {
               .catch(done);
           });
 
-          it('edit loan policy to renew from system datel', (done) => {
+          it('edit loan policy to renew from system date', (done) => {
             nightmare
               .wait('div.hasEntries')
               .evaluate((pn) => {
@@ -395,8 +395,8 @@ module.exports.test = (uiTestCtx) => {
                   .type('#input_allowed_renewals', 2)
                   .wait('#select_renew_from')
                   .select('#select_renew_from', 'SYSTEM_DATE')
-                  .wait('#clickable-save-entry')
-                  .click('#clickable-save-entry')
+                  .wait('#footer-save-entity')
+                  .click('#footer-save-entity')
                   .wait(1000)
                   .evaluate(() => {
                     const sel = document.querySelector('div[class^="textfieldError"]');
@@ -404,6 +404,7 @@ module.exports.test = (uiTestCtx) => {
                       throw new Error(sel.textContent);
                     }
                   })
+                  .wait(() => !document.querySelector('#footer-save-entity'))
                   .then(done)
                   .catch(done);
               })
@@ -506,8 +507,8 @@ module.exports.test = (uiTestCtx) => {
                   .type('#input_loansPolicy_fixedDueDateSchedule', scheduleName)
                   .wait('select[name="loansPolicy.closedLibraryDueDateManagementId"]')
                   .type('select[name="loansPolicy.closedLibraryDueDateManagementId"]', 'keep')
-                  .wait('#clickable-save-entry')
-                  .click('#clickable-save-entry')
+                  .wait('#footer-save-entity')
+                  .click('#footer-save-entity')
                   .wait(1000)
                   .evaluate(() => {
                     const sel = document.querySelector('div[class^="feedbackError"]');
@@ -515,6 +516,7 @@ module.exports.test = (uiTestCtx) => {
                       throw new Error(sel.textContent);
                     }
                   })
+                  .wait(() => !document.querySelector('#footer-save-entity'))
                   .then(done)
                   .catch(done);
               })
