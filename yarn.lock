@@ -10598,8 +10598,8 @@ vinyl@^2.2.0:
     replace-ext "^1.0.0"
 
 vm-browserify@^1.0.1:
-  version "1.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/vm-browserify/-/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
+  version "1.1.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/vm-browserify/-/vm-browserify-1.1.1.tgz#9d81bf6c0a56ba3c6e787b2e56d48ac0b003574a"
 
 void-elements@^2.0.0:
   version "2.0.1"
