@@ -193,8 +193,8 @@
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
 "@babel/runtime-corejs2@^7.4.5":
-  version "7.6.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime-corejs2/-/runtime-corejs2-7.6.3.tgz#de3f446b3fb688b98cbd220474d1a7cad909bcb8"
+  version "7.7.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime-corejs2/-/runtime-corejs2-7.7.0.tgz#2cbd64c483e165f699b790ff8d8487cbea41c927"
   dependencies:
     core-js "^2.6.5"
     regenerator-runtime "^0.13.2"
