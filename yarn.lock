@@ -759,8 +759,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.1000843"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000843.tgz#fa5efe46098f04eff39de7db6f558c47bc1fd87a"
+  version "2.26.1000844"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000844.tgz#702684f9a65294c063f16a19d99f6b089b80ce61"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -10356,8 +10356,8 @@ uglify-js@3.4.x:
     source-map "~0.6.1"
 
 uglify-js@^3.1.4:
-  version "3.6.7"
-  resolved "https://repository.folio.org/repository/npm-ci-all/uglify-js/-/uglify-js-3.6.7.tgz#15f49211df6b8a01ee91322bbe46fa33223175dc"
+  version "3.6.8"
+  resolved "https://repository.folio.org/repository/npm-ci-all/uglify-js/-/uglify-js-3.6.8.tgz#5edcbcf9d49cbb0403dc49f856fe81530d65145e"
   dependencies:
     commander "~2.20.3"
     source-map "~0.6.1"
