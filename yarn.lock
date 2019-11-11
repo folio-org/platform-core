@@ -268,8 +268,8 @@
     to-fast-properties "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "2.6.100018"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.6.100018.tgz#ab66364f212bc1a36ab81a25287f9536255e39fb"
+  version "2.6.100019"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.6.100019.tgz#159a1acbf3a55a9a3c3d0b3d789aedf5c5d75375"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     dateformat "^2.0.0"
@@ -499,8 +499,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.9.0":
-  version "5.9.1000904"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000904.tgz#c8b4c46d34c80b0a9c887f6cdee0a8de66163d4c"
+  version "5.9.1000905"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000905.tgz#2aaf60401871c8f64f4ab1ad645ffe331d9d04e8"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
