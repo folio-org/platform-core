@@ -360,8 +360,8 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000677"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000677.tgz#c8ebccc65f1b1da1e839133d246d9586c728719f"
+  version "1.13.1000678"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000678.tgz#9a8c567ff31a968dd76a68fd09d744673bf65b3e"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -544,8 +544,8 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.11.0":
-  version "3.11.1000617"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.11.1000617.tgz#3546013201fe4040d921debfc5fb63a83b8b6083"
+  version "3.11.1000618"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.11.1000618.tgz#421474105171c552589d5c8d91b4e41472543910"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.9.0"
@@ -678,8 +678,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.12.0":
-  version "2.12.1000574"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.12.1000574.tgz#4d92cfc1a3e981e03a41f34f9c1f72a6d4a6bdbe"
+  version "2.12.1000578"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.12.1000578.tgz#64eabfc302f8e1eb42b16dfbbb19c5364effcfb8"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.9.0"
