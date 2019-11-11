@@ -499,8 +499,8 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.9.0":
-  version "5.9.1000905"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000905.tgz#2aaf60401871c8f64f4ab1ad645ffe331d9d04e8"
+  version "5.9.1000906"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000906.tgz#aa2fff31a34b5e20c0c5ce6c426f8ca63732ed7f"
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -747,8 +747,8 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "2.14.100055"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.14.100055.tgz#5c3d8765ea07af74b817b5bb705246788f7d2e8d"
+  version "2.14.100057"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.14.100057.tgz#6fffb35f4918b3f6321610de6d06331e00b62b60"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
