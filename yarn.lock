@@ -268,8 +268,8 @@
     to-fast-properties "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "2.6.100019"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.6.100019.tgz#159a1acbf3a55a9a3c3d0b3d789aedf5c5d75375"
+  version "2.6.100020"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.6.100020.tgz#50fd3a7fffa7692551285dedd8f83a3c3d36f4b1"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     dateformat "^2.0.0"
@@ -759,8 +759,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.1000849"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000849.tgz#4225892a82bafd10e457e241cc2151fcd224e9c6"
+  version "2.26.1000851"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000851.tgz#65e0639f1df2dce0ca49b8e371ae7e46421b508a"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
