@@ -760,8 +760,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.1000853"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000853.tgz#fdbd214b2fc21e09099015a02586ded66ba21d3c"
+  version "2.26.1000854"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000854.tgz#4a0bc5cfeb2b841f95bafdca6baa9e2e9363295c"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -7158,8 +7158,8 @@ node-pre-gyp@^0.12.0:
     tar "^4"
 
 node-releases@^1.1.38:
-  version "1.1.39"
-  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.39.tgz#c1011f30343aff5b633153b10ff691d278d08e8d"
+  version "1.1.40"
+  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.40.tgz#a94facfa8e2d612302601ca1361741d529c4515a"
   dependencies:
     semver "^6.3.0"
 
