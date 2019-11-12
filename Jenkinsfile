@@ -23,7 +23,7 @@ pipeline {
 
   agent {
     node {
-      label 'jenkins-slave-all'
+      label 'jenkins-slave-all-node10'
     }
   }
 
