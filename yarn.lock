@@ -356,9 +356,9 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/circulation@>=1.3.0":
-  version "1.11.1000394"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.11.1000394.tgz#bca3ed11de720c0273d049c3193bbad1b25b7246"
-  integrity sha512-TKuE3YX1wE1e7vFotAvNsqxRPk/Erjqm8ZkQPYEb3YEHam4d3wNtKUGSQg3aAWaz0mieQL6AUWUWMuaFmg2qlw==
+  version "1.11.1000395"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.11.1000395.tgz#081885e3db84b6e8c62b3925736ce34db1ef81e1"
+  integrity sha512-jvhi1WNj12M8LfxHyqFmVqoPiD4cSRB1x7vl3nuw6TjsHJSSp+trTykaoc/zsJ5KH3nyV/WFNq4M9Vv4WIgbZg==
   dependencies:
     html-to-react "^1.3.3"
     lodash "^4.17.4"
@@ -458,9 +458,9 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.14.1000363"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000363.tgz#7042a994704fddabaa6d247b7e7e221fce4c18c8"
-  integrity sha512-UsUzbN9SHtAxiLIwrxakUEUr+YsBIYrclFUGEcR3w2Rjw6p91GykUBNyXt5k+aF0zwG5LCbYs3jwKovMQsjJ4Q==
+  version "1.14.1000364"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000364.tgz#f78f3c36276961dedb3279b087217709b641b9e6"
+  integrity sha512-GQ6z2EUZrOo7nTNRE3NO2NXROKlWWD8oS77kKv6u2FIUlMpXjEnfIsGL9ZClhfz4xyeJVAsS7qHthuqbeRkBuw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
