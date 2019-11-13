@@ -268,8 +268,8 @@
     to-fast-properties "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "2.6.100021"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.6.100021.tgz#9385fdb1cb690875d94ed0579fcdb402e0b1e466"
+  version "2.6.100022"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.6.100022.tgz#0f8a9d0b0db30fca8774f491e83fd0e7b03464ed"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     dateformat "^2.0.0"
@@ -748,8 +748,8 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "2.14.100059"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.14.100059.tgz#93bedff03d29c7204e9e05f2edba3345f694286f"
+  version "2.14.100060"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.14.100060.tgz#55c4472d5d83f4d87d38bf3a16c335ab0ecd0852"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
@@ -5431,8 +5431,8 @@ import-fresh@^2.0.0:
     resolve-from "^3.0.0"
 
 import-fresh@^3.0.0:
-  version "3.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/import-fresh/-/import-fresh-3.2.0.tgz#fed4d772a13949de7d9894b647e77297db14dedf"
+  version "3.2.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/import-fresh/-/import-fresh-3.2.1.tgz#633ff618506e793af5ac91bf48b72677e15cbe66"
   dependencies:
     parent-module "^1.0.0"
     resolve-from "^4.0.0"
