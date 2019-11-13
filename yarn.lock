@@ -413,8 +413,8 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.14.1000362"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000362.tgz#d2873460e8792c84aa4ffabc460605e68f903b33"
+  version "1.14.1000363"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000363.tgz#7042a994704fddabaa6d247b7e7e221fce4c18c8"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
