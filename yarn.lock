@@ -420,9 +420,9 @@
     redux-form "^7.0.3"
 
 "@folio/myprofile@>=1.1.0":
-  version "1.7.100061"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-1.7.100061.tgz#5e9a53b7ba00f54b705232cf79c7c9d4af097568"
-  integrity sha512-7TwfQwArH+DR0KPXx4bqzCDkHPHAwX71uAd8JRQ8RbHuJ2VxMNik8yCNRrncq91Id8lfhD5RbEPz8PNabYay5A==
+  version "1.7.100062"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-1.7.100062.tgz#015fd751734c233f7be0ddcbfa8bee4f368bb4f3"
+  integrity sha512-c9Az9g//3EBGYFXTFU14xhLGz6LPkki2lvYRROS4qcXEglwORuM9iOTbfo29XyX3NiFMG0LY2H+i50hnIDfqJA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     prop-types "^15.6.0"
