@@ -489,9 +489,9 @@
     react-router-dom "^4.0.0"
 
 "@folio/servicepoints@>=1.1.0":
-  version "1.4.100052"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-1.4.100052.tgz#14f66b1550d94e4b51c296136a9587d005ae1b10"
-  integrity sha512-xp08ksxpatH4VB/Kq6r1WAHE/pfuXsI2Yq5OPkZvNNExi7hVBCkTPSZKB3fZmEBJqce9oqMZErbA9K3N/6AhdQ==
+  version "1.4.100053"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-1.4.100053.tgz#1e480d0a1e3782c067d1dc4e1253fd502fbaa4b5"
+  integrity sha512-Uh1UhO6Fq2H7++9gJ0yFaXNyHha4myUy3C8of7DKxysoElQpnlbu78ShX15Cr1ytfur3tFB7oCSrNFL9x1cVBg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     lodash "^4.17.4"
