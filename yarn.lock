@@ -372,9 +372,9 @@
     redux-form "^7.0.3"
 
 "@folio/developer@>=1.5.0":
-  version "1.10.100064"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-1.10.100064.tgz#8f50134de7add98bbfc318380fb3685fbac6b624"
-  integrity sha512-ArS7fIV9MKaNh6gQwCSFX0iPX0k/8Ke5mLXb5japS/CjZKrupfwqdLI5uuVAUqSaQShu+DnYH+2BAIoAZ7J3fQ==
+  version "1.10.100065"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-1.10.100065.tgz#8b3bfbab255f55038caf603d128aaeb2bae977bd"
+  integrity sha512-uCzzOcerjYk3gIAH154aPNSKfkZx9Eg1t7F/WprzPc/dvz/5HNKf2Lhv/DF1FCMV6JWZhW2qYAbOXRVZMyjyVg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
