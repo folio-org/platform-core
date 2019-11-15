@@ -400,9 +400,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000691"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000691.tgz#fdd0418d5420e5fd1f604e4ecfb013814e1f42c8"
-  integrity sha512-/dvYHMwU9l7MhVJ5fbnGN6kJGx1aFUBieRwRABGqA1dWH9Vo5OAmxu56bWeP2YnPZ2mMTwqquVUnLpSLKGFaNQ==
+  version "1.13.1000694"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000694.tgz#2b00d145a8c71e40bef888057c8b4d217df2a4da"
+  integrity sha512-L90RdUYUNVX1uQ2iBx/qNQxem3SwiRJvJsAXyCm9FeO0XxonHTk921eG5TOUA8oeWzK6Oc0VmFP6FoBiiPHswg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -772,9 +772,9 @@
     nightmare "^3.0.2"
 
 "@folio/stripes-util@~1.5.0":
-  version "1.5.100018"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.5.100018.tgz#2f9f5ae458c91fb7e5502fd3312323b11edee4bf"
-  integrity sha512-H1Wo+1mVywvy+P3Zcje5Y+nVjwHzZNeP3BeL0870Gjlem8TFhsgVNPSvlWtdcSkAsOEgisJUpJKoYTaBbE5ZCw==
+  version "1.5.100019"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.5.100019.tgz#01d2de4d71302704d436854e9c3347ebb2f90d8d"
+  integrity sha512-514UV7bXxOcRmicgLRldrBzHiHfEisv42AzOEZSZ0eowgdZUlf34rQTEU2ZfuK9KjpGlv6dYXUS01RBTE8OZrw==
   dependencies:
     json2csv "^4.2.1"
     lodash "^4.17.4"
