@@ -65,5 +65,9 @@
     "@folio/stripes-cli": "^1.13.0",
     "eslint": "^6.2.1",
     "moment": "^2.22.2"
+  },
+  "resolutions": {
+    "final-form": "4.18.5",
+    "react-final-form": "6.3.0"
   }
 }
