@@ -338,9 +338,9 @@
     redux-form "^7.0.3"
 
 "@folio/checkout@>=1.3.0":
-  version "1.12.1000348"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-1.12.1000348.tgz#f84cd7a19b3680b5168855bed0d6941f6d624038"
-  integrity sha512-hgpWVseSwOVHFOeIl+cKUcr7K7mBtz/pTgBgtlriNyt3MT7S5CdeoqRD/TahWNv4Y6OMkEKgEaDBaRVPoz5i6w==
+  version "2.0.1000349"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-2.0.1000349.tgz#eafaae99b3017c186af81852fd386463644bd5f7"
+  integrity sha512-3V0em8fOPUgX8vqxHnU8JyuVGEbydAO9I/iyeoZBS5uU5zk8L6WDPTohjNHRt8WQx/sfJjOwtQi6q0tm58fyjg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
