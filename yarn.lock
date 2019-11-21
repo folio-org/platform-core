@@ -302,9 +302,9 @@
     to-fast-properties "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "2.6.100026"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.6.100026.tgz#596f2c5e9940efa090be2a759af4a631da82cf64"
-  integrity sha512-zTZfUHsW+m0zPGmRXD1WuiZH0ix5bppn7yxAntoYJ4oVkHtluoyydkxamz5/E+FFoBvVIfQz0Qu1IRbMFbIpMQ==
+  version "2.6.100028"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.6.100028.tgz#d6e32e33b4e5dfdd34da9c4347af2fc8826db55e"
+  integrity sha512-g9XIXGZOKes4I9cG8u7XbB0oGGIwC06EkEGk5Wo95FKLWBfivQGw1NxSuapj1R3Nh5bEYEqgJfqfoUcLPFikBg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     dateformat "^2.0.0"
@@ -400,9 +400,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000706"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000706.tgz#64689f0c838d3ff52099801343fa5b34fdde532c"
-  integrity sha512-9L17vdkuG8nSUyhyW8SAKYAkjlrj6mXHvqi7ktpPHwIzirWhspOiZtt/UyzKSJKDkYgkostq7xZz25YqQ0wjKA==
+  version "1.13.1000707"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000707.tgz#bcb925b04d519a2059afe515951eb03bdea18c69"
+  integrity sha512-K9trCEKVYRmqsUC2CgUPOek19Dte3BcFMbf6/hiIM1UwU/kwzQ8h4Hzzzys36YBYNRnZX83GqSdq691aAHnkEA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
