@@ -320,9 +320,9 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "1.9.1000191"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-1.9.1000191.tgz#d153cb1f744c52feffaeb9a0ab01d7b1889849ac"
-  integrity sha512-vtB+n6/e6LM9RfbzOiVNmC/GolaFuTFdFe9XpQiuRkHdzmzxWNyEaO3xHF4dQEs7wmLuQkktcpHnZ5+daYdeNQ==
+  version "1.9.1000192"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-1.9.1000192.tgz#251131a21eb377244716ce8aff861475ab9bcf54"
+  integrity sha512-PfztcTHTz2DcUYdetMEOuFHaR3B0ArNtrIMjY0uoVq8vwnQUPIDE0e7A1YL+zLa6W3jSJitwzYQo15HsztfFzA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     dateformat "^2.0.0"
@@ -400,9 +400,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000711"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000711.tgz#cf2310bf769c09c5779e97b669319e123eed8c8e"
-  integrity sha512-5JeidWmhJFlXvC9zaE157YgFnK0VFf3MstTMYidTasFGt9s9ry+PqTx49DmZfmqZeCSOvvyjt7hdHAXbQRNS5A==
+  version "1.13.1000713"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000713.tgz#21682aa7fa0919c1b83e9b1582c73440cf96fd9d"
+  integrity sha512-XF7/iYzrz4p579IGpk5YN8eoozl4dgaKCQ3sT9CcYCC2lpEXQ7Y+nexiuv6j+Bzg3/ejZBNU9ZwcR2GfDCRydA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
