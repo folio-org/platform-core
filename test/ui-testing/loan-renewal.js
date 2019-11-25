@@ -47,30 +47,7 @@ module.exports.test = (uiTestCtx) => {
     let barcode = '';
 
     describe(
-      // eslint-disable-next-line quotes
-      `Login > \
-      Update settings >\
-      Create loan policy >\
-      Apply circulation rule >\
-      Find Active user >\
-      Create inventory record >\
-      Create holdings record >\
-      Create item record >\
-      Checkout item >\
-      Confirm checkout >\
-      Renew success >\
-      Renew failure >\
-      Renew failure >\
-      Create fixedDueDateSchedule >\
-      Assign fdds to loan policy >\
-      Renew failure > \
-      // Edit loan policy >\
-      // Renew failure >\
-      Check in >\
-      Restore the circulation rules >\
-      delete loan policy >\
-      delete fixedDueDateSchedule >\
-      logout\n`,
+      'Validate renewal success/failure with a variety of loan policies, schedules, and circulation rules',
       function descStart() {
         describe('Login', () => {
           it(`should login as ${config.username}/${config.password}`, (done) => {
@@ -238,7 +215,7 @@ module.exports.test = (uiTestCtx) => {
           });
 
           it('Apply the loan policy created as a circulation rule to material-type book', (done) => {
-            const rules = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r ${requestPolicyName} n ${noticePolicyName} o overdue-test\nm book: l ${policyName} r ${requestPolicyName} n ${noticePolicyName} o overdue-test`;
+            const rules = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r ${requestPolicyName} n ${noticePolicyName} o overdue-test i lost-item-test\nm book: l ${policyName} r ${requestPolicyName} n ${noticePolicyName} o overdue-test i lost-item-test`;
             helpers.setCirculationRules(nightmare, rules)
               .then(oldRules => {
                 loanRules = oldRules;
