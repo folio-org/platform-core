@@ -320,9 +320,9 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "1.9.1000192"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-1.9.1000192.tgz#251131a21eb377244716ce8aff861475ab9bcf54"
-  integrity sha512-PfztcTHTz2DcUYdetMEOuFHaR3B0ArNtrIMjY0uoVq8vwnQUPIDE0e7A1YL+zLa6W3jSJitwzYQo15HsztfFzA==
+  version "1.9.1000193"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-1.9.1000193.tgz#886c0b05acd82d5df2f9fd05d989027c87923016"
+  integrity sha512-uS9TUOxcxpmwa4lMrIPu3Fj7uRpQi83addzOyG2TQr35ja9t9vfNSaoKTOPJual1YycRndEwH/hM8ocdcj6scA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     dateformat "^2.0.0"
@@ -735,9 +735,9 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.12.0":
-  version "2.12.1000590"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.12.1000590.tgz#38ba5350990b1b1765900320ff2f454e7f49b9bb"
-  integrity sha512-UVBD3R6n1xtzUp/BwMLiXckyjZsIW+Wkah/gQzCF1mWcRqzuKjn8DQcg0ULra848RKzaHP/oEEc+JNSDpmin/Q==
+  version "2.12.1000591"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.12.1000591.tgz#03f23bccaec44ba5371f82ed584b6e64ceb24961"
+  integrity sha512-HgOxbHR8c0poM5xOV4BI3SQV/A5KYQmxwoPydPJnYWcKDB/1RKYp8J9QSFWA7idVm947hoS5c6Ny0RuUF1vFXw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.9.0"
