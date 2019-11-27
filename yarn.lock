@@ -458,20 +458,23 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.14.1000379"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000379.tgz#9fa295c73c45fe3a37acd65238f6e1e7301c0d31"
-  integrity sha512-nTnWeUM1nMxqP6t4JcRGRSc9GqJytjnvIhdU0LviFbVJBPJSJUcH/A9Sbyi6lNsqm4Saj5gRrWvcgkGPbWc6MQ==
+  version "1.14.1000380"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000380.tgz#77cd18ed8167576ebd1989168002bfbbce062c77"
+  integrity sha512-7HUSkJl/5Dg3yz1bEqlfxbzIYG3J4mTfqg7qV2lZlCe760buyUxAQPCRL7SdJns+EGJ7iwSWe0Opgu9ecLzlDQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
+    html-to-react "^1.3.3"
     lodash "^4.17.4"
     moment-timezone "^0.5.14"
     prop-types "^15.5.10"
     query-string "^5.1.0"
+    react-barcode "^1.3.2"
     react-beautiful-dnd "^11.0.5"
     react-hot-loader "^4.3.12"
     react-intl "^2.4.0"
     react-router-dom "^4.0.0"
     react-router-prop-types "^1.0.4"
+    react-to-print "^2.3.2"
     redux-form "^7.0.3"
   optionalDependencies:
     "@folio/plugin-find-user" "^1.1.0"
