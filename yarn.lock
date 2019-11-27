@@ -400,9 +400,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000719"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000719.tgz#97917ccacad23f4d71922fcfbbee5c75c6642d20"
-  integrity sha512-rZmmLMD++DDk246JnsGFiZlbsiKrpJlVKafLQnPxhN4k7UA6apvHfPKAItlaabotsZu3evs3/JbtPOOJ1PqNUw==
+  version "1.13.1000721"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000721.tgz#7e10cea10b168eda3c1ff947f4ec58e536e3d715"
+  integrity sha512-/PRYLy0YO0YWIOqobLvAND3/Q0qvWQyq2atDzyy+th6gSweX0K4DPxjcwuGDaXZjACyk9j4VRuzR5P1VLQsVCA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -690,9 +690,9 @@
     webpack-virtual-modules "^0.1.10"
 
 "@folio/stripes-final-form@~1.4.0":
-  version "1.4.100023"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-1.4.100023.tgz#87e4eecb04f24b8b276c7d35173e67606e0cbaed"
-  integrity sha512-bFnx6OZpDPDOBojgvfo6hOsGoUBQ2w8qo2IkgiLIPCcoL3nCOXbvx1idPT+fC3ZhfYdgFKxHRDsdLlRgl+M2xQ==
+  version "1.4.100024"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-1.4.100024.tgz#9978f1d783c36c018642db120846ee0d18619119"
+  integrity sha512-3eWf5PIP17mr/vgX/m6gb6JJzyTUcuYL6Bxw1v8B/AwpduUC0m0ZzlOnd8r6R/o/t4EI977nTTYal8tGFZlY1w==
   dependencies:
     "@folio/stripes-components" "~5.9.0"
     "@folio/stripes-core" "~3.11.0"
