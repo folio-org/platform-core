@@ -130,8 +130,10 @@ pipeline {
           }
           steps {
             // set up preview environment
-            if (fileExists('.pr-custom-deps.json')) {
-              setupPreviewEnv()
+            script {
+              if (fileExists('.pr-custom-deps.json')) {
+                setupPreviewEnv()
+              }
             }
 
             // Enable tenant
