@@ -318,9 +318,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000727"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000727.tgz#1a2ea0ae21f1394a313ac603cd68dbc3aec7d355"
-  integrity sha512-4ZwEWNOntAcMem6dzpJ4MDI6wynn+bf5bcauurWmRyJDJuM0iBto7Ap8TjFAJm2gD+cMW6wOHq2lYXuaDiNPVg==
+  version "1.13.1000728"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000728.tgz#d1b92d8a2e39f15cdd224b58ba132d29c89274ee"
+  integrity sha512-DQhQo/9kFS6Y05sG6F6mjOWrJwYMY2+L5xVhLlLUAPkLirfqJt/gYd2qRgNrhYoBi/cQp9sAxpHNVNImyHtgxg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -3489,9 +3489,9 @@ copy-to-clipboard@^3:
     toggle-selection "^1.0.6"
 
 core-js-pure@^3.0.0:
-  version "3.4.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/core-js-pure/-/core-js-pure-3.4.5.tgz#284474cb48d134e26e6e314cb89986c6c59480fb"
-  integrity sha512-v3BoUOhmBvs4Z17jG/oM7qyv+tEEMvD1FYDDfxa6uD5W2rA/DpKvhvmyrBzxuMQTa/91UQKisaiqe0+0GuL2oA==
+  version "3.4.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/core-js-pure/-/core-js-pure-3.4.6.tgz#a5b276a98d8fdba5d1b5d2814ad2902ccb7f6c3f"
+  integrity sha512-4v1r/EDjVKBXKhGF2c+m1yXUETkqelfDDrtf4yUHY3HWTYWUfHQBuXNj7TXaRh709Fmgjm7+TWWeQwmTlkVbKw==
 
 core-js@^1.0.0:
   version "1.2.7"
