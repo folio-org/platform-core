@@ -8,7 +8,6 @@ pipeline {
     sshKeyId = '11657186-f4d4-4099-ab72-2a32e023cced'
     folioRegistry = 'http://folio-registry.aws.indexdata.com'
     releaseOnly = 'true'
-    okapiUrl = 'https://okapi-default.ci.folio.org'
     projUrl = "https://github.com/folio-org/${env.folioPlatform}"
   }
 
@@ -58,6 +57,13 @@ pipeline {
           }
           steps {
             script {
+              if (fileExists('.pr-custom-deps.json')) {
+                env.okapiUrl = 'https://okapi-preview.ci.folio.org'
+              }
+              else {
+                env.okapiUrl = 'https://okapi-default.ci.folio.org'
+              }
+  
               if (env.CHANGE_ID) { 
                 def tenant = "${env.folioPlatform}_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
                 def foliociLib = new org.folio.foliociCommands()
@@ -83,14 +89,29 @@ pipeline {
           }
           steps {
             script {
-              echo "Adding additional modules to stripes-install.json"
-              sh 'mv stripes-install.json stripes-install-pre.json'
-              sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install-pre.json install-extras.json > stripes-install.json'
-              def stripesInstallJson = readFile('./stripes-install.json')
-              platformDepCheck(env.tenant,stripesInstallJson)
-              echo 'Generating backend dependency list to okapi-install.json'
-              sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
-              sh 'cat okapi-install.json'
+              def foliociLib = new org.folio.foliociCommands()
+
+              // Deal with PR Deps for preview mode
+              if (fileExists('.pr-custom-deps.json'))  {
+                def previewMods = readJSON file: '.pr-custom-deps.json'
+
+                // update okapi-install.json
+                def okapiInstall = readJSON file: 'okapi-install.json'
+                def newOkapiInstall = foliociLib.subPreviewMods(previewMods,okapiInstall)
+                writeJSON file: 'okapi-install.json', json: newOkapiInstall, pretty: 2
+                sh 'cat okapi-install.json'
+              }
+              else {
+                // Add extra backend deps
+                echo "Adding additional modules to stripes-install.json"
+                sh 'mv stripes-install.json stripes-install-pre.json'
+                sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install-pre.json install-extras.json > stripes-install.json'
+                def stripesInstallJson = readFile('./stripes-install.json')
+                platformDepCheck(env.tenant,stripesInstallJson)
+                echo 'Generating backend dependency list to okapi-install.json'
+                sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
+                sh 'cat okapi-install.json'
+              }
             }
             // archive install.json
             sh 'mkdir -p ci'
@@ -108,6 +129,11 @@ pipeline {
             changeRequest()
           }
           steps {
+            // set up preview environment
+            if (fileExists('.pr-custom-deps.json')) {
+              setupPreviewEnv()
+            }
+
             // Enable tenant
             deployTenantK8()
 
