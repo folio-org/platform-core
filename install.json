@@ -5,10 +5,10 @@
   "id" : "mod-inventory-storage-17.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-2.5.0",
+  "id" : "folio_calendar-2.6.0",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-9.3.0",
+  "id" : "mod-circulation-storage-9.3.1",
   "action" : "enable"
 }, {
   "id" : "mod-users-15.6.2",
@@ -35,13 +35,13 @@
   "id" : "mod-feesfines-15.6.0",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-16.7.1",
+  "id" : "mod-circulation-16.7.4",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-1.9.0",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-1.11.1",
+  "id" : "folio_checkout-1.11.2",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-1.11.0",
@@ -80,7 +80,7 @@
   "id" : "folio_servicepoints-1.4.1",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-5.8.2",
+  "id" : "mod-permissions-5.8.3",
   "action" : "enable"
 }, {
   "id" : "mod-login-6.1.1",
@@ -95,7 +95,7 @@
   "id" : "mod-users-bl-5.1.0",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-3.10.0",
+  "id" : "folio_stripes-core-3.10.4",
   "action" : "enable"
 }, {
   "id" : "mod-notes-2.7.0",
@@ -116,7 +116,7 @@
   "id" : "folio_tenant-settings-2.13.1",
   "action" : "enable"
 }, {
-  "id" : "folio_users-2.25.3",
+  "id" : "folio_users-2.25.4",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.5.0",

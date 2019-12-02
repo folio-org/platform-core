@@ -1,5 +1,3 @@
-/* global it describe */
-
 /*
  Test for vendor module
  1) creates a new vendor
