@@ -318,9 +318,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000736"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000736.tgz#50ab7f9962e0fc52718d33f17a14f129da67fd1d"
-  integrity sha512-A55N27qP/ApjkhWxGbefZ61fUd0qcIAwYhLujLnDTgrLUFAycGzcGwV5EHliN5CUoZxgLobK0jEpDY63KdjzHw==
+  version "1.13.1000737"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000737.tgz#9c062c2a19f6148be83b89e73c3562728c8fa334"
+  integrity sha512-uftZoiHleugPfiu/vFtCLXtN0abvZYppEJwlz2d6I8fPlPlI4fV5mLKkzH/HjNXMrJAFVLc0ZicMVMEkxhShJA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
@@ -470,9 +470,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.9.0":
-  version "5.9.1000925"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000925.tgz#63dd602594866d4d8a33ae483422acf80ca09ed6"
-  integrity sha512-FXP3ZDlPqo5CnSdvjQkJNN9T1sCRHUPcxWGvpqzOU3rr6odkNvCvzODX/2Bg63KOyR68zPNTU/9HGhicZiav1g==
+  version "5.9.1000926"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000926.tgz#d232f9707dfde9decbd3075a7031acd221a3486d"
+  integrity sha512-bWUnZ4ZqpbbaaORz4il8mf+qoiVIkbf3zaaXH4caD8ioPSxkiabNbgSrzcf5H8/2BHob4KR6dBIqwsdFtQdnIQ==
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -694,9 +694,9 @@
     nightmare "^3.0.2"
 
 "@folio/stripes-util@^1.6.0", "@folio/stripes-util@~1.6.1":
-  version "1.6.100024"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.6.100024.tgz#6aa7f67c14d4daf86756dff8948a17c558cb8376"
-  integrity sha512-ABQfggXsR2E1Jky65P+dOe4KHzHkWBNExXUN68FfXRiJBlR4pPwAFgU25dHzl//gjIuVzE3iW64pPPZXyWMdgA==
+  version "1.6.100025"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.6.100025.tgz#b35b7851b78d40f12f418ce783e8382464430e7f"
+  integrity sha512-S0P5ZHo67D69S+c8XaF730W5/8ecmLQ7koiZMPlEuJhTS6qEjKOUtx32LHrcVNDvu2+o5j6yrC60MWm3EnDMRA==
   dependencies:
     json2csv "^4.2.1"
     lodash "^4.17.4"
