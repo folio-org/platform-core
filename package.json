@@ -19,8 +19,8 @@
   },
   "dependencies": {
     "@folio/calendar": "2.7.0",
-    "@folio/checkin": "1.9.0",
-    "@folio/checkout": "1.11.2",
+    "@folio/checkin": "1.10.0",
+    "@folio/checkout": "2.0.0",
     "@folio/circulation": "1.11.0",
     "@folio/developer": "1.11.0",
     "@folio/inventory": "1.13.0",
