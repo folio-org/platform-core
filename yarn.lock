@@ -164,9 +164,9 @@
     "@babel/plugin-transform-react-jsx-source" "^7.7.4"
 
 "@babel/runtime-corejs2@^7.4.5":
-  version "7.7.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime-corejs2/-/runtime-corejs2-7.7.5.tgz#07cfd9e04d0c17328852bd174df241b8673a067e"
-  integrity sha512-cN5YmGR1PKMRIeOgwaxp7Y003BEGoUmtPQyECaSvXgwMW1Em2U1xuJSac9NGOJDBn7I82TRmJl0UGieCWkUYbQ==
+  version "7.7.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime-corejs2/-/runtime-corejs2-7.7.6.tgz#50b7cd4eab929b4cb66167c4972d35eaceaa124b"
+  integrity sha512-QYp/8xdH8iMin3pH5gtT/rUuttVfIcOhWBC3wh9Eh/qs4jEe39+3DpCDLgWXhMQgiCTOH8mrLSvQ0OHOCcox9g==
   dependencies:
     core-js "^2.6.5"
     regenerator-runtime "^0.13.2"
@@ -180,9 +180,9 @@
     regenerator-runtime "^0.13.2"
 
 "@babel/runtime@^7.1.2", "@babel/runtime@^7.1.5", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.4":
-  version "7.7.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime/-/runtime-7.7.5.tgz#4b087f183f5d83647744d4157f66199081d17a00"
-  integrity sha512-UXhClKWTL7/vlYX49kETXti6VbpPJK/pdsIOqUMhUUES/lqThpNTsmC/0aU/IW4uozDUx17axjeqel7SCYF6EQ==
+  version "7.7.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime/-/runtime-7.7.6.tgz#d18c511121aff1b4f2cd1d452f1bac9601dd830f"
+  integrity sha512-BWAJxpNVa0QlE5gZdWjSxXtemZyZ9RmrmVozxt3NUXeZhVIJ5ANyqmMc0JDrivBZyxUuQvFxlvH4OWWOogGfUw==
   dependencies:
     regenerator-runtime "^0.13.2"
 
