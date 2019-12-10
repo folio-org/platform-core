@@ -39,8 +39,8 @@ pipeline {
 
           def lastCommit = sh(returnStatus: true,
                               script: "git log -1 | grep '.*\\[CI SKIP\\].*'")
-          if (lastCommit == 0) { 
-              echo "CI SKIP detected.  Aborting build" 
+          if (lastCommit == 0) {
+              echo "CI SKIP detected.  Aborting build"
               env.skipBuild = 'true'
           }
         }
@@ -48,14 +48,14 @@ pipeline {
     }
 
     stage('Do Build') {
-      when { 
+      when {
         expression {
           env.skipBuild != 'true'
         }
       }
       stages {
         stage('Build Stripes Platform') {
-          when { 
+          when {
             not {
               branch 'master'
             }
@@ -103,34 +103,32 @@ pipeline {
           steps {
             // build FOLIO instance
             buildPlatformInstance(env.ec2Group,env.folioHostname,env.tenant)
-            script { 
+            script {
               def pr_comment = pullRequest.comment("Instance available at $env.folioUrl")
             }
           }
         }
 
-/*
- *       stage('Run Integration Tests') {
- *         when {
- *           changeRequest()
- *         }
- *         steps {
- *           script {
- *             def testOpts = [ tenant: env.tenant,
- *                              folioUrl: env.folioUrl,
- *                              okapiUrl: env.okapiUrl,
- *                              folioUser: env.tenant + '_admin',
- *                              folioPassword: 'admin']
- *
- *             def testStatus = runIntegrationTests(testOpts)
- *
- *             if (testStatus == 'FAILED') { 
- *               error('UI Integration test failures')
- *             }
- *           }
- *         }
- *       }
- */
+        stage('Run Integration Tests') {
+          when {
+            changeRequest()
+          }
+          steps {
+            script {
+              def testOpts = [ tenant: env.tenant,
+                               folioUrl: env.folioUrl,
+                               okapiUrl: env.okapiUrl,
+                               folioUser: env.tenant + '_admin',
+                               folioPassword: 'admin']
+
+              def testStatus = runIntegrationTests(testOpts)
+
+              if (testStatus == 'FAILED') {
+                error('UI Integration test failures')
+              }
+            }
+          }
+        }
 
         stage('Publish NPM Package') {
           when {
@@ -177,7 +175,7 @@ pipeline {
                 sshGitPush(origin: env.folioPlatform, branch: env.CHANGE_BRANCH)
               }
               else {
-                echo "No new changes.  No push to git origin needed" 
+                echo "No new changes.  No push to git origin needed"
               }
             }
           }

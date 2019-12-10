@@ -3,7 +3,7 @@
 const moment = require('moment');
 
 module.exports.test = (uiTestCtx) => {
-  describe('Tests to validate the loan renewals', function descRoot() {
+  describe('Tests to validate the loan renewals ("loan-renewal")', function descRoot() {
     const { config, helpers } = uiTestCtx;
     const nightmare = new Nightmare(config.nightmare);
     this.timeout(Number(config.test_timeout));
@@ -24,7 +24,6 @@ module.exports.test = (uiTestCtx) => {
     };
 
     let userid = 'user';
-    const uselector = '#list-users div[role="row"][aria-rowindex="2"] > a > div:nth-of-type(3)';
     const policyName = `test-policy-${Math.floor(Math.random() * 10000)}`;
     const scheduleName = `test-schedule-${Math.floor(Math.random() * 10000)}`;
     const noticePolicyName = `test-notice-policy-${Math.floor(Math.random() * 10000)}`;
@@ -48,30 +47,7 @@ module.exports.test = (uiTestCtx) => {
     let barcode = '';
 
     describe(
-      // eslint-disable-next-line quotes
-      `Login > \
-      Update settings >\
-      Create loan policy >\
-      Apply circulation rule >\
-      Find Active user >\
-      Create inventory record >\
-      Create holdings record >\
-      Create item record >\
-      Checkout item >\
-      Confirm checkout >\
-      Renew success >\
-      Renew failure >\
-      Renew failure >\
-      Create fixedDueDateSchedule >\
-      Assign fdds to loan policy >\
-      Renew failure > \
-      // Edit loan policy >\
-      // Renew failure >\
-      Check in >\
-      Restore the circulation rules >\
-      delete loan policy >\
-      delete fixedDueDateSchedule >\
-      logout\n`,
+      'Validate renewal success/failure with a variety of loan policies, schedules, and circulation rules',
       function descStart() {
         describe('Login', () => {
           it(`should login as ${config.username}/${config.password}`, (done) => {
@@ -122,8 +98,8 @@ module.exports.test = (uiTestCtx) => {
               .type('#input_allowed_renewals', renewalLimit)
               .wait('#select_renew_from')
               .type('#select_renew_from', 'cu')
-              .wait('#clickable-save-entry')
-              .click('#clickable-save-entry')
+              .wait('#footer-save-entity')
+              .click('#footer-save-entity')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="textfieldError"]');
@@ -132,7 +108,7 @@ module.exports.test = (uiTestCtx) => {
                 }
               })
               .wait(() => {
-                return !document.querySelector('#clickable-save-entry');
+                return !document.querySelector('#footer-save-entity');
               })
               .then(done)
               .catch(done);
@@ -162,8 +138,8 @@ module.exports.test = (uiTestCtx) => {
               .type('#notice_policy_name', noticePolicyName)
               .wait('#notice_policy_active')
               .check('#notice_policy_active')
-              .wait('#clickable-save-entry')
-              .click('#clickable-save-entry')
+              .wait('#footer-save-entity')
+              .click('#footer-save-entity')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="textfieldError"]');
@@ -172,7 +148,7 @@ module.exports.test = (uiTestCtx) => {
                 }
               })
               .wait(() => {
-                return !document.querySelector('#clickable-save-entry');
+                return !document.querySelector('#footer-save-entity');
               })
               .then(done)
               .catch(done);
@@ -206,8 +182,8 @@ module.exports.test = (uiTestCtx) => {
               .check('#page-checkbox')
               .wait('#recall-checkbox')
               .check('#recall-checkbox')
-              .wait('#clickable-save-entry')
-              .click('#clickable-save-entry')
+              .wait('#footer-save-entity')
+              .click('#footer-save-entity')
               .wait(1000)
               .evaluate(() => {
                 const sel = document.querySelector('div[class^="textfieldError"]');
@@ -216,7 +192,7 @@ module.exports.test = (uiTestCtx) => {
                 }
               })
               .wait(() => {
-                return !document.querySelector('#clickable-save-entry');
+                return !document.querySelector('#footer-save-entity');
               })
               .then(done)
               .catch(done);
@@ -239,7 +215,7 @@ module.exports.test = (uiTestCtx) => {
           });
 
           it('Apply the loan policy created as a circulation rule to material-type book', (done) => {
-            const rules = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r ${requestPolicyName} n ${noticePolicyName} \nm book: l ${policyName} r ${requestPolicyName} n ${noticePolicyName}`;
+            const rules = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r ${requestPolicyName} n ${noticePolicyName} o overdue-test i lost-item-test\nm book: l ${policyName} r ${requestPolicyName} n ${noticePolicyName} o overdue-test i lost-item-test`;
             helpers.setCirculationRules(nightmare, rules)
               .then(oldRules => {
                 loanRules = oldRules;
@@ -255,22 +231,11 @@ module.exports.test = (uiTestCtx) => {
           });
 
           it('should find an active user ', (done) => {
-            nightmare
-              .wait(1111)
-              .wait('#input-user-search')
-              .type('#input-user-search', '0')
-              .wait('#clickable-reset-all')
-              .click('#clickable-reset-all')
-              .wait('#clickable-filter-active-active')
-              .click('#clickable-filter-active-active')
-              .wait('#clickable-filter-pg-faculty')
-              .click('#clickable-filter-pg-faculty')
-              .wait(uselector)
-              .evaluate(selector => document.querySelector(selector).textContent, uselector)
-              .then((result) => {
+            helpers.findActiveUserBarcode(nightmare, 'faculty')
+              .then(bc => {
                 done();
-                console.log(`\t    Found user ${result}`);
-                userid = result;
+                console.log(`\t    Found user ${bc}`);
+                userid = bc;
               })
               .catch(done);
           });
@@ -287,7 +252,7 @@ module.exports.test = (uiTestCtx) => {
           // if we don't wait a second after creating the item record,
           // we seem to get stuck there and cannot navigate to checkout.
           // does this make any sense at all? no. no it does not. and yet.
-          it('should navigate to checkoout', (done) => {
+          it('should navigate to checkout', (done) => {
             helpers.clickApp(nightmare, done, 'checkout', 1000);
           });
 
@@ -310,8 +275,8 @@ module.exports.test = (uiTestCtx) => {
               .insert('#input-user-search', userid)
               .wait('button[type=submit]')
               .click('button[type=submit]')
-              .wait('#list-users[data-total-count="1"] div[role="row"] > a')
-              .click('#list-users[data-total-count="1"] div[role="row"] > a')
+              .wait('#list-users[data-total-count="1"] a[role="row"]')
+              .click('#list-users[data-total-count="1"] a[role="row"]')
               .wait('#clickable-viewcurrentloans')
               .click('#clickable-viewcurrentloans')
               .wait('#list-loanshistory:not([data-total-count="0"])')
@@ -352,7 +317,7 @@ module.exports.test = (uiTestCtx) => {
                   .wait('#bulk-renewal-modal')
                   .wait(333)
                   .evaluate(() => {
-                    const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
+                    const errorMsg = document.querySelectorAll('#bulk-renewal-modal [role="gridcell"]')[0].textContent;
                     if (errorMsg === null) {
                       throw new Error('Should throw an error as the renewalLimit is reached');
                     } else if (!errorMsg.match('Item not renewed:loan at maximum renewal number')) {
@@ -381,7 +346,7 @@ module.exports.test = (uiTestCtx) => {
               .catch(done);
           });
 
-          it('Edit loan policy to renew from system datel', (done) => {
+          it('edit loan policy to renew from system date', (done) => {
             nightmare
               .wait('div.hasEntries')
               .evaluate((pn) => {
@@ -407,8 +372,8 @@ module.exports.test = (uiTestCtx) => {
                   .type('#input_allowed_renewals', 2)
                   .wait('#select_renew_from')
                   .select('#select_renew_from', 'SYSTEM_DATE')
-                  .wait('#clickable-save-entry')
-                  .click('#clickable-save-entry')
+                  .wait('#footer-save-entity')
+                  .click('#footer-save-entity')
                   .wait(1000)
                   .evaluate(() => {
                     const sel = document.querySelector('div[class^="textfieldError"]');
@@ -416,6 +381,7 @@ module.exports.test = (uiTestCtx) => {
                       throw new Error(sel.textContent);
                     }
                   })
+                  .wait(() => !document.querySelector('#footer-save-entity'))
                   .then(done)
                   .catch(done);
               })
@@ -437,11 +403,12 @@ module.exports.test = (uiTestCtx) => {
                   .wait('#bulk-renewal-modal')
                   .wait(1000)
                   .evaluate(() => {
+                    const expectedMessage = 'Item not renewed:renewal would not change the due date';
                     const errorMsg = document.querySelectorAll('#bulk-renewal-modal div[role="gridcell"]')[0].textContent;
                     if (errorMsg === null) {
                       throw new Error('Should throw an error as the renewalLimit is reached');
-                    } else if (!errorMsg.match('Item not renewed:renewal would not change the due date')) {
-                      throw new Error('Expected only the renewal failure error message');
+                    } else if (!errorMsg.match(expectedMessage)) {
+                      throw new Error(`Expected "${expectedMessage}"; got "${errorMsg}"`);
                     }
                   })
                   .then(done)
@@ -487,7 +454,7 @@ module.exports.test = (uiTestCtx) => {
         });
 
         describe('Assign fixed due date schedule to loan policy', () => {
-          it(`Assign the fixed due date schedule (${scheduleName}) to the loan policy`, (done) => {
+          it(`assign the fixed due date schedule (${scheduleName}) to the loan policy`, (done) => {
             nightmare
               .wait('a[href="/settings/circulation/loan-policies"]')
               .click('a[href="/settings/circulation/loan-policies"]')
@@ -517,8 +484,8 @@ module.exports.test = (uiTestCtx) => {
                   .type('#input_loansPolicy_fixedDueDateSchedule', scheduleName)
                   .wait('select[name="loansPolicy.closedLibraryDueDateManagementId"]')
                   .type('select[name="loansPolicy.closedLibraryDueDateManagementId"]', 'keep')
-                  .wait('#clickable-save-entry')
-                  .click('#clickable-save-entry')
+                  .wait('#footer-save-entity')
+                  .click('#footer-save-entity')
                   .wait(1000)
                   .evaluate(() => {
                     const sel = document.querySelector('div[class^="feedbackError"]');
@@ -526,6 +493,7 @@ module.exports.test = (uiTestCtx) => {
                       throw new Error(sel.textContent);
                     }
                   })
+                  .wait(() => !document.querySelector('#footer-save-entity'))
                   .then(done)
                   .catch(done);
               })
@@ -640,8 +608,8 @@ module.exports.test = (uiTestCtx) => {
           });
         });
 
-        describe('Delete fixedDueDateSchedule', () => {
-          it('should delete the fixedDueDateSchedule', (done) => {
+        describe('Delete fixed due date schedule', () => {
+          it('should delete the fixed due date schedule', (done) => {
             nightmare
               .click(config.select.settings)
               .wait('a[href="/settings/circulation"]')
