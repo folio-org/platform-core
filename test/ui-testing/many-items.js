@@ -9,7 +9,7 @@ module.exports.test = (uiTestCtx) => {
 
     let barcodes = [];
     let userBarcode = '';
-    const count = 1;
+    const count = 21;
 
     it(`should login as ${config.username}/${config.password}`, (done) => {
       helpers.login(nightmare, config, done);
