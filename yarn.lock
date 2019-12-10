@@ -360,9 +360,9 @@
     react-intl "^2.8.0"
 
 "@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@^1.1.0":
-  version "1.9.100089"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-1.9.100089.tgz#519d675d66662ecb24c13f2d3313fe8aeba7573a"
-  integrity sha512-0TESdVTgMpc+Z3xVXM/RhS8tg7OBhFk5PZKtT4tF9ujZbMzBr6LaW19WLX6qrJ1sH22dZGPyl49FpHklnwhbLw==
+  version "1.9.100090"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-1.9.100090.tgz#2e3f8f8403dc25efdbcb3e739c576c5710d4c878"
+  integrity sha512-CP/b0CmIKNyXYlCmkd9ANpqi75BkUkolkAegh/Z8WRqPO8Phe1XD5zSk/VI+ktP1k6yTPSv+Xk400/X7cQWWYQ==
   dependencies:
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
@@ -517,9 +517,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.11.0":
-  version "3.11.1000640"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.11.1000640.tgz#266969d70a05b2d2423514d7d7efea0069c21dac"
-  integrity sha512-jpFqBwWT7K0Z1bfWBGozn3pereoFIOepqOqBXEBws0CRhKCiMYeCOFWZkcoWvPRV6REIrggn8ROMqoMyAb1Upg==
+  version "3.11.1000641"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.11.1000641.tgz#9de76ff162c6340b01aff416ed10a14c02621d1d"
+  integrity sha512-tXSQMwWauK1Kvq7wPiUMsZSeTFYW34JM0w+Ym7sImWzmqIslpZfODVvt1owyYI9UmjAgP9rDUK0mM0DXaB8T6w==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.9.0"
