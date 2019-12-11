@@ -318,9 +318,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000740"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000740.tgz#a9d535f3a904b9cbb49deddeb7e60e18c2e8cb5c"
-  integrity sha512-vZgFncExQjD6StNKvYcBw9e4Cbb/SC+cWi3ljmkdAmj+gWaukIunV7VkzkaLJLQchRw82lJRjWjdg8bb7z1VXA==
+  version "1.13.1000741"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000741.tgz#30171dfc57ab5bdf5f011b088c7043758290f0cd"
+  integrity sha512-/QO3q0WWCl4kzuDBnqmC1N3a0u/783DpxP56QQ7fCPUIl3EmroN3wGCHVWfsCJVlMbnT+u+Jx1w2p5KXYhFQcg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
@@ -377,9 +377,9 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.14.1000398"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000398.tgz#06d753b99547eb9b46c9f5d6fd826cf11c1b0ca4"
-  integrity sha512-krIwB8F3SP8jIob4hyWMv2wKPgS6bxv0ZgGGZ//YMyvKCfgKC/90al4c50TIRGnxzaD+atLflBABexTgqJUY3A==
+  version "1.14.1000399"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000399.tgz#c657ad1138a6eb1819509297eb8bbc18d74cf913"
+  integrity sha512-Leapy8tFr3FaR57AfaMlkaRV8h1tu0wY1QS5wI3On5ePePzHREiu3E1tFWiPoQpEolr3zriXUwcZvxNBAOf4rA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     html-to-react "^1.3.3"
