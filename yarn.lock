@@ -704,9 +704,9 @@
     react-intl "^2.4.0"
 
 "@folio/stripes@^2.10.0":
-  version "2.12.100065"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-2.12.100065.tgz#0418b4d614ea9655749c7b688cdcfe547ef1c266"
-  integrity sha512-haFb2JV5DdtanYXI7dGhXcK52WSE4zx8NaRz2Kl6DjB/XPxTvNy/MrUL3EJt00HMN5tArkJLZK/vGiiJaZVESw==
+  version "2.12.100066"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-2.12.100066.tgz#eb0e43472962622db942f7114f9f2b07ec768427"
+  integrity sha512-LF840wizeJrCxND3KFzupJr1wjgMFNh2nABuJqhpti3Q5kQQXsbxtD9+ST0QbO/5WSK0aY4RWyoUfghv8+mscA==
   dependencies:
     "@folio/stripes-components" "~5.9.0"
     "@folio/stripes-connect" "~5.4.3"
