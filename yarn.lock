@@ -220,9 +220,9 @@
     to-fast-properties "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "2.7.100034"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.7.100034.tgz#08e68215eb75483e5f9fd4cb9c14fd5b29c50616"
-  integrity sha512-tFcfAQDNb5d8m5JPgcI+kMhbJegeuwXbUGD3URnEfSRoj4rZIGl2rRShtal03U/ZXlDQzV8Lolo04hmaeS97bA==
+  version "2.7.100035"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.7.100035.tgz#40ced9f5bb692e9afe6121c90df7a2777e349f31"
+  integrity sha512-OwOKW6nH9gLyLk2njR3/WiewNLzA6+59Z9DEYRtipIs6eMhzSmHin93BalAFphLwcgryZcg9RMgvqAnQlR2i8g==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     dateformat "^2.0.0"
