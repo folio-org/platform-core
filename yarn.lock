@@ -238,9 +238,9 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "1.10.1000202"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-1.10.1000202.tgz#d46955b0c9b26efc58eed9bc04383a5198cdb76a"
-  integrity sha512-ygZ1JS6xpUFuhUGdpFvemGpdIZxazWiKwweBSF12zziKFnjS95OXwruG5EX9R2A7mK64TjV3isSdlwis0zXX1Q==
+  version "1.10.1000203"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-1.10.1000203.tgz#58e6bc7cb07b401b8b0cb107c381a9724f9d6c49"
+  integrity sha512-1yPgzPdhOBZuUHFkP+Cpde5Jq0OoBP2/nFPRaPmmvT4C+FLqmOto44VV7Xk9vwb43RkLWWGazj1HYYTFTqutaQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     dateformat "^2.0.0"
@@ -256,9 +256,9 @@
     redux-form "^7.0.3"
 
 "@folio/checkout@>=1.3.0":
-  version "2.0.1000364"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-2.0.1000364.tgz#5914b349b609d834ea16774f68c1d0a8920a4bb2"
-  integrity sha512-PS4C0eti6QeqqnxF3PiIiE1Lf+ljQPAvTjS8w6LNQvwtDxAUhbmvKtzccSywqVZ/DOPI4C7lmNOFHg5ZRVQ8gQ==
+  version "2.0.1000365"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-2.0.1000365.tgz#f17abad1b2a1a2b4eec4cfb9596a7c4792afb880"
+  integrity sha512-2cykZdPIUmy1hzwheeJtEkOb8573b9oKAPMoMt+Aq3d1Hw3OEuSFMboMAdB9v+ybcK0V9QTVErmmsdjdSLXMEQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
@@ -657,9 +657,9 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.12.0":
-  version "2.12.1000606"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.12.1000606.tgz#fcbdaf0f3ef02845a5ce28d09b0ffb29c4d7f7a1"
-  integrity sha512-3FP2rVqr0K3YWzmGii0en4elfod9NNOKacyLa4eDSddZ6dSslqRh67VkQ4+0lpAl6nKlca2ZbJP8D4nV7OFH4Q==
+  version "2.12.1000607"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.12.1000607.tgz#d5316e7b4506722f1aa7c333cbcf9be5efd7f884"
+  integrity sha512-lCSaTfRWmbdS043ntw2Sbw9L7Lvsd+CliB3htj3OJ2UymAlFLTWgT2+YEtyX+ezZhIYpJYFPa93MZxisd3EHAA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.9.0"
