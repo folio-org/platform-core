@@ -694,9 +694,9 @@
     nightmare "^3.0.2"
 
 "@folio/stripes-util@^1.6.0", "@folio/stripes-util@~1.6.1":
-  version "1.6.100025"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.6.100025.tgz#b35b7851b78d40f12f418ce783e8382464430e7f"
-  integrity sha512-S0P5ZHo67D69S+c8XaF730W5/8ecmLQ7koiZMPlEuJhTS6qEjKOUtx32LHrcVNDvu2+o5j6yrC60MWm3EnDMRA==
+  version "1.6.200026"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.6.200026.tgz#cc5b653d2a566ae24ad68931454b02d9c50ff0ee"
+  integrity sha512-npqi28QeHJOcdecxJzGci3x0QML9TKBOWuGfJinPz1e9d1qvyO4zJCcJNNHESJk6f2avaDP6jux48fgr6RQYqA==
   dependencies:
     json2csv "^4.2.1"
     lodash "^4.17.4"
