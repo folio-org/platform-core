@@ -318,9 +318,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000749"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000749.tgz#514ef3cb7f10b3824b7192a18509a049f4cd3051"
-  integrity sha512-c6i1RVVg4pg03TtbG8KVPhNaWnn2ytz565OaS1f+FcgF0N4gf8LJTZsIWev/cc4Ze0sF5N7gBVJPV3D5lzZc+Q==
+  version "1.13.1000750"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000750.tgz#22934e83058aa93309bc1ca348bdca6f40860abe"
+  integrity sha512-ayNJItUN4ClsQ1PK8o/gS8oKwrfoINm/yOtirnE3cFg7bvNcVaRHw9TAruyv2pmg95q7fdYdTnXB/WF56D15Pw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
@@ -744,9 +744,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.1000883"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000883.tgz#fad8e6b75bc7e19e022cf7c6156d8e34190d7b3b"
-  integrity sha512-fWT85KbMiOoJnBC2KcyK/lWMPSpiTUs3obzSxjAT4XO48mHY+CiEZ0zoQlek++voQ12il2+nGL905eP63+kA5w==
+  version "2.26.1000887"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000887.tgz#71947c47a5eb747e019315a0f2ecbde745ee1569"
+  integrity sha512-qi1GMfXOm9ITqfv50Dno2zA2SoWFG4+ka6fHWq70BU9KhCY0P/1JRd/v2QYMTHHW3ploG8r3XFJmdg0rhqBSMQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -1020,9 +1020,9 @@
   integrity sha512-8bskLEkiDvuZztnfGN+vM56q2HQV8dyXS/Eb0nhXPx6fonii3hQLxfNVA2r5NTMbvEkwDo59bAau3idUXaGvww==
 
 "@types/node@>=6":
-  version "12.12.20"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.12.20.tgz#7b693038ce661fe57a7ffa4679440b5e7c5e8b99"
-  integrity sha512-VAe+DiwpnC/g448uN+/3gRl4th0BTdrR9gSLIOHA+SUQskaYZQDOHG7xmjiE7JUhjbXnbXytf6Ih+/pA6CtMFQ==
+  version "12.12.21"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.12.21.tgz#aa44a6363291c7037111c47e4661ad210aded23f"
+  integrity sha512-8sRGhbpU+ck1n0PGAUgVrWrWdjSW2aqNeyC15W88GRsMpSwzv6RJGlLhE7s2RhVSOdyDmxbqlWSeThq4/7xqlA==
 
 "@types/node@^8.0.24":
   version "8.10.59"
