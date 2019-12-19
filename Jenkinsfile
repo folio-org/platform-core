@@ -108,28 +108,28 @@ pipeline {
             }
           }
         }
-/*
- *       stage('Run Integration Tests') {
- *         when {
- *           changeRequest()
- *         }
- *         steps {
- *           script {
- *             def testOpts = [ tenant: env.tenant,
- *                              folioUrl: env.folioUrl,
- *                              okapiUrl: env.okapiUrl,
- *                              folioUser: env.tenant + '_admin',
- *                              folioPassword: 'admin']
- *
- *             def testStatus = runIntegrationTests(testOpts)
- *
- *             if (testStatus == 'FAILED') {
- *               error('UI Integration test failures')
- *             }
- *           }
- *         }
- *       }
- */
+
+       stage('Run Integration Tests') {
+         when {
+           changeRequest()
+         }
+         steps {
+           script {
+             def testOpts = [ tenant: env.tenant,
+                              folioUrl: env.folioUrl,
+                              okapiUrl: env.okapiUrl,
+                              folioUser: env.tenant + '_admin',
+                              folioPassword: 'admin']
+
+             def testStatus = runIntegrationTests(testOpts)
+
+             if (testStatus == 'FAILED') {
+               error('UI Integration test failures')
+             }
+           }
+         }
+       }
+
 
         stage('Publish NPM Package') {
           when {
