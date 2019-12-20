@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.7.0",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-18.1.0",
+  "id" : "mod-inventory-storage-18.2.0",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-2.7.1",
@@ -35,7 +35,7 @@
   "id" : "mod-feesfines-15.6.0",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-17.0.0",
+  "id" : "mod-circulation-17.0.1",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-1.10.1",
@@ -44,7 +44,7 @@
   "id" : "mod-inventory-13.1.0",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-2.0.0",
+  "id" : "folio_checkout-2.0.1",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-1.12.0",

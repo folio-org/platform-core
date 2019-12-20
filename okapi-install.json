@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-18.1.0",
+    "id": "mod-inventory-storage-18.2.0",
     "action": "enable"
   },
   {
@@ -44,7 +44,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-17.0.0",
+    "id": "mod-circulation-17.0.1",
     "action": "enable"
   },
   {
