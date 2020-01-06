@@ -35,7 +35,7 @@
   "id" : "mod-feesfines-15.6.0",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-17.0.1",
+  "id" : "mod-circulation-17.0.2",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-1.10.1",
@@ -53,7 +53,7 @@
   "id" : "folio_developer-1.11.0",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-1.13.2",
+  "id" : "folio_inventory-1.13.3",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-1.8.0",
@@ -65,7 +65,7 @@
   "id" : "folio_plugin-find-user-1.9.1",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-1.14.0",
+  "id" : "folio_requests-1.14.1",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.7.0",
