@@ -220,9 +220,9 @@
     to-fast-properties "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "2.7.200045"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.7.200045.tgz#5dc02f8768835283cdaf977c3d6352fec05dac48"
-  integrity sha512-9WcjFcuun6BUDc+R6V3K241eUvo1CIWY5toqov11Tm3mASZNeeKgJueGWK7UUkuWwhAhN+T9wzSCvYx+nkSADA==
+  version "2.7.200046"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.7.200046.tgz#52c53f9210db10b6ef50b9916930ae030a236868"
+  integrity sha512-CTSyNeWUntYs+6Qevq9Zu/wpl4u1ghVG79T1s9+tyYutHBjvOlLKyp3rzeVXCkmwfFFUufuHOB0/FaJaI98QVw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     dateformat "^2.0.0"
@@ -256,9 +256,9 @@
     redux-form "^7.0.3"
 
 "@folio/checkout@>=1.3.0":
-  version "2.0.1000369"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-2.0.1000369.tgz#99f55e76d433a5f2e7eeddfa1325020fcd0de0a1"
-  integrity sha512-5ZNjQJhHvDG4qBmfHCvI/dByciSqUnAarAtb1QfztMF4AkqPVhbpfH+9t0v75sdCEo5iEqrtN6sBa4jvgnmgWg==
+  version "2.0.1000370"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-2.0.1000370.tgz#92d758531330cdfe4c5cea43f0112547145ee1b1"
+  integrity sha512-lJwd/izY5jDHZ1KwjOlz57rgBJHu89HVT3AXdXo/3m+uSWzzS0CVKSeeBOWZ13o3iA4L3s1FUNnqAVa2gm686Q==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
@@ -470,9 +470,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.10.0":
-  version "5.10.1000948"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.10.1000948.tgz#18d396c138bc328cd6171c92c7799b467d644936"
-  integrity sha512-Guly1dJFnGYxeuXSzeuTdAK4uBzdKSpWAbpMBoLxJqdUGNkgYJT6hSYn34f+C6ZC0EUBUU+OhiTbir/Wc2gVAw==
+  version "5.10.1000949"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.10.1000949.tgz#7ce9c3a00d45d3aaf7b97ea7782b7d57b95e8e27"
+  integrity sha512-wzMcgZYo/lejWtzuvadhhFx/mr6sAt5FMM6HyQFM40GIe8uBb/O7ODoWeBwSAdckZjEK8sA7sNyHfMcUD5J7pQ==
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -517,9 +517,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.12.0":
-  version "3.12.1000650"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.12.1000650.tgz#b30ba0dd62de85b9d1137e128a36734212d2353f"
-  integrity sha512-Re2MeeojNi+bKF3j2nRLiVS+yGv+S3p2tMcwGb5HVwviROVrZjNbV9bG1F297IKKJi6AFFf0bXzE1AbQGMMDaA==
+  version "3.12.1000651"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.12.1000651.tgz#7a6b604e9557e1214e3a8888302f18cd9443fbef"
+  integrity sha512-k9SMIjWqqx9/Fnphqm0EgX5MdzNkUciYTCfv2i9IkWZq/jEa3Fvbct8zoXbfL6dZi2YxzXLsnubWNmPMGnpsow==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.10.0"
@@ -11502,9 +11502,9 @@ terser-webpack-plugin@^1.4.3:
     worker-farm "^1.7.0"
 
 terser@^4.1.2:
-  version "4.6.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/terser/-/terser-4.6.0.tgz#5c1f8d01897a718797958b8607ff7cc4a3d12055"
-  integrity sha512-YMJyZ/KsqA1LVS0z5m9W1//n4zo6iYqvBSAvss07e4BfHl9ZdQWUeXN/Xh1nGzMO/CwS0zjANpOzR8KibBP9Pg==
+  version "4.6.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/terser/-/terser-4.6.1.tgz#913e35e0d38a75285a7913ba01d753c4089ebdbd"
+  integrity sha512-w0f2OWFD7ka3zwetgVAhNMeyzEbj39ht2Tb0qKflw9PmW9Qbo5tjTh01QJLkhO9t9RDDQYvk+WXqpECI2C6i2A==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
