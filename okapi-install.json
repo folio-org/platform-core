@@ -1,14 +1,14 @@
 [
   {
-    "id": "mod-calendar-1.6.1",
+    "id": "mod-calendar-1.7.0",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-18.1.0",
+    "id": "mod-inventory-storage-18.2.2",
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-10.0.0",
+    "id": "mod-circulation-storage-10.0.1",
     "action": "enable"
   },
   {
@@ -24,7 +24,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-template-engine-1.7.0",
+    "id": "mod-template-engine-1.7.1",
     "action": "enable"
   },
   {
@@ -44,7 +44,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-17.0.1",
+    "id": "mod-circulation-17.0.2",
     "action": "enable"
   },
   {
