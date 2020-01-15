@@ -231,9 +231,9 @@
     pretender "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "2.7.200048"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.7.200048.tgz#baa0bdd2c66bbeda25bea9ad3be792ab6545f196"
-  integrity sha512-CkR4yUHo4NVgc1RXllUPC9xNVfXic1gxTq3Dp4hSan14Y+P20KfGKu/3NLDXG3GjcSnjRD5+z1qghLA/yVo8Jg==
+  version "2.7.200049"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.7.200049.tgz#24249f3b1cf8577d3186e9290d9d8bb042976baf"
+  integrity sha512-lxAVrHSRvWb2D15runAa/EslLeeQTcsF6xPSPsm4P41Mk8H5olr1alCLaEB+i3If+cDlxrg6rmJseSlKv0yksA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     dateformat "^2.0.0"
