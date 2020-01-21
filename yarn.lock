@@ -481,9 +481,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.10.0":
-  version "5.10.1000957"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.10.1000957.tgz#cec844b2746eae01679364d237c0ebc23277fb0b"
-  integrity sha512-9SW1vjbKFbKW3A4YiYHLLq545y3Bj4CEMYWh9acmOZtWJVKuki/6Khc3PAeelsz4GFDjw1Ahu1LF5DuYzFK1kQ==
+  version "5.10.1000958"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.10.1000958.tgz#1924683c9402c263f48219293527ca312750a903"
+  integrity sha512-w9zG9TjDs7R6YknfVXmfH0BcJwo75lY6HoOqYvUgZIDJMpPPg068vRoUGkXH3F6gk6jJXrWubCl5XkkxMfSV8g==
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
