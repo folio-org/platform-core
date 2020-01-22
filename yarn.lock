@@ -432,9 +432,9 @@
     react-router-dom "^4.1.1"
 
 "@folio/stripes-cli@^1.13.0":
-  version "1.14.1000202"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.14.1000202.tgz#0fc937c6b44a3e8a8f50f4447a52bd0082cc85ba"
-  integrity sha512-vYdPxxy7Q0/Kqx04zdQOi6fPcC1O2o4Tug+ZmAShd2otRqUp6ebDszOmzLWpONfKH8g2rksk6sgEIlTeOdqXag==
+  version "1.14.1000203"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.14.1000203.tgz#2f505c5969c4abe1d6878d8dd99ee244b291cc3e"
+  integrity sha512-Hf0hL79r7ngaxP7lqoXuVrGxcIbLYY7KItCQnTxNEtDwKJw41QuagXjR6FDXzvFu5sCvQeYkdKEmyJoXCfdWbg==
   dependencies:
     "@folio/stripes-core" "^2.17.1 || ^3.0.0"
     "@folio/stripes-testing" "^1.6.0"
@@ -528,9 +528,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.12.0":
-  version "3.12.1000659"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.12.1000659.tgz#f9da5e6b56778f8f0092c45337e7cf2116ab5fe0"
-  integrity sha512-aaXgtKJKAGvCsEkedixxnuaZbu+DuxDAlGuFC3WyqeY2DUqlWvhm/H6LwO0/Iy0qGLhE1dNeZ4alTL4ml6nNVg==
+  version "3.12.1000660"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.12.1000660.tgz#400292676503d9012eef7c1c104b9af497d88093"
+  integrity sha512-gzK4HJEhKT8+x/Jko5+6Ztvo1CPcSWnofivswh1qvrAmEaC+hcjvgxcLRpAorxg4xRSjHdWL7AfeIi+W4V3oSQ==
   dependencies:
     "@bigtest/mirage" "^0.0.1"
     "@folio/react-intl-safe-html" "^1.0.2"
