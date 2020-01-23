@@ -515,9 +515,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~5.5.0":
-  version "5.5.1000103"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-5.5.1000103.tgz#089144d0410e2248974ad190b5f3220bf5b66249"
-  integrity sha512-v3x68dl/YRZ5obHO+TCOQNR8osL2/hqXUiWIiRugtUxOxTbKAWycL0PWIWE75k/5NoMp0nEfwmfIqHhPbB2OUQ==
+  version "5.5.1000104"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-5.5.1000104.tgz#85ee2efc9213ba40cb04060512a6f9ea2223e0eb"
+  integrity sha512-VFtlheo30QzdNdjHrBCASK6K4xh+O2LXPVgnBRU6dM6nS/cIJ1NlyceyhJbVdhjR7bSd0kfvjTp5HYYQiFIqPw==
   dependencies:
     isomorphic-fetch "^2.2.1"
     lodash "^4.17.11"
@@ -8028,9 +8028,9 @@ moment-timezone@^0.5.14, moment-timezone@^0.5.17:
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
 mousetrap@^1.6.1:
-  version "1.6.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/mousetrap/-/mousetrap-1.6.3.tgz#80fee49665fd478bccf072c9d46bdf1bfed3558a"
-  integrity sha512-bd+nzwhhs9ifsUrC2tWaSgm24/oo2c83zaRyZQF06hYA6sANfsXHtnZ19AbbbDXCDzeH5nZBSQ4NvCjgD62tJA==
+  version "1.6.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/mousetrap/-/mousetrap-1.6.4.tgz#6a65d9ef6b5dcfbe98f88eaa95110dfe0674dec6"
+  integrity sha512-FEqV3qG8AqGEpCkRRnbH5TuhhMXFb1YkmdfgqYEfjOtWQ7nQeZtkIGcVgX3tV1mKU1885aq+Qs6bZ4EzPUJPdQ==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
