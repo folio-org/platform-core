@@ -1390,9 +1390,9 @@
     react-router "^4.1.1"
 
 "@folio/stripes-form@~2.12.0":
-  version "2.12.100082"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-2.12.100082.tgz#56bdcf468a0db76f8eb14a3ea3912e72f44fc86f"
-  integrity sha512-9W7rfAuQnJBoG/RpMjZ2OcT2lK6LOlX3MhgLIiFEihEciS6Ts1nOCYFdQa6ShSadJ5DVJduOsClwlbkZVFIdtw==
+  version "2.12.100083"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-2.12.100083.tgz#0c587c0b5398fcd3c67946fc20d2c02f5183b19a"
+  integrity sha512-7JSaQKfQkYFjI57YApL0o+efcEil7N6NV0UiOaxHXXyQco0AcRCx1o4HAGLdZ9NWDm1q2hJAMAjCnvhcKMbUsw==
   dependencies:
     "@folio/stripes-components" "~5.10.0"
     "@folio/stripes-core" "~3.12.0"
