@@ -1505,9 +1505,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.1000937"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000937.tgz#e12ecb1579fced3bf80ef7218fd359540aa8ec74"
-  integrity sha512-cbeLdtC3UERUavK1tYJB6pMQ0c0ayD1wPmnXwcbk53cpDyZzkluTlsFW9tHY/fy/rMA6FFgCGJJ2IAGg7AIS+g==
+  version "2.26.1000939"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000939.tgz#c8c7420504feb873b0593d547f43303339e445b9"
+  integrity sha512-Wc5rXlCjFa+vTdqUFX9QflfX9eEsEkFN6nge3r/pt3b8UEqj7OEAeiBTCwzkpcEdG5TazKcscTn8SXitI7y/cw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -4013,9 +4013,9 @@ d@1, d@^1.0.1:
     type "^1.0.1"
 
 damerau-levenshtein@^1.0.4:
-  version "1.0.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/damerau-levenshtein/-/damerau-levenshtein-1.0.5.tgz#780cf7144eb2e8dbd1c3bb83ae31100ccc31a414"
-  integrity sha512-CBCRqFnpu715iPmw1KrdOrzRqbdFwQTwAWyyyYS42+iAgHCuXZ+/TdMgQkUENPomxEz9z1BEzuQU2Xw0kUuAgA==
+  version "1.0.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/damerau-levenshtein/-/damerau-levenshtein-1.0.6.tgz#143c1641cb3d85c60c32329e26899adea8701791"
+  integrity sha512-JVrozIeElnj3QzfUIt8tB8YMluBJom4Vw9qTPpjGYQ9fYlB3D/rb6OordUxf3xeFB35LKWs0xqcO5U6ySvBtug==
 
 dashdash@^1.12.0:
   version "1.14.1"
