@@ -1068,9 +1068,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000779"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000779.tgz#b4d495bdfeec31e46a1dbf27387f5540f4ab5ad1"
-  integrity sha512-2QOZQwFwTSgA71wKeTR4hdp/wZocXGXkwJr4gamqB7KGyHVSk3s22TXJj8BfmT7kR1+dUpaCKNLXxh4iQm8AZA==
+  version "1.13.1000780"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000780.tgz#d9d9b0a1c48c11c6e192e95766b0dc3568cb2719"
+  integrity sha512-0yAIChFcuqXB1J80CUnKcwnk7gb7ttnmqGnl9HkUUKIRPwtkcqGFKHAetV2dFooWfbbfirz6GaOUwilvR/Rj2A==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
@@ -1128,9 +1128,9 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.14.1000422"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000422.tgz#93d94b071a983f3554ef5ce05b53c65e5ad6e292"
-  integrity sha512-RASVEnS4Mce0YDWLJJubs65CIumCRCUmDHHH1WlMdmqytKkz2YaTm7srP1AAsPpXRFxG0X8j6AWkfGmJf3NAtw==
+  version "1.14.1000424"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000424.tgz#9a6c3455a18082ec5bb977ca385907667da69d61"
+  integrity sha512-dY2l7K4I1SwVUGEfyvHgwFzBfougnz2ozSknBGwSrsu3/nDiGcGWy72WvoW/MjOILFoeB78qvXkvMEiLYDVItg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     html-to-react "^1.3.3"
@@ -1268,9 +1268,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.12.0":
-  version "3.12.1000664"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.12.1000664.tgz#1cb416958d55945c79fbe5bb0cefc4eb1b3f945b"
-  integrity sha512-UZRwnaHNMfHV3JbfRueaglbhH5n0mXZv2rerqoUlhCJa9mEbLVMsJZ8uYK3eaRVgT4+rhBBWDDlHFRoi9t1REg==
+  version "3.12.1000665"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.12.1000665.tgz#6a90fa8003869e45cbbadccb25e8f0774b01867c"
+  integrity sha512-RTA2lwNv6AxHDqqx8XM4U02nuh2wEG3yMgDmXOE9Wa78RjTUBDH5fVAWO6tqh9LWS6AD5msgUMBJBQP941NHNA==
   dependencies:
     "@babel/core" "^7.8.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
