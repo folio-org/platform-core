@@ -1068,9 +1068,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000784"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000784.tgz#13b88e711db633367811349c4f6e9507ec739c0b"
-  integrity sha512-ctWOXH83n5enkBcPZ0l7tpy7v0n/TotwQAzrb3nmghhLE5xTskK5cKIlzzDwJkqtWUZ/PKJFzFLc5rS+nM8k4A==
+  version "1.13.1000785"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000785.tgz#64535af619e277c12607a6bbb6e111be4c30c06d"
+  integrity sha512-Tvd/KBnn0YI9RpzAHB08ZSv+9qs3JLcfkj70j9KvRSqQGB3H3z2oLkoZPFkMw4tN27G239ySgW9nC4kX17aEeg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
@@ -1101,9 +1101,9 @@
     redux-form "^7.0.3"
 
 "@folio/plugin-find-instance@>=1.1.0":
-  version "1.6.100039"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-1.6.100039.tgz#4eec05cf445d6211073de256980d02add366f38f"
-  integrity sha512-eKPXOuQjtSNV6AIszQuC3G9h2zqXGGfGIkkRAeN7lbU85dr6GLiyZN2Ta1upRUKsPdy9LvtJeU1DCR/BV/PEkg==
+  version "1.6.100040"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-1.6.100040.tgz#a699b039931e8b3828c84d9c538d6f563d52851f"
+  integrity sha512-YYD9bJojcSxUnhGV4swbnirfs0UfdGJ9yPWnWrE8U4ojcMwDEYn1GaLHhLPOkOdjMMeC0RvFH+9TLSzwGEHp6g==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
@@ -1221,9 +1221,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.10.0":
-  version "5.10.1000966"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.10.1000966.tgz#f0161b001b4b153b18f7fe1422e019d75d862da2"
-  integrity sha512-zCr1HJiiB4vM+rw1JK6EY+vuBLanLLcuo4+o11x9qmjzZXlgJ1+99YD8pWth/cMt1mRsvno8kw0PCoQ3xyuQOw==
+  version "5.10.1000967"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.10.1000967.tgz#b5d1b7b554dc73e4d19a08d6767640fb8e2c5fa4"
+  integrity sha512-tQAu8g1n8VhYu8rdH4VuLa1PQsthy8aLsjxJEvdfvLvR00Spu5ckqvb7HWG5fI6Nw+IvUp57bSZUvQGSytG4gQ==
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
