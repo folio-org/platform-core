@@ -30,26 +30,28 @@ module.exports.test = function uiTest(uiTestCtx) {
           helpers.clickSettings(nightmare, done);
         });
 
-        it('should configure default circulation rules', (done) => {
-          const newRules = 'priority: t, s, c, b, a, m, g\nfallback-policy: l one-hour r hold-only n basic-notice-policy o overdue-test i lost-item-test\nm book: l example-loan-policy r allow-all n alternate-notice-policy o overdue-test i lost-item-test';
-          helpers.setCirculationRules(nightmare, newRules)
-            .then(oldRules => {
-              initialRules = oldRules;
-            })
-            .then(done)
-            .catch(done);
-        });
-
-        describe('addOverdueFinePolicy', function foo() {
+        describe('add Overdue Fine Policy', function foo() {
           helpers.addOverdueFinePolicy(nightmare, overdueFinePolicyName);
         });
 
-        describe('addLostItemFeePolicy', function foo() {
+        describe('add Lost Item Fee Policy', function foo() {
           helpers.addLostItemFeePolicy(nightmare, lostItemFeePolicyName, 10, 'm');
         });
 
-        describe('addNoticePolicy', function foo() {
+        describe('add Notice Policy', function foo() {
           helpers.addNoticePolicy(nightmare, noticePolicyName);
+        });
+
+        describe('it should configure circulation rules', () => {
+          it('should configure default circulation rules', (done) => {
+            const newRules = `priority: t, s, c, b, a, m, g\nfallback-policy: l one-hour r hold-only n ${noticePolicyName} o ${overdueFinePolicyName} i ${lostItemFeePolicyName} \nm book: l example-loan-policy r allow-all n ${noticePolicyName} o ${overdueFinePolicyName} i ${lostItemFeePolicyName}`;
+            helpers.setCirculationRules(nightmare, newRules)
+              .then(oldRules => {
+                initialRules = oldRules;
+              })
+              .then(done)
+              .catch(done);
+          });
         });
       });
 
@@ -108,6 +110,7 @@ module.exports.test = function uiTest(uiTestCtx) {
 
         it('should check out newly created item', (done) => {
           helpers.checkout(nightmare, done, itembc, userbc);
+          nightmare.wait(15000);
         });
 
         it('should navigate to requests', (done) => {
