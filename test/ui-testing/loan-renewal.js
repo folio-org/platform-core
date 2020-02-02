@@ -426,86 +426,84 @@ module.exports.test = (uiTestCtx) => {
       });
     });
 
-    describe('restore settings', () => {
-      describe('it should restore settings', () => {
-        it('should navigate to settings', (done) => {
-          helpers.clickSettings(nightmare, done);
-        });
+    describe('it should restore settings', () => {
+      it('should navigate to settings', (done) => {
+        helpers.clickSettings(nightmare, done);
+      });
 
-        it('should restore the circulation rules', (done) => {
-          helpers.setCirculationRules(nightmare, initialRules)
-            .then(() => done())
+      it('should restore the circulation rules', (done) => {
+        helpers.setCirculationRules(nightmare, initialRules)
+          .then(() => done())
+          .catch(done);
+      });
+
+      describe('remove Overdue Fine Policy', function foo() {
+        helpers.removeOverdueFinePolicy(nightmare, overdueFinePolicyName);
+      });
+
+      describe('remove Lost Item Fee Policy', function foo() {
+        helpers.removeLostItemFeePolicy(nightmare, lostItemFeePolicyName);
+      });
+
+      describe('remove Notice Policy', function foo() {
+        helpers.removeNoticePolicy(nightmare, noticePolicyName);
+      });
+
+      describe('remove loan policy', () => {
+        helpers.removeLoanPolicy(nightmare, policyName);
+      });
+
+      describe('remove request policy', () => {
+        helpers.removeRequestPolicy(nightmare, requestPolicyName);
+      });
+
+      describe('Delete fixed due date schedule', () => {
+        it('should delete the fixed due date schedule', (done) => {
+          nightmare
+            .click(config.select.settings)
+            .wait('a[href="/settings/circulation"]')
+            .click('a[href="/settings/circulation"]')
+            .wait('a[href="/settings/circulation/fixed-due-date-schedules"]')
+            .click('a[href="/settings/circulation/fixed-due-date-schedules"]')
+            .wait('div.hasEntries')
+            .wait((sn) => {
+              const index = Array.from(
+                document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+              ).findIndex(e => e.textContent === sn);
+              return index >= 0;
+            }, scheduleName)
+            .evaluate((sn) => {
+              const index = Array.from(
+                document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+              ).findIndex(e => e.textContent === sn);
+              if (index === -1) {
+                throw new Error(`Could not find the fixed due date schedule ${sn} to delete`);
+              }
+              // CSS selectors are 1-based, which is just totally awesome.
+              return index + 1;
+            }, scheduleName)
+            .then((entryIndex) => {
+              nightmare
+                .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                .wait('#generalInformation')
+                .wait('#fixedDueDateSchedule')
+                .wait('#clickable-edit-item')
+                .click('#clickable-edit-item')
+                .wait('#clickable-delete-item')
+                .click('#clickable-delete-item')
+                .wait('#clickable-deletefixedduedateschedule-confirmation-confirm')
+                .click('#clickable-deletefixedduedateschedule-confirmation-confirm')
+                .wait((sn) => {
+                  return Array.from(
+                    document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
+                  ).findIndex(e => e.textContent === `The fixed due date schedule ${sn} was successfully deleted.`) >= 0;
+                }, scheduleName)
+                .wait(() => !document.querySelector('#OverlayContainer div[class^="calloutBase"]'))
+                .then(done)
+                .catch(done);
+            })
             .catch(done);
-        });
-
-        describe('remove Overdue Fine Policy', function foo() {
-          helpers.removeOverdueFinePolicy(nightmare, overdueFinePolicyName);
-        });
-
-        describe('remove Lost Item Fee Policy', function foo() {
-          helpers.removeLostItemFeePolicy(nightmare, lostItemFeePolicyName);
-        });
-
-        describe('remove Notice Policy', function foo() {
-          helpers.removeNoticePolicy(nightmare, noticePolicyName);
-        });
-
-        describe('remove loan policy', () => {
-          helpers.removeLoanPolicy(nightmare, policyName);
-        });
-
-        describe('remove request policy', () => {
-          helpers.removeRequestPolicy(nightmare, requestPolicyName);
-        });
-
-        describe('Delete fixed due date schedule', () => {
-          it('should delete the fixed due date schedule', (done) => {
-            nightmare
-              .click(config.select.settings)
-              .wait('a[href="/settings/circulation"]')
-              .click('a[href="/settings/circulation"]')
-              .wait('a[href="/settings/circulation/fixed-due-date-schedules"]')
-              .click('a[href="/settings/circulation/fixed-due-date-schedules"]')
-              .wait('div.hasEntries')
-              .wait((sn) => {
-                const index = Array.from(
-                  document.querySelectorAll('#ModuleContainer div.hasEntries a div')
-                ).findIndex(e => e.textContent === sn);
-                return index >= 0;
-              }, scheduleName)
-              .evaluate((sn) => {
-                const index = Array.from(
-                  document.querySelectorAll('#ModuleContainer div.hasEntries a div')
-                ).findIndex(e => e.textContent === sn);
-                if (index === -1) {
-                  throw new Error(`Could not find the fixed due date schedule ${sn} to delete`);
-                }
-                // CSS selectors are 1-based, which is just totally awesome.
-                return index + 1;
-              }, scheduleName)
-              .then((entryIndex) => {
-                nightmare
-                  .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
-                  .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
-                  .wait('#generalInformation')
-                  .wait('#fixedDueDateSchedule')
-                  .wait('#clickable-edit-item')
-                  .click('#clickable-edit-item')
-                  .wait('#clickable-delete-item')
-                  .click('#clickable-delete-item')
-                  .wait('#clickable-deletefixedduedateschedule-confirmation-confirm')
-                  .click('#clickable-deletefixedduedateschedule-confirmation-confirm')
-                  .wait((sn) => {
-                    return Array.from(
-                      document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
-                    ).findIndex(e => e.textContent === `The fixed due date schedule ${sn} was successfully deleted.`) >= 0;
-                  }, scheduleName)
-                  .wait(() => !document.querySelector('#OverlayContainer div[class^="calloutBase"]'))
-                  .then(done)
-                  .catch(done);
-              })
-              .catch(done);
-          });
         });
       });
     });
