@@ -110,7 +110,6 @@ module.exports.test = function uiTest(uiTestCtx) {
 
         it('should check out newly created item', (done) => {
           helpers.checkout(nightmare, done, itembc, userbc);
-          nightmare.wait(15000);
         });
 
         it('should navigate to requests', (done) => {
