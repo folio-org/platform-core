@@ -1006,9 +1006,9 @@
     redux-form "^7.0.3"
 
 "@folio/checkout@>=1.3.0":
-  version "2.0.1000374"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-2.0.1000374.tgz#5daf8b69839ea25ae4260b17df60a9b58d2d97df"
-  integrity sha512-ZkwPzhn83UoJLA//koNtvPVt+9YDoyeEf/331L4DJrruDDzy4h/1PhPTo4weReaf8UX6gKPgmffwENDzbKwiAA==
+  version "2.0.1000375"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-2.0.1000375.tgz#33a57401cf60d2be3a0815cfac458732b4188742"
+  integrity sha512-zXei4Mu+q/Cl9ltMLi5IwZzf9hklNeDZMwgCSeY1aPxBGXZ+VzOhMc1hjw9//7tqKCEh6DY1mTBjRBph0kWT0w==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
@@ -1101,9 +1101,9 @@
     redux-form "^7.0.3"
 
 "@folio/plugin-find-instance@>=1.1.0":
-  version "1.6.100041"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-1.6.100041.tgz#f848eda152fd2521f958fb74401aa579130001f7"
-  integrity sha512-CS/N2fHriSRbNX6L/MfsQIm2DaPAN2g77ZnMP3Dj5QkZ7d9HceLRAtvOqfUC3h5monNBp6MdMNv1YYVdUtWCbQ==
+  version "1.6.100042"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-1.6.100042.tgz#ad53e19278206d95bbd9a85a4c195f4def05f53c"
+  integrity sha512-kIuWQdOSxP8ZJV5AjFOeOxgsk9MePRmUyPRICYGNTQRGBYKKK2CwTKzCT4MuE7YziTW5FKbHxkGKA4GOaSSOiQ==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
@@ -1221,9 +1221,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.10.0":
-  version "5.10.1000968"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.10.1000968.tgz#dfe53026347361af0cd55e434596b48f6354721e"
-  integrity sha512-ZrdyX+JkiCiSpLuQpH5LGrrIDnx2/3jaWa1IfxJhxfj2iQUJKlya6et7p5C2m/uekyE80JKmZCY+ysZ7eQ9XkQ==
+  version "5.10.1000969"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.10.1000969.tgz#ffc505bef2ac6914a14a4c6dae823e428e445385"
+  integrity sha512-HKoraCuWXNhpwwELyVjjK1YbUvZFN7ZB6+5yoAcdIFTj57Olcs5CrFSQPrltzVv5QANaE3rrg7xJambmD0zMNA==
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
