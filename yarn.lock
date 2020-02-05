@@ -1060,9 +1060,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000786"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000786.tgz#e93674610e1b0a347cb389cddadb4b64c18825cc"
-  integrity sha512-c0LuyOr44rUnEDHRxaWNpXTxzQAtGEbq3SKrgN55drr30lb5PAGotUntGEe60PzHNbRgZcABWQmtWzcZ+rU6gw==
+  version "1.13.1000787"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000787.tgz#bb6b792b91eba015c6448110749bf6634cf53c59"
+  integrity sha512-P/FKakZTtIPQP6y2KAf8547Vbs4B/3VeDpkGpVp9bvI/nXi1TRYoJv0qUvbeWqoN7ua/GbL2+U9UPV7J/PMNaQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
@@ -1410,9 +1410,9 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.13.0":
-  version "2.13.1000621"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.13.1000621.tgz#09c7dc6549b824a7cfd39a0ec37b40f55e6795ba"
-  integrity sha512-cqR32qL7O0rw5tYk95U0nL2+wC4BG0+3sVihVFcHXAZWe6hLp7wd6cABFqfAslRIRtUGYevWqM9b8wi1Yw3c+Q==
+  version "2.13.1000622"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.13.1000622.tgz#f342c72b2535f85fb41526d16fc9abea762df6fc"
+  integrity sha512-RUg3piJD16A85Q+380SW3T7LIk4eZHyK2eEmtQv5GyGLTX/AnAGxxcdDjNGeJmFeI/6oLdQbeXoYVgNriYSVtA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.10.0"
@@ -1484,9 +1484,9 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "2.14.100074"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.14.100074.tgz#bd5ba287e8dcd473476bb3a602c18581850fb150"
-  integrity sha512-La0/qS7gfjLOcDHXgdu6dDGDJk47A1VZXcC+vrwRTBon8bEy3xeDM3DACADbJ8Wtv92k4qeXnBgtlnZppTNZ3A==
+  version "2.14.100075"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-2.14.100075.tgz#54725928013cd9370dd438f9f548c30fa98311ba"
+  integrity sha512-qZLvJF/sg1xDebExoBuuwN7px3auZoV3CJxArvoVlbrXiZCbUNUwFSXJ6cTADmOGITzREbTW3phk0Z43wKzjKg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
