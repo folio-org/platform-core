@@ -6,10 +6,6 @@ module.exports.test = function foo(uiTestCtx) {
     this.timeout(Number(config.test_timeout));
     let sponsorId = '';
     let proxyId = '';
-    let initialRules = '';
-    const overdueFinePolicyName = `test-overdue-fine-policy-${Math.floor(Math.random() * 10000)}`;
-    const lostItemFeePolicyName = `test-lost-item-policy-${Math.floor(Math.random() * 10000)}`;
-    const noticePolicyName = `test-notice-policy-${Math.floor(Math.random() * 10000)}`;
 
     describe('Login > Find user two users > Add proxy to user 1 > Delete sponsor in user 2 > Logout\n', () => {
       before((done) => {
