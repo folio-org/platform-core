@@ -31,7 +31,7 @@
     "@folio/search": "1.10.0",
     "@folio/servicepoints": "1.4.2",
     "@folio/stripes": "2.12.1",
-    "@folio/tags": "1.3.3",
+    "@folio/tags": "folio-org/ui-myprofile#pr-preview-test",
     "@folio/tenant-settings": "2.14.0",
     "@folio/users": "2.26.3",
     "react": "~16.8.6",
