@@ -131,9 +131,9 @@ module.exports.test = function uiTest(uiTestCtx) {
               .select('select[name="pickupServicePointId"]', servicePointId)
               .wait('input[name="requestExpirationDate"]')
               .insert('input[name="requestExpirationDate"]', nextMonth)
-              .wait('#clickable-create-request')
-              .click('#clickable-create-request')
-              .wait(() => !document.querySelector('#clickable-create-request'))
+              .wait('#clickable-save-request')
+              .click('#clickable-save-request')
+              .wait(() => !document.querySelector('#clickable-save-request'))
               .wait(3333)
               .then(done)
               .catch(done);
