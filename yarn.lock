@@ -1439,9 +1439,9 @@
     nightmare "^3.0.2"
 
 "@folio/stripes-util@^1.6.0", "@folio/stripes-util@~1.6.2":
-  version "1.6.200028"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.6.200028.tgz#c0b248672c2905056f6d290bfa621fb0dcb23be5"
-  integrity sha512-4aLBbXpdLkyJbsV2xA46eLYGpR1pIiqEhsV6TeT6k4zhT6/MFtCdY/avzxhF9xeaJzTGiJU2eiajZOpGosskgA==
+  version "1.6.200029"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.6.200029.tgz#9c9a015327c75dd63d1db61619cc8735c81a8a98"
+  integrity sha512-wgB4ben3KWXNMD0v3Z+eAIJvQJ0h3Sp54HxtLExVJ8dW0cZB4TMc01szZs+hGTLDUQ/+fsK6FPauMIS2RvB/uw==
   dependencies:
     json2csv "^4.2.1"
     lodash "^4.17.4"
@@ -7773,9 +7773,9 @@ make-dir@^2.0.0, make-dir@^2.1.0:
     semver "^5.6.0"
 
 make-dir@^3.0.0:
-  version "3.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/make-dir/-/make-dir-3.0.0.tgz#1b5f39f6b9270ed33f9f054c5c0f84304989f801"
-  integrity sha512-grNJDhb8b1Jm1qeqW5R/O63wUo4UXo2v2HMic6YT9i/HBlF93S8jkMgH7yugvY9ABDShH4VZMn8I+U8+fCNegw==
+  version "3.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/make-dir/-/make-dir-3.0.1.tgz#584a4ee258a41b8bdd56665e5acd888f5168afed"
+  integrity sha512-NFCymdWS4z/T+3AQ6tjsknt/+4hikbOe6zdq9ZBoPFfoX1S3fthRUbQWzZhI4WZBOM0kQ0GkhdCdfdan3HK+wg==
   dependencies:
     semver "^6.0.0"
 
