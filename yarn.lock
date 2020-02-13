@@ -1205,9 +1205,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~5.10.0":
-  version "5.10.1000973"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.10.1000973.tgz#bcb6840a1898471276bdda4b87539506c8711b39"
-  integrity sha512-jWdADzy35MQLgLylYYHl5hHhIlijn/bhd7YHZ/PV4suUnIBRT87pp8Csl1owFa3r/glPrALgJnswcKX7g6A54g==
+  version "5.10.1000974"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.10.1000974.tgz#e379d5b28bbe13a732f032b2bcc05e03bd43d05a"
+  integrity sha512-Xve69Y3eJxM4YLzHt8G2eHNxEZgcHntKGV7y8ntfvo46W6oUCZUUl+Z8EstAh8xWFIpjNebk5ZliOmMEki453Q==
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -8315,9 +8315,9 @@ no-case@^2.2.0:
     lower-case "^1.1.1"
 
 node-abi@^2.7.0:
-  version "2.14.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/node-abi/-/node-abi-2.14.0.tgz#24650e24e8ffad2b61352519263f0cf4e2ddbfe9"
-  integrity sha512-y54KGgEOHnRHlGQi7E5UiryRkH8bmksmQLj/9iLAjoje743YS+KaKB/sDYXgqtT0J16JT3c3AYJZNI98aU/kYg==
+  version "2.15.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/node-abi/-/node-abi-2.15.0.tgz#51d55cc711bd9e4a24a572ace13b9231945ccb10"
+  integrity sha512-FeLpTS0F39U7hHZU1srAK4Vx+5AHNVOTP+hxBNQknR/54laTHSFIJkDWDqiquY1LeLUgTfPN7sLPhMubx0PLAg==
   dependencies:
     semver "^5.4.1"
 
@@ -10428,9 +10428,9 @@ read-pkg@^3.0.0:
     util-deprecate "~1.0.1"
 
 "readable-stream@2 || 3", readable-stream@^3.0.1, readable-stream@^3.1.1:
-  version "3.5.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/readable-stream/-/readable-stream-3.5.0.tgz#465d70e6d1087f6162d079cd0b5db7fbebfd1606"
-  integrity sha512-gSz026xs2LfxBPudDuI41V1lka8cxg64E66SGe78zJlsUofOg/yqwezdIcdfwik6B4h8LFmWPA9ef9X3FiNFLA==
+  version "3.6.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/readable-stream/-/readable-stream-3.6.0.tgz#337bbda3adc0706bd3e024426a286d4b4b2c9198"
+  integrity sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA==
   dependencies:
     inherits "^2.0.3"
     string_decoder "^1.1.1"
