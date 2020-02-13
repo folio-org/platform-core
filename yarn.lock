@@ -1239,9 +1239,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~5.5.0":
-  version "5.5.1000105"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-5.5.1000105.tgz#0cdba6fa4ff2046b5652e6bc21260b03371f71ef"
-  integrity sha512-Ph+orlHx0iiggvzhT3SjIFN5v27fs+q37WX1mwoLlqapADLont4kxrTXN+LZksSw/gRuLRgejb8d7epUxI/FcA==
+  version "5.5.1000106"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-5.5.1000106.tgz#dc6e4c8380a8724ad539ecf80cf0f06b1bf1aa7c"
+  integrity sha512-Bq4ukAteTi155KCAYft6LETnvTdNeIOKeHP+rcHUWZk3xW4tkMU9/OVi0e80dVESSRQ5e0hWPgQBLKZLgzoKLw==
   dependencies:
     isomorphic-fetch "^2.2.1"
     lodash "^4.17.11"
@@ -1402,9 +1402,9 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.13.0":
-  version "2.13.1000625"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.13.1000625.tgz#5dd62ad7232fbdfbf84db3733f4f4c603dd9e4e5"
-  integrity sha512-F/2FJx6aGomG1ocxfV4gHZhHH3+ow9CCGObK9NxX8NvQ5QGF0uBObukcVQyqev3SphblyPQP8O4xBsmmAHrwmg==
+  version "2.13.1000626"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.13.1000626.tgz#5737ec15a58f447e4a2cea5972def312f2ae8e47"
+  integrity sha512-oqp9bFSUVe+zqmbaWm4oU/RTRxj6bbeAHcpKeZDyQD6MTT39TCPWPv15Jpd014qZo/eWMwEnWCV8NrWxEYkf7A==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.10.0"
@@ -1412,6 +1412,7 @@
     "@folio/stripes-core" "~3.12.0"
     "@folio/stripes-form" "~2.12.0"
     "@folio/stripes-logger" "~1.0.0"
+    "@folio/stripes-util" "^1.6.2"
     classnames "^2.2.6"
     final-form "^4.18.2"
     lodash "^4.17.4"
@@ -1438,7 +1439,7 @@
     minimist "^1.2.0"
     nightmare "^3.0.2"
 
-"@folio/stripes-util@^1.6.0", "@folio/stripes-util@~1.6.2":
+"@folio/stripes-util@^1.6.0", "@folio/stripes-util@^1.6.2", "@folio/stripes-util@~1.6.2":
   version "1.6.200029"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.6.200029.tgz#9c9a015327c75dd63d1db61619cc8735c81a8a98"
   integrity sha512-wgB4ben3KWXNMD0v3Z+eAIJvQJ0h3Sp54HxtLExVJ8dW0cZB4TMc01szZs+hGTLDUQ/+fsK6FPauMIS2RvB/uw==
@@ -9864,9 +9865,9 @@ query-string@^5.0.0, query-string@^5.1.0:
     strict-uri-encode "^1.0.0"
 
 query-string@^6.1.0, query-string@^6.8.1:
-  version "6.10.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/query-string/-/query-string-6.10.1.tgz#30b3505f6fca741d5ae541964d1b3ae9dc2a0de8"
-  integrity sha512-SHTUV6gDlgMXg/AQUuLpTiBtW/etZ9JT6k6RCtCyqADquApLX0Aq5oK/s5UeTUAWBG50IExjIr587GqfXRfM4A==
+  version "6.11.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/query-string/-/query-string-6.11.0.tgz#dc27a05733d1be66f16d0f83dfa957270f45f66d"
+  integrity sha512-jS+me8X3OEGFTsF6kF+vUUMFG/d3WUCvD7bHhfZP5784nOq1pjj8yau/u86nfOncmcN6ZkSWKWkKAvv/MGxzLA==
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
