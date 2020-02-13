@@ -1052,9 +1052,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000795"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000795.tgz#9f06afba99975556750064252ba39c827cba4ca1"
-  integrity sha512-czlLAhTc43pNpxtwEmmzpWQls9gpLpVCAWXlIhzBZPCY+Ud8I2quWDdwBj+L6WiPnvY4RhlwaRZr4gOsPU7HMQ==
+  version "1.13.1000796"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000796.tgz#ebf63e0a7718972a518b51bb4a9c6f7c86cb585d"
+  integrity sha512-aIBFnBVDBheFih0sgrmRrNMzgX7iQn3Rg3x61OKFCx7BrlQr+wUptpqNczyD3VrIUhBhN4itP/sy461dH6UxBg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
