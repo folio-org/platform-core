@@ -168,17 +168,6 @@ module.exports.test = (uiTestCtx) => {
 
       it('should change closed-loan count', (done) => {
         nightmare
-          .wait('#input-user-search')
-          .insert('#input-user-search', userBarcode)
-          .wait('#clickable-reset-all')
-          .click('#clickable-reset-all')
-          .insert('#input-user-search', userBarcode)
-          .wait('button[type=submit]')
-          .click('button[type=submit]')
-          .wait('#list-users[aria-rowcount="2"]')
-          .wait('#list-users a[role="row"][aria-rowindex="2"]')
-          .click('#list-users a[role="row"][aria-rowindex="2"]')
-
           .wait('#pane-userdetails')
           .wait('#clickable-viewclosedloans')
           .evaluate(() => document.querySelector('#clickable-viewclosedloans').textContent)
