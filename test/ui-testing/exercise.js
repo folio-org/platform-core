@@ -133,7 +133,7 @@ module.exports.test = (uiTestCtx) => {
           }, barcode)
           .wait('#users-module-display button[icon="times"][class*="iconButton"]')
           .click('#users-module-display button[icon="times"][class*="iconButton"]')
-          .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 555) // debugging
+          .wait('#pane-userdetails')
           .then(done)
           .catch(done);
       });
@@ -153,27 +153,21 @@ module.exports.test = (uiTestCtx) => {
             return !!(Array.from(document.querySelectorAll('#list-items-checked-in [role="gridcell"]'))
               .find(e => e.textContent === `${bc}`));
           }, barcode)
+          .wait('#clickable-end-session')
+          .click('#clickable-end-session')
+          .wait(() => {
+            return !document.querySelector('#list-items-checked-in');
+          })
           .then(done)
           .catch(done);
       });
 
       it('should navigate to users', (done) => {
-        helpers.clickApp(nightmare, done, 'users');
+        helpers.clickApp(nightmare, done, 'users', 2000);
       });
 
       it('should change closed-loan count', (done) => {
         nightmare
-          .wait('#input-user-search')
-          .insert('#input-user-search', userBarcode)
-          .wait('#clickable-reset-all')
-          .click('#clickable-reset-all')
-          .insert('#input-user-search', userBarcode)
-          .wait('button[type=submit]')
-          .click('button[type=submit]')
-          .wait('#list-users[aria-rowcount="2"]')
-          .wait('#list-users a[role="row"][aria-rowindex="2"]')
-          .click('#list-users a[role="row"][aria-rowindex="2"]')
-
           .wait('#pane-userdetails')
           .wait('#clickable-viewclosedloans')
           .evaluate(() => document.querySelector('#clickable-viewclosedloans').textContent)
