@@ -954,9 +954,9 @@
     pretender "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "2.7.200052"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.7.200052.tgz#29febb4c12372419cca6d10ca8fc1bbe27a7dde8"
-  integrity sha512-DJ31f61FapSDKytQhCq3fQsm98iVv3FTUn8pjseIqOKqAJoBhPqaJrEC1wxnWZndVRyi6rKKZj5L/48RhL87cg==
+  version "2.7.200053"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-2.7.200053.tgz#968f5f46529090a35a3cb76bdf5ba2e30fc07d15"
+  integrity sha512-D7BX+f7yKHW5hRC7H+1PcthW1vvgfSYGkJ8CLN95oUMmAzCqGUHCDl+V3MsFbho/zJZBwePVY5QoCjWddecUwg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     dateformat "^2.0.0"
@@ -1052,9 +1052,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000796"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000796.tgz#ebf63e0a7718972a518b51bb4a9c6f7c86cb585d"
-  integrity sha512-aIBFnBVDBheFih0sgrmRrNMzgX7iQn3Rg3x61OKFCx7BrlQr+wUptpqNczyD3VrIUhBhN4itP/sy461dH6UxBg==
+  version "1.13.1000797"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000797.tgz#e2c00d82fe42ff6eee9cbe73e475d20cd00432e8"
+  integrity sha512-rZ9tQqOzQATwYcSMkeqoeNfCC3wcTYBdnpyL/pE6Vj/t+i9PECevWtJdbux26tqst3BTCLCCyd5LDY5dK6S46w==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
