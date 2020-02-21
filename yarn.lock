@@ -1112,9 +1112,9 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "1.14.1000440"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000440.tgz#66be13951ed0e4993f81e7f4bba13003bbd54de9"
-  integrity sha512-XOpdupULQlLuE8UAr2/HOm5H2PL5qc2+iV3Yg7nFYt6XZUrNQ7pLJAq92dKe4h5BLmYbeirI5jFkKKvVyS8OsA==
+  version "1.14.1000441"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.14.1000441.tgz#39ef2424f3baece8db766f7cf2b0ae609f0298b1"
+  integrity sha512-3eSD+wBRxxin89KAbfsxhEUKUWUZb7khoKRwclUVFlL2TOkgGj4iVc5QTTavsHaNldl9H/o19yGlU6qQ40ISWw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     html-to-react "^1.3.3"
