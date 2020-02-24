@@ -1024,9 +1024,9 @@
     redux-form "^7.0.3"
 
 "@folio/developer@>=1.5.0":
-  version "1.11.100082"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-1.11.100082.tgz#57d33ddf651bdff1f18c5392a70ee1353cd80f9d"
-  integrity sha512-H6Ex7mAb9ykcMUss4+YETrlVwJgT0mMjsLb9y6cD8Cf031Vr6lDx0MHaxB7CU4/aPm9arvkfP1OLhA8hQ4RNQw==
+  version "1.11.100083"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-1.11.100083.tgz#b6b8e53f7765462525944988852f35617817443f"
+  integrity sha512-bOwMbiJdeZKvLlLcuV8PgwO1dvk0Tm4Gn8ad2+IX6rfsCVa6RQG/bNSxzu6bRwvAvD5juttU2WlipqyomQHbqQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -1052,9 +1052,9 @@
     webpack "^4.10.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000803"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000803.tgz#1e2124594897f099b42895522d2e4dd6e448c052"
-  integrity sha512-OOwlLTV2TUK+kMJXnfy88oK+2Yw0nKBX9m3lojNZVS1pPoki0k6G2djvXy9n1LShtCwfL+SzGyp0xAGyLQ/ubQ==
+  version "1.13.1000804"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000804.tgz#daf685e1eb939aec600b51e27037b35f6cd6c64c"
+  integrity sha512-lKXe1qkKuOXXebl4ZPXD3sc1Mddp5nJV4LzQvqmlRGSu4vs0p7EUx+QHvitXSFYgC73+nKck1Sa1oOm3OX2N+w==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
@@ -1490,9 +1490,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.1000977"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000977.tgz#f9a9d292cc622c5ba95149680d860b4ceb6bac61"
-  integrity sha512-leoS/Wdex0tcSKErtbaCGgsrY42My6RkXE/4faVZ/Er9DA6t5CZdMdbkF6P7fi0hym8HOK1k+OJ/44QjojXz4g==
+  version "2.26.1000978"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.1000978.tgz#5877c9cf87f4adbec3ed4742ae815ba8d17a954e"
+  integrity sha512-g7s+30pQVGBqDDhGT3albZXs3g6+NpHRRkV11NaTjtrOwNqK18dME8fhVWNK4DAmq8xrxEC6bC2At9paa6Zngw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     "@folio/stripes-util" "^1.6.2"
