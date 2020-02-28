@@ -1386,9 +1386,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~3.0.0":
-  version "3.0.1000639"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.0.1000639.tgz#31f7e9fcea33747bf86cd737b45742db8e048547"
-  integrity sha512-mUAra+IMhkhFhkrRAOqMecGfbEsoCeVqe6Kc3dXRMAKfRTxO9MNgI8jdDWG62UWoYaL13wF2dqlGKj6oDO78LA==
+  version "3.0.1000640"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.0.1000640.tgz#f91bd67467fd1c5eb910000bb048e035e91594d5"
+  integrity sha512-glsWBcNqWoQ9N3n7DjP4+ydQLQ2EkFBcHUswPTvvrVuYcCWF7XT2HsTQW6PpupyaJmagScBxQFl2YY0OrmrAfw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~6.0.0"
@@ -1406,6 +1406,8 @@
     prop-types-extra "^1.1.0"
     query-string "^5.0.0"
     react-final-form "^6.3.0"
+    react-router "^4.2.0"
+    react-router-dom "^4.0.0"
     react-router-prop-types "^1.0.4"
     react-transition-group "^2.4.0"
     react-virtualized-auto-sizer "^1.0.2"
