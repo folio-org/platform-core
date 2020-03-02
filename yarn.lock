@@ -1230,9 +1230,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~5.5.0":
-  version "5.5.1000108"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-5.5.1000108.tgz#22201f8efba9fef12816c59fd2be9d6296b9ce26"
-  integrity sha512-vMnQk4dUCOS5NSHlW23/qP7llavYyOi/VNf1IqHpPaCoDcG47H0Bn2Wy8O49ZWf/s0dkC2UJzbi1VbGC53tByg==
+  version "5.5.1000109"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-5.5.1000109.tgz#627151e489a76df14515f43723f28fbf2c1eb3ff"
+  integrity sha512-3rVclG4e4uE14CKp4hdSVUvnpSyBbzgEHd1xgjYwq4ACwcnzXNXWw0qn3HOSH1S/OtPydO8Ubwqq0T5U+StwLw==
   dependencies:
     isomorphic-fetch "^2.2.1"
     lodash "^4.17.11"
