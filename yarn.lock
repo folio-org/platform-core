@@ -1243,9 +1243,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0", "@folio/stripes-core@~4.0.0":
-  version "4.0.1000679"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-4.0.1000679.tgz#3f747084d4f87d7817d945a1049be5a712eeea15"
-  integrity sha512-pQI/lpTJMoG8CJ786ooH4Hukyyx6eIbAp4hvcp4zxq/uX1imBf4ZRZC3mOwCti0t/lJgyj3rgMWgSgnFMGFIJw==
+  version "4.0.1000680"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-4.0.1000680.tgz#e68385682088583a5b013d5e7a7bea67388e553f"
+  integrity sha512-zLRFTecpcPu7aIpvR9fKgShEQ6lmxaI/sMKkZqssL1fafRjp+uP/fDGjtYfrw+15R4EHMszJb1sVGGW4C6tYvg==
   dependencies:
     "@babel/core" "^7.8.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
@@ -1346,9 +1346,9 @@
     webpack-virtual-modules "^0.1.10"
 
 "@folio/stripes-final-form@~2.0.0":
-  version "2.0.100035"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-2.0.100035.tgz#2ae044cbf8dd25f9857011c618d95a579d569cac"
-  integrity sha512-+h3pw97Rgm5nYBdg2sTL8wH4VDwZwouXG3AKQYQBLK43AnJ5CGcI6aRsOF1ZSX+tYPEEhvkwCu3XtTRpycfShQ==
+  version "2.0.100036"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-2.0.100036.tgz#27912dae15e1f47924c115f297601cdca6d3aa3b"
+  integrity sha512-1/QbNz2v/2LQOF0td926ENaVKBi9VphzhAcnEB11i/oxL0bELy7TCJ18NA9lSfP2g1CgRaxM0mvOwUixlrWklg==
   dependencies:
     "@folio/stripes-components" "~6.0.0"
     "@folio/stripes-core" "~4.0.0"
@@ -1361,9 +1361,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/stripes-form@~3.0.0":
-  version "3.0.100085"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-3.0.100085.tgz#76c6a9f42ea89a7397fda25905c1fd71026c778a"
-  integrity sha512-bKAXHklFfUTLBL3s3LOeKy4v6yW4MV+sRO/+z36klcQ3IaRy/Crh+e73iTX1djsFE8ZFucFjlhJuBUAoBj8S7A==
+  version "3.0.100086"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-3.0.100086.tgz#d2ee511d6490432cad50d53425d4c6869402e407"
+  integrity sha512-k2J2tEByMXC9HhxgNMorL67tOeHBw4lm6le8ramblT/QXv17KIRvzWOVURm+g6E0Yp4Y3PwSRVdvrdzJvGqdVw==
   dependencies:
     "@folio/stripes-components" "~6.0.0"
     "@folio/stripes-core" "~4.0.0"
