@@ -1387,9 +1387,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~3.0.0":
-  version "3.0.1000647"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.0.1000647.tgz#248b7e1c865df5d211759bc819dfe4042cc173fb"
-  integrity sha512-lhHsJs3cUFsVwfIjZZAiMGYkzyBJqMkewaaPzAs4Hx4WZlkHndXNyRMIlkntDKwFrVSXcBkQI6lqnYXzPpRibg==
+  version "3.0.1000648"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.0.1000648.tgz#4a5d795b1bfd7d901920787b3f2e79fd8dd46ab2"
+  integrity sha512-WSrNxGn3IFLts6hvunaMCtCtM/8PfAgZX/7hEixk2+fe071LPq11/3rmLGmOCZcWuEZnY67dokmBxiMCpYiKjQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~6.0.0"
