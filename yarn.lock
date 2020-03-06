@@ -1343,9 +1343,9 @@
     webpack-virtual-modules "^0.1.10"
 
 "@folio/stripes-final-form@~2.0.0":
-  version "2.0.100036"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-2.0.100036.tgz#27912dae15e1f47924c115f297601cdca6d3aa3b"
-  integrity sha512-1/QbNz2v/2LQOF0td926ENaVKBi9VphzhAcnEB11i/oxL0bELy7TCJ18NA9lSfP2g1CgRaxM0mvOwUixlrWklg==
+  version "2.0.100037"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-2.0.100037.tgz#a87b93338aa22912588326fe3883b40230f5c3ab"
+  integrity sha512-2Y0LEuJOcwGWDUVD/FVGJiMP76FkW47tsn0sarwrsWpnjfiadE4U8BG5b/uNs2tlGKSct5FJuVj2scXKNQg10w==
   dependencies:
     "@folio/stripes-components" "~6.0.0"
     "@folio/stripes-core" "~4.0.0"
