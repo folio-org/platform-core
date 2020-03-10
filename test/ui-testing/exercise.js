@@ -72,10 +72,9 @@ module.exports.test = (uiTestCtx) => {
 
         it('should find current loans count', (done) => {
           nightmare
+            .wait('#ModuleMainHeading')
+            .click('#ModuleMainHeading')
             .wait('#input-user-search')
-            .insert('#input-user-search', userBarcode)
-            .wait('#clickable-reset-all')
-            .click('#clickable-reset-all')
             .insert('#input-user-search', userBarcode)
             .wait('button[type=submit]')
             .click('button[type=submit]')
@@ -120,10 +119,8 @@ module.exports.test = (uiTestCtx) => {
 
         it('should change open-loan count', (done) => {
           nightmare
-            .wait('#input-user-search')
-            .insert('#input-user-search', userBarcode)
-            .wait('#clickable-reset-all')
-            .click('#clickable-reset-all')
+            .wait('#ModuleMainHeading')
+            .click('#ModuleMainHeading')
             .insert('#input-user-search', userBarcode)
             .wait('button[type=submit]')
             .click('button[type=submit]')
@@ -136,22 +133,29 @@ module.exports.test = (uiTestCtx) => {
               if (Number(result.replace(/^(\d+).*/, '$1')) !== openLoans + 1) {
                 throw new Error('Open loan count did not change.');
               }
-              done();
             })
+            .then(done)
             .catch(done);
         });
 
         it(`should find ${barcode} in open loans`, (done) => {
           nightmare
+            // here's a fun game to play! This test has been passing for weeks
+            // but now it's broken! A selector in the it-block above already
+            // establishes that #clickable-viewcurrentloans is present on the
+            // page, but unless we pause than then wait for it here, NOTHING
+            // happens when you click it! Isn't that a fun game boys and girls?
+            .wait(1000)
             .wait('#clickable-viewcurrentloans')
             .click('#clickable-viewcurrentloans')
+            .wait('#list-loanshistory [role="gridcell"]')
             .wait(bc => {
               return !!(Array.from(document.querySelectorAll('#list-loanshistory [role="gridcell"]'))
                 .find(e => e.textContent === `${bc}`));
             }, barcode)
             .wait('#users-module-display button[icon="times"][class*="iconButton"]')
             .click('#users-module-display button[icon="times"][class*="iconButton"]')
-            .wait(parseInt(process.env.FOLIO_UI_DEBUG, 10) ? parseInt(config.debug_sleep, 10) : 555) // debugging
+            .wait('#pane-userdetails')
             .then(done)
             .catch(done);
         });
@@ -176,7 +180,7 @@ module.exports.test = (uiTestCtx) => {
         });
 
         it('should navigate to users', (done) => {
-          helpers.clickApp(nightmare, done, 'users');
+          helpers.clickApp(nightmare, done, 'users', 2000);
         });
 
         it('should change closed-loan count', (done) => {
