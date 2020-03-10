@@ -1164,7 +1164,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-cli@^1.13.0":
+"@folio/stripes-cli@^1.15.0":
   version "1.15.1000208"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.15.1000208.tgz#7246f11ddd6ee054613f64e527ddce790d190fd5"
   integrity sha512-FYq6xSjuSWwEIBRvEKzDv57gc6IILjq0Pz8odVYEnl9E3Ut+wGEWJpDn/KnY12mXT3M+C5MDFRSlpwM+lZB9Uw==
