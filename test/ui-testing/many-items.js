@@ -80,7 +80,9 @@ module.exports.test = (uiTestCtx) => {
       });
 
       it(`should checkout ${count} items`, (done) => {
-        helpers.checkoutList(nightmare, done, barcodes, userBarcode);
+        helpers.checkoutList(nightmare, barcodes, userBarcode)
+          .then(done)
+          .catch(done);
       });
     });
 
