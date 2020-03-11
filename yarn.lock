@@ -1046,9 +1046,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "1.13.1000817"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000817.tgz#2af0a8337d675339e849932b571af88ad7158b8b"
-  integrity sha512-9uEkl1odIuzpdk4EGPKIeqd72r3x9Did7fIifWPiVJKo7aKGiWTdEvSxSO0rkEaC5WbyXQy238Zty3l8ws5eGg==
+  version "2.0.1000818"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000818.tgz#69ea0c1beff58fe68c1cea1dd5d4734b118886a0"
+  integrity sha512-z30p9+Y5c3hiLr6+PF8Jg3hCqqxttNkeI9Vgf9WVCmERuveY0ekvAm2tE8+hIfQF/zzPu3wGBmQogc4zy964bA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
@@ -1063,7 +1063,6 @@
     react-final-form-arrays "^3.1.0"
     react-final-form-listeners "^1.0.2"
     react-hot-loader "^4.3.12"
-    react-intl "^2.3.0"
     react-router-prop-types "^1.0.4"
     redux-form "^7.0.3"
   optionalDependencies:
@@ -10220,7 +10219,7 @@ react-hot-loader@^4.3.10, react-hot-loader@^4.3.12:
     shallowequal "^1.1.0"
     source-map "^0.7.3"
 
-react-intl@^2.3.0, react-intl@^2.4.0, react-intl@^2.5.0, react-intl@^2.8.0, react-intl@^2.9.0:
+react-intl@^2.4.0, react-intl@^2.5.0, react-intl@^2.8.0, react-intl@^2.9.0:
   version "2.9.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-2.9.0.tgz#c97c5d17d4718f1575fdbd5a769f96018a3b1843"
   integrity sha512-27jnDlb/d2A7mSJwrbOBnUgD+rPep+abmoJE511Tf8BnoONIAUehy/U1zZCHGO17mnOwMWxqN4qC0nW11cD6rA==
