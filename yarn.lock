@@ -1046,9 +1046,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000821"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000821.tgz#7caca6f111f94171cc07379b28be289e7b0841d7"
-  integrity sha512-jBwO72AL6tQySXA8AywaqjhVzTSfMzUHBPvhOvvc7T5+o5e5weqIAFMo8WVEKDpQpo2GrcF/c95PeNKQ8ZvbEQ==
+  version "2.0.1000822"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000822.tgz#5ad23dac5bf02fafe8f7874dcdde120ee6e32315"
+  integrity sha512-PZcp2+YFZNajEHVOkJ2XEwyyw3ffSPaV4UWtEOtqsyUGEISaReC/zEqTzyDa3hNyedJYg9S+i+pSjS36n/UDFg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
@@ -1144,9 +1144,9 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/search@>=1.3.0":
-  version "1.10.1000168"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-1.10.1000168.tgz#0c9c6bc7074253feb71f6a7fc091cbccc8ce2718"
-  integrity sha512-wpcE+um7AKR2Vjy+NzSXPY205DKFAhqcYI/uP6eMrf5wdawRwqkpcftgkzmnhoxVqCtuKLlOX7g3qv4o4X8PRA==
+  version "2.0.1000169"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-2.0.1000169.tgz#e01baadefb12b73b9c60b692e23b5d16ab6297be"
+  integrity sha512-bnz5zUfksBiMeJH1u93KqNWA4V9oyX3c3tm2XNxF0b0lKe/5nG/gzbTzB/f/t5YYWDokusJANJnt29RMuleO4A==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
