@@ -1097,9 +1097,9 @@
     react-intl "^2.8.0"
 
 "@folio/plugin-find-user@>=1.3.0":
-  version "2.0.100095"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-2.0.100095.tgz#806833f01d0c40313ae57285a328621597eaf2ca"
-  integrity sha512-mvLcfYeCGkJldG/OMDeRjsWVtSHupRq265KDgEJ29gE7pHrDkha/Wgyb7KHsovv66WZBnBdZAu2Q+9ky1zzpEg==
+  version "2.0.100096"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-2.0.100096.tgz#d3df74553dc6487330d5d6f609bfb623283bc66d"
+  integrity sha512-HXKbnOzUc9abXMC1jQUoWodVHQJkFPiI1P5j7e1AMLaB/JrTUkORU+ugFAtT7VawuqNUDOmHaoxH650BiTEMrg==
   dependencies:
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
