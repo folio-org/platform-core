@@ -1046,9 +1046,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000823"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000823.tgz#d644018df8efb704f89ee67bce0e76c5972826ab"
-  integrity sha512-Q61MJ8Ww69Y+PgL/kMFJhLPulAjdggG+8bsk22rGjvWWcZuhPQKbsAEhE0UXkLVFNuPehSkn4BR9IHT2+RYtDQ==
+  version "2.0.1000824"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000824.tgz#706d4cc778e3b2bd687005dd78168c05748b7190"
+  integrity sha512-qZ5colxWtbqdcTW+XKLNVB7V0ZjAe8Kq/6b5/9e23Jx2Mkwn+tAmgJo8wv/nNYOT6i2BvFaLaU814BkKo5/x/A==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
@@ -1069,9 +1069,9 @@
     "@folio/plugin-find-instance" "^1.6.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "2.0.100075"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-2.0.100075.tgz#499a4058815658361626cfd2b6503249881fdfb1"
-  integrity sha512-gYlnZiD4BS105V9rou7hZJenWSXSP9r1UePsjiki+QP4pdEqzhLj/XXQ+1yxKq+Sfyf8IWCt63HZl8jly6TOkQ==
+  version "2.0.100077"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-2.0.100077.tgz#6f445f30e9927e1b89b7ea019cd9a9177fc480cd"
+  integrity sha512-fsiyoXTQSHarSPOUFAGfZvGYJcHceVWOYIddNhgIPbjQ4jY3CvM8ScgRBGWy8UEnFnjr3LeswkJr6OT1jFYaxw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     prop-types "^15.6.0"
