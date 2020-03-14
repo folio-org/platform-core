@@ -1046,9 +1046,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000825"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000825.tgz#58373118bfc23c235e9a06a08944fa94c8ede555"
-  integrity sha512-WN/YFLgleWlkNPD4yUIIO4BoILo9RFVFDPItODh5ZZrR92g6XSswuoJgF0KZi9H87hmWN0kvgE0/eqzhfBnxuA==
+  version "2.0.1000826"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000826.tgz#6d9c0a7568771ad09f9623a476d3cf3018873bf9"
+  integrity sha512-ihUqB+WDbOxFl+BFlR/SG4ebpaRDqN5I3q8h2wZarPmgQ3YDlZPMZDd0rvhZQ8QcKeoWW+95Cs7LujYcNsV7bQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
@@ -1401,9 +1401,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~3.0.0":
-  version "3.0.1000653"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.0.1000653.tgz#d412dc6da7ddc37634170c05b2a2394cc02ef547"
-  integrity sha512-HmoU6YTRjFoN1yEV+pR/DJP473kNcF8IrMV2YE5JoRpJwy7TQR4ZkpmMNeuY017/GTkIuTKyMI/yCGaL4SGrLg==
+  version "3.0.1000654"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.0.1000654.tgz#d48991984bcd9d1d39244beeded503dc747da1bd"
+  integrity sha512-mP01h2gSoJQQsOUSm8t5gan2f7Vj3KnYxByKnxBuFZuK7XJMIwkB1wZNqOnurcpnI0MQs9C9FTgPRHpvmGhFfA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~6.0.0"
@@ -1490,9 +1490,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.10001003"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.10001003.tgz#385570ab95a5e682d90824af576bf744e62a04ac"
-  integrity sha512-PaJJGdc2Mp8pVuhxX6vLVcM/8oZaj/OAmRsoF4wzHemS/UpvbKBh225Nx/Xnm5m0j/FQ3EmjGzpVHyYWkmAqhg==
+  version "2.26.10001004"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.10001004.tgz#a3da969d4c8aa59134df5a9ca85edb2fcf29d582"
+  integrity sha512-nv4YNOt+IWyI63U1lGa2daEFaTmgvKmjHfdrN5rltbbVwf9UNrwjedNzDbIHZPT8Rotn2LMLWbI9AdbtH6SXDQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     "@folio/stripes-util" "^2.0.0"
