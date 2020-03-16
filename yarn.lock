@@ -1031,9 +1031,9 @@
     redux-form "^7.0.3"
 
 "@folio/eslint-config-stripes@^5.0.0":
-  version "5.2.100055"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eslint-config-stripes/-/eslint-config-stripes-5.2.100055.tgz#1609a729a2f30ffcf4576b23d62bb5761ffa462b"
-  integrity sha512-BMk1eggZFunjgKCmwXAaz8T9mgzix07QQ6MjrcNg3uejuYwJsUyyt1CS8WPJX3G/PH+nSC0+0OD7W1/fMOgsDg==
+  version "5.2.100056"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eslint-config-stripes/-/eslint-config-stripes-5.2.100056.tgz#b403c347fd08af91b819b900e7586c5ebc631407"
+  integrity sha512-+szCYdnKiyhSCJH4+zXSOxhKxwKNZ763/jdNiaaa6JqMqxC2FjOJZxrawSc9GDSNkScbqgVfVckXHVmp0Hj7uw==
   dependencies:
     eslint-config-airbnb "18.0.1"
     eslint-import-resolver-webpack "0.11.1"
