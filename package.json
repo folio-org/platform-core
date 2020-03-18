@@ -1,6 +1,6 @@
 {
   "name": "@folio/platform-core",
-  "version": "4.3.0",
+  "version": "4.4.0",
   "license": "Apache-2.0",
   "repository": "folio-org/platform-core",
   "publishConfig": {
@@ -27,7 +27,7 @@
     "@folio/myprofile": "2.0.0",
     "@folio/plugin-find-instance": "2.0.0",
     "@folio/plugin-find-user": "2.0.0",
-    "@folio/requests": "2.0.0",
+    "@folio/requests": "2.0.1",
     "@folio/search": "2.0.0",
     "@folio/servicepoints": "2.0.0",
     "@folio/stripes": "3.1.0",
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^5.0.0",
-    "@folio/stripes-cli": "^1.15.0",
+    "@folio/stripes-cli": "^1.10.0",
     "eslint": "^6.2.1",
     "moment": "^2.22.2"
   },
