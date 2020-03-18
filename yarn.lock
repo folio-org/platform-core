@@ -1493,9 +1493,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001011"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001011.tgz#825c2388c2ccbf15ce26b577a22683376ac7ac1d"
-  integrity sha512-dmnvs5aqVbYN7qyHPl2DOLHxpQU7YKSDp20jBqASwVvHF+H+gXe4GO9LKfb1P3h6EZ9STdjzpyxxvBBe07RIXQ==
+  version "3.0.10001013"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001013.tgz#3d17883ce53a9ac888bf1e7bf37dc3be821988a9"
+  integrity sha512-lRM74vSCBSn8BaErEaKqYYuiBITacvJEh9qz+hytMhA5vbBICTrcXbzDGIn5kQTk31f59/ZYoyw/iGRlSBBssQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     "@folio/stripes-util" "^2.0.0"
@@ -1807,9 +1807,12 @@
   integrity sha512-M/BexG/p05C5lFfMunxo/QcgIJnMT2vDVCd00wNqK2ImZONIlEETZwWJu1QtLxtmYlSHlCFl3JNzp0tLe7OJ5g==
 
 "@restart/hooks@^0.3.12":
-  version "0.3.21"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@restart/hooks/-/hooks-0.3.21.tgz#5264d12019ffb844dc1fc44d55517ded7b580ee2"
-  integrity sha512-Wcu3CFJV+iiqPEIoPVx3/CYnZBRgPeRABo6bLJByRH9ptJXyObn7WYPG7Rv0cg3+55bqcBbG0xEfovzwE2PNXg==
+  version "0.3.22"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@restart/hooks/-/hooks-0.3.22.tgz#bb7e27c832bf576f56977d0a0b8b9d8ccee877b8"
+  integrity sha512-tW0T3hP6emYNOc76/iC96rlu+f7JYLSVk/Wnn+7dj1gJUcw4CkQNLy16vx2mBLtVKsFMZ9miVEZXat8blruDHQ==
+  dependencies:
+    lodash "^4.17.15"
+    lodash-es "^4.17.15"
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
@@ -7610,7 +7613,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash-es@^4.17.10, lodash-es@^4.17.11, lodash-es@^4.2.1:
+lodash-es@^4.17.10, lodash-es@^4.17.11, lodash-es@^4.17.15, lodash-es@^4.2.1:
   version "4.17.15"
   resolved "https://repository.folio.org/repository/npm-ci-all/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
   integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
