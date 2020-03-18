@@ -1046,12 +1046,11 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000831"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000831.tgz#e7f1f760f8f65700b6434df93a2a9923a48a176f"
-  integrity sha512-WTuNmcybZWXCa2t9gVgrzsAEBTPWQh36nD+7p6m886vUbkQBT2NOCgpCVZ2r4h3y9kiipOcm5CoHNFbwdGGiVg==
+  version "2.0.1000832"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000832.tgz#9aa5370da36e1079936b3222d4cc64e178b158cf"
+  integrity sha512-u3DtSeyqgdffcEuswEd1Da0BwDU5NNmX7QwYhkTDdWY2ECMeKo034bUD0JrociM98c7isuHBqMVe1Fzr6nmrhQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
-    "@folio/stripes-util" "^1.6.0"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
     lodash "^4.17.4"
@@ -1448,16 +1447,6 @@
     debug "^4.0.1"
     minimist "^1.2.0"
     nightmare "^3.0.2"
-
-"@folio/stripes-util@^1.6.0":
-  version "1.6.200030"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.6.200030.tgz#9708009244cfd0703b371e7bd1544f3cf2ccfa3d"
-  integrity sha512-vy/fTBE/NKrgwFFvy8F01111ZSXG3aHFQFkQMYHcvqgpWIsC7XZWmuF0NNZlCv61MulHP9eZmmiChSnTZslrwQ==
-  dependencies:
-    json2csv "^4.2.1"
-    lodash "^4.17.4"
-    query-string "^5.0.0"
-    react-intl "^2.4.0"
 
 "@folio/stripes-util@^2.0.0", "@folio/stripes-util@~2.0.0":
   version "2.0.100034"
@@ -10276,7 +10265,7 @@ react-hot-loader@^4.3.10, react-hot-loader@^4.3.12:
     shallowequal "^1.1.0"
     source-map "^0.7.3"
 
-react-intl@^2.4.0, react-intl@^2.5.0, react-intl@^2.9.0:
+react-intl@^2.5.0, react-intl@^2.9.0:
   version "2.9.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-2.9.0.tgz#c97c5d17d4718f1575fdbd5a769f96018a3b1843"
   integrity sha512-27jnDlb/d2A7mSJwrbOBnUgD+rPep+abmoJE511Tf8BnoONIAUehy/U1zZCHGO17mnOwMWxqN4qC0nW11cD6rA==
