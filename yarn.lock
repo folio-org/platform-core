@@ -1372,7 +1372,7 @@
     webpack-hot-middleware "^2.22.2"
     webpack-virtual-modules "^0.1.10"
 
-"@folio/stripes-final-form@~2.1.0":
+"@folio/stripes-final-form@^2.1.0", "@folio/stripes-final-form@~2.1.0":
   version "2.1.100042"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-2.1.100042.tgz#3e5065148ee40722be48af7dac4a230cef2c0086"
   integrity sha512-MQw8QRoXHdeeqBaFZSwyQs0uj713kchHuY12veFoqzm4Bdzj5YoDAx2BeYEhWg7EhwCiDfdIo7w3eOGJvrVG2Q==
@@ -1414,19 +1414,21 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~3.1.0":
-  version "3.1.1000660"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.1.1000660.tgz#052dbc405df9db8c0e737a848deacadccd83b1dc"
-  integrity sha512-sSEDF0qK6W6cFSXb+vTBT3onFDRYrKM1R7ppGfb4FWwhkuCqu++TsAU0wYojL7GcsjQfl5QyBBrYBduOc1f5IA==
+  version "3.1.1000661"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.1.1000661.tgz#44e8dc8b6668987356dc632aac39305c053b89c3"
+  integrity sha512-FpWA4h0r681gaQ6Nql2bjFftU5H+BWl/0JKdIMeMrJ2BMsaieoRPMEwteevPSMypGixT8B8VfPXQF4VYO3rgkg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~6.1.0"
     "@folio/stripes-connect" "~5.5.0"
     "@folio/stripes-core" "~4.1.0"
+    "@folio/stripes-final-form" "^2.1.0"
     "@folio/stripes-form" "~3.1.0"
     "@folio/stripes-logger" "~1.0.0"
     "@folio/stripes-util" "~2.0.0"
     classnames "^2.2.6"
     final-form "^4.18.2"
+    final-form-arrays "^3.0.2"
     lodash "^4.17.4"
     moment "^2.22.1"
     moment-timezone "^0.5.17"
@@ -1434,6 +1436,7 @@
     prop-types-extra "^1.1.0"
     query-string "^5.0.0"
     react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.1"
     react-router-prop-types "^1.0.4"
     react-transition-group "^2.4.0"
     react-virtualized-auto-sizer "^1.0.2"
@@ -5415,7 +5418,7 @@ fill-range@^4.0.0:
     repeat-string "^1.6.1"
     to-regex-range "^2.1.0"
 
-final-form-arrays@^3.0.1:
+final-form-arrays@^3.0.1, final-form-arrays@^3.0.2:
   version "3.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form-arrays/-/final-form-arrays-3.0.2.tgz#9f3bef778dec61432357744eb6f3abef7e7f3847"
   integrity sha512-TfO8aZNz3RrsZCDx8GHMQcyztDNpGxSSi9w4wpSNKlmv2PfFWVVM8P7Yj5tj4n0OWax+x5YwTLhT5BnqSlCi+w==
@@ -5684,9 +5687,9 @@ fs.realpath@^1.0.0:
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
 fsevents@^1.2.7:
-  version "1.2.11"
-  resolved "https://repository.folio.org/repository/npm-ci-all/fsevents/-/fsevents-1.2.11.tgz#67bf57f4758f02ede88fb2a1712fef4d15358be3"
-  integrity sha512-+ux3lx6peh0BpvY0JebGyZoiR4D+oYzdPZMKJwkZ+sFkNJzpL7tXc/wehS49gUAxg3tmMHPHZkA8JU2rhhgDHw==
+  version "1.2.12"
+  resolved "https://repository.folio.org/repository/npm-ci-all/fsevents/-/fsevents-1.2.12.tgz#db7e0d8ec3b0b45724fd4d83d43554a8f1f0de5c"
+  integrity sha512-Ggd/Ktt7E7I8pxZRbGIs7vwqAPscSESMrCSkx2FtWeqmheJgCo2R74fTsZFCifr0VTPwqRpPv17+6b8Zp7th0Q==
   dependencies:
     bindings "^1.5.0"
     nan "^2.12.1"
@@ -10223,7 +10226,7 @@ react-dropzone@^9.0.0:
     prop-types "^15.6.2"
     prop-types-extra "^1.1.0"
 
-react-final-form-arrays@^3.1.0:
+react-final-form-arrays@^3.1.0, react-final-form-arrays@^3.1.1:
   version "3.1.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form-arrays/-/react-final-form-arrays-3.1.1.tgz#39d23e7ede966e418cad209e8fde46da1d603e99"
   integrity sha512-e6S1x9597cvI4QPniOPmllXXandDAqCCuBo4AvXstZYgcV8whsqzk8aCrmQEy6eEfy2tEhvn6f4VI1GY+JBRsg==
