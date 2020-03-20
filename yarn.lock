@@ -938,9 +938,9 @@
     source-map-support "^0.5.16"
 
 "@babel/runtime-corejs2@^7.4.5":
-  version "7.8.7"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime-corejs2/-/runtime-corejs2-7.8.7.tgz#5c6afcb33ef12fa1f8db6b915ff6b5ecaf6afb11"
-  integrity sha512-R8zbPiv25S0pGfMqAr55dRRxWB8vUeo3wicI4g9PFVBKmsy/9wmQUV1AaYW/kxRHUhx42TTh6F0+QO+4pwfYWg==
+  version "7.9.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime-corejs2/-/runtime-corejs2-7.9.0.tgz#7b796c2e09eebebb3c4856ec988e8f9bea2362bf"
+  integrity sha512-JXr8HNcgtOrRUqQ8B9B6H4vYAm4RU+4TLXEOKIh7WYQjvNkti/Cv4zHR0BdcS/0zYYfbvXtYDLiG9DRDhc9dIQ==
   dependencies:
     core-js "^2.6.5"
     regenerator-runtime "^0.13.4"
@@ -1086,9 +1086,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000835"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000835.tgz#ebb8d679faabf3343dfb41ac1e3fda7374216615"
-  integrity sha512-0ZD/T+zlHFHofVNP+pthTYOBpr8Tw4HIt3Qs/5VRMztRjkgaBTiQr0tEVaXI57JP0JMEvwuObZFHVLEBX4+aew==
+  version "2.0.1000836"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000836.tgz#66ea154c44dc5a5ff40985d95c4038f4bcc5415a"
+  integrity sha512-k4oxNguitfsElhUdbXQ+v/usDHmG9StKvicIsHPw4m5FszGMudgdk84FIqTyscJEfxW0J1wxDmTh2Ev3vTmr0g==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
