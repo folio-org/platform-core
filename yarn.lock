@@ -1035,9 +1035,9 @@
     "@folio/plugin-find-user" "^2.0.0"
 
 "@folio/circulation@>=1.3.0":
-  version "2.0.1000456"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-2.0.1000456.tgz#1a55f529ac0ea345657422988518c1dfd00879f7"
-  integrity sha512-CWOVwOlScKx6vH7Rz46ln+AnTCklM1xrAMM0b0A3biM26CGpEluy209LzHpKq7zwl4X/vRbKPR4ejUMR7vUFBw==
+  version "2.0.1000457"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-2.0.1000457.tgz#f492855a73495e7c6c58611d59af577b94936a3f"
+  integrity sha512-+0OXNR/YAnua12nMZtih+fYU4HUF1MnZ9q/35d4LxjLwF14XBnCvRK5arSKh92siRgv8+jtLbuDxRyr1RPsv4w==
   dependencies:
     html-to-react "^1.3.3"
     lodash "^4.17.4"
@@ -1076,9 +1076,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000836"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000836.tgz#66ea154c44dc5a5ff40985d95c4038f4bcc5415a"
-  integrity sha512-k4oxNguitfsElhUdbXQ+v/usDHmG9StKvicIsHPw4m5FszGMudgdk84FIqTyscJEfxW0J1wxDmTh2Ev3vTmr0g==
+  version "2.0.1000837"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000837.tgz#47ff473542be85271739ae20ce5d664003bf2fc8"
+  integrity sha512-m0GU/CWiNz3OOaDJW+yfSl3FlVHwwd8o65ELg7iGBcqo7TcwtIOpxbBMV7k/auY9xolLgdHno5+jfeiyQlfWaw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -1444,9 +1444,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~3.1.0":
-  version "3.1.1000665"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.1.1000665.tgz#0aa4f97036991327f24838a2e8d9889a1cb7b477"
-  integrity sha512-k5CIz/MyQULPio8Y5PUeK1Cv7tRPjsV2ODVMvu+++ZPuv2sEuWhqOhF27rONZ6r11KV0olLpRTiHBm406d7jeQ==
+  version "3.1.1000666"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.1.1000666.tgz#70ca1830abb63c1db4d1aa409cc352d29b5d8ccd"
+  integrity sha512-nzNUBVn2zmFKeCy/daDDTgmqFj2pvhgffYcp2CFWViwHAot/z1jkLpo8I9jKZu1+LIAzmJN8gLNUqqdBYwexdA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~6.1.0"
@@ -4550,9 +4550,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.380:
-  version "1.3.380"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.380.tgz#1e1f07091b42b54bccd0ad6d3a14f2b73b60dc9d"
-  integrity sha512-2jhQxJKcjcSpVOQm0NAfuLq8o+130blrcawoumdXT6411xG/xIAOyZodO/y7WTaYlz/NHe3sCCAe/cJLnDsqTw==
+  version "1.3.381"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.381.tgz#952678ff91a5f36175a3832358a6dd2de3bf62b7"
+  integrity sha512-JQBpVUr83l+QOqPQpj2SbOve1bBE4ACpmwcMNqWlZmfib7jccxJ02qFNichDpZ5LS4Zsqc985NIPKegBIZjK8Q==
 
 electron@^2.0.18:
   version "2.0.18"
