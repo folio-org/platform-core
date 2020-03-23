@@ -1,19 +1,14 @@
-@Library ('folio_jenkins_shared_libs') _
+@Library ('folio_jenkins_shared_libs@FOLIO-2011a') _
 
 pipeline {
 
   environment {
     folioPlatform = 'platform-core'
-    folioHostname = "${env.folioPlatform}-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
-    ec2Group = "platform_core_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
     npmConfig = 'jenkins-npm-folio'
     sshKeyId = '11657186-f4d4-4099-ab72-2a32e023cced'
     folioRegistry = 'http://folio-registry.aws.indexdata.com'
     releaseOnly = 'true'
-    okapiUrl = "http://${env.folioHostname}.aws.indexdata.com:9130"
-    folioUrl = "http://${env.folioHostname}.aws.indexdata.com"
     projUrl = "https://github.com/folio-org/${env.folioPlatform}"
-    tenant = 'diku'
   }
 
   options {
@@ -39,8 +34,8 @@ pipeline {
 
           def lastCommit = sh(returnStatus: true,
                               script: "git log -1 | grep '.*\\[CI SKIP\\].*'")
-          if (lastCommit == 0) {
-              echo "CI SKIP detected.  Aborting build"
+          if (lastCommit == 0) { 
+              echo "CI SKIP detected.  Aborting build" 
               env.skipBuild = 'true'
           }
         }
@@ -48,19 +43,37 @@ pipeline {
     }
 
     stage('Do Build') {
-      when {
+      when { 
         expression {
           env.skipBuild != 'true'
         }
       }
       stages {
         stage('Build Stripes Platform') {
-          when {
+          when { 
             not {
               branch 'master'
             }
           }
           steps {
+            script {
+              if (fileExists('.pr-custom-deps.json')) {
+                env.okapiUrl = 'https://okapi-preview.ci.folio.org'
+              }
+              else {
+                env.okapiUrl = 'https://okapi-default.ci.folio.org'
+              }
+  
+              if (env.CHANGE_ID) { 
+                def tenant = "${env.folioPlatform}_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
+                def foliociLib = new org.folio.foliociCommands()
+                env.tenant = foliociLib.replaceHyphen(tenant)
+              }
+              else { 
+                env.tenant = 'diku'
+              }
+            }
+
             echo "Okapi URL: ${env.okapiUrl}"
             echo "Tenant: ${env.tenant}"
 
@@ -76,14 +89,29 @@ pipeline {
           }
           steps {
             script {
-              echo "Adding additional modules to stripes-install.json"
-              sh 'mv stripes-install.json stripes-install-pre.json'
-              sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install-pre.json install-extras.json > stripes-install.json'
-              def stripesInstallJson = readFile('./stripes-install.json')
-              platformDepCheck(env.tenant,stripesInstallJson)
-              echo 'Generating backend dependency list to okapi-install.json'
-              sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
-              sh 'cat okapi-install.json'
+              def foliociLib = new org.folio.foliociCommands()
+
+              // Deal with PR Deps for preview mode
+              if (fileExists('.pr-custom-deps.json'))  {
+                def previewMods = readJSON file: '.pr-custom-deps.json'
+
+                // update okapi-install.json
+                def okapiInstall = readJSON file: 'okapi-install.json'
+                def newOkapiInstall = foliociLib.subPreviewMods(previewMods,okapiInstall)
+                writeJSON file: 'okapi-install.json', json: newOkapiInstall, pretty: 2
+                sh 'cat okapi-install.json'
+              }
+              else {
+                // Add extra backend deps
+                echo "Adding additional modules to stripes-install.json"
+                sh 'mv stripes-install.json stripes-install-pre.json'
+                sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install-pre.json install-extras.json > stripes-install.json'
+                def stripesInstallJson = readFile('./stripes-install.json')
+                platformDepCheck(env.tenant,stripesInstallJson)
+                echo 'Generating backend dependency list to okapi-install.json'
+                sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
+                sh 'cat okapi-install.json'
+              }
             }
             // archive install.json
             sh 'mkdir -p ci'
@@ -96,18 +124,44 @@ pipeline {
           }
         }
 
-        stage('Build FOLIO Instance') {
+        stage('Deploy Tenant') {
           when {
             changeRequest()
           }
           steps {
-            // build FOLIO instance
-            buildPlatformInstance(env.ec2Group,env.folioHostname,env.tenant)
+            // set up preview environment
             script {
-              def pr_comment = pullRequest.comment("Instance available at $env.folioUrl")
+              if (fileExists('.pr-custom-deps.json')) {
+                setupPreviewEnv()
+              }
+            }
+
+            // Enable tenant
+            deployTenantK8()
+
+            script { 
+              // Deploy tenant bundle to S3
+              withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',
+                                accessKeyVariable: 'AWS_ACCESS_KEY_ID',
+                                credentialsId: 'jenkins-aws',
+                                secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
+
+                def s3Opts = [ s3Bucket: "${env.folioPlatform}-${env.CHANGE_ID}",
+                               s3Tags: "Key=Pr,Value=${env.folioPlatform}-${env.CHANGE_ID}",
+                               srcPath: "${env.WORKSPACE}/output" ]
+                   
+                def s3Endpoint = s3Upload(s3Opts)
+                env.folioUrl = s3Endpoint + '/index.html'
+              }
+            
+              def githubSummary = "Bundle deployed for tenant,${tenant}," + 
+                                  "to ${env.folioUrl}" 
+              @NonCPS
+              def comment = pullRequest.comment(githubSummary)
             }
           }
         }
+
 /*
  *       stage('Run Integration Tests') {
  *         when {
@@ -123,13 +177,13 @@ pipeline {
  *
  *             def testStatus = runIntegrationTests(testOpts)
  *
- *             if (testStatus == 'FAILED') {
+ *              if (testStatus == 'FAILED') { 
  *               error('UI Integration test failures')
  *             }
  *           }
  *         }
  *       }
-*/
+ */
 
         stage('Publish NPM Package') {
           when {
@@ -176,7 +230,7 @@ pipeline {
                 sshGitPush(origin: env.folioPlatform, branch: env.CHANGE_BRANCH)
               }
               else {
-                echo "No new changes.  No push to git origin needed"
+                echo "No new changes.  No push to git origin needed" 
               }
             }
           }
