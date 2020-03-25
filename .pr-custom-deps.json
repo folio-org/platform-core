@@ -2,5 +2,9 @@
   {
     "id": "mod-inventory-storage-19.2.0-SNAPSHOT.3",
     "action": "enable"
+  },
+  {
+    "id": "mod-inventory-14.1.0-SNAPSHOT.4",
+    "action": "enable"
   }
 ]
