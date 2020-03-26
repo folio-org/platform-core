@@ -1076,9 +1076,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000838"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000838.tgz#b286731e6327195b95b5e22345c72c4516b55ae2"
-  integrity sha512-xUeL1WrdUCIYBNU5dQSxtFyYFkLX7aNzT4MnEMyokoYK54hxJL+l8P+c1+ro2LFWwJtkudZfQTmFSBnaL+CbCw==
+  version "2.0.1000840"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000840.tgz#4dc0273cd5c5edd193a6fcaded0a3dfea697ad22"
+  integrity sha512-IpPhQe/LyIBYo+Zos3CRvdTu/jzg0Fv/Msz5JpKrQJLMxh/aupl602iKkGD6USsfEFCv562YZOX5XNGs2C6Kig==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -1286,9 +1286,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~5.5.0":
-  version "5.5.1000111"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-5.5.1000111.tgz#48efa93838e796245ae3447312007099f6dfea62"
-  integrity sha512-4cTO4L4N0kNzgH0u43PSpLSb+q3ODnH8q1IHAgfd9tIDOiT3NOVyzoTbTdGBL+xdM5TjvjpNd2GZc2B6QS3fyA==
+  version "5.5.1000112"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-5.5.1000112.tgz#c479a524637ba6c7b356f539888e66662313674c"
+  integrity sha512-nFBPmGClN9BrKVIHkhz350gBhHmX7Sp8/y4sFxfCmf8/j1XCGhGmEirtkQep9t0FLG7jF7oamtL0SBZMmGgToQ==
   dependencies:
     isomorphic-fetch "^2.2.1"
     lodash "^4.17.11"
