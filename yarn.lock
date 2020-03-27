@@ -1076,9 +1076,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000840"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000840.tgz#4dc0273cd5c5edd193a6fcaded0a3dfea697ad22"
-  integrity sha512-IpPhQe/LyIBYo+Zos3CRvdTu/jzg0Fv/Msz5JpKrQJLMxh/aupl602iKkGD6USsfEFCv562YZOX5XNGs2C6Kig==
+  version "2.0.1000841"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000841.tgz#00d4002a3d16372de3c747966823b4f8ae78412e"
+  integrity sha512-I6cXkKT83feuUAxt/nDkq01qLKLvKJQbc5ocoqpQ0UqmnfRmOCYiwYpDQ68MD3f/GN8IsHei1gnXDai//rJLCw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -1860,9 +1860,9 @@
     "@types/node" "*"
 
 "@types/node@*", "@types/node@>=6":
-  version "12.12.31"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.12.31.tgz#d6b4f9645fee17f11319b508fb1001797425da51"
-  integrity sha512-T+wnJno8uh27G9c+1T+a1/WYCHzLeDqtsGJkoEdSp2X8RTh3oOCZQcUnjAx90CS8cmmADX51O0FI/tu9s0yssg==
+  version "13.9.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-13.9.5.tgz#59738bf30b31aea1faa2df7f4a5f55613750cf00"
+  integrity sha512-hkzMMD3xu6BrJpGVLeQ3htQQNAcOrJjX7WFmtK8zWQpz2UJf13LCFF2ALA7c9OVdvc2vQJeDdjfR35M0sBCxvw==
 
 "@types/node@^8.0.24":
   version "8.10.59"
