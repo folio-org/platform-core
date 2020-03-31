@@ -1003,9 +1003,9 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "2.0.1000235"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-2.0.1000235.tgz#0891f96bca6f9005b75b4c449145ea68e00cfc50"
-  integrity sha512-l4F4gzZBSb780h+VhEgy9+EAhbVbO9UKmurAs5L1rZPlmZ1W+bqZ3Cs9HpV1wYWzB7AM9vpZe1QFKpFdXqTIAQ==
+  version "2.0.1000236"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-2.0.1000236.tgz#a1bf76ce186744a508a2f391af9f108d6e9eb5db"
+  integrity sha512-MFOVuz/XyI1tmbPEQqLBpn2jtX2v5t0voAubxt5mu+wodc25X9htFVUE/3f7cP9HWpgaeBBVllZU66i29gYpjA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     dateformat "^2.0.0"
@@ -1019,9 +1019,9 @@
     redux-form "^7.0.3"
 
 "@folio/checkout@>=1.3.0":
-  version "3.0.1000387"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-3.0.1000387.tgz#9a16928fa15c3eb79257013ee1937568972d8be8"
-  integrity sha512-X1DGaNpWDTj/t3p2ZoRNF93ssIkuj7iuN0fz1q56dlv40/Yz3ztLrIQf6h5JIQYgsz8hT5JM3a5fRhWCZgY++w==
+  version "3.0.1000388"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-3.0.1000388.tgz#9666613ec384b7bf1f01a60014264f9c833b4ae3"
+  integrity sha512-6vqw++jfBO1LsdaAec/zza4NsmqxP2EczviNhQDnJz8GquI+bCPosk37WI3Avm49xE659GEU0733QO0wQD137Q==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
@@ -1076,9 +1076,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000843"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000843.tgz#55de684b990cb9fd5d7fb3b94e9f2f7309ae75b2"
-  integrity sha512-SsurnIKPAl84RGaB9jIeSLTeWNXYnW0QtOdqWmdgWDJsj01O67T9p9x1MThwcThmSGPSp6DLlE8VrXrUqTvPkQ==
+  version "2.0.1000844"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000844.tgz#26fb58d4c7b29026a5e098d27d660fb048eb3d61"
+  integrity sha512-va0g07udhF0B1JtjWFKKBljjU3N1VxMzdns8O/5pprbJAa71OVnlh0A7hTzqnmjkcTsLpM8hLp1p6cxa7jnGuQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -1127,9 +1127,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^1.0.0":
-  version "1.0.100013"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-1.0.100013.tgz#e5b9d221415b3c73e3cd72ca47e46c0a725ae6fc"
-  integrity sha512-sOFDVZj6/JYEA1JBsPBP8+l0d9Cj0zfzdUQ44LvghIfOsJyKvHG/jn3fffZeVjSkfuGg6qZdu/OJSf3X+TBzgw==
+  version "1.0.100014"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-1.0.100014.tgz#93fb403cf668fc868d1c0d4192c35c2e2692f4d8"
+  integrity sha512-X14kIS7L0zVTgkCVFRKx7x8O3m7Z0/JmBPQSxywWjBSZsKj+TEze2Mx2EQTWD6zTpbNbUk+JxZL4o7AUKtIZTg==
   dependencies:
     "@folio/stripes-acq-components" "^2.0.0"
     final-form "^4.18.2"
@@ -1528,9 +1528,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001030"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001030.tgz#d41e8385d09419990503d1dbef6786bfd2d4d5af"
-  integrity sha512-ijMUo/RjCdZR9dVbP80SXzA1yyOxaXbdMlDiqN+bp+dFETYpVe+wRll//TnrCegkBYkLa9HFW1wdqBVmEoOwEQ==
+  version "3.0.10001031"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001031.tgz#277f5f07bd27bf91ca94dbc85dfe96b6c0e2bc3b"
+  integrity sha512-NtedazdoShagsGksEWDtFJIcxMDpTIqyGObScI/3f7g+Z+3vaeQeZWSrZErVxgsBQRT+oIb3Hph8BngRQ0oVyA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     "@folio/stripes-util" "^2.0.0"
@@ -12144,9 +12144,9 @@ terser-webpack-plugin@^1.4.3:
     worker-farm "^1.7.0"
 
 terser@^4.1.2, terser@^4.6.3:
-  version "4.6.9"
-  resolved "https://repository.folio.org/repository/npm-ci-all/terser/-/terser-4.6.9.tgz#deec3d8c4536461f46392e4d457bcd1ba2ab1212"
-  integrity sha512-9UuZOApK4oiTpX4AjnWhTCY3fCqntS3ggPQOku9M3Rvr70VETYsuHjSGuRy0D7X/Z994hfnzMy6TQ/H0WQSmXQ==
+  version "4.6.10"
+  resolved "https://repository.folio.org/repository/npm-ci-all/terser/-/terser-4.6.10.tgz#90f5bd069ff456ddbc9503b18e52f9c493d3b7c2"
+  integrity sha512-qbF/3UOo11Hggsbsqm2hPa6+L4w7bkr+09FNseEe8xrcVD3APGLFqE+Oz1ZKAxjYnFsj80rLOfgAtJ0LNJjtTA==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
