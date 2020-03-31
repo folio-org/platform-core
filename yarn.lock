@@ -1035,9 +1035,9 @@
     "@folio/plugin-find-user" "^2.0.0"
 
 "@folio/circulation@>=1.3.0":
-  version "2.0.1000458"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-2.0.1000458.tgz#d680ffbb474813cbf223b8d4e7a7329340e04458"
-  integrity sha512-52enpiYqrgBkomXwe/9VOh40gsmbwlTdJkeo9Xhl4YEPi6PgJctZfnD/vlcC5X2NIBzQ4e9hu7xdgNKINHz9NA==
+  version "2.0.1000459"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-2.0.1000459.tgz#3411b252c76771c2e8da49566b6889a809710aa6"
+  integrity sha512-s4QnmNqEcDpCJQbfUjMYqbKxpt1WzGyBcP5W01ZLHwxAvmGE52KtsSpVTz//OBZacF/V6yHYBdLSAENVVazBAw==
   dependencies:
     html-to-react "^1.3.3"
     lodash "^4.17.4"
