@@ -1528,9 +1528,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001032"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001032.tgz#98b353c7be5142d782c9601570b8c102738e9c00"
-  integrity sha512-9bohg+SqA6i/32tD6Hh+nfCvdImnBVLxAnTK9mE0OsIdDVFRnFr8CtdJWPsayXa6t0W3gdyGZfTBjrCIOxHuDg==
+  version "3.0.10001033"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001033.tgz#4e2eb35c756cee29a1faa716d96178c0f1fa0525"
+  integrity sha512-+HncRcjvqdEilLYCRp4eftNIXho1fvIRTyGu33JxfWu+80y07Cq2wcQPjQdAt5SXGlNkFbtLgplrJYRUgy58+Q==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     "@folio/stripes-util" "^2.0.0"
