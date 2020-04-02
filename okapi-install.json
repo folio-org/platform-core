@@ -1,6 +1,6 @@
 [
   {
-    "id": "mod-calendar-1.8.0",
+    "id": "mod-calendar-1.8.1",
     "action": "enable"
   },
   {
@@ -44,7 +44,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-18.0.1",
+    "id": "mod-circulation-18.0.2",
     "action": "enable"
   },
   {
