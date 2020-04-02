@@ -1127,9 +1127,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^1.0.0":
-  version "1.0.100017"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-1.0.100017.tgz#9927daafd4387709dbfc62e9d0cc1996011288aa"
-  integrity sha512-EJRIkL5xINPoHI7xacXAId5G8p9BQbsK6j8lJUDDqtO7aNgOFGWwhb7U9fcIZxGRYlSD6RE2qtVYDmTCd3LrJA==
+  version "1.0.100018"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-1.0.100018.tgz#5301de1db5356a1108eb4b6da06079ff32684a10"
+  integrity sha512-4WrnW8q5tMKB7O3E4TBMevOYj6WKQ3E/vFoWBLq5ia/3FkhPuVu5SQOH7lcjeE7zs+KfzjZzbi+4xrj8iQvAMw==
   dependencies:
     "@folio/stripes-acq-components" "^2.0.0"
     final-form "^4.18.2"
@@ -1151,9 +1151,9 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "2.0.1000459"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-2.0.1000459.tgz#9b21295bc25a8e3e99aa43a505cc4fbda55831e4"
-  integrity sha512-F8nfDRtMVB6Ao0EA9Np0nlXzuBEhti8sn+2RUrxACqmfy9l+wgu0b3I/otoYFiJ7z8360+wAnriCPnLgCVhTWQ==
+  version "2.0.1000460"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-2.0.1000460.tgz#3aafc8866108924681c6f272c299573ebe722fca"
+  integrity sha512-Q+4a/eAt6tqUukpBb/MOWhwtUdIt5odPYW+dGYVHXcxo5m0VS47UJe1QGR5dOfolU4AobiU3mfUmFVrth85SZw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     html-to-react "^1.3.3"
