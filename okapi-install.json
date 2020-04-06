@@ -1,6 +1,6 @@
 [
-    {
-    "id": "mod-calendar-1.8.0",
+  {
+    "id": "mod-calendar-1.8.1",
     "action": "enable"
   },
     {
@@ -43,8 +43,8 @@
     "id": "mod-feesfines-15.7.0",
     "action": "enable"
   },
-    {
-    "id": "mod-circulation-18.0.0",
+  {
+    "id": "mod-circulation-18.0.3",
     "action": "enable"
   },
     {
