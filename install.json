@@ -1,5 +1,5 @@
 [ {
-  "id" : "mod-calendar-1.8.1",
+  "id" : "mod-calendar-1.8.2",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-storage-19.1.2",
@@ -44,7 +44,7 @@
   "id" : "mod-inventory-14.1.1",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-15.7.1",
+  "id" : "mod-feesfines-15.7.2",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-18.0.6",
