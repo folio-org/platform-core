@@ -1,0 +1,10 @@
+[
+  {
+    "id": "mod-inventory-storage-19.2.0-SNAPSHOT.420.15",
+    "action": "enable"
+  },
+  {
+    "id": "mod-inventory-14.2.0-SNAPSHOT.185.13",
+    "action": "enable"
+  }
+]
