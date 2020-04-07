@@ -40,14 +40,6 @@
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-15.7.0",
-    "action": "enable"
-  },
-  {
-    "id": "mod-circulation-18.0.5",
-    "action": "enable"
-  },
-  {
     "id": "mod-login-6.2.0",
     "action": "enable"
   },
@@ -61,6 +53,14 @@
   },
   {
     "id": "mod-inventory-14.1.1",
+    "action": "enable"
+  },
+  {
+    "id": "mod-feesfines-15.7.1",
+    "action": "enable"
+  },
+  {
+    "id": "mod-circulation-18.0.6",
     "action": "enable"
   },
   {
