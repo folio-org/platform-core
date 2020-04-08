@@ -1289,9 +1289,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~5.5.0", "@folio/stripes-connect@~5.5.1":
-  version "5.5.1000113"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-5.5.1000113.tgz#f957edd0af02f7acc84f2e78f47721ec70ca7c06"
-  integrity sha512-zlMnfrh4qFczJps9DDH3Ud+CF8ToD1LQI8rIEv7fcVPizKcc4LwDSL9lxuI9gm2iHJsHuR4ARRxIDGzlcxBgQg==
+  version "5.5.1000114"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-5.5.1000114.tgz#dd8c03504e84111fcd8a43981f189173211f0e96"
+  integrity sha512-I8FKf7AzqqVxKAmJj1rIQtZFzU7i7fen9kHX13o8gPYBSAINZ9mdKQcWnveIsD92ppt9PDP9TUJZ5rutrScIOw==
   dependencies:
     isomorphic-fetch "^2.2.1"
     lodash "^4.17.11"
@@ -12145,9 +12145,9 @@ terser-webpack-plugin@^1.4.3:
     worker-farm "^1.7.0"
 
 terser@^4.1.2, terser@^4.6.3:
-  version "4.6.10"
-  resolved "https://repository.folio.org/repository/npm-ci-all/terser/-/terser-4.6.10.tgz#90f5bd069ff456ddbc9503b18e52f9c493d3b7c2"
-  integrity sha512-qbF/3UOo11Hggsbsqm2hPa6+L4w7bkr+09FNseEe8xrcVD3APGLFqE+Oz1ZKAxjYnFsj80rLOfgAtJ0LNJjtTA==
+  version "4.6.11"
+  resolved "https://repository.folio.org/repository/npm-ci-all/terser/-/terser-4.6.11.tgz#12ff99fdd62a26de2a82f508515407eb6ccd8a9f"
+  integrity sha512-76Ynm7OXUG5xhOpblhytE7X58oeNSmC8xnNhjWVo8CksHit0U0kO4hfNbPrrYwowLWFgM2n9L176VNx2QaHmtA==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
