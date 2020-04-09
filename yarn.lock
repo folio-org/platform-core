@@ -7761,7 +7761,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash-es@^4.17.10, lodash-es@^4.17.11, lodash-es@^4.17.15, lodash-es@^4.2.1:
+lodash-es@^4.17.11, lodash-es@^4.17.15, lodash-es@^4.2.1:
   version "4.17.15"
   resolved "https://repository.folio.org/repository/npm-ci-all/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
   integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
@@ -10756,16 +10756,16 @@ reduce-css-calc@^2.0.0:
     postcss-value-parser "^3.3.0"
 
 redux-form@^7.0.3, redux-form@^7.4.2:
-  version "7.4.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/redux-form/-/redux-form-7.4.2.tgz#d6061088fb682eb9fc5fb9749bd8b102f03154b0"
-  integrity sha512-QxC36s4Lelx5Cr8dbpxqvl23dwYOydeAX8c6YPmgkz/Dhj053C16S2qoyZN6LO6HJ2oUF00rKsAyE94GwOUhFA==
+  version "7.4.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/redux-form/-/redux-form-7.4.3.tgz#74cd5b460bfbb476987a54841c33e99136800c31"
+  integrity sha512-h2LEGdEQ9XaX2wXZnf6zIUFSETk4jDqG4NUKwqkSfOJZDxT3H2hJmKVZI76j/YsE/8E3eY6yPoAENCxjLi1p+Q==
   dependencies:
     es6-error "^4.1.1"
     hoist-non-react-statics "^2.5.4"
     invariant "^2.2.4"
     is-promise "^2.1.0"
-    lodash "^4.17.10"
-    lodash-es "^4.17.10"
+    lodash "^4.17.15"
+    lodash-es "^4.17.15"
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
