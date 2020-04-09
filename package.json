@@ -23,7 +23,7 @@
     "@folio/checkout": "3.0.0",
     "@folio/circulation": "2.0.0",
     "@folio/developer": "2.0.0",
-    "@folio/inventory": "2.0.1",
+    "@folio/inventory": "2.0.2",
     "@folio/myprofile": "2.0.0",
     "@folio/plugin-find-instance": "2.0.0",
     "@folio/plugin-find-user": "2.0.1",
