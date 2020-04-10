@@ -1494,9 +1494,9 @@
     query-string "^5.0.0"
 
 "@folio/stripes@^3.0.0":
-  version "3.1.200078"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-3.1.200078.tgz#386c58aa5f94635a7fe0ee0399f97c657034fe33"
-  integrity sha512-26gcdwLRWDOPvHGKCRxqpCspvoN77Ikab0bjz25KG2eRfLCpDJa7WOQPyjKl578au5oz/zs0ELhrwaXR7beeFA==
+  version "3.1.200079"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-3.1.200079.tgz#9e99271b5b7a85817169d5128b5a6b4cb7646f7d"
+  integrity sha512-RyB4OMttuCdSTRecDPDuHz+pktgwqljdENTSC+fl/mqUDkNCQVBxNwVp5Le4xkB2muw+Sxq0fT8NF0BH2GpoQQ==
   dependencies:
     "@folio/stripes-components" "~6.1.2"
     "@folio/stripes-connect" "~5.5.1"
