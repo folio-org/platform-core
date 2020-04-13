@@ -1051,9 +1051,9 @@
     redux-form "^7.0.3"
 
 "@folio/developer@>=1.5.0":
-  version "2.0.100093"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-2.0.100093.tgz#4e2c9effc58d58357f4e72910b888f5e0e06822f"
-  integrity sha512-+kKkJrZo4GGyvqgA3ECElFz6LfJs24hkP72usStlzE3tWztAp44nIaQZdBnrKF48hjbKmsOiNVemNb8Qar2+HA==
+  version "2.0.100094"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-2.0.100094.tgz#6b75c540d45016fd0f053aa846767d994727791d"
+  integrity sha512-ME8yqyVimEru20rBwuzwk192daHcmvyjalpRJ0Azg5tF0okvRd4DLGlOweZGOA/GIoV5jCP6jYqjOtCyYWEEZw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -1510,9 +1510,9 @@
     redux "~3.7.2"
 
 "@folio/tags@>=1.1.0":
-  version "2.0.100047"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-2.0.100047.tgz#fbb70895a449799e9fad9fd94cab1dcd19565603"
-  integrity sha512-g0wTPSE476Wk83TfdVGOueQr7rlXRhVg7jnXYZMTpsOZbtm0xLXA5n5grVjJdYkpc6bnuZV8MuAJHaJ9RdRF8Q==
+  version "2.0.100048"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-2.0.100048.tgz#30819858ee7f78a707ff538377554a56e5a292b2"
+  integrity sha512-Zs6rOcoj32TZ/BIqnn9qpMaTYEcr5DQKQ1Urcog+UHwmnJtkQ/CpFWNnY8LYrwgg9+FntgdbW05nDO5HcHsrrg==
   dependencies:
     prop-types "^15.5.10"
     redux-form "^7.0.3"
