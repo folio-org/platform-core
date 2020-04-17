@@ -1100,9 +1100,9 @@
     "@folio/quick-marc" "^1.0.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "2.0.100079"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-2.0.100079.tgz#e236988d4042e888f493d588a58af1241928daea"
-  integrity sha512-uutj+QHpfChTYI871ZkAiZZipP49/fPhAEUCI0wIoHOVwjMW0HdDcsWyctPvDDSxaSWpcmDKH4xFZWtEYTa35g==
+  version "2.0.100080"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-2.0.100080.tgz#9b50f52c78968f671532bc87e298b9b10eeaa811"
+  integrity sha512-cASTYIRpWw1Leju2rFW+wykN7kw/6tVGt4yAYpi+RVKcrpLVXsa73CN9IIMVuIGhn+fW7ahrv2cdo5KbrttMZg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     prop-types "^15.6.0"
@@ -1529,9 +1529,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001054"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001054.tgz#aa81ad1f018c6766bff6c3d5e7ddc347fe48d9da"
-  integrity sha512-6DnI+54ihUYdGFpAeEG8Cv/3WsFKFr1TkXz7FRfHvKZVW83y5GdtZGJUBPaSQHVWKV/W1WHetcHeM8O6ZehzMA==
+  version "3.0.10001055"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001055.tgz#5d58d4cb97065e1106c1b9b0b314df55db09aaff"
+  integrity sha512-nxOosZXYB6WVNxzAWL3PDtSQls/rBfqCXL7muCXYX6bPvoaW99p6dpg+UxUU1YEDiQvls/eFVuhSRlbYI706tA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     "@folio/stripes-util" "^2.0.0"
