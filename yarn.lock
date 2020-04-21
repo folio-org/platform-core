@@ -1152,9 +1152,9 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "2.0.1000468"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-2.0.1000468.tgz#cb079a6f35a4e345e61678f090db34d32a79fa6b"
-  integrity sha512-Ihr7T166wj1pfAn7uOg/SVzPxgfXr2XGJeF47DHRMm3x9yQibmrQn4QjqV/yt7lpQlCqchcZRwAMG3wrxBoaLw==
+  version "2.0.1000469"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-2.0.1000469.tgz#b460776dff94783bf9e8bab40db6c1570bf57b68"
+  integrity sha512-2yDPH/53eHpe7U5yOectAucohZ/6nWudnHfNY2kJcXeDMKvABzLDEQ6K7Kbjhho4eixhZu9PveQEEcb6waMsEA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     html-to-react "^1.3.3"
@@ -1529,9 +1529,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001057"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001057.tgz#0ce8227b7ba5c2866dc1d997a7572ce61dd339ab"
-  integrity sha512-K6TtBKpD2uAdWqoYP8V46hA2o3F5x91yfU58bQsg1nhpy33DZr85K0U84KbyKY84NvGPrkXb3aPaRCXx4H5Q4A==
+  version "3.0.10001060"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001060.tgz#c3a7ced884c782cf1c55e52b5e60c3ff60ad4838"
+  integrity sha512-uhXZeY84qS+sfBRo/QGlLTw8KZe3xOtpZ6Zuc4AxPIPRjVlS38BmdyoSciZmWAJ2R3QCdBYEDCXNNnpxsJeuvA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     "@folio/stripes-util" "^2.0.0"
