@@ -226,7 +226,7 @@ module.exports.test = (uiTestCtx) => {
           .wait('div.hasEntries')
           .evaluate((pn) => {
             const index = Array.from(
-              document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+              document.querySelectorAll('#ModuleContainer div.hasEntries a[class^=NavListItem]')
             )
               .findIndex(e => e.textContent === pn);
 
@@ -239,8 +239,8 @@ module.exports.test = (uiTestCtx) => {
           }, policyName)
           .then((entryIndex) => {
             nightmare
-              .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
-              .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+              .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a[class^=NavListItem]`)
+              .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a[class^=NavListItem]`)
               .wait('#clickable-edit-item')
               .click('#clickable-edit-item')
               .wait('#input_allowed_renewals')
@@ -336,7 +336,7 @@ module.exports.test = (uiTestCtx) => {
           .wait('div.hasEntries')
           .evaluate((pn) => {
             const index = Array.from(
-              document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+              document.querySelectorAll('#ModuleContainer div.hasEntries a[class^=NavListItem]')
             )
               .findIndex(e => e.textContent === pn);
 
@@ -349,8 +349,8 @@ module.exports.test = (uiTestCtx) => {
           }, policyName)
           .then((entryIndex) => {
             nightmare
-              .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
-              .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+              .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a[class^=NavListItem]`)
+              .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a[class^=NavListItem]`)
               .wait('#clickable-edit-item')
               .click('#clickable-edit-item')
               .wait('#input_loan_profile')
@@ -421,6 +421,7 @@ module.exports.test = (uiTestCtx) => {
             return !!(Array.from(document.querySelectorAll('#list-items-checked-in div[role="gridcell"]'))
               .find(e => e.textContent === `${bc}`));
           }, barcode)
+          .wait(1000)
           .then(done)
           .catch(done);
       });
@@ -468,13 +469,13 @@ module.exports.test = (uiTestCtx) => {
             .wait('div.hasEntries')
             .wait((sn) => {
               const index = Array.from(
-                document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+                document.querySelectorAll('#ModuleContainer div.hasEntries a[class^=NavListItem]')
               ).findIndex(e => e.textContent === sn);
               return index >= 0;
             }, scheduleName)
             .evaluate((sn) => {
               const index = Array.from(
-                document.querySelectorAll('#ModuleContainer div.hasEntries a div')
+                document.querySelectorAll('#ModuleContainer div.hasEntries a[class^=NavListItem]')
               ).findIndex(e => e.textContent === sn);
               if (index === -1) {
                 throw new Error(`Could not find the fixed due date schedule ${sn} to delete`);
@@ -484,8 +485,8 @@ module.exports.test = (uiTestCtx) => {
             }, scheduleName)
             .then((entryIndex) => {
               nightmare
-                .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
-                .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a`)
+                .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a[class^=NavListItem]`)
+                .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a[class^=NavListItem]`)
                 .wait('#generalInformation')
                 .wait('#fixedDueDateSchedule')
                 .wait('#clickable-edit-item')
