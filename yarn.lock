@@ -1077,9 +1077,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000869"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000869.tgz#f2a8d06646c8ed79a11bff3d5e7611081a0a18c0"
-  integrity sha512-wOQv1bUErMwJP57Gygo8vlmsy9L5BGrS6j6HKEjHVFppLB+UrlBzCOCcvIOskxU2iuTvzuhjCQYGOEXItHshuw==
+  version "2.0.1000870"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000870.tgz#5435384317151e87290838be5b5a5080c8217d9e"
+  integrity sha512-Rnh6gi3SAlesQgwIyfmkJriBjB2SiHpq2L+e5R6UAgPtZsu/6GqqsuUmDhiqLUFXHeDZhbOxLkYfiI4vA/o8lg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -1152,9 +1152,9 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "2.0.1000472"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-2.0.1000472.tgz#4c58bef2570579f69f94a1c9ff2ad95d0098197b"
-  integrity sha512-cJJ3DYQjntZi7ZeGcNVlBCu2ycOTrv0EpU/znOb9KmKDsqULzjoartxJaNm2hr341MiOeuKgB95DQpSL4vLiiw==
+  version "2.0.1000473"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-2.0.1000473.tgz#34b9916a15fdd4049200c81c304e681416a7e3db"
+  integrity sha512-0xT50c+oHYgL8ViX0sD1GcJ3Dkc3Op+Ox0ltvHwL0t/W/DQ0lC5iQ+0gs1adhFU5S+TJVE5VLH8Vg/PZFjeHUw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     html-to-react "^1.3.3"
@@ -1476,9 +1476,9 @@
     redux-form "^7.0.3"
 
 "@folio/stripes-testing@^2.0.0":
-  version "2.0.100066"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-2.0.100066.tgz#d5873781328dc9792ed2ca6365f049efa04c3e15"
-  integrity sha512-iq+g5b6WcW3EI18epVIR+61zfAg9E1OkyP8OUWb3i4KRoa017RFrOLVWDltvzpt+8pRmV4i290lF4QpT51plRA==
+  version "2.0.100067"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-2.0.100067.tgz#8079ffa6389d18712c4484d7fa72310bb271b19a"
+  integrity sha512-B6fy5kmFBh+HX/3q5AdSfipVocOCNbY8xiep6Y/lafleXRaHJ2zA8nD3y15Fiz8NTscKKFLXDzSiv0dV+orFOQ==
   dependencies:
     debug "^4.0.1"
     minimist "^1.2.0"
