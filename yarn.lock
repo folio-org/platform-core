@@ -1152,9 +1152,9 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=1.4.1":
-  version "2.0.1000475"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-2.0.1000475.tgz#55866b1a2c8f65a9494a1d0cc1089463c7200804"
-  integrity sha512-PKV8lfxwnk1Tz7w3O/IxxabhYOpBclxM2nZGZ5RGQm7vjr/sWCIqVhmnPHPK34F0vpTfkg7vUCGwSG5K2WLLLA==
+  version "2.0.1000476"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-2.0.1000476.tgz#974f4bd60a81e65011c2e7b9bc65df4cd86e3085"
+  integrity sha512-y3fZWjg1pCC0Z3/ZpkrFbXSjZFC0xNluQjXjsqg8/KOBwDSp6icM22/+cwAAqMf8ceChd8mzgcEz4iPyj1lxIA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     html-to-react "^1.3.3"
@@ -1181,9 +1181,9 @@
     react-hot-loader "^4.3.12"
 
 "@folio/servicepoints@>=1.1.0":
-  version "2.0.100063"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-2.0.100063.tgz#db13f317c73bc7ede267cb0b145c1787c524a910"
-  integrity sha512-yutYFqP/vQEIQAyhL4er5eMUr+UzGufa+hfg8M0MZ1SAL1TlMDURZrAP7mmYxpKYYjYZFCyPfLf52B0JHRgHiQ==
+  version "2.0.100064"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-2.0.100064.tgz#4c0099f9636fb900bb20bca1c215f02caaf4a5d7"
+  integrity sha512-fLc0cj8xAEZt+EloCRGKIRkUo6fzme7flEvIwY1g1BmxmfiRMEqwFMptrKQ9C7onx8CaGg9h5PVZd+q4BTOu4w==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     lodash "^4.17.4"
