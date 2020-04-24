@@ -1447,9 +1447,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~3.2.0":
-  version "3.2.1000691"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.2.1000691.tgz#af727783cbba8ede877915736e096bdcaeb956e3"
-  integrity sha512-G2Bd2XyXYf9ph5LhzEBadfj+mOW3w824vDejX2+lvgDOoMX+QtHGrKW2TIWwWNdoREf76SE3k8UG33Tf9suUiQ==
+  version "3.2.1000692"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.2.1000692.tgz#09de0ce333a8c3eb92ad015f26c2df38380d931e"
+  integrity sha512-6HkkcRz6KOIJsmOjwKV/Vasn7dYuiOiKtI3PpD+bvfE7uLV2PamDQJ3X8xkSNdBY2bfdBN/tKoUynj/I24wIow==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~6.2.0"
@@ -12156,9 +12156,9 @@ terser-webpack-plugin@^1.4.3:
     worker-farm "^1.7.0"
 
 terser@^4.1.2, terser@^4.6.3:
-  version "4.6.11"
-  resolved "https://repository.folio.org/repository/npm-ci-all/terser/-/terser-4.6.11.tgz#12ff99fdd62a26de2a82f508515407eb6ccd8a9f"
-  integrity sha512-76Ynm7OXUG5xhOpblhytE7X58oeNSmC8xnNhjWVo8CksHit0U0kO4hfNbPrrYwowLWFgM2n9L176VNx2QaHmtA==
+  version "4.6.12"
+  resolved "https://repository.folio.org/repository/npm-ci-all/terser/-/terser-4.6.12.tgz#44b98aef8703fdb09a3491bf79b43faffc5b4fee"
+  integrity sha512-fnIwuaKjFPANG6MAixC/k1TDtnl1YlPLUlLVIxxGZUn1gfUx2+l3/zGNB72wya+lgsb50QBi2tUV75RiODwnww==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
