@@ -1530,9 +1530,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001076"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001076.tgz#2240145ec8795302ef72b91e9d37b9c7b6cc8b1e"
-  integrity sha512-ZomqtAN/hYDPpemaS989rdIwuMq7tNfeKznYLKfttLcwZQVIJnPsvjWPOuS+n8D5KwdoJ6clDAAJdN+rL++DMw==
+  version "3.0.10001077"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001077.tgz#04873ce81701b14fc2c2df7f7653a81320d8ebaf"
+  integrity sha512-UVkqPfWw7UgXxpx1EXuWYs4em7LEERBE8KrV+Y7fD0LT/U5G23XlNn6VI6xcv6n9Q/64IYHk5YBNKqOSqU5Bog==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     "@folio/stripes-util" "^2.0.0"
@@ -1885,9 +1885,9 @@
   integrity sha512-M/BexG/p05C5lFfMunxo/QcgIJnMT2vDVCd00wNqK2ImZONIlEETZwWJu1QtLxtmYlSHlCFl3JNzp0tLe7OJ5g==
 
 "@rehooks/local-storage@^2.3.0":
-  version "2.3.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@rehooks/local-storage/-/local-storage-2.3.0.tgz#e2b90a93d3be70e7b7d69a5748abbcfa94261713"
-  integrity sha512-Lt7uVEse+Rxc1OBTy/dxSJoNtik2CAP+9w+2G2EzY04S+HPkNaUvnIHtWMCniqzZ6ctthvRPs1Pcriuexmr56A==
+  version "2.4.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@rehooks/local-storage/-/local-storage-2.4.0.tgz#fb884b2b657cad5f77aa6ab60bb3532f0e0725d2"
+  integrity sha512-LoXDbEHsuIckVgBsFAv8SuU/M7memjyfWut9Zf36TQXqqCHBRFv8bweg9PymQCa1aWIMjNrZQflFdo55FDlXYg==
 
 "@restart/hooks@^0.3.12":
   version "0.3.22"
