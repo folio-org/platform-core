@@ -69,5 +69,7 @@
     "eslint": "^6.2.1",
     "moment": "^2.22.2"
   },
-  "resolutions": {}
+  "resolutions": {
+    "moment": "2.24.0"
+  }
 }
