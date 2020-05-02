@@ -1077,15 +1077,15 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000880"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000880.tgz#f7f49eb6b66088ecd9deb05e894c2859064490fd"
-  integrity sha512-vjRz/w4e/it/7NZIAu6HZrwtC1MSk3GZwurDPro5LseTLeoQsjLc3e1VjX75IzkGfNGREOwVXsp8gGlyAObwkw==
+  version "2.0.1000881"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000881.tgz#14ef5150fd4516da3d10e2328f08dc527e4d1cda"
+  integrity sha512-MgXdZu1eEWNFCRZqxX5+katmCynMgZ6Mn2mgZ6TOSXr6Gho5FSI4bDTc/oJ1v02Pzf3qjYTkyRCt8HivH7EDwg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
     lodash "^4.17.4"
-    moment "^2.22.2"
+    moment "~2.24.0"
     prop-types "^15.5.10"
     query-string "^5.0.0"
     react-copy-to-clipboard "^5.0.1"
@@ -8444,6 +8444,11 @@ moment-timezone@^0.5.14, moment-timezone@^0.5.17:
   version "2.25.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/moment/-/moment-2.25.1.tgz#1cb546dca1eccdd607c9324747842200b683465d"
   integrity sha512-nRKMf9wDS4Fkyd0C9LXh2FFXinD+iwbJ5p/lh3CHitW9kZbRbJ8hCruiadiIXZVbeAqKZzqcTvHnK3mRhFjb6w==
+
+moment@~2.24.0:
+  version "2.24.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
