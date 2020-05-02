@@ -55,6 +55,7 @@
     "@folio/tags": ">=1.1.0",
     "@folio/tenant-settings": ">=2.5.1",
     "@folio/users": ">=2.17.0",
+    "moment": "~2.24.0",
     "react": "~16.12.0",
     "react-dom": "~16.12.0",
     "react-intl": "^2.9.0",
@@ -66,9 +67,8 @@
   "devDependencies": {
     "@folio/eslint-config-stripes": "^5.0.0",
     "@folio/stripes-cli": "^1.15.0",
-    "eslint": "^6.2.1",
-    "moment": "^2.22.2"
-  },
+    "eslint": "^6.2.1"
+  }
   "resolutions": {
     "moment": "~2.24.0"
   }
