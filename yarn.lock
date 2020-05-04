@@ -8389,9 +8389,9 @@ mixin-deep@^1.2.0:
     is-extendable "^1.0.1"
 
 mkdirp-classic@^0.5.2:
-  version "0.5.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/mkdirp-classic/-/mkdirp-classic-0.5.2.tgz#54c441ce4c96cd7790e10b41a87aa51068ecab2b"
-  integrity sha512-ejdnDQcR75gwknmMw/tx02AuRs8jCtqFoFqDZMjiNxsu85sRIJVXDKHuLYvUUPRBUtV2FpSZa9bL1BUa3BdR2g==
+  version "0.5.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz#fa10c9115cc6d8865be221ba47ee9bed78601113"
+  integrity sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A==
 
 mkdirp@0.5.1:
   version "0.5.1"
