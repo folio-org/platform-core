@@ -107,11 +107,8 @@ module.exports.test = (uiTestCtx) => {
         nightmare
           .wait('#clickable-reset-all')
           .click('#clickable-reset-all')
-          .evaluate(() => {
-            const results = document.querySelector('#list-search');
-            if (results) {
-              throw new Error('Found unexpected search results after reset');
-            }
+          .wait(() => {
+            return !document.querySelector('#list-search');
           })
           .then(done)
           .catch(done);
