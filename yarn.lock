@@ -1020,14 +1020,14 @@
     redux-form "^7.0.3"
 
 "@folio/checkout@>=1.3.0":
-  version "3.0.1000402"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-3.0.1000402.tgz#a3d7c7674fe78cf4629cac3605e022ad26c41984"
-  integrity sha512-rK+DLMCCZIYAvUolxZa0Lep/hHVIIsvNwp9Y+mkO0CFD+jv5ZCkxhzH51G+BzoQoXU+xXo6FxPRAAh4iGJjvmg==
+  version "3.0.1000403"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-3.0.1000403.tgz#6eff82a919c498d1180e9f75334fb14ec97a5ea9"
+  integrity sha512-wz7qVKGtETHkpGnYc5ks+wp1ZTM5fV6pbA0lNkXdq7TFI+5oUuHRB2GCXvtfEbhOJvvBwSppTeffLSzkp+CwbA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     inactivity-timer "^1.0.0"
     lodash "^4.17.4"
-    moment "^2.0.0"
+    moment "~2.24.0"
     prop-types "^15.5.10"
     react-audio-player "^0.9.0"
     react-hot-loader "^4.3.12"
@@ -1190,9 +1190,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.0.0":
-  version "2.0.4000250"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.0.4000250.tgz#6fb996cfd6c330f298edba1e23dff7a3924c4e18"
-  integrity sha512-L5VvKmYRpDLgBnfrdEeeI2RjJ7Ds+8iSMtdy/oFOlg6O4BX0ibrBnmBcL4ohq4KQttg0qIhB/UMO7FIISdSKZA==
+  version "2.0.4000251"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.0.4000251.tgz#df20857d40ce12a049688f6d36cb4f5d73b0169d"
+  integrity sha512-f4+TpPe78nudcna6MGiuSFWMNyuEzFP8tEKibb9wqW065yytRFky0/kbtv/gtNBHWT3VJ26CY63F1f4VKgCY+A==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.3"
     classnames "^2.2.5"
@@ -1530,15 +1530,15 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001077"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001077.tgz#04873ce81701b14fc2c2df7f7653a81320d8ebaf"
-  integrity sha512-UVkqPfWw7UgXxpx1EXuWYs4em7LEERBE8KrV+Y7fD0LT/U5G23XlNn6VI6xcv6n9Q/64IYHk5YBNKqOSqU5Bog==
+  version "3.0.10001079"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001079.tgz#313eb15ad72ea60fd1084f8656f35817b198702c"
+  integrity sha512-GrU3P36TV37gf/W7AInOlXeUHMvy3TbHo9UzfUY8EjZ7r+jZ8vFUrGaMS1HWt8KpjpwIkDsN1hbP1I/Owxo2GQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     "@folio/stripes-util" "^2.0.0"
     hashcode "^1.0.3"
     lodash "^4.17.4"
-    moment "^2.22.2"
+    moment "~2.24.0"
     prop-types "^15.5.10"
     query-string "^5.0.0"
     react-final-form "^6.3.0"
@@ -8447,7 +8447,7 @@ moment-timezone@^0.5.14, moment-timezone@^0.5.17:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.0.0, moment@^2.19.1, moment@^2.22.2, moment@^2.24.0, moment@~2.24.0:
+"moment@>= 2.9.0", moment@^2.19.1, moment@^2.22.2, moment@^2.24.0, moment@~2.24.0:
   version "2.24.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
