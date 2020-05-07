@@ -1335,9 +1335,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0":
-  version "5.0.1000709"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-5.0.1000709.tgz#064cb4a22705bf250c4e43966dd0f70d59c813b9"
-  integrity sha512-uTwmshfF/yGz/eZfmdqijbrFJmrJqTthYfVx4aUHvwhjtPJDvL+jQ7fKxvskA18mZXGCYXvH3yoeLUBwoz8TBA==
+  version "5.0.1000710"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-5.0.1000710.tgz#044c9611f85fd25c89ca3d519664410c2c41518f"
+  integrity sha512-WbfsBO4RcsNAsH4+uwnQr01LMsd2N4x6ejvnpKH0aUBGTZiOmz4wXgXRKXQu8FK90DlzVPSuiU9LQnC1a2+Vkw==
   dependencies:
     "@babel/core" "^7.8.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
@@ -1353,7 +1353,6 @@
     "@babel/preset-typescript" "^7.7.7"
     "@babel/register" "^7.0.0"
     "@bigtest/mirage" "^0.0.1"
-    "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~7.0.0"
     "@folio/stripes-connect" "~5.6.0"
     "@folio/stripes-logger" "~1.0.0"
