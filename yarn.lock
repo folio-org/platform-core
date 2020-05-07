@@ -1289,9 +1289,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-components@~7.0.0":
-  version "7.0.10001049"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-7.0.10001049.tgz#b2ebaa4bccf35efbfb51423a47cf8bf72f2af18a"
-  integrity sha512-zq3iLtrQl+2VPgJj9SzzsrTeqj6y8qgWCMKfmgBzBWGOlMUTGpstGuzw/F6qwEkvJt56PA7tu3vVw1MGYUoyPw==
+  version "7.0.10001050"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-7.0.10001050.tgz#26c48c38d2e4a593a48b1689d1835d137e5e6a63"
+  integrity sha512-JaQp6eY4qRqiQhVi6GKsb3h8YY90rsJF8AymM9DyTelEoCL9fjuV2TTNPvcFOoyShHrtId1GIXdhUKpu+9Qr0g==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1312,7 +1312,6 @@
     query-string "^6.1.0"
     react-flexbox-grid "1.1.3"
     react-highlight-words "^0.16.0"
-    react-intl "^2.5.0"
     react-overlays "^0.8.3"
     react-quill "^1.3.3"
     react-svg-loader "^3.0.3"
