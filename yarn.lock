@@ -987,9 +987,9 @@
     pretender "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "3.0.100064"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-3.0.100064.tgz#3e3cbf1adbb351199e43cdd7b91a21fc8e7b75be"
-  integrity sha512-FN/Z/TlZkugWq7oHyWfNVT2VURvDqHywBg2sprX8W0DvfVmX8vlz5UsZ0vBOtZoYZobTvVUw4wlFhP5RqCuHtA==
+  version "3.0.100065"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-3.0.100065.tgz#2ee8c80c77cf4f7f0b4682571710366321a6ef6d"
+  integrity sha512-QAM2A2Y5X1IXrIIgT158ANh6FwZ966AIpvROw5A3k5PQtMx7/OMm9WGla3kahMJgWIZRk4AHITxg2aO2UxSuGg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     dateformat "^2.0.0"
@@ -1655,9 +1655,9 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "3.0.1000108"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-3.0.1000108.tgz#a9604edfaf8b4fe487fc4d49f8b6600b19981375"
-  integrity sha512-/cMpmaGSKm1dPk3UsF/6iU4Xh+tAkE5FVl/cF1tgo0b9U49yGGpOWWf5HlI3fzru35E5VW8Oal7XQd44q07scw==
+  version "3.0.1000109"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-3.0.1000109.tgz#f62594f920cb5f75fd4d497523942d8fbccdde01"
+  integrity sha512-w/75+gnFb5VxiDRKXer+Aa0JC5M/syVPMf0WGiYHKIRoDaztfQ+S72O8EdTo7tOjvl/258iSGzXLadRO4u9xtw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
