@@ -987,9 +987,9 @@
     pretender "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "3.0.100062"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-3.0.100062.tgz#a042e184bf7b319954132dd45d5a1dc40369f26d"
-  integrity sha512-kV6ZRDxGQ1sy8ZSmmUFaweP5Hh5jgq7+lxY6/aeafN23ixKW0NF0Cmt2ltws5znBmHN1CNKB3r7hdlW12zH9KA==
+  version "3.0.100064"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-3.0.100064.tgz#3e3cbf1adbb351199e43cdd7b91a21fc8e7b75be"
+  integrity sha512-FN/Z/TlZkugWq7oHyWfNVT2VURvDqHywBg2sprX8W0DvfVmX8vlz5UsZ0vBOtZoYZobTvVUw4wlFhP5RqCuHtA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     dateformat "^2.0.0"
@@ -1666,9 +1666,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001082"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001082.tgz#e3d2cd6840cae10e0c1510c0b742ddd60b0cb3f0"
-  integrity sha512-yPpbntjPRPZPiL8rDW0IjOEQIHmtKcOaxcSmpbmYAsa9POURuYioi2T9epWEI/eFzY6bpbLtD4xplNqBIEXXjg==
+  version "3.0.10001083"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001083.tgz#60748f418a9a2b864ff8c969735274f1fed15f3d"
+  integrity sha512-/wmGuFNHcPnVIC+t0IK6NLavxs1wdGzaCU7WrBnFPlZFi68g6DUvvA9plvkoUH+YMR2ZhduHt2+E6hZCcSGT0g==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     "@folio/stripes-util" "^2.0.0"
