@@ -1053,9 +1053,9 @@
     redux-form "^7.0.3"
 
 "@folio/developer@>=1.5.0":
-  version "2.0.1000100"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-2.0.1000100.tgz#cc9dbea77f2cfa9c6a8e5e2c2ddd559c31f449e5"
-  integrity sha512-8SeHrUS2kmh39GyAONmqoopUFK4ddf3JA3mLquJsJmAAaElMrc7GupgkVtaxndGj+LJHiYJTGSaHpebduvRyAg==
+  version "2.0.1000102"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-2.0.1000102.tgz#c7dd0df869dbbe6089ace7e95803aba1f979d881"
+  integrity sha512-4nzsJ6Jjm1dKaCUWNiVTZWmPsodzx2lpxPBjuZGdkFaZcM+Dn/MC3QX3MnXDT/q3QwuU2Sy9Y2YdeTf0mmiEwA==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
@@ -1063,9 +1063,9 @@
     redux-form "^7.0.3"
 
 "@folio/eslint-config-stripes@^5.0.0":
-  version "5.2.100056"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eslint-config-stripes/-/eslint-config-stripes-5.2.100056.tgz#b403c347fd08af91b819b900e7586c5ebc631407"
-  integrity sha512-+szCYdnKiyhSCJH4+zXSOxhKxwKNZ763/jdNiaaa6JqMqxC2FjOJZxrawSc9GDSNkScbqgVfVckXHVmp0Hj7uw==
+  version "5.2.100057"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eslint-config-stripes/-/eslint-config-stripes-5.2.100057.tgz#d51ad04ab2325a121ccdca3052b92964fd248331"
+  integrity sha512-ZTFq89Jfb74ljd0y2XbQBdAz1hridO+qVBWoSiLohFiCTUowE4S7x+RlbHv3xJraWZd7jr1Kv+r5lBRQZyJLZw==
   dependencies:
     eslint-config-airbnb "18.0.1"
     eslint-import-resolver-webpack "0.11.1"
@@ -1129,9 +1129,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^1.0.0":
-  version "1.0.100041"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-1.0.100041.tgz#e9326b87806df73d427f747a1c6cd030bfb1f662"
-  integrity sha512-MN4hpkF0EAb7OFwywqL75pxZz6zM9687sMCf4cX26DOWfpEybEA3vlUO77w9SEsygVcJxapiVcR2CD+Hf0Bi7Q==
+  version "1.0.100042"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-1.0.100042.tgz#ec677e86387a006904c541434acde84b29448c5c"
+  integrity sha512-j8tXSmOUzELOXp1sd1PpUaFquigh9Zh4JBKsol2+F/oZmbnsrSBi/rqB4Hta7EhbqMJTOWcYbjtxjOciZAtHFA==
   dependencies:
     "@folio/stripes-acq-components" "^2.0.0"
     final-form "^4.18.2"
