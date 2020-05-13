@@ -1053,9 +1053,9 @@
     redux-form "^7.0.3"
 
 "@folio/developer@>=1.5.0":
-  version "2.0.1000102"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-2.0.1000102.tgz#c7dd0df869dbbe6089ace7e95803aba1f979d881"
-  integrity sha512-4nzsJ6Jjm1dKaCUWNiVTZWmPsodzx2lpxPBjuZGdkFaZcM+Dn/MC3QX3MnXDT/q3QwuU2Sy9Y2YdeTf0mmiEwA==
+  version "2.0.1000103"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-2.0.1000103.tgz#4580edd6465d6e9326a2a0a954f0897499374725"
+  integrity sha512-rpu4kL/IJFlwJ5Ar5FPrHsvD4YU1S2EQ3aoDJ7aw1J1zBG6wkaE2wHYvju2ltG4qtnCn+V5C+C8vEbMMBhc6NQ==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
@@ -1306,9 +1306,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0", "@folio/stripes-core@~5.0.0":
-  version "5.0.1000710"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-5.0.1000710.tgz#044c9611f85fd25c89ca3d519664410c2c41518f"
-  integrity sha512-WbfsBO4RcsNAsH4+uwnQr01LMsd2N4x6ejvnpKH0aUBGTZiOmz4wXgXRKXQu8FK90DlzVPSuiU9LQnC1a2+Vkw==
+  version "5.0.1000711"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-5.0.1000711.tgz#dce062d223e4a183e2db13636c424a5771519f74"
+  integrity sha512-Gp22VOoEREj3VTQnCEkJSH0/7uXg6BinrsUoGOYcqp3ZoeOdjFiYwHra7TtXSU8WtsN7vVWQEz577VLqTLhYzg==
   dependencies:
     "@babel/core" "^7.8.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
@@ -12447,9 +12447,9 @@ ua-parser-js@^0.7.18:
   integrity sha512-+O8/qh/Qj8CgC6eYBVBykMrNtp5Gebn4dlGD/kKXVkJNDwyrAwSIqwz8CDf+tsAIWVycKcku6gIXJ0qwx/ZXaQ==
 
 uglify-js@^3.1.4:
-  version "3.9.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/uglify-js/-/uglify-js-3.9.2.tgz#012b74fb6a2e440d9ba1f79110a479d3b1f2d48d"
-  integrity sha512-zGVwKslUAD/EeqOrD1nQaBmXIHl1Vw371we8cvS8I6mYK9rmgX5tv8AAeJdfsQ3Kk5mGax2SVV/AizxdNGhl7Q==
+  version "3.9.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/uglify-js/-/uglify-js-3.9.3.tgz#4a285d1658b8a2ebaef9e51366b3a0f7acd79ec2"
+  integrity sha512-r5ImcL6QyzQGVimQoov3aL2ZScywrOgBXGndbWrdehKoSvGe/RmiE5Jpw/v+GvxODt6l2tpBXwA7n+qZVlHBMA==
   dependencies:
     commander "~2.20.3"
 
