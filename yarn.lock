@@ -1531,11 +1531,11 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "3.0.1000110"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-3.0.1000110.tgz#77d2031be11365073a8a08d386b3a7ec99a8b724"
-  integrity sha512-ON93kw/qiwl47eOdYTBZVYt1dz6UVs3DxHm8tToXH4XFyLhk1vPcRPNaXUcrYq0ma/fElV57C+KCkUroECBTjA==
+  version "3.0.1000111"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-3.0.1000111.tgz#ff094f6ddf0eb2edc3fb6b01483ef4b2e5665626"
+  integrity sha512-PhpWuUT/3EISt6Dv4H6nhkE45A8TcpecIA62crqhTEMLRYPDAMAaOR5VKQBB05jh3r4/mrPzF8k29sZr7yB4Ng==
   dependencies:
-    "@folio/react-intl-safe-html" "^1.0.1"
+    "@folio/react-intl-safe-html" "^2.0.0"
     lodash "^4.17.4"
     prop-types "^15.6.0"
     query-string "^6.8.1"
