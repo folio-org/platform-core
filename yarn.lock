@@ -987,9 +987,9 @@
     pretender "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "3.0.100066"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-3.0.100066.tgz#4d4cc96d66c7466e5c80eda2f7c75290a65400c1"
-  integrity sha512-fIDhQ+56qhecOzapnzBMUR+2gugbusdInIAXbt0PiSuoAEyHEVjYFDrQfGjJIYE+1KBds9k+LR5oKTS/XBi5+A==
+  version "3.0.100067"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-3.0.100067.tgz#f65860d6023574d19952006803ef7aaa543c2417"
+  integrity sha512-AHZ31QPipgs/NN9uCBEhFzgk7+buzvL/RgB8j5DFlEuNvf6+sjxnjOWauf967vXEMtVeJYG5tJEDe3WGC/ebng==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
@@ -1004,11 +1004,11 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "2.0.1000256"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-2.0.1000256.tgz#1efbfc49105363ad97d7a9ad00ab1f851896c749"
-  integrity sha512-v7CYlmJxD4nrBPZcdT9E3iZdHMh5HDbMq4iORGWR8oCBZXtzzkOFLCLLY+CMfB9qI+E4OoF1ZviUCPDRDMUG6g==
+  version "2.0.1000257"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-2.0.1000257.tgz#62e02f7ba3538b669152e96ca4238b11547bd6c0"
+  integrity sha512-Ho/HAlFxavQH3Q5F06ndwpEw4heeZhRpTMDcNqnfB2/miC5ZqEG9M88ltCdG4evKHPhK9N99YfrHv/Uw04qiag==
   dependencies:
-    "@folio/react-intl-safe-html" "^1.0.0"
+    "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
     final-form "^4.19.1"
     html-to-react "^1.3.3"
@@ -1053,9 +1053,9 @@
     redux-form "^7.0.3"
 
 "@folio/developer@>=1.5.0":
-  version "2.0.1000103"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-2.0.1000103.tgz#4580edd6465d6e9326a2a0a954f0897499374725"
-  integrity sha512-rpu4kL/IJFlwJ5Ar5FPrHsvD4YU1S2EQ3aoDJ7aw1J1zBG6wkaE2wHYvju2ltG4qtnCn+V5C+C8vEbMMBhc6NQ==
+  version "2.0.1000104"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-2.0.1000104.tgz#098a206dd13e2023f77655b1d06404160b6054f6"
+  integrity sha512-sicxt2YRg14g7QrNEYADiXAWMeiZhCiHwsofCEjUc9vb2Z7WDq2AUi/NbCm4j+xpVCbuFGPgyedLTVBo1yt/7w==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
@@ -1196,9 +1196,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.0.0":
-  version "2.0.4000255"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.0.4000255.tgz#6aeae6f535b2a2f834ad5cc634a6e510181f49c8"
-  integrity sha512-xGALMrlSKFuSdfJQHUCmkX+3HS9AJJ7r59f0idkQjHVnPGTJVn8tld8pjZGVcwr+W6VV6+hzhlkAOMqX8rt1cg==
+  version "2.0.4000256"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.0.4000256.tgz#5afabdadf32988d4ac76b97d8a30e0d529fa72bd"
+  integrity sha512-uzlcRDmR94WjXx8gK4t373C60DFTCQa5MojXV7q1xBUKcudD8hLZ6u1GKVXnHM484REQfaJTODNzFXWpIlKJow==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     classnames "^2.2.5"
@@ -1306,9 +1306,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0", "@folio/stripes-core@~5.0.0":
-  version "5.0.1000712"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-5.0.1000712.tgz#a736a22e3d04aaa39cb491681183d0e1a89b6475"
-  integrity sha512-dgv1SIlkuLLWh2Z7la710NQdnbTggO5LxwMKrSIiyh6qaoA1BQoXoEbvWyWKcLhAYMijWucAjsenDtffbq8PTw==
+  version "5.0.1000713"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-5.0.1000713.tgz#562c49ce1f3d8ba7cce436eff7f6fd88a522b6c7"
+  integrity sha512-UVKa8f3y1TeK95iGub8b8S40AG4I/jawJ4V1aacDRtBe3a1UVQcrph1bH566qv9t+5m7uiNJ/6Keiv1kIEAyHg==
   dependencies:
     "@babel/core" "^7.8.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
@@ -1522,9 +1522,9 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "3.0.1000109"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-3.0.1000109.tgz#f62594f920cb5f75fd4d497523942d8fbccdde01"
-  integrity sha512-w/75+gnFb5VxiDRKXer+Aa0JC5M/syVPMf0WGiYHKIRoDaztfQ+S72O8EdTo7tOjvl/258iSGzXLadRO4u9xtw==
+  version "3.0.1000110"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-3.0.1000110.tgz#77d2031be11365073a8a08d386b3a7ec99a8b724"
+  integrity sha512-ON93kw/qiwl47eOdYTBZVYt1dz6UVs3DxHm8tToXH4XFyLhk1vPcRPNaXUcrYq0ma/fElV57C+KCkUroECBTjA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
@@ -1533,9 +1533,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001088"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001088.tgz#a934173b1e08ce95118684c84c7756d3c4bcec5e"
-  integrity sha512-ZvYXTA0/J8NfXSfbmfDflRKzaiLzplx2KkOgvyj1afsQLEb00Y4qJ/CaQO/C8djRCLYgRHJRiHSPyEInVh9sDQ==
+  version "3.0.10001089"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001089.tgz#776d0eba5c0e803545cc8ca8cbc74b4e1169ea4c"
+  integrity sha512-pFFpC/FY1drTHW9leBwNiwSN5/pyfE52ta8lMiQeq9dH/ws5KgYxY7wEEOICLcpllqbrJ47aNN82B5LgardkBg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     hashcode "^1.0.3"
@@ -11600,9 +11600,9 @@ spdx-exceptions@^2.1.0:
   integrity sha512-/tTrYOC7PPI1nUAgx34hUpqXuyJG+DTHJTnIULG4rDygi4xu/tfgmq1e1cIRwRzwZgo4NLySi+ricLkZkw4i5A==
 
 spdx-expression-parse@^3.0.0:
-  version "3.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/spdx-expression-parse/-/spdx-expression-parse-3.0.0.tgz#99e119b7a5da00e05491c9fa338b7904823b41d0"
-  integrity sha512-Yg6D3XpRD4kkOmTpdgbUiEJFKghJH03fiC1OPll5h/0sO6neh2jqRDVHOQ4o/LMea0tgCkbMgea5ip/e+MkWyg==
+  version "3.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/spdx-expression-parse/-/spdx-expression-parse-3.0.1.tgz#cf70f50482eefdc98e3ce0a6833e4a53ceeba679"
+  integrity sha512-cbqHunsQWnJNE6KhVSMsMeH5H/L9EpymbzqTQ3uLwNCLZ1Q481oWaofqH7nO6V07xlXwY6PhQdQ2IedWx/ZK4Q==
   dependencies:
     spdx-exceptions "^2.1.0"
     spdx-license-ids "^3.0.0"
