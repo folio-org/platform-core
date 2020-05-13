@@ -1004,9 +1004,9 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "2.0.1000254"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-2.0.1000254.tgz#f182b42455677fcee513658515145adab2ec57e0"
-  integrity sha512-TawXcPy6apODPQT5mMz+fLumMq63qDt86Opkqux/7wl9TEkR+ZOVdFtaRH3PcRhENHzO8UYZNijeVusOK8/bBg==
+  version "2.0.1000256"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-2.0.1000256.tgz#1efbfc49105363ad97d7a9ad00ab1f851896c749"
+  integrity sha512-v7CYlmJxD4nrBPZcdT9E3iZdHMh5HDbMq4iORGWR8oCBZXtzzkOFLCLLY+CMfB9qI+E4OoF1ZviUCPDRDMUG6g==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     dateformat "^2.0.0"
@@ -1078,9 +1078,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000886"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000886.tgz#e6af65d42cce6c55dbd8df41c74f51ab928b3960"
-  integrity sha512-mPgxRDn4YPcLB5GiH80MoIvuro0i/hLv/+oxhpLLxTeT7PrtrbpnyWpnG4NQGqgJ2/fqq0JhHRtF6q0xx5feCA==
+  version "2.0.1000887"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000887.tgz#9d62ba27023e9511dee7170e9f93fe4e0a689d9b"
+  integrity sha512-em+fias7dNcRTQXALwnnZ5KIzyIKywwXjNcDlkTROCD6JIQe+umCc2X6dxNoRlVE7jYadzCNQTAYThgPnj+MiQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -1178,9 +1178,9 @@
     "@folio/plugin-find-user" "^2.0.0"
 
 "@folio/search@>=1.3.0":
-  version "2.0.1000177"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-2.0.1000177.tgz#2812bae69e931194b4ba5921651ef370aea7ad9b"
-  integrity sha512-6SomvQLIb96/eCGF7OPhW+I0OO0dUR2vR1aJA87MsfTSTXQltDS/JPiSCfpflWRBxQTskZ1b0wQ7gQuXMOcqEg==
+  version "2.0.1000178"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-2.0.1000178.tgz#0d1d6c9f456286458705ad5f568d5a05049e5a7a"
+  integrity sha512-NKR+d0yQYGY8mQ3cyJaCCylcppAz+p2eArPnrcAOxcWUFob+o7zmktsj1abJiaVTb+JIqCnfbj5/7+zZOkbFqQ==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
