@@ -1039,9 +1039,9 @@
     "@folio/plugin-find-user" "^2.0.0"
 
 "@folio/circulation@>=1.3.0":
-  version "2.0.1000477"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-2.0.1000477.tgz#90657e36d0dda178c5a0a441b50dacc5f3281901"
-  integrity sha512-0LqweaE+wyNLg60LhE37gqLfrZfUwItjr8+YvvdlzpWbJSeMUeZZbVHMVoMGdvU2oJlsqHDYYgrmNWsIyKu0DA==
+  version "2.0.1000478"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-2.0.1000478.tgz#215e5b6effa8db908bfacc28b97680b8a37b69ec"
+  integrity sha512-bgmS/S8pOGXMfNmNhJWewyWsm7rOcH/muWuKGAgl1gVXjOPlPcDW52kQiwS8UI6L9UNezJY1s4SWHw1ipr7SkA==
   dependencies:
     html-to-react "^1.3.3"
     lodash "^4.17.4"
@@ -1064,9 +1064,9 @@
     redux-form "^7.0.3"
 
 "@folio/eslint-config-stripes@^5.0.0":
-  version "5.2.100057"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eslint-config-stripes/-/eslint-config-stripes-5.2.100057.tgz#d51ad04ab2325a121ccdca3052b92964fd248331"
-  integrity sha512-ZTFq89Jfb74ljd0y2XbQBdAz1hridO+qVBWoSiLohFiCTUowE4S7x+RlbHv3xJraWZd7jr1Kv+r5lBRQZyJLZw==
+  version "5.2.100059"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eslint-config-stripes/-/eslint-config-stripes-5.2.100059.tgz#0c855ac17ba1358f4abcaae9e6fb65f5fb63547c"
+  integrity sha512-wcg+DHXHuJIL6SUv1dgIStXs7B16nlMNPZktbIdL8FosXnhMsr9HrZr65+7Gsw1RSFM7tKAmzQODWQMhM8ATxw==
   dependencies:
     eslint-config-airbnb "18.0.1"
     eslint-import-resolver-webpack "0.11.1"
@@ -1554,9 +1554,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001093"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001093.tgz#73733242ad553b7f3f7834235ef70fe07662ba5c"
-  integrity sha512-XZcK2z6hRCLsc8/W47xDEdY44dff25n7BnzRJFOGqQXnhgPNuSS3jdNmN4e2rfoI/ZKWgQ2q92NntnOEfH0hfQ==
+  version "3.0.10001095"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001095.tgz#16e5fc8f8b63117303d5b0cf6e9e17e7d3ec9ebd"
+  integrity sha512-31F1cw8y70KV7f5S49XIqSLR1Ajnw6gOMpMkF72guqO34Lod/Vx9TW4N2YXK7LIoJwSAK+Xvmc0oogwCyPQ1tQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     hashcode "^1.0.3"
