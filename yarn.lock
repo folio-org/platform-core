@@ -1189,9 +1189,9 @@
     "@folio/plugin-find-user" "^2.0.0"
 
 "@folio/search@>=1.3.0":
-  version "2.0.1000180"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-2.0.1000180.tgz#4bfc424e9d75d9db6ac48e50bc64bd7fbd8aa759"
-  integrity sha512-zx18VFnbUQCYD961DS3ot0+C6175XMIz/FDOCZNTAIDj16OchhnYOCdOJyj9CTZOfeKSuHB6rleCUhFX8c4gVw==
+  version "2.0.1000181"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-2.0.1000181.tgz#d15a13828ab06163db7af713174d2d8c55cfd905"
+  integrity sha512-P7AOQjht8qEEZg8exIj/nkaosbDx+tzU73yIjh+sLk7OwMbkyCz5gjI6s3L9QMlfJJM9wcLdwIDsq1nVr6YmNw==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
@@ -1207,9 +1207,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.0.0":
-  version "2.0.4000262"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.0.4000262.tgz#d677fa56e286ab82f54a5fda6373f12f24598bec"
-  integrity sha512-Nq5wkYj7NjKmYd09/yd0972owlasrpVzRt4YN9C1zohHtN7nROMbLeIw9SVbNFFydfRFf6Qq48tF7xQIqlwwEw==
+  version "2.0.4000263"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.0.4000263.tgz#ee0e27a87ee30c94a787066fbc6a95cb35d320b9"
+  integrity sha512-l9u2Ju4AwB3vPkv2Xk8fth1HqjJ3IfTeFew7VkkZ4Pe+Xqa6nOceK2TXCRc5ZHDW+LlSiiUUjepfngb75HPNmQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     classnames "^2.2.5"
