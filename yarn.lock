@@ -1189,9 +1189,9 @@
     "@folio/plugin-find-user" "^2.0.0"
 
 "@folio/search@>=1.3.0":
-  version "2.0.1000181"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-2.0.1000181.tgz#d15a13828ab06163db7af713174d2d8c55cfd905"
-  integrity sha512-P7AOQjht8qEEZg8exIj/nkaosbDx+tzU73yIjh+sLk7OwMbkyCz5gjI6s3L9QMlfJJM9wcLdwIDsq1nVr6YmNw==
+  version "2.0.1000183"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-2.0.1000183.tgz#416d7c84abc35e7714156bbf10b794a279bbb9f9"
+  integrity sha512-zoN+DWYxm5XFAGpW3kqCZ/1WBOAnaKVev1F3P1GBFwgr+Hf/OXO6h4QUzfkFys68Uc04u3xEUZHnOUxKZegG4g==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
