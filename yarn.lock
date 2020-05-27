@@ -1175,9 +1175,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^1.0.0":
-  version "1.0.100054"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-1.0.100054.tgz#4ec5623f90e7b14fb90ee49f58edd70282a257c0"
-  integrity sha512-JIWTJ23ejwLT51671HQXd36BNO8cyzLlgKfvQ0x2HECIWstUrDtz/5X2PU9TB7a67ZlCvtHsnnH3hvnj4hx2tg==
+  version "1.0.100056"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-1.0.100056.tgz#0569b51bca6b52e01467ff58448f84828737894d"
+  integrity sha512-FajS1WHI/GhPxSKHC0BrYHuM+qqSP5VmGuYQPH3G4zswm0gnTWIeqVdDtF5b9aTot/bPGheBtwjAjvghr+lRJw==
   dependencies:
     "@folio/stripes-acq-components" "^2.0.0"
     final-form "^4.18.2"
@@ -1497,9 +1497,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~4.0.0":
-  version "4.0.1000730"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-4.0.1000730.tgz#9bd9d16d51d3ac6cbb4077dad41df8f138f2b3a5"
-  integrity sha512-UtstLOMBY6lW4Rx5WuD559LvAfanCjc+1I1WuiIiCGs1bcRkyHqfGomo3BD6A3oU8R3eTej5LL0RfIBkCaO5Vw==
+  version "4.0.1000732"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-4.0.1000732.tgz#a3da21b10d45e8ee69b2ef8e8881a3f1cd0b3093"
+  integrity sha512-YD8XdnRk7fMIJskTHDo+MMVeiEe9EL4dC7NIUCcQ1PP7pA/vWvAD5/TthvH1T0KJn3x8svyCLQ2LjI/ASmN29Q==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@folio/stripes-components" "~7.0.0"
@@ -3823,9 +3823,9 @@ component-inherit@0.0.3:
   integrity sha1-ZF/ErfWLcrZJ1crmUTVhnbJv8UM=
 
 compute-scroll-into-view@^1.0.2:
-  version "1.0.13"
-  resolved "https://repository.folio.org/repository/npm-ci-all/compute-scroll-into-view/-/compute-scroll-into-view-1.0.13.tgz#be1b1663b0e3f56cd5f7713082549f562a3477e2"
-  integrity sha512-o+w9w7A98aAFi/GjK8cxSV+CdASuPa2rR5UWs3+yHkJzWqaKoBEufFNWYaXInCSmUfDCVhesG+v9MTWqOjsxFg==
+  version "1.0.14"
+  resolved "https://repository.folio.org/repository/npm-ci-all/compute-scroll-into-view/-/compute-scroll-into-view-1.0.14.tgz#80e3ebb25d6aa89f42e533956cb4b16a04cfe759"
+  integrity sha512-mKDjINe3tc6hGelUMNDzuhorIUZ7kS7BwyY0r2wQd2HOH2tRuJykiC06iSEX8y1TuhNzvz4GcJnK16mM2J1NMQ==
 
 concat-map@0.0.1:
   version "0.0.1"
