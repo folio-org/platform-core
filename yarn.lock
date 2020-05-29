@@ -1581,9 +1581,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001118"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001118.tgz#a3391ebf5a29a365157b8fc6e1544a6a53e49d48"
-  integrity sha512-F5aG5OYzijU6RnHPoAco3lamPkFU8v61DHsLx1kP8kUIYh8E26GZe/FQDdjNoEJ4TJA57zWxQJGbYQ1kVvHM7w==
+  version "3.0.10001119"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001119.tgz#197941e243b7693ca95837fec1f956cb9ec1e7b0"
+  integrity sha512-PrlN0naM+uzvNocA9Nrnj9isvpsEDhoWF0n8mG67VxNmSZ3v7nYWcH1vE2IEAExbOimeRSN0wzoR47u5Yc4fPg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     hashcode "^1.0.3"
@@ -2019,6 +2019,11 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@types/invariant/-/invariant-2.2.33.tgz#ec5eec29c63bf5e4ca164e9feb3ef7337cdcbadb"
   integrity sha512-/jUNmS8d4bCKdqslfxW6dg/9Gksfzxz67IYfqApHn+HvHlMVXwYv2zpTDnS/yaK9BB0i0GlBTaYci0EFE62Hmw==
 
+"@types/json-schema@^7.0.4":
+  version "7.0.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/json-schema/-/json-schema-7.0.4.tgz#38fd73ddfd9b55abb1e1b2ed578cb55bd7b7d339"
+  integrity sha512-8+KAKzEvSUdeo+kmqnKrqgeE+LcA0tjYWFY7RPProVYwnqDjukzO+3b6dLD56rYX5TdWejnEOLJYOIeh4CXKuA==
+
 "@types/node@*", "@types/node@>=6":
   version "14.0.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-14.0.5.tgz#3d03acd3b3414cf67faf999aed11682ed121f22b"
@@ -2332,7 +2337,7 @@ ajv-keywords@^3.1.0, ajv-keywords@^3.4.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/ajv-keywords/-/ajv-keywords-3.4.1.tgz#ef916e271c64ac12171fd8384eaae6b2345854da"
   integrity sha512-RO1ibKvd27e6FEShVFfPALuHI3WjSVNeK5FIsmme/LYRNxjKuNj+Dt7bucLa6NdSv3JcVTyMlm9kGR84z1XpaQ==
 
-ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.0, ajv@^6.5.5:
+ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.2, ajv@^6.5.5:
   version "6.12.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/ajv/-/ajv-6.12.2.tgz#c629c5eced17baf314437918d2da88c99d5958cd"
   integrity sha512-k+V+hzjm5q/Mr8ef/1Y9goCmlsK4I6Sm74teeyGvFk1XrOsbsKLjEdrvny42CZ+a8sXbk8KWpY/bDwS+FLL2UQ==
@@ -11357,11 +11362,12 @@ schema-utils@^1.0.0:
     ajv-keywords "^3.1.0"
 
 schema-utils@^2.0.0, schema-utils@^2.6.5, schema-utils@^2.6.6:
-  version "2.6.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/schema-utils/-/schema-utils-2.6.6.tgz#299fe6bd4a3365dc23d99fd446caff8f1d6c330c"
-  integrity sha512-wHutF/WPSbIi9x6ctjGGk2Hvl0VOz5l3EKEuKbjPlB30mKZUzb9A5k9yEXRX3pwyqVLPvpfZZEllaFq/M718hA==
+  version "2.7.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/schema-utils/-/schema-utils-2.7.0.tgz#17151f76d8eae67fbbf77960c33c676ad9f4efc7"
+  integrity sha512-0ilKFI6QQF5nxDZLFn2dMjvc4hjg/Wkg7rHd3jK6/A4a1Hl9VFdQWvgB1UMGoU94pad1P/8N7fMcEnLnSiju8A==
   dependencies:
-    ajv "^6.12.0"
+    "@types/json-schema" "^7.0.4"
+    ajv "^6.12.2"
     ajv-keywords "^3.4.1"
 
 semver-diff@^2.0.0:
