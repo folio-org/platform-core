@@ -1114,9 +1114,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "2.0.1000905"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000905.tgz#d0eeedb52f9fb549908c9d211372247f39807985"
-  integrity sha512-J+dOjHx2JT7kkEjdir9jdHkf11sMSPvKxt5C7KlqIWE4oyp2SGWXEOIxuoiAm0eCFCbXnPbTsWaG7ZwrgO6sCg==
+  version "2.0.1000906"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-2.0.1000906.tgz#15c3e191ee75051e3950ee1c2002fd1684a56d51"
+  integrity sha512-0Xo0mt7zhcIB427AS14CrK8wMJOv5Pqop8LM1Q08p3mx+rXzd0nQt2DsR+RHedu6Psx3vxl6WHZWaLAtbg4EIw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
@@ -1175,9 +1175,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^1.0.0":
-  version "1.0.100063"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-1.0.100063.tgz#395781b42f91b244319a6f04d579e34e25ef85bc"
-  integrity sha512-bySuV+M1SS5L7bXe6BAPTNQAxphPpT27+F/sxkCM9WTfs4vrwjz2ncUs9Dz5YwkYpKKwFsFRXOZIdzyu8n2FyA==
+  version "1.0.100064"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-1.0.100064.tgz#a907f2f5b4f007fdd88b3b4a92f39b9c8642d1d2"
+  integrity sha512-+woShWk4emLTMAVV05u10Etn6MVCs/T+QCtmyOBQ17V+4LGD/RPgpdQDdd89fFZLag1/BCgTsRwPzN3qVP1gWA==
   dependencies:
     "@folio/stripes-acq-components" "^2.0.0"
     final-form "^4.18.2"
