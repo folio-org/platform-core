@@ -124,43 +124,45 @@ pipeline {
           }
         }
 
-        stage('Deploy Tenant') {
-          when {
-            changeRequest()
-          }
-          steps {
-            // set up preview environment
-            script {
-              if (fileExists('.pr-custom-deps.json')) {
-                setupPreviewEnv()
-              }
-            }
-
-            // Enable tenant
-            deployTenantK8()
-
-            script { 
-              // Deploy tenant bundle to S3
-              withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',
-                                accessKeyVariable: 'AWS_ACCESS_KEY_ID',
-                                credentialsId: 'jenkins-aws',
-                                secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
-
-                def s3Opts = [ s3Bucket: "${env.folioPlatform}-${env.CHANGE_ID}",
-                               s3Tags: "Key=Pr,Value=${env.folioPlatform}-${env.CHANGE_ID}",
-                               srcPath: "${env.WORKSPACE}/output" ]
-                   
-                def s3Endpoint = s3Upload(s3Opts)
-                env.folioUrl = s3Endpoint + '/index.html'
-              }
-            
-              def githubSummary = "Bundle deployed for tenant,${tenant}," + 
-                                  "to ${env.folioUrl}" 
-              @NonCPS
-              def comment = pullRequest.comment(githubSummary)
-            }
-          }
-        }
+/*
+ *       stage('Deploy Tenant') {
+ *         when {
+ *           changeRequest()
+ *         }
+ *         steps {
+ *           // set up preview environment
+ *           script {
+ *             if (fileExists('.pr-custom-deps.json')) {
+ *               setupPreviewEnv()
+ *             }
+ *           }
+ *
+ *           // Enable tenant
+ *           deployTenantK8()
+ *
+ *           script { 
+ *             // Deploy tenant bundle to S3
+ *             withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',
+ *                               accessKeyVariable: 'AWS_ACCESS_KEY_ID',
+ *                               credentialsId: 'jenkins-aws',
+ *                               secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
+ *
+ *               def s3Opts = [ s3Bucket: "${env.folioPlatform}-${env.CHANGE_ID}",
+ *                              s3Tags: "Key=Pr,Value=${env.folioPlatform}-${env.CHANGE_ID}",
+ *                              srcPath: "${env.WORKSPACE}/output" ]
+ *                  
+ *               def s3Endpoint = s3Upload(s3Opts)
+ *               env.folioUrl = s3Endpoint + '/index.html'
+ *             }
+ *           
+ *             def githubSummary = "Bundle deployed for tenant,${tenant}," + 
+ *                                 "to ${env.folioUrl}" 
+ *             @NonCPS
+ *             def comment = pullRequest.comment(githubSummary)
+ *           }
+ *         }
+ *       }
+ */
 
 /*
  *       stage('Run Integration Tests') {
