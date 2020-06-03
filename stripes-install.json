@@ -1,0 +1,74 @@
+[
+  {
+    "id": "folio_calendar-3.0.100070",
+    "action": "enable"
+  },
+  {
+    "id": "folio_checkin-2.0.1000263",
+    "action": "enable"
+  },
+  {
+    "id": "folio_checkout-3.0.1000414",
+    "action": "enable"
+  },
+  {
+    "id": "folio_circulation-2.0.1000491",
+    "action": "enable"
+  },
+  {
+    "id": "folio_developer-2.0.1000115",
+    "action": "enable"
+  },
+  {
+    "id": "folio_inventory-2.0.1000907",
+    "action": "enable"
+  },
+  {
+    "id": "folio_myprofile-2.0.100088",
+    "action": "enable"
+  },
+  {
+    "id": "folio_plugin-find-instance-2.0.100049",
+    "action": "enable"
+  },
+  {
+    "id": "folio_plugin-find-user-3.0.1000110",
+    "action": "enable"
+  },
+  {
+    "id": "folio_requests-2.0.1000489",
+    "action": "enable"
+  },
+  {
+    "id": "folio_search-2.0.1000186",
+    "action": "enable"
+  },
+  {
+    "id": "folio_servicepoints-2.0.100067",
+    "action": "enable"
+  },
+  {
+    "id": "folio_stripes-core-5.0.1000727",
+    "action": "enable"
+  },
+  {
+    "id": "folio_stripes-smart-components-4.0.1000736",
+    "action": "enable"
+  },
+  {
+    "id": "folio_tags-3.0.100054",
+    "action": "enable"
+  },
+  {
+    "id": "folio_tenant-settings-3.0.1000115",
+    "action": "enable"
+  },
+  {
+    "id": "folio_users-3.0.10001126",
+    "action": "enable"
+  },
+  {
+    "id": "mod-codex-inventory",
+    "action": "enable"
+  }
+]
