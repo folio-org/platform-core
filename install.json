@@ -35,7 +35,7 @@
   "id" : "mod-login-6.2.0",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-5.9.0",
+  "id" : "mod-permissions-5.10.0",
   "action" : "enable"
 }, {
   "id" : "mod-pubsub-1.1.5",
@@ -89,7 +89,7 @@
   "id" : "mod-password-validator-1.6.0",
   "action" : "enable"
 }, {
-  "id" : "mod-authtoken-2.4.0",
+  "id" : "mod-authtoken-2.5.0",
   "action" : "enable"
 }, {
   "id" : "mod-users-bl-5.3.0",
@@ -116,7 +116,7 @@
   "id" : "folio_tenant-settings-3.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_users-3.0.4",
+  "id" : "folio_users-3.0.5",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.6.0",
