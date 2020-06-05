@@ -79,8 +79,8 @@ module.exports.test = (uiTestCtx) => {
             .wait('button[type=submit]')
             .click('button[type=submit]')
             .wait('#list-users[aria-rowcount="2"]')
-            .wait('#list-users a[role="row"][aria-rowindex="2"]')
-            .click('#list-users a[role="row"][aria-rowindex="2"]')
+            .wait('#list-users a[data-row-inner="0"]')
+            .click('#list-users a[data-row-inner="0"]')
             .wait('#clickable-viewcurrentloans')
             .evaluate(() => document.querySelector('#clickable-viewcurrentloans').textContent)
             .then((result) => {
@@ -125,8 +125,8 @@ module.exports.test = (uiTestCtx) => {
             .wait('button[type=submit]')
             .click('button[type=submit]')
             .wait('#list-users[aria-rowcount="2"]')
-            .wait('#list-users a[role="row"][aria-rowindex="2"]')
-            .click('#list-users a[role="row"][aria-rowindex="2"]')
+            .wait('#list-users a[data-row-inner="0"]')
+            .click('#list-users a[data-row-inner="0"]')
             .wait('#clickable-viewcurrentloans')
             .evaluate(() => document.querySelector('#clickable-viewcurrentloans').textContent)
             .then((result) => {
