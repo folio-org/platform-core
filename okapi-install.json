@@ -36,7 +36,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-notify-2.6.0-SNAPSHOT.93",
+    "id": "mod-notify-2.6.0-SNAPSHOT.94",
     "action": "enable"
   },
   {
@@ -44,7 +44,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-permissions-5.10.0-SNAPSHOT.75",
+    "id": "mod-permissions-5.10.1-SNAPSHOT.77",
     "action": "enable"
   },
   {
@@ -52,7 +52,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-14.2.0-SNAPSHOT.240",
+    "id": "mod-inventory-14.2.0-SNAPSHOT.241",
     "action": "enable"
   },
   {
@@ -60,7 +60,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-18.1.0-SNAPSHOT.576",
+    "id": "mod-circulation-18.1.0-SNAPSHOT.578",
     "action": "enable"
   },
   {
@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-authtoken-2.5.0-SNAPSHOT.68",
+    "id": "mod-authtoken-2.6.0-SNAPSHOT.70",
     "action": "enable"
   },
   {
@@ -80,7 +80,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-notes-2.8.1-SNAPSHOT.149",
+    "id": "mod-notes-2.8.1-SNAPSHOT.150",
     "action": "enable"
   },
   {
