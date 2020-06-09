@@ -1578,9 +1578,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001129"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001129.tgz#dd60f9566013fa04673fde2de98189e0304086cf"
-  integrity sha512-01COmmG4kG7ksNqOZl8guEBylcx/aY8o/8oZrKvNbHyNCrW1Vfcer4WDTn/lR5Mj6cgvaI6i3qZDZRireoGy/Q==
+  version "3.0.10001133"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001133.tgz#1ea9f89ad472001974f5ff130126e96708d401fb"
+  integrity sha512-eOqAirAC+6lt9HsCJ67zBD4ziYGjR67AWssTLDKsKebgDJ0dcuHQsquNM/H/k5n2NT9472OGhhiKBA2AnaG5TA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     hashcode "^1.0.3"
