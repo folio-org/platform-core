@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-19.3.0-SNAPSHOT.432",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-3.0.100071",
+  "id" : "folio_calendar-4.0.100072",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-12.1.0-SNAPSHOT.246",
@@ -50,7 +50,7 @@
   "id" : "mod-feesfines-15.8.0-SNAPSHOT.74",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-18.1.0-SNAPSHOT.580",
+  "id" : "mod-circulation-18.1.0-SNAPSHOT.581",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-2.0.1000265",

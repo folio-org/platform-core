@@ -1022,9 +1022,9 @@
     pretender "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "3.0.100071"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-3.0.100071.tgz#2f2711e5caa2f6fe9792b71e7c75c26fd6c2b414"
-  integrity sha512-P4P1yhaITY+sb9oEHTc2gmqDs81kGbSZjUzcvJ+wLteuy1L4AGHVoPhOkpqnEuZqJTXBCfwmwRhw3s971krBkg==
+  version "4.0.100072"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-4.0.100072.tgz#d9dd68aa9899aa8a4eeb8480cc8a04df1efe90c7"
+  integrity sha512-Jd30USmgPNhT+B3VUUFH/+bM4BTxjKk4ThjQUutlCo/ofRpnU+tze55TGwY4/jxTif8+gN4/Zn7KQ/0gRihPJg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
