@@ -2,22 +2,22 @@
   "id" : "mod-calendar-1.9.0-SNAPSHOT.112",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-19.2.0-SNAPSHOT.430",
+  "id" : "mod-inventory-storage-19.3.0-SNAPSHOT.432",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-3.0.100070",
+  "id" : "folio_calendar-4.0.100072",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-11.1.0-SNAPSHOT.243",
+  "id" : "mod-circulation-storage-12.1.0-SNAPSHOT.246",
   "action" : "enable"
 }, {
-  "id" : "mod-users-16.2.1-SNAPSHOT.130",
+  "id" : "mod-users-17.1.0-SNAPSHOT.133",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-1.5.0-SNAPSHOT.38",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.4.0-SNAPSHOT.72",
+  "id" : "mod-configuration-5.4.0",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.9.0-SNAPSHOT.59",
@@ -38,52 +38,58 @@
   "id" : "mod-permissions-5.10.1-SNAPSHOT.77",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-1.2.0-SNAPSHOT.72",
+  "id" : "mod-pubsub-1.3.0-SNAPSHOT.81",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-14.2.0-SNAPSHOT.241",
+  "id" : "mod-source-record-storage-3.3.0-SNAPSHOT.162",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-15.8.0-SNAPSHOT.73",
+  "id" : "mod-inventory-14.2.0-SNAPSHOT.243",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-18.1.0-SNAPSHOT.578",
+  "id" : "mod-feesfines-15.8.0-SNAPSHOT.74",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-2.0.1000263",
+  "id" : "mod-circulation-18.1.0-SNAPSHOT.581",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-3.0.1000414",
+  "id" : "folio_checkin-2.0.1000265",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-2.0.1000491",
+  "id" : "mod-patron-blocks-0.0.1-SNAPSHOT.8",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-2.0.1000115",
+  "id" : "folio_checkout-3.0.1000417",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-2.0.1000907",
+  "id" : "folio_circulation-2.0.1000496",
   "action" : "enable"
 }, {
-  "id" : "folio_myprofile-2.0.100088",
+  "id" : "folio_developer-2.0.1000116",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-2.0.100049",
+  "id" : "folio_inventory-2.0.1000912",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-3.0.1000110",
+  "id" : "folio_myprofile-3.0.100093",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-2.0.1000489",
+  "id" : "folio_plugin-find-instance-3.0.100051",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-mux-2.7.1-SNAPSHOT.92",
+  "id" : "folio_plugin-find-user-3.0.1000112",
+  "action" : "enable"
+}, {
+  "id" : "folio_requests-2.0.1000495",
+  "action" : "enable"
+}, {
+  "id" : "mod-codex-mux-2.8.1-SNAPSHOT.93",
   "action" : "enable"
 }, {
   "id" : "folio_search-2.0.1000186",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-2.0.100067",
+  "id" : "folio_servicepoints-2.0.100069",
   "action" : "enable"
 }, {
   "id" : "mod-password-validator-1.7.0-SNAPSHOT.18",
@@ -95,30 +101,30 @@
   "id" : "mod-users-bl-5.4.0-SNAPSHOT.85",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-5.0.1000727",
+  "id" : "folio_stripes-core-5.0.1000733",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-2.8.1-SNAPSHOT.150",
+  "id" : "mod-notes-2.9.1-SNAPSHOT.151",
   "action" : "enable"
 }, {
-  "id" : "mod-tags-0.6.0-SNAPSHOT.46",
+  "id" : "mod-tags-0.6.1-SNAPSHOT.47",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-4.0.1000737",
+  "id" : "folio_stripes-smart-components-4.1.1000740",
   "action" : "enable"
 }, {
   "id" : "folio_tags-3.0.100054",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-1.4.0-SNAPSHOT.48",
+  "id" : "mod-login-saml-2.1.0-SNAPSHOT.53",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-3.0.1000115",
+  "id" : "folio_tenant-settings-3.0.1000117",
   "action" : "enable"
 }, {
-  "id" : "folio_users-3.0.10001129",
+  "id" : "folio_users-3.0.10001137",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-inventory-1.7.0-SNAPSHOT.78",
+  "id" : "mod-codex-inventory-1.7.0-SNAPSHOT.79",
   "action" : "enable"
 } ]
