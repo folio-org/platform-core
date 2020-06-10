@@ -11,7 +11,7 @@
   "id" : "mod-circulation-storage-11.1.0-SNAPSHOT.243",
   "action" : "enable"
 }, {
-  "id" : "mod-users-17.0.0-SNAPSHOT.132",
+  "id" : "mod-users-17.1.0-SNAPSHOT.133",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-1.5.0-SNAPSHOT.38",
