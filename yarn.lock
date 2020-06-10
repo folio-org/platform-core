@@ -1145,10 +1145,19 @@
     prop-types "^15.6.0"
     redux-form "^7.0.3"
 
-"@folio/plugin-find-instance@>=1.1.0", "@folio/plugin-find-instance@^2.0.0":
-  version "2.0.100049"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-2.0.100049.tgz#09ad3869707af12e96cbd8943cd8f4882a5bbd93"
-  integrity sha512-wf9o0+2fIc5q+xVMdQX7BAtN5muKpOgHhpi8J7rud2wLFyHWkzK3BUKETsJ7L4F7vdglvaAmqOba6c+dJEvX/w==
+"@folio/plugin-find-instance@>=1.1.0":
+  version "3.0.100051"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-3.0.100051.tgz#4a019278e86c5998e4b304dc08b3db0bd86b59d9"
+  integrity sha512-JcTznY8Q9Ps0zQViDrNEBQ2ahFFH6+pLgYEEMAUcTdbj7FCUT9SgtZOt97C2XxBLCNVXktoCO0cT2Cu58H+jrA==
+  dependencies:
+    classnames "^2.2.6"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+
+"@folio/plugin-find-instance@^2.0.0":
+  version "2.0.100050"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-2.0.100050.tgz#a3c245e74df641661c356a6264f7f5d3e789dcf2"
+  integrity sha512-o/uJP7Ct90ufR2nO9fjzYArRBGKIJ1YhXQKO+TONOIZiAQbSQdw8CwAQ1QmKwOj//atFGE/gOap3DZevz0usOw==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
@@ -1235,9 +1244,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.0.0":
-  version "2.0.4000280"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.0.4000280.tgz#b76be33d4293cd50aacd5e07b55917e208edd06f"
-  integrity sha512-CTdw7ixXKxvjOXRboVe/qjOMVpOQ5xOGA3wb4mGWBrmJwaYoqzi7BSBgchp4xfrhmqILeg4ZiSznvq260+j1lA==
+  version "2.0.4000281"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.0.4000281.tgz#0d00b9df36f0cc2fda443f737b8868d515261693"
+  integrity sha512-jJJfUP5m/yITRql9i7WDB+jrTXoST/M2lc9vrQ+o7KxJhYVky5Q8/i3dWiCwWXfQwGo5u15tkJBjZWuUnD0AgQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     classnames "^2.2.5"
