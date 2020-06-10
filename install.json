@@ -8,7 +8,7 @@
   "id" : "folio_calendar-3.0.100070",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-11.1.0-SNAPSHOT.243",
+  "id" : "mod-circulation-storage-12.0.0-SNAPSHOT.245",
   "action" : "enable"
 }, {
   "id" : "mod-users-17.1.0-SNAPSHOT.133",
@@ -53,7 +53,7 @@
   "id" : "mod-circulation-18.1.0-SNAPSHOT.580",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-2.0.1000263",
+  "id" : "folio_checkin-2.0.1000265",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-3.0.1000415",
@@ -122,7 +122,7 @@
   "id" : "folio_tenant-settings-3.0.1000117",
   "action" : "enable"
 }, {
-  "id" : "folio_users-3.0.10001136",
+  "id" : "folio_users-3.0.10001137",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.7.0-SNAPSHOT.79",
