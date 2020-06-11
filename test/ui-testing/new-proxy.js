@@ -65,8 +65,8 @@ module.exports.test = function foo(uiTestCtx) {
           }, selector)
           .then(barcode => {
             nightmare
-              .wait('#list-plugin-find-user [role="row"][aria-rowindex="2"]')
-              .click('#list-plugin-find-user [role="row"][aria-rowindex="2"]')
+              .wait('#list-plugin-find-user [role="row"][aria-rowindex="2"] [role=gridcell]')
+              .click('#list-plugin-find-user [role="row"][aria-rowindex="2"] [role=gridcell]')
               .wait('#clickable-save')
               .click('#clickable-save')
               .wait(() => !document.querySelector('#form-user'))
