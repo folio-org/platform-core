@@ -241,8 +241,8 @@ module.exports.test = (uiTestCtx) => {
             nightmare
               .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a[class^=NavListItem]`)
               .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a[class^=NavListItem]`)
-              .wait('#clickable-edit-item')
-              .click('#clickable-edit-item')
+              .wait('#dropdown-clickable-edit-item')
+              .click('#dropdown-clickable-edit-item')
               .wait('#input_allowed_renewals')
               .type('#input_allowed_renewals', 2)
               .wait('#select_renew_from')
@@ -351,8 +351,8 @@ module.exports.test = (uiTestCtx) => {
             nightmare
               .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a[class^=NavListItem]`)
               .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a[class^=NavListItem]`)
-              .wait('#clickable-edit-item')
-              .click('#clickable-edit-item')
+              .wait('#dropdown-clickable-edit-item')
+              .click('#dropdown-clickable-edit-item')
               .wait('#input_loan_profile')
               .type('#input_loan_profile', 'fi')
               .wait('#input_loansPolicy_fixedDueDateSchedule')
