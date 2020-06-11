@@ -56,7 +56,7 @@
   "id" : "mod-circulation-18.1.0-SNAPSHOT.586",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-2.0.1000265",
+  "id" : "folio_checkin-2.0.1000267",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-3.0.1000417",
