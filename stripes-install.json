@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-2.0.1000912",
+    "id": "folio_inventory-2.0.1000913",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_search-2.0.1000186",
+    "id": "folio_search-3.0.1000187",
     "action": "enable"
   },
   {
@@ -48,11 +48,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-5.0.1000733",
+    "id": "folio_stripes-core-5.0.1000735",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-4.1.1000740",
+    "id": "folio_stripes-smart-components-4.1.1000741",
     "action": "enable"
   },
   {
@@ -60,11 +60,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-3.0.1000117",
+    "id": "folio_tenant-settings-4.0.1000118",
     "action": "enable"
   },
   {
-    "id": "folio_users-3.0.10001139",
+    "id": "folio_users-3.0.10001141",
     "action": "enable"
   },
   {
