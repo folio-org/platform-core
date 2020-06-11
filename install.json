@@ -1,5 +1,5 @@
 [ {
-  "id" : "mod-calendar-1.9.0-SNAPSHOT.112",
+  "id" : "mod-calendar-1.10.0-SNAPSHOT.113",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-storage-19.3.0-SNAPSHOT.432",
@@ -29,7 +29,7 @@
   "id" : "mod-sender-1.3.0-SNAPSHOT.20",
   "action" : "enable"
 }, {
-  "id" : "mod-notify-2.6.0-SNAPSHOT.94",
+  "id" : "mod-notify-2.6.0-SNAPSHOT.95",
   "action" : "enable"
 }, {
   "id" : "mod-login-6.3.0-SNAPSHOT.76",
@@ -44,13 +44,13 @@
   "id" : "mod-source-record-storage-3.3.0-SNAPSHOT.162",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-14.2.0-SNAPSHOT.243",
+  "id" : "mod-inventory-15.0.0-SNAPSHOT.244",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.8.0-SNAPSHOT.74",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-0.0.1-SNAPSHOT.8",
+  "id" : "mod-patron-blocks-0.0.1-SNAPSHOT.9",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-18.1.0-SNAPSHOT.586",
@@ -86,7 +86,7 @@
   "id" : "mod-codex-mux-2.8.1-SNAPSHOT.93",
   "action" : "enable"
 }, {
-  "id" : "folio_search-2.0.1000186",
+  "id" : "folio_search-3.0.1000187",
   "action" : "enable"
 }, {
   "id" : "folio_servicepoints-3.0.100070",
@@ -110,7 +110,7 @@
   "id" : "mod-tags-0.6.1-SNAPSHOT.47",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-4.1.1000740",
+  "id" : "folio_stripes-smart-components-4.1.1000741",
   "action" : "enable"
 }, {
   "id" : "folio_tags-3.0.100055",
