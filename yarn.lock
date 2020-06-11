@@ -1356,9 +1356,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0", "@folio/stripes-core@~5.0.0", "@folio/stripes-core@~5.0.1":
-  version "5.0.1000733"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-5.0.1000733.tgz#b0d9b7bfac43720bdd529d6fed716d91c0b6df2e"
-  integrity sha512-4Ik2GJlUSxtwjilAGX7UfVq1TUzohfunakXuUFtPj/7bLueH50CI1L4j+ePUTxHGT0sDKnD+gH6QW/EFfMc48Q==
+  version "5.0.1000735"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-5.0.1000735.tgz#5e2ff01a063ed4063f284f55c0f5282aa33957e9"
+  integrity sha512-zc0hIFtNj+tnMemarSf2YFj8LZoB/onmisZHW34jow+KLpDKZ2VYK5PQC/zbV2z8emY5DmY5NOI3b8aF6I9ntw==
   dependencies:
     "@babel/core" "^7.8.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
@@ -1587,9 +1587,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001139"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001139.tgz#133e213c7f576846cfe371359d6034f32db8d01b"
-  integrity sha512-sjzjB3tLYRbxhEIyRMl4FFuUHgiZgV7JasFQ4lVs/Gp6SpP/iv8Z6EJsBFQLNL6ZAE4prLQTuIIVFGziyVdang==
+  version "3.0.10001141"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001141.tgz#1f681816fb6f105a496f2b2e87e86edb3e0d9946"
+  integrity sha512-NEJFq+GQbDokRDKgOOpBSXK45Wcvj44F6zWMVabJ4L5pnkS0R0lXFC6pdVn6SSK7tAI6+1tzq5/9iYlCpQffmQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     hashcode "^1.0.3"
