@@ -13,7 +13,7 @@ module.exports.test = (uiTestCtx) => {
           .insert(config.select.password, 'invalid password')
           .wait('#clickable-login')
           .click('#clickable-login')
-          .wait('div[class^="AuthErrorsContainer"]') // failure
+          .wait('div[class^="authErrorsWrapper"]') // failure
           .end()
           .then(done)
           .catch(done);
