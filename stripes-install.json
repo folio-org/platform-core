@@ -16,7 +16,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_developer-3.0.1000117",
+    "id": "folio_developer-3.0.1000118",
     "action": "enable"
   },
   {
@@ -48,11 +48,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-5.0.1000735",
+    "id": "folio_stripes-core-5.0.2000736",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-4.1.1000742",
+    "id": "folio_stripes-smart-components-4.1.1000743",
     "action": "enable"
   },
   {
