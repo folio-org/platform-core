@@ -50,10 +50,10 @@
   "id" : "mod-feesfines-15.9.0-SNAPSHOT.76",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-0.1.0-SNAPSHOT.12",
+  "id" : "mod-patron-blocks-1.0.0",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.0.0",
+  "id" : "mod-circulation-19.1.0-SNAPSHOT.590",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-3.0.1000268",
@@ -125,6 +125,6 @@
   "id" : "folio_users-3.0.10001141",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-inventory-1.7.0-SNAPSHOT.79",
+  "id" : "mod-codex-inventory-1.8.0-SNAPSHOT.80",
   "action" : "enable"
 } ]
