@@ -65,7 +65,7 @@
   "id" : "folio_circulation-3.0.1000497",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-3.0.1000119",
+  "id" : "folio_developer-3.0.1000120",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-2.0.1000914",
@@ -80,7 +80,7 @@
   "id" : "folio_plugin-find-user-3.0.1000112",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-2.0.1000495",
+  "id" : "folio_requests-2.0.1000496",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.8.1-SNAPSHOT.93",
