@@ -8,7 +8,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkout-3.0.1000421",
+    "id": "folio_checkout-4.0.1000422",
     "action": "enable"
   },
   {
@@ -16,7 +16,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_developer-3.0.1000121",
+    "id": "folio_developer-3.0.1000122",
     "action": "enable"
   },
   {
@@ -60,11 +60,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-4.0.1000118",
+    "id": "folio_tenant-settings-4.0.1000119",
     "action": "enable"
   },
   {
-    "id": "folio_users-3.0.10001144",
+    "id": "folio_users-3.0.10001145",
     "action": "enable"
   },
   {
