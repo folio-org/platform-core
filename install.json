@@ -59,16 +59,16 @@
   "id" : "folio_checkin-3.0.1000269",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-3.0.1000420",
+  "id" : "folio_checkout-3.0.1000421",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-3.0.1000497",
+  "id" : "folio_circulation-3.0.1000498",
   "action" : "enable"
 }, {
   "id" : "folio_developer-3.0.1000121",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-2.0.1000917",
+  "id" : "folio_inventory-2.0.1000919",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-3.0.100093",
@@ -80,13 +80,13 @@
   "id" : "folio_plugin-find-user-3.0.1000113",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-2.0.1000497",
+  "id" : "folio_requests-3.0.1000500",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.8.1-SNAPSHOT.93",
   "action" : "enable"
 }, {
-  "id" : "folio_search-3.0.1000188",
+  "id" : "folio_search-3.0.1000189",
   "action" : "enable"
 }, {
   "id" : "folio_servicepoints-3.0.100070",
