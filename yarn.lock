@@ -1268,9 +1268,9 @@
     redux-form "^7.4.2"
 
 "@folio/stripes-cli@^1.15.0":
-  version "1.16.1000220"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.16.1000220.tgz#4e9545f5604887065c177d9aa911e7cef9c8ef3e"
-  integrity sha512-DtbjMJ+3XrsBQeNZoSpvzx5FbFT9aaZz5FHrRvZNHMVEgKKoVTCRFZVtpghto9BCeIJyO8SZsx0DYsP3DdxoYg==
+  version "1.16.1000221"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.16.1000221.tgz#77314add4378fb91d88f64c4a3bc7c33cb96eb52"
+  integrity sha512-JYn456KdMsvIskG/cz2U2XtNCp5PGg85M06cXpGgUI18GanZ/Uc3pzWYl7Kzv0QFc2Y/EeGANE8uyqQx0V9h/Q==
   dependencies:
     "@folio/stripes-core" "^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0"
     "@folio/stripes-testing" "^2.0.0"
@@ -1511,9 +1511,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~4.1.0":
-  version "4.1.1000752"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-4.1.1000752.tgz#84515a4650c452887e8aa8d8b868c559d13f545b"
-  integrity sha512-fnFZGYdHG6t4EkhTpIgdzy+iZHIKjuJZGD1ZIbIVeG3joH5fMl/LdmeJmz0dztNZoaUZhVjCdvN/43oUQ1zt9A==
+  version "4.1.1000753"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-4.1.1000753.tgz#29e890251a65bbfb91e208ace49e994fdd0e3042"
+  integrity sha512-/2LBaCu/NshkukoZF9PzIipZVYMKracQFEivaYe+NXI7LpTi0p5HuMMTL+iwAQK9GWVZVqPgZFq750fsRNKJqQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@folio/stripes-components" "~7.0.0"
