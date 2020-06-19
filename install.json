@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-3.3.0-SNAPSHOT.162",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-15.1.0-SNAPSHOT.247",
+  "id" : "mod-inventory-15.1.0-SNAPSHOT.249",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.9.0-SNAPSHOT.76",
@@ -80,7 +80,7 @@
   "id" : "folio_plugin-find-user-3.0.1000113",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-3.0.1000500",
+  "id" : "folio_requests-3.0.1000501",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.8.1-SNAPSHOT.93",
