@@ -1057,9 +1057,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "4.0.1000423"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-4.0.1000423.tgz#fa6b7ea560aa1f027e5fb4fadfa93a9b053e2893"
-  integrity sha512-JiL/7gkLHKaPnVS0AoDK9Q3steLa8I5Q2fvMS17wu8ED6Wo8e4b4EpHHvtf2w2KcQi6+RVO4mTx7Ze/XHils0g==
+  version "4.0.1000427"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-4.0.1000427.tgz#47a90d5b10e6ab0556d0c5c8a2d25f38ca614025"
+  integrity sha512-ulHHPw8PZPNZ2XgwOrYdBlaCH3XeVeOTFFK0+17rzXIXhOXGFggFXZdhEAVPcXR4BhBcrqNhoZJoEefUC1TCOA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.19.1"
@@ -1071,7 +1071,7 @@
     react-final-form "^6.4.0"
     react-hot-loader "^4.3.12"
   optionalDependencies:
-    "@folio/plugin-find-user" "^2.0.0"
+    "@folio/plugin-find-user" "^3.0.0"
 
 "@folio/circulation@>=1.3.0":
   version "3.0.1000501"
