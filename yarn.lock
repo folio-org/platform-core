@@ -1511,9 +1511,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~4.1.0":
-  version "4.1.1000757"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-4.1.1000757.tgz#fb5df317b3ace0d423102c919df3c71b431926b9"
-  integrity sha512-UO+iwrljHFpW72/dgdetkIEH6q30BgRMJgLya1ghKmGFHXVKiYBj+SllIVBATo1gInPKMy7tp8zSQ0C4o1NRdQ==
+  version "4.1.1000761"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-4.1.1000761.tgz#902adcb29e810a7a4213cf89aec2e3e1402416ea"
+  integrity sha512-krSw3FyZnsD5S4FRkKVZHObDvo/HvkJJz9pVSJyoDk3EblsQ3mS8LidWvyw1pyNZVTW7JOQIbod7cMfY2QG0jw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@folio/stripes-components" "~7.0.0"
@@ -2215,9 +2215,9 @@
     parchment "^1.1.2"
 
 "@types/react@*", "@types/react@^16.9.11":
-  version "16.9.39"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.39.tgz#d400fd57cef4cdd6c3a6286506e230e0b2995bba"
-  integrity sha512-kpdbGez6hqN9Ihcoi6flShP+ka9XxSBPes1UOBPLmbH6oRiBLkrh2VrtWosTy/l5LKGYSGoWf2WPFRCU4gdRmg==
+  version "16.9.40"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.40.tgz#10d53b61bb364af0f04eecfa9da31e9962844ee9"
+  integrity sha512-OCkF5au6H5tn7JCMq7fuutYeawzFezrpHaRvI+Zq+n386lkU0fGrQMAB5YP/WzBiQa8tAe1IXA61+lYCqLfMZg==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
