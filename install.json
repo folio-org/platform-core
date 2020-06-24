@@ -41,10 +41,10 @@
   "id" : "mod-pubsub-1.3.0-SNAPSHOT.88",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-3.3.0-SNAPSHOT.164",
+  "id" : "mod-source-record-storage-4.0.0-SNAPSHOT.169",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-15.1.0-SNAPSHOT.249",
+  "id" : "mod-inventory-15.1.0-SNAPSHOT.250",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.9.0-SNAPSHOT.76",
@@ -59,7 +59,7 @@
   "id" : "folio_checkin-3.0.1000271",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-4.0.1000427",
+  "id" : "folio_checkout-4.0.1000428",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-3.0.1000505",
@@ -77,7 +77,7 @@
   "id" : "folio_plugin-find-instance-3.0.100052",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-3.0.1000113",
+  "id" : "folio_plugin-find-user-3.0.1000115",
   "action" : "enable"
 }, {
   "id" : "folio_requests-3.0.1000504",
@@ -110,7 +110,7 @@
   "id" : "mod-tags-0.6.1-SNAPSHOT.47",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-4.1.1000761",
+  "id" : "folio_stripes-smart-components-4.1.1000763",
   "action" : "enable"
 }, {
   "id" : "folio_tags-3.0.100055",
