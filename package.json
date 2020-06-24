@@ -70,6 +70,7 @@
     "eslint": "^6.2.1"
   },
   "resolutions": {
+    "minimist": "^1.2.3",
     "moment": "~2.25.3"
   }
 }
