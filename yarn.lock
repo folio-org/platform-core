@@ -1542,9 +1542,9 @@
     redux-form "^7.0.3"
 
 "@folio/stripes-testing@^2.0.0":
-  version "2.0.100071"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-2.0.100071.tgz#34bb3062b1c45dfde80928a694b89a1579cd2d9a"
-  integrity sha512-596OGjD7TvcKem0s/f+NtBtVOhRSgLaYYSfYD6egeqsxmxaJaSkSW6aajYKnSIc2VOKM82a2xewqO52GQslVfg==
+  version "2.0.100072"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-2.0.100072.tgz#5f845e7fb0e252a9d42d3486a78bc3e829991f6b"
+  integrity sha512-Tr7XW9A5qAP7n9f/lhAI083F2nJCNAaCBIipZ47gSju+U4fCPdsoSHeQu0uigeNL1NMc4Xx/G0kdQ33i83RL6w==
   dependencies:
     debug "^4.0.1"
     minimist "^1.2.0"
