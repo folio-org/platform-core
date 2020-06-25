@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-4.1.0-SNAPSHOT.174",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.0.0",
+  "id" : "mod-inventory-16.1.0-SNAPSHOT.255",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.9.0-SNAPSHOT.76",
@@ -62,7 +62,7 @@
   "id" : "folio_checkout-4.0.1000430",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-3.0.1000510",
+  "id" : "folio_circulation-3.0.1000512",
   "action" : "enable"
 }, {
   "id" : "folio_developer-3.1.1000126",
