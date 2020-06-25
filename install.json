@@ -80,7 +80,7 @@
   "id" : "folio_plugin-find-user-3.0.1000115",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-3.0.1000506",
+  "id" : "folio_requests-3.0.1000509",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.8.1-SNAPSHOT.93",
@@ -95,7 +95,7 @@
   "id" : "mod-password-validator-1.8.0-SNAPSHOT.20",
   "action" : "enable"
 }, {
-  "id" : "mod-authtoken-2.6.0-SNAPSHOT.72",
+  "id" : "mod-authtoken-2.6.0-SNAPSHOT.73",
   "action" : "enable"
 }, {
   "id" : "mod-users-bl-6.1.0-SNAPSHOT.88",
