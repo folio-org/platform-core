@@ -4,11 +4,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkin-3.0.1000273",
+    "id": "folio_checkin-3.0.1000274",
     "action": "enable"
   },
   {
-    "id": "folio_checkout-4.0.1000430",
+    "id": "folio_checkout-4.0.1000432",
     "action": "enable"
   },
   {
@@ -52,7 +52,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-4.1.1000768",
+    "id": "folio_stripes-smart-components-4.1.1000769",
     "action": "enable"
   },
   {

@@ -1039,9 +1039,9 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "3.0.1000273"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-3.0.1000273.tgz#31e8bf370bc94755a52f82eec7b8cd33f9d772ba"
-  integrity sha512-FntNrx/7vA+KYO5YdG8FlMcwWGrqoY+Bcd32/Q6V6x9zgkwGcBGCrAvxlAZ5JAYdkoirbGnTrkbuVeve9ZcBxg==
+  version "3.0.1000274"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-3.0.1000274.tgz#fda57ed96201a2c00833eb268d1ad003c94721f0"
+  integrity sha512-h6flU3G1r/lL1KUAUPoLy5qRXP/HILNoMpYxLfEhw3lVvuyfBULBJGMhhotADun9EgAWa7bFb0B/nsBjD4Zg5Q==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
@@ -1057,9 +1057,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "4.0.1000430"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-4.0.1000430.tgz#17acbb4c899f6c995d9a6ea2e6a6d54c9be22196"
-  integrity sha512-WkvBvVIclcenyDP874HuiccsQsfFzX47V0HQRSSGrNJh4VPEfgCiIzKEJsPnP9WVUzvv6zg0xUJdhpmgzSnOLQ==
+  version "4.0.1000432"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-4.0.1000432.tgz#098c29153553177c49a4600bfe207e1a83ab235e"
+  integrity sha512-Fteh0n/QBsJbrWQOf3VhQuQD9/05NCVTujnMJAlJk8n33cC/TOe8nzjlmRll/8dqjSZafpAB1Yl1oCF+pi9lSg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.19.1"
@@ -1492,9 +1492,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~4.1.0":
-  version "4.1.1000768"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-4.1.1000768.tgz#c057448e8aacbb436a2ccf2ff19d50c3a2bd3e76"
-  integrity sha512-PmIIdlbl8ssH64bnodq/HV8nmUIkWWbwBoQ5N3PIB745ZsKxCRfGowTX8MwpfEmT/4GrSmIIHbufIUJfhfhQyw==
+  version "4.1.1000769"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-4.1.1000769.tgz#260966d9289fbdc6d05c1885e0808486ae517525"
+  integrity sha512-IfAQB0fwoQ1jbsXm8krWVUxtVk6t+LcRl6JFJshv+uCpi4ylZe8VSgX1Y2w7hqZ2X7Rl+wKWiEbPGM6Ag8OOSw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@folio/stripes-components" "~7.0.0"
@@ -3359,12 +3359,12 @@ browserify-zlib@^0.2.0:
     pako "~1.0.5"
 
 browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.8.5:
-  version "4.12.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/browserslist/-/browserslist-4.12.1.tgz#6d08bef149b70d153930780ba762644e0f329122"
-  integrity sha512-WMjXwFtPskSW1pQUDJRxvRKRkeCr7usN0O/Za76N+F4oadaTdQHotSGcX9jT/Hs7mSKPkyMFNvqawB/1HzYDKQ==
+  version "4.12.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/browserslist/-/browserslist-4.12.2.tgz#76653d7e4c57caa8a1a28513e2f4e197dc11a711"
+  integrity sha512-MfZaeYqR8StRZdstAK9hCKDd2StvePCYp5rHzQCPicUjfFliDgmuaBNPHYUTpAywBN8+Wc/d7NYVFkO0aqaBUw==
   dependencies:
     caniuse-lite "^1.0.30001088"
-    electron-to-chromium "^1.3.481"
+    electron-to-chromium "^1.3.483"
     escalade "^3.0.1"
     node-releases "^1.1.58"
 
@@ -4960,7 +4960,7 @@ electron-download@^3.0.1:
     semver "^5.3.0"
     sumchecker "^1.2.0"
 
-electron-to-chromium@^1.3.481:
+electron-to-chromium@^1.3.483:
   version "1.3.483"
   resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.483.tgz#9269e7cfc1c8e72709824da171cbe47ca5e3ca9e"
   integrity sha512-+05RF8S9rk8S0G8eBCqBRBaRq7+UN3lDs2DAvnG8SBSgQO3hjy0+qt4CmRk5eiuGbTcaicgXfPmBi31a+BD3lg==
