@@ -28,7 +28,8 @@ module.exports.test = (uiTestCtx) => {
     const policyName = `test-policy-${Math.floor(Math.random() * 10000)}`;
     const scheduleName = `test-schedule-${Math.floor(Math.random() * 10000)}`;
     const noticePolicyName = `test-notice-policy-${Math.floor(Math.random() * 10000)}`;
-    const requestPolicyName = `test-request-policy-${Math.floor(Math.random() * 10000)}`;
+    // const requestPolicyName = `test-request-policy-${Math.floor(Math.random() * 10000)}`;
+    const requestPolicyName = 'allow-all';
     const overdueFinePolicyName = `test-overdue-fine-policy-${Math.floor(Math.random() * 10000)}`;
     const lostItemFeePolicyName = `test-lost-item-fee-policy-${Math.floor(Math.random() * 10000)}`;
 
@@ -83,9 +84,9 @@ module.exports.test = (uiTestCtx) => {
         helpers.addLoanPolicy(nightmare, policyName, loanPeriod, renewalLimit);
       });
 
-      describe('addRequestPolicy', function foo() {
-        helpers.addRequestPolicy(nightmare, requestPolicyName);
-      });
+      // describe('addRequestPolicy', function foo() {
+      //   helpers.addRequestPolicy(nightmare, requestPolicyName);
+      // });
 
       describe('it should configure circulation rules', function foo() {
         it('set new rules circulation rules', (done) => {
@@ -454,9 +455,9 @@ module.exports.test = (uiTestCtx) => {
         helpers.removeLoanPolicy(nightmare, policyName);
       });
 
-      describe('remove request policy', () => {
-        helpers.removeRequestPolicy(nightmare, requestPolicyName);
-      });
+      // describe('remove request policy', () => {
+      //   helpers.removeRequestPolicy(nightmare, requestPolicyName);
+      // });
 
       describe('Delete fixed due date schedule', () => {
         it('should delete the fixed due date schedule', (done) => {
