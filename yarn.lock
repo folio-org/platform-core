@@ -1161,9 +1161,9 @@
     sinon "^9.0.2"
 
 "@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@^3.0.0":
-  version "3.0.1000115"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-3.0.1000115.tgz#c88241b111be35279e52c2b42c8e3406e7ee4d40"
-  integrity sha512-0Z/SiddeyR0bclDhZPFq7Ppztj97wDVmMBpgOOO92DKFfCdWKjpMvygdrjJzST7K7Cfg/Aju3vtliyHHQIddwA==
+  version "3.0.1000117"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-3.0.1000117.tgz#bd74ab049b188927241200cb59c68a98017a90c4"
+  integrity sha512-IupVjilsYMEO2KpJCXvoN6oJmcTqr5Ge9ZCNzrMAfu1eM75arLTAggSeirL4nwP+cLIhr8ekpRYGKKlMYiXhqA==
   dependencies:
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
@@ -1193,9 +1193,9 @@
   integrity sha512-/GuF+C55OyWDJ66GO43K43F2Llm/mkRhST/ccJJMARCOwzx4STwF19YP5enlIJSbiNepjdh+5ZbHymKJZuuGKQ==
 
 "@folio/requests@>=1.4.1":
-  version "3.0.1000511"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-3.0.1000511.tgz#e62cd5a241e1816cb51b00c7105b6717a4faa086"
-  integrity sha512-NG1tzvENXH0S62W+uNW3JXjVwNmXD0q7m35QV7WLIyXSk6ePNZkhOKEkbMKGOsLOJEv+oKlR/F/vN/tdlyEoAg==
+  version "3.0.1000514"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-3.0.1000514.tgz#3ea4989e6e7d9474db0c2bd24679c554962c06ec"
+  integrity sha512-oMYQlw9Xp0u1+dF5DFHGu9EirMetjHJsWxx2z4d9dYvg611C4E4TNEOif7RWG37iNV1PQpBjp7gH0B6pGgNHjA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     html-to-react "^1.3.3"
@@ -13192,9 +13192,9 @@ webpack@^4.10.2, webpack@^4.41.2:
     webpack-sources "^1.4.1"
 
 whatwg-fetch@>=0.10.0:
-  version "3.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
-  integrity sha512-9GSJUgz1D4MfyKU7KRqwOjXCXTqWdFNvEr7eUBYchQiVc744mqK/MzXPNR2WsPkmkOa4ywfg8C2n8h+13Bey1Q==
+  version "3.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/whatwg-fetch/-/whatwg-fetch-3.1.0.tgz#49d630cdfa308dba7f2819d49d09364f540dbcc6"
+  integrity sha512-pgmbsVWKpH9GxLXZmtdowDIqtb/rvPyjjQv3z9wLcmgWKFHilKnZD3ldgrOlwJoPGOUluQsRPWd52yVkPfmI1A==
 
 which-module@^2.0.0:
   version "2.0.0"
