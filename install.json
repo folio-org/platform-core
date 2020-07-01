@@ -8,7 +8,7 @@
   "id" : "folio_calendar-4.0.100072",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-12.1.0-SNAPSHOT.246",
+  "id" : "mod-circulation-storage-12.1.0-SNAPSHOT.247",
   "action" : "enable"
 }, {
   "id" : "mod-users-17.1.0-SNAPSHOT.136",
@@ -59,7 +59,7 @@
   "id" : "folio_checkin-3.0.1000274",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-4.0.1000432",
+  "id" : "folio_checkout-4.0.1000433",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-3.0.1000517",
