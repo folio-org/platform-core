@@ -62,7 +62,7 @@
   "id" : "folio_checkout-4.0.1000435",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-3.0.1000517",
+  "id" : "folio_circulation-3.0.1000519",
   "action" : "enable"
 }, {
   "id" : "folio_developer-3.1.1000126",
@@ -122,7 +122,7 @@
   "id" : "folio_tenant-settings-4.0.1000122",
   "action" : "enable"
 }, {
-  "id" : "folio_users-3.0.10001173",
+  "id" : "folio_users-3.0.10001174",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.8.0-SNAPSHOT.80",
