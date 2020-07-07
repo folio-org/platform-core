@@ -1,13 +1,13 @@
 {
   "name": "@folio/platform-core",
-  "version": "4.4.0",
+  "version": "4.5.0",
   "license": "Apache-2.0",
   "repository": "folio-org/platform-core",
   "publishConfig": {
     "registry": "https://repository.folio.org/repository/npm-folio/"
   },
   "scripts": {
-    "build": "export NODE_OPTIONS=\"--max-old-space-size=2048 $NODE_OPTIONS\"; stripes build stripes.config.js",
+    "build": "export NODE_OPTIONS=\"--max-old-space-size=4096 $NODE_OPTIONS\"; stripes build stripes.config.js",
     "stripes": "stripes",
     "start": "stripes serve stripes.config.js",
     "build-module-descriptors": "stripes mod descriptor stripes.config.js --output ./ModuleDescriptors",
@@ -18,25 +18,26 @@
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
-    "@folio/calendar": "3.0.0",
-    "@folio/checkin": "2.0.1",
-    "@folio/checkout": "3.0.2",
-    "@folio/circulation": "2.0.0",
-    "@folio/developer": "2.0.0",
-    "@folio/inventory": "2.0.2",
-    "@folio/myprofile": "2.0.0",
-    "@folio/plugin-find-instance": "2.0.0",
-    "@folio/plugin-find-user": "2.0.1",
-    "@folio/requests": "2.0.3",
-    "@folio/search": "2.0.0",
-    "@folio/servicepoints": "2.0.0",
-    "@folio/stripes": "3.1.2",
-    "@folio/tags": "2.0.0",
-    "@folio/tenant-settings": "3.0.0",
-    "@folio/users": "3.0.5",
-    "react": "~16.12.0",
-    "react-dom": "~16.12.0",
-    "react-intl": "^2.9.0",
+    "@folio/calendar": "4.0.0",
+    "@folio/checkin": "3.0.1",
+    "@folio/checkout": "4.0.1",
+    "@folio/circulation": "3.0.1",
+    "@folio/developer": "3.0.0",
+    "@folio/inventory": "4.0.1",
+    "@folio/myprofile": "3.0.0",
+    "@folio/plugin-find-instance": "3.0.0",
+    "@folio/plugin-find-user": "3.0.1",
+    "@folio/requests": "3.0.1",
+    "@folio/search": "3.0.0",
+    "@folio/servicepoints": "3.0.0",
+    "@folio/stripes": "4.1.1",
+    "@folio/tags": "3.0.0",
+    "@folio/tenant-settings": "4.0.0",
+    "@folio/users": "4.0.1",
+    "moment": "~2.25.3",
+    "react": "~16.13.1",
+    "react-dom": "~16.13.1",
+    "react-intl": "^4.5.3",
     "react-redux": "^5.1.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
@@ -44,9 +45,14 @@
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^5.0.0",
-    "@folio/stripes-cli": "^1.10.0",
+    "@folio/stripes-cli": "^1.16.0",
     "eslint": "^6.2.1",
-    "moment": "^2.22.2"
+    "lodash": "^4.17.5"
   },
-  "resolutions": {}
+  "resolutions": {
+    "react-hot-loader": "4.8.8",
+    "rxjs": "^5.4.3",
+    "minimist": "^1.2.3",
+    "moment": "2.25.3"
+  }
 }
