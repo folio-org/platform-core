@@ -1,5 +1,5 @@
 [ {
-  "id" : "mod-calendar-1.10.0-SNAPSHOT.113",
+  "id" : "mod-calendar-1.10.0-SNAPSHOT.114",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-storage-19.3.0-SNAPSHOT.446",
@@ -53,7 +53,7 @@
   "id" : "mod-patron-blocks-1.1.0-SNAPSHOT.21",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.1.0-SNAPSHOT.608",
+  "id" : "mod-circulation-19.1.0-SNAPSHOT.610",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-3.0.1000276",
@@ -122,7 +122,7 @@
   "id" : "folio_tenant-settings-4.0.1000122",
   "action" : "enable"
 }, {
-  "id" : "folio_users-3.0.10001180",
+  "id" : "folio_users-3.0.10001181",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.8.0-SNAPSHOT.80",
