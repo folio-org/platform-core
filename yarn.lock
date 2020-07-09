@@ -1247,9 +1247,9 @@
     redux-form "^7.4.2"
 
 "@folio/stripes-cli@^1.18.0":
-  version "1.18.1000226"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.18.1000226.tgz#3f8479966adc6703ec2c27f8ec9c10ce4a5f8004"
-  integrity sha512-dSn164AIuqJAEv+oNg9Gafklpt4GZ+osDc/zZlSEwqAqPXilFSEoLibpjECfTTYRQ7JOmhcKfuJyWa+32dJJJA==
+  version "1.18.1000227"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.18.1000227.tgz#888bffb2b09c3ff32c648e36abe43a25224bce5a"
+  integrity sha512-Fnlw07PfsDuivNdjvcG/OnOKHnyIV2xme/o7NO8QIY9Jh4lWWr27KS6gDCU1RfxIuheBnFGssXnlLD9XQ6iE+Q==
   dependencies:
     "@folio/stripes-core" "^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0"
     "@folio/stripes-testing" "^2.0.0"
@@ -1490,9 +1490,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~5.0.0":
-  version "5.0.1000780"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.0.1000780.tgz#d176dfdb6e90886098bb1d97bb3ba04df6a5f1af"
-  integrity sha512-f3iQuQxmpHs1g18E3OlTwvY73iueBa8oSDa0voX0XiQz1taCsh6lZb6NW53LMfIOMLkOVcg5DBGtkM50VW0KWA==
+  version "5.0.1000781"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.0.1000781.tgz#fd5e822665c333af38dfacc3d25ffe435c6583c8"
+  integrity sha512-7t0LJgwiSXBV0xi6s5NYmdUUfkstGH+BEke8IkMH4rh8LjB2UG9yK/igbo4xDdDS5cxj9UOc+e/I4LiaRKYJUQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@folio/stripes-components" "~8.0.0"
@@ -1587,9 +1587,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "3.0.10001182"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001182.tgz#4838db9532bdb75b8737feac69971d0f12e629b3"
-  integrity sha512-3a5jp7sesi4S81dlUcjzbpDX13QmLXnGA9zSTr3GlQdAMgSy3FoMkGGeY1NE5hhO0NHoIJWy/RZVEVeUNIrp3w==
+  version "3.0.10001183"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001183.tgz#ed6b3d30214f736c4ea44957fd8a349fe4d20da1"
+  integrity sha512-jTLcSVYR02cBVVRF5VTofTsJ6SM/PAoQc+8kzY1K15q+DlXZ9eZEyf3QoRixjzGsWX20q7VBYGUy/H+EnijeVQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     hashcode "^1.0.3"
