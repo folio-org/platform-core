@@ -1,6 +1,6 @@
 [
   {
-    "id": "mod-calendar-1.9.0",
+    "id": "mod-calendar-1.9.1",
     "action": "enable"
   },
   {
@@ -48,11 +48,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-pubsub-1.2.3",
+    "id": "mod-pubsub-1.2.4",
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-4.0.1",
+    "id": "mod-source-record-storage-4.0.2",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-19.0.6",
+    "id": "mod-circulation-19.0.8",
     "action": "enable"
   },
   {
