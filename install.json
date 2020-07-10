@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-4.0.2",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.0.0",
+  "id" : "mod-inventory-16.0.1",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.8.0",
@@ -68,7 +68,7 @@
   "id" : "folio_developer-3.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-4.0.2",
+  "id" : "folio_inventory-4.0.3",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-3.0.0",
@@ -80,7 +80,7 @@
   "id" : "folio_plugin-find-user-3.0.1",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-3.0.1",
+  "id" : "folio_requests-3.0.2",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.8.0",
