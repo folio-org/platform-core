@@ -68,7 +68,7 @@
   "id" : "folio_developer-3.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-4.0.2",
+  "id" : "folio_inventory-4.0.3",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-3.0.0",
