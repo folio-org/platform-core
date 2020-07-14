@@ -2,13 +2,13 @@
   "id" : "mod-calendar-1.10.0-SNAPSHOT.114",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-19.3.0-SNAPSHOT.447",
+  "id" : "mod-inventory-storage-19.3.0-SNAPSHOT.448",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-4.0.100072",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-12.1.0-SNAPSHOT.247",
+  "id" : "mod-circulation-storage-12.1.0-SNAPSHOT.248",
   "action" : "enable"
 }, {
   "id" : "mod-users-17.1.1-SNAPSHOT.139",
