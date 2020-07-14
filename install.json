@@ -17,7 +17,7 @@
   "id" : "mod-event-config-1.6.0-SNAPSHOT.40",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.5.0-SNAPSHOT.75",
+  "id" : "mod-configuration-5.5.0-SNAPSHOT.76",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.10.0-SNAPSHOT.61",
@@ -68,7 +68,7 @@
   "id" : "folio_developer-3.1.1000130",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.1000963",
+  "id" : "folio_inventory-5.0.1000964",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-3.0.100095",
