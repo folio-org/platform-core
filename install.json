@@ -53,7 +53,7 @@
   "id" : "mod-patron-blocks-1.1.0-SNAPSHOT.23",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.1.0-SNAPSHOT.611",
+  "id" : "mod-circulation-19.1.0-SNAPSHOT.612",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-3.0.1000277",
