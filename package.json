@@ -27,7 +27,7 @@
     "@folio/myprofile": "3.0.0",
     "@folio/plugin-find-instance": "3.0.0",
     "@folio/plugin-find-user": "3.0.1",
-    "@folio/requests": "3.0.2",
+    "@folio/requests": "3.0.3",
     "@folio/search": "3.0.0",
     "@folio/servicepoints": "3.0.0",
     "@folio/stripes": "4.1.4",
