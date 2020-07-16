@@ -1037,9 +1037,9 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "3.0.1000277"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-3.0.1000277.tgz#510be2ec58676b8bc3341bbaf91a4c8f533d332d"
-  integrity sha512-puY0wz54aCHAwc0q3EymbxDyZly87Y4/5bOT0JpG8zt6lm7OvRCHcf5rajW9hCn+ObOdWRIXZM7sDecY7Yk97w==
+  version "3.0.1000278"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-3.0.1000278.tgz#6a8803dbbad845b840fdee50edcee2e8330f60a7"
+  integrity sha512-w50+fWsg3BK9o0UAXeOE7BdHr7mAe5KI9Sdt6VIccZW/u4imOvPKPBS7cusD/OQg3qJGnyAUeUd2tGS4kr980w==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
@@ -1227,9 +1227,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.1.2000305"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.1.2000305.tgz#d0fd7168a685f89cf159857fca198feac5bb7dc7"
-  integrity sha512-ZGDLBDQGEfoJQ6eiob+Gw7LZnvPIIX8/fB6AmD0x6ZxSz/dRdAmKbyW2XgZBe4ro5TK78g/eSAuADOVMX3wz4g==
+  version "2.1.2000306"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.1.2000306.tgz#4fde77b2cbea992ab76d5513b78ede4957ae1435"
+  integrity sha512-GhBJvrJK3ld3f3oHmvtNoF4l4miKJYCGKPHowTuuimB76cOZ0YFtj01ZlRi7ox+5sXNeSUC6RF1VmB3PnMjTUQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@rehooks/local-storage" "^2.4.0"
@@ -1567,9 +1567,9 @@
     redux "~3.7.2"
 
 "@folio/tags@>=1.1.0":
-  version "3.0.100056"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-3.0.100056.tgz#662f88f65826133e76cf1e48a27cd6876e781b87"
-  integrity sha512-CNTRCwfsu8QEmp67i8GHzHIpfpXRVRv30aqVVbYHGL7qtHNaryAseNDTFM60NTyEXY3nWmdkCPnZEmK+mfZSZA==
+  version "3.0.100057"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-3.0.100057.tgz#1c627026c1a34b6f9109f707d93d957e6e1c1fb0"
+  integrity sha512-Nk0h74ehroTSkn0uPMMT0JZnwHp5wPbhUab3VqGphuXFLid8F0MJO1Pj6GN8j7ZYHkYExzMjh8poR0vNivJH9Q==
   dependencies:
     prop-types "^15.5.10"
     redux-form "^7.0.3"
