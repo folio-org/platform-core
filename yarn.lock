@@ -1114,9 +1114,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.1000964"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.1000964.tgz#d58d4b935ca803bd559241e041f35d9a91664ff8"
-  integrity sha512-YEF5712FsEAcMwFHhe7FaQmI4hrMoMpncYSTZZaVhbk1Y60i/ikZWM203igiBEUEQYn0gKU2AWx5MBr4zpJJAw==
+  version "5.0.1000965"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.1000965.tgz#63863dec69a9f8ba7d3d51c004a18923b2adfb5e"
+  integrity sha512-qXPHcH49Xc+vjNVVnMWfrB2svfEU1RRlFzaNOcPAV8MtXk2lATeQriq31UINlcc409q9OhxE2oFxxlWBkQxCOA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
@@ -1227,9 +1227,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.1.2000304"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.1.2000304.tgz#a393218a170297ec14e4fce509d588cd82661841"
-  integrity sha512-iH1z6Ji9KPhJdwlNyRFTel8BYJM9gvD5aA30lIHVEw/XVhRC6jTD5oMyBPgsIwT2xGwbLqyDZhlitFW0CizA/Q==
+  version "2.1.2000305"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.1.2000305.tgz#d0fd7168a685f89cf159857fca198feac5bb7dc7"
+  integrity sha512-ZGDLBDQGEfoJQ6eiob+Gw7LZnvPIIX8/fB6AmD0x6ZxSz/dRdAmKbyW2XgZBe4ro5TK78g/eSAuADOVMX3wz4g==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@rehooks/local-storage" "^2.4.0"
@@ -1329,9 +1329,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~6.0.0":
-  version "6.0.1000125"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-6.0.1000125.tgz#8024d025feeed96b4e27b8b01574ebee4d14dccf"
-  integrity sha512-OQJeVO7wtCxI5PFFaUl/LCQbv0eQ9A8tjtNKLtzbFqbCHs7PR/1YAD3RKTolqlEAjfsMjKiYaIVCYIohhJSAQQ==
+  version "6.0.1000126"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-6.0.1000126.tgz#61f7963c1f6eb0dd288319a1208a9198af0c17d6"
+  integrity sha512-skgkCn+8jfjrXkl8GAH/WNbegVSWNuHN5sw47j9DZM+5XqMNdqudXSBRicicQH0GU2Y2wN2Qhv/3hXzgJJNGwg==
   dependencies:
     isomorphic-fetch "^2.2.1"
     lodash "^4.17.11"
