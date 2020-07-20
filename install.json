@@ -53,7 +53,7 @@
   "id" : "mod-patron-blocks-1.1.0-SNAPSHOT.25",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.1.0-SNAPSHOT.612",
+  "id" : "mod-circulation-19.1.0-SNAPSHOT.613",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-3.0.1000278",
@@ -104,7 +104,7 @@
   "id" : "folio_stripes-core-6.0.1000742",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-2.9.1-SNAPSHOT.151",
+  "id" : "mod-notes-2.9.1-SNAPSHOT.155",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.6.1-SNAPSHOT.47",
