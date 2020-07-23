@@ -56,13 +56,13 @@
   "id" : "mod-circulation-19.1.0-SNAPSHOT.614",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-3.0.1000278",
+  "id" : "folio_checkin-3.0.1000280",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-4.0.1000443",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-3.0.1000527",
+  "id" : "folio_circulation-3.0.1000528",
   "action" : "enable"
 }, {
   "id" : "folio_developer-3.1.1000131",
