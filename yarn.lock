@@ -1114,9 +1114,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.1000973"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.1000973.tgz#3c73a705982741fc7afff611e01db17f5cf28a4a"
-  integrity sha512-gvXHAV+UFyRSaI49sAJMGBKpPQ0LMABKoVnb1ZrocJxkROcXHv5zsjBGaZl+BuU0P2h0QuXFjl1o/zFOy50OfQ==
+  version "5.0.1000974"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.1000974.tgz#bc036954333779b86180adba0c57ff62d7e64115"
+  integrity sha512-H4OD5ft8sqWE6cUUljp0jfScszaWTa4V3he2fhXqhQwKCxhLrPvQkhW7PgeegNVDz6tj7dyJV0WflfPjPdofRg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
@@ -2489,9 +2489,9 @@ ajv-errors@^1.0.0:
   integrity sha512-DCRfO/4nQ+89p/RK43i8Ezd41EqdGIU4ld7nGF8OQ14oc/we5rEntLCUa7+jrn3nn83BosfwZA0wb4pon2o8iQ==
 
 ajv-keywords@^3.1.0, ajv-keywords@^3.4.1:
-  version "3.5.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/ajv-keywords/-/ajv-keywords-3.5.1.tgz#b83ca89c5d42d69031f424cad49aada0236c6957"
-  integrity sha512-KWcq3xN8fDjSB+IMoh2VaXVhRI0BBGxoYp3rx7Pkb6z0cFjYR9Q9l4yZqqals0/zsioCmocC5H6UvsGD4MoIBA==
+  version "3.5.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ajv-keywords/-/ajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
+  integrity sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==
 
 ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.2, ajv@^6.5.5:
   version "6.12.3"
