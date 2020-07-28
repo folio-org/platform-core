@@ -1,6 +1,6 @@
 [
   {
-    "id": "folio_calendar-4.0.100074",
+    "id": "folio_calendar-4.0.100075",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-5.0.1000976",
+    "id": "folio_inventory-5.0.1000977",
     "action": "enable"
   },
   {
@@ -48,7 +48,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-6.0.1000743",
+    "id": "folio_stripes-core-6.0.1000744",
     "action": "enable"
   },
   {

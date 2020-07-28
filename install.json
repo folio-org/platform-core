@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-19.3.0",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-4.0.100074",
+  "id" : "folio_calendar-4.0.100075",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-12.1.0-SNAPSHOT.251",
@@ -68,7 +68,7 @@
   "id" : "folio_developer-3.1.1000131",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.1000976",
+  "id" : "folio_inventory-5.0.1000977",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-3.0.100096",
@@ -101,7 +101,7 @@
   "id" : "mod-users-bl-6.1.0-SNAPSHOT.90",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-6.0.1000743",
+  "id" : "folio_stripes-core-6.0.1000744",
   "action" : "enable"
 }, {
   "id" : "mod-notes-2.9.1-SNAPSHOT.155",
