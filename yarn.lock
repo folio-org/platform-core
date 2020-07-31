@@ -1601,9 +1601,9 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "4.0.1000124"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-4.0.1000124.tgz#f03b4e191277aa2431dbcff80348c29580ee6fbd"
-  integrity sha512-fH8YNNrTBugioFOLOs82m4i8hXmMZjFvKgRs/NxqQuJNbD5SbRulHPwOe1TRKaXC18okZV2ZSTIR+KsBSMwaeg==
+  version "4.0.1000125"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-4.0.1000125.tgz#6f8334fc82102053031ff73dc37a5b3b460a4be1"
+  integrity sha512-Y3btXvxjP32HLRJmbDJ9KAzVSbjKf2w4cTBBpYZCVVwS77KayqBVp7dtjJ9vabwfOmDz2vc2p6WCbVYvF+nw1A==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     lodash "^4.17.4"
@@ -5003,9 +5003,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.488:
-  version "1.3.515"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.515.tgz#96683d2c2be9bf83f6cca75d504a7b443d763c08"
-  integrity sha512-C9h2yLQwNSK/GTtWQsA9O6mLKv0ubmiAQgmz1HvHnAIH8g5Sje1shWxcooumbGiwgqvZ9yrTYULe4seMTgMYqQ==
+  version "1.3.516"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.516.tgz#03ec071b061e462b786bf7e7ce226fd7ab7cf1f6"
+  integrity sha512-WDM5AAQdOrvLqSX8g3Zd5AujBXfMxf96oeZkff0U2HF5op3tjShE+on2yay3r1UD4M9I3p0iHpAS4+yV8U8A9A==
 
 electron@^2.0.18:
   version "2.0.18"
