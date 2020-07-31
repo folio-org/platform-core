@@ -11523,9 +11523,9 @@ rx-lite@*, rx-lite@^4.0.8:
   integrity sha1-Cx4Rr4vESDbwSmQH6S2kJGe3lEQ=
 
 rxjs-compat@^6.5.4:
-  version "6.6.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/rxjs-compat/-/rxjs-compat-6.6.0.tgz#fb86908ca9ea385befd25f6d4e451d1b0154fe5c"
-  integrity sha512-XvW8LM/3QnoehC74BAbC3bSiaSsfdZHC21QErD50TmdjNQhpQ6s3bM5PjcdcZWbX7mNgC3zi3BcbI9dWGJ6fsA==
+  version "6.6.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/rxjs-compat/-/rxjs-compat-6.6.2.tgz#23592564243cf24641a5d2e2d2acfc8f6b127186"
+  integrity sha512-C3V7axnAkPd91sbW1XreL8ydLM+phUcKViM76GBuT3hCzHMSQbszE/h6ajkgcrDn9j4JZ/OdzklvfAJ9MmXRcg==
 
 rxjs@^5.4.3:
   version "5.5.12"
@@ -11535,9 +11535,9 @@ rxjs@^5.4.3:
     symbol-observable "1.0.1"
 
 rxjs@^6.4.0, rxjs@^6.6.0:
-  version "6.6.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/rxjs/-/rxjs-6.6.0.tgz#af2901eedf02e3a83ffa7f886240ff9018bbec84"
-  integrity sha512-3HMA8z/Oz61DUHe+SdOiQyzIf4tOx5oQHmMir7IZEu6TMqCLHT4LRcmNaUS0NwOz8VLvmmBduMsoaUvMaIiqzg==
+  version "6.6.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/rxjs/-/rxjs-6.6.2.tgz#8096a7ac03f2cc4fe5860ef6e572810d9e01c0d2"
+  integrity sha512-BHdBMVoWC2sL26w//BCu3YzKT4s2jip/WhwsGEDmeKYBhKDZeYezVUnHatYB7L85v5xs0BAQmg6BEYJEKxBabg==
   dependencies:
     tslib "^1.9.0"
 
