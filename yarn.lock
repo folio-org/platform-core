@@ -1255,9 +1255,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.1.2000314"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.1.2000314.tgz#1e071a39be0ccb25668610cda2b187956da2b6ca"
-  integrity sha512-3V1sRDcpQnAwSC89BQi8ses9Xu7r7zDpze7q/rZEb0X+VIabK5E+sRPORMCuhtAYRXU5OIp8LLrQ52fJTW4Drg==
+  version "2.1.2000315"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.1.2000315.tgz#ac490784bc1be6e097d0175c392432ef2107c70b"
+  integrity sha512-41498APR6l+XJYsEsJFo3aAa6gRyxIpHVWXfohftQQw+UlA7W5cnU25nfB4wJTsEt/mZBFOwwoqtp2vIRcU0CQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@rehooks/local-storage" "^2.4.0"
@@ -13244,9 +13244,9 @@ webpack@^4.10.2, webpack@^4.41.2:
     webpack-sources "^1.4.1"
 
 whatwg-fetch@>=0.10.0:
-  version "3.3.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/whatwg-fetch/-/whatwg-fetch-3.3.0.tgz#b316f34303bf983439b93c6582157f81bd786110"
-  integrity sha512-5nvoOtuhyA2mOH0prcVbqDO2DVZV5g+m4hKjiLkTFdLkytlG/UPv9UYa79BzAm872mRerUOPZxVtQevATN3b/w==
+  version "3.3.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/whatwg-fetch/-/whatwg-fetch-3.3.1.tgz#6c1acf37dec176b0fd6bc9a74b616bec2f612935"
+  integrity sha512-faXTmGDcLuEPBpJwb5LQfyxvubKiE+RlbmmweFGKjvIPFj4uHTTfdtTIkdTRhC6OSH9S9eyYbx8kZ0UEaQqYTA==
 
 which-module@^2.0.0:
   version "2.0.0"
