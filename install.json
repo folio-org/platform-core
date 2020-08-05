@@ -53,7 +53,7 @@
   "id" : "mod-patron-blocks-1.1.0-SNAPSHOT.27",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.1.0-SNAPSHOT.622",
+  "id" : "mod-circulation-19.1.0-SNAPSHOT.623",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-3.0.1000282",
@@ -65,7 +65,7 @@
   "id" : "folio_circulation-3.0.1000535",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-3.1.1000135",
+  "id" : "folio_developer-3.1.1000136",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-5.0.1000979",
