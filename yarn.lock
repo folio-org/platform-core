@@ -1602,9 +1602,9 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "4.0.1000126"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-4.0.1000126.tgz#b10bc96b10538f75b7356a23ce4abf45dffb8013"
-  integrity sha512-EQw2wBbZzT0LMMy3KF7yI9lZv83VODBfHnAJ4o7UwOJ6GC6YLM5TTsMF8kDYkb+TZwLSlylBvKIADB7o184R6Q==
+  version "4.0.1000127"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-4.0.1000127.tgz#32244631e520563d02e3ad23a638b7be7d37f6d6"
+  integrity sha512-HUHOINWWRtz1XTOpDSvpSreONdUNcP4XOF9dumNHXMEABWtFp/pEJy29JrziK1RZUv1zvfMG1OpIhmJYHnrlfw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
@@ -1616,9 +1616,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "5.0.10001194"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001194.tgz#10b4eea05a0d746e0f237998a0e22ea97730fd75"
-  integrity sha512-m23pJkXnBetQxKlU+quscw3pNpnuqyWk5CrX0HKFYkr0ACtCOHPoVmTgW8NMMnu+lLyEEHWATS5O6WMTywfRiw==
+  version "5.0.10001196"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001196.tgz#f05ef1c03952eba57de354753beb16b8eef463ef"
+  integrity sha512-Hk97rKDydz5Do+Ad/Oe0pKneIjRFqjZdVVf5upsjFi7MkhToi8o65AotK0zCnxZy8HEQ6+kaQ9d/pOlubvpmmA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     hashcode "^1.0.3"

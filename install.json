@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-4.1.0-SNAPSHOT.182",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.1.0-SNAPSHOT.272",
+  "id" : "mod-inventory-16.1.0-SNAPSHOT.273",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.9.0-SNAPSHOT.82",
@@ -119,10 +119,10 @@
   "id" : "mod-login-saml-2.1.0-SNAPSHOT.53",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-4.0.1000126",
+  "id" : "folio_tenant-settings-4.0.1000127",
   "action" : "enable"
 }, {
-  "id" : "folio_users-5.0.10001194",
+  "id" : "folio_users-5.0.10001196",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.8.0-SNAPSHOT.80",
