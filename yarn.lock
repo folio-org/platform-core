@@ -1616,9 +1616,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "5.0.10001198"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001198.tgz#f5d005b9b77723a9b0210a6716130d0dd112cdbc"
-  integrity sha512-+c4HuFbSHQzyhnenuBsGlrnqnrSz6ZJC2VfUZvX0RLyQOXf/aMmdJZpKmQUNXcdobwXYJVfin0RM+Hq7DTjf1g==
+  version "5.0.10001199"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001199.tgz#8b6c7e88542d752b7f2c5626d4b7a2c557485756"
+  integrity sha512-GU4ZROJSrciNuBgYPy1MTbld3yycM8rzMDSJ4HFj/QK51CyosA0q17SfMR4BKYgYgSvuGoUNyEh7nP7ILgtnaQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     hashcode "^1.0.3"
@@ -3717,9 +3717,9 @@ chokidar@^2.0.3, chokidar@^2.1.8:
     fsevents "^1.2.7"
 
 chokidar@^3.4.1:
-  version "3.4.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/chokidar/-/chokidar-3.4.1.tgz#e905bdecf10eaa0a0b1db0c664481cc4cbc22ba1"
-  integrity sha512-TQTJyr2stihpC4Sya9hs2Xh+O2wf+igjL36Y75xx2WdHuiICcn/XJza46Jwt0eT5hVpQOzo3FpY3cj3RVYLX0g==
+  version "3.4.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/chokidar/-/chokidar-3.4.2.tgz#38dc8e658dec3809741eb3ef7bb0a47fe424232d"
+  integrity sha512-IZHaDeBeI+sZJRX7lGcXsdzgvZqKv6sECqsbErJA4mHWfpRrD8B97kSFN4cQz6nGBGiuFia1MKR4d6c1o8Cv7A==
   dependencies:
     anymatch "~3.1.1"
     braces "~3.0.2"
