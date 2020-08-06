@@ -68,7 +68,7 @@
   "id" : "folio_developer-3.1.1000137",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.1000981",
+  "id" : "folio_inventory-5.0.1000982",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-3.0.100096",
@@ -119,7 +119,7 @@
   "id" : "mod-login-saml-2.1.0-SNAPSHOT.53",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-4.0.1000128",
+  "id" : "folio_tenant-settings-4.0.1000129",
   "action" : "enable"
 }, {
   "id" : "folio_users-5.0.10001199",
