@@ -28,6 +28,10 @@
     "action": "enable"
   },
   {
+    "id": "folio_plugin-create-inventory-records-1.0.10007",
+    "action": "enable"
+  },
+  {
     "id": "folio_plugin-find-instance-3.0.100052",
     "action": "enable"
   },
