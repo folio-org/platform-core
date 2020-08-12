@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-19.3.0",
+    "id": "mod-inventory-storage-19.3.1",
     "action": "enable"
   },
   {
@@ -52,15 +52,15 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-4.0.2",
+    "id": "mod-source-record-storage-4.0.3",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-16.0.1",
+    "id": "mod-inventory-16.0.2",
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-15.8.1",
+    "id": "mod-feesfines-15.8.2",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-19.0.11",
+    "id": "mod-circulation-19.0.14",
     "action": "enable"
   },
   {
