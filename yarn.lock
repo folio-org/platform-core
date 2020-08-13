@@ -1385,9 +1385,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0", "@folio/stripes-core@~6.0.0":
-  version "6.0.1000750"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-6.0.1000750.tgz#c5d2da9cbf7f4f6ba709ca3860cf2b2f56b376fb"
-  integrity sha512-JdA0qyOcGAOGPgK7RFJvO55gUPYUQjxezdOksg4WX5vgw/BAYrMo0atxRd+ogGy8SBArsQV2yDhwRgftGJxdTA==
+  version "6.0.1000751"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-6.0.1000751.tgz#1f04446d818831c9c53b9997d01c5219033a6cbf"
+  integrity sha512-BhwswrIzXIgSg4I+EYaOvz9zC3yj3JRWSckzta+Cy0b4WLwW79m5NXFynw0gGWEnP4Ymv9tkC4wYcKyFVk5xNQ==
   dependencies:
     "@babel/core" "^7.8.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
