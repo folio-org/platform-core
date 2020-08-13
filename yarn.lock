@@ -1595,10 +1595,10 @@
     query-string "^6.8.1"
     redux-form "^7.0.3"
 
-"@folio/users@4.0.6":
-  version "4.0.6"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-4.0.6.tgz#aa72feb3fd531b2f501504d7a04be4a3768758e6"
-  integrity sha512-SCg7pOa/kaWKzADgBdkUJK1ETGjEPmN0KDt3dmHvZcq6CnhAFQJKMJEGdy0bulW+PJhSIgFpM24QUMbU4p8/lg==
+"@folio/users@4.0.7":
+  version "4.0.7"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-4.0.7.tgz#f22f540654cdf69ad54b15ea08bd3b58d25524fd"
+  integrity sha512-WgSi5d/Izf66av5B+O0PRStzbubQVkAMxoQJiy5hukHQwrvaMlhO5MollkPilRotzfYAo12YuUeDzxdBIpS9aA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     hashcode "^1.0.3"
