@@ -74,7 +74,7 @@
   "id" : "folio_myprofile-3.0.100096",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-1.0.100011",
+  "id" : "folio_plugin-create-inventory-records-1.0.100012",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-3.0.100052",
