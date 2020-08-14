@@ -1671,7 +1671,7 @@
   dependencies:
     "@formatjs/intl-utils" "^3.5.0"
 
-"@formatjs/intl-numberformat@^5.4.0":
+"@formatjs/intl-numberformat@^5.4.1":
   version "5.4.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl-numberformat/-/intl-numberformat-5.4.1.tgz#713542177689862d6f7849f9d802ad19e85855ab"
   integrity sha512-w9GRPRmD4EZ1gxbekVAMmLphwT7JzjYGmxPa1ZD4ukb0pmk+9Sb3Qy6BjOu59YsROAAMrct6EQqfc/H//EYRdA==
@@ -7088,11 +7088,11 @@ intl-format-cache@^4.2.39, intl-format-cache@^4.2.43:
   integrity sha512-OEUYNA7D06agqPOYhbTkl0T8HA3QKSuwWh1HiClEnpd9vw7N+3XsQt5iZ0GUEchp5CW1fQk/tary+NsbF3yQ1Q==
 
 intl-messageformat-parser@^5.1.4, intl-messageformat-parser@^5.2.1:
-  version "5.3.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/intl-messageformat-parser/-/intl-messageformat-parser-5.3.8.tgz#846595cb5af0372eb90dc92da40b8bcb231f0588"
-  integrity sha512-BxZp3IDmhURMOOK3eXgX2mA6Q3ytcLh0gaS0JTTQp1rsv1sMs+vGtFZHrmGk2HX3D3cnGiXtPrvG7SaeiWtODg==
+  version "5.4.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/intl-messageformat-parser/-/intl-messageformat-parser-5.4.0.tgz#7d15579551e689e445b7691e6794cdc726b299e1"
+  integrity sha512-nZjAcoCfJ4ru7Lop7DWmR4Gl1nZEcDly3G43wOZkMEHVJP1kpGtyfJvi3+moUH0V9CIspRf6Fv1sP1Z2S0SbsA==
   dependencies:
-    "@formatjs/intl-numberformat" "^5.4.0"
+    "@formatjs/intl-numberformat" "^5.4.1"
 
 intl-messageformat@^8.3.24:
   version "8.4.1"
