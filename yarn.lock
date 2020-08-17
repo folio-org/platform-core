@@ -1176,9 +1176,9 @@
     redux-form "^7.0.3"
 
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^1.0.0":
-  version "1.0.100012"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-1.0.100012.tgz#08251a82a7f1d5148df5cc3df300b1f755262302"
-  integrity sha512-k/JrxOWXo4Isd9qhJmyq4aLCB/itfIcNS3irEPWo2vNIj/Zx+ag+meGyDJultj0U2AM8PXFXfMQtgkyrMKdTvg==
+  version "1.0.100013"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-1.0.100013.tgz#60c237a1765bbdea1cf37c4c620c37c36e498894"
+  integrity sha512-yfFo4lsIHsgaeqINogmIYlLBNjPcaScS9gzBM+aiHdTkIrRMmqKLTPaYX2xTwwYklqDFgTB4iAv7AixzqApSfg==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
@@ -1340,9 +1340,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~8.0.0":
-  version "8.0.10001145"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-8.0.10001145.tgz#a1c0531db54825b2eb666d04fe667fe31c19305e"
-  integrity sha512-hE8B/QIibMawOyb726uOSqZFpcKstpiw90J+trLEeAlV+4EqtgQBfh7wue3lECbcS/1rBcQs1nSUHneG8qg+aw==
+  version "8.0.10001146"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-8.0.10001146.tgz#46cb5f0e365131bbf695645a57f7d64852a98138"
+  integrity sha512-Z0Bklsf7GPGmxSdTTBUtJduIA/S9fRR3SttPaOHycUSrsXCAIWhGj/b/PRQnZgLMnZrecWlVSPGxfvJdzurj6A==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
