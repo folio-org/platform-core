@@ -11,7 +11,7 @@ pipeline {
 *           defaultValue: 'diku',
 *           description: 'FOLIO tenant')
 *    string(name: 'FOLIO_URL',
-*           defaultValue: 'http://folio-snapshot.aws.indexdata.com',
+*           defaultValue: 'https://folio-snapshot.dev.folio.org',
 *           description: 'Okapi URL')
 *  }
 */
