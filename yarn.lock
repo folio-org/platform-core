@@ -1263,9 +1263,9 @@
     react-hot-loader "^4.3.12"
 
 "@folio/servicepoints@>=1.1.0":
-  version "3.0.100071"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-3.0.100071.tgz#d028e41dc654af2ec0c37a825adb1d2f11c2276e"
-  integrity sha512-5tAfme28OUCwtx7ujaIPjVlTgypZ7iIXdRG/QFCdVxGLPsxtg8YlFbE5iDe4Mmzxukxm9gpHFCGc18l22KMG+w==
+  version "3.0.100072"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-3.0.100072.tgz#c308631c2fa86c395b3a6d892b7bf20a4bf6f46b"
+  integrity sha512-LARIUEKVaKBF2eeNcvggRCUVqz7T8Mobss3pIAgDUyfMsj8Xt71RgDKee2JSJw4EfR/wn1e3epM/1lSnYOcxuQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     lodash "^4.17.4"
