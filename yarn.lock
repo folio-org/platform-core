@@ -1577,9 +1577,9 @@
     react-to-print "^2.3.2"
 
 "@folio/stripes-testing@^2.0.0":
-  version "2.0.100073"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-2.0.100073.tgz#cc328b1586efa4e110a8cc34387d67093683958c"
-  integrity sha512-Q4EzQk6dKS2nj3PWOAZaBJNQTC1Oi5cgnuDUbF9Tfn4O0mY6jD990o/Ph+R3jag8h4YYvp57mAQKiRwCS2dkTw==
+  version "2.0.100074"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-2.0.100074.tgz#f3054fdc5927a69507ddb57f2ee600ec8d287f25"
+  integrity sha512-jtAfdT8nT0hofvlxqTzCR0p5aBnP9ycBC9XfxitElFidRjfmGKxwNuzp6ndVg9Vv9fQtyP4YqIwFsWucZFf4oA==
   dependencies:
     debug "^4.0.1"
     minimist "^1.2.0"
