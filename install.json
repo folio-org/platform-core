@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.10.0-SNAPSHOT.114",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-19.4.0-SNAPSHOT.456",
+  "id" : "mod-inventory-storage-19.4.0-SNAPSHOT.457",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-4.0.100075",
@@ -17,7 +17,7 @@
   "id" : "mod-event-config-1.6.0-SNAPSHOT.40",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.5.0-SNAPSHOT.77",
+  "id" : "mod-configuration-5.5.0-SNAPSHOT.78",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.10.0-SNAPSHOT.61",
@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-4.1.0-SNAPSHOT.185",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.1.0-SNAPSHOT.278",
+  "id" : "mod-inventory-16.1.0-SNAPSHOT.279",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.9.0-SNAPSHOT.85",
