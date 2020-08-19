@@ -88,6 +88,10 @@ module.exports.test = (uiTestCtx) => {
       //   helpers.addRequestPolicy(nightmare, requestPolicyName);
       // });
 
+      describe('Create fixed due date schedule', () => {
+        helpers.addFixedDueDateSchedule(nightmare, scheduleName, tomorrowValue, dayAfterValue, nextMonthValue);
+      });
+
       describe('it should configure circulation rules', function foo() {
         it('set new rules circulation rules', (done) => {
           const rules = `priority: t, s, c, b, a, m, g \nfallback-policy: l example-loan-policy r ${requestPolicyName} n ${noticePolicyName} o ${overdueFinePolicyName} i ${lostItemFeePolicyName}\nm book: l ${policyName} r ${requestPolicyName} n ${noticePolicyName} o ${overdueFinePolicyName} i ${lostItemFeePolicyName}`;
@@ -294,42 +298,11 @@ module.exports.test = (uiTestCtx) => {
       });
     });
 
-    describe('Create fixed due date schedule', () => {
+    describe('Assign fixed due date schedule to loan policy', () => {
       it('should navigate to settings', (done) => {
         helpers.clickSettings(nightmare, done);
       });
 
-      it('should create a new fixed due date schedule', (done) => {
-        nightmare
-          .wait('a[href="/settings/circulation"]')
-          .click('a[href="/settings/circulation"]')
-          .wait('a[href="/settings/circulation/fixed-due-date-schedules"]')
-          .click('a[href="/settings/circulation/fixed-due-date-schedules"]')
-          .wait('#clickable-create-entry')
-          .click('#clickable-create-entry')
-          .wait('#input_schedule_name')
-          .type('#input_schedule_name', scheduleName)
-          .wait('input[name="schedules[0].from"]')
-          .insert('input[name="schedules[0].from"]', tomorrowValue)
-          .wait('input[name="schedules[0].to"]')
-          .insert('input[name="schedules[0].to"]', dayAfterValue)
-          .wait('input[name="schedules[0].due"]')
-          .insert('input[name="schedules[0].due"]', nextMonthValue)
-          .wait('#clickable-save-fixedDueDateSchedule')
-          .click('#clickable-save-fixedDueDateSchedule')
-          .wait(1000)
-          .evaluate(() => {
-            const sel = document.querySelector('div[class^="feedbackError"]');
-            if (sel) {
-              throw new Error(sel.textContent);
-            }
-          })
-          .then(done)
-          .catch(done);
-      });
-    });
-
-    describe('Assign fixed due date schedule to loan policy', () => {
       it(`assign the fixed due date schedule (${scheduleName}) to the loan policy`, (done) => {
         nightmare
           .wait('a[href="/settings/circulation/loan-policies"]')
@@ -451,62 +424,12 @@ module.exports.test = (uiTestCtx) => {
         helpers.removeNoticePolicy(nightmare, noticePolicyName);
       });
 
-      describe('remove loan policy', () => {
+      describe('remove Loan Policy', () => {
         helpers.removeLoanPolicy(nightmare, policyName);
       });
 
-      // describe('remove request policy', () => {
-      //   helpers.removeRequestPolicy(nightmare, requestPolicyName);
-      // });
-
-      describe('Delete fixed due date schedule', () => {
-        it('should delete the fixed due date schedule', (done) => {
-          nightmare
-            .click(config.select.settings)
-            .wait('a[href="/settings/circulation"]')
-            .click('a[href="/settings/circulation"]')
-            .wait('a[href="/settings/circulation/fixed-due-date-schedules"]')
-            .click('a[href="/settings/circulation/fixed-due-date-schedules"]')
-            .wait('div.hasEntries')
-            .wait((sn) => {
-              const index = Array.from(
-                document.querySelectorAll('#ModuleContainer div.hasEntries a[class^=NavListItem]')
-              ).findIndex(e => e.textContent === sn);
-              return index >= 0;
-            }, scheduleName)
-            .evaluate((sn) => {
-              const index = Array.from(
-                document.querySelectorAll('#ModuleContainer div.hasEntries a[class^=NavListItem]')
-              ).findIndex(e => e.textContent === sn);
-              if (index === -1) {
-                throw new Error(`Could not find the fixed due date schedule ${sn} to delete`);
-              }
-              // CSS selectors are 1-based, which is just totally awesome.
-              return index + 1;
-            }, scheduleName)
-            .then((entryIndex) => {
-              nightmare
-                .wait(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a[class^=NavListItem]`)
-                .click(`#ModuleContainer div.hasEntries div:nth-of-type(${entryIndex}) a[class^=NavListItem]`)
-                .wait('#generalInformation')
-                .wait('#fixedDueDateSchedule')
-                .wait('#clickable-edit-item')
-                .click('#clickable-edit-item')
-                .wait('#clickable-delete-item')
-                .click('#clickable-delete-item')
-                .wait('#clickable-deletefixedduedateschedule-confirmation-confirm')
-                .click('#clickable-deletefixedduedateschedule-confirmation-confirm')
-                .wait((sn) => {
-                  return Array.from(
-                    document.querySelectorAll('#OverlayContainer div[class^="calloutBase"]')
-                  ).findIndex(e => e.textContent === `The fixed due date schedule ${sn} was successfully deleted.`) >= 0;
-                }, scheduleName)
-                .wait(() => !document.querySelector('#OverlayContainer div[class^="calloutBase"]'))
-                .then(done)
-                .catch(done);
-            })
-            .catch(done);
-        });
+      describe('remove Fixed Due Date schedule', () => {
+        helpers.removeFixedDueDateSchedule(nightmare, scheduleName);
       });
     });
 
