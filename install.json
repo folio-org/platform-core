@@ -47,13 +47,16 @@
   "id" : "mod-inventory-16.1.0-SNAPSHOT.282",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-15.9.0-SNAPSHOT.85",
+  "id" : "mod-feesfines-15.9.0-SNAPSHOT.86",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.1.0-SNAPSHOT.28",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.1.0-SNAPSHOT.636",
+  "id" : "mod-notes-2.9.1-SNAPSHOT.155",
+  "action" : "enable"
+}, {
+  "id" : "mod-circulation-19.1.0-SNAPSHOT.640",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-3.0.1000288",
@@ -105,9 +108,6 @@
   "action" : "enable"
 }, {
   "id" : "folio_stripes-core-6.0.1000754",
-  "action" : "enable"
-}, {
-  "id" : "mod-notes-2.9.1-SNAPSHOT.155",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.6.1-SNAPSHOT.47",

@@ -60,7 +60,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-15.9.0-SNAPSHOT.85",
+    "id": "mod-feesfines-15.9.0-SNAPSHOT.86",
     "action": "enable"
   },
   {
@@ -68,7 +68,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-19.1.0-SNAPSHOT.636",
+    "id": "mod-notes-2.9.1-SNAPSHOT.155",
+    "action": "enable"
+  },
+  {
+    "id": "mod-circulation-19.1.0-SNAPSHOT.640",
     "action": "enable"
   },
   {
@@ -85,10 +89,6 @@
   },
   {
     "id": "mod-users-bl-6.1.0-SNAPSHOT.92",
-    "action": "enable"
-  },
-  {
-    "id": "mod-notes-2.9.1-SNAPSHOT.155",
     "action": "enable"
   },
   {
