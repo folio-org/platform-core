@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@folio/calendar": "4.0.1",
-    "@folio/checkin": "3.0.1",
+    "@folio/checkin": "3.0.2",
     "@folio/checkout": "4.0.2",
     "@folio/circulation": "3.0.2",
     "@folio/developer": "3.0.0",
