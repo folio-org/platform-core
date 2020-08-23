@@ -80,7 +80,7 @@
   "id" : "folio_plugin-find-user-3.0.1",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-3.0.5",
+  "id" : "folio_requests-3.0.6",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.8.0",
