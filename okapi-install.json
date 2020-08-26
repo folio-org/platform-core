@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-19.4.0-SNAPSHOT.461",
+    "id": "mod-inventory-storage-19.4.0-SNAPSHOT.462",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-configuration-5.5.0-SNAPSHOT.79",
+    "id": "mod-configuration-5.5.0-SNAPSHOT.80",
     "action": "enable"
   },
   {
@@ -44,7 +44,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-permissions-5.12.0-SNAPSHOT.86",
+    "id": "mod-permissions-5.12.0-SNAPSHOT.87",
     "action": "enable"
   },
   {
@@ -60,7 +60,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-15.9.0-SNAPSHOT.86",
+    "id": "mod-feesfines-15.9.0-SNAPSHOT.87",
     "action": "enable"
   },
   {
@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-19.1.0-SNAPSHOT.640",
+    "id": "mod-circulation-19.1.0-SNAPSHOT.643",
     "action": "enable"
   },
   {

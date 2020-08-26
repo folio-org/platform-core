@@ -35,7 +35,7 @@
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
     "test": "echo 'No unit tests implemented'",
     "test-int": "stripes test nightmare stripes.config.js",
-    "test-regression": "stripes test nightmare stripes.config.js --run WD/checkout/users/inventory/requests/circulation/tenant-settings",
+    "test-regression": "stripes test nightmare stripes.config.js --run WD/checkout/users/inventory/requests/circulation",
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
