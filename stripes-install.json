@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkin-3.0.1000289",
+    "id": "folio_checkin-3.0.1000290",
     "action": "enable"
   },
   {
@@ -28,7 +28,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-create-inventory-records-1.0.100019",
+    "id": "folio_plugin-create-inventory-records-1.0.100020",
     "action": "enable"
   },
   {
@@ -52,11 +52,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-6.0.1000755",
+    "id": "folio_stripes-core-6.0.1000756",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-5.0.1000820",
+    "id": "folio_stripes-smart-components-5.0.1000821",
     "action": "enable"
   },
   {
