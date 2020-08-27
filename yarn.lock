@@ -945,9 +945,9 @@
     "@babel/plugin-transform-flow-strip-types" "^7.10.4"
 
 "@babel/preset-modules@^0.1.3":
-  version "0.1.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/preset-modules/-/preset-modules-0.1.3.tgz#13242b53b5ef8c883c3cf7dddd55b36ce80fbc72"
-  integrity sha512-Ra3JXOHBq2xd56xSF7lMKXdjBn3T772Y1Wet3yWnkDly9zHvJki029tAFzvAAK5cf4YV3yoxuP61crYRol6SVg==
+  version "0.1.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/preset-modules/-/preset-modules-0.1.4.tgz#362f2b68c662842970fdb5e254ffc8fc1c2e415e"
+  integrity sha512-J36NhwnfdzpmH41M1DrnkkgAqhZaqr/NBdPfQ677mLzlaXo+oDiv1deyCDtgAhz8p328otdob0Du7+xgHGZbKg==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-proposal-unicode-property-regex" "^7.4.4"
@@ -1540,9 +1540,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~5.0.0":
-  version "5.0.1000819"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.0.1000819.tgz#945d34a07aecaeedeca837824d6a36e2eafcdd59"
-  integrity sha512-o4suskBLSBa/9fQ0OmhSEWyZn2sYm4+8SN1iI3VBoxirporkz94ZLMu/v/2wnmP+w4OV54IM4BKUCi/kcRA12w==
+  version "5.0.1000820"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.0.1000820.tgz#c5e1110203c74246816299603a08d7ae9829b82e"
+  integrity sha512-lER8mxcs2chOBYuB1TW0LxEzVcmbbwaK+P7eT8nQkUaDuLf4eJifJjjUqFB4Ef3PVhLIdcFSUT22q/SchCm35g==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@folio/stripes-components" "~8.0.0"
