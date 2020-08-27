@@ -1141,9 +1141,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.1000996"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.1000996.tgz#9c27dd211559cf07555fe9d22b6c9b6bee6cad8a"
-  integrity sha512-9r0UC9o+V5IUVTciiPS6uESgj6OlL6zo4uCvlmQq43z3oEC+VmL3hrj/jvrQP+P0z82lBGZkP8MRXL8WlbznWQ==
+  version "5.0.1000997"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.1000997.tgz#30187b09a734e0f0346f05aede9296a685bf7dbe"
+  integrity sha512-8ZsnnWtlUmmtpig/FGfzH/jWA7Dm3NGoJMMtiuiXwK0/H8eeFuXG3LXGfEyynHWOajgM5I1NnHxCTs64SwikXg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
@@ -5570,9 +5570,9 @@ eventemitter3@^2.0.3:
   integrity sha1-teEHm1n7XhuidxwKmTvgYKWMmbo=
 
 eventemitter3@^4.0.0:
-  version "4.0.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/eventemitter3/-/eventemitter3-4.0.6.tgz#1258f6fa51b4908aadc2cd624fcd6e64f99f49d6"
-  integrity sha512-s3GJL04SQoM+gn2c14oyqxvZ3Pcq7cduSDqy3sBFXx6UPSUmgVYwQM9zwkTn9je0lrfg0gHEwR42pF3Q2dCQkQ==
+  version "4.0.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 events@^3.0.0:
   version "3.2.0"
