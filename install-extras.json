@@ -1,9 +1,5 @@
 [ 
   {
-    "id": "mod-codex-inventory-1.7.0",
-     "action": "enable"
-  },
-  {
     "id": "mod-calendar-1.9.1",
     "action": "enable"
   },
