@@ -32,7 +32,7 @@
   "id" : "mod-notify-2.7.0-SNAPSHOT.96",
   "action" : "enable"
 }, {
-  "id" : "mod-login-7.1.0-SNAPSHOT.83",
+  "id" : "mod-login-7.1.0-SNAPSHOT.84",
   "action" : "enable"
 }, {
   "id" : "mod-permissions-5.12.0-SNAPSHOT.88",
@@ -119,7 +119,7 @@
   "id" : "folio_tags-3.0.100058",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.1.0-SNAPSHOT.55",
+  "id" : "mod-login-saml-2.1.0-SNAPSHOT.56",
   "action" : "enable"
 }, {
   "id" : "folio_tenant-settings-4.0.1000132",
