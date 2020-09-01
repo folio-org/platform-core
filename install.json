@@ -17,7 +17,7 @@
   "id" : "mod-event-config-1.5.0",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.4.1",
+  "id" : "mod-configuration-5.4.2",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.9.0",
@@ -32,10 +32,10 @@
   "id" : "mod-notify-2.6.0",
   "action" : "enable"
 }, {
-  "id" : "mod-login-7.0.0",
+  "id" : "mod-login-7.0.1",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-5.11.2",
+  "id" : "mod-permissions-5.11.3",
   "action" : "enable"
 }, {
   "id" : "mod-pubsub-1.2.5",
@@ -116,7 +116,7 @@
   "id" : "folio_tags-3.0.0",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.0.0",
+  "id" : "mod-login-saml-2.0.1",
   "action" : "enable"
 }, {
   "id" : "folio_tenant-settings-4.0.0",

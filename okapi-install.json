@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-configuration-5.4.1",
+    "id": "mod-configuration-5.4.2",
     "action": "enable"
   },
   {
@@ -40,11 +40,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-login-7.0.0",
+    "id": "mod-login-7.0.1",
     "action": "enable"
   },
   {
-    "id": "mod-permissions-5.11.2",
+    "id": "mod-permissions-5.11.3",
     "action": "enable"
   },
   {
@@ -96,7 +96,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-login-saml-2.0.0",
+    "id": "mod-login-saml-2.0.1",
     "action": "enable"
   },
   {
