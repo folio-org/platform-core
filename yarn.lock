@@ -1651,9 +1651,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "5.0.10001210"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001210.tgz#e84f3b6ccfddeddfdcdf866aa1a8c58660e57251"
-  integrity sha512-Liigrx9QZpbTz3IDiPZwEmoH3MDgbe2vMEHrCduUFmVFulGEQhQ+2TYPK9gzaHF8DYLRKk34fOLqzZr2MYuNRw==
+  version "5.0.10001211"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001211.tgz#004f6ae3ee98a81e85f51ba9cd9056c317b97372"
+  integrity sha512-mbTLyN0sAtppOSmhv4ETmN6jkwzdFe7tlozFbK/pofLpUTmf9xF/Y2xJ/joxwDtcpNqPIdaeBu7AqHYwzqEixw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     hashcode "^1.0.3"
@@ -4088,9 +4088,9 @@ component-inherit@0.0.3:
   integrity sha1-ZF/ErfWLcrZJ1crmUTVhnbJv8UM=
 
 compute-scroll-into-view@^1.0.2:
-  version "1.0.15"
-  resolved "https://repository.folio.org/repository/npm-ci-all/compute-scroll-into-view/-/compute-scroll-into-view-1.0.15.tgz#4512d933382004026f588a8c4675f2e8f1870af0"
-  integrity sha512-4t0PI4iJiPBFhmdiXuzVhjACJLjXKA90S2j+xqx58/Tx4JTuT0iCYleFLxB2iNd3kg4wD35po36wzgLzurRTmw==
+  version "1.0.16"
+  resolved "https://repository.folio.org/repository/npm-ci-all/compute-scroll-into-view/-/compute-scroll-into-view-1.0.16.tgz#5b7bf4f7127ea2c19b750353d7ce6776a90ee088"
+  integrity sha512-a85LHKY81oQnikatZYA90pufpZ6sQx++BoCxOEMsjpZx+ZnaKGQnCyCehTRr/1p9GBIAHTjcU9k71kSYWloLiQ==
 
 concat-map@0.0.1:
   version "0.0.1"
