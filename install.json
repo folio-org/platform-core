@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.10.0-SNAPSHOT.115",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-19.4.0-SNAPSHOT.462",
+  "id" : "mod-inventory-storage-19.4.0-SNAPSHOT.463",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-4.0.100075",
@@ -125,7 +125,7 @@
   "id" : "folio_tenant-settings-4.0.1000132",
   "action" : "enable"
 }, {
-  "id" : "folio_users-5.0.10001211",
+  "id" : "folio_users-5.0.10001212",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.8.0-SNAPSHOT.80",
