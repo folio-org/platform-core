@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.10.0-SNAPSHOT.115",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-19.4.0-SNAPSHOT.463",
+  "id" : "mod-inventory-storage-19.4.0-SNAPSHOT.464",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-4.0.100075",
@@ -98,7 +98,7 @@
   "id" : "folio_servicepoints-3.0.100072",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-1.8.0-SNAPSHOT.20",
+  "id" : "mod-password-validator-1.8.0-SNAPSHOT.21",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.6.0-SNAPSHOT.73",
@@ -110,7 +110,7 @@
   "id" : "folio_stripes-core-6.0.1000758",
   "action" : "enable"
 }, {
-  "id" : "mod-tags-0.6.1-SNAPSHOT.47",
+  "id" : "mod-tags-0.6.1-SNAPSHOT.48",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-smart-components-5.0.1000823",
