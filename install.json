@@ -47,10 +47,10 @@
   "id" : "mod-inventory-16.1.0-SNAPSHOT.287",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-15.9.0-SNAPSHOT.91",
+  "id" : "mod-feesfines-15.9.0-SNAPSHOT.92",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-1.1.0-SNAPSHOT.28",
+  "id" : "mod-patron-blocks-1.1.0-SNAPSHOT.29",
   "action" : "enable"
 }, {
   "id" : "mod-notes-2.9.1-SNAPSHOT.156",
@@ -125,7 +125,7 @@
   "id" : "folio_tenant-settings-4.0.1000132",
   "action" : "enable"
 }, {
-  "id" : "folio_users-5.0.10001216",
+  "id" : "folio_users-5.0.10001218",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.8.0-SNAPSHOT.80",
