@@ -1081,9 +1081,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "4.0.1000453"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-4.0.1000453.tgz#47b57d711307e3b8f184b59fc99de81dac65212f"
-  integrity sha512-SY/pj/Iy61dGfJEzm7mhr4RaKPaYYLXbNbZRJXdoxI2APTrg8JUbqQNOSF3oI+9WdWUepbR/yeAt993s9upVYA==
+  version "4.0.1000454"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-4.0.1000454.tgz#29eee54b1ba39b130202ef183c21761d48a3f97c"
+  integrity sha512-CLBOd43b+DraMPB0QtpBk6ILlyo/T5L/psxrLQ+rJje6u07dfkHMKboVWcVGA/3Qe5q+PJxg14emU0jusYVvcg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.19.1"
@@ -1096,7 +1096,7 @@
     react-hot-loader "^4.3.12"
   optionalDependencies:
     "@folio/plugin-create-inventory-records" "^1.0.0"
-    "@folio/plugin-find-user" "^3.0.0"
+    "@folio/plugin-find-user" "^4.0.0"
 
 "@folio/circulation@>=1.3.0":
   version "3.0.1000550"
@@ -1208,7 +1208,7 @@
     prop-types "^15.6.0"
     sinon "^9.0.2"
 
-"@folio/plugin-find-user@>=1.3.0":
+"@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@^4.0.0":
   version "4.0.1000119"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-4.0.1000119.tgz#435c9f6daafb2a29b5e0b9c17dea09c3e253ffac"
   integrity sha512-aS6fg6vRujeSZT78I5/ygnexxqWNAJh2NlAmRg+PPYLW672/ioKkg1hnjbzVze/OgWUIhh1NdMoh4V9aleWL/A==
@@ -1281,9 +1281,9 @@
     react-hot-loader "^4.3.12"
 
 "@folio/servicepoints@>=1.1.0":
-  version "3.0.100072"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-3.0.100072.tgz#c308631c2fa86c395b3a6d892b7bf20a4bf6f46b"
-  integrity sha512-LARIUEKVaKBF2eeNcvggRCUVqz7T8Mobss3pIAgDUyfMsj8Xt71RgDKee2JSJw4EfR/wn1e3epM/1lSnYOcxuQ==
+  version "3.0.100073"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-3.0.100073.tgz#8086dad6f823f5171b00071266c981050ad7a343"
+  integrity sha512-YfJXxz6/Tl0VAfoLJPNw8AW3jL7Hsvfx8v30PAr3sE7sHF0smyPRhJcSu+z3u9/OIWoaHbP4qxs8R4Z8CJqgmw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     lodash "^4.17.4"
