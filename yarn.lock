@@ -7952,9 +7952,9 @@ jsx-ast-utils@^2.2.1:
     object.assign "^4.1.0"
 
 just-extend@^4.0.2:
-  version "4.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/just-extend/-/just-extend-4.1.0.tgz#7278a4027d889601640ee0ce0e5a00b992467da4"
-  integrity sha512-ApcjaOdVTJ7y4r08xI5wIqpvwS48Q0PBG4DJROcEkH1f8MdAiNFyFxz3xoL0LWAVwjrwPYZdVHHxhRHcx/uGLA==
+  version "4.1.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/just-extend/-/just-extend-4.1.1.tgz#158f1fdb01f128c411dc8b286a7b4837b3545282"
+  integrity sha512-aWgeGFW67BP3e5181Ep1Fv2v8z//iBJfrvyTnq8wG86vEESwmonn1zPBJ0VfmT9CJq2FIT0VsETtrNFm2a+SHA==
 
 just-kebab-case@^1.0.0:
   version "1.1.0"
