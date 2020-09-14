@@ -1651,9 +1651,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "5.0.10001228"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001228.tgz#c83265f5277c09dd69ed7414afe4147f5cfff645"
-  integrity sha512-F2u+DGLkYWIVt0K50wUWkLVMmRMEiOuxkqNwvvk13NQEU9ImHZzMBb+ZnnCdkwyhhLaEMkyJJsGSbc9vDul/vA==
+  version "5.0.10001229"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001229.tgz#7812a87d47b825d1206ee01ca7374c4cbbc8f903"
+  integrity sha512-9iUayWID5OkrI2Uv1FFkK3BQZX3vSfEJyMXGixpexlAygTjyrRkhmX9VcEBfIlQqxKiocpTMntfZbYpGXTP8sQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     hashcode "^1.0.3"
@@ -5325,9 +5325,9 @@ es6-symbol@^3.1.0, es6-symbol@^3.1.1, es6-symbol@~3.1.3:
     ext "^1.1.2"
 
 escalade@^3.0.2:
-  version "3.0.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/escalade/-/escalade-3.0.2.tgz#6a580d70edb87880f22b4c91d0d56078df6962c4"
-  integrity sha512-gPYAU37hYCUhW5euPeR+Y74F7BL+IBsV93j5cvGriSaD1aG6MGsqsV1yamRdrWrb2j3aiZvb0X+UBOWpx3JWtQ==
+  version "3.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/escalade/-/escalade-3.1.0.tgz#e8e2d7c7a8b76f6ee64c2181d6b8151441602d4e"
+  integrity sha512-mAk+hPSO8fLDkhV7V0dXazH5pDc6MrjBTPyD3VeKzxnVFjH1MIxbCdqGZB9O8+EwWakZs3ZCbDS4IpRt79V1ig==
 
 escape-html@~1.0.3:
   version "1.0.3"
