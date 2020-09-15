@@ -41,10 +41,10 @@
   "id" : "mod-pubsub-1.3.0-SNAPSHOT.99",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-4.1.0-SNAPSHOT.193",
+  "id" : "mod-source-record-storage-4.1.0-SNAPSHOT.195",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.1.0-SNAPSHOT.290",
+  "id" : "mod-inventory-16.1.0-SNAPSHOT.291",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.9.0-SNAPSHOT.94",
