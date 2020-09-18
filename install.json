@@ -53,7 +53,7 @@
   "id" : "mod-patron-blocks-1.1.0-SNAPSHOT.30",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-2.9.1-SNAPSHOT.156",
+  "id" : "mod-notes-2.9.1-SNAPSHOT.157",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-19.1.0-SNAPSHOT.678",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-3.1.1000142",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.10001009",
+  "id" : "folio_inventory-5.0.10001010",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-4.0.100098",
