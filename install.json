@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-19.4.0-SNAPSHOT.475",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-4.0.100077",
+  "id" : "folio_calendar-4.0.100078",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-12.1.0-SNAPSHOT.257",
@@ -59,40 +59,40 @@
   "id" : "mod-circulation-19.1.0-SNAPSHOT.681",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-3.0.1000295",
+  "id" : "folio_checkin-3.0.1000296",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-4.0.1000459",
+  "id" : "folio_checkout-4.0.1000460",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-3.0.1000558",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-3.1.1000142",
+  "id" : "folio_developer-3.1.1000143",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.10001013",
+  "id" : "folio_inventory-5.0.10001014",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-4.0.100098",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-1.0.100028",
+  "id" : "folio_plugin-create-inventory-records-1.0.100029",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-4.0.100053",
+  "id" : "folio_plugin-find-instance-4.0.100054",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-4.0.1000121",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-4.0.1000550",
+  "id" : "folio_requests-4.0.1000551",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.8.1-SNAPSHOT.95",
   "action" : "enable"
 }, {
-  "id" : "folio_search-3.0.1000193",
+  "id" : "folio_search-3.0.1000194",
   "action" : "enable"
 }, {
   "id" : "folio_servicepoints-3.0.100073",
@@ -113,7 +113,7 @@
   "id" : "mod-tags-0.6.1-SNAPSHOT.49",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-5.0.1000832",
+  "id" : "folio_stripes-smart-components-5.0.1000833",
   "action" : "enable"
 }, {
   "id" : "folio_tags-3.0.100059",
@@ -125,7 +125,7 @@
   "id" : "folio_tenant-settings-4.0.1000136",
   "action" : "enable"
 }, {
-  "id" : "folio_users-5.0.10001240",
+  "id" : "folio_users-5.0.10001241",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.8.0-SNAPSHOT.80",
