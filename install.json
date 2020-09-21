@@ -71,7 +71,7 @@
   "id" : "folio_developer-3.1.1000142",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.10001012",
+  "id" : "folio_inventory-5.0.10001013",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-4.0.100098",
@@ -83,7 +83,7 @@
   "id" : "folio_plugin-find-instance-4.0.100053",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-4.0.1000120",
+  "id" : "folio_plugin-find-user-4.0.1000121",
   "action" : "enable"
 }, {
   "id" : "folio_requests-4.0.1000550",
@@ -125,7 +125,7 @@
   "id" : "folio_tenant-settings-4.0.1000136",
   "action" : "enable"
 }, {
-  "id" : "folio_users-5.0.10001239",
+  "id" : "folio_users-5.0.10001240",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.8.0-SNAPSHOT.80",
