@@ -1359,9 +1359,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~8.0.0":
-  version "8.0.10001179"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-8.0.10001179.tgz#64128230da465d9391868110ce75c6f1d5679ce2"
-  integrity sha512-NWDEPnN49yd2u5xPGuAqPwUClR5HZzXIVPpsjvXLLvv2U0c69VOUU6Zugi+vzixAUsvkxclt8proUjMEbc6oCQ==
+  version "8.0.10001180"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-8.0.10001180.tgz#92214aae3f8e1b08ca32e9761a575e3799427990"
+  integrity sha512-CEAvhnfSpm1pm820Ml1ycxh+MJuR33brbs5+HOFrmeoPDFxX+XaRp3gYb9mLBxndW4YklPYq+3o7iicVWEpkNg==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1551,9 +1551,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~5.0.0":
-  version "5.0.1000831"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.0.1000831.tgz#76027c106235e568f5c1fce81d624f90d10d34ea"
-  integrity sha512-VGrj0D+hSeOP3ZeE5pNDGO/iIUG364j03/IB/17X8dEomW+WAagx0O82mmI3eoMJNVMcm6khPvuBiTll7Ad9VQ==
+  version "5.0.1000832"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.0.1000832.tgz#c622b51b28f7a01435913d0b3b0b8debb35cd184"
+  integrity sha512-eEucrE/i6uh1bzJ8tv24LRNRyzWVWCQCh3O8lFUx+C2PnyiyNKRkGpa4HyaeT1c9SIuNrtGivnQnbJu7X/Plkg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@folio/stripes-components" "~8.0.0"
@@ -6822,9 +6822,9 @@ html-to-react@^1.3.3:
     ramda "^0.27"
 
 "html-webpack-plugin@>=4.0.0 || ^4.0.0-beta.11", html-webpack-plugin@^4.0.0-beta.10:
-  version "4.4.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/html-webpack-plugin/-/html-webpack-plugin-4.4.1.tgz#61ab85aa1a84ba181443345ebaead51abbb84149"
-  integrity sha512-nEtdEIsIGXdXGG7MjTTZlmhqhpHU9pJFc1OYxcP36c5/ZKP6b0BJMww2QTvJGQYA9aMxUnjDujpZdYcVOXiBCQ==
+  version "4.5.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/html-webpack-plugin/-/html-webpack-plugin-4.5.0.tgz#625097650886b97ea5dae331c320e3238f6c121c"
+  integrity sha512-MouoXEYSjTzCrjIxWwg8gxL5fE2X2WZJLmBYXlaJhQUH5K/b5OrqmV7T4dB7iu0xkmJ6JlUuV6fFVtnqbPopZw==
   dependencies:
     "@types/html-minifier-terser" "^5.0.0"
     "@types/tapable" "^1.0.5"
