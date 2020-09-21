@@ -1404,9 +1404,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0", "@folio/stripes-core@~6.0.0":
-  version "6.0.1000763"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-6.0.1000763.tgz#bb5d366301edb53f0b7f974e4ebbbd8bf54cd7e8"
-  integrity sha512-a6lPrImNwBtU11uONQJHPhy8L5gSL8izbTiVHrOUVCs8eKYQsJzVHVgY415DMz8mK8IUNSdSTI3dN1nbE1bDIw==
+  version "6.0.1000764"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-6.0.1000764.tgz#a8c0bd694e28787a16ae09d9c13a56c14a39aa3f"
+  integrity sha512-kk35svmicYZ26E+pv5NDXfGKAmmVm5F06V0HJeNOt0TWyKsE50l0u3vxe1NqDfT+wgzZhSVRMUikEDeZ5P0QFw==
   dependencies:
     "@babel/core" "^7.8.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
@@ -1457,6 +1457,7 @@
     hoist-non-react-statics "^3.3.0"
     html-webpack-plugin "^4.0.0-beta.10"
     jwt-decode "^2.2.0"
+    ky "^0.23.0"
     localforage "^1.5.6"
     lodash "^4.17.11"
     lodash-webpack-plugin "^0.11.5"
@@ -8128,6 +8129,11 @@ kopy@^8.2.3:
     majo "^0.5.1"
     micromatch "^3.1.10"
     path-exists "^3.0.0"
+
+ky@^0.23.0:
+  version "0.23.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ky/-/ky-0.23.0.tgz#54c2f3fa9003d591cb2f368384e6c84795a92e64"
+  integrity sha512-+t2CbQsLmpN3HeYPBxN+VbZqBOd86njF3cvnueC77pJKVHRjiMI0Ac+pfkB8e17Bw1dGHbMk9hrHst9Bw7ndgw==
 
 last-call-webpack-plugin@^3.0.0:
   version "3.0.0"
