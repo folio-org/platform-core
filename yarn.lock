@@ -1189,9 +1189,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-instance@>=1.1.0":
-  version "4.0.100054"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-4.0.100054.tgz#530f47e2a9fb54a8ac9d10224a20ca011cfe1f1d"
-  integrity sha512-ahbBeIF9v47ySlB+UEsWDU1TXd872jcSFMB89crNLINfW41BBcqNW9d7qCFIT418D4xuZtlDVoJIDaoQ9Oocvw==
+  version "4.0.100055"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-4.0.100055.tgz#e7806a9ca66e9baa1c02f633cbfb6e4f1ef9c245"
+  integrity sha512-/j1a1Fknsnz3UVd/B0+YaK6b7Z+kvYthqdSI2NBVhR877lKCcLMankanKnmvTOmEakoGm7kl8F7JDl3mNPsBxw==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
