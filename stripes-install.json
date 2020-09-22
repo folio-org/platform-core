@@ -8,7 +8,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkout-4.0.1000460",
+    "id": "folio_checkout-4.0.1000461",
     "action": "enable"
   },
   {
@@ -20,15 +20,15 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-5.0.10001015",
+    "id": "folio_inventory-5.0.10001016",
     "action": "enable"
   },
   {
-    "id": "folio_myprofile-4.0.100098",
+    "id": "folio_myprofile-4.0.100099",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-create-inventory-records-1.0.100029",
+    "id": "folio_plugin-create-inventory-records-1.0.100030",
     "action": "enable"
   },
   {
@@ -48,11 +48,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_servicepoints-3.0.100073",
+    "id": "folio_servicepoints-3.0.100074",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-6.0.1000764",
+    "id": "folio_stripes-core-6.0.1000765",
     "action": "enable"
   },
   {
