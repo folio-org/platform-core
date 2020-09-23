@@ -12,7 +12,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-users-17.1.1-SNAPSHOT.145",
+    "id": "mod-users-17.1.1-SNAPSHOT.146",
     "action": "enable"
   },
   {
@@ -52,7 +52,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-4.1.0-SNAPSHOT.200",
+    "id": "mod-source-record-storage-4.1.0-SNAPSHOT.201",
     "action": "enable"
   },
   {
@@ -60,7 +60,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-15.9.0-SNAPSHOT.94",
+    "id": "mod-feesfines-15.9.0-SNAPSHOT.95",
     "action": "enable"
   },
   {
@@ -88,7 +88,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-users-bl-6.1.0-SNAPSHOT.92",
+    "id": "mod-users-bl-6.1.0-SNAPSHOT.93",
     "action": "enable"
   },
   {
