@@ -41,7 +41,7 @@
   "id" : "mod-pubsub-1.3.0-SNAPSHOT.100",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-4.1.0-SNAPSHOT.201",
+  "id" : "mod-source-record-storage-4.1.0-SNAPSHOT.202",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-16.1.0-SNAPSHOT.291",
@@ -62,7 +62,7 @@
   "id" : "folio_checkin-3.0.1000296",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-4.0.1000461",
+  "id" : "folio_checkout-4.0.1000462",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-3.0.1000558",
@@ -128,6 +128,6 @@
   "id" : "folio_users-5.0.10001241",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-inventory-1.8.0-SNAPSHOT.80",
+  "id" : "mod-codex-inventory-1.8.0-SNAPSHOT.81",
   "action" : "enable"
 } ]
