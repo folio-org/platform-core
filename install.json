@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-4.1.0-SNAPSHOT.203",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.1.0-SNAPSHOT.291",
+  "id" : "mod-inventory-16.1.0-SNAPSHOT.292",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.9.0-SNAPSHOT.95",
@@ -56,7 +56,7 @@
   "id" : "mod-notes-2.9.1-SNAPSHOT.157",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.1.0-SNAPSHOT.685",
+  "id" : "mod-circulation-19.1.0-SNAPSHOT.686",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-3.0.1000296",
@@ -86,7 +86,7 @@
   "id" : "folio_plugin-find-user-4.0.1000123",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-4.0.1000552",
+  "id" : "folio_requests-4.0.1000553",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.8.1-SNAPSHOT.95",
