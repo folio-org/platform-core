@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-19.4.0-SNAPSHOT.476",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-4.0.100080",
+  "id" : "folio_calendar-4.0.100081",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-12.1.0-SNAPSHOT.257",
@@ -59,16 +59,16 @@
   "id" : "mod-circulation-19.1.0-SNAPSHOT.689",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-3.0.1000298",
+  "id" : "folio_checkin-3.0.1000299",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-4.0.1000463",
+  "id" : "folio_checkout-4.0.1000464",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-3.0.1000560",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-3.1.1000150",
+  "id" : "folio_developer-3.1.1000151",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-5.0.10001022",
@@ -77,13 +77,13 @@
   "id" : "folio_myprofile-4.0.1000100",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-1.0.100031",
+  "id" : "folio_plugin-create-inventory-records-1.0.100032",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-4.0.100056",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-4.0.1000123",
+  "id" : "folio_plugin-find-user-4.0.1000124",
   "action" : "enable"
 }, {
   "id" : "folio_requests-4.0.1000553",
