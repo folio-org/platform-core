@@ -30,7 +30,7 @@
     "@folio/requests": "3.0.7",
     "@folio/search": "3.0.0",
     "@folio/servicepoints": "3.0.0",
-    "@folio/stripes": "4.1.4",
+    "@folio/stripes": "4.1.5",
     "@folio/tags": "3.0.0",
     "@folio/tenant-settings": "4.0.0",
     "@folio/users": "4.0.7",
