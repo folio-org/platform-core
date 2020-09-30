@@ -1379,9 +1379,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~8.0.0":
-  version "8.0.10001188"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-8.0.10001188.tgz#558df0da9b351fdd53e08304965c090ec0cd303d"
-  integrity sha512-iR8qXd9StT1lLd6AU7TkwDNDoTmh4cmS6umByVsYjc7qjm2+clBLrIlSNPztFC7HMtHfQlcOV47ZWaC0FDe6JA==
+  version "8.0.10001189"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-8.0.10001189.tgz#00d7efe54871c6997cf2b7448ce4ff91b4697430"
+  integrity sha512-LW/egAotQ8dlvR1YCEOpAoB/QQGea2dLHWeNibO5TnIZUzrG/4TCXlZYGTIYC8/j1JGDU4Ra3rBTilymvvfYcw==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -12449,9 +12449,9 @@ symbol-observable@^1.0.3, symbol-observable@^1.0.4, symbol-observable@^1.2.0:
   integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
 
 symbol-observable@^2.0.0:
-  version "2.0.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/symbol-observable/-/symbol-observable-2.0.2.tgz#735850c95ec37778dbad1090b8d791ef6f77e1af"
-  integrity sha512-cYdTSAm+IDlOeRK1Bx4Sz+WIAokT0SQT+jst9NEjbjPQCrCtoSvihFBlDtUqJieYXZogq1QwNUKWRXZdK8PAOA==
+  version "2.0.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/symbol-observable/-/symbol-observable-2.0.3.tgz#5b521d3d07a43c351055fa43b8355b62d33fd16a"
+  integrity sha512-sQV7phh2WCYAn81oAkakC5qjq2Ml0g8ozqz03wOGnx9dDlG1de6yrF+0RAzSJD8fPUow3PTSMf2SAbOGxb93BA==
 
 table@^5.2.3:
   version "5.4.6"
