@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-4.1.0-SNAPSHOT.207",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.1.0-SNAPSHOT.296",
+  "id" : "mod-inventory-16.1.0-SNAPSHOT.297",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.9.0-SNAPSHOT.98",
@@ -125,7 +125,7 @@
   "id" : "folio_tenant-settings-4.0.1000138",
   "action" : "enable"
 }, {
-  "id" : "folio_users-5.0.10001247",
+  "id" : "folio_users-5.0.10001248",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.8.0-SNAPSHOT.81",
