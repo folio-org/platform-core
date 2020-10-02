@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-4.1.0-SNAPSHOT.207",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.1.0-SNAPSHOT.294",
+  "id" : "mod-inventory-16.1.0-SNAPSHOT.295",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.9.0-SNAPSHOT.98",
@@ -56,7 +56,7 @@
   "id" : "mod-notes-2.9.1-SNAPSHOT.157",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.1.0-SNAPSHOT.690",
+  "id" : "mod-circulation-19.1.0-SNAPSHOT.691",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-3.0.1000299",
