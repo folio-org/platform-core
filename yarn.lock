@@ -1655,9 +1655,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "5.0.10001248"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001248.tgz#70bd3fc442c08be505c13bb5ffe2450d171d45ee"
-  integrity sha512-2v6FYlzRhH5zIUaJVTGurRJ6meQMPFWpxhoYWluTRfG3DHI6j+cZjq/bqA2cFV75LZg9T24Ap8J1pyMngedtvw==
+  version "5.0.10001249"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001249.tgz#1f24d17e30d6be6d9023dd3c73abb08761b64b22"
+  integrity sha512-wRINfTVrj2r8Z2ar17pnnGfXtjqHmF8oYOPbB6AUPvLjvylCXLdsIPCz1KQ1fUygvF8EPrXdRv+xzB0YeEGoiw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form-set-field-data "^1.0.2"
@@ -2106,9 +2106,9 @@
     universal-user-agent "^5.0.0"
 
 "@octokit/endpoint@^6.0.1":
-  version "6.0.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/endpoint/-/endpoint-6.0.6.tgz#4f09f2b468976b444742a1d5069f6fa45826d999"
-  integrity sha512-7Cc8olaCoL/mtquB7j/HTbPM+sY6Ebr4k2X2y4JoXpVKQ7r5xB4iGQE0IoO58wIPsUk4AzoT65AMEpymSbWTgQ==
+  version "6.0.8"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/endpoint/-/endpoint-6.0.8.tgz#91b07e236fdb69929c678c6439f7a560dc6058ac"
+  integrity sha512-MuRrgv+bM4Q+e9uEvxAB/Kf+Sj0O2JAOBA131uo1o6lgdq1iS8ejKwtqHgdfY91V3rN9R/hdGKFiQYMzVzVBEQ==
   dependencies:
     "@octokit/types" "^5.0.0"
     is-plain-object "^5.0.0"
