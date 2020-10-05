@@ -1161,9 +1161,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.10001032"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001032.tgz#6ad3bcb4b89164596a06f30d67563027ae1a6247"
-  integrity sha512-jeuhM2GnP86DpCsTywtS+cO0XXDThKtD1ItpWUr7A532GaGoiYGNedmUDXZ9Pz+PSNnV0UEt7Y+LORd9WI3G0g==
+  version "5.0.10001033"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001033.tgz#2434479b45c32e720540ff17bb4c3bcf10c5cebe"
+  integrity sha512-gWS7bdcMddMhO0K5B6w8nlA3dQKt8OujTL88g3VqbqluUrlp4V9IztN8fTjcaUOYWPB7BUxwoHfdsXrEtICu0g==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
@@ -1310,9 +1310,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.1.2000349"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.1.2000349.tgz#92efd44af46b30bba2b09a99e790e6f8f5dfad3d"
-  integrity sha512-FsFviOFpM24GrIRbBXwDB1PwVY5y2m0cKi0bH4nW1O4UUPz4Eawt3fneUfCtRbsmiG6n4+7Ky7UxK/kuCv1hZg==
+  version "2.1.2000350"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.1.2000350.tgz#e194daecaf507937d4dcb9df933f6fa03aaf0c64"
+  integrity sha512-yNo4//4w62RRTqmZ8UJCX5ipgMmnB4mMUgK7RTQpGr5Le7t188fuCNAIcUorZnfWkMmrS1+dMLnM3EDAZgVXBw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@rehooks/local-storage" "^2.4.0"
@@ -2278,9 +2278,9 @@
   integrity sha512-3c+yGKvVP5Y9TYBEibGNR+kLtijnj7mYrXRg+WpFb2X9xm04g/DXYkfg4hmzJQosc9snFNUPkbYIhu+KAm6jJw==
 
 "@types/node@*", "@types/node@>= 8":
-  version "14.11.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-14.11.2.tgz#2de1ed6670439387da1c9f549a2ade2b0a799256"
-  integrity sha512-jiE3QIxJ8JLNcb1Ps6rDbysDhN4xa8DJJvuC9prr6w+1tIh+QAbYyNF3tyiZNLDBIuBCf4KEcV2UvQm/V60xfA==
+  version "14.11.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-14.11.3.tgz#e66274f2e16ea6334f4e29d364165ad079069e41"
+  integrity sha512-tPQAF6b1wak7rBO49tL2N5nNVknyHBAzJVylF5rIYkfXbFkrNpbBLFMFUjxHzuuBiR7Si7T/X4eh6IRhZxO1tQ==
 
 "@types/node@^8.0.24":
   version "8.10.64"
