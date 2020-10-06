@@ -32,7 +32,7 @@
   "id" : "mod-notify-2.7.0-SNAPSHOT.99",
   "action" : "enable"
 }, {
-  "id" : "mod-login-7.1.0-SNAPSHOT.85",
+  "id" : "mod-login-7.2.0-SNAPSHOT.86",
   "action" : "enable"
 }, {
   "id" : "mod-permissions-5.12.0-SNAPSHOT.91",
@@ -56,7 +56,7 @@
   "id" : "mod-notes-2.10.1-SNAPSHOT.158",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.1.0-SNAPSHOT.693",
+  "id" : "mod-circulation-19.1.0-SNAPSHOT.694",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-3.0.1000301",
