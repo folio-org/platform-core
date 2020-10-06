@@ -4,11 +4,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-19.4.0-SNAPSHOT.481",
+    "id": "mod-inventory-storage-19.4.0-SNAPSHOT.482",
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-12.1.0-SNAPSHOT.257",
+    "id": "mod-circulation-storage-12.1.0",
     "action": "enable"
   },
   {
@@ -56,11 +56,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-16.1.0-SNAPSHOT.299",
+    "id": "mod-inventory-16.1.0-SNAPSHOT.301",
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-15.9.0-SNAPSHOT.99",
+    "id": "mod-feesfines-15.9.0-SNAPSHOT.100",
     "action": "enable"
   },
   {
