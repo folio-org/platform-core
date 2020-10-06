@@ -11,7 +11,7 @@
   "id" : "mod-circulation-storage-12.1.0-SNAPSHOT.257",
   "action" : "enable"
 }, {
-  "id" : "mod-users-17.2.0-SNAPSHOT.149",
+  "id" : "mod-users-17.3.0-SNAPSHOT.150",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-1.6.0-SNAPSHOT.41",
@@ -41,7 +41,7 @@
   "id" : "mod-pubsub-1.4.0-SNAPSHOT.107",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-4.1.0-SNAPSHOT.209",
+  "id" : "mod-source-record-storage-4.1.0-SNAPSHOT.210",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-16.1.0-SNAPSHOT.299",
