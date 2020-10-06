@@ -1423,9 +1423,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0", "@folio/stripes-core@~6.0.0":
-  version "6.0.1000776"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-6.0.1000776.tgz#b414872cf598d3c135fcaff09cf8bccd35ad8e61"
-  integrity sha512-Fe2gSPDp6AkgX0u4ZcUsEtrDLAw8g7r1W4KsB3fR+Uo2ABgn1DffV9iMQqslXwvdAvjd51JeFEdLpSKScjxC9A==
+  version "6.0.1000777"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-6.0.1000777.tgz#ca9fc9a953b2962678e63f6f280e364ab38a89b5"
+  integrity sha512-WU0dAnzUTngS1NozdkPRrO6lImj350/yS0jIuN9B80c0val+WPJLIi2iC/jSRfTRzI3veTojRon7bQflCqeFQQ==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@babel/core" "^7.8.0"
@@ -1444,7 +1444,6 @@
     "@bigtest/mirage" "^0.0.1"
     "@folio/stripes-components" "~8.0.0"
     "@folio/stripes-connect" "~6.0.0"
-    "@folio/stripes-final-form" "~4.0.0"
     "@folio/stripes-logger" "~1.0.0"
     "@formatjs/intl-displaynames" "^2.2.3"
     "@formatjs/intl-pluralrules" "^2.2.1"
