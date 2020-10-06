@@ -1161,9 +1161,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.10001033"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001033.tgz#2434479b45c32e720540ff17bb4c3bcf10c5cebe"
-  integrity sha512-gWS7bdcMddMhO0K5B6w8nlA3dQKt8OujTL88g3VqbqluUrlp4V9IztN8fTjcaUOYWPB7BUxwoHfdsXrEtICu0g==
+  version "5.0.10001034"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001034.tgz#9f1dcb2b4a94e7c5c90e62483f6edfc283f68181"
+  integrity sha512-WTwkIlGsvrwkowF6Q8k7Q6OCLfDtdyQQEuKm0FDc0zRk6BijrmxMBiilJ1m3OAdtIdMGWFwjTOvW/DYh7mPyCA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
@@ -1310,9 +1310,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.1.2000351"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.1.2000351.tgz#a64e1231826d918d839e83a3e6533e973c52afa8"
-  integrity sha512-OG+1HdufaUvM/jKKUXBKHBXGsMBRVuwBpBfzVStHlHJwYPqmS1MBLgPKFTsjxWWe7D5mMzRC/Ek2c38cuZElmA==
+  version "2.1.2000352"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.1.2000352.tgz#1a514942bbe331edbcb26938a6e473df9f403958"
+  integrity sha512-VR3DBEH8YWS+LrQe0gjbFRYohPVWfjWZkMgzkczAu27ZqAfN9gkDnMhHYv2OoUcW1YrHXJ+vyMWD7LR4Qe6VbA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@rehooks/local-storage" "^2.4.0"
@@ -1525,9 +1525,9 @@
     webpack-virtual-modules "^0.1.10"
 
 "@folio/stripes-final-form@~4.0.0":
-  version "4.0.100053"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-4.0.100053.tgz#85fcb29cd158098e2a40fe4ffe5dcb4d1a8334b5"
-  integrity sha512-blbmE+CRj7O+VykJyiBjOyMmxkVohal8bE8MWwVGf9U4nLPU4jNBo3aHHJUwhoqfbB1rpfzwtvbslVKfuyj1iQ==
+  version "4.0.100054"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-4.0.100054.tgz#aadf533adf46379ae45d70bd036f16e091afbaf0"
+  integrity sha512-JA5w2dbYKYbNGHBQjGrLVUsa1iPLnmGLeFDKbqhU5tju1OeXGGYzhgMFMBt7mhEjqbFs8Fti9GqTvxBFbLqW/A==
   dependencies:
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
@@ -1538,9 +1538,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/stripes-form@~5.0.0":
-  version "5.0.1000101"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-5.0.1000101.tgz#eff3d68c921d79641011cd7b464513148741fe3c"
-  integrity sha512-uPv0jC8tYAuKjVFbK9O+TKIDCR+8A4GSNLZDpKPwJkuGVhR+Pl3q4q+g6Ha9x0OfyaYV6XmMUamNijISwVu9SQ==
+  version "5.0.1000102"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-5.0.1000102.tgz#1dd3431480a553ab447231ead6742d1c705697cf"
+  integrity sha512-0KBTxdbTC1o29onojAQhdBkfR3GAaqaMjl6Vsi8UsG+t+YJgIeyLovNKkRgKvDHGi8tOe08G+Yqpw4QAglUJ+Q==
   dependencies:
     flat "^4.0.0"
     prop-types "^15.5.10"
@@ -12764,14 +12764,14 @@ ts-invariant@^0.4.4:
     tslib "^1.9.3"
 
 tslib@^1.10.0, tslib@^1.9.0, tslib@^1.9.3:
-  version "1.13.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
-  integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
+  version "1.14.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/tslib/-/tslib-1.14.0.tgz#d624983f3e2c5e0b55307c3dd6c86acd737622c6"
+  integrity sha512-+Zw5lu0D9tvBMjGP8LpvMb0u2WW2QV3y+D8mO6J+cNzCYIN4sVy43Bf9vl92nqFahutN0I8zHa7cc4vihIshnw==
 
 tslib@^2.0.1:
-  version "2.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/tslib/-/tslib-2.0.1.tgz#410eb0d113e5b6356490eec749603725b021b43e"
-  integrity sha512-SgIkNheinmEBgx1IUNirK0TUD4X9yjjBRTqqjggWCU3pUEqIk3/Uwl3yRixYKT6WjQuGiwDv4NomL3wqRCj+CQ==
+  version "2.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/tslib/-/tslib-2.0.2.tgz#462295631185db44b21b1ea3615b63cd1c038242"
+  integrity sha512-wAH28hcEKwna96/UacuWaVspVLkg4x1aDM9JlzqaQTOFczCktkVAb5fmXChgandR1EraDPs2w8P+ozM+oafwxg==
 
 tty-browserify@0.0.0:
   version "0.0.0"
