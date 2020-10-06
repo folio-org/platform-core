@@ -1562,9 +1562,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~5.0.0":
-  version "5.0.1000843"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.0.1000843.tgz#acc5a90d4fb38ce2cc4084c867c887865b8ba60a"
-  integrity sha512-rand3kfnGw7J19ziuYuWtJ1/3v+BaOMiBdTrK4S3rcw4v+Zex2sf2K4afPxZRtUNqphoM/JSqrigllpOkwGREQ==
+  version "5.0.1000844"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.0.1000844.tgz#9a7e6ae43d41285a7159493de4d7cd3b78028037"
+  integrity sha512-nsATcijBuM3A+jb0T5XoPRjOXsZlN8x+2yDoUo0JctmYCYrkI35cPOURYQ22C0koyemBfoRxYlEly/RTFGS+VQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@rehooks/local-storage" "^2.3.0"
@@ -2231,9 +2231,9 @@
     "@sinonjs/samsam" "^5.0.2"
 
 "@sinonjs/samsam@^5.0.2", "@sinonjs/samsam@^5.1.0":
-  version "5.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@sinonjs/samsam/-/samsam-5.1.0.tgz#3afe719232b541bb6cf3411a4c399a188de21ec0"
-  integrity sha512-42nyaQOVunX5Pm6GRJobmzbS7iLI+fhERITnETXzzwDZh+TtDr/Au3yAvXVjFmZ4wEUaE4Y3NFZfKv0bV0cbtg==
+  version "5.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@sinonjs/samsam/-/samsam-5.2.0.tgz#fcff83ab86f83b5498f4a967869c079408d9b5eb"
+  integrity sha512-CaIcyX5cDsjcW/ab7HposFWzV1kC++4HNsfnEdFJa7cP1QIuILAKV+BgfeqRXhcnSAc76r/Rh/O5C+300BwUIw==
   dependencies:
     "@sinonjs/commons" "^1.6.0"
     lodash.get "^4.4.2"
