@@ -1101,9 +1101,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "4.0.1000464"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-4.0.1000464.tgz#5592cd07865e2ae63fb1d7a8aea94eae4fea0894"
-  integrity sha512-7/h1N6CkO8deqwrbNjpdHk6yVo4ztuwgNqfyvrMsw4X44jpmAYuC/owazz738c/JGVO+GBUoxv0RFEYVVZRgjQ==
+  version "4.0.1000465"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-4.0.1000465.tgz#870d984c6b87a851e144484be1783e0e513a5261"
+  integrity sha512-2KZ8Hn1D0stz+24ldEQ82RnIVCJ2eaqDPs0oNTuSRGBPJN/gwbY76xqYjrz4ICY7WYQklTznB/q39I8aOQJQqA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.19.1"
@@ -1272,9 +1272,9 @@
   integrity sha512-2kIZnD27IRQgZPqtXpAZt1oWc1Vb4UbilF7yHFDURRPl1JBpN6bnua9Hku1Ps9TcwUjhDwCnZZyKCaqxjBP+Eg==
 
 "@folio/requests@>=1.4.1":
-  version "4.0.1000556"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-4.0.1000556.tgz#f368b7e9c63d28d346baf9b782ee4d7d26a68f54"
-  integrity sha512-j5Y1KVE3XRfvF+vNMrCGfbmQGSiurGwyxuOtWEw/0LE6uyKdwGYivaCTWpBGwK9R3rKs/aLWU4CfKo3YUpJLjg==
+  version "4.0.1000557"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-4.0.1000557.tgz#4ac0c48ff1c6336a96f3e17fb20692fb23dccdc0"
+  integrity sha512-Zq45HdY0QD50jETHPelfGbxu+ZUJZzPgKl72u/mk5sw/i3KdPPp1H9Ts1vvJFTRnV2hC859txzap+dd8NMk6DA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     html-to-react "^1.3.3"
