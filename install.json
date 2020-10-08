@@ -11,7 +11,7 @@
   "id" : "mod-circulation-storage-12.2.0-SNAPSHOT.258",
   "action" : "enable"
 }, {
-  "id" : "mod-users-17.3.0-SNAPSHOT.150",
+  "id" : "mod-users-17.3.0-SNAPSHOT.151",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-1.6.0-SNAPSHOT.41",
@@ -62,7 +62,7 @@
   "id" : "folio_checkin-3.0.1000301",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-4.0.1000465",
+  "id" : "folio_checkout-4.0.1000466",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-3.0.1000564",
