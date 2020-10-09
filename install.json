@@ -20,7 +20,7 @@
   "id" : "mod-configuration-5.5.0-SNAPSHOT.81",
   "action" : "enable"
 }, {
-  "id" : "mod-template-engine-1.10.0",
+  "id" : "mod-template-engine-1.11.0-SNAPSHOT.63",
   "action" : "enable"
 }, {
   "id" : "mod-email-1.10.0-SNAPSHOT.47",
@@ -29,7 +29,7 @@
   "id" : "mod-sender-1.5.0-SNAPSHOT.26",
   "action" : "enable"
 }, {
-  "id" : "mod-notify-2.7.0-SNAPSHOT.99",
+  "id" : "mod-notify-2.8.0-SNAPSHOT.100",
   "action" : "enable"
 }, {
   "id" : "mod-login-7.2.0-SNAPSHOT.86",
