@@ -16,7 +16,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-event-config-1.6.0-SNAPSHOT.41",
+    "id": "mod-event-config-1.7.0-SNAPSHOT.42",
     "action": "enable"
   },
   {
@@ -24,7 +24,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-template-engine-1.10.0-SNAPSHOT.62",
+    "id": "mod-template-engine-1.10.0",
     "action": "enable"
   },
   {
@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-19.2.0-SNAPSHOT.701",
+    "id": "mod-circulation-19.2.0-SNAPSHOT.702",
     "action": "enable"
   },
   {

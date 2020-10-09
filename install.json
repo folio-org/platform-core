@@ -14,13 +14,13 @@
   "id" : "mod-users-17.3.0-SNAPSHOT.151",
   "action" : "enable"
 }, {
-  "id" : "mod-event-config-1.6.0-SNAPSHOT.41",
+  "id" : "mod-event-config-1.7.0-SNAPSHOT.42",
   "action" : "enable"
 }, {
   "id" : "mod-configuration-5.5.0-SNAPSHOT.81",
   "action" : "enable"
 }, {
-  "id" : "mod-template-engine-1.10.0-SNAPSHOT.62",
+  "id" : "mod-template-engine-1.10.0",
   "action" : "enable"
 }, {
   "id" : "mod-email-1.10.0-SNAPSHOT.47",
@@ -56,7 +56,7 @@
   "id" : "mod-notes-2.10.1-SNAPSHOT.158",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.2.0-SNAPSHOT.701",
+  "id" : "mod-circulation-19.2.0-SNAPSHOT.702",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-4.0.1000303",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-3.1.1000155",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.10001042",
+  "id" : "folio_inventory-5.0.10001043",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-4.0.1000101",
