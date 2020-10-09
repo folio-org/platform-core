@@ -8,7 +8,7 @@
   "id" : "folio_calendar-5.0.100082",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-12.2.0-SNAPSHOT.258",
+  "id" : "mod-circulation-storage-12.2.0-SNAPSHOT.259",
   "action" : "enable"
 }, {
   "id" : "mod-users-17.3.0-SNAPSHOT.151",
@@ -56,7 +56,7 @@
   "id" : "mod-notes-2.10.1-SNAPSHOT.158",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.1.0-SNAPSHOT.699",
+  "id" : "mod-circulation-19.2.0-SNAPSHOT.700",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-4.0.1000303",
