@@ -68,7 +68,7 @@
   "id" : "folio_circulation-3.0.1000564",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-3.1.1000154",
+  "id" : "folio_developer-3.1.1000155",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-5.0.10001042",
@@ -83,7 +83,7 @@
   "id" : "folio_plugin-find-instance-4.0.100056",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-4.0.1000124",
+  "id" : "folio_plugin-find-user-4.0.1000125",
   "action" : "enable"
 }, {
   "id" : "folio_requests-4.0.1000558",
