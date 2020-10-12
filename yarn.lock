@@ -1101,9 +1101,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "4.0.1000466"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-4.0.1000466.tgz#b9adff41e60ac2e9ede3b158c0d6f98481cd2229"
-  integrity sha512-Bm2nqrYOHz6VkxOc/u1868vssCSV+8MLaFgxL+/7eY+Qq/ZJ/zZZ/kJhGLkpuLg84Zy9leq2QDqD7wJ4vPZ82Q==
+  version "5.0.1000467"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-5.0.1000467.tgz#bf7e29c68e73a7c3a5ff024510626b4681f7ea2e"
+  integrity sha512-pGgwLZG8hp5ftsK/tGG08wW11ex6WJjTz88hwi+7PmflrraU4czs0jMI1c/Ofde4yD/2vRzFEqeRAgO5sUCHcw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.19.1"
@@ -1161,9 +1161,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.10001046"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001046.tgz#1a9e4470bcc063878903878240c7dc8b23519e5f"
-  integrity sha512-e86kM3SMLAY6YMQRt5ZQhS5qfNDR0vm6tVqxjIDMchLeK7tEnww95ATBUqmTtXAR9OeGh3ZH2/hZLqoAy9z8xg==
+  version "5.0.10001047"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001047.tgz#2a57e6f3e99411c25e73cb7c904edaefbe86002c"
+  integrity sha512-koMzjKpdkIOWrpdenLdvRUIqCwBJvIhrckOf7XoLPBT2OgKe+/is9Oj48BguYso1GkBKYJzbXwtMIYPMeMoapw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     file-saver "^2.0.0"
