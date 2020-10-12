@@ -1187,9 +1187,9 @@
     "@folio/quick-marc" "^1.0.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "4.0.1000101"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-4.0.1000101.tgz#0b8dfaa0154c77bdde8981e6fff187a502ec62a8"
-  integrity sha512-3U9B75qQbzSuWdk7a41/3DqKMAIg/oumbUEN7Tkp35eLtf0V0MfrN1TuGJjCN3FzciCB1ui9oqAjrLkQDt7ccg==
+  version "4.0.1000102"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-4.0.1000102.tgz#bf3a88e51ec06d6634f4f0905d6d756808547464"
+  integrity sha512-lqNIGkdgGpy/RLMzt3hYnvtI9MezsRJnTvD3ISnW6vMRTcoRD2JyHrxvCu/ZLnbXayIIFUf/VhlgHuMSP/46MA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     prop-types "^15.6.0"
