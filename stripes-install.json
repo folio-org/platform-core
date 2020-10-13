@@ -16,7 +16,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_developer-4.0.1000158",
+    "id": "folio_developer-4.0.1000159",
     "action": "enable"
   },
   {
@@ -24,7 +24,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_myprofile-4.0.1000102",
+    "id": "folio_myprofile-4.0.1000103",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-4.0.1000559",
+    "id": "folio_requests-4.0.1000560",
     "action": "enable"
   },
   {
@@ -64,11 +64,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-4.0.1000141",
+    "id": "folio_tenant-settings-4.0.1000142",
     "action": "enable"
   },
   {
-    "id": "folio_users-5.0.10001262",
+    "id": "folio_users-5.0.10001263",
     "action": "enable"
   }
 ]
