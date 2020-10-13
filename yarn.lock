@@ -1293,9 +1293,9 @@
     "@folio/plugin-find-user" "^3.0.0"
 
 "@folio/search@>=1.3.0":
-  version "3.0.1000196"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-3.0.1000196.tgz#7211ef8844504c1ca82e77657df37b420756c496"
-  integrity sha512-O1O9uAh+69dW94i/F06JxgyM1tZBWCaAxABHBP0EeCwbbllCb5QUE2fHdEKT3KssByLbX3LvenxAkXp5EEk5eA==
+  version "3.1.1000197"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-3.1.1000197.tgz#f9aab1a5112c469a8157335caf1054e24d996c37"
+  integrity sha512-8vDfgxy95lQVE7g7GvnUMHLrw4HWo9JE2ZyAPkcPnzn57JpZ/JLZT0ZRCGOaW0kH7eJ3UR9OgJPxsQ4oJq8WqA==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
@@ -1657,9 +1657,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "5.0.10001260"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001260.tgz#d7e6a40a56ad6bd215558e8c979fc77e0a4a3e20"
-  integrity sha512-sw+pGDBGUCwIhK9aGdXw7N67Vo5KIgvEwKDzXyZ/CAvYBqianSqusokUU4cvveHRoC1BUp45FaGCbb8QgkinVA==
+  version "5.0.10001261"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001261.tgz#4d6d9bd882fb96b6b3351a09bbf6d23352740b8b"
+  integrity sha512-wVSEg8vkCl1znzvo/Hi2BM3VpkTM/48eVXMl4S6E6es2fnNRYJAbYNelQ6CoV2hlzZPBwNSWTEa9gjOJcp9/mQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form-set-field-data "^1.0.2"
