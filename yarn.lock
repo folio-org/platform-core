@@ -1163,9 +1163,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.10001049"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001049.tgz#39ba4f9a82be8436e9369f1bab8a92bec54e98c2"
-  integrity sha512-AFnCSTozUrZ+PR5AlGw6ImdTVxZgmuYzx5TODpsFABqmZBQOJnw8s9OGOKdU4fLvOW78DNNRUps7onHlY8/dCQ==
+  version "5.0.10001050"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001050.tgz#a208ed9ee5eda64809b267fb310e6c762e3ca0fe"
+  integrity sha512-ifGA7V7cEPz322YgPaRkDKtIubgaTX0jcsaAQug+mzk/k8DvQVNFKeRQJPgWJorjLG5B2XgaRyx5tk8eVgrm8g==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     file-saver "^2.0.0"
@@ -1185,8 +1185,8 @@
     redux-form "^7.0.3"
   optionalDependencies:
     "@folio/plugin-create-inventory-records" "^1.0.0"
-    "@folio/plugin-find-instance" "^3.0.0"
-    "@folio/quick-marc" "^1.0.0"
+    "@folio/plugin-find-instance" "^4.0.0"
+    "@folio/quick-marc" "^2.0.0"
 
 "@folio/myprofile@>=1.1.0":
   version "4.0.1000103"
@@ -1211,20 +1211,10 @@
     react-final-form-arrays "^3.1.0"
     react-final-form-listeners "^1.0.2"
 
-"@folio/plugin-find-instance@>=1.1.0":
+"@folio/plugin-find-instance@>=1.1.0", "@folio/plugin-find-instance@^4.0.0":
   version "4.0.100056"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-4.0.100056.tgz#9c3352571e5ddcad5f3326c2eb5ad13afb180389"
   integrity sha512-wqQcBbXGqn7SdTcQM7inN23vgokZYGhu6yLy6S9y3odXWI95rhWz0436m9USx6bD8uQu52KLJhGYcSm/86iZRg==
-  dependencies:
-    classnames "^2.2.6"
-    lodash "^4.17.11"
-    prop-types "^15.6.0"
-    sinon "^9.0.2"
-
-"@folio/plugin-find-instance@^3.0.0":
-  version "3.0.100052"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-3.0.100052.tgz#62d9db8feb7d3a72d512fe294f528d044cda7558"
-  integrity sha512-ZRazArlytaGX0IYpm9dI4uMchkqwl6He3+4omOk7oD8MruKMyQzhABF4yE9QpuCKkwQBjt31YvXWaehcm+yIzQ==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
@@ -1251,10 +1241,10 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/quick-marc@^1.0.0":
-  version "1.1.100091"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-1.1.100091.tgz#e40012160217e22b7eae91401f8d517dd2689852"
-  integrity sha512-br7/1oR0vae+BmvF9a5EOYSDUcakHV4+cEd54rnyAdNM49gKVoF3ti0ZH7YlmjwpUtFP9vZLfqeymSIiDq/skA==
+"@folio/quick-marc@^2.0.0":
+  version "2.0.100092"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.100092.tgz#40807b19b26300854fdca78cd56832aa9212d339"
+  integrity sha512-RMrTa4hlE0aSWb7c5Dl64qOxYqgkeVaw0KqFEoeyr5wIBLf3HRw8MBhg0e93Br5xOWVIs8EdaRmOcE6UwfydxA==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -5015,9 +5005,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.571:
-  version "1.3.580"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.580.tgz#eb27873cfa012c43c53c9e9129038b8fd7cb964f"
-  integrity sha512-5flHTbRpptO6h3lQUG4zdSAxryAS3PrZOkLpLS0DL5/y2LBf+l9HJ8X6UBorNs1QRBrMR7u/QvkdK+GlekW1kQ==
+  version "1.3.581"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.581.tgz#7f796fe92cdc18f5013769dc6f45f4536315a183"
+  integrity sha512-ALORbI23YkYJoVJWusSdmTq8vXH3TLFzniILE47uZkZOim135ZhoTCM7QlIuvmK78As5kLdANfy7kDIQvJ+iPw==
 
 electron@^2.0.18:
   version "2.0.18"
