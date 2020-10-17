@@ -10960,9 +10960,9 @@ react-titled@^1.0.0:
     prop-types "^15.5.8"
 
 react-to-print@^2.3.2, react-to-print@^2.9.0:
-  version "2.10.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-to-print/-/react-to-print-2.10.2.tgz#6a570f765ce31c49bcaacd2b12dbc3b3c98f66b3"
-  integrity sha512-/s/q/sJMaKgLDpQTt093Yz0AERIfmGo6fcxmqryT6tnOaf0XklYKDQdQnfhQ89xL6NNb+xoWNiVxtmkBj3Uz8w==
+  version "2.10.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-to-print/-/react-to-print-2.10.3.tgz#397276d04baa6cb50b61b1d08a91d3bb318efe58"
+  integrity sha512-kRRWpMz34s4lqulHVGokQBf8jvfgBzBeyE6duoKgyEyPnPPnvb6HY6o1J/SME5nqpE1iBr6JEWTJBQ2dFBxd9w==
   dependencies:
     prop-types "^15.7.2"
 
