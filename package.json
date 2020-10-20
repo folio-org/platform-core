@@ -1,6 +1,6 @@
 {
   "name": "@folio/platform-core",
-  "version": "4.5.0",
+  "version": "4.6.0",
   "license": "Apache-2.0",
   "repository": "folio-org/platform-core",
   "publishConfig": {
@@ -18,41 +18,43 @@
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
-    "@folio/calendar": "4.0.1",
-    "@folio/checkin": "3.0.2",
-    "@folio/checkout": "4.0.3",
-    "@folio/circulation": "3.0.2",
-    "@folio/developer": "3.0.0",
-    "@folio/inventory": "4.0.3",
-    "@folio/myprofile": "3.0.0",
-    "@folio/plugin-find-instance": "3.0.0",
-    "@folio/plugin-find-user": "3.0.1",
-    "@folio/requests": "3.0.7",
+    "@folio/calendar": "5.0.0",
+    "@folio/checkin": "4.0.0",
+    "@folio/checkout": "5.0.0",
+    "@folio/circulation": "4.0.0",
+    "@folio/developer": "4.0.0",
+    "@folio/inventory": "5.0.1",
+    "@folio/myprofile": "4.0.1",
+    "@folio/plugin-create-inventory-records": "1.0.0",
+    "@folio/plugin-find-instance": "4.0.0",
+    "@folio/plugin-find-user": "4.0.0",
+    "@folio/requests": "4.0.1",
     "@folio/search": "3.1.0",
-    "@folio/servicepoints": "3.0.0",
-    "@folio/stripes": "4.1.5",
-    "@folio/tags": "3.0.0",
-    "@folio/tenant-settings": "4.0.0",
-    "@folio/users": "4.0.7",
-    "moment": "~2.25.3",
+    "@folio/servicepoints": "4.0.1",
+    "@folio/stripes": "5.0.0",
+    "@folio/tags": "4.0.0",
+    "@folio/tenant-settings": "5.0.0",
+    "@folio/users": "5.0.1",
+    "moment": "~2.29.0",
     "react": "~16.13.1",
     "react-dom": "~16.13.1",
-    "react-intl": "^4.5.3",
+    "react-intl": "^5.7.0",
     "react-redux": "^5.1.1",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "redux": "^3.7.2"
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^5.0.0",
-    "@folio/stripes-cli": "^1.16.0",
+    "@folio/stripes-cli": "^1.19.0",
     "eslint": "^6.2.1",
     "lodash": "^4.17.5"
   },
   "resolutions": {
     "react-hot-loader": "4.8.8",
+    "@folio/react-intl-safe-html": "3.0.0",
     "rxjs": "^5.4.3",
     "minimist": "^1.2.3",
-    "moment": "2.25.3"
+    "moment": "2.29.1"
   }
 }

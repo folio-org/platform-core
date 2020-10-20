@@ -1,6 +1,10 @@
 [ 
   {
-    "id": "mod-codex-inventory-1.7.0",
-     "action": "enable"
+    "id": "mod-codex-inventory-1.8.0",
+    "action": "enable"
+  },
+  {
+    "id": "okapi-4.2.1",
+    "action": "enable"
   }
 ]
