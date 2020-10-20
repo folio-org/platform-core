@@ -1244,6 +1244,11 @@
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/react-intl-safe-html/-/react-intl-safe-html-2.1.100016.tgz#b5efa417908cc1d7f44521fb7684e3c402ec95b2"
   integrity sha512-2kIZnD27IRQgZPqtXpAZt1oWc1Vb4UbilF7yHFDURRPl1JBpN6bnua9Hku1Ps9TcwUjhDwCnZZyKCaqxjBP+Eg==
 
+"@folio/react-intl-safe-html@^3.0.0":
+  version "3.0.100017"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/react-intl-safe-html/-/react-intl-safe-html-3.0.100017.tgz#eee44e76802247f4e678ddde3a7bb3f9e37a37b6"
+  integrity sha512-UE2Yb3jzcBorUq6eNg7p6FMQJGORAgJDTRCLwdA7ibrWxE3svg9hCUeN3h7BfUKHx4pojny19/olqO58JurPsA==
+
 "@folio/requests@>=1.4.1":
   version "4.0.1000564"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-4.0.1000564.tgz#a82de09d5fd04fa2144fff8d0c96e910029f2670"
@@ -1275,11 +1280,11 @@
     react-hot-loader "^4.3.12"
 
 "@folio/servicepoints@>=1.1.0":
-  version "4.0.100077"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-4.0.100077.tgz#1ca5de5a8c7b4fd7ed9292d9d8f5cefe334403ed"
-  integrity sha512-PUjlJhBPYcf1iKJNVcG4eeJiGHxOIX9HuJUBPbCS+AkdLjNhkRMO7Pru64Z5dBb59+NKOuaBW0bGPTCLGBDPsA==
+  version "4.0.100079"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-4.0.100079.tgz#e2f299fe47d19a0b89dd64fff48dc1c24418bfae"
+  integrity sha512-d6X4DLrPC1Neh67kYps2GP7rEOuJFpyklURPv7vNntFe9vbwLk4O/pm5GlXh+rpgeH9vqANhgbBsw4TrDvnvCA==
   dependencies:
-    "@folio/react-intl-safe-html" "^2.0.0"
+    "@folio/react-intl-safe-html" "^3.0.0"
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
