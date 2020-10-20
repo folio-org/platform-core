@@ -1,42 +1,46 @@
 [
   {
-    "id": "folio_calendar-4.0.1",
+    "id": "folio_calendar-5.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_checkin-3.0.2",
+    "id": "folio_checkin-4.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_checkout-4.0.3",
+    "id": "folio_checkout-5.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_circulation-3.0.2",
+    "id": "folio_circulation-4.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_developer-3.0.0",
+    "id": "folio_developer-4.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_inventory-4.0.3",
+    "id": "folio_inventory-5.0.1",
     "action": "enable"
   },
   {
-    "id": "folio_myprofile-3.0.0",
+    "id": "folio_myprofile-4.0.1",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-instance-3.0.0",
+    "id": "folio_plugin-create-inventory-records-1.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-user-3.0.1",
+    "id": "folio_plugin-find-instance-4.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_requests-3.0.7",
+    "id": "folio_plugin-find-user-4.0.0",
+    "action": "enable"
+  },
+  {
+    "id": "folio_requests-4.0.1",
     "action": "enable"
   },
   {
@@ -44,27 +48,27 @@
     "action": "enable"
   },
   {
-    "id": "folio_servicepoints-3.0.0",
+    "id": "folio_servicepoints-4.0.1",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-5.0.3",
+    "id": "folio_stripes-core-6.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-4.1.5",
+    "id": "folio_stripes-smart-components-5.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_tags-3.0.0",
+    "id": "folio_tags-4.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-4.0.0",
+    "id": "folio_tenant-settings-5.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_users-4.0.7",
+    "id": "folio_users-5.0.1",
     "action": "enable"
   }
 ]

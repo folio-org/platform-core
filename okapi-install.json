@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-19.4.0",
+    "id": "mod-inventory-storage-19.4.1",
     "action": "enable"
   },
   {
@@ -12,7 +12,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-users-17.2.0",
+    "id": "mod-users-17.2.1",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-configuration-5.4.2",
+    "id": "mod-configuration-5.4.3",
     "action": "enable"
   },
   {
@@ -44,7 +44,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-permissions-5.12.0",
+    "id": "mod-permissions-5.12.1",
     "action": "enable"
   },
   {
@@ -52,7 +52,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-4.1.0",
+    "id": "mod-source-record-storage-4.1.1",
     "action": "enable"
   },
   {
@@ -60,11 +60,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-15.8.3",
+    "id": "mod-feesfines-15.9.1",
     "action": "enable"
   },
   {
-    "id": "mod-patron-blocks-1.0.7",
+    "id": "mod-patron-blocks-1.1.0",
     "action": "enable"
   },
   {
@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-19.1.0",
+    "id": "mod-circulation-19.2.0",
     "action": "enable"
   },
   {
@@ -100,7 +100,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-codex-inventory-1.7.0",
+    "id": "mod-codex-inventory-1.8.0",
     "action": "enable"
   }
 ]
