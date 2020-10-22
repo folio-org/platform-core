@@ -1635,9 +1635,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "5.0.10001274"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001274.tgz#6a0d73b481d43f48968e96632066c9a50d556a74"
-  integrity sha512-XfwPWJE6iKJkNPuSd2kF7HCGK8wiwp4U10wBYKW8PZYHyd1wypZJX424Y5SFte85ptX5YC6VVoc0z6qJra8c8A==
+  version "5.0.10001275"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-5.0.10001275.tgz#5087bbbcede1d9ceceec24d7b42909cc8584c82d"
+  integrity sha512-mhXph4y/GMY4AW+3ET9T1fxnwm/6trTkj8noLpEewCiqAOYAaAmbttvkPm6oCEPe4VWrU/krAekxbpz31d/s9g==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form-set-field-data "^1.0.2"
@@ -8622,11 +8622,11 @@ min-document@^2.19.0:
     dom-walk "^0.1.0"
 
 mini-create-react-context@^0.4.0:
-  version "0.4.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/mini-create-react-context/-/mini-create-react-context-0.4.0.tgz#df60501c83151db69e28eac0ef08b4002efab040"
-  integrity sha512-b0TytUgFSbgFJGzJqXPKCFCBWigAjpjo+Fl7Vf7ZbKRDptszpppKxXH6DRXEABZ/gcEQczeb0iZ7JvL8e8jjCA==
+  version "0.4.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/mini-create-react-context/-/mini-create-react-context-0.4.1.tgz#072171561bfdc922da08a60c2197a497cc2d1d5e"
+  integrity sha512-YWCYEmd5CQeHGSAKrYvXgmzzkrvssZcuuQDDeqkT+PziKGMgE+0MCCtcKbROzocGBG1meBLl2FotlRwf4gAzbQ==
   dependencies:
-    "@babel/runtime" "^7.5.5"
+    "@babel/runtime" "^7.12.1"
     tiny-warning "^1.0.3"
 
 mini-css-extract-plugin@^0.4.0:
