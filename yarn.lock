@@ -5839,9 +5839,9 @@ file-saver@^2.0.0:
   integrity sha512-Wz3c3XQ5xroCxd1G8b7yL0Ehkf0TC9oYC6buPFkNnU9EnaPlifeAFCyCh+iewXTyFRcg0a6j3J7FmJsIhlhBdw==
 
 file-selector@^0.1.12:
-  version "0.1.13"
-  resolved "https://repository.folio.org/repository/npm-ci-all/file-selector/-/file-selector-0.1.13.tgz#5efd977ca2bca1700992df1b10e254f4e73d2df4"
-  integrity sha512-T2efCBY6Ps+jLIWdNQsmzt/UnAjKOEAlsZVdnQztg/BtAZGNL4uX1Jet9cMM8gify/x4CSudreji2HssGBNVIQ==
+  version "0.1.15"
+  resolved "https://repository.folio.org/repository/npm-ci-all/file-selector/-/file-selector-0.1.15.tgz#c95114bc330ac5502bd2766d804589ace737fe11"
+  integrity sha512-jhHt1m3hqjQg9A5CUhkp7Th+EIcjeGbplnJ2ZxxLizGiXDdg+UEAo3IJ77hGrJ/nNkemHxYT7U7iuUHxVlLDUA==
   dependencies:
     tslib "^2.0.1"
 
