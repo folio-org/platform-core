@@ -1059,9 +1059,9 @@
     pretender "^2.0.0"
 
 "@folio/calendar@>=2.0.5":
-  version "5.0.100084"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-5.0.100084.tgz#936c574c045ca774ceb3eaca1ce2f7086750ce4f"
-  integrity sha512-YnPp+hQMvi+7SdzOfowHXwxaZM+E2Cj6TR+AWW7BkZ7+2fJ8K1leIKwWSjCwmiUN6LziaOWolWd7a6dEmDdA9A==
+  version "5.0.100085"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-5.0.100085.tgz#f05bf3fb09a3f26425c8d4edce0d0a54513ec9e4"
+  integrity sha512-dfT8ncRoj3yWNNW8D7VFV8oJTO9C2zm3FFSA72kfvOWtNhSu13h2R6u+ASrc/LPTjLKxvlRb8cWhDsC9kxEeWg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
@@ -1076,9 +1076,9 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "4.0.1000306"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-4.0.1000306.tgz#1d2161b5e5a28169658b8ce008fa48aa39c3ed62"
-  integrity sha512-ICGnk3RG/ZCxaLHxRj5erS67YF40fwVA6e87QQ+j0ZqPN5vlTBnWPVnn/3gZGNdatlKCFjBJifwHf57dcRDATA==
+  version "4.0.1000307"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-4.0.1000307.tgz#9a9d950b02534e670b178272cbafefccf894a990"
+  integrity sha512-bhFrav+4K11ZMFCzutNH4Q9sOTeU+d4YmXxjW0YHy1Ke27F+tHi2Jpt6Dv9ZY6MKiFL74mNZM9fl0JX8DIr2zQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
@@ -1189,9 +1189,9 @@
     redux-form "^7.0.3"
 
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^1.0.0":
-  version "1.0.100036"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-1.0.100036.tgz#1084ea2a630306f02f4aa303aaa72819bc858e75"
-  integrity sha512-5NuUz6SCmd8dSOKG2yq9pDc8F7MQuFLt3lzw7Oo0jtMNY5jjanQfQqlQTHs2jhiewzT1lmsWYMX/A7YBr23rZg==
+  version "1.0.100037"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-1.0.100037.tgz#701e6271c7319327feb628506f32bfa9ff908359"
+  integrity sha512-GLbs/JARXuXjIr+fWa9Xgtx/sVAe7cmCoXN6POSTt3Nk2g5sjUHetChWXzeU7ghowz5TNiDHu8OeT6NUFjprGQ==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
@@ -1271,18 +1271,18 @@
     "@folio/plugin-find-user" "^4.0.0"
 
 "@folio/search@>=1.3.0":
-  version "3.1.1000197"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-3.1.1000197.tgz#f9aab1a5112c469a8157335caf1054e24d996c37"
-  integrity sha512-8vDfgxy95lQVE7g7GvnUMHLrw4HWo9JE2ZyAPkcPnzn57JpZ/JLZT0ZRCGOaW0kH7eJ3UR9OgJPxsQ4oJq8WqA==
+  version "3.1.1000198"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-3.1.1000198.tgz#67898e6c27d205e3944c22a87713f1287650a2e7"
+  integrity sha512-j9rol2OonsOxotnGXzigAH5N7MgdsECCW5BnAVlXNOcnkr+SKrSIE4ZfN3LJeKACZBk+yHHC51m34ExFiiShuw==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
     react-hot-loader "^4.3.12"
 
 "@folio/servicepoints@>=1.1.0":
-  version "4.0.100079"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-4.0.100079.tgz#e2f299fe47d19a0b89dd64fff48dc1c24418bfae"
-  integrity sha512-d6X4DLrPC1Neh67kYps2GP7rEOuJFpyklURPv7vNntFe9vbwLk4O/pm5GlXh+rpgeH9vqANhgbBsw4TrDvnvCA==
+  version "4.0.100080"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-4.0.100080.tgz#e1b0ca33bf806d841465a44ae29ebba9fa5905d7"
+  integrity sha512-GNGG6RvDDSjcBl9P2/T8PWO2O5lObQOiz0jnt0aEj2hvVvtB1eQw12jpVeixVR4II7lvBwTGAyVr8n15iOYMxg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     lodash "^4.17.4"
@@ -1359,9 +1359,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~8.1.0":
-  version "8.1.10001204"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-8.1.10001204.tgz#ca651a05b9ea1880acfe6c1e7bf077908661e060"
-  integrity sha512-lTsb5TdBIwndRoofSWoMukgH2+HkW6FSSTmlhWOBoQXqgVFI1Hun65tKt0ZtC143yLmltIAC/f+Tfti7X9Q5rQ==
+  version "8.1.10001205"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-8.1.10001205.tgz#83e9251ed5079e5973be3d41a98f23f2185d3427"
+  integrity sha512-GGpMdkmKiWM6SeipGcppc4GnDjuzpuepJaNkClATDGgt0gmG/qwC4h91/xN8fH41rf+fNZJPj4ObGjR6IoOaxg==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1403,9 +1403,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0", "@folio/stripes-core@~6.1.0":
-  version "6.1.1000783"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-6.1.1000783.tgz#ab1962d537d60641f14d06c1600f7aabe1ca9e29"
-  integrity sha512-6wwDVw8ShLDYlKJ8wszLXcmMDuUTiug0EofSfmx1WdqHfHxkwa1fNGGZcJvI34M3HkGWxw5kc5J0+14dzG4HEw==
+  version "6.1.1000784"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-6.1.1000784.tgz#5077cbf3b73fb3f3bd2fe918ff781be1e6eb3618"
+  integrity sha512-mLLoq2vCBEQcgSj00Tzx/6X8zSfWcaT/oPzJJKQkIOIlMz8Sw0szTQ8kDkTHdg8QKnf2bL6vE2yyiCtlmIKmwQ==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@babel/core" "^7.8.0"
@@ -1543,9 +1543,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~5.1.0":
-  version "5.1.1000859"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.1.1000859.tgz#8105778690d74e3213c1d96af0ab53cf207ec647"
-  integrity sha512-aCoumYsMET67NjI4G0DeZefDD+9w7giIflfhNF6W7mpa4aDnMVG1aT25BMUWL2p+ClVeJm8lL7Szuz37POEgpQ==
+  version "5.1.1000860"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.1.1000860.tgz#d1d3e253fdfde83acfe27da9cb8d2e8a6f42f4b3"
+  integrity sha512-e807yccaGceeBp/YGTtsjUTUzhA7bIlNU06nYiRN6kAsAR7BhZfN/K/rKSJaGG7wfHPN3subYlZjeg0T4dCkCA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@rehooks/local-storage" "^2.3.0"
