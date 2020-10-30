@@ -47,7 +47,7 @@
   "id" : "mod-inventory-16.2.0-SNAPSHOT.308",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-15.10.0-SNAPSHOT.113",
+  "id" : "mod-feesfines-15.10.0-SNAPSHOT.114",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.2.0-SNAPSHOT.35",
@@ -56,7 +56,7 @@
   "id" : "mod-notes-2.10.2-SNAPSHOT.159",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.3.0-SNAPSHOT.730",
+  "id" : "mod-circulation-19.3.0-SNAPSHOT.731",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-4.0.1000306",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-5.0.1000468",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-4.0.1000572",
+  "id" : "folio_circulation-5.0.1000573",
   "action" : "enable"
 }, {
   "id" : "folio_developer-4.0.1000161",
@@ -107,7 +107,7 @@
   "id" : "mod-users-bl-6.2.0-SNAPSHOT.95",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-6.1.1000782",
+  "id" : "folio_stripes-core-6.1.1000783",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.7.2-SNAPSHOT.51",
@@ -125,7 +125,7 @@
   "id" : "folio_tenant-settings-5.0.1000148",
   "action" : "enable"
 }, {
-  "id" : "folio_users-5.0.10001286",
+  "id" : "folio_users-5.0.10001287",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.9.0-SNAPSHOT.82",

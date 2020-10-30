@@ -12,7 +12,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_circulation-4.0.1000572",
+    "id": "folio_circulation-5.0.1000573",
     "action": "enable"
   },
   {
@@ -52,7 +52,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-6.1.1000782",
+    "id": "folio_stripes-core-6.1.1000783",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-5.0.10001286",
+    "id": "folio_users-5.0.10001287",
     "action": "enable"
   }
 ]
