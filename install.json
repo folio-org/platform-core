@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-19.5.0-SNAPSHOT.490",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-5.0.100086",
+  "id" : "folio_calendar-5.0.100087",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-12.2.0-SNAPSHOT.260",
@@ -53,7 +53,7 @@
   "id" : "mod-patron-blocks-1.2.0-SNAPSHOT.35",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-2.10.2-SNAPSHOT.159",
+  "id" : "mod-notes-2.10.2-SNAPSHOT.160",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-19.3.0-SNAPSHOT.733",
@@ -83,10 +83,10 @@
   "id" : "folio_plugin-find-instance-4.0.100058",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-4.0.1000126",
+  "id" : "folio_plugin-find-user-4.0.1000127",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-4.0.1000570",
+  "id" : "folio_requests-4.0.1000571",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.9.2-SNAPSHOT.97",
@@ -122,10 +122,10 @@
   "id" : "mod-login-saml-2.1.0-SNAPSHOT.58",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-5.0.1000149",
+  "id" : "folio_tenant-settings-5.0.1000150",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.10001293",
+  "id" : "folio_users-6.0.10001294",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.9.0-SNAPSHOT.82",
