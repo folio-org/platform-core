@@ -8,7 +8,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-12.1.0",
+    "id": "mod-circulation-storage-12.1.1",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-configuration-5.4.4",
+    "id": "mod-configuration-5.5.0",
     "action": "enable"
   },
   {
@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-19.2.0",
+    "id": "mod-circulation-19.2.2",
     "action": "enable"
   },
   {

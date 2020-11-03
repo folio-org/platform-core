@@ -8,7 +8,7 @@
   "id" : "folio_calendar-5.0.0",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-12.1.0",
+  "id" : "mod-circulation-storage-12.1.1",
   "action" : "enable"
 }, {
   "id" : "mod-users-17.2.1",
@@ -17,7 +17,7 @@
   "id" : "mod-event-config-1.6.0",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.4.4",
+  "id" : "mod-configuration-5.5.0",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.10.0",
@@ -56,7 +56,7 @@
   "id" : "mod-notes-2.10.1",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.2.0",
+  "id" : "mod-circulation-19.2.2",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-4.0.0",
@@ -83,7 +83,7 @@
   "id" : "folio_plugin-find-instance-4.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-4.0.0",
+  "id" : "folio_plugin-find-user-4.0.1",
   "action" : "enable"
 }, {
   "id" : "folio_requests-4.0.1",
