@@ -83,7 +83,7 @@
   "id" : "folio_plugin-find-instance-4.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-4.0.0",
+  "id" : "folio_plugin-find-user-4.0.1",
   "action" : "enable"
 }, {
   "id" : "folio_requests-4.0.1",
@@ -113,7 +113,7 @@
   "id" : "mod-tags-0.7.1",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-5.0.0",
+  "id" : "folio_stripes-smart-components-5.0.1",
   "action" : "enable"
 }, {
   "id" : "folio_tags-4.0.0",
