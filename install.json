@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.11.0-SNAPSHOT.116",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-19.5.0-SNAPSHOT.491",
+  "id" : "mod-inventory-storage-19.5.0-SNAPSHOT.492",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-5.0.100087",
@@ -35,7 +35,7 @@
   "id" : "mod-login-7.2.0-SNAPSHOT.89",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-5.13.0-SNAPSHOT.94",
+  "id" : "mod-permissions-5.13.0-SNAPSHOT.95",
   "action" : "enable"
 }, {
   "id" : "mod-pubsub-1.4.0-SNAPSHOT.113",
