@@ -1635,9 +1635,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001298"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001298.tgz#3fa898e8da8fd97f55cb4bcca1c92e70b7587b2b"
-  integrity sha512-V9quw6s38kCTAtOvIHeS1zQ7Cfc8CVgVuPrDG5WMr5Bc0YAHypBAA/U7KSYYe9Q4UTskkq7+6SbxHNEZRsXE9Q==
+  version "6.0.10001299"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001299.tgz#0cc745268d4819116b9aa6b653710c6e99110fbe"
+  integrity sha512-aEdmMBQ/9ycoelv/pcK9uppgkoaWut9m0ruXjCnyBgi6ipDt9Nl4egARKjXgnO89SecosMf9oa5jeG+IklYLGA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form-set-field-data "^1.0.2"
@@ -7198,9 +7198,9 @@ is-color-stop@^1.0.0:
     rgba-regex "^1.0.0"
 
 is-core-module@^2.0.0:
-  version "2.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/is-core-module/-/is-core-module-2.0.0.tgz#58531b70aed1db7c0e8d4eb1a0a2d1ddd64bd12d"
-  integrity sha512-jq1AH6C8MuteOoBPwkxHafmByhL9j5q4OaPGdbuD+ZtQJVzH+i6E3BJDQcBA09k57i2Hh2yQbEG8yObZ0jdlWw==
+  version "2.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/is-core-module/-/is-core-module-2.1.0.tgz#a4cc031d9b1aca63eecbd18a650e13cb4eeab946"
+  integrity sha512-YcV7BgVMRFRua2FqQzKtTDMz8iCuLEyGKjr70q8Zm1yy2qKcurbFEd79PAdHV77oL3NrAaOVQIbMmiHQCHB7ZA==
   dependencies:
     has "^1.0.3"
 
