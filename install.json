@@ -56,13 +56,13 @@
   "id" : "mod-notes-2.10.3-SNAPSHOT.162",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.3.0-SNAPSHOT.736",
+  "id" : "mod-circulation-19.3.0-SNAPSHOT.737",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-4.0.1000308",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-5.0.1000468",
+  "id" : "folio_checkout-5.0.1000471",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-5.0.1000576",
@@ -98,7 +98,7 @@
   "id" : "folio_servicepoints-4.0.100080",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-1.8.2-SNAPSHOT.25",
+  "id" : "mod-password-validator-1.8.3-SNAPSHOT.26",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.7.0-SNAPSHOT.79",
