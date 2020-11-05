@@ -1288,9 +1288,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.2.1000368"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.1000368.tgz#8a6e77cff7fa0a1dedaf64c8f65ecd0a84ce744d"
-  integrity sha512-IpMVo8zCM9gmBANy3B8VNMFfSV4O6OQc1Y+rHOBHUFNs7HFDTTMglQy8w5tm1EofhGtOmdfjAA+1JvkfmYlq7Q==
+  version "2.2.1000370"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.1000370.tgz#97b1327ceb2daffed2a3f73b60090d5df1b8126b"
+  integrity sha512-2DljXP6OngnkIKYm+fhpViEbYKplsye6xM3Nqwh9g+y7GawLP3u2O8ygugI2isYtxLAlBCMdOEjJgtHxqeuGlA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@rehooks/local-storage" "^2.4.0"
@@ -10501,9 +10501,9 @@ query-string@^5.0.0, query-string@^5.1.0:
     strict-uri-encode "^1.0.0"
 
 query-string@^6.1.0, query-string@^6.8.1:
-  version "6.13.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/query-string/-/query-string-6.13.6.tgz#e5ac7c74f2a5da43fbca0b883b4f0bafba439966"
-  integrity sha512-/WWZ7d9na6s2wMEGdVCVgKWE9Rt7nYyNIf7k8xmHXcesPMlEzicWo3lbYwHyA4wBktI2KrXxxZeACLbE84hvSQ==
+  version "6.13.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/query-string/-/query-string-6.13.7.tgz#af53802ff6ed56f3345f92d40a056f93681026ee"
+  integrity sha512-CsGs8ZYb39zu0WLkeOhe0NMePqgYdAuCqxOYKDR5LVCytDZYMGx3Bb+xypvQvPHVPijRXB0HZNFllCzHRe4gEA==
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
