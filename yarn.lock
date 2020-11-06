@@ -1635,9 +1635,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001302"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001302.tgz#6f3dea819a390b04a550cbc61deb3532742f0f7c"
-  integrity sha512-DKRiQy6A/QWaIhwNhRhMYdcnS0fX0Ys6Y5Fe8xood20JIApzldSeZbiiyMGz7yWfCVhFFwKKJWIh+DTsD+WZew==
+  version "6.0.10001303"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001303.tgz#99c26651a968eb6cb35f07f374b2ca3445487ebc"
+  integrity sha512-vltEDmpC8GT01dXIG1VCjbSFNBXM+FLxL4bEqO2leMEQRsqsqLFd2RX4gvvLwu4Mtnngm1C+5xHRXz5oEpNkOw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form-set-field-data "^1.0.2"
@@ -2291,9 +2291,9 @@
     parchment "^1.1.2"
 
 "@types/react@*", "@types/react@^16.9.11":
-  version "16.9.55"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.55.tgz#47078587f5bfe028a23b6b46c7b94ac0d436acff"
-  integrity sha512-6KLe6lkILeRwyyy7yG9rULKJ0sXplUsl98MGoCfpteXf9sPWFWWMknDcsvubcpaTdBuxtsLF6HDUwdApZL/xIg==
+  version "16.9.56"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.56.tgz#ea25847b53c5bec064933095fc366b1462e2adf0"
+  integrity sha512-gIkl4J44G/qxbuC6r2Xh+D3CGZpJ+NdWTItAPmZbR5mUS+JQ8Zvzpl0ea5qT/ZT3ZNTUcDKUVqV3xBE8wv/DyQ==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
