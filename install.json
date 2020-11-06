@@ -38,7 +38,7 @@
   "id" : "mod-permissions-5.13.0-SNAPSHOT.95",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-1.4.0-SNAPSHOT.114",
+  "id" : "mod-pubsub-1.4.0-SNAPSHOT.115",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.220",
@@ -125,7 +125,7 @@
   "id" : "folio_tenant-settings-5.0.1000150",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.10001304",
+  "id" : "folio_users-6.0.10001305",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.9.0-SNAPSHOT.82",
