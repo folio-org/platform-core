@@ -107,7 +107,7 @@
   "id" : "mod-users-bl-6.2.0-SNAPSHOT.95",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-6.1.1000786",
+  "id" : "folio_stripes-core-6.1.1000787",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.7.3-SNAPSHOT.53",
@@ -125,7 +125,7 @@
   "id" : "folio_tenant-settings-5.0.1000150",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.10001303",
+  "id" : "folio_users-6.0.10001304",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.9.0-SNAPSHOT.82",
