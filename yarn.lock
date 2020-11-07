@@ -1111,10 +1111,10 @@
     "@folio/plugin-create-inventory-records" "^1.0.0"
     "@folio/plugin-find-user" "^4.0.0"
 
-"@folio/circulation@4.0.0":
-  version "4.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/circulation/-/circulation-4.0.0.tgz#bbf51c6ec14fef93ca8461b6617bc721993187de"
-  integrity sha512-kltsbKGPWMvd93qiFIpZeQBSh6fabyyi7TNIaWg/iVUUisrKeX42/5vFEuC+2TwAzjPPjqS7/a/hi0U77wTKow==
+"@folio/circulation@4.0.1":
+  version "4.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/circulation/-/circulation-4.0.1.tgz#be330447f1b482e8ebefde24aa241e94861519e7"
+  integrity sha512-ywjoA3MXJeVWP24/jVLmpm/8PshMEZE+mKgTvLw78Au4tU1r1pPuRBa3QaJR9ov6IxDyGLqu+bmo7kdDVoM7kA==
   dependencies:
     "@folio/stripes-template-editor" "^1.0.0"
     final-form "^4.18.2"
