@@ -21,7 +21,7 @@
     "@folio/calendar": "5.0.0",
     "@folio/checkin": "4.0.0",
     "@folio/checkout": "5.0.0",
-    "@folio/circulation": "4.0.0",
+    "@folio/circulation": "4.0.1",
     "@folio/developer": "4.0.0",
     "@folio/inventory": "5.0.1",
     "@folio/myprofile": "4.0.1",
