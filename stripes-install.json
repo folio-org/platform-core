@@ -1,10 +1,10 @@
 [
   {
-    "id": "folio_calendar-5.0.100088",
+    "id": "folio_calendar-5.0.100089",
     "action": "enable"
   },
   {
-    "id": "folio_checkin-4.0.1000309",
+    "id": "folio_checkin-4.0.1000310",
     "action": "enable"
   },
   {
@@ -16,7 +16,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_developer-4.0.1000161",
+    "id": "folio_developer-4.0.1000164",
     "action": "enable"
   },
   {
@@ -24,11 +24,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_myprofile-4.0.1000105",
+    "id": "folio_myprofile-4.0.1000106",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-create-inventory-records-1.0.100039",
+    "id": "folio_plugin-create-inventory-records-1.0.100040",
     "action": "enable"
   },
   {
@@ -36,7 +36,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-user-4.0.1000130",
+    "id": "folio_plugin-find-user-4.0.1000131",
     "action": "enable"
   },
   {
@@ -44,7 +44,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_search-3.1.1000198",
+    "id": "folio_search-3.1.1000199",
     "action": "enable"
   },
   {
@@ -52,7 +52,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-6.1.1000787",
+    "id": "folio_stripes-core-6.1.1000788",
     "action": "enable"
   },
   {
@@ -60,11 +60,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_tags-4.0.100064",
+    "id": "folio_tags-4.0.100065",
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-5.0.1000150",
+    "id": "folio_tenant-settings-5.0.1000151",
     "action": "enable"
   },
   {
