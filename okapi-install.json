@@ -16,7 +16,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-event-config-1.7.0-SNAPSHOT.42",
+    "id": "mod-event-config-1.7.0-SNAPSHOT.43",
     "action": "enable"
   },
   {
@@ -28,7 +28,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-email-1.10.0-SNAPSHOT.47",
+    "id": "mod-email-1.10.0-SNAPSHOT.48",
     "action": "enable"
   },
   {
@@ -60,11 +60,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-15.10.0-SNAPSHOT.118",
+    "id": "mod-feesfines-15.10.0-SNAPSHOT.119",
     "action": "enable"
   },
   {
-    "id": "mod-patron-blocks-1.2.0-SNAPSHOT.37",
+    "id": "mod-patron-blocks-1.2.0-SNAPSHOT.38",
     "action": "enable"
   },
   {
@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-19.3.0-SNAPSHOT.740",
+    "id": "mod-circulation-19.3.0-SNAPSHOT.741",
     "action": "enable"
   },
   {
