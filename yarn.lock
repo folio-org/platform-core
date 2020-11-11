@@ -1213,9 +1213,9 @@
     sinon "^9.0.2"
 
 "@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@^4.0.0":
-  version "4.0.1000131"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-4.0.1000131.tgz#85814740c1f6102ccdde374e40ad4a7496367e28"
-  integrity sha512-ng9gpOfhEnqdDSnIslPJTdy1pis4ARJ1TkHob7oRgVbCreElSIYVuVyPgIXzdF/LonaN3kxBceoO5WoiU5unlw==
+  version "4.0.1000132"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-4.0.1000132.tgz#a7f775bd83dade42bbf175970ec0a842e3ec1676"
+  integrity sha512-VBEmgIJtVRFb1TFMAj7eqENpyWAeQu7HRYZaOIXNcPhdLt7+VdClOR0RET6ZgoqpWliDuQXHXE5kHYYq2NGiqQ==
   dependencies:
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
@@ -1250,9 +1250,9 @@
   integrity sha512-UE2Yb3jzcBorUq6eNg7p6FMQJGORAgJDTRCLwdA7ibrWxE3svg9hCUeN3h7BfUKHx4pojny19/olqO58JurPsA==
 
 "@folio/requests@>=1.4.1":
-  version "4.0.1000577"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-4.0.1000577.tgz#cdd79e65ab873949b76951555a260c9bcb446891"
-  integrity sha512-0VCAIlmhFWygfSDZRDA5lWKn6d8vfKntqu6nb9Ts5S930HtHCMz53IaWKFks8MuSTXmalriRKzPnYvMzQ8Xhfw==
+  version "4.0.1000578"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-4.0.1000578.tgz#8329988e1759d4e7354176315ab70e7199b34154"
+  integrity sha512-a0TURT0XQUCbQoNUmHr9KHMwIvESseYnGdYt6ZnhfbvvnvcQlfXxAOwGvZDH8toyYI+Fs88R9ZszaybOdYyBtA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     html-to-react "^1.3.3"
@@ -3101,9 +3101,9 @@ base64-arraybuffer@0.1.5:
   integrity sha1-c5JncZI7Whl0etZmqlzUv5xunOg=
 
 base64-js@^1.0.2, base64-js@^1.3.1:
-  version "1.5.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/base64-js/-/base64-js-1.5.0.tgz#2d03045876d9e2b68a7a0f87d6bd163595e3b6af"
-  integrity sha512-Jrdy04F2EKcNggUDfubMUPNAZg2vMquLQSm8sKLYJvz40ClFL1S8GKyDshGkNsbNNE5Z+fQavzU7nSK1I9JUGA==
+  version "1.5.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
+  integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
 
 base64id@1.0.0:
   version "1.0.0"
@@ -4990,9 +4990,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.591:
-  version "1.3.592"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.592.tgz#4621521b223bf6e5469373528321e185d3c24670"
-  integrity sha512-kGNowksvqQiPb1pUSQKpd8JFoGPLxYOwduNRCqCxGh/2Q1qE2JdmwouCW41lUzDxOb/2RIV4lR0tVIfboWlO9A==
+  version "1.3.593"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.593.tgz#947ccf6dc8e013e2b053d2463ecd1043c164fcef"
+  integrity sha512-GvO7G1ZxvffnMvPCr4A7+iQPVuvpyqMrx2VWSERAjG+pHK6tmO9XqYdBfMIq9corRyi4bNImSDEiDvIoDb8HrA==
 
 electron@^2.0.18:
   version "2.0.18"
