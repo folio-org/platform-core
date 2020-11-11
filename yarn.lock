@@ -1223,9 +1223,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^2.0.0":
-  version "2.0.100095"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.100095.tgz#041daee77e9b93d230b657e9806e28cb5dd711cd"
-  integrity sha512-o9mKBGmLfnv3i+/vJEmSddKqPBiv11HiRAHekHRMElxdmajUW/u8Txk3Fjtv8SK4oQmIskMkZIrHz6+TDtIhEQ==
+  version "2.0.100096"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.100096.tgz#ee36dc95ef3869a853c5a7996d4b5dc2414a3efc"
+  integrity sha512-5sjrsyuqR4/GX3BHcZx134oeg0nyWvzbm/Yi9fr8OAM2R6wAUgavWge2AoXLnQZ+PWHlQhrqBr19g5cv37BbUg==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1359,9 +1359,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~8.1.0":
-  version "8.1.10001210"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-8.1.10001210.tgz#c9289c8281d5f05b7d0baad3fe3d8d59ab889dae"
-  integrity sha512-UKtXFtmbBfTFb3zNzH+ttuWWmmDvPWtdLZ9cHm5ubFnEJV6rrsOlmth2/K0XjfRv9nLXstiWJ7DCGaFS+EAORQ==
+  version "8.1.10001212"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-8.1.10001212.tgz#1c7e3bb7bfbc3427eac78ff065e4cb1f26f7c3a9"
+  integrity sha512-Lc8djuJnNpaY1CKTpd23WNGc/btgl3/BCAeiJNYf4hIfqNTT+8gQQsuu4BJu2QsrfPeKRTQk74yjaKkbmFGOBw==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1543,9 +1543,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~5.1.0":
-  version "5.1.1000864"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.1.1000864.tgz#7b4128284fa3189eea91c69561d653b1e562a1bd"
-  integrity sha512-H7pixWTq7D04x8keEkFXJrhV09fARZX+n4Jh0RnzRogQUSMEl3FnuAZ6CS0nv89MfxZsMNRlppnVjRpGUkBQeA==
+  version "5.1.1000866"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.1.1000866.tgz#f17cbfedd56e4b4c6eda717e7971277242586dff"
+  integrity sha512-YiHUqw3DLNi2TCHtTh2IayZRxczPdg/9G22qzfFyldyOJEjkwqLPppYWTiz8vHf9PpWVYvjr00Kx+vT9OjqKSA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@rehooks/local-storage" "^2.3.0"
