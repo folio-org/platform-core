@@ -56,13 +56,13 @@
   "id" : "mod-notes-2.10.2",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.2.2",
+  "id" : "mod-circulation-19.2.3",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-4.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-5.0.0",
+  "id" : "folio_checkout-5.0.1",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-4.0.1",
