@@ -1,8 +1,8 @@
 [ {
-  "id" : "mod-calendar-1.10.0",
+  "id" : "mod-calendar-1.10.1",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-19.4.2",
+  "id" : "mod-inventory-storage-19.4.3",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-5.0.0",
@@ -14,7 +14,7 @@
   "id" : "mod-users-17.2.2",
   "action" : "enable"
 }, {
-  "id" : "mod-event-config-1.6.0",
+  "id" : "mod-event-config-1.6.1",
   "action" : "enable"
 }, {
   "id" : "mod-configuration-5.5.0",
@@ -23,13 +23,13 @@
   "id" : "mod-template-engine-1.10.0",
   "action" : "enable"
 }, {
-  "id" : "mod-email-1.9.0",
+  "id" : "mod-email-1.9.1",
   "action" : "enable"
 }, {
   "id" : "mod-sender-1.4.0",
   "action" : "enable"
 }, {
-  "id" : "mod-notify-2.7.0",
+  "id" : "mod-notify-2.7.1",
   "action" : "enable"
 }, {
   "id" : "mod-login-7.1.1",

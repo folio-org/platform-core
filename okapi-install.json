@@ -1,10 +1,10 @@
 [
   {
-    "id": "mod-calendar-1.10.0",
+    "id": "mod-calendar-1.10.1",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-19.4.2",
+    "id": "mod-inventory-storage-19.4.3",
     "action": "enable"
   },
   {
@@ -16,7 +16,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-event-config-1.6.0",
+    "id": "mod-event-config-1.6.1",
     "action": "enable"
   },
   {
@@ -28,7 +28,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-email-1.9.0",
+    "id": "mod-email-1.9.1",
     "action": "enable"
   },
   {
@@ -36,7 +36,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-notify-2.7.0",
+    "id": "mod-notify-2.7.1",
     "action": "enable"
   },
   {
