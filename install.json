@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-19.5.0-SNAPSHOT.495",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-5.0.100089",
+  "id" : "folio_calendar-5.0.100090",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-12.2.0-SNAPSHOT.261",
@@ -59,10 +59,10 @@
   "id" : "mod-circulation-19.3.0-SNAPSHOT.742",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-4.0.1000312",
+  "id" : "folio_checkin-4.0.1000313",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-5.0.1000476",
+  "id" : "folio_checkout-5.0.1000477",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-5.0.1000580",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-4.0.1000165",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.10001064",
+  "id" : "folio_inventory-5.0.10001065",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-4.0.1000106",
@@ -92,7 +92,7 @@
   "id" : "mod-codex-mux-2.9.3-SNAPSHOT.98",
   "action" : "enable"
 }, {
-  "id" : "folio_search-3.1.1000199",
+  "id" : "folio_search-3.1.1000200",
   "action" : "enable"
 }, {
   "id" : "folio_servicepoints-4.0.100080",
@@ -113,7 +113,7 @@
   "id" : "mod-tags-0.7.3-SNAPSHOT.53",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-5.1.1000866",
+  "id" : "folio_stripes-smart-components-5.1.1000867",
   "action" : "enable"
 }, {
   "id" : "folio_tags-4.0.100065",
