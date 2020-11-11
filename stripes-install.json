@@ -16,7 +16,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_developer-4.0.1000165",
+    "id": "folio_developer-4.0.1000166",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-4.0.1000576",
+    "id": "folio_requests-4.0.1000577",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-5.0.1000152",
+    "id": "folio_tenant-settings-5.0.1000153",
     "action": "enable"
   },
   {
