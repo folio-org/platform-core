@@ -20,7 +20,7 @@
   "id" : "mod-configuration-5.6.0-SNAPSHOT.84",
   "action" : "enable"
 }, {
-  "id" : "mod-template-engine-1.11.0-SNAPSHOT.65",
+  "id" : "mod-template-engine-1.11.0",
   "action" : "enable"
 }, {
   "id" : "mod-email-1.10.0-SNAPSHOT.48",
