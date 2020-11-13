@@ -50,13 +50,13 @@
   "id" : "mod-feesfines-15.9.2",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-1.1.1",
+  "id" : "mod-patron-blocks-1.1.2",
   "action" : "enable"
 }, {
   "id" : "mod-notes-2.10.2",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.2.4",
+  "id" : "mod-circulation-19.2.5",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-4.0.1",
