@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-19.4.3",
+    "id": "mod-inventory-storage-19.4.4",
     "action": "enable"
   },
   {
@@ -24,7 +24,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-template-engine-1.11.0",
+    "id": "mod-template-engine-1.12.0",
     "action": "enable"
   },
   {
