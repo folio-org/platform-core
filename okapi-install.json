@@ -8,11 +8,23 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-12.2.0-SNAPSHOT.261",
+    "id": "mod-users-17.3.0-SNAPSHOT.156",
     "action": "enable"
   },
   {
-    "id": "mod-users-17.3.0-SNAPSHOT.156",
+    "id": "mod-login-7.2.0-SNAPSHOT.89",
+    "action": "enable"
+  },
+  {
+    "id": "mod-permissions-5.13.0-SNAPSHOT.95",
+    "action": "enable"
+  },
+  {
+    "id": "mod-pubsub-1.4.0-SNAPSHOT.115",
+    "action": "enable"
+  },
+  {
+    "id": "mod-circulation-storage-12.2.0-SNAPSHOT.263",
     "action": "enable"
   },
   {
@@ -40,23 +52,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-login-7.2.0-SNAPSHOT.89",
-    "action": "enable"
-  },
-  {
-    "id": "mod-permissions-5.13.0-SNAPSHOT.95",
-    "action": "enable"
-  },
-  {
-    "id": "mod-pubsub-1.4.0-SNAPSHOT.115",
-    "action": "enable"
-  },
-  {
     "id": "mod-source-record-storage-4.2.0-SNAPSHOT.223",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-16.2.0-SNAPSHOT.313",
+    "id": "mod-inventory-16.2.0-SNAPSHOT.314",
     "action": "enable"
   },
   {
@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-19.3.0-SNAPSHOT.751",
+    "id": "mod-circulation-19.3.0-SNAPSHOT.752",
     "action": "enable"
   },
   {
