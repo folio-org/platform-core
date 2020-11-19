@@ -23,7 +23,7 @@
     "@folio/checkout": "5.0.1",
     "@folio/circulation": "4.0.1",
     "@folio/developer": "4.0.0",
-    "@folio/inventory": "5.0.4",
+    "@folio/inventory": "5.0.5",
     "@folio/myprofile": "4.0.1",
     "@folio/plugin-create-inventory-records": "1.0.0",
     "@folio/plugin-find-instance": "4.0.0",
