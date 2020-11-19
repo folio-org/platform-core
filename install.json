@@ -20,7 +20,7 @@
   "id" : "mod-pubsub-1.4.0-SNAPSHOT.115",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-12.2.0-SNAPSHOT.265",
+  "id" : "mod-circulation-storage-12.2.0-SNAPSHOT.267",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-1.7.0-SNAPSHOT.43",
@@ -107,7 +107,7 @@
   "id" : "mod-users-bl-6.2.0-SNAPSHOT.95",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-6.1.1000792",
+  "id" : "folio_stripes-core-6.1.1000793",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.7.3-SNAPSHOT.53",
