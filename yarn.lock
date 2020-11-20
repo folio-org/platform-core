@@ -1512,10 +1512,10 @@
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.0"
 
-"@folio/stripes-form@~5.0.1":
-  version "5.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-form/-/stripes-form-5.0.1.tgz#98ad19ccbdf06483437dd66873574a1ef5daf3f1"
-  integrity sha512-vI5wRX9TQcoP8cSuB/BOJwcqVgl3v7kmfvkkVOKS/cTj5HqJRz+DwAEgllAccBij6ImWFk7hWmr73lizLODXGg==
+"@folio/stripes-form@~5.0.2":
+  version "5.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-form/-/stripes-form-5.0.2.tgz#a789cf2b89ec54480911719a63ebf914ea68bcc2"
+  integrity sha512-+C35sWRGNdQkmwqX6pSxSYyeHKWh9sdXxnC8oq04eJrRwKM+xmRalLg69wCWsp6n4I7EOPZu0mZ3SPpRFRE7Ew==
   dependencies:
     flat "^4.0.0"
     prop-types "^15.5.10"
@@ -1591,16 +1591,16 @@
     lodash "^4.17.4"
     query-string "^5.0.0"
 
-"@folio/stripes@5.0.6":
-  version "5.0.6"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-5.0.6.tgz#3e66c50a7b3bb6aa3c577b381c5207613845b886"
-  integrity sha512-W7KapfRaQanqn3yYowKiYmbcH8igawjFhJPrxJuVnh6f0V0ZDPO4HQ6OOKMdgU4uYRnATRK/EPvi365zMWjvDg==
+"@folio/stripes@5.0.7":
+  version "5.0.7"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-5.0.7.tgz#4cf91837d0dee1866ccd8ef3b32b00919d6f1d1b"
+  integrity sha512-5czgUPuCcQtrGQD+FkV+PdBOldOi9LdJ4QTxNMl1dS94C+nO/5lScaq86VaeRzUvvp/0ySc1vmg0AixzNqhH3w==
   dependencies:
     "@folio/stripes-components" "~8.0.2"
     "@folio/stripes-connect" "~6.0.1"
     "@folio/stripes-core" "~6.0.0"
     "@folio/stripes-final-form" "~4.0.1"
-    "@folio/stripes-form" "~5.0.1"
+    "@folio/stripes-form" "~5.0.2"
     "@folio/stripes-logger" "~1.0.0"
     "@folio/stripes-smart-components" "~5.0.4"
     "@folio/stripes-util" "~4.0.0"
@@ -1716,10 +1716,10 @@
   dependencies:
     emojis-list "^3.0.0"
 
-"@formatjs/intl@1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl/-/intl-1.4.5.tgz#566aa941f65f4a5de0cfe41f0cd8fe3e69f2ae5d"
-  integrity sha512-ur7OtcLnfvLH3j7R9fkJoucwXuCTY54dVAN55O6nEn8s+XL36Fs5td689AzaCe5/Y2wwO4aS4/fXw45Ndy2Twg==
+"@formatjs/intl@1.4.6":
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl/-/intl-1.4.6.tgz#7dd5058c546c0ddbc94a4abbc0c9fe88fe050610"
+  integrity sha512-NpmOi3T0ADalssZK0JJkS8mfbaiCwbHdlzdsp33cDY6ZMLSkLASwMUirmmEV9Qdh1TEVOixz9bSdy03eo+k7XA==
   dependencies:
     "@formatjs/ecma402-abstract" "1.4.0"
     "@formatjs/intl-datetimeformat" "2.8.4"
@@ -2259,9 +2259,9 @@
   integrity sha512-3c+yGKvVP5Y9TYBEibGNR+kLtijnj7mYrXRg+WpFb2X9xm04g/DXYkfg4hmzJQosc9snFNUPkbYIhu+KAm6jJw==
 
 "@types/node@*", "@types/node@>= 8":
-  version "14.14.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.8.tgz#2127bd81949a95c8b7d3240f3254352d72563aec"
-  integrity sha512-z/5Yd59dCKI5kbxauAJgw6dLPzW+TNOItNE00PkpzNwUIEwdj/Lsqwq94H5DdYBX7C13aRA0CY32BK76+neEUA==
+  version "14.14.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.9.tgz#04afc9a25c6ff93da14deabd65dc44485b53c8d6"
+  integrity sha512-JsoLXFppG62tWTklIoO4knA+oDTYsmqWxHRvd4lpmfQRNhX6osheUOWETP2jMoV/2bEHuMra8Pp3Dmo/stBFcw==
 
 "@types/node@^8.0.24":
   version "8.10.66"
@@ -2286,9 +2286,9 @@
     parchment "^1.1.2"
 
 "@types/react@*", "@types/react@^16.9.11":
-  version "16.9.56"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.56.tgz#ea25847b53c5bec064933095fc366b1462e2adf0"
-  integrity sha512-gIkl4J44G/qxbuC6r2Xh+D3CGZpJ+NdWTItAPmZbR5mUS+JQ8Zvzpl0ea5qT/ZT3ZNTUcDKUVqV3xBE8wv/DyQ==
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.0.tgz#bc022cfe1609899b0f2196376b267724e7300f0e"
+  integrity sha512-jJjHo1uOe+NENRIBvF46tJimUvPnmbQ41Ax0pEm7pRvhPg+wuj8VMOHHiMvaGmZRzRrCtm7KnL5OOE/6kHPK8w==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -4549,16 +4549,16 @@ debug@3.1.0, debug@~3.1.0:
     ms "2.0.0"
 
 debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
-  integrity sha512-IX2ncY78vDTjZMFUdmsvIRFY2Cf4FnD0wRs+nQwJU8Lu99/tPFdb0VybiiMTPe3I6rQmwsqQqRBvxU+bZ/I8sg==
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
+  integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
   dependencies:
     ms "2.1.2"
 
 debug@^3.0.0, debug@^3.1.0, debug@^3.1.1, debug@^3.2.6:
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
-  integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
+  integrity sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==
   dependencies:
     ms "^2.1.1"
 
@@ -4979,9 +4979,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.591:
-  version "1.3.599"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.599.tgz#3fbb004733f3c0dcf59934c8644ddf800b94443a"
-  integrity sha512-u6VGpFsIzSCNrWJb1I72SUypz3EGoBaiEgygoMkd0IOcGR3WF3je5VTx9OIRI9Qd8UOMHinLImyJFkYHTq6nsg==
+  version "1.3.603"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.603.tgz#1b71bec27fb940eccd79245f6824c63d5f7e8abf"
+  integrity sha512-J8OHxOeJkoSLgBXfV9BHgKccgfLMHh+CoeRo6wJsi6m0k3otaxS/5vrHpMNSEYY4MISwewqanPOuhAtuE8riQQ==
 
 electron@^2.0.18:
   version "2.0.18"
@@ -5847,9 +5847,9 @@ file-loader@^1.1.11:
     schema-utils "^0.4.5"
 
 file-saver@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/file-saver/-/file-saver-2.0.2.tgz#06d6e728a9ea2df2cce2f8d9e84dfcdc338ec17a"
-  integrity sha512-Wz3c3XQ5xroCxd1G8b7yL0Ehkf0TC9oYC6buPFkNnU9EnaPlifeAFCyCh+iewXTyFRcg0a6j3J7FmJsIhlhBdw==
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/file-saver/-/file-saver-2.0.5.tgz#d61cfe2ce059f414d899e9dd6d4107ee25670c38"
+  integrity sha512-P9bmyZ3h/PRG+Nzga+rbdI4OEpNDzAVyy74uVO9ATgzLK6VtAsYybF/+TOCvrc0MO793d6+42lLyZTw7/ArVzA==
 
 file-selector@^0.1.12:
   version "0.1.18"
@@ -10791,12 +10791,12 @@ react-hot-loader@4.8.8, react-hot-loader@^4.0.0, react-hot-loader@^4.3.10, react
     source-map "^0.7.3"
 
 react-intl@^5.7.0:
-  version "5.10.1"
-  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-5.10.1.tgz#deac1dec94afa93b875f653e3445b4946b10e178"
-  integrity sha512-D5zP6P7D70qFQc4KSYlwZ5iw1r2kXkmCGD1V6opM7ckIWj6FKs4p1za3eFOn0GpcEJNUQzTwNP4qu1NCHnHS2w==
+  version "5.10.2"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-5.10.2.tgz#7a2520dccd9662c317755418d090dd034c39906f"
+  integrity sha512-g5sxQXdmXSBo8tqi1I2PBpsAG40dgmHnVGoLdBJPwPNHvJbzc08J1r2IOKomPqHMDDjD47Q/Z1Ls87spw/ES5w==
   dependencies:
     "@formatjs/ecma402-abstract" "1.4.0"
-    "@formatjs/intl" "1.4.5"
+    "@formatjs/intl" "1.4.6"
     "@formatjs/intl-displaynames" "3.4.6"
     "@formatjs/intl-listformat" "4.3.6"
     "@formatjs/intl-relativetimeformat" "7.3.6"
