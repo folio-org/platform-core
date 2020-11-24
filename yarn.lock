@@ -1103,10 +1103,10 @@
     "@folio/plugin-create-inventory-records" "^1.0.0"
     "@folio/plugin-find-user" "^4.0.0"
 
-"@folio/circulation@4.0.1":
-  version "4.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/circulation/-/circulation-4.0.1.tgz#be330447f1b482e8ebefde24aa241e94861519e7"
-  integrity sha512-ywjoA3MXJeVWP24/jVLmpm/8PshMEZE+mKgTvLw78Au4tU1r1pPuRBa3QaJR9ov6IxDyGLqu+bmo7kdDVoM7kA==
+"@folio/circulation@4.0.2":
+  version "4.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/circulation/-/circulation-4.0.2.tgz#33fff3abba41472d67d3339c7ac745378e781a91"
+  integrity sha512-l3bZEhiasI+38lmbnP4mW0gCidoRxta0SPU24uGrh9VLa//AMXuF36L3g7a0crU/jPE2I+D1qDk3PrBxOy0msw==
   dependencies:
     "@folio/stripes-template-editor" "^1.0.0"
     final-form "^4.18.2"
@@ -1621,10 +1621,10 @@
     react-final-form-arrays "^3.1.1"
     redux-form "^7.0.3"
 
-"@folio/users@5.0.6":
-  version "5.0.6"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-5.0.6.tgz#0142f9509c73b193819b704a2dbcfc757d81f0c7"
-  integrity sha512-71pGi85etEavDefB+LYVm5qUCdVyq++LQBPAwcqoulOutipwQF62qeumiZgfpEIZmYbNaca3ZFt4Ovr89s1lFQ==
+"@folio/users@5.0.7":
+  version "5.0.7"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-5.0.7.tgz#927fabac8899e8cfa2256a76e54d5b371c41075b"
+  integrity sha512-Ky0GuaX4vXOMktS+Cy32E5Di87L3d13KrfyFKDvokYEcz/7WUgQNtmG1+uwoM/2v06wUaeT31RK45GXG8v9A6g==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form-set-field-data "^1.0.2"
