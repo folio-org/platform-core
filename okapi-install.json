@@ -76,6 +76,10 @@
     "action": "enable"
   },
   {
+    "id": "mod-tags-0.7.3-SNAPSHOT.53",
+    "action": "enable"
+  },
+  {
     "id": "mod-codex-mux-2.9.3-SNAPSHOT.98",
     "action": "enable"
   },
@@ -89,10 +93,6 @@
   },
   {
     "id": "mod-users-bl-6.2.0-SNAPSHOT.95",
-    "action": "enable"
-  },
-  {
-    "id": "mod-tags-0.7.3-SNAPSHOT.53",
     "action": "enable"
   },
   {
