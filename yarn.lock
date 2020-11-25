@@ -3,9 +3,9 @@
 
 
 "@apollo/client@^3.2.1":
-  version "3.2.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@apollo/client/-/client-3.2.8.tgz#4bfdbebce987d571a9020e9768ae7903b91690f1"
-  integrity sha512-wo/m9WTyUpJoITeifI0aA/9G2jOLcSZc8zNu+YUk4fr87FSo4qwBp2zeoEqYW1Y5TXolBp/ArEwLAwFQgQO0Sw==
+  version "3.2.9"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@apollo/client/-/client-3.2.9.tgz#a24a7792519adb3af8a74a60d9e83732238d0afd"
+  integrity sha512-AUvYITKhJNfRNU/Cf8t/N628ADdVah1+l9Qtjd09IwScRfDGvbBTkHMAgcb6hl7vuBVqGwQRq6fPKzHgWRlisg==
   dependencies:
     "@graphql-typed-document-node/core" "^3.0.0"
     "@types/zen-observable" "^0.8.0"
@@ -1534,9 +1534,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~5.1.0":
-  version "5.1.1000874"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.1.1000874.tgz#22fc24c271e5139f44e5d3423efb84a692d4f16e"
-  integrity sha512-+Sw6eJTkgmvmw+p3KWcvp1APRI11a8jY825mbOsyMYqTQw0wLWrVm7QUors8IJnaMeJSWhPyVB6lgw9J4Jt8dA==
+  version "5.1.1000875"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-5.1.1000875.tgz#f7614fac2448f6c3cc32acad39e9b47302b00e61"
+  integrity sha512-1EuScvO4KIBUbI6klzr6C45Sy58IRECeWgOtdjCzykyw0XN/O31mY8E4UtgclKjntbS9nKZxK5YhoVTSrATXQA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@rehooks/local-storage" "^2.3.0"
@@ -1627,9 +1627,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001318"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001318.tgz#64affa3f1d188edaea4b97373de857f5f3e2c37e"
-  integrity sha512-7DLmy8gyfsgOpKFVatA39GfJdsmFwRxSQZwFMBG6DwPVJ74epZwqz6w+KRfQEjDqJLrS3CVD+Mwdp6NaQlsF4A==
+  version "6.0.10001319"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001319.tgz#f578bf00c4b962da9fc51c16e334016abf79c7cf"
+  integrity sha512-LWc5JBNUSkaoDthAdQnSW+aERfU07x7ZKUGs+oyYtWl5hSNQn57GuKaYhX5JKbvjeyhtetxeO9+PfaTDC6u+AQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form-set-field-data "^1.0.2"
