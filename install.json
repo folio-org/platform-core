@@ -29,7 +29,7 @@
   "id" : "mod-configuration-5.6.0-SNAPSHOT.85",
   "action" : "enable"
 }, {
-  "id" : "mod-template-engine-1.13.0-SNAPSHOT.66",
+  "id" : "mod-template-engine-1.13.0-SNAPSHOT.67",
   "action" : "enable"
 }, {
   "id" : "mod-email-1.10.0-SNAPSHOT.49",
@@ -107,13 +107,13 @@
   "id" : "mod-authtoken-2.7.0-SNAPSHOT.79",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-6.2.0-SNAPSHOT.95",
+  "id" : "mod-users-bl-6.2.0-SNAPSHOT.96",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-core-6.1.1000798",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-5.1.1000876",
+  "id" : "folio_stripes-smart-components-5.1.1000877",
   "action" : "enable"
 }, {
   "id" : "folio_tags-4.0.100066",
