@@ -1086,9 +1086,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "5.0.1000483"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-5.0.1000483.tgz#30aaee07cc4aaebb913c1dec9a6a9f3943e6747d"
-  integrity sha512-6SADZ63scu4xQ+0m8lsSY+bxVltd/lVlI5uMl40QKr+1B42oUVi+LfQogwU0eSd44tkhJzanSS4pCpIWmTfK0Q==
+  version "5.0.1000484"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-5.0.1000484.tgz#1df9b67952f840d3ff9306143fb343578e5447e0"
+  integrity sha512-Mafj4EQorlUL0bq2r1CksLB59B0GaZAK1hxe+pgPiRgx585coO7NmKShfjCH4iMsRMUYsetpRlhGLooMDEXGlQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.19.1"
