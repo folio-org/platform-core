@@ -74,7 +74,7 @@
   "id" : "mod-tags-0.7.3-SNAPSHOT.54",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.10001088",
+  "id" : "folio_inventory-5.0.10001089",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-4.0.1000108",
@@ -98,7 +98,7 @@
   "id" : "folio_search-3.1.1000201",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-4.0.100080",
+  "id" : "folio_servicepoints-4.0.100082",
   "action" : "enable"
 }, {
   "id" : "mod-password-validator-1.8.3-SNAPSHOT.26",
@@ -113,7 +113,7 @@
   "id" : "folio_stripes-core-7.0.1000800",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.0.1000881",
+  "id" : "folio_stripes-smart-components-6.0.1000883",
   "action" : "enable"
 }, {
   "id" : "folio_tags-4.0.100066",

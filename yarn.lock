@@ -1128,9 +1128,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.10001088"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001088.tgz#e711035fa9849f13bb4786733bad804d7ce2e192"
-  integrity sha512-m0ZQtjLix3BOUoIxjdky/dPQ/KwrooJga82yD7GRMc1exeF9mZUXWJ2PgwYYXrV1i8V0q9kpj2jhO0WIIDueLA==
+  version "5.0.10001089"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001089.tgz#7f1cf118768af1138864a455c0b2ed1773439526"
+  integrity sha512-15IBwpYF4hnLGx5E3gq5WKAuuOzmCU0ub6xZCUWj0vxRCp0YHHRBCc+L7yDHfzj1Y5vlXvhuxgu6RXTv/EAxdg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     file-saver "^2.0.0"
@@ -1254,9 +1254,9 @@
     react-hot-loader "^4.3.12"
 
 "@folio/servicepoints@>=1.1.0":
-  version "4.0.100080"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-4.0.100080.tgz#e1b0ca33bf806d841465a44ae29ebba9fa5905d7"
-  integrity sha512-GNGG6RvDDSjcBl9P2/T8PWO2O5lObQOiz0jnt0aEj2hvVvtB1eQw12jpVeixVR4II7lvBwTGAyVr8n15iOYMxg==
+  version "4.0.100082"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-4.0.100082.tgz#128da349fee2b03915c5aa340be60033694eef2a"
+  integrity sha512-hiZEV8Ki91r1eJP5vnEUpJR/50/h3sVs6MvWH6QdbrNaqQhzga1M9GGYs7OjBVeu7+2ruQ1zRLjnS8yw1PGHRQ==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     lodash "^4.17.4"
@@ -1652,9 +1652,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~6.0.0":
-  version "6.0.1000881"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.0.1000881.tgz#b8db255caff70e6c1b1628337f30ff3f5d357ab7"
-  integrity sha512-mv0mCbSzeYy8PZ7WDXTJSfMqNOAbjJv42+nMzXJX8XV+ydJk7Ff27fgCEyFHqsqYoPCYbZuiwc2JwMVqU/Lmzg==
+  version "6.0.1000883"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.0.1000883.tgz#c5c7f85ab814f5afe0f6374239a23fda79520dc8"
+  integrity sha512-9xNlB4BNnNxSSGDMhoB1yiMTAfWt6ngZ87OIy4FP3Dp8aSSRTn8FKPJZQdZAs7wU1brnZZxIXFqjNkz8l2srLA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@rehooks/local-storage" "^2.3.0"
