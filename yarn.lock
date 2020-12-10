@@ -1086,9 +1086,9 @@
     "@folio/plugin-find-user" "^4.0.0"
 
 "@folio/circulation@>=1.3.0":
-  version "5.0.1000587"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.0.1000587.tgz#a311ac3cfd872c5348a27c59d7188eedd83e71e1"
-  integrity sha512-4ZTkcKqk5UZz9BFUgPDT6IvKNxV+IlwI0YXr/7C+k0ak8MqME8r7arng1GyRAcd4TPyxjoxW3XCsTq2CT9QbkQ==
+  version "5.0.1000589"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.0.1000589.tgz#2c1d99f265eca27de52c232e629f813b2a7c5f75"
+  integrity sha512-vpoSVpvZd4U0dRaNRc8uCzFNDE6b9P+BCa+Z/aCkTAlE95r62Cm2qgU/16OmPoSbr6wHBBCwaeYh8SnEnRu/vg==
   dependencies:
     "@folio/stripes-template-editor" "^1.0.0"
     final-form "^4.18.2"
@@ -5166,9 +5166,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.621:
-  version "1.3.621"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.621.tgz#0bbe2100ef0b28f88d0b1101fbdf433312f69be0"
-  integrity sha512-FeIuBzArONbAmKmZIsZIFGu/Gc9AVGlVeVbhCq+G2YIl6QkT0TDn2HKN/FMf1btXEB9kEmIuQf3/lBTVAbmFOg==
+  version "1.3.622"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.622.tgz#9726bd2e67a5462154750ce9701ca6af07d07877"
+  integrity sha512-AJT0Fm1W0uZlMVVkkJrcCVvczDuF8tPm3bwzQf5WO8AaASB2hwTRP7B8pU5rqjireH+ib6am8+hH5/QkXzzYKw==
 
 electron@^2.0.18:
   version "2.0.18"
