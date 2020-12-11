@@ -1086,9 +1086,9 @@
     "@folio/plugin-find-user" "^4.0.0"
 
 "@folio/circulation@>=1.3.0":
-  version "5.0.1000590"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.0.1000590.tgz#8ffc7666cf557b0f1260f0c28e2bf36cadf832be"
-  integrity sha512-C1AIPQfUXgG0ML7ohAdQSk20hwwgYY4NmEg2/DMFmccrmcfyzb5tT2aiuIZKh2ThSvSKp+9aqyrLzqlvC0Tslg==
+  version "5.0.1000591"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.0.1000591.tgz#7ea822d835ff198d1634631ad7cbaf8683fc0420"
+  integrity sha512-H7JhXvS/II9drbCjIJuWMuNZWBOo1TEe84zMKByuCcvcLddxBTVbOHAeuFrcwTdJWcrjytPF2LkxxNIfcPVsag==
   dependencies:
     "@folio/stripes-template-editor" "^1.0.0"
     final-form "^4.18.2"
