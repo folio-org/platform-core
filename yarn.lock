@@ -1526,9 +1526,9 @@
     webpack-virtual-modules "^0.1.10"
 
 "@folio/stripes-core@~7.0.0":
-  version "7.0.1000800"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.0.1000800.tgz#f11ce3fd2ed37cf001765f595af4192da92a5153"
-  integrity sha512-VQLOoY5LeqXOmMT76EXZMN6/7ZmB3cDuN56v/Mwl4euZ/yoGFlIEzDQaxVESOrHXRSZTpa4jITyIuG8Xt8BKUg==
+  version "7.0.1000801"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.0.1000801.tgz#9f358a21c133aa866a06448bbc8952f90fc88af2"
+  integrity sha512-mYQhP7xBrAL76hjRiEr7JpUYwyMaaINL38NeLy71zGeegnbV4qM9w8EyOQRC68lcQdeaP3+ZTfAzOo9Oziz3xQ==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@babel/core" "^7.8.0"
