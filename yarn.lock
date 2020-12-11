@@ -1379,9 +1379,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-components@~9.0.0":
-  version "9.0.10001224"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001224.tgz#d03ba6aecf2066202e4b345c411e5a7fcb8bb06d"
-  integrity sha512-y3z0xhzfkWgY+78Y+KyivhXWRPcVwxakIzVv8nna+pqRtEb0UXF5QIR2uBiM0TzOGQru8UFldezrUcD1LfGOkQ==
+  version "9.0.10001225"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001225.tgz#c732beda45e926ea809763ad98826f33e3e803dd"
+  integrity sha512-X6jTwjZ63asCNzXtI30JkZggIAd2npEd+8wGmNGqpQcj9JGApxjAFbz6/kdyEWzuI+cCBqihCrNjfQ6ZFGIrlA==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -2356,7 +2356,7 @@
     "@sinonjs/commons" "^1"
     "@sinonjs/samsam" "^5.0.2"
 
-"@sinonjs/samsam@^5.0.2", "@sinonjs/samsam@^5.2.0":
+"@sinonjs/samsam@^5.0.2", "@sinonjs/samsam@^5.3.0":
   version "5.3.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@sinonjs/samsam/-/samsam-5.3.0.tgz#1d2f0743dc54bf13fe9d508baefacdffa25d4329"
   integrity sha512-hXpcfx3aq+ETVBwPlRFICld5EnrkexXuXDwqUNhDdr5L8VjvMeSRwyOa0qL7XFmR+jVWR4rUZtnxlG7RX72sBg==
@@ -11992,14 +11992,14 @@ single-line-log@^1.1.2:
     string-width "^1.0.1"
 
 sinon@^9.0.2:
-  version "9.2.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/sinon/-/sinon-9.2.1.tgz#64cc88beac718557055bd8caa526b34a2231be6d"
-  integrity sha512-naPfsamB5KEE1aiioaoqJ6MEhdUs/2vtI5w1hPAXX/UwvoPjXcwh1m5HiKx0HGgKR8lQSoFIgY5jM6KK8VrS9w==
+  version "9.2.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/sinon/-/sinon-9.2.2.tgz#b83cf5d43838f99cfa3644453f4c7db23e7bd535"
+  integrity sha512-9Owi+RisvCZpB0bdOVFfL314I6I4YoRlz6Isi4+fr8q8YQsDPoCe5UnmNtKHRThX3negz2bXHWIuiPa42vM8EQ==
   dependencies:
     "@sinonjs/commons" "^1.8.1"
     "@sinonjs/fake-timers" "^6.0.1"
     "@sinonjs/formatio" "^5.0.1"
-    "@sinonjs/samsam" "^5.2.0"
+    "@sinonjs/samsam" "^5.3.0"
     diff "^4.0.2"
     nise "^4.0.4"
     supports-color "^7.1.0"
@@ -12787,9 +12787,9 @@ tinycolor2@^1.1.2, tinycolor2@^1.4.1:
   integrity sha512-vJhccZPs965sV/L2sU4oRQVAos0pQXwsvTLkWYdqJ+a8Q5kPFzJTuOFwy7UniPli44NKQGAglksjvOcpo95aZA==
 
 tlds@^1.203.0:
-  version "1.215.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/tlds/-/tlds-1.215.0.tgz#9f7c32d9c575fe7342c97be35b452b89c55c74a2"
-  integrity sha512-rmYrP3jM99ILMAXbcCu4ckWKi+K4AgSSN+0G1efJa/Nwjv/TFpBTA9kXC4Tm+o/zaQnX5kDTVoqFGtFTmokA8Q==
+  version "1.216.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/tlds/-/tlds-1.216.0.tgz#9749abcbe1bafb4f7b22d44391bd7bf64fa8a435"
+  integrity sha512-y9A+eMRKLdAOclcFRTk3durpvCWiEdWcQhCOopCO654pckH9+o5Z5VgBsTTAFqtyxB8yFRXSG1q7BCCeHyrm0w==
 
 tmp@0.0.33, tmp@0.0.x, tmp@^0.0.33:
   version "0.0.33"
