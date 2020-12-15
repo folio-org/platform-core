@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.11.0-SNAPSHOT.117",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-19.5.0-SNAPSHOT.509",
+  "id" : "mod-inventory-storage-19.5.0-SNAPSHOT.510",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-5.0.100090",
@@ -89,7 +89,7 @@
   "id" : "folio_plugin-find-user-4.0.1000134",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-4.0.1000594",
+  "id" : "folio_requests-4.0.1000595",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.9.3-SNAPSHOT.98",
