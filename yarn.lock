@@ -1583,9 +1583,9 @@
     nightmare "^3.0.2"
 
 "@folio/stripes-util@~4.1.0":
-  version "4.1.100042"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-4.1.100042.tgz#0bb7df7a1147710402b328d4f429b472fed82cb2"
-  integrity sha512-XVZOzohbXXBrAGzX6u/EO/msa2iKQLuyR7Maar43f/uueMZsf5fmCJ2541jLAc72Puw7kMA7rz87vYmn/eGYvw==
+  version "4.1.100043"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-4.1.100043.tgz#6d67439386f8b03303ae79130728a382d07582b6"
+  integrity sha512-pbBK5sZ8F695zpbd1S5JU/w2SDuyhW1Anpmei2eMDxWq0WWES7QTWa4d5VVGRsVDzIADVpQxYkGFFxb5TvI6GQ==
   dependencies:
     "@jest/globals" "^26.4.2"
     babel-jest "^26.3.0"
