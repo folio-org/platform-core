@@ -62,7 +62,7 @@
   "id" : "folio_checkin-4.0.1000321",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-5.0.1000485",
+  "id" : "folio_checkout-5.0.1000486",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-5.0.1000594",
@@ -89,7 +89,7 @@
   "id" : "folio_plugin-find-instance-4.0.100058",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-4.0.1000134",
+  "id" : "folio_plugin-find-user-4.0.1000135",
   "action" : "enable"
 }, {
   "id" : "folio_requests-4.0.1000597",
