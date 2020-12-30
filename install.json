@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-19.5.0-SNAPSHOT.519",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-5.0.100090",
+  "id" : "folio_calendar-5.0.100091",
   "action" : "enable"
 }, {
   "id" : "mod-users-17.3.0-SNAPSHOT.156",
@@ -59,7 +59,7 @@
   "id" : "mod-circulation-19.3.0-SNAPSHOT.790",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-4.0.1000321",
+  "id" : "folio_checkin-4.0.1000322",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-5.0.1000486",
@@ -98,7 +98,7 @@
   "id" : "mod-codex-mux-2.9.3-SNAPSHOT.98",
   "action" : "enable"
 }, {
-  "id" : "folio_search-3.1.1000201",
+  "id" : "folio_search-3.1.1000202",
   "action" : "enable"
 }, {
   "id" : "folio_servicepoints-4.0.100083",
@@ -119,7 +119,7 @@
   "id" : "folio_stripes-smart-components-6.0.1000887",
   "action" : "enable"
 }, {
-  "id" : "folio_tags-4.0.100068",
+  "id" : "folio_tags-4.0.100070",
   "action" : "enable"
 }, {
   "id" : "mod-login-saml-2.1.0-SNAPSHOT.59",
