@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-5.0.10001109",
+    "id": "folio_inventory-5.0.10001110",
     "action": "enable"
   },
   {
@@ -32,7 +32,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-instance-4.0.100058",
+    "id": "folio_plugin-find-instance-4.0.100060",
     "action": "enable"
   },
   {
@@ -48,7 +48,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_servicepoints-4.0.100082",
+    "id": "folio_servicepoints-4.0.100083",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-6.0.10001334",
+    "id": "folio_users-6.0.10001335",
     "action": "enable"
   }
 ]
