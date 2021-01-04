@@ -104,6 +104,10 @@
     "action": "enable"
   },
   {
+    "id": "mod-remote-storage-1.0.0-SNAPSHOT.32",
+    "action": "enable"
+  },
+  {
     "id": "mod-codex-inventory-1.9.0-SNAPSHOT.83",
     "action": "enable"
   }
