@@ -1105,9 +1105,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "4.0.1000171"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-4.0.1000171.tgz#e192a9c627d076798d2f49388dc8d02a271b9287"
-  integrity sha512-Ul9zqP/jEl/k2FjyNRTXtsXzmiQ47TJwAr6n9JHT+G/XFuwohjeC4V4YHqRTG+SxSY7F008oDjv+aMUhXcO3XQ==
+  version "4.0.1000172"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-4.0.1000172.tgz#956b9f46c88c6424bcd8e6ed2295d6b1425dadb4"
+  integrity sha512-5x+711hQGQvHsGXO16BR1MOVZLilnSgG8tmbzV06vda6et5tHp67Wb6Zvq45pQxgBynwVhO7jS0/Eog4fw11Pw==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
