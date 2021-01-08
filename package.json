@@ -34,8 +34,8 @@
     "build-module-descriptors": "stripes mod descriptor stripes.config.js --output ./ModuleDescriptors",
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
     "test": "echo 'No unit tests implemented'",
-    "test-int": "stripes test nightmare stripes.config.js",
-    "test-regression": "stripes test nightmare stripes.config.js --run WD/checkout/users/inventory/requests/circulation",
+    "test-int": "echo 'No end-to-end tests implemented'",
+    "test-regression": "echo 'No end-to-end tests implemented'",
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
