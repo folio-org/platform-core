@@ -59,7 +59,7 @@
   "id" : "mod-circulation-19.3.0-SNAPSHOT.790",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-4.0.1000324",
+  "id" : "folio_checkin-4.0.1000325",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-5.0.1000490",
