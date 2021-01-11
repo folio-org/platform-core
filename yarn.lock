@@ -1105,9 +1105,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "4.0.1000172"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-4.0.1000172.tgz#956b9f46c88c6424bcd8e6ed2295d6b1425dadb4"
-  integrity sha512-5x+711hQGQvHsGXO16BR1MOVZLilnSgG8tmbzV06vda6et5tHp67Wb6Zvq45pQxgBynwVhO7jS0/Eog4fw11Pw==
+  version "4.0.1000173"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-4.0.1000173.tgz#69d5693cb568d50bfed15f683cad54462f5896bb"
+  integrity sha512-Txe5IK+m2+fulJPOxJ54NQqK3FC6d/W8auZU6pRVBrjHuoOugGQu58UdrqtlHIKuYtdzXQBx7BcZymvIFTMkBA==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
@@ -1335,9 +1335,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~9.0.0":
-  version "9.0.10001237"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001237.tgz#0548d3cafc84e6ff4146e218ea1d04dd4e59d6e7"
-  integrity sha512-o+hewjv0Sfy5nn2lMl/qe4ZLNqgH2BMpz3MQVD1h87SC4NuXvLFDyj8RW5fIjzF7je1pc4XZJJaS7QSB4THsWw==
+  version "9.0.10001238"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001238.tgz#64c471761da8e8b73cdbb457acb5e21910844763"
+  integrity sha512-KbdtKAfMRd3exNdI1yhiWCg2Xej6lKkig7ydpN1j/nh+n8ZuIPYc3AKXTbuJnndKq2R45Yev4KCp+ookU+m3cQ==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
