@@ -1105,9 +1105,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "4.0.1000173"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-4.0.1000173.tgz#69d5693cb568d50bfed15f683cad54462f5896bb"
-  integrity sha512-Txe5IK+m2+fulJPOxJ54NQqK3FC6d/W8auZU6pRVBrjHuoOugGQu58UdrqtlHIKuYtdzXQBx7BcZymvIFTMkBA==
+  version "4.0.1000174"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-4.0.1000174.tgz#04d96e636e04cf2e3d2b98a9c8f6063987e921d8"
+  integrity sha512-94OREwCdptixvqjrCqBEndKd4T9HcHBdKki8/XieT9F6Qmkw9t+z7OhqDm+feYGH+/jpODKSaxSS8TC04WSgtQ==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
@@ -1335,9 +1335,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~9.0.0":
-  version "9.0.10001238"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001238.tgz#64c471761da8e8b73cdbb457acb5e21910844763"
-  integrity sha512-KbdtKAfMRd3exNdI1yhiWCg2Xej6lKkig7ydpN1j/nh+n8ZuIPYc3AKXTbuJnndKq2R45Yev4KCp+ookU+m3cQ==
+  version "9.0.10001239"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001239.tgz#3dfe5633b03c2d1d0b66c04cf31ddfa6b2c6f365"
+  integrity sha512-hcx5jwORNfDRu6QJ2QXMA0jPDerpDrk6maSRfTAhasW+7KWg34hQLcVo8aU3DMzWvsEju02H0sagZEJQ+hhFhg==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1520,9 +1520,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~6.0.0":
-  version "6.0.1000891"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.0.1000891.tgz#310d13f17ff129fb4b7082ba3afe97b7e019ef43"
-  integrity sha512-N6+gwyujUJjn62P8drwsVuSLtoxSYaJCxPi7iYPlNhbstkEYuE0wp3sd0pY5w8jW84PQimR2S5BjpV2mhmQjnA==
+  version "6.0.1000892"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.0.1000892.tgz#c14f3ef03bf26e1b7834cc88ecd4e9d637d2b383"
+  integrity sha512-d+BfpVMebtAWajuWTnOwKoPMPKQduzxh5KLJqAK7h3Ur7f5NwqranVstlir7Z3/xAOHASnDie0TdPMaRfiL8cA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@rehooks/local-storage" "^2.3.0"

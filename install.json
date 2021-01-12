@@ -68,13 +68,13 @@
   "id" : "folio_circulation-5.0.1000599",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-4.0.1000173",
+  "id" : "folio_developer-4.0.1000174",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.7.3-SNAPSHOT.54",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-3.1.0-SNAPSHOT.224",
+  "id" : "mod-data-export-3.1.0-SNAPSHOT.225",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-5.0.10001118",
@@ -116,7 +116,7 @@
   "id" : "folio_stripes-core-7.0.1000812",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.0.1000891",
+  "id" : "folio_stripes-smart-components-6.0.1000892",
   "action" : "enable"
 }, {
   "id" : "folio_tags-4.0.100071",
