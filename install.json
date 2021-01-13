@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.8.0-SNAPSHOT.101",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.229",
+  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.230",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-16.2.0-SNAPSHOT.318",
@@ -59,7 +59,7 @@
   "id" : "mod-circulation-19.3.0-SNAPSHOT.792",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-4.0.1000327",
+  "id" : "folio_checkin-4.0.1000328",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-5.0.1000493",
