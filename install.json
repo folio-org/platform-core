@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.8.0-SNAPSHOT.101",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.230",
+  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.231",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-16.2.0-SNAPSHOT.318",
@@ -53,7 +53,7 @@
   "id" : "mod-patron-blocks-1.2.0-SNAPSHOT.43",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-2.10.3-SNAPSHOT.166",
+  "id" : "mod-notes-2.10.3-SNAPSHOT.167",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-19.3.0-SNAPSHOT.794",
