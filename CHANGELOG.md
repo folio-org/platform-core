@@ -10,6 +10,7 @@
 * Update `react-intl` to `^5.7.0`, STRIPES-694
 * Update `moment` to `~2.29`. STRIPES-702.
 * Update `react` to `~17.0`. STRIPES-722.
+* Update `redux` to `^4.0`, `react-redux` to `^7.2`. Refs STRIPES-721.
 
 ## [1.3.0](https://github.com/folio-org/platform-core/tree/v1.3.0-SNAPSHOT) (2019-01-23)
 
