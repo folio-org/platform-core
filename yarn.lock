@@ -1265,11 +1265,11 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.2.3000398"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.3000398.tgz#d376f619ede038c361bdb75ef082a3ae31c18310"
-  integrity sha512-TOimvjpMYwDqSNEekkcKnjBELxGii1MQfMEm+wu4a0gd0iiooU+E9ymCZGUKl/txB9ZLC+zo5XEf+WWMrjmqNw==
+  version "2.2.3000399"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.3000399.tgz#877e93e5f45a7263d2547cc243e2b98ca9369608"
+  integrity sha512-ZXT+VZ2ObBa/Xz98H+ueLWp8IyOlMk8nqfVM8jb9sZtm4Kp3j0+qU+C9roA5VyqjbavjXFXoO5lV7qmgqguquA==
   dependencies:
-    "@folio/react-intl-safe-html" "^2.0.0"
+    "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
@@ -1282,7 +1282,7 @@
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.1"
     react-hot-loader "^4.3.12"
-    redux-form "^7.4.2"
+    redux-form "^8.3.0"
 
 "@folio/stripes-cli@^1.18.0":
   version "1.20.1000236"
@@ -12422,7 +12422,7 @@ reduce-css-calc@^2.0.0:
     css-unit-converter "^1.1.1"
     postcss-value-parser "^3.3.0"
 
-redux-form@^7.0.3, redux-form@^7.4.2:
+redux-form@^7.0.3:
   version "7.4.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/redux-form/-/redux-form-7.4.3.tgz#74cd5b460bfbb476987a54841c33e99136800c31"
   integrity sha512-h2LEGdEQ9XaX2wXZnf6zIUFSETk4jDqG4NUKwqkSfOJZDxT3H2hJmKVZI76j/YsE/8E3eY6yPoAENCxjLi1p+Q==
