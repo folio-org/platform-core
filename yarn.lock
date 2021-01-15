@@ -1335,9 +1335,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~9.0.0":
-  version "9.0.10001240"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001240.tgz#08516d9706edba34a6f875e3801892889c2237be"
-  integrity sha512-/F0W659oHyWwWagbQZ+o3z8ZyBobHWO3ram9MWnBJfkq12vK5SJGBZKDs/amMM+B2pDGyFJyYPlo4haE8EIfUg==
+  version "9.0.10001241"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001241.tgz#f736d12a10897d5ae1a2c037e54ab5c3eeacccd1"
+  integrity sha512-FyIEAzNtuLnAPaIGvYjPiVCuQsO5SpKKrVs4F/3COyc93+mTGDkZ9pH2yhZslNvVUg1tPmIxSMa20A/JK9yYMQ==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1367,15 +1367,15 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~6.1.0":
-  version "6.1.1000135"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-6.1.1000135.tgz#ac81a78431a039290b2e36bae738d980414d92a7"
-  integrity sha512-IW6VWoHhB2EE0MS/5TVRd9ToepFBVth1pfpXsNq72Laa6beCk9oy6JoXsgLdujGpD7WZ1r55VQFg/X4Ii0A4Kw==
+  version "6.1.1000136"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-6.1.1000136.tgz#58e048e34abc8f391ab24b732f61dd4fd1d6aca8"
+  integrity sha512-2P286Sdgi+UTZperE9B7G5MI19deg3wVUg2oDb/A18CW8M0KDspNUzLGhG1MNW8/gpNG24v6LhUiWJe4fMRbsQ==
   dependencies:
     lodash "^4.17.11"
     prop-types "^15.5.10"
     query-string "^5.0.0"
-    react-redux "^5.0.2"
-    redux "^3.6.0"
+    react-redux "^7.2.0"
+    redux "^4.0.0"
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0", "@folio/stripes-core@~7.0.0":
@@ -1579,9 +1579,9 @@
     query-string "^5.0.0"
 
 "@folio/stripes@^6.0.0":
-  version "6.0.100099"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-6.0.100099.tgz#1065b58bc80b10e3535efb4bcf215b179dccc4d0"
-  integrity sha512-vG/29+0wDrYMMHfYAWrLg1pRmVpk/LGi/Wn/AWCHGFISHplv8/fdf8k7j+hgrU5ETiFt+mxhkG49lb0TG4k0aw==
+  version "6.0.1000100"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-6.0.1000100.tgz#c8333e8aff461a1afb1996f9c1a2b3e23a631370"
+  integrity sha512-ba1ik0r3kbDfCPXo9dkln2O76GWRbLkQf9dRff9eZpGrQny4YyKBtdjU3pfk9edj/lyS7Xw5WlVIQIkTTu7j+A==
   dependencies:
     "@folio/stripes-components" "~9.0.0"
     "@folio/stripes-connect" "~6.1.0"
@@ -5515,9 +5515,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.634:
-  version "1.3.639"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.639.tgz#0a27e3018ae3acf438a14a1dd4e41db4b8ab764e"
-  integrity sha512-bwl6/U6xb3d3CNufQU9QeO1L32ueouFwW4bWANSwdXR7LVqyLzWjNbynoKNfuC38QFB5Qn7O0l2KLqBkcXnC3Q==
+  version "1.3.640"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.640.tgz#94e68c0ae79181a1d6fd1ed9a42b9790d51a1bca"
+  integrity sha512-cU6wQdXYzuSPzLdszsa4whStYfmU7CVNnG6c5z6/z9YlCOQ2Xh/uKB1gTxlIRr0ubgSg1/dZuSbUAoeESeQ3sQ==
 
 electron@^2.0.18:
   version "2.0.18"
@@ -12158,7 +12158,7 @@ react-redux@^5.0.2, react-redux@^5.1.1, react-redux@~5.1.1:
     react-is "^16.6.0"
     react-lifecycles-compat "^3.0.0"
 
-react-redux@^7.0.3, react-redux@^7.1.1:
+react-redux@^7.0.3, react-redux@^7.1.1, react-redux@^7.2.0:
   version "7.2.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-redux/-/react-redux-7.2.2.tgz#03862e803a30b6b9ef8582dadcc810947f74b736"
   integrity sha512-8+CQ1EvIVFkYL/vu6Olo7JFLWop1qRUeb46sGtIMDCSpgwPQq8fPLpirIB0iTqFe9XYEFPHssdX8/UwN6pAkEA==
