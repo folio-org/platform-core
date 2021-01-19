@@ -1110,10 +1110,10 @@
     eslint-plugin-react-hooks "^2.1.2"
     webpack "^4.41.2"
 
-"@folio/inventory@5.0.5":
-  version "5.0.5"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-5.0.5.tgz#3cbb4234c4a7cb93972a4d6a2fd278347e18d877"
-  integrity sha512-/TKYg06X9XWAKFbbrsdt+Wt5oJM1NbiGEtytyowH9D1rljQ9s/IKYTDD8kkRaXOXx4CRtHGLheb3NLhPGQ7YnQ==
+"@folio/inventory@5.0.6":
+  version "5.0.6"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-5.0.6.tgz#c606415d66ea11856484d1e7c2fd3f8b0d85b68a"
+  integrity sha512-/cL0T2sD6AVC6x3b2e+MtgHuszgg0UD5OZi6OmHHH8jQpIsivH6XYhc2yvsLUsD4xTiADV+/CrSqewfoiD6FVg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     file-saver "^2.0.0"
