@@ -1335,9 +1335,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~9.0.0":
-  version "9.0.10001244"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001244.tgz#7dbd1631b931154affd7d1e7ba57b7881833856a"
-  integrity sha512-FfGkPQNwnxy1QJ/grl3tHuX2jeoz2OhXhvDQRnZbpVDtDfzOWsbqqlWoAylysJt2+bgB4IDMGBvgebAgdnLlOQ==
+  version "9.0.10001246"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001246.tgz#014fe520d17e9c494658faa4724eeacfc052f2c8"
+  integrity sha512-aRhtJkMLr9aVWJ9X8Tg0F9hY5KR2kUbxW49T2e+NdBKZNjWg2ave3d7dwGJb2vFNUnvIAe4DXuP89zo0HZXPhQ==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1367,9 +1367,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~6.1.0":
-  version "6.1.1000137"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-6.1.1000137.tgz#aca0f5020bc7473e1f702a19ad2c78fd83c8bda8"
-  integrity sha512-udY45pJyCcb0lh8PYfP4QVHr/4A+pZibegXRGyeb64IHKr8qDa8+l0HGwZTAMcGVcegQPRY5xv2s1k2Rr+i12Q==
+  version "6.1.1000140"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-6.1.1000140.tgz#aac05a8ba904168323fb930e1c9b353cecd11cc4"
+  integrity sha512-KdX3uk81oYD7pm1korksNZICjPktJES7TlDuJNYGIkh8zu8a6P0YaZUG0S69++g8ROqS//RZRWM1VmsYAT0x+A==
   dependencies:
     lodash "^4.17.11"
     prop-types "^15.5.10"
