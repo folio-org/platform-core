@@ -59,7 +59,7 @@
   "id" : "mod-circulation-19.3.0-SNAPSHOT.795",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-4.0.1000330",
+  "id" : "folio_checkin-4.0.1000331",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-5.0.1000494",
@@ -68,7 +68,7 @@
   "id" : "folio_circulation-5.0.1000604",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-4.0.1000174",
+  "id" : "folio_developer-4.0.1000175",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.7.3-SNAPSHOT.54",
@@ -116,7 +116,7 @@
   "id" : "folio_stripes-core-7.0.1000818",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.0.1000896",
+  "id" : "folio_stripes-smart-components-6.0.1000898",
   "action" : "enable"
 }, {
   "id" : "folio_tags-4.0.100072",
