@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-19.5.0-SNAPSHOT.527",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-5.0.100093",
+  "id" : "folio_calendar-5.0.100094",
   "action" : "enable"
 }, {
   "id" : "mod-users-17.3.0-SNAPSHOT.156",
@@ -59,13 +59,13 @@
   "id" : "mod-circulation-19.3.0-SNAPSHOT.795",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-4.0.1000331",
+  "id" : "folio_checkin-4.0.1000332",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-5.0.1000495",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-5.0.1000604",
+  "id" : "folio_circulation-5.0.1000608",
   "action" : "enable"
 }, {
   "id" : "folio_developer-4.0.1000176",
@@ -128,7 +128,7 @@
   "id" : "mod-remote-storage-1.0.0-SNAPSHOT.39",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-5.0.1000172",
+  "id" : "folio_tenant-settings-5.0.1000173",
   "action" : "enable"
 }, {
   "id" : "folio_users-6.0.10001345",

@@ -1,10 +1,10 @@
 [
   {
-    "id": "folio_calendar-5.0.100093",
+    "id": "folio_calendar-5.0.100094",
     "action": "enable"
   },
   {
-    "id": "folio_checkin-4.0.1000331",
+    "id": "folio_checkin-4.0.1000332",
     "action": "enable"
   },
   {
@@ -12,7 +12,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_circulation-5.0.1000604",
+    "id": "folio_circulation-5.0.1000608",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-5.0.1000172",
+    "id": "folio_tenant-settings-5.0.1000173",
     "action": "enable"
   },
   {
