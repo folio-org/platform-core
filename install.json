@@ -41,13 +41,13 @@
   "id" : "mod-notify-2.8.0-SNAPSHOT.101",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.235",
+  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.236",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-16.2.0-SNAPSHOT.319",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-15.10.0-SNAPSHOT.129",
+  "id" : "mod-feesfines-15.10.0-SNAPSHOT.130",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.2.0-SNAPSHOT.43",
