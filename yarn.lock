@@ -1228,9 +1228,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^2.0.0":
-  version "2.0.1000103"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000103.tgz#a0f3a9d5719c162bf16418b82c0623664c9b88e7"
-  integrity sha512-hoQYkoYgBfot5nReb+WYjuG27akDhVivLSUW1tAZGD3EpOElKSShosGYd9VYvmiTtqhHByozcJ5JOggg03jeLA==
+  version "2.0.1000104"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000104.tgz#f8bc48f805bee2c0216b5de8f7265c760a67f6df"
+  integrity sha512-SRdgxldd30VMRFQpuus5GnmHAZVQM17ispNzZiCPpjtYJsucxQw4hNvR35/adfynsxXxrGtNhvBFNTWc2TGdgA==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1294,9 +1294,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.2.3000407"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.3000407.tgz#33bf5f7dbf652e3fafa4430a7e104a055715fde5"
-  integrity sha512-qo7GN2k7b9kqKLvUyBAn4WyKh96cq2V5e7QgFr3UwKWw1++tUOYUjkSf4Z1E6V52KcIajdmTTdoUnwiWAZW2sg==
+  version "2.2.3000408"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.3000408.tgz#311c7149920838b25dfafdc054e9945c2d840bff"
+  integrity sha512-EoTvWmpLKLUEdSbdNgGXN9TfAfQNcakGvVV/ubzTOqlKypXNV99rKrIj4rDQgPCOa1m1qVjtmVER5bV/B4JsfA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "^2.4.0"
@@ -1646,9 +1646,9 @@
     redux-form "^7.0.3"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "5.0.1000172"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-5.0.1000172.tgz#511ee5202a01251c503a174da3b0de99c03b2576"
-  integrity sha512-RLLsgXBhw+fZqM3dE9aM/oJ7436xbILnPVX3WgDfuHpxfBPFbB9Ral2WSgJ7p2/FYk45OtinxMZq1GwcdPOVNg==
+  version "5.0.1000173"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-5.0.1000173.tgz#51912991253f7c109fbef6dcd2fbf096d3a8b04f"
+  integrity sha512-GgR5TrgJwXOv3HneBS82hSWGwMQ2jNKaqeT9y1weouHNLsB7FiutjTmwVrNklWqtDnIqgWTQOdUS/5kX9BAwkw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
