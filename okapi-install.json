@@ -24,7 +24,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-12.2.0-SNAPSHOT.271",
+    "id": "mod-circulation-storage-12.2.0-SNAPSHOT.273",
     "action": "enable"
   },
   {
@@ -52,7 +52,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-4.2.0-SNAPSHOT.235",
+    "id": "mod-source-record-storage-4.2.0-SNAPSHOT.237",
     "action": "enable"
   },
   {
@@ -60,7 +60,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-15.10.0-SNAPSHOT.129",
+    "id": "mod-feesfines-15.10.0-SNAPSHOT.130",
     "action": "enable"
   },
   {
