@@ -12330,7 +12330,7 @@ react-tether@^1.0.1:
     prop-types "^15.6.2"
     tether "^1.4.5"
 
-react-titled@^1.0.0:
+react-titled@^1.0.0, react-titled@^1.0.1:
   version "1.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-titled/-/react-titled-1.0.1.tgz#a0a6299a65c4462215b98249edcb8d20c5ce7caf"
   integrity sha512-WIXFjCgZ5lALSXmByI+2aJDgNHs1dP1Clz+sSTH9Kjis+y37atU9aJDLHljcgcQbYhlZqxPJENkyxam79Bq7SA==
