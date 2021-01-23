@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-5.0.10001130",
+    "id": "folio_inventory-5.0.10001131",
     "action": "enable"
   },
   {
@@ -32,7 +32,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-instance-4.0.100062",
+    "id": "folio_plugin-find-instance-4.0.100063",
     "action": "enable"
   },
   {
@@ -52,7 +52,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-7.0.1000825",
+    "id": "folio_stripes-core-7.0.1000826",
     "action": "enable"
   },
   {
@@ -60,7 +60,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_tags-4.0.100073",
+    "id": "folio_tags-4.0.100074",
     "action": "enable"
   },
   {
