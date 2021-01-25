@@ -1534,9 +1534,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/stripes-form@~6.0.0":
-  version "6.0.1000120"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-6.0.1000120.tgz#52a857e2fa9847eca6c320b5eb3acbdaf82f5db2"
-  integrity sha512-NZEwvbZcBn2/rGofX4tj2hfG+cEy0eT26ThQMiZxYlyV9lLmIT6FhoHstxqsPostpztoc90I1HSmmBCCDOcVuA==
+  version "6.0.1000121"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-6.0.1000121.tgz#7cf19259622b3306a0caea5739ec29631c3541ff"
+  integrity sha512-XMTLsAaOxQO3XUwhRWgfYEOVxrkqSRZo0KXCGvTWMbwIzlcbHERonlKSSGOwlykWPA8lLTZz1FWe2dqchda8JQ==
   dependencies:
     flat "^4.0.0"
     prop-types "^15.5.10"
@@ -5633,9 +5633,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.634:
-  version "1.3.644"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.644.tgz#c89721733ec26b8d117275fb6b2acbeb3d45a6b6"
-  integrity sha512-N7FLvjDPADxad+OXXBuYfcvDvCBG0aW8ZZGr7G91sZMviYbnQJFxdSvUus4SJ0K7Q8dzMxE+Wx1d/CrJIIJ0sw==
+  version "1.3.645"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.645.tgz#c0b269ae2ecece5aedc02dd4586397d8096affb1"
+  integrity sha512-T7mYop3aDpRHIQaUYcmzmh6j9MAe560n6ukqjJMbVC6bVTau7dSpvB18bcsBPPtOSe10cKxhJFtlbEzLa0LL1g==
 
 electron@^2.0.18:
   version "2.0.18"
