@@ -2341,11 +2341,11 @@
   integrity sha512-OOXW6e+vSIpA63Zp5Q+hio3tnQsWFnn9xx1xco0arjTOBcKW/NwFsmhpmj4Yt5IddUS1V7PVGSfRRDO5qZhEqQ==
 
 "@octokit/plugin-paginate-rest@^2.2.0":
-  version "2.8.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-2.8.3.tgz#2b6a2087d18be84ec12e0420b41853b25735d68b"
-  integrity sha512-cq2aShAMqqj8rRaGYtQw/4sybjmZh62CjAFaWwttT4sjV9OuS8fvGiV79BVLr2pSotEy8ZBSWH+ZBr1E16O5gA==
+  version "2.8.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-2.8.4.tgz#0aa75e64e3113d54777b2cefe92b1953052d1020"
+  integrity sha512-4JD7Chzs4k7Z9asxLoagwwP1md5cS5AiPbnHCRuiN/W8Jwe8a/ZNxZi5Ipb4D/lkr3qQNRcCEsjXldNH8Y8J/w==
   dependencies:
-    "@octokit/types" "^6.5.2"
+    "@octokit/types" "^6.5.3"
 
 "@octokit/plugin-request-log@^1.0.0":
   version "1.0.3"
@@ -2407,7 +2407,7 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@octokit/types@^6.0.3", "@octokit/types@^6.5.2":
+"@octokit/types@^6.0.3", "@octokit/types@^6.5.3":
   version "6.5.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/types/-/types-6.5.3.tgz#06a419e4cfd39048da4e84b5072c690836c66f1d"
   integrity sha512-kKefDpNiYXQoZvvbDxgdTDKn1pzopxyn9W/7nkIxNaiRC20jKDEC8vVT8GN6R8eTz8pImz2198jCXTgEMck+sA==
