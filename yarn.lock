@@ -1108,9 +1108,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "5.0.1000499"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-5.0.1000499.tgz#7c3f73bde1d03b0a084733cf51d32ba6bcaccf7f"
-  integrity sha512-7AGzMSclBN38pZKXp0/R43bt0hJaTwTg1FBDJV9fgjvky12jC33tAlC5I43OYwY2l4qWjfGVjBHQX4u+e3TydQ==
+  version "5.0.1000500"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-5.0.1000500.tgz#c05040037496eb507ccb373098f6b0d4a47be85e"
+  integrity sha512-Loe4tIg2VQ4prXyV1TlyX6+ppDtBOP9+K6qpluRu0HA7rcJqJiIArZ/flYf3+zmp/f+HzfwxEZn7C6kepM0eCg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form "^4.19.1"
@@ -1217,9 +1217,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-instance@>=1.1.0", "@folio/plugin-find-instance@^4.0.0":
-  version "4.0.100063"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-4.0.100063.tgz#c797c64a7bd84f544fd9e3a0da2ae63c5d3d6a3d"
-  integrity sha512-Exg0iaWze+yMDtNRof6eaRQw9qvO917XOfd3wa8OOLn0jBGMqfWBZeABEZ4Hdn86QuwuUe/10vwnxtz089nAiQ==
+  version "4.0.100064"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-4.0.100064.tgz#d923868a9aa1422fa86668f3222f1809443c5417"
+  integrity sha512-nWkYd97PA25zttFr6crHrxXqcCljHKT+sCPUzbTsBeaev/VwXkIRhXPPN0Fm405xb0PTL+Xfs+ZHGx3g4kaYqQ==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
@@ -1644,9 +1644,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "5.0.1000176"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-5.0.1000176.tgz#383e2ab1e0db744d2f8f32d07c6cc9ba55367dc9"
-  integrity sha512-SBnNTUBB66RMHzZuUr6Bigthqt40jBsnsJIHArt2c9cZrT3adk8id8q5goericQ65pL1pg8PVM0GiV7xFLtVuQ==
+  version "5.0.1000177"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-5.0.1000177.tgz#6eb1503f2066d4b6dcd8569345890f1102c5da49"
+  integrity sha512-lZUwDxsuTlhRc2cQPkvnJ3EWcbRV8BzOaXRPZr41ycFd3H9P36irHNdyyNi3ZSkwZXDStnuSUnhzgSrZTn4BiQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
