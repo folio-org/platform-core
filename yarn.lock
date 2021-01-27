@@ -1194,13 +1194,13 @@
     "@folio/quick-marc" "^2.0.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "4.0.1000108"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-4.0.1000108.tgz#ff30a1977f305636eabbbd2a0f95dda0b9b3f0bf"
-  integrity sha512-PGnPNG9Z9q2RMao4HWUISBVxlNcj597+1Lz4TIXZtu9BhdvO5j1ZwpgvLAyzBrLstwQ83lzsXku6s2605kFkUg==
+  version "4.0.1000111"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-4.0.1000111.tgz#dd8ab4d6350aec764810af2be4296130acdaf570"
+  integrity sha512-EleHbBZrVQ8PQKvab/kUWxMRqbDA+CLH6sSeix1+ew/3tHBPOhx2NExm0fHU5WJaXcqr2Gq0BogIvLfo46tVfA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     prop-types "^15.6.0"
-    redux-form "^7.0.3"
+    redux-form "^8.3.7"
 
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^2.0.0":
   version "2.0.100046"
@@ -12579,7 +12579,7 @@ reduce-css-calc@^2.0.0:
     css-unit-converter "^1.1.1"
     postcss-value-parser "^3.3.0"
 
-redux-form@^7.0.3, redux-form@^8.0.0, redux-form@^8.0.3, redux-form@^8.3.0, redux-form@^8.3.7:
+redux-form@^8.0.0, redux-form@^8.0.3, redux-form@^8.3.0, redux-form@^8.3.7:
   version "8.3.7"
   resolved "https://repository.folio.org/repository/npm-ci-all/redux-form/-/redux-form-8.3.7.tgz#24eb6d8b8b37098b4702fc4c52b6596b01a71c82"
   integrity sha512-CUv6z5Gpog3shB3Ptsd+x6dmeQ1AzIlx1Tniri3j7Gf+oBBtLrD7dHMLOcTbJKsaEwG49SB/z1Pik3Hy04mNcQ==
