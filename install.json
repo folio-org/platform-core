@@ -56,7 +56,7 @@
   "id" : "mod-notes-2.10.3-SNAPSHOT.167",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.3.0-SNAPSHOT.796",
+  "id" : "mod-circulation-19.3.0-SNAPSHOT.797",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-4.0.1000335",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-5.0.1000500",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-5.0.1000611",
+  "id" : "folio_circulation-5.0.1000612",
   "action" : "enable"
 }, {
   "id" : "folio_developer-5.0.1000178",
