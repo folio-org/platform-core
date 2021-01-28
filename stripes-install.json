@@ -1,30 +1,30 @@
 [
   {
-    "id": "folio_calendar-5.0.100092",
+    "id": "folio_calendar-5.0.100096",
     "action": "enable"
   },
   {
-    "id": "folio_checkin-4.0.1000325",
+    "id": "folio_checkin-4.0.1000335",
     "action": "enable"
   },
   {
-    "id": "folio_checkout-5.0.1000490",
+    "id": "folio_checkout-5.0.1000500",
     "action": "enable"
   },
   {
-    "id": "folio_circulation-5.0.1000598",
+    "id": "folio_circulation-5.0.1000612",
     "action": "enable"
   },
   {
-    "id": "folio_developer-4.0.1000172",
+    "id": "folio_developer-5.0.1000178",
     "action": "enable"
   },
   {
-    "id": "folio_inventory-5.0.10001115",
+    "id": "folio_inventory-5.0.10001134",
     "action": "enable"
   },
   {
-    "id": "folio_myprofile-4.0.1000108",
+    "id": "folio_myprofile-4.0.1000111",
     "action": "enable"
   },
   {
@@ -32,7 +32,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-instance-4.0.100061",
+    "id": "folio_plugin-find-instance-4.0.100064",
     "action": "enable"
   },
   {
@@ -40,35 +40,35 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-4.0.1000599",
+    "id": "folio_requests-4.0.1000608",
     "action": "enable"
   },
   {
-    "id": "folio_search-3.1.1000202",
+    "id": "folio_search-3.1.1000205",
     "action": "enable"
   },
   {
-    "id": "folio_servicepoints-4.0.100084",
+    "id": "folio_servicepoints-4.0.100085",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-7.0.1000812",
+    "id": "folio_stripes-core-7.0.1000827",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-6.0.1000890",
+    "id": "folio_stripes-smart-components-6.0.1000904",
     "action": "enable"
   },
   {
-    "id": "folio_tags-4.0.100071",
+    "id": "folio_tags-5.0.100075",
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-5.0.1000166",
+    "id": "folio_tenant-settings-5.0.1000177",
     "action": "enable"
   },
   {
-    "id": "folio_users-6.0.10001341",
+    "id": "folio_users-6.0.10001359",
     "action": "enable"
   }
 ]
