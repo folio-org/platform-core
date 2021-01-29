@@ -1215,9 +1215,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-instance@>=1.1.0", "@folio/plugin-find-instance@^4.0.0":
-  version "4.0.100064"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-4.0.100064.tgz#d923868a9aa1422fa86668f3222f1809443c5417"
-  integrity sha512-nWkYd97PA25zttFr6crHrxXqcCljHKT+sCPUzbTsBeaev/VwXkIRhXPPN0Fm405xb0PTL+Xfs+ZHGx3g4kaYqQ==
+  version "4.0.100065"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-4.0.100065.tgz#b19538fdf107a6b904e961c7030e9cadd0f30abe"
+  integrity sha512-Ohh0Sca/LizHijjvLW7E4xv9vob2RasnyzbglPI5CcajApLBjnmjWjjjkopUinsF0tz2FrlLHTXQ5EQ8Q+5Ppw==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
@@ -1321,9 +1321,9 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-cli@^1.18.0":
-  version "1.20.1000236"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.20.1000236.tgz#7f7f9ca375797735b1ff8bb172319aa16cdafa0d"
-  integrity sha512-3I2WnRi9NjzDbpKZxKqc1N7XAShk2ltY3/E9p3k2DlTpUQrzxZ66nXIm2Gu56T8WhId4Eu1/6aujemCerVo7og==
+  version "1.20.1000237"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.20.1000237.tgz#a81a7cfce456b536f882ecbf60405813190f11e7"
+  integrity sha512-X9fu2nvpJliDB0JWCHLsATdL1ozL0ki9lFFYxKiuJDhVBOYSKr6KgfbB6by+5c4y5+neRwTZFe9X9Yvp6y7nmw==
   dependencies:
     "@folio/stripes-core" "^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
     "@folio/stripes-testing" "^2.0.0"
@@ -1371,9 +1371,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~9.0.0":
-  version "9.0.10001258"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001258.tgz#bd8711741cd6714ce59d7464d53e2752c5801791"
-  integrity sha512-EMEnP4U5DC4mRtskX5tGs9odvzZhjlM5zI+kM7SX7wMfctF/JeRn30DK/qlicMHumVX59SXSFMUZjCkIHhEp/A==
+  version "9.0.10001259"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001259.tgz#64481aa8cd3e1dbfbaa63df490985f982e080a09"
+  integrity sha512-f7ja0pWcPwg421tvC7P07DtCGpKiGlRE1sw5bd/qWAMAxmjfKqy64xkE2opbjJmXrnMBNY/l6GPcc9ul7fK84g==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1403,9 +1403,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~6.1.0":
-  version "6.1.1000140"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-6.1.1000140.tgz#aac05a8ba904168323fb930e1c9b353cecd11cc4"
-  integrity sha512-KdX3uk81oYD7pm1korksNZICjPktJES7TlDuJNYGIkh8zu8a6P0YaZUG0S69++g8ROqS//RZRWM1VmsYAT0x+A==
+  version "6.1.1000141"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-6.1.1000141.tgz#bffcde3936db8a2c871256858b1550072626d91f"
+  integrity sha512-PtQoft8wtA6qMSVjp198VjFNCDQqIMuzQWqyog6ZoQwNPBBTESRCMrXXUcsmmfTv9sw0bxt3LcSw77VUgKfI0w==
   dependencies:
     lodash "^4.17.11"
     prop-types "^15.5.10"
@@ -1532,9 +1532,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/stripes-form@~6.0.0":
-  version "6.0.1000121"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-6.0.1000121.tgz#7cf19259622b3306a0caea5739ec29631c3541ff"
-  integrity sha512-XMTLsAaOxQO3XUwhRWgfYEOVxrkqSRZo0KXCGvTWMbwIzlcbHERonlKSSGOwlykWPA8lLTZz1FWe2dqchda8JQ==
+  version "6.0.1000122"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-6.0.1000122.tgz#031745a121c2b1128f86aeeb3910ca07942772d6"
+  integrity sha512-io4tVtsd5ew92LOsOxfKlg89AQRpBIWmFDJRBsltIb1pbMgumTNLQgPGOysJ+j4wjNBiJwN4j7L9Nk8bZdCgsg==
   dependencies:
     flat "^4.0.0"
     prop-types "^15.5.10"
@@ -1556,9 +1556,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~6.0.0":
-  version "6.0.1000904"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.0.1000904.tgz#b91007ca9f155d6ae0653fa2f15843468d74f877"
-  integrity sha512-mjos2PA2N3DjgoSjzNo9vYTV84gUnguAmE5sbITXs5euUDyHGnEQ4f/EMDLCjBBir1R5kuWPhlwiPEAdIBOlAQ==
+  version "6.0.1000905"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.0.1000905.tgz#30e15f6469b39c770538d9089424cefd3832a053"
+  integrity sha512-0e4aJ2clTBFNGkO/IC427FYowqMEhHoGCDOknAdTyatxVjs45w8g5noPjTXy/euNDtKhvY9rBXaqzVjgUxdu2Q==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "^2.3.0"
@@ -1633,9 +1633,9 @@
     redux "~4.0.0"
 
 "@folio/tags@>=1.1.0":
-  version "5.0.100075"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-5.0.100075.tgz#ddcbf585875f4b685a55ee2de8796729a1001e2d"
-  integrity sha512-qiwfuzcg9/WFqUz6FPSr1g/rmSm/n/3thhgterbdqSmOwBcTd2jmZvDPu4q0Eu3CNsiosijedLbmFA+s4kcSbQ==
+  version "5.0.100076"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-5.0.100076.tgz#e5569d70394cae2da86b721380426bf956ab98be"
+  integrity sha512-YKDeTZ7GTuHr87QQccbuUR9WXUcXLVtcRfeW8gnQ5Fjx4DI1WNlkmNmYLkQdjgw2IZQq7KtapCXRDV4rUqDs2A==
   dependencies:
     prop-types "^15.5.10"
     redux-form "^8.3.7"
@@ -5612,9 +5612,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.634:
-  version "1.3.648"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.648.tgz#b05926eca1843c04b283e682a1fc6c10af7e9dda"
-  integrity sha512-4POzwyQ80tkDiBwkxn7IpfzioimrjRSFX1sCQ3pLZsYJ5ERYmwzdq0hZZ3nFP7Z6GtmnSn3xwWDm8FPlMeOoEQ==
+  version "1.3.649"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.649.tgz#3aa8be052d4d268ede45d8e98d0cd60ffefad607"
+  integrity sha512-ojGDupQ3UMkvPWcTICe4JYe17+o9OLiFMPoduoR72Zp2ILt1mRVeqnxBEd6s/ptekrnsFU+0A4lStfBe/wyG/A==
 
 electron@^2.0.18:
   version "2.0.18"

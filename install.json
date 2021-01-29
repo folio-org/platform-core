@@ -86,7 +86,7 @@
   "id" : "folio_plugin-create-inventory-records-2.0.100046",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-4.0.100064",
+  "id" : "folio_plugin-find-instance-4.0.100065",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-4.0.1000136",
@@ -116,10 +116,10 @@
   "id" : "folio_stripes-core-7.0.1000829",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.0.1000904",
+  "id" : "folio_stripes-smart-components-6.0.1000905",
   "action" : "enable"
 }, {
-  "id" : "folio_tags-5.0.100075",
+  "id" : "folio_tags-5.0.100076",
   "action" : "enable"
 }, {
   "id" : "mod-login-saml-2.1.0-SNAPSHOT.59",
