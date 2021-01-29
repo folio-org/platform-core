@@ -1415,9 +1415,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0", "@folio/stripes-core@~7.0.0":
-  version "7.0.1000828"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.0.1000828.tgz#14209e9e90c1d105e17776327300b9eb506ab8ec"
-  integrity sha512-tSWtW7aZBavehzc/UUmunh9ce43sLxRxerceONAc/nyURrWPlU6O6tqb/CF3I5SqZvajXPWtMVhOmUzmjBsKGQ==
+  version "7.0.1000829"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.0.1000829.tgz#8b4a01746a53c2bf41f9878be7c8c85f9dd60442"
+  integrity sha512-/Iq79JQpkBu/ySoBPQ1x4E2NXGfsyz0Wy9JtPxWUsvh08dBqtqlrHf7CPs597dmDK1Yay5btcjJG7iucTUlWRA==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@babel/core" "^7.8.0"
@@ -1461,7 +1461,6 @@
     graphql "^0.11.7"
     handlebars "^4.5.1"
     handlebars-loader "^1.7.1"
-    hard-source-webpack-plugin "^0.12.0"
     history "^4.6.3"
     hoist-non-react-statics "^3.3.0"
     html-webpack-plugin "^4.0.0-beta.10"
@@ -2888,11 +2887,6 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-JSV@^4.0.x:
-  version "4.0.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/JSV/-/JSV-4.0.2.tgz#d077f6825571f82132f9dffaed587b4029feff57"
-  integrity sha1-0Hf2glVx+CEy+d/67Vh7QCn+/1c=
-
 abab@^2.0.3:
   version "2.0.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
@@ -3052,11 +3046,6 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   integrity sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==
   dependencies:
     color-convert "^2.0.1"
-
-ansi-styles@~1.0.0:
-  version "1.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/ansi-styles/-/ansi-styles-1.0.0.tgz#cb102df1c56f5123eab8b67cd7b98027a0279178"
-  integrity sha1-yxAt8cVvUSPquLZ817mAJ6AnkXg=
 
 any-base@^1.1.0:
   version "1.1.0"
@@ -4155,15 +4144,6 @@ chalk@^4.0.0, chalk@^4.1.0:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
-
-chalk@~0.4.0:
-  version "0.4.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/chalk/-/chalk-0.4.0.tgz#5199a3ddcd0c1efe23bc08c1b027b06176e0c64f"
-  integrity sha1-UZmj3c0MHv4jvAjBsCewYXbgxk8=
-  dependencies:
-    ansi-styles "~1.0.0"
-    has-color "~0.1.0"
-    strip-ansi "~0.1.0"
 
 change-case@^4.1.1:
   version "4.1.2"
@@ -5320,11 +5300,6 @@ detect-indent@^4.0.0:
   integrity sha1-920GQ1LN9Docts5hnE7jqUdd4gg=
   dependencies:
     repeating "^2.0.0"
-
-detect-indent@^5.0.0:
-  version "5.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/detect-indent/-/detect-indent-5.0.0.tgz#3871cc0a6a002e8c3e5b3cf7f336264675f06b9d"
-  integrity sha1-OHHMCmoALow+Wzz38zYmRnXwa50=
 
 detect-libc@^1.0.3:
   version "1.0.3"
@@ -7259,23 +7234,6 @@ har-validator@~5.1.3:
     ajv "^6.12.3"
     har-schema "^2.0.0"
 
-hard-source-webpack-plugin@^0.12.0:
-  version "0.12.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/hard-source-webpack-plugin/-/hard-source-webpack-plugin-0.12.0.tgz#ea21f0407538fcb62f6995371541baab0a5f679e"
-  integrity sha512-xELLABhB3WtdVxDZ4iku8W5Xi0Tq5w+1fOXrSWjeML90uWikykkiQmTV6Lk0MKC5uFEKUZcSuTY5BZS+8ZXr8A==
-  dependencies:
-    chalk "^2.4.1"
-    find-cache-dir "^2.0.0"
-    jsonlint "^1.6.3"
-    lodash "^4.15.0"
-    mkdirp "^0.5.1"
-    node-object-hash "^1.2.0"
-    pkg-dir "^3.0.0"
-    rimraf "^2.6.2"
-    tapable "^1.0.0-beta.5"
-    webpack-sources "^1.0.1"
-    write-json-file "^2.3.0"
-
 has-ansi@^2.0.0:
   version "2.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/has-ansi/-/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"
@@ -7289,11 +7247,6 @@ has-binary2@~1.0.2:
   integrity sha512-G1LWKhDSvhGeAQ8mPVQlqNcOB2sJdwATtZKl2pDKKHfpf/rYj24lkinxf69blJbnsvtqqNU+L3SL50vzZhXOnw==
   dependencies:
     isarray "2.0.1"
-
-has-color@~0.1.0:
-  version "0.1.7"
-  resolved "https://repository.folio.org/repository/npm-ci-all/has-color/-/has-color-0.1.7.tgz#67144a5260c34fc3cca677d041daf52fe7b78b2f"
-  integrity sha1-ZxRKUmDDT8PMpnfQQdr1L+e3iy8=
 
 has-cors@1.1.0:
   version "1.1.0"
@@ -8206,11 +8159,6 @@ is-path-inside@^1.0.0, is-path-inside@^1.0.1:
   dependencies:
     path-is-inside "^1.0.1"
 
-is-plain-obj@^1.0.0:
-  version "1.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/is-plain-obj/-/is-plain-obj-1.1.0.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
-  integrity sha1-caUMhCnfync8kqOQpKA7OfzVHT4=
-
 is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   version "2.0.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
@@ -9104,14 +9052,6 @@ jsonfile@^4.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-jsonlint@^1.6.3:
-  version "1.6.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/jsonlint/-/jsonlint-1.6.3.tgz#cb5e31efc0b78291d0d862fbef05900adf212988"
-  integrity sha512-jMVTMzP+7gU/IyC6hvKyWpUU8tmTkK5b3BPNuMI9U8Sit+YAWLlZwB6Y6YrdCxfg2kNz05p3XY3Bmm4m26Nv3A==
-  dependencies:
-    JSV "^4.0.x"
-    nomnom "^1.5.x"
-
 jsonparse@^1.3.1:
   version "1.3.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/jsonparse/-/jsonparse-1.3.1.tgz#3f4dae4a91fac315f71062f8521cc239f1366280"
@@ -9633,7 +9573,7 @@ lodash.values@^4.3.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/lodash.values/-/lodash.values-4.3.0.tgz#a3a6c2b0ebecc5c2cba1c17e6e620fe81b53d347"
   integrity sha1-o6bCsOvsxcLLocF+bmIP6BtT00c=
 
-lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
   version "4.17.20"
   resolved "https://repository.folio.org/repository/npm-ci-all/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -10421,14 +10361,6 @@ node-releases@^1.1.69:
   version "1.1.70"
   resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.70.tgz#66e0ed0273aa65666d7fe78febe7634875426a08"
   integrity sha512-Slf2s69+2/uAD79pVVQo8uSiC34+g8GWY8UH2Qtqv34ZfhYrxpYpfzs9Js9d6O0mbDmALuxaTlplnBTnSELcrw==
-
-nomnom@^1.5.x:
-  version "1.8.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/nomnom/-/nomnom-1.8.1.tgz#2151f722472ba79e50a76fc125bb8c8f2e4dc2a7"
-  integrity sha1-IVH3Ikcrp55Qp2/BJbuMjy5Nwqc=
-  dependencies:
-    chalk "~0.4.0"
-    underscore "~1.6.0"
 
 noop-logger@^0.1.1:
   version "0.1.1"
@@ -13492,13 +13424,6 @@ socket.io@2.1.1:
     socket.io-client "2.1.1"
     socket.io-parser "~3.2.0"
 
-sort-keys@^2.0.0:
-  version "2.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/sort-keys/-/sort-keys-2.0.0.tgz#658535584861ec97d730d6cf41822e1f56684128"
-  integrity sha1-ZYU1WEhh7JfXMNbPQYIuH1ZoQSg=
-  dependencies:
-    is-plain-obj "^1.0.0"
-
 source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
@@ -13847,11 +13772,6 @@ strip-ansi@^6.0.0:
   dependencies:
     ansi-regex "^5.0.0"
 
-strip-ansi@~0.1.0:
-  version "0.1.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/strip-ansi/-/strip-ansi-0.1.1.tgz#39e8a98d044d150660abe4a6808acf70bb7bc991"
-  integrity sha1-OeipjQRNFQZgq+SmgIrPcLt7yZE=
-
 strip-bom@^2.0.0:
   version "2.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/strip-bom/-/strip-bom-2.0.0.tgz#6219a85616520491f35788bdbf1447a99c7e6b0e"
@@ -14044,7 +13964,7 @@ tapable@^0.1.8:
   resolved "https://repository.folio.org/repository/npm-ci-all/tapable/-/tapable-0.1.10.tgz#29c35707c2b70e50d07482b5d202e8ed446dafd4"
   integrity sha1-KcNXB8K3DlDQdIK10gLo7URtr9Q=
 
-tapable@^1.0.0, tapable@^1.0.0-beta.5, tapable@^1.1.3:
+tapable@^1.0.0, tapable@^1.1.3:
   version "1.1.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/tapable/-/tapable-1.1.3.tgz#a1fccc06b58db61fd7a45da2da44f5f3a3e67ba2"
   integrity sha512-4WK/bYZmj8xLr+HUCODHGF1ZFzsYffasLUgEiMBY4fgtltdO6B4WJtlSbPaDTLpYTcGVwM2qLnFTICEcNxs3kA==
@@ -14500,11 +14420,6 @@ uncontrollable@^7.0.0:
     "@types/react" ">=16.9.11"
     invariant "^2.2.4"
     react-lifecycles-compat "^3.0.4"
-
-underscore@~1.6.0:
-  version "1.6.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/underscore/-/underscore-1.6.0.tgz#8b38b10cacdef63337b8b24e4ff86d45aea529a8"
-  integrity sha1-izixDKze9jM3uLJOT/htRa6lKag=
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
@@ -14970,7 +14885,7 @@ webpack-log@^2.0.0:
     ansi-colors "^3.0.0"
     uuid "^3.3.2"
 
-webpack-sources@^1.0.1, webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1:
+webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1:
   version "1.4.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/webpack-sources/-/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
   integrity sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==
@@ -15148,18 +15063,6 @@ write-file-atomic@^3.0.0:
     is-typedarray "^1.0.0"
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
-
-write-json-file@^2.3.0:
-  version "2.3.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/write-json-file/-/write-json-file-2.3.0.tgz#2b64c8a33004d54b8698c76d585a77ceb61da32f"
-  integrity sha1-K2TIozAE1UuGmMdtWFp3zrYdoy8=
-  dependencies:
-    detect-indent "^5.0.0"
-    graceful-fs "^4.1.2"
-    make-dir "^1.0.0"
-    pify "^3.0.0"
-    sort-keys "^2.0.0"
-    write-file-atomic "^2.0.0"
 
 write@1.0.3:
   version "1.0.3"
