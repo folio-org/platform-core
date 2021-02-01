@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.8.0-SNAPSHOT.101",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.245",
+  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.246",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-16.2.0-SNAPSHOT.325",
@@ -74,7 +74,7 @@
   "id" : "mod-tags-0.7.3-SNAPSHOT.54",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-3.1.0-SNAPSHOT.227",
+  "id" : "mod-data-export-3.1.0-SNAPSHOT.228",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-5.0.10001136",
