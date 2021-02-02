@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-5.0.10001141",
+    "id": "folio_inventory-5.0.10001142",
     "action": "enable"
   },
   {
@@ -28,7 +28,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-create-inventory-records-2.0.100046",
+    "id": "folio_plugin-create-inventory-records-2.0.100047",
     "action": "enable"
   },
   {
@@ -36,7 +36,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-user-4.0.1000136",
+    "id": "folio_plugin-find-user-4.0.1000137",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-5.0.1000179",
+    "id": "folio_tenant-settings-5.0.1000180",
     "action": "enable"
   },
   {

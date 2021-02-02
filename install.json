@@ -77,19 +77,19 @@
   "id" : "mod-data-export-3.1.0-SNAPSHOT.228",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.10001141",
+  "id" : "folio_inventory-5.0.10001142",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-4.0.1000112",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-2.0.100046",
+  "id" : "folio_plugin-create-inventory-records-2.0.100047",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-4.0.100065",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-4.0.1000136",
+  "id" : "folio_plugin-find-user-4.0.1000137",
   "action" : "enable"
 }, {
   "id" : "folio_requests-4.0.1000610",
@@ -125,7 +125,7 @@
   "id" : "mod-login-saml-2.1.0-SNAPSHOT.59",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-5.0.1000179",
+  "id" : "folio_tenant-settings-5.0.1000180",
   "action" : "enable"
 }, {
   "id" : "folio_users-6.0.10001362",
