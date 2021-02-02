@@ -104,7 +104,7 @@
   "id" : "folio_servicepoints-4.0.100085",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-1.9.0-SNAPSHOT.32",
+  "id" : "mod-password-validator-1.9.0-SNAPSHOT.33",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.7.0-SNAPSHOT.81",
