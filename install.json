@@ -77,7 +77,7 @@
   "id" : "mod-data-export-3.1.0-SNAPSHOT.228",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.10001138",
+  "id" : "folio_inventory-5.0.10001141",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-4.0.1000112",
@@ -92,7 +92,7 @@
   "id" : "folio_plugin-find-user-4.0.1000136",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-4.0.1000609",
+  "id" : "folio_requests-4.0.1000610",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.9.3-SNAPSHOT.98",
