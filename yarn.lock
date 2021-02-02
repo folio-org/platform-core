@@ -1089,9 +1089,9 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "4.0.1000335"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-4.0.1000335.tgz#e03e0c12a082ddd3f4ccb18fc582c9a56c9bd465"
-  integrity sha512-kKOB+1167U6J4/cKF+f+3KXUWfdOpnuPzq5+vrU/tMoxpqJE4XbdUA1utLY6GMyD01LNddvEArRrigqxgJWXlg==
+  version "4.0.1000336"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-4.0.1000336.tgz#dd4eafd2bdbde20da7b65b8115f315ba66a531a3"
+  integrity sha512-UTBw8z+b1weGaJL/pkkeE6tqpCv9JCB+SK236bJsIAvOxUGzxhIlQ6A0aM95XqkB/NoozIFirPVtbaW/R+Fw6Q==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
@@ -1235,9 +1235,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^2.0.0":
-  version "2.0.1000107"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000107.tgz#54049f4e482e19080c3eab7f78f043593673a290"
-  integrity sha512-lxtjd4/wfeUV0ABDbcwO1MOhaQu3itENFJPqvTa13RSWJpK4L1yoY/IvA1DOrFFXcGJO1xscnlO1G6LlEnJusQ==
+  version "2.0.1000108"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000108.tgz#6bf704374746cf46ea526dc50564f4894b426b4c"
+  integrity sha512-b8aIa5l7V5oe56d6jdMTTY8iCNBS8LsStpnGD7uC+GQXbLA4xNsoEbF9t+i368HXLxWqsspg/3Vv5NCpcRN64Q==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1262,9 +1262,9 @@
   integrity sha512-UE2Yb3jzcBorUq6eNg7p6FMQJGORAgJDTRCLwdA7ibrWxE3svg9hCUeN3h7BfUKHx4pojny19/olqO58JurPsA==
 
 "@folio/requests@>=1.4.1":
-  version "4.0.1000608"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-4.0.1000608.tgz#7574ef79a55f10967025c7f99ab6e72075813aad"
-  integrity sha512-b5H1UTnwowz19qWwEY5uYqOaXretntlU/tztDWHPV4haR8UhNNurKGPWTKnUD4acN3GiSjfU1X1l/jV+8P3Erw==
+  version "4.0.1000609"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-4.0.1000609.tgz#f27eb0611a91ce47d63fe48b1eedf1b044344fb0"
+  integrity sha512-FGttLtq6ro9e2a22gVOC2eOO7kVr2TPuAKBKfjpmH2gZlhTK8lSJPmYmHYNGY6GzrTJL4T1ixKwdEne8W4MnDQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     html-to-react "^1.3.3"
@@ -1656,9 +1656,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001361"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001361.tgz#2e77980ba11ba40f17b79bcf2483476763925509"
-  integrity sha512-yGMHaCGs+qchr1Xugi1ulfUhF9Dvwqrk4tGIrgbADHu7EbQ/9n1hdJrW4x7UdKQlPzzDAsTmSJ4WtwzAXBHHeg==
+  version "6.0.10001362"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001362.tgz#dde17f8ee43648ae280dec8c26d8efc82f899876"
+  integrity sha512-ZXZf2S8j+oB+IMD57573ykZxyO7qJqZWzP+WIoICmsB+kzHwLEoCXY/uVphZsrcmJG/M11PFTWzHZSf6fcp8aQ==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
