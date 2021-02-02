@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.247",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.2.0-SNAPSHOT.329",
+  "id" : "mod-inventory-16.2.0-SNAPSHOT.330",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.10.0-SNAPSHOT.135",
@@ -77,7 +77,7 @@
   "id" : "mod-data-export-3.1.0-SNAPSHOT.228",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.10001137",
+  "id" : "folio_inventory-5.0.10001138",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-4.0.1000112",
@@ -113,7 +113,7 @@
   "id" : "mod-users-bl-6.2.0-SNAPSHOT.96",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-7.0.1000832",
+  "id" : "folio_stripes-core-7.0.1000833",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-smart-components-6.0.1000905",
