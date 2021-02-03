@@ -1079,9 +1079,9 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "4.0.1000336"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-4.0.1000336.tgz#dd4eafd2bdbde20da7b65b8115f315ba66a531a3"
-  integrity sha512-UTBw8z+b1weGaJL/pkkeE6tqpCv9JCB+SK236bJsIAvOxUGzxhIlQ6A0aM95XqkB/NoozIFirPVtbaW/R+Fw6Q==
+  version "4.0.1000337"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-4.0.1000337.tgz#970ff90cf4632e71670b86a520a0a9c659a933b1"
+  integrity sha512-DPuhH8/3kaTL4EFc5lgf7OnX1peAs/UREuaOXDX5CPi6rv+pqs175LQpea/lrpd7mf0PMbgz8hgUoaRODQUxog==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
@@ -1155,9 +1155,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.10001142"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001142.tgz#a9a54ee128a5dbc96b654daf304c39cec558e041"
-  integrity sha512-c6iRPWbmp6imjj4xAlyhwwFWtDTa2Nj+QqibDMFhqBMtE/fw6SQmk3tBkqCil5KSL9TPaR35FhOprTdA+cWrAA==
+  version "5.0.10001143"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001143.tgz#32f872b537d4ddb399f35fb78f1c6e98b0cbfbb1"
+  integrity sha512-3wWmMKhNhmMgy2NehLVex397fdoNVx0fofEe7yLHkjTAq+9MAbjxsZSoP1TM70Ky+1zInMxpVG6aCVE2C0IxSQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1646,9 +1646,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001364"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001364.tgz#a86e61b8546fe16c20bd225016842f988ada4e4c"
-  integrity sha512-dykgrKRv9nlrTrU5LcWjATAOTHq12jilw14v8msxfiiyGFMOS0hZXkPvws1HEKONBAdsJrsRRxt7YSzu5g8TZg==
+  version "6.0.10001365"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001365.tgz#01ed408e81a4139d84c71a6302a84fc1523ac2bd"
+  integrity sha512-hf3FAgwraLhMNNpN+nP7xt93tytJPm5HzcDxUCAr8saUL7m9w6EYNQDw02ZfFGvPs+Os3XqjhbOaCXEfYuPYqg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"

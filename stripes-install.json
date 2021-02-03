@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkin-4.0.1000336",
+    "id": "folio_checkin-4.0.1000337",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-5.0.10001142",
+    "id": "folio_inventory-5.0.10001143",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-6.0.10001364",
+    "id": "folio_users-6.0.10001365",
     "action": "enable"
   }
 ]
