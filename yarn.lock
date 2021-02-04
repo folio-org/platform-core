@@ -12223,9 +12223,9 @@ react-overlays@^3.2.0:
     warning "^4.0.3"
 
 react-query@^3.6.0:
-  version "3.7.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.7.0.tgz#f94aac85d24b48e912d0939cd52722002380fa9b"
-  integrity sha512-9Tns+ovPQsYDxR75luM8pk8K840cydR6i8ymIYpOrqw4AWX0PHvZfXcxYxwbxdqAmUswWn6m+H14vV2i/wT2vw==
+  version "3.7.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.7.1.tgz#cbd15d84507431e8c3b248a1069401cb0feda396"
+  integrity sha512-n9Ld5UUzCWqqDDPvdRN45tvTYSBjuWHex2ninxIu+tD20pwfHR8QzPnntYPkc/h/wW4Q48m68FgXVi/co/1CKg==
   dependencies:
     "@babel/runtime" "^7.5.5"
     match-sorter "^6.0.2"
