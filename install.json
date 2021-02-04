@@ -116,7 +116,7 @@
   "id" : "folio_stripes-core-7.0.1000835",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.0.1000905",
+  "id" : "folio_stripes-smart-components-6.0.1000907",
   "action" : "enable"
 }, {
   "id" : "folio_tags-5.0.100076",
@@ -128,7 +128,7 @@
   "id" : "folio_tenant-settings-5.0.1000181",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.10001368",
+  "id" : "folio_users-6.0.10001369",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.9.0-SNAPSHOT.83",
