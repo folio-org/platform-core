@@ -1155,15 +1155,16 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.10001145"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001145.tgz#6928bf222fbde8bd3208bc61dea32b6b369cb0cb"
-  integrity sha512-ZDSC+TkpXU+NQZlnSJWs/QBd3X7MJP4clPoh07OYoXghgFKDRMHIYmw7Tp8MII66a97cYJfkK400DQMSIoINtw==
+  version "5.0.10001146"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001146.tgz#82c381a5d096765b8923d9ae598c5a42e71a65b6"
+  integrity sha512-w9fhHZ4Nw4A+IUgzkj9e6iFkA2jX6fJ5fFrmKOmlVW4u54aLws4ArkM1/XTqmhNzgGNDyBqpgDNeCPFOgHPm3A==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@testing-library/dom" "^7.29.4"
     file-saver "^2.0.0"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
+    ky "^0.23.0"
     lodash "^4.17.4"
     moment "~2.24.0"
     prop-types "^15.5.10"
