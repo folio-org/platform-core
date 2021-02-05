@@ -1301,9 +1301,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.2.3000417"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.3000417.tgz#3ed1861517f4e365319b23be0c0f5517e2076133"
-  integrity sha512-aMeK2AdoTkK5NMWYPipO/MrL6KMuXDJtpBx4xCeH4Rbz7fQP6BoZ4J413uZqYCw9/hTxZoUTBzB6R48TuE2DkA==
+  version "2.2.3000420"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.3000420.tgz#e40348a66707c0af07ad26d4d01779678806f108"
+  integrity sha512-fd6sowU0AG9QcO9DiNUAhIKn7/v0XKxcJ/bNBSCIXL63HjFuVCYxFhB3b0rLqfBoh/NBYtkwZuv6b15Du7JDUg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "^2.4.0"
@@ -6461,9 +6461,9 @@ fast-memoize@^2.5.2:
   integrity sha512-Ue0LwpDYErFbmNnZSF0UH6eImUwDmogUO1jyE+JbN2gsQz/jICm1Ve7t9QT0rNSsfJt+Hs4/S3GnsDVjL4HVrw==
 
 fast-xml-parser@^3.12.10:
-  version "3.17.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/fast-xml-parser/-/fast-xml-parser-3.17.6.tgz#4f5df8cf927c3e59a10362abcfb7335c34bc5c5f"
-  integrity sha512-40WHI/5d2MOzf1sD2bSaTXlPn1lueJLAX6j1xH5dSAr6tNeut8B9ktEL6sjAK9yVON4uNj9//axOdBJUuruCzw==
+  version "3.18.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/fast-xml-parser/-/fast-xml-parser-3.18.0.tgz#b77f4a494cd64e6f44aadfa68fbde30cd922b2df"
+  integrity sha512-tRrwShhppv0K5GKEtuVs92W0VGDaVltZAwtHbpjNF+JOT7cjIFySBGTEOmdBslXYyWYaZwEX/g4Su8ZeKg0LKQ==
 
 fastparse@^1.0.0, fastparse@^1.1.2:
   version "1.1.2"
