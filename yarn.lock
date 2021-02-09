@@ -1419,9 +1419,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@~7.0.0":
-  version "7.0.1000838"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.0.1000838.tgz#88c3d56391624292e580b9c89c6480759b81fc25"
-  integrity sha512-enWJIpr8cwxj6AkzysU7TFLflL6Pon9jB7bs1dTLiD/YtKo7OITiOEiUIR4v9n/HqfXDLXSwe0Ux4Wux12v7iQ==
+  version "7.0.1000839"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.0.1000839.tgz#ef31b914ea9b01cc06e98c5ef63b7b8784d9a074"
+  integrity sha512-xEExCDPsNGsLx/D6FYV9TYHeKzJ+rXuGtV8p/7hnaymFdhiBen5D4Kbc77Ozv/3Y3rFb6W/2fyPlAZaZ6/imzg==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@folio/stripes-components" "~9.0.0"
@@ -1457,6 +1457,7 @@
     redux-observable "^0.15.0"
     redux-thunk "^2.1.0"
     rimraf "^2.5.4"
+    rtl-detect "^1.0.2"
     rxjs "^5.5.0"
     rxjs-compat "^6.5.4"
 
