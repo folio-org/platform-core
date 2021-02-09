@@ -68,10 +68,11 @@
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^5.0.0",
-    "@folio/stripes-cli": "^1.18.0",
+    "@folio/stripes-cli": "^2.0.0",
     "eslint": "^6.2.1"
   },
   "resolutions": {
+    "@folio/stripes-cli": "^2.0.0",
     "minimist": "^1.2.3",
     "moment": "~2.29.0",
     "redux-form": "^8.0.0"
