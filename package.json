@@ -28,11 +28,10 @@
     "all": false
   },
   "scripts": {
-    "build": "export NODE_OPTIONS=\"--max-old-space-size=4096 $NODE_OPTIONS\"; stripes build stripes.config.js",
-    "stripes": "stripes",
-    "start": "stripes serve stripes.config.js",
-    "build-module-descriptors": "stripes mod descriptor stripes.config.js --output ./ModuleDescriptors",
-    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
+    "build": "export NODE_OPTIONS=\"--max-old-space-size=4096 $NODE_OPTIONS\"; yarn stripes build stripes.config.js",
+    "start": "yarn stripes serve stripes.config.js",
+    "build-module-descriptors": "yarn stripes mod descriptor stripes.config.js --output ./ModuleDescriptors",
+    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; yarn stripes serve $f",
     "test": "echo 'No unit tests implemented'",
     "test-int": "echo 'No end-to-end tests implemented'",
     "test-regression": "echo 'No end-to-end tests implemented'",
