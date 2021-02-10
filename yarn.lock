@@ -1192,9 +1192,9 @@
     redux-form "^8.3.7"
 
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^2.0.0":
-  version "2.0.100047"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.0.100047.tgz#cfe7c7c47e68ab1738fa30a4c0cafc25984ef6d5"
-  integrity sha512-mQlTpvyV2C1URvNbHvzj9D+xZqUgdZgo6KMj6MMR2G+4Th8J/clJRsVeNUrzggHQxhkLQ+GyIv6bETdlXmKaOg==
+  version "2.0.100048"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.0.100048.tgz#64ce09d65fe0320331a35f5eb7255b691257d79d"
+  integrity sha512-6S5BQgvBga+36aRrXWnXSHhuHti1n8ugP5dWi/S0Tzl26NOse94R13hOzTD3E1e6cZ6h+gInuJ/mEyv3rnhrow==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
@@ -1293,9 +1293,9 @@
     react-hot-loader "^4.3.12"
 
 "@folio/servicepoints@>=1.1.0":
-  version "4.0.100085"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-4.0.100085.tgz#7da0e202990c7121b0c8e6a07539f694a21974f9"
-  integrity sha512-qsbiYBoVnIdjpOyiJtT0+bcqUSrezVU66PHqr+WCSAO/uuofB1yavSKFQDTAQi4vSl7qcDUvv0h679kKzjqbmw==
+  version "4.0.100086"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-4.0.100086.tgz#e5315bedd48207db856aec96e1a6a3260802c557"
+  integrity sha512-XRaYQDPj5msAZS7k9wpbmnsfGPlUuh8YjkIPc6BztQGpwfs6UxSM82gq/QpmFvID50xZX07dlwEfyIMiQExwIg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     lodash "^4.17.4"

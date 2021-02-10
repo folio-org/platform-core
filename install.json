@@ -83,7 +83,7 @@
   "id" : "folio_myprofile-4.0.1000114",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-2.0.100047",
+  "id" : "folio_plugin-create-inventory-records-2.0.100048",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-4.0.100066",
@@ -101,7 +101,7 @@
   "id" : "folio_search-3.1.1000207",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-4.0.100085",
+  "id" : "folio_servicepoints-4.0.100086",
   "action" : "enable"
 }, {
   "id" : "mod-password-validator-1.9.0-SNAPSHOT.33",
