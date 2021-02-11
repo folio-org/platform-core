@@ -41,10 +41,10 @@
   "id" : "mod-notify-2.8.0-SNAPSHOT.101",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.248",
+  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.249",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.2.0-SNAPSHOT.334",
+  "id" : "mod-inventory-16.2.0-SNAPSHOT.335",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.10.0-SNAPSHOT.135",
@@ -92,7 +92,7 @@
   "id" : "folio_plugin-find-user-5.0.1000140",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-4.0.1000612",
+  "id" : "folio_requests-5.0.1000613",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.9.3-SNAPSHOT.98",
@@ -128,7 +128,7 @@
   "id" : "folio_tenant-settings-5.0.1000187",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.10001375",
+  "id" : "folio_users-6.0.10001376",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.9.0-SNAPSHOT.83",
