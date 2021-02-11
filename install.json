@@ -41,16 +41,16 @@
   "id" : "mod-notify-2.8.0-SNAPSHOT.101",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.249",
+  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.251",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.2.0-SNAPSHOT.335",
+  "id" : "mod-inventory-16.2.0-SNAPSHOT.336",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.10.0-SNAPSHOT.135",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-1.2.0-SNAPSHOT.44",
+  "id" : "mod-patron-blocks-1.2.0-SNAPSHOT.45",
   "action" : "enable"
 }, {
   "id" : "mod-notes-2.10.3-SNAPSHOT.168",
