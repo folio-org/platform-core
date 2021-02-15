@@ -1155,9 +1155,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.10001153"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001153.tgz#1a69b23211e7155a0de962b91738d981c305c911"
-  integrity sha512-cDCVDJeHjzB84v0OCuo60nOQ9tplD0xa1OGwP5YWbAzGDGPVE3Znu3OkyMgTp7t/6h6WeZ64OzsJ/HHhijJt/Q==
+  version "5.0.10001154"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001154.tgz#94e094ec0b8547ee54a3522a6caa6280a2e63ad8"
+  integrity sha512-T543xPCWub7PFM9KUKm2O9Nepc4+USOjjvXCKCO3i6fCdMlRrULvYVHfWZqNVwbPVswydvpLhthTGgbxvwuKGw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1253,9 +1253,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^2.0.0":
-  version "2.0.1000112"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000112.tgz#b07de14f68b92d57e3ad0a753ea3e58145bea70c"
-  integrity sha512-QqDg5cTTD0a+Z38zYPFXi/P0ZbE68/LxhuORCwqDkp9bYrFRYPCUK5cQlEyiru2RJwa62ZLLJYtp82NSKWvnlA==
+  version "2.0.1000113"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000113.tgz#cf9c982001e54ac286ec84273b65fde95cf10e0a"
+  integrity sha512-NHuNufdMKSsfKxuQJHhHw+gnH3efZda56rugxroDFPMc9u7G5LAw6Soui7a+QiOZvVxU1kTIySI6VMkGDFMC1A==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1301,9 +1301,9 @@
     "@folio/plugin-find-user" "^4.0.0"
 
 "@folio/search@>=1.3.0":
-  version "3.1.1000207"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-3.1.1000207.tgz#58ee742694878acbc730e5ffa9f2d1c82add56af"
-  integrity sha512-O2tpAN8g99SCPtY4nXYOuLxvqfMFa+sYbCSeiL41etkEenKtRAd8+9ynPAQKJqQDxSJY3fiqf24ny0hXekfqCw==
+  version "3.1.1000209"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-3.1.1000209.tgz#07da0b85e3742168ecc1c2d045324b1f8e3d8665"
+  integrity sha512-99q2FNdLIwMMzzqWbAkgdbCSWnfxApKz3UIHqJdmApGpcSmek1rKN2FXOR7GfpnyNSzUBfbRn+IBK2BLX0piMw==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
@@ -11915,10 +11915,15 @@ querystring-es3@^0.2.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/querystring-es3/-/querystring-es3-0.2.1.tgz#9ec61f79049875707d69414596fd907a4d711e73"
   integrity sha1-nsYfeQSYdXB9aUFFlv2Qek1xHnM=
 
-querystring@0.2.0, querystring@^0.2.0:
+querystring@0.2.0:
   version "0.2.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
+
+querystring@^0.2.0:
+  version "0.2.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/querystring/-/querystring-0.2.1.tgz#40d77615bb09d16902a85c3e38aa8b5ed761c2dd"
+  integrity sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg==
 
 queue@6.0.1:
   version "6.0.1"
