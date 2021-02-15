@@ -1209,9 +1209,9 @@
     uuid "^3.0.1"
 
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^2.0.0":
-  version "2.0.100048"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.0.100048.tgz#64ce09d65fe0320331a35f5eb7255b691257d79d"
-  integrity sha512-6S5BQgvBga+36aRrXWnXSHhuHti1n8ugP5dWi/S0Tzl26NOse94R13hOzTD3E1e6cZ6h+gInuJ/mEyv3rnhrow==
+  version "2.0.100050"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.0.100050.tgz#0e9e6a7257f9cc1c722e2081fabbe30d26dd3285"
+  integrity sha512-8Aj/aLmysll+hYM63VwafXTVje/PjtGDEIi2t0Hp6AEMZovpBJ5ceC92hBR4NLsrXi/sjwxSbtIkHbFOCLDxGQ==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
@@ -1253,9 +1253,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^2.0.0":
-  version "2.0.1000113"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000113.tgz#cf9c982001e54ac286ec84273b65fde95cf10e0a"
-  integrity sha512-NHuNufdMKSsfKxuQJHhHw+gnH3efZda56rugxroDFPMc9u7G5LAw6Soui7a+QiOZvVxU1kTIySI6VMkGDFMC1A==
+  version "2.0.1000114"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000114.tgz#ec72c571cd2ac35b0472eab83bda75063c84a1ad"
+  integrity sha512-LvQ0sBPnEroQWc/9FZDdDAlWNeLjJq/d2G0I7rvE+p3WC/IfL/KZjWDdJSsUEgiEP7/ocq6zzkNNP4O+9ISn1Q==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
