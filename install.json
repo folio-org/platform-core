@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-19.5.0-SNAPSHOT.534",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-5.0.100098",
+  "id" : "folio_calendar-5.0.1000100",
   "action" : "enable"
 }, {
   "id" : "mod-users-17.3.0-SNAPSHOT.158",
@@ -47,7 +47,7 @@
   "id" : "mod-inventory-16.2.0-SNAPSHOT.336",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-15.10.0-SNAPSHOT.135",
+  "id" : "mod-feesfines-15.10.0-SNAPSHOT.137",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.2.0-SNAPSHOT.45",

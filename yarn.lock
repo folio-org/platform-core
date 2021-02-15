@@ -1063,9 +1063,9 @@
     minimist "^1.2.0"
 
 "@folio/calendar@>=2.0.5":
-  version "5.0.100098"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-5.0.100098.tgz#f653a4b4ea3920814175440dd1e5f70ee9658b7a"
-  integrity sha512-Mzn1j6wbAm+RNMdlAHa+hDDT732QIe3RNyJwVJHLCnZE6VqoKhX1a7AeMWb8Lu0BeaSG1lRXeqJwEj7dpxXpRA==
+  version "5.0.1000100"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-5.0.1000100.tgz#6adbfa57c3cc3ae00c1dab235c22a4529c9d0014"
+  integrity sha512-344l02VXkrtVbFfHIEMGzyslB8fPdUwotLEtdcv59GZ4AXgHzErTnEPCn9XqrsUrdowjrPQDQmtkSX4ar0R12w==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
