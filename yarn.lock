@@ -1688,9 +1688,9 @@
     "@folio/plugin-bursar-export" "^1.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001380"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001380.tgz#c69d494ab06817bcefd0fc31c1f015411d207447"
-  integrity sha512-cHXWqolqU/JLVAnqjRXIqbnrsSDV4+z8Mj+jNszhSB8MGAqBQI/xk+t1cjQzlELv4FftLv94tACdfMQb59GQMQ==
+  version "6.0.10001381"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001381.tgz#b652a53bf6f53fa889f6256612a1dc8862aaa258"
+  integrity sha512-eJ7O7RgwV5fyCNF64CESmpCk5f1vwuZTtDSm1qlcw2Ii2VTm+0GU45zxEj9lsu6GdNSzYZS3RaZlt8WTjI7QKg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"

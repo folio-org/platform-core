@@ -56,7 +56,7 @@
   "id" : "mod-notes-2.10.3-SNAPSHOT.168",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-19.3.0-SNAPSHOT.803",
+  "id" : "mod-circulation-19.3.0-SNAPSHOT.804",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-4.0.1000341",
@@ -128,7 +128,7 @@
   "id" : "folio_tenant-settings-5.0.1000187",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.10001380",
+  "id" : "folio_users-6.0.10001381",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.9.0-SNAPSHOT.83",
