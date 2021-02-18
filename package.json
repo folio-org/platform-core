@@ -44,6 +44,7 @@
     "@folio/circulation": ">=1.3.0",
     "@folio/developer": ">=1.5.0",
     "@folio/inventory": ">=1.4.0",
+    "@folio/inventory-es": ">=5.0.1",
     "@folio/myprofile": ">=1.1.0",
     "@folio/plugin-create-inventory-records": ">=1.0.0",
     "@folio/plugin-find-instance": ">=1.1.0",
