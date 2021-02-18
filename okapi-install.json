@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-19.5.0-SNAPSHOT.535",
+    "id": "mod-inventory-storage-19.5.0-SNAPSHOT.536",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-pubsub-1.4.0-SNAPSHOT.128",
+    "id": "mod-pubsub-1.4.0-SNAPSHOT.129",
     "action": "enable"
   },
   {
@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-19.3.0-SNAPSHOT.804",
+    "id": "mod-circulation-19.3.0-SNAPSHOT.805",
     "action": "enable"
   },
   {
