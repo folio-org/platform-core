@@ -1182,9 +1182,9 @@
     "@folio/quick-marc" "^2.0.0"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.10001159"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001159.tgz#6176476f7d8836e6b96c78edc639aa424df9c74a"
-  integrity sha512-02foFSNKNRJ93Od+tP7sy6QYsmNhJEgnwUaUGQFzOyVT2BJpYzHJYfTGbbqfgx9U0/8FgusW/8dP5+qNRh4Ebw==
+  version "5.0.10001160"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001160.tgz#ed0e20507553324a735e6e44d55eb7c383235705"
+  integrity sha512-pMBsSHBh2OJWiUleJNPvknS3Qd5siUvX6V6QZBPk+F4a7KsOyE6qBRSUmveS6UV2vUHt5MAy/e/geW1FauJ7bA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1346,9 +1346,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.2.3000434"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.3000434.tgz#6c0d68b6b02b71edf82966897e1fb209c5b491f2"
-  integrity sha512-v7Eu9QgoUMMmzWOG2mCBVI4ibICcXVmCx3a2JGAaagF8G//dCfkLwiqm7YC2100lW6DH+fsMboS4Cju2+t71Vg==
+  version "2.2.3000435"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.3000435.tgz#6a6dd66ce50b62cae35492d311e413bfc1c5f6b9"
+  integrity sha512-c6NvcpGKxz1dHdNnEf3I7t3yhS14fgrbeHStYjtRDh3DnRJ0k3YQmuX032UakRaFSJ0orT7JFVQiqsf4DTcDvA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "^2.4.0"
@@ -14986,9 +14986,9 @@ whatwg-encoding@^1.0.5:
     iconv-lite "0.4.24"
 
 whatwg-fetch@>=0.10.0:
-  version "3.5.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/whatwg-fetch/-/whatwg-fetch-3.5.0.tgz#605a2cd0a7146e5db141e29d1c62ab84c0c4c868"
-  integrity sha512-jXkLtsR42xhXg7akoDKvKWE40eJeI+2KZqcp2h3NsOrRnDvtWX36KcKl30dy+hxECivdk2BVUHVNrPtoMBUx6A==
+  version "3.6.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/whatwg-fetch/-/whatwg-fetch-3.6.0.tgz#3d3cd5396d986936991f79674ff811a67dc5dcc0"
+  integrity sha512-ZgtzIak+vJhRBRdz/64QikloqIyeOufspzwd7ch/TSNdK4e/kC5PqL7W4uwj0l/SyagqRkRJii5JEsufbniLgw==
 
 whatwg-mimetype@^2.3.0:
   version "2.3.0"
