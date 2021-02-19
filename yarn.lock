@@ -1097,9 +1097,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "5.0.1000507"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-5.0.1000507.tgz#e845e7e0a5975d2e4b2ca5827acfdbdd3648cef7"
-  integrity sha512-gC8PR94Balltd2e58cQgPukyCSJo7CP6lmJxJbhtYFbMAEQCVCQvZfv65/KrL3Bv6QZAji+I3O9cvyYxF5wBgw==
+  version "5.0.1000508"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-5.0.1000508.tgz#d2a5f3e73c7598785cd503d8b5dc8608ce221037"
+  integrity sha512-4tXz0lP/T/2UDd9E+r1BIDB4NUyp9zmZx0g20C3KqMRBlWzsjThsK9m+yq9QFd+FSyOmV59AvA1HbKlewXrqtA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form "^4.19.1"
@@ -1153,33 +1153,6 @@
     eslint-plugin-react "7.16.0"
     eslint-plugin-react-hooks "^2.1.2"
     webpack "^4.41.2"
-
-"@folio/inventory-es@>=5.0.1":
-  version "5.0.100010"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory-es/-/inventory-es-5.0.100010.tgz#812d4933b94123db0bdec44aff8de9853abec781"
-  integrity sha512-S5auuDFc3rNqSBthZun2WgXOMpVPSsNjZYwTmJq1WbKeJcPq3kLKLYqSfvuwfYgohXVqAfXVsbov71UMXYfbbQ==
-  dependencies:
-    "@folio/react-intl-safe-html" "^2.0.0"
-    classnames "^2.2.6"
-    file-saver "^2.0.0"
-    final-form "^4.18.2"
-    final-form-arrays "^3.0.1"
-    lodash "^4.17.4"
-    moment "~2.24.0"
-    prop-types "^15.5.10"
-    query-string "^5.0.0"
-    react-beautiful-dnd "^13.0.0"
-    react-copy-to-clipboard "^5.0.1"
-    react-final-form "^6.3.0"
-    react-final-form-arrays "^3.1.0"
-    react-final-form-listeners "^1.0.2"
-    react-hot-loader "^4.3.12"
-    react-router-prop-types "^1.0.4"
-    redux-form "^8.3.7"
-  optionalDependencies:
-    "@folio/plugin-create-inventory-records" "^2.0.0"
-    "@folio/plugin-find-instance" "^4.0.0"
-    "@folio/quick-marc" "^2.0.0"
 
 "@folio/inventory@>=1.4.0":
   version "5.0.10001162"
