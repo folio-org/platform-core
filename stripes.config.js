@@ -12,7 +12,6 @@ module.exports = {
     '@folio/circulation' : {},
     '@folio/developer' : {},
     '@folio/inventory' : {},
-    '@folio/inventory-es' : {},
     '@folio/myprofile' : {},
     '@folio/plugin-create-inventory-records' : {},
     '@folio/plugin-find-instance' : {},
