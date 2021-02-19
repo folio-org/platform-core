@@ -1219,9 +1219,9 @@
     redux-form "^8.3.7"
 
 "@folio/plugin-bursar-export@^1.0.0":
-  version "1.0.10007"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-bursar-export/-/plugin-bursar-export-1.0.10007.tgz#e4b36484fac2d3a7348897b282444dd0c27043ff"
-  integrity sha512-RPOL9LiJtIPFighsjtHjNr+n9W0QK5kUTDhXhrrCIhXTBcql9CMi/IyA8HFxZK5oeiq24REZYy/Ze8N4LVmBfQ==
+  version "1.0.10008"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-bursar-export/-/plugin-bursar-export-1.0.10008.tgz#0dcbc9f40c54b12ec7e6b18f03d28ee4fae10544"
+  integrity sha512-Va4UVfnEAoMsKjx7TqpF1Kcp1jhKtqAf4WM0KDpagBriyL0HBCGv1p5A9++UUTP/AtGBmRBb2Q+Fdvee3ZuMRw==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -5671,9 +5671,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.649:
-  version "1.3.669"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.669.tgz#ef9b63187b3f9821e2a064e04f616ea092282b41"
-  integrity sha512-VNj10fmGC6SbE7s4tKG7y2OopVXYoTIfjE1MetflPd77KmeRuHtkl+HYsfF00BGg5hyaorTUn6lTToEHaciOSw==
+  version "1.3.670"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.670.tgz#b1560b9ab212ff77fc8197002e735b72882c31be"
+  integrity sha512-iiHQa72+3wbkPR0O8InsNbRwKcV6gBEKiUqPaJ4+TOwQkJQY4ku1sBNC+0ZSfANQ0nqr0SyRO3/Qr6S7Lct/IA==
 
 electron@^2.0.18:
   version "2.0.18"
