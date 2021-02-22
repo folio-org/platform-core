@@ -17,7 +17,7 @@
   "id" : "mod-permissions-5.13.0-SNAPSHOT.102",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.1.0-SNAPSHOT.132",
+  "id" : "mod-pubsub-2.1.0-SNAPSHOT.133",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-12.2.0-SNAPSHOT.276",
@@ -77,7 +77,7 @@
   "id" : "mod-data-export-3.1.0-SNAPSHOT.230",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.10001164",
+  "id" : "folio_inventory-5.0.10001165",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-4.0.1000116",
