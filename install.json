@@ -17,10 +17,10 @@
   "id" : "mod-permissions-5.13.0-SNAPSHOT.102",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.1.0-SNAPSHOT.131",
+  "id" : "mod-pubsub-2.1.0-SNAPSHOT.132",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-12.2.0-SNAPSHOT.275",
+  "id" : "mod-circulation-storage-12.2.0-SNAPSHOT.276",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-1.7.0-SNAPSHOT.44",
@@ -41,10 +41,10 @@
   "id" : "mod-notify-2.8.0-SNAPSHOT.102",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.256",
+  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.258",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.2.0-SNAPSHOT.341",
+  "id" : "mod-inventory-16.2.0-SNAPSHOT.342",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-15.10.0-SNAPSHOT.137",
