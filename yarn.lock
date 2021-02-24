@@ -1707,9 +1707,9 @@
     "@folio/plugin-bursar-export" "^1.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001385"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001385.tgz#580b6fd71860f3db5075e46fffb8aedfcac04a43"
-  integrity sha512-oMdB3P+dPVeHt/JIcuUSF7KixzNwo8hgqE7Sd4CAF0uizbDWW+7MFyrD3ONVIVzE/WYINyvGXjE29NHKxcxcQQ==
+  version "6.0.10001386"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001386.tgz#d4235afa55341a46d05502d68ba364aa26596bf3"
+  integrity sha512-Tk//MHLzSkUQJXKPSvxr+bsE6NU89rRdMGJ7JhEkD+QaIfGheX92OFutjAqeNnwg/pONjCYEva2aNrQASpuPEQ==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
@@ -2466,9 +2466,9 @@
     "@octokit/openapi-types" "^5.1.0"
 
 "@popperjs/core@^2.0.0":
-  version "2.8.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@popperjs/core/-/core-2.8.3.tgz#8b4eae3d9dd470c022cb9238128db8b1906e7fca"
-  integrity sha512-olsVs3lo8qKycPoWAUv4bMyoTGVXsEpLR9XxGk3LJR5Qa92a1Eg/Fj1ATdhwtC/6VMaKtsz1nSAeheD2B2Ru9A==
+  version "2.8.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@popperjs/core/-/core-2.8.4.tgz#6f1744b0f69f507a433f42874cc3b2eb4b11b337"
+  integrity sha512-h0lY7g36rhjNV8KVHKS3/BEOgfsxu0AiRI8+ry5IFBGEsQFkpjxtcpVc9ndN8zrKUeMZXAWMc7eQMepfgykpxQ==
 
 "@rehooks/local-storage@^2.3.0", "@rehooks/local-storage@^2.4.0":
   version "2.4.0"
