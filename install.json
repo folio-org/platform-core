@@ -74,7 +74,7 @@
   "id" : "mod-tags-0.7.3-SNAPSHOT.55",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-3.1.0-SNAPSHOT.230",
+  "id" : "mod-data-export-3.1.0-SNAPSHOT.231",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-5.0.10001167",
@@ -98,7 +98,7 @@
   "id" : "mod-codex-mux-2.9.3-SNAPSHOT.99",
   "action" : "enable"
 }, {
-  "id" : "folio_search-3.1.1000211",
+  "id" : "folio_search-3.1.1000212",
   "action" : "enable"
 }, {
   "id" : "folio_servicepoints-5.0.100088",
@@ -116,7 +116,7 @@
   "id" : "folio_stripes-core-7.0.1000851",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.0.1000923",
+  "id" : "folio_stripes-smart-components-6.0.1000924",
   "action" : "enable"
 }, {
   "id" : "folio_tags-5.0.100082",
