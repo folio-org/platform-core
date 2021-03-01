@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.8.0-SNAPSHOT.102",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.262",
+  "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.263",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-16.2.0-SNAPSHOT.346",
@@ -53,7 +53,7 @@
   "id" : "mod-patron-blocks-1.2.0-SNAPSHOT.45",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-2.10.3-SNAPSHOT.168",
+  "id" : "mod-notes-2.11.1-SNAPSHOT.169",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-20.0.0-SNAPSHOT.812",
@@ -80,7 +80,7 @@
   "id" : "folio_inventory-5.0.10001174",
   "action" : "enable"
 }, {
-  "id" : "folio_myprofile-4.0.1000117",
+  "id" : "folio_myprofile-5.0.1000118",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-create-inventory-records-2.0.100053",
