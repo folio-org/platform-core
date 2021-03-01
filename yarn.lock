@@ -1192,9 +1192,9 @@
     redux-form "^8.3.7"
 
 "@folio/plugin-bursar-export@^1.0.0":
-  version "1.0.100011"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-bursar-export/-/plugin-bursar-export-1.0.100011.tgz#9a25fdc33f30563f42ef692e8d6db2edbb0d38c2"
-  integrity sha512-F6/XnPQ3+tqfGhCBoVLsPdWnG1iIKWKTqyhlNckyR7KgnmVea3XrORR+SwYmm3uxUcxcqJsdaWuaEmGRNx0xug==
+  version "1.0.100012"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-bursar-export/-/plugin-bursar-export-1.0.100012.tgz#e62e7faa28e6ed2cbb785f8c07f02595e41faf4c"
+  integrity sha512-cyWS1IHB6DLwLdN1lKhJYXSQDk8UlmTbd8vFJzBuVX0l7CUZHZFkcNScCSnAlWSMZCpKOUQzynLhEGxAtvGBKw==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1209,9 +1209,9 @@
     uuid "^3.0.1"
 
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^2.0.0":
-  version "2.0.100052"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.0.100052.tgz#51304b569f94f13f1ae1cfa03cd1251ecf7061d0"
-  integrity sha512-kON89WnUmip2FfVQOCM4MnMZ2m/7ODso76Xlvu7K2X79P5yQM81psxN+uoFiit6gltSoPglAWEkLyAKxHllhXQ==
+  version "2.0.100053"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.0.100053.tgz#a14be215809b95674663d126b71317e1204a18c5"
+  integrity sha512-YRHQBHSdG/yKqqe4Y1P7kafPkp020Ure8DJnlvyugPG/uptnIOVtDHfjoRUSnBqxQvyffo6vXjcF2bLsPACkaA==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
@@ -1253,9 +1253,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^2.0.0":
-  version "2.0.1000119"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000119.tgz#4245850db4445c1a1fa2ecefb24176183297a860"
-  integrity sha512-qDmD9JWtsaqUdFc4tBby0kwmVbY/dHOBnoV5r7m48fwr1VA4wLsoKXdS39ZZPIwqjQ+c85zpXnp5D4BitsAJRA==
+  version "2.0.1000120"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000120.tgz#c9def310fa286bbd0d44f10b1da565371ae2b105"
+  integrity sha512-OogaSzJpI7EaKNurcxZENfuyvpNxxdfBo5PA7cmOi637SSw64W46EvwItmX19y2GnSWJIpINq1mBlMaW/b8YUQ==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1319,9 +1319,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.2.3000438"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.3000438.tgz#b210486f25b93870e3d21943150cc2991d45d3ca"
-  integrity sha512-lwAKlxcGfOGlOa7V8j9bcPzOwr2GktlxTw/I7BJG4xnDLSGKPCF8pNX+FfcNTDxCMms43Xx5BP9LOZaDPZdGvw==
+  version "2.2.3000439"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.3000439.tgz#c1e3c4b7a5b3f2c3cc9ce7dc0310a6f6be43566f"
+  integrity sha512-GZJvGlFkzq969zB28yC4+DDPp3sgTm6tsPt1Wk/0nV6UhQQi9mar6NOXe3j960MchaYnlWekHw4oxDxwRm5vKg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "^2.4.0"
@@ -1668,9 +1668,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "5.0.1000192"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-5.0.1000192.tgz#4e1548f1548ac2ca30d35d31a5f9fd622ab48a49"
-  integrity sha512-5qg0m8x5VAt1G5TUEnQoiDApwRjazgljpRXWxGIycNRNO1mamezPFywmZUxPWjAjwSwh6DA1iSxqF7QClG9sTw==
+  version "5.0.1000193"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-5.0.1000193.tgz#3a4d5ac2e58d7003417229542bfa2c1124811771"
+  integrity sha512-z43gcsX6WvHycgf4FpX4fEy6f5uzzl788gOyadEvDzOhHnJXhOKCulfV6wPhOClP7edqF1GjOEj8ebf0mmzG5g==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
