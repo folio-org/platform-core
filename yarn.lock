@@ -273,9 +273,9 @@
     js-tokens "^4.0.0"
 
 "@babel/parser@^7.12.13", "@babel/parser@^7.13.0", "@babel/parser@^7.13.4", "@babel/parser@^7.4.3":
-  version "7.13.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/parser/-/parser-7.13.4.tgz#340211b0da94a351a6f10e63671fa727333d13ab"
-  integrity sha512-uvoOulWHhI+0+1f9L4BoozY7U5cIkZ9PgJqvb041d6vypgUmtVPG4vmGm4pSggjl8BELzvHyUeJSUyEMY6b+qA==
+  version "7.13.9"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/parser/-/parser-7.13.9.tgz#ca34cb95e1c2dd126863a84465ae8ef66114be99"
+  integrity sha512-nEUfRiARCcaVo3ny3ZQjURjHQZUo/JkEw7rLlSZy/psWGnvwXFtPcr6jb7Yb41DVW5LTe6KRq9LGleRNsg1Frw==
 
 "@babel/plugin-proposal-async-generator-functions@^7.13.8":
   version "7.13.8"
@@ -976,9 +976,9 @@
     regenerator-runtime "^0.13.4"
 
 "@babel/runtime-corejs3@^7.10.2":
-  version "7.13.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime-corejs3/-/runtime-corejs3-7.13.8.tgz#149749463be6692e3688584130e4300beba0e93c"
-  integrity sha512-iaInhjy1BbDnqc7pZiIXAfWvBnczgWobHceR4Wkhs5tWZG8aIazBYH0Vo73lixecHKh3Vy9yqbQBqVDrmcVDlQ==
+  version "7.13.9"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime-corejs3/-/runtime-corejs3-7.13.9.tgz#b2fa9a6e5690ef8d4c4f2d30cac3ec1a8bb633ce"
+  integrity sha512-p6WSr71+5u/VBf1KDS/Y4dK3ZwbV+DD6wQO3X2EbUVluEOiyXUk09DzcwSaUH4WomYXrEPC+i2rqzuthhZhOJw==
   dependencies:
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
