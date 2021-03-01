@@ -76,7 +76,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-tags-0.7.4-SNAPSHOT.56",
+    "id": "mod-tags-0.8.1-SNAPSHOT.57",
     "action": "enable"
   },
   {
@@ -84,7 +84,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-codex-mux-2.9.4-SNAPSHOT.100",
+    "id": "mod-codex-mux-2.10.1-SNAPSHOT.101",
     "action": "enable"
   },
   {
@@ -92,7 +92,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-authtoken-2.7.0-SNAPSHOT.82",
+    "id": "mod-authtoken-2.8.0-SNAPSHOT.83",
     "action": "enable"
   },
   {
