@@ -1140,9 +1140,9 @@
     redux-form "^8.0.3"
 
 "@folio/eslint-config-stripes@^5.0.0":
-  version "5.3.100064"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eslint-config-stripes/-/eslint-config-stripes-5.3.100064.tgz#c8bed5201e3e479bcb899b09b9dd16b920f3ea45"
-  integrity sha512-FHOh+LHFAitZV3QMjYll1QRcckV38DI8Xp1Ez0ii9maBApLCAQBf1GmIkR0iOCWZbkP9BAmhuUr+Sg8eEN/4bQ==
+  version "5.3.100065"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eslint-config-stripes/-/eslint-config-stripes-5.3.100065.tgz#3476c632aa0f5b8384375e146f9bc8e06b081f7d"
+  integrity sha512-h9AJTBmlKrGu0B/rc0j1PaZFeedBhaTuhV2d8xdTZ9wfGqDfHeYBSEsvpRp0EPhxW9pa7nTrDVjM818nsRtyqA==
   dependencies:
     eslint-config-airbnb "18.0.1"
     eslint-import-resolver-webpack "0.11.1"
@@ -1684,9 +1684,9 @@
     "@folio/plugin-bursar-export" "^1.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001391"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001391.tgz#c6f7d247b098261531cbd1f61272eadf16355cc7"
-  integrity sha512-boNNzFCvsUv5q82XeKqRDNa8qGBHEO5avLvz1G51D9IFLT8uCkuP96P5IZwXuTFhQ+wADJ828sp4CmCYiXpWZw==
+  version "6.0.10001392"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001392.tgz#34f529bd0b33f3ccff99c084266425e737261677"
+  integrity sha512-Q8srlDMEALnCcf0XhKiK/NJqb6AhBwkSF0Q1HhryiKK2eMqx8GHImXt+0g3HZkgXAp2H/FylZNbmeM+zGfbzHQ==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
