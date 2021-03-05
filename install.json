@@ -23,7 +23,7 @@
   "id" : "mod-circulation-storage-12.2.0-SNAPSHOT.277",
   "action" : "enable"
 }, {
-  "id" : "mod-event-config-1.7.0-SNAPSHOT.44",
+  "id" : "mod-event-config-1.7.0",
   "action" : "enable"
 }, {
   "id" : "mod-configuration-5.7.0-SNAPSHOT.92",
