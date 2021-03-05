@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-19.5.0-SNAPSHOT.544",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-5.0.1000102",
+  "id" : "folio_calendar-5.0.1000103",
   "action" : "enable"
 }, {
   "id" : "mod-users-17.3.0-SNAPSHOT.159",
@@ -62,13 +62,13 @@
   "id" : "folio_checkin-4.0.1000346",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-5.0.1000515",
+  "id" : "folio_checkout-5.0.1000516",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-5.0.1000624",
+  "id" : "folio_circulation-5.0.1000625",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-5.0.1000184",
+  "id" : "folio_developer-5.0.1000185",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.8.1-SNAPSHOT.57",
@@ -77,7 +77,7 @@
   "id" : "mod-data-export-3.1.0-SNAPSHOT.232",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.10001183",
+  "id" : "folio_inventory-5.0.10001184",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-5.0.1000118",
@@ -86,19 +86,19 @@
   "id" : "folio_plugin-create-inventory-records-2.0.100053",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-4.0.100067",
+  "id" : "folio_plugin-find-instance-4.0.100068",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-5.0.1000140",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-5.0.1000624",
+  "id" : "folio_requests-5.0.1000625",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.10.1-SNAPSHOT.101",
   "action" : "enable"
 }, {
-  "id" : "folio_search-4.0.1000213",
+  "id" : "folio_search-4.0.1000214",
   "action" : "enable"
 }, {
   "id" : "folio_servicepoints-5.0.100088",
@@ -113,10 +113,10 @@
   "id" : "mod-users-bl-6.2.0-SNAPSHOT.99",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-7.0.1000852",
+  "id" : "folio_stripes-core-7.0.1000853",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.0.1000929",
+  "id" : "folio_stripes-smart-components-6.0.1000930",
   "action" : "enable"
 }, {
   "id" : "folio_tags-5.0.100082",
@@ -128,7 +128,7 @@
   "id" : "folio_tenant-settings-5.0.1000193",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.10001396",
+  "id" : "folio_users-6.0.10001397",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.9.0-SNAPSHOT.83",
