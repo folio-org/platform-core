@@ -29,16 +29,16 @@
   "id" : "mod-configuration-5.7.0-SNAPSHOT.92",
   "action" : "enable"
 }, {
-  "id" : "mod-template-engine-1.13.0-SNAPSHOT.68",
+  "id" : "mod-template-engine-1.13.0",
   "action" : "enable"
 }, {
-  "id" : "mod-email-1.10.0-SNAPSHOT.50",
+  "id" : "mod-email-1.10.0",
   "action" : "enable"
 }, {
   "id" : "mod-sender-1.5.0-SNAPSHOT.27",
   "action" : "enable"
 }, {
-  "id" : "mod-notify-2.8.0-SNAPSHOT.102",
+  "id" : "mod-notify-2.8.0-SNAPSHOT.103",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-4.2.0-SNAPSHOT.266",
@@ -68,7 +68,7 @@
   "id" : "folio_circulation-5.0.1000625",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-5.0.1000185",
+  "id" : "folio_developer-5.0.1000186",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.8.1-SNAPSHOT.58",
@@ -92,7 +92,7 @@
   "id" : "folio_plugin-find-user-5.0.1000140",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-5.0.1000626",
+  "id" : "folio_requests-5.0.1000627",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.10.1-SNAPSHOT.101",
