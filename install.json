@@ -29,7 +29,7 @@
   "id" : "mod-configuration-5.7.0-SNAPSHOT.92",
   "action" : "enable"
 }, {
-  "id" : "mod-template-engine-1.13.0",
+  "id" : "mod-template-engine-1.14.0-SNAPSHOT.69",
   "action" : "enable"
 }, {
   "id" : "mod-email-1.11.0-SNAPSHOT.52",
@@ -50,13 +50,13 @@
   "id" : "mod-feesfines-15.10.0-SNAPSHOT.141",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-1.2.0-SNAPSHOT.46",
+  "id" : "mod-patron-blocks-1.2.0-SNAPSHOT.48",
   "action" : "enable"
 }, {
   "id" : "mod-notes-2.11.1-SNAPSHOT.172",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-20.0.0-SNAPSHOT.815",
+  "id" : "mod-circulation-20.0.0-SNAPSHOT.817",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-4.0.1000348",
@@ -122,7 +122,7 @@
   "id" : "folio_tags-5.0.100082",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.1.0-SNAPSHOT.61",
+  "id" : "mod-login-saml-2.2.0-SNAPSHOT.62",
   "action" : "enable"
 }, {
   "id" : "folio_tenant-settings-5.0.1000194",

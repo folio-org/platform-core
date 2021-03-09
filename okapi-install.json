@@ -36,7 +36,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-template-engine-1.13.0",
+    "id": "mod-template-engine-1.14.0-SNAPSHOT.69",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-patron-blocks-1.2.0-SNAPSHOT.46",
+    "id": "mod-patron-blocks-1.2.0-SNAPSHOT.48",
     "action": "enable"
   },
   {
@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-20.0.0-SNAPSHOT.815",
+    "id": "mod-circulation-20.0.0-SNAPSHOT.817",
     "action": "enable"
   },
   {
@@ -100,7 +100,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-login-saml-2.1.0-SNAPSHOT.61",
+    "id": "mod-login-saml-2.2.0-SNAPSHOT.62",
     "action": "enable"
   },
   {
