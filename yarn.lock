@@ -1185,9 +1185,9 @@
     "@folio/quick-marc" "^2.0.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "5.0.1000118"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-5.0.1000118.tgz#6d500c9099a141c69fa970fac98d1e5bb57b9abc"
-  integrity sha512-ER8NzR06Aaz6WhgWdqFWLd01iR9e+HzO3ZPaToU3KCVBBe8z/fFOAMRPzZniuM5Q1cRhvMfBryKvB1M1/mXWpA==
+  version "5.0.1000119"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-5.0.1000119.tgz#25c65b0b97b0094cff286c86b805b032e98f37f9"
+  integrity sha512-O9mCbSTJQz1iEW9z3r8C8mAfRLII8uWEAIiuO+d9d8pAr9Dpg9Ad09LYybu9HJSimEMPUgtUcWkvTaRgsoDbXg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     prop-types "^15.6.0"
@@ -1255,9 +1255,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^2.0.0":
-  version "2.0.1000127"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000127.tgz#f2ed78d8f8c273deba276e47d7e6a3a7e4856394"
-  integrity sha512-jPtNINA8b3GkZRM0xkQ4NxyyRQ8W2Wn8GL1kiKkGmKrWdjbLUBq+weY5ctrbV6plHgX3a6Hae4rb4gpdDyrc5w==
+  version "2.0.1000128"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000128.tgz#76cd6844019d7830d522e056362a673abde012d9"
+  integrity sha512-SaeYqfDe+E187zxoOMrF05nUw3nbNiqy7cImn83Cjq/4iXigi0oe0GGDxsRLhJc0vBq/qo5zTH0+Y7OZQ1zEwQ==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -2195,9 +2195,9 @@
   integrity sha512-NxF1yfYOUO92rCx3dwvA2onF30Vdlg7YUkMVXkeptqpzA3tRLplThhFleV/UKWFgh7rpKu1yYRbvNDUtzSopKA==
 
 "@octokit/plugin-paginate-rest@^2.2.0":
-  version "2.11.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-2.11.0.tgz#3568c43896a3355f4a0bbb3a64f443b2abdc760d"
-  integrity sha512-7L9xQank2G3r1dGqrVPo1z62V5utbykOUzlmNHPz87Pww/JpZQ9KyG5CHtUzgmB4n5iDRKYNK/86A8D98HP0yA==
+  version "2.12.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-2.12.0.tgz#edbd4b2d5e392aa419d16031296fe24e9494f294"
+  integrity sha512-AlbZqWL1ueNzUAr8VAMH9Ajdvu1tTsuFiM7nz07XDTH/v8C27Ob14dOB1JwBmPaI9dH7EOmIabrVFSXExFhoZg==
   dependencies:
     "@octokit/types" "^6.11.0"
 
