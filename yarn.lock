@@ -2195,9 +2195,9 @@
   integrity sha512-NxF1yfYOUO92rCx3dwvA2onF30Vdlg7YUkMVXkeptqpzA3tRLplThhFleV/UKWFgh7rpKu1yYRbvNDUtzSopKA==
 
 "@octokit/plugin-paginate-rest@^2.2.0":
-  version "2.12.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-2.12.0.tgz#edbd4b2d5e392aa419d16031296fe24e9494f294"
-  integrity sha512-AlbZqWL1ueNzUAr8VAMH9Ajdvu1tTsuFiM7nz07XDTH/v8C27Ob14dOB1JwBmPaI9dH7EOmIabrVFSXExFhoZg==
+  version "2.13.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-2.13.0.tgz#532e60bf7c81fdae6e4963ef1b5b25964f40c7ad"
+  integrity sha512-sdSrx3wxfBZWbuASEFYf3pjkHtLfSueJU8FajxUTH3dtWedj96jNwyiCrf362HAu0Vg0CXL11+lob8ABBykWdw==
   dependencies:
     "@octokit/types" "^6.11.0"
 
