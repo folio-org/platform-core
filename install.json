@@ -83,7 +83,7 @@
   "id" : "folio_myprofile-5.0.1000119",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-2.0.100053",
+  "id" : "folio_plugin-create-inventory-records-2.0.100054",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-5.0.100069",
@@ -101,7 +101,7 @@
   "id" : "folio_search-4.0.1000214",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-5.0.100088",
+  "id" : "folio_servicepoints-5.0.100089",
   "action" : "enable"
 }, {
   "id" : "mod-password-validator-2.0.1-SNAPSHOT.34",
@@ -110,7 +110,7 @@
   "id" : "mod-authtoken-2.8.0-SNAPSHOT.88",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-6.2.0",
+  "id" : "mod-users-bl-6.3.0-SNAPSHOT.100",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-core-7.0.1000853",
