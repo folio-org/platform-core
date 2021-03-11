@@ -2,10 +2,10 @@
   "id" : "mod-calendar-1.12.0-SNAPSHOT.119",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-19.5.0-SNAPSHOT.545",
+  "id" : "mod-inventory-storage-20.0.0-SNAPSHOT.550",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-6.0.1000104",
+  "id" : "folio_calendar-6.0.1000105",
   "action" : "enable"
 }, {
   "id" : "mod-users-17.4.0-SNAPSHOT.160",
@@ -86,7 +86,7 @@
   "id" : "folio_plugin-create-inventory-records-2.0.100053",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-4.0.100068",
+  "id" : "folio_plugin-find-instance-5.0.100069",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-5.0.1000140",
