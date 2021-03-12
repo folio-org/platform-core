@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-20.1.0-SNAPSHOT.551",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-6.0.1000105",
+  "id" : "folio_calendar-6.0.1000106",
   "action" : "enable"
 }, {
   "id" : "mod-users-17.4.0-SNAPSHOT.160",
@@ -59,13 +59,13 @@
   "id" : "mod-circulation-20.1.0-SNAPSHOT.819",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-5.0.1000350",
+  "id" : "folio_checkin-5.0.1000351",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-5.0.1000516",
+  "id" : "folio_checkout-5.0.1000517",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-5.0.1000625",
+  "id" : "folio_circulation-5.0.1000627",
   "action" : "enable"
 }, {
   "id" : "folio_developer-5.0.1000188",
@@ -77,7 +77,7 @@
   "id" : "mod-data-export-3.1.0-SNAPSHOT.233",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-5.0.10001190",
+  "id" : "folio_inventory-5.0.10001193",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-5.0.1000119",
@@ -92,13 +92,13 @@
   "id" : "folio_plugin-find-user-5.0.1000142",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-5.0.1000627",
+  "id" : "folio_requests-5.0.1000628",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.10.1-SNAPSHOT.101",
   "action" : "enable"
 }, {
-  "id" : "folio_search-4.0.1000214",
+  "id" : "folio_search-4.0.1000215",
   "action" : "enable"
 }, {
   "id" : "folio_servicepoints-5.0.100089",
@@ -116,7 +116,7 @@
   "id" : "folio_stripes-core-7.0.1000854",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.0.1000933",
+  "id" : "folio_stripes-smart-components-6.0.1000934",
   "action" : "enable"
 }, {
   "id" : "folio_tags-5.0.100082",
@@ -125,10 +125,10 @@
   "id" : "mod-login-saml-2.2.0-SNAPSHOT.62",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-5.0.1000197",
+  "id" : "folio_tenant-settings-5.0.1000198",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.10001398",
+  "id" : "folio_users-6.0.10001400",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.9.0-SNAPSHOT.83",
