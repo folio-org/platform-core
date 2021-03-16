@@ -62,10 +62,10 @@
   "id" : "folio_checkin-5.0.1000351",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-5.0.1000518",
+  "id" : "folio_checkout-6.0.1000520",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-5.0.1000627",
+  "id" : "folio_circulation-5.0.1000630",
   "action" : "enable"
 }, {
   "id" : "folio_developer-5.0.1000190",
@@ -86,7 +86,7 @@
   "id" : "folio_plugin-create-inventory-records-2.0.100054",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-5.0.100069",
+  "id" : "folio_plugin-find-instance-5.0.100070",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-5.0.1000142",
