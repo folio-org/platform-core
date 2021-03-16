@@ -1097,9 +1097,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "5.0.1000517"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-5.0.1000517.tgz#464919a27183202ed6b19f4e8c41803aabc9a40a"
-  integrity sha512-8bj+k+3zoG+jRMspeJHqqL8OJNvf+Vvtx/xv70THxdjmfu7zD34fMrw2hDnjtYn9io44Cbkn2K+L17qcYMzIOQ==
+  version "5.0.1000518"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-5.0.1000518.tgz#cd9a664a4ccabcb6eeac8e3390d9cd273654926c"
+  integrity sha512-SpErq6/YapCpJMfFgw+xOKz1BWa3frdj/tEj+Hb68Uyx2pV/sC4PmueEgXFf+gPyMlHpJzO6vKN508rWjg+tMg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form "^4.19.1"
@@ -1111,7 +1111,7 @@
     react-hot-loader "^4.3.12"
   optionalDependencies:
     "@folio/plugin-create-inventory-records" "^2.0.0"
-    "@folio/plugin-find-user" "^4.0.0"
+    "@folio/plugin-find-user" "^5.0.0"
 
 "@folio/circulation@>=1.3.0":
   version "5.0.1000627"
@@ -1227,7 +1227,7 @@
     prop-types "^15.6.0"
     sinon "^9.0.2"
 
-"@folio/plugin-find-user@>=1.3.0":
+"@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@^5.0.0":
   version "5.0.1000142"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-5.0.1000142.tgz#6504f5027823aa7627ab4ae8a39aad0c268e921c"
   integrity sha512-N+u+B+vP2ySQsu/Dmvlv5GcHCgaQZsJ1X98BjEZI1JePvgtLIAGfHkp2EER2v/zJiFtOx0YqimukDg0Ifkn77A==

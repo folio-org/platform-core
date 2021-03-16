@@ -62,7 +62,7 @@
   "id" : "folio_checkin-5.0.1000351",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-5.0.1000517",
+  "id" : "folio_checkout-5.0.1000518",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-5.0.1000627",
@@ -131,6 +131,6 @@
   "id" : "folio_users-6.0.10001403",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-inventory-1.9.0-SNAPSHOT.84",
+  "id" : "mod-codex-inventory-1.10.0-SNAPSHOT.85",
   "action" : "enable"
 } ]
