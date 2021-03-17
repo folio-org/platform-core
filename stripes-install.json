@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkin-5.0.1000352",
+    "id": "folio_checkin-5.0.1000353",
     "action": "enable"
   },
   {
@@ -16,7 +16,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_developer-5.0.1000191",
+    "id": "folio_developer-5.0.1000192",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-5.0.1000629",
+    "id": "folio_requests-5.0.1000630",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-6.0.10001404",
+    "id": "folio_users-6.0.10001405",
     "action": "enable"
   }
 ]
