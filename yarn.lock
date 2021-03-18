@@ -1227,16 +1227,6 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-user@^4.0.0":
-  version "4.0.1000137"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-4.0.1000137.tgz#500277d26ecc93e37b4472aca6beebb104586dcb"
-  integrity sha512-PC3AiHMFVHzUvKekNrVvzIjytww/et2IDVylSaCV6BSsyk5nt980ahrJm6DIJerxxa4BQYgc9dAEZGH2J8s2kA==
-  dependencies:
-    classnames "^2.2.5"
-    dom-helpers "^3.4.0"
-    lodash "^4.17.4"
-    prop-types "^15.6.0"
-
 "@folio/quick-marc@^3.0.0":
   version "3.0.1000133"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.0.1000133.tgz#09d31f556d0ab4a9baea88acef2a561a54ac9df4"
@@ -1667,9 +1657,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001405"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001405.tgz#54010e921685a2cbeab2926fdfe3592b4994b0c6"
-  integrity sha512-rvSrY+HCpxCSMdt177HZ9lwTpyFVnT4bWjgtQW74eSS2F6QbN/jmOmUvBol32sTZIQ2LNVhueNsXlfe+KG1Yjw==
+  version "6.0.10001406"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001406.tgz#3a685c9a3a0222f6b56b443e539a01bdf2289bea"
+  integrity sha512-52KpcAvEQ7QAP1dCtI0kpt9MZHrtla8Xw8CbX/Di5UTYxEcVtx12rSR8b7ctNJyJV5S82LASV8jzWs/dWIok6w==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
@@ -1686,7 +1676,7 @@
     react-router-prop-types "^1.0.4"
     uuid "^3.0.1"
   optionalDependencies:
-    "@folio/plugin-find-user" "^4.0.0"
+    "@folio/plugin-find-user" "^5.0.0"
 
 "@formatjs/ecma402-abstract@1.6.3":
   version "1.6.3"
@@ -6609,9 +6599,9 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
 graphql-tag@^2.12.0:
-  version "2.12.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/graphql-tag/-/graphql-tag-2.12.1.tgz#b065ef885e4800e4afd0842811b718a205f4aa58"
-  integrity sha512-LPewEE1vzGkHnCO8zdOGogKsHHBdtpGyihow1UuMwp6RnZa0lAS7NcbvltLOuo4pi5diQCPASAXZkQq44ffixA==
+  version "2.12.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/graphql-tag/-/graphql-tag-2.12.2.tgz#931d2a06dd850f4e0b2df51204365a4c5b2f75f6"
+  integrity sha512-7N3cvsNBl8g+FHsnt9j10aqLt1G0QPf+HCe3fbOeTUNbf7xxtUHz6wpEvk5uVIKWtO2cikoXWuI6JGqt1gEURw==
   dependencies:
     tslib "^1.14.1"
 
