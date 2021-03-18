@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-20.1.0-SNAPSHOT.554",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-6.0.1000106",
+  "id" : "folio_calendar-6.0.1000107",
   "action" : "enable"
 }, {
   "id" : "mod-users-17.4.0-SNAPSHOT.160",
@@ -86,7 +86,7 @@
   "id" : "folio_plugin-create-inventory-records-2.0.100055",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-5.0.100070",
+  "id" : "folio_plugin-find-instance-5.0.100071",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-5.0.1000142",
