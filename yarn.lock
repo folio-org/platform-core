@@ -6599,11 +6599,11 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
 graphql-tag@^2.12.0:
-  version "2.12.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/graphql-tag/-/graphql-tag-2.12.2.tgz#931d2a06dd850f4e0b2df51204365a4c5b2f75f6"
-  integrity sha512-7N3cvsNBl8g+FHsnt9j10aqLt1G0QPf+HCe3fbOeTUNbf7xxtUHz6wpEvk5uVIKWtO2cikoXWuI6JGqt1gEURw==
+  version "2.12.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/graphql-tag/-/graphql-tag-2.12.3.tgz#ac47bf9d51c67c68ada8a33fd527143ed15bb647"
+  integrity sha512-5wJMjSvj30yzdciEuk9dPuUBUR56AqDi3xncoYQl1i42pGdSqOJrJsdb/rz5BDoy+qoGvQwABcBeF0xXY3TrKw==
   dependencies:
-    tslib "^1.14.1"
+    tslib "^2.1.0"
 
 graphql@^0.11.7:
   version "0.11.7"
