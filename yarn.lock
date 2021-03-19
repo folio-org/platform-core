@@ -10974,7 +10974,7 @@ react-overlays@^3.2.0:
     uncontrollable "^7.0.0"
     warning "^4.0.3"
 
-react-query@^3.6.0, react-query@^3.9.8:
+react-query@^3.13.0, react-query@^3.6.0, react-query@^3.9.8:
   version "3.13.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.13.0.tgz#b42561392a8fcf3252336222332c4c94fae2e33e"
   integrity sha512-CzBvgjMh8jNJMSPhXCE92DBIFbE31j8PA2k7ipR1F8DlcNAEsZwLsUzh1cTtzpDaS2+r6sntgmM6qKnCD6E5zQ==
@@ -12446,7 +12446,7 @@ svgo@^1.0.0, svgo@^1.2.2:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-swr@^0.4.1:
+swr@^0.4.1, swr@^0.4.2:
   version "0.4.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/swr/-/swr-0.4.2.tgz#4a9ed5e9948088af145c79d716d294cb99712a29"
   integrity sha512-SKGxcAfyijj/lE5ja5zVMDqJNudASH3WZPRUakDVOePTM18FnsXgugndjl9BSRwj+jokFCulMDe7F2pQL+VhEw==
