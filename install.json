@@ -17,7 +17,7 @@
   "id" : "mod-permissions-5.14.0-SNAPSHOT.108",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.1.0-SNAPSHOT.141",
+  "id" : "mod-pubsub-2.1.0-SNAPSHOT.142",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-12.3.0-SNAPSHOT.279",
@@ -92,7 +92,7 @@
   "id" : "folio_plugin-find-user-5.0.1000142",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-5.0.1000632",
+  "id" : "folio_requests-5.0.1000634",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.10.1-SNAPSHOT.101",
