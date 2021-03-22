@@ -1203,9 +1203,9 @@
     redux-form "^8.3.7"
 
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^2.0.0":
-  version "2.0.100055"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.0.100055.tgz#763ada9d56f00d63bad5f82cc3a8d547817deefa"
-  integrity sha512-AhwwqOpYPvEf1LFF/DkqK0CVof7pMzbh3SfVDRl8E5akq8eFf8h6lpZa2tGU9GI1trUroDlkTKdWl52d/3y0zQ==
+  version "2.0.100056"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.0.100056.tgz#37baa5dbf80f492a742b983edcc459a9bacc420d"
+  integrity sha512-IKO5rYxnRe9KhL7ol89onr/9DG4PO/EgxNykUqiCFUSzGJIOZTOwQRrYryx7fGwS2k4Cxf1yDeWAKY+bHW9z1g==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
@@ -1501,9 +1501,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~6.0.1":
-  version "6.0.1000935"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.0.1000935.tgz#246f9c3bf6a28e755a80a72ce4f34d839dfb5c29"
-  integrity sha512-z1AonN7X5AiWbEkZ0H93a6cUGokjbeNAylyTFJt83VoHvv3O2fCmIMDdoIxqJrp1YSBduuzsd25gVVFq6J1izQ==
+  version "6.0.1000937"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.0.1000937.tgz#ed3c164be1a949feaeff1d3a27206ff6cb0def7c"
+  integrity sha512-CWHUWNcfwUbu0tMvX43yDfyJrHacPuLEGUPqqCIWLAZSAgLqg5GjnmlEswApQAX2it/r7lJt7bbS4UCHnCg/UQ==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "^2.3.0"

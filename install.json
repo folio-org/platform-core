@@ -83,7 +83,7 @@
   "id" : "folio_myprofile-5.0.1000119",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-2.0.100055",
+  "id" : "folio_plugin-create-inventory-records-2.0.100056",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-5.0.100071",
@@ -116,7 +116,7 @@
   "id" : "folio_stripes-core-7.0.1000862",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.0.1000935",
+  "id" : "folio_stripes-smart-components-6.0.1000937",
   "action" : "enable"
 }, {
   "id" : "folio_tags-5.0.100084",
