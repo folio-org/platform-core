@@ -1,12 +1,12 @@
 {
-  "baseBranches": ["master", "q3-2020","q2-2020"],
+  "baseBranches": ["master", "R1-2021", "q3-2020"],
   "branchPrefix": "renovate_",
   "automerge": false,
   "separateMinorPatch": true,
   "separateMajorMinor": true,
   "updateLockFiles": false,
   "rangeStrategy": "replace",
-  "ignoreDeps": ["react","react-dom","react-redux","redux"],
+  "ignoreDeps": ["eslint", "final-form","lodash","react","react-dom","react-redux","redux"],
 
   "major": {
     "enabled": false
@@ -33,6 +33,13 @@
       "packagePatterns": ["^@folio/"],
       "groupName": "Master branch updates",
       "updateTypes": ["minor","patch"], 
+      "enabled": true
+    },
+    {
+      "baseBranchList": ["R1-2021"],
+      "packagePatterns": ["^@folio/", "^folioorg/"],
+      "groupName": "FOLIO R1 2021 updates",
+      "updateTypes": ["patch"],
       "enabled": true
     }
   ]
