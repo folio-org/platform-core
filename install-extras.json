@@ -4,7 +4,11 @@
     "action": "enable"
   },
   {
-    "id": "okapi-4.2.2",
+    "id": "mod-event-config-1.7.0",
+    "action": "enable"
+  },
+  {
+    "id": "okapi-4.7.2",
     "action": "enable"
   }
 ]
