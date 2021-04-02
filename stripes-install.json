@@ -1,6 +1,6 @@
 [
   {
-    "id": "folio_calendar-6.0.1000107",
+    "id": "folio_calendar-6.0.1000108",
     "action": "enable"
   },
   {
@@ -8,19 +8,19 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkout-6.0.1000526",
+    "id": "folio_checkout-6.0.1000527",
     "action": "enable"
   },
   {
-    "id": "folio_circulation-5.0.1000656",
+    "id": "folio_circulation-5.0.1000657",
     "action": "enable"
   },
   {
-    "id": "folio_developer-5.0.1000194",
+    "id": "folio_developer-5.0.1000195",
     "action": "enable"
   },
   {
-    "id": "folio_inventory-6.0.10001206",
+    "id": "folio_inventory-6.0.10001207",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-5.0.1000636",
+    "id": "folio_requests-5.0.1000637",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-6.0.10001410",
+    "id": "folio_users-6.0.10001411",
     "action": "enable"
   }
 ]
