@@ -1502,9 +1502,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~6.0.1":
-  version "6.0.1000942"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.0.1000942.tgz#0d88a6df7d6a35d841f6be4edd0b597d00956eb3"
-  integrity sha512-Pg4gEcXDCjNZYlH7HOGrIEJ7psnkXywcFQfa6mCyT4VpIxQt3cL4tUml/25klUqqQ6svLq1rAC8GZvxAP8Bm1A==
+  version "6.0.1000943"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.0.1000943.tgz#749a913c7820ef756d14876cac31b28fcbe9362d"
+  integrity sha512-l99PFSAvVZcTCNbZFVVG3WwxH8Df1jJDvT75uI5LRa0IgmWuajHeHKIgoaHPb27KLIfdBwax3X6bb5RgLTQ7jw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "^2.3.0"
@@ -1560,9 +1560,9 @@
     query-string "^5.0.0"
 
 "@folio/stripes-webpack@^1.0.0":
-  version "1.2.100010"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-1.2.100010.tgz#66939d16b2bd063550beec299cb62f34c3d6b19f"
-  integrity sha512-EbC3yxjf4CRbIyj6Z0uYDqnMjRyNtSdL7puV4jl4x2jBf1c7sJLDQclPH3EHYn/WcFiaoxepMeUfYf6bJXA3Vw==
+  version "1.2.100011"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-1.2.100011.tgz#e46176cbb269bea971da0bbe54ea4a4ee23c3e7d"
+  integrity sha512-Z0RhSr10CzUxIw/JUDX9HHXuP8R4kbrLwb6n7oa+Vk1bPqtxFllPIjUJXJbrhDihTLxB1CrDio7likheMzezCw==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
@@ -7460,9 +7460,9 @@ is-directory@^0.3.1:
   integrity sha1-YTObbyR1/Hcv2cnYP1yFddwVSuE=
 
 is-docker@^2.0.0:
-  version "2.1.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/is-docker/-/is-docker-2.1.1.tgz#4125a88e44e450d384e09047ede71adc2d144156"
-  integrity sha512-ZOoqiXfEwtGknTiuDEy8pN2CfE3TxMHprvNer1mXiqwkOT77Rw3YVrUQ52EqAOU3QAWDQ+bQdx7HJzrv7LS2Hw==
+  version "2.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/is-docker/-/is-docker-2.2.0.tgz#b037c8815281edaad6c2562648a5f5f18839d5f7"
+  integrity sha512-K4GwB4i/HzhAzwP/XSlspzRdFTI9N8OxJOyOU7Y5Rz+p+WBokXWVWblaJeBkggthmoSV0OoGTH5thJNvplpkvQ==
 
 is-dotfile@^1.0.0:
   version "1.0.3"
