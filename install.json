@@ -59,7 +59,7 @@
   "id" : "mod-circulation-20.2.0-SNAPSHOT.829",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-5.0.1000356",
+  "id" : "folio_checkin-5.0.1000357",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-6.0.1000527",
@@ -77,7 +77,7 @@
   "id" : "mod-data-export-4.1.0-SNAPSHOT.237",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-6.0.10001208",
+  "id" : "folio_inventory-6.0.10001209",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-5.0.1000120",
@@ -116,7 +116,7 @@
   "id" : "folio_stripes-core-7.0.1000868",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.0.1000946",
+  "id" : "folio_stripes-smart-components-6.0.1000947",
   "action" : "enable"
 }, {
   "id" : "folio_tags-5.0.100084",
@@ -128,7 +128,7 @@
   "id" : "folio_tenant-settings-6.0.1000204",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.10001411",
+  "id" : "folio_users-6.0.10001412",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.10.0-SNAPSHOT.85",
