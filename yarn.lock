@@ -1667,9 +1667,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001416"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001416.tgz#ef446ed6820ee1abc109b27ef32498e5e19d44ce"
-  integrity sha512-JzQdwc346sJlIw1/pOuQNBG7yxRr0HCjjf14RJChz7uWm9scHAxFRgps2A5F0exW5rdr137Rm02REaMyNauCJQ==
+  version "6.0.10001417"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001417.tgz#e423492a2ac35282deebd560982ffe8afb8e31cb"
+  integrity sha512-iS0xIu6rUUlln3/0nhN5cs1LvEPPh1RQk2x5Xw/mRGkK4cGDaKf691HIzWLKJhlDbtQyRHyvjLq3/+AipOUodw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
@@ -3833,9 +3833,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001181:
-  version "1.0.30001207"
-  resolved "https://repository.folio.org/repository/npm-ci-all/caniuse-lite/-/caniuse-lite-1.0.30001207.tgz#364d47d35a3007e528f69adb6fecb07c2bb2cc50"
-  integrity sha512-UPQZdmAsyp2qfCTiMU/zqGSWOYaY9F9LL61V8f+8MrubsaDGpaHD9HRV/EWZGULZn0Hxu48SKzI5DgFwTvHuYw==
+  version "1.0.30001208"
+  resolved "https://repository.folio.org/repository/npm-ci-all/caniuse-lite/-/caniuse-lite-1.0.30001208.tgz#a999014a35cebd4f98c405930a057a0d75352eb9"
+  integrity sha512-OE5UE4+nBOro8Dyvv0lfx+SRtfVIOM9uhKqFmJeUbGriqhhStgp1A0OyBpgy3OUF8AhYCT+PVwPC1gMl2ZcQMA==
 
 capital-case@^1.0.4:
   version "1.0.4"
