@@ -16,11 +16,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-permissions-5.13.0",
+    "id": "mod-permissions-5.13.1",
     "action": "enable"
   },
   {
-    "id": "mod-pubsub-2.0.2",
+    "id": "mod-pubsub-2.0.3",
     "action": "enable"
   },
   {
@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-20.0.1",
+    "id": "mod-circulation-20.1.0",
     "action": "enable"
   },
   {
@@ -80,7 +80,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-data-export-4.0.0",
+    "id": "mod-data-export-4.0.1",
     "action": "enable"
   },
   {
