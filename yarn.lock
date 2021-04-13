@@ -1139,9 +1139,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "5.0.1000202"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-5.0.1000202.tgz#794dc2bf5564795a9384625ca4a3d582f890eadb"
-  integrity sha512-TGpRSiUdls8iWcMdNwsfDV/KeFkAWOZtEHGt23Vk6W2svVHc7SCgOvsVvXy024sTQ3SwrOc7+yMrskx+aZiq4A==
+  version "5.0.1000203"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-5.0.1000203.tgz#839c5af1c7836ab74d83a9563f8310724a60d514"
+  integrity sha512-kiavfggHmEt7VO3wkVUi6BNVIwsOMh9nkfATFOzsVt5yMfrtEs7hb1+crxMHQ1izchUG8wFgKCbP9+Ml53aK0Q==
   dependencies:
     chart.js "^2.9.4"
     lodash "^4.17.4"
@@ -1325,12 +1325,12 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-cli@^2.0.0":
-  version "2.1.1000247"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-2.1.1000247.tgz#1470dab08f2d0f2c5c7ab2fa842a521a257318e6"
-  integrity sha512-OhwTkeae71z3INK2HdBxRSAIHxzBEd5oGIOPQWVsM+Z8+cXReilElrhdtZ407Qpu52quryreGoQ9FF9Xai1ORA==
+  version "2.2.1000248"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-2.2.1000248.tgz#57293bf7fc33454a57e43ecd4fac2dac25a8f928"
+  integrity sha512-OmKwCQ28VwXTtLe3Me+/I47Uww1FuEyqH2bvnr2eehuCRjFJhZQPqZbkHjoglW0Uow2aCwiekjblocpPSr4plQ==
   dependencies:
     "@folio/stripes-testing" "^3.0.0"
-    "@folio/stripes-webpack" "^1.0.0"
+    "@folio/stripes-webpack" "^1.2.0"
     "@octokit/rest" "^17.1.4"
     babel-plugin-istanbul "^4.1.6"
     configstore "^3.1.1"
@@ -1560,7 +1560,7 @@
     lodash "^4.17.4"
     query-string "^5.0.0"
 
-"@folio/stripes-webpack@^1.0.0":
+"@folio/stripes-webpack@^1.2.0":
   version "1.2.100014"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-1.2.100014.tgz#fe14f4be109c08a9bf81d4bdf1d5d87bb9e78ede"
   integrity sha512-fruovucSc1DO1xAwIEge122q6R9bJueYD/dafhYl7IBqyD4ECWF9+nCgPul5IOKoIAg1efwQEERJ5A+mICf2Lg==
@@ -1669,9 +1669,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001426"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001426.tgz#61a7770503b3f84b78cce87d25e56e4542ace1ea"
-  integrity sha512-Fzp633wcuyXorEIvKUmY4mj95a8ICBco6SLNRQrAKJ8N3sRpdkvbhA/vns2ygWMYKAJoKHrTXPm0hiH5dAypdg==
+  version "6.0.10001427"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001427.tgz#d56c26e58fbae4204813ea2d6320d030fa5c133d"
+  integrity sha512-23gmhg1iLrX32TmtLKI7ZNorbDOiO8Gj1eIb3gGeTo//NoJf0hmTQANsLjrGnAeXYvF3S4Ce+Aai/WtM3Zyhjg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
