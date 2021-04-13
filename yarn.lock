@@ -1167,9 +1167,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "7.0.10001215"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-7.0.10001215.tgz#f1b0d76970ca83d169e80e27dd01179a8773fb8f"
-  integrity sha512-SXJqK/kehjYcf9WIIbpwyKLwaD+Pnsz0rYpndW76TPeLirO39XDZqzw51E2hdJckP87d07tEVgyHEg44vsBS3A==
+  version "7.0.10001216"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-7.0.10001216.tgz#f968abfcc5d5661864f49c0fc5f8a382f8c68d10"
+  integrity sha512-jftHjObkWBhci9/EGuEnRLQgF+H+VptLTL7/+rxt7p0kwXfku3vYF8GW/ZS+gsWkaD5yS+aBCvnsLVB0RjXYEw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1239,9 +1239,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^3.0.0":
-  version "3.0.1000140"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.0.1000140.tgz#0410d421564f4ac96b856bb2f4f836bdbfe30542"
-  integrity sha512-sjkFLDYdkPpon8DdhHSb8G2ETGnJHkA1F+9kZ+RSmW6VDyojWSMMinl2uCtlCz6MfAD0V9bvd3dof5Crv+gggA==
+  version "3.0.1000141"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.0.1000141.tgz#83f16317df4e9a766950f833df5835a895437e88"
+  integrity sha512-dNdzPje+7BqK0ugXKc+5hHD1OSxjaa4FcvQT8hcLTKP9QWSQfjwpNDRQdmILdQ43Mq34+XDQkW9tia7qGOqqFQ==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -4783,9 +4783,9 @@ date-arithmetic@^4.0.1:
   integrity sha512-QWxYLR5P/6GStZcdem+V1xoto6DMadYWpMXU82ES3/RfR3Wdwr3D0+be7mgOJ+Ov0G9D5Dmb9T17sNLQYj9XOg==
 
 date-fns@^2.16.1:
-  version "2.20.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/date-fns/-/date-fns-2.20.2.tgz#7f05d1275e1e43c3bdde5998201920098e19c6a1"
-  integrity sha512-QS0Z8SD/ALhKFvhtU4Fhz+1crsI7fPzBquXmdWay33KJPEU7btro2hnmmErpQRmt2D624B1lbjXQKDUMLnQTmQ==
+  version "2.20.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/date-fns/-/date-fns-2.20.3.tgz#5a28718edb95a80db96187b25340959867d36bc8"
+  integrity sha512-BbiJSlfmr1Fnfi1OHY8arklKdwtZ9n3NkjCeK8G9gtEe0ZSUwJuwHc6gYBl0uoC0Oa5RdpJV1gBBdXcZi8Efdw==
 
 date-format@^2.0.0:
   version "2.1.0"
