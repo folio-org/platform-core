@@ -1647,9 +1647,9 @@
     redux "~4.0.0"
 
 "@folio/tags@>=1.1.0":
-  version "5.0.100084"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-5.0.100084.tgz#d7dbcd71f63a3d930affc768e67cc791bfa0de1a"
-  integrity sha512-yN2urIb+56aYKi634duGefBEGwOmOY4kB5CSQ/z+D9Iee+M7f2sX9ph6fmoruOwz0IB2Tqprc6mBtckrIwXqeg==
+  version "5.0.100085"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-5.0.100085.tgz#9d8c21b6c4361168b4605cc6eaa74a873ada2892"
+  integrity sha512-hhFImV2rYtJGLBDg62PAyN4loFBBt+9Jy7Vh7jJcdTIRicmvKNT1BbRDcpCqaeNQ2BcIlj6nwT8yMqx0QiZnTA==
   dependencies:
     prop-types "^15.5.10"
     redux-form "^8.3.7"
