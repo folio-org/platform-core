@@ -1409,9 +1409,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~6.1.0":
-  version "6.1.1000142"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-6.1.1000142.tgz#fe06ac74d9b3d40f6f89b08b3c3e9de0cb19863d"
-  integrity sha512-NlwNeoM+GKNZAcLMl6npw26e6cayBpzyGUzUp1OM9oCUrK0cOkOH9BlAB7Xop/ZWvTLHDTBeQN/LpxCGvnAF1w==
+  version "6.1.1000143"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-6.1.1000143.tgz#9692f7b64444db6a145d93b600130b9cace776aa"
+  integrity sha512-5PN+UDwtGffi10pKPiKrjN+Oo4nzaVar+aAHOpIFB/8XdmY7KweUe5cHlFPXJ36Mp4pLV3eeWlauHfNLUQWMDg==
   dependencies:
     lodash "^4.17.11"
     prop-types "^15.5.10"
@@ -1668,9 +1668,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001428"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001428.tgz#6197b936d4e7549562de8f0b428fced096f9838f"
-  integrity sha512-aA7PirJRnUfmwIvWfGkwR6YIXU+gtBp3mvhgRsiPaCiZKAvfNBkTQv3TGQ2QFYEF0Tt1N5+/gEwkgKxC563doQ==
+  version "6.0.10001429"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001429.tgz#ef601ba3dafcea28048f3d58aa8f57ca193439c2"
+  integrity sha512-fZgCPDhjqxZeZ1Ewi60ikqqeOu+JNkkt8O6U/kf5oM2f8Cs8EWqPWRxxe9ygj0v8YtKJD/Jr/9cMnq07SxjNew==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
@@ -4782,9 +4782,9 @@ date-arithmetic@^4.0.1:
   integrity sha512-QWxYLR5P/6GStZcdem+V1xoto6DMadYWpMXU82ES3/RfR3Wdwr3D0+be7mgOJ+Ov0G9D5Dmb9T17sNLQYj9XOg==
 
 date-fns@^2.16.1:
-  version "2.20.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/date-fns/-/date-fns-2.20.3.tgz#5a28718edb95a80db96187b25340959867d36bc8"
-  integrity sha512-BbiJSlfmr1Fnfi1OHY8arklKdwtZ9n3NkjCeK8G9gtEe0ZSUwJuwHc6gYBl0uoC0Oa5RdpJV1gBBdXcZi8Efdw==
+  version "2.21.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/date-fns/-/date-fns-2.21.0.tgz#4672b8e926d1b37d5353dc14da44b883481ac927"
+  integrity sha512-lbAFpaKz7QuVxm6m1rmioh4BB2gmLx1r1JMYXU2A/ufT5ly4zEG7HYH4fvS/QfbdyC5rkYyiS30mYz4Q7XCO+w==
 
 date-format@^2.0.0:
   version "2.1.0"
