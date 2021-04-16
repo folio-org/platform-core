@@ -1495,7 +1495,7 @@
     lodash "^4.17.15"
     prop-types "^15.7.2"
 
-"@folio/stripes-smart-components@~6.0.1":
+"@folio/stripes-smart-components@~6.0.2":
   version "6.0.2"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-6.0.2.tgz#9f4ebd8f169d287f5bf66651210b75712992b18e"
   integrity sha512-MfmyHeFhz3fFtGNosxXu23/slA1b5poQSwUt4tQN+on/8UWjTI2aSCsBSfe7MsDJGeJumql8s+HmlOyxr4TU+A==
@@ -1623,10 +1623,10 @@
     webpack-hot-middleware "^2.22.2"
     webpack-virtual-modules "^0.1.10"
 
-"@folio/stripes@6.1.0":
-  version "6.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-6.1.0.tgz#c0dec0c7a7708bdb66bb87501f8253696e4cefdf"
-  integrity sha512-7zNlO+Ioutg2HhdbzdprXJo63bT4zfQZ72Ob7wc2IJknTrpebDTyqPDKaUhZE1P2gVSdPk6liIPAOgwX7glpLQ==
+"@folio/stripes@6.1.1":
+  version "6.1.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-6.1.1.tgz#01ea7672f2eab978d1c39653ab71c1da81d30d01"
+  integrity sha512-RkfbCfUQ0rBfZwYSllhFLan6O9aFmDsbXfudnRi7aAkxidER5DtmaBwRInIJZEbf71wMi1AY97RI6oEreA3npg==
   dependencies:
     "@folio/stripes-components" "~9.1.0"
     "@folio/stripes-connect" "~6.1.0"
@@ -1634,7 +1634,7 @@
     "@folio/stripes-final-form" "~5.0.0"
     "@folio/stripes-form" "~6.0.0"
     "@folio/stripes-logger" "~1.0.0"
-    "@folio/stripes-smart-components" "~6.0.1"
+    "@folio/stripes-smart-components" "~6.0.2"
     "@folio/stripes-util" "~4.1.0"
     react-redux "~7.2.0"
     redux "~4.0.0"
