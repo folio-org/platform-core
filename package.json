@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@folio/calendar": "6.0.0",
-    "@folio/checkin": "5.0.0",
+    "@folio/checkin": "5.0.1",
     "@folio/checkout": "6.0.0",
     "@folio/circulation": "5.0.0",
     "@folio/developer": "5.0.0",
@@ -28,7 +28,7 @@
     "@folio/plugin-create-inventory-records": "2.0.0",
     "@folio/plugin-find-instance": "5.0.0",
     "@folio/plugin-find-user": "5.0.0",
-    "@folio/requests": "5.0.0",
+    "@folio/requests": "5.0.1",
     "@folio/search": "4.0.0",
     "@folio/servicepoints": "5.0.0",
     "@folio/stripes": "6.0.0",
