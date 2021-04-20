@@ -1669,9 +1669,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001436"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001436.tgz#1f1e41cf5be67e9e95876e6faf588422bb8b2a7a"
-  integrity sha512-xY4db9qfVTeqcFDvlcgr2QsxdGA9Vdsua3BhcxBsz8UHfSAJGqwzOfr3ozdLKPUClOovEn3QGNjGjyYCfVmW5Q==
+  version "6.0.10001437"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001437.tgz#ae9d5cd98b5008b3e033c0f30f672435966fb3e2"
+  integrity sha512-ReBc69KMPe3wpP0VkkyNjZYn8ZBykOkFD27JfbQhTx5ToTfsJ3tvcHcYXPHmT5SDe3WKEjKh4WsI9EDNEePEmw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
