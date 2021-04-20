@@ -47,7 +47,7 @@
   "id" : "mod-inventory-16.3.0",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-16.0.0",
+  "id" : "mod-feesfines-16.0.1",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.2.0",
