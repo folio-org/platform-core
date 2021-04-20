@@ -1240,9 +1240,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^3.0.0":
-  version "3.0.1000144"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.0.1000144.tgz#0e9219deec3710a9c52617ff893aa4cfe5cebeab"
-  integrity sha512-J8t/SlfxkzPqGa16YcWnAkjyFYJfnYNmgfXzjb10rjojOTWAqHKi9M0fja6GutHZqLHrgvUQY5Jeo9ihF+8Llw==
+  version "3.0.1000145"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.0.1000145.tgz#49f1db3a3e0de429fb56b57a7d13415266db46ad"
+  integrity sha512-rxiSKcQJpwdhmBrrGJ+JfeW2737WBixgpJtEGhT+vuA5Hr0fWiEi+aTSavybgVZUs/e1grqYdY7FDNUK+D3LLQ==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1306,9 +1306,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.3.2000471"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.3.2000471.tgz#b24c9c04a1973995dee69932fce0a7225f466230"
-  integrity sha512-Zer3ahKpWT2vS/DkddnvveXjAsdoAv6uFXzUc5j1zBTptpc9MNm2G5QGr+3gRAfV7q8RvDz5Jrf3d2sjW7Rm/A==
+  version "2.3.2000472"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.3.2000472.tgz#94c43071e5072065c8d0c4c86971734bb1b5b1f1"
+  integrity sha512-Cl8mMqW8GPS3wO9Oq4iPX+0xMw7EXEBrXq6iOz/u9ritAJEVpc3+d3VZKuKCCxHKeKviXbfI8MujNFqKvU46uQ==
   dependencies:
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
@@ -1655,9 +1655,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "6.0.1000206"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-6.0.1000206.tgz#f1ac99edeac44a9f01cf86b861138e0c7cf5a5b4"
-  integrity sha512-LNr02mDYPLbxuqDa8/NokVbdRQnw1tPI9xx2+aLFn7dB2+qTYRpPymGa2qsPODIR6/PbIaWPfsN0WeqMDPbNSA==
+  version "6.0.1000207"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-6.0.1000207.tgz#e18e873035bc99f98beb2abc12a457e5dbedd178"
+  integrity sha512-bTOcMht0k/kng4H3yC5uJj1szFABHmrMMHG3nxI5Q2stkgnscJzOgbl6MaRAb7KFTDlXwaKT+yuECM2E3twBDg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
