@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-5.1.0-SNAPSHOT.279",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.4.0-SNAPSHOT.360",
+  "id" : "mod-inventory-16.4.0-SNAPSHOT.361",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-16.1.0-SNAPSHOT.144",
@@ -59,7 +59,7 @@
   "id" : "mod-circulation-21.0.0-SNAPSHOT.837",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-5.0.1000366",
+  "id" : "folio_checkin-5.0.1000367",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-6.0.1000533",
@@ -80,7 +80,7 @@
   "id" : "folio_inventory-7.0.10001228",
   "action" : "enable"
 }, {
-  "id" : "folio_myprofile-5.0.1000121",
+  "id" : "folio_myprofile-5.0.1000122",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-create-inventory-records-2.1.100059",
