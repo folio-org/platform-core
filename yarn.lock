@@ -1377,9 +1377,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~9.1.0":
-  version "9.1.10001295"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.1.10001295.tgz#fbb3f39c1e4e6047995f34f8e0038bf15fca8b09"
-  integrity sha512-nqPQ36yoYIxKYUY0vFaXNM7jWEcW5MbLvv+jXveTcbyb55efjZHAgxjX+2DjlQtIZkywd46HUHVbm3yN98NdRQ==
+  version "9.1.10001296"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.1.10001296.tgz#e8de8428e6534379a97ae0864e704a94e0eb7dd1"
+  integrity sha512-nYv7grSc3FzoHQT8Vd4stk4dHjwcCpPx/PZMGYTERAHH24NlxUBBzF2B0x+ZNTdItGr63KiSvzaSlIuNGH1btw==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -11144,9 +11144,9 @@ react-overlays@^3.2.0:
     warning "^4.0.3"
 
 react-query@^3.13.0, react-query@^3.6.0, react-query@^3.9.8:
-  version "3.13.10"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.13.10.tgz#b6a05e22a5debb6e2df79ada588179771cbd7df8"
-  integrity sha512-wFvKhEDnOVL5bFL+9KPgNsiOOei1Ad+l6l1awCBuoX7xMG+SXXKDOF2uuZFsJe0w6gdthdWN+00021yepTR31g==
+  version "3.13.11"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.13.11.tgz#e63d4e1741450af4f227d0b14b8d72f13cfd170f"
+  integrity sha512-UVpCuXSEQ587DayD56nKTwJA+pjf5LVSwSHzWX6H9JYHJikAIy11R8S8UgQZVmNlWTsyaIzMwVFolbQJzpLc/A==
   dependencies:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
