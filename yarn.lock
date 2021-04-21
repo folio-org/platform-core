@@ -1086,10 +1086,10 @@
     redux-form "^8.3.7"
     style-loader "^0.21.0"
 
-"@folio/checkin@5.0.1":
-  version "5.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/checkin/-/checkin-5.0.1.tgz#6818dfe31b7b8aa00728bdecce5cc40b3e8525a6"
-  integrity sha512-LRukILpZOQkQOiYPLLkemkNLZkaTEopTt0E4KC55s8ZcVrxYLdMvjv++l2hCxTPFiFFzX1kyro3wuMWlsZ9w+g==
+"@folio/checkin@5.0.2":
+  version "5.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/checkin/-/checkin-5.0.2.tgz#b04628a7727ca462a4549b9a02948e6e38ee15bd"
+  integrity sha512-weOSyhyDHdg90Dk1rJkjWUAKFBe4vun15T9BlrFEfeKMMCXENeiO6NyKRS3MgQbqxOCClOpRejVKqVMY/pa6eA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
