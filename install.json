@@ -68,7 +68,7 @@
   "id" : "folio_circulation-5.0.1",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-5.0.0",
+  "id" : "folio_developer-5.0.1",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.8.0",
