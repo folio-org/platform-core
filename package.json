@@ -28,7 +28,7 @@
     "@folio/plugin-create-inventory-records": "2.0.0",
     "@folio/plugin-find-instance": "5.0.0",
     "@folio/plugin-find-user": "5.0.0",
-    "@folio/requests": "5.0.2",
+    "@folio/requests": "5.0.3",
     "@folio/search": "4.0.0",
     "@folio/servicepoints": "5.0.0",
     "@folio/stripes": "6.0.0",
