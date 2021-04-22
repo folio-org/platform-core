@@ -1305,9 +1305,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.3.2000474"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.3.2000474.tgz#8eae53f11c2b1ca06f68e587c0497e4e971020ec"
-  integrity sha512-biPgyq7Ksa5W9cfSp521bon20w+SQYFrYe32GxAV9xOXatlzMviARoe1c7Yv8Pat0FUIUqEIkadq//DPY24CmQ==
+  version "2.3.3000475"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.3.3000475.tgz#4fec39a0e117bc9a535513f203651d795c2c5658"
+  integrity sha512-e5NlBI3BBJFANb2Me2IZrDHiroy+/t4mBv84l9i5e4wLIa2asOZIbWWq1RoYklfdsKM1HW929aX0ISm+SfZn4A==
   dependencies:
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
@@ -1669,9 +1669,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001438"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001438.tgz#1ce7159351f9bfd77392667d58fc9d5205780661"
-  integrity sha512-5qqfzo3TL04RMP+2zMXVRG0zBDFKoxy3VaM6pbWuEoG2R3ijhoXRmt6hdQnFSVEHMqM4wkcGwFK5WnKi/rAs5g==
+  version "6.0.10001439"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001439.tgz#2268eaef951a9bc84558b13621234d09151288ca"
+  integrity sha512-88eFyQmMChxIUMrkZzkWSBVnZPxe7AeUjotBL2ycMRy3ymn6bNUI24pWRxqar4Y2HxdAHCmC+2LEvrFTuptSBA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
@@ -2295,9 +2295,9 @@
   integrity sha512-+iTbntw2IZPb/anVDbypzfQa+ay64MW0Zo8aJ8gZPWMMK6/OubMVb6lUPMagqjOPnmtauXnFCACVl3O7ogjeqQ==
 
 "@testing-library/dom@^7.29.4":
-  version "7.30.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@testing-library/dom/-/dom-7.30.3.tgz#779ea9bbb92d63302461800a388a5a890ac22519"
-  integrity sha512-7JhIg2MW6WPwyikH2iL3o7z+FTVgSOd2jqCwTAHqK7Qal2gRRYiUQyURAxtbK9VXm/UTyG9bRihv8C5Tznr2zw==
+  version "7.30.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@testing-library/dom/-/dom-7.30.4.tgz#c6a4a91557e92035fd565246bbbfb8107aa4634d"
+  integrity sha512-GObDVMaI4ARrZEXaRy4moolNAxWPKvEYNV/fa6Uc2eAzR/t4otS6A7EhrntPBIQLeehL9DbVhscvvv7gd6hWqA==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/runtime" "^7.12.5"
