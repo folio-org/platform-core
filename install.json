@@ -95,7 +95,7 @@
   "id" : "folio_requests-5.0.1000645",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-mux-2.10.1-SNAPSHOT.101",
+  "id" : "mod-codex-mux-2.10.1-SNAPSHOT.102",
   "action" : "enable"
 }, {
   "id" : "folio_search-4.0.1000217",
@@ -107,10 +107,10 @@
   "id" : "mod-password-validator-2.0.2-SNAPSHOT.39",
   "action" : "enable"
 }, {
-  "id" : "mod-authtoken-2.8.0-SNAPSHOT.88",
+  "id" : "mod-authtoken-2.8.0-SNAPSHOT.89",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-6.3.0-SNAPSHOT.100",
+  "id" : "mod-users-bl-6.3.0-SNAPSHOT.101",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-core-7.1.1000874",
@@ -131,6 +131,6 @@
   "id" : "folio_users-6.0.10001444",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-inventory-1.10.0-SNAPSHOT.85",
+  "id" : "mod-codex-inventory-1.10.0-SNAPSHOT.86",
   "action" : "enable"
 } ]

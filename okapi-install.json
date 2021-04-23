@@ -84,7 +84,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-codex-mux-2.10.1-SNAPSHOT.101",
+    "id": "mod-codex-mux-2.10.1-SNAPSHOT.102",
     "action": "enable"
   },
   {
@@ -92,11 +92,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-authtoken-2.8.0-SNAPSHOT.88",
+    "id": "mod-authtoken-2.8.0-SNAPSHOT.89",
     "action": "enable"
   },
   {
-    "id": "mod-users-bl-6.3.0-SNAPSHOT.100",
+    "id": "mod-users-bl-6.3.0-SNAPSHOT.101",
     "action": "enable"
   },
   {
@@ -104,7 +104,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-codex-inventory-1.10.0-SNAPSHOT.85",
+    "id": "mod-codex-inventory-1.10.0-SNAPSHOT.86",
     "action": "enable"
   }
 ]
