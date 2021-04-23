@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.9.0-SNAPSHOT.104",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.1.0-SNAPSHOT.280",
+  "id" : "mod-source-record-storage-5.1.0-SNAPSHOT.281",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-16.4.0-SNAPSHOT.363",
@@ -128,7 +128,7 @@
   "id" : "folio_tenant-settings-6.0.1000207",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.10001442",
+  "id" : "folio_users-6.0.10001443",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.10.0-SNAPSHOT.85",
