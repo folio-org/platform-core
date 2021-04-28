@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.12.0-SNAPSHOT.119",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-20.3.0-SNAPSHOT.568",
+  "id" : "mod-inventory-storage-20.3.0-SNAPSHOT.569",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-6.0.1000110",
@@ -17,7 +17,7 @@
   "id" : "mod-permissions-5.14.0-SNAPSHOT.109",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.1.0-SNAPSHOT.150",
+  "id" : "mod-pubsub-2.1.0-SNAPSHOT.151",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-12.3.0-SNAPSHOT.283",
@@ -32,7 +32,7 @@
   "id" : "mod-template-engine-1.14.0-SNAPSHOT.69",
   "action" : "enable"
 }, {
-  "id" : "mod-email-1.11.0-SNAPSHOT.52",
+  "id" : "mod-email-1.11.0-SNAPSHOT.53",
   "action" : "enable"
 }, {
   "id" : "mod-sender-1.6.0-SNAPSHOT.28",
