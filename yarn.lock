@@ -1123,9 +1123,9 @@
     "@folio/plugin-find-user" "^5.0.0"
 
 "@folio/circulation@>=1.3.0", "@folio/circulation@^5.0.0":
-  version "5.0.1000673"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.0.1000673.tgz#924a6c71a2d4dec3dbfa38a0275891548db162ef"
-  integrity sha512-CJJMLJNgdg648Hp9fOIiLvo/oEP8rBB6ktej1CunxqIeM/jRKGxl1x4ar7MBq/Pzpr6gztADNw7aLojVAtFoaA==
+  version "5.0.1000675"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.0.1000675.tgz#0c1f263b4368edcaf0fd6299c99eaf7437c4e266"
+  integrity sha512-wk67MiAdinEeDXX0oBiz0v/ISMQJQM2rKoVnR2rMNqkKMjcA6Na6D+eo0vp0dFBKkNL5vO18+f+sNvcPjGNfTA==
   dependencies:
     "@folio/stripes-template-editor" "^1.0.0"
     final-form "^4.18.2"
@@ -1500,9 +1500,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~6.1.0":
-  version "6.1.1000955"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.1.1000955.tgz#aff36ae5d4522841b538839390ab0a52967a61d3"
-  integrity sha512-npLgERKqBljNtDbgSFIta/uWHRf4B3DluUmwJ/HMdeF01m7G/MhQctiPm3rXbtFqV7XZJDgR7h4o3t2er7xj2A==
+  version "6.1.1000956"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.1.1000956.tgz#fc45222042c532475e0569856602f5837bd9ac98"
+  integrity sha512-OKxOkQh26SeWyolzpAD88ivXBDLbYAdXKtQdjdpirxltc9TI+lzrIwOG42h+apVJrDZRq+6xflQYp0Nk7oGWig==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "2.4.0"
@@ -1653,9 +1653,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "6.0.1000207"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-6.0.1000207.tgz#e18e873035bc99f98beb2abc12a457e5dbedd178"
-  integrity sha512-bTOcMht0k/kng4H3yC5uJj1szFABHmrMMHG3nxI5Q2stkgnscJzOgbl6MaRAb7KFTDlXwaKT+yuECM2E3twBDg==
+  version "6.0.1000208"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-6.0.1000208.tgz#70c983b07f2203490b91f60f04a5926c76518ce8"
+  integrity sha512-aMiwgJhY5NKl1WspqVJNhcH9fJi5LO5sCenfUz2c/4kyKmnf2bA/npmz4Zq7acNm3doeI0aYTBlGmUN1clzp6g==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
