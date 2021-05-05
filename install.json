@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.9.0-SNAPSHOT.104",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.1.0-SNAPSHOT.282",
+  "id" : "mod-source-record-storage-5.1.0-SNAPSHOT.283",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-16.4.0-SNAPSHOT.363",
@@ -92,7 +92,7 @@
   "id" : "folio_plugin-find-user-5.0.1000145",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-5.0.1000645",
+  "id" : "folio_requests-5.0.1000646",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.10.1-SNAPSHOT.102",
