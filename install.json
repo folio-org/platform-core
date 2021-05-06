@@ -56,10 +56,10 @@
   "id" : "mod-notes-2.11.1-SNAPSHOT.174",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-21.0.0-SNAPSHOT.844",
+  "id" : "mod-circulation-21.0.0-SNAPSHOT.845",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-5.0.1000369",
+  "id" : "folio_checkin-5.0.1000370",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-6.0.1000534",
