@@ -1275,9 +1275,9 @@
   integrity sha512-ex5s3VrHhQUo/aQVkIjpTOsKX1RsewTzoLRVQpSAruBqKy8+8iPY0Ms5dhdFrKYBEIhVkU0SNfLI5JEXcJqZMQ==
 
 "@folio/requests@>=1.4.1":
-  version "5.0.1000646"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-5.0.1000646.tgz#7540bf354cacf42109f39162a39a5ad7b32f9a8b"
-  integrity sha512-iHdXdnHrYh1ov2ZuEQ4eAaxKPUzUGvvxtUfTNqv6vIY6RbM91bY+C/d0EdXmxQ9/nGOK1QxyBrs6ALchrUxcWw==
+  version "5.0.1000649"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-5.0.1000649.tgz#a7353dab4bc9c164eada1c9779fb5326828c7249"
+  integrity sha512-FwcXUJgwb1XFl9kYIIwE+0FoOn6Xx15x+mTFiD3RKeWgpXAGnune5D1zjl0jhmA8KAYPNYwH3lsLVPweiJWV1Q==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     html-to-react "^1.3.3"
