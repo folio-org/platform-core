@@ -2,5 +2,9 @@
   {
     "id": "mod-codex-inventory",
      "action": "enable"
+  },
+  {
+    "id": "mod-permissions-5.14.0-SNAPSHOT.109",
+     "action": "enable"
   }
 ]
