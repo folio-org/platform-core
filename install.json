@@ -125,7 +125,7 @@
   "id" : "mod-login-saml-2.2.0-SNAPSHOT.64",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-6.0.1000208",
+  "id" : "folio_tenant-settings-6.0.1000209",
   "action" : "enable"
 }, {
   "id" : "folio_users-6.0.10001451",

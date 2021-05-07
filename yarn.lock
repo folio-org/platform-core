@@ -1248,9 +1248,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^3.0.0":
-  version "3.0.1000152"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.0.1000152.tgz#ae4afa9b54da3f47e05444fb48c5ddab64460bef"
-  integrity sha512-WTKmKKHUGS9LL/xOWwPONMW/bQCvSY3dvET26NxI65DRpSdh1qH3O+CulQXwJXRx5wLjnxJKqz4b0cL4DOR9lA==
+  version "3.0.1000153"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.0.1000153.tgz#626d4c166f11b0e48dfd3afba83cac4ce9537401"
+  integrity sha512-MQPOOK+AjXag0LpGQr0zhJf2EzbLbPDVqL6fZARZHmebSti5oW7nTvqGqGfva/f0qQbe+fKX/HzEHJeF+ABQJw==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1314,9 +1314,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.3.3000477"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.3.3000477.tgz#a46dfe14fc681a8628668fa1f23ad0c34fae4153"
-  integrity sha512-Hxcn8Yu98x2x0TJj2fAn/ccIIrETWlDMlQQFkrqhJdeoMVRSpqoxNZrQ4HlRh5z2t+u46J4joj99DESQ4XyHPQ==
+  version "2.3.3000478"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.3.3000478.tgz#5f00b345d17ed77ce9cb7d5821f87b99840ed602"
+  integrity sha512-SKiLadIK5nj8HiWzOweU+W1se4L+5IcAKHQlMJJPpQl+i+XPHTUTQd9sGuogAXLsprV4F5w1mLPEAsqtZlUhPQ==
   dependencies:
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
@@ -1660,9 +1660,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "6.0.1000208"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-6.0.1000208.tgz#70c983b07f2203490b91f60f04a5926c76518ce8"
-  integrity sha512-aMiwgJhY5NKl1WspqVJNhcH9fJi5LO5sCenfUz2c/4kyKmnf2bA/npmz4Zq7acNm3doeI0aYTBlGmUN1clzp6g==
+  version "6.0.1000209"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-6.0.1000209.tgz#3dd2171ca870f2dd916f12e9df3a730bead03bde"
+  integrity sha512-CJteFTXi4+1o/9fVqK0dO8rPxGtKPBPnpJVCk411h9Bk/ItNI033TvfC4TQ7c5+ZyjjyyXI8c69OO8bP0Gn1aA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
@@ -11095,9 +11095,9 @@ react-overlays@^3.2.0:
     warning "^4.0.3"
 
 react-query@^3.13.0, react-query@^3.6.0, react-query@^3.9.8:
-  version "3.15.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.15.2.tgz#4ff4ffe9ff5e3bf002a7e863cc01b9d58c5fae01"
-  integrity sha512-7pm/WR+zl064W0pfQffayM0Jmgsz2VcoDL0pRFk06ERpMSYLQjX0fFZfvVRIgJVRjgS3A04pSY1iOYdw92dzdA==
+  version "3.16.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.16.0.tgz#8de1556aabb3d200d0f8eeb74ce2b0b3dd0a0a51"
+  integrity sha512-YOvI8mO9WG+r4XsyJinjlDMiV5IewUWUcTv2J7z6bIP3KOFvgT6k6HM8vQouz4hPnme7Ktq9j5e7LarUqgJXFQ==
   dependencies:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
