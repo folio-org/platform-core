@@ -12,11 +12,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-login-7.3.0-SNAPSHOT.92",
+    "id": "mod-login-7.3.0-SNAPSHOT.93",
     "action": "enable"
   },
   {
-    "id": "mod-permissions-5.14.0-SNAPSHOT.109",
+    "id": "mod-permissions-5.14.0-SNAPSHOT.113",
     "action": "enable"
   },
   {
@@ -52,15 +52,15 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-5.1.0-SNAPSHOT.290",
+    "id": "mod-source-record-storage-5.1.0-SNAPSHOT.291",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-16.4.0-SNAPSHOT.363",
+    "id": "mod-inventory-16.4.0-SNAPSHOT.364",
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-16.1.0-SNAPSHOT.145",
+    "id": "mod-feesfines-16.1.0-SNAPSHOT.146",
     "action": "enable"
   },
   {
@@ -100,7 +100,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-login-saml-2.2.0-SNAPSHOT.64",
+    "id": "mod-login-saml-2.2.0-SNAPSHOT.65",
     "action": "enable"
   },
   {
