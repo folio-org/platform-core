@@ -59,16 +59,16 @@
   "id" : "mod-circulation-21.0.0-SNAPSHOT.846",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-5.0.1000371",
+  "id" : "folio_checkin-5.0.1000372",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-6.0.1000535",
+  "id" : "folio_checkout-6.0.1000536",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-5.0.1000676",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-5.0.1000210",
+  "id" : "folio_developer-5.0.1000211",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.8.1-SNAPSHOT.58",
@@ -77,13 +77,13 @@
   "id" : "mod-data-export-4.1.0-SNAPSHOT.238",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-7.0.10001239",
+  "id" : "folio_inventory-7.0.10001240",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-5.0.1000123",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-2.1.100060",
+  "id" : "folio_plugin-create-inventory-records-2.1.100061",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-5.0.100077",
@@ -92,13 +92,13 @@
   "id" : "folio_plugin-find-user-5.0.1000145",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-5.0.1000650",
+  "id" : "folio_requests-5.0.1000651",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.10.1-SNAPSHOT.102",
   "action" : "enable"
 }, {
-  "id" : "folio_search-4.0.1000219",
+  "id" : "folio_search-4.0.1000220",
   "action" : "enable"
 }, {
   "id" : "folio_servicepoints-5.0.100090",
@@ -113,22 +113,22 @@
   "id" : "mod-users-bl-6.3.0-SNAPSHOT.101",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-7.2.1000884",
+  "id" : "folio_stripes-core-7.2.1000885",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.1.1000961",
+  "id" : "folio_stripes-smart-components-6.1.1000962",
   "action" : "enable"
 }, {
-  "id" : "folio_tags-5.0.100088",
+  "id" : "folio_tags-5.0.100089",
   "action" : "enable"
 }, {
   "id" : "mod-login-saml-2.2.0-SNAPSHOT.66",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-6.0.1000209",
+  "id" : "folio_tenant-settings-6.0.1000210",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.10001456",
+  "id" : "folio_users-6.0.10001457",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-1.10.0-SNAPSHOT.86",
