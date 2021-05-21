@@ -4,11 +4,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkin-5.0.1000372",
+    "id": "folio_checkin-5.0.1000373",
     "action": "enable"
   },
   {
-    "id": "folio_checkout-6.0.1000536",
+    "id": "folio_checkout-6.0.1000537",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-7.0.10001241",
+    "id": "folio_inventory-7.0.10001242",
     "action": "enable"
   },
   {
@@ -28,7 +28,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-create-inventory-records-2.1.100061",
+    "id": "folio_plugin-create-inventory-records-2.1.100062",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-5.0.1000651",
+    "id": "folio_requests-5.0.1000652",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-6.0.10001468",
+    "id": "folio_users-6.0.10001469",
     "action": "enable"
   }
 ]
