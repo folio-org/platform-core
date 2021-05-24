@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.12.0-SNAPSHOT.119",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-20.3.0-SNAPSHOT.573",
+  "id" : "mod-inventory-storage-20.3.0-SNAPSHOT.574",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-6.0.1000111",
@@ -77,7 +77,7 @@
   "id" : "mod-data-export-4.1.0-SNAPSHOT.238",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-7.0.10001242",
+  "id" : "folio_inventory-7.0.10001243",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-5.0.1000123",
@@ -116,13 +116,13 @@
   "id" : "folio_stripes-core-7.2.1000889",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.1.1000963",
+  "id" : "folio_stripes-smart-components-6.1.1000964",
   "action" : "enable"
 }, {
   "id" : "folio_tags-5.0.100089",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.2.0-SNAPSHOT.67",
+  "id" : "mod-login-saml-2.2.0-SNAPSHOT.68",
   "action" : "enable"
 }, {
   "id" : "folio_tenant-settings-6.0.1000214",
