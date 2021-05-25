@@ -2492,9 +2492,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@>=16.9.0", "@types/react@>=16.9.11":
-  version "17.0.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-17.0.6.tgz#0ec564566302c562bf497d73219797a5e0297013"
-  integrity sha512-u/TtPoF/hrvb63LdukET6ncaplYsvCvmkceasx8oG84/ZCsoLxz9Z/raPBP4lTAiWW1Jb889Y9svHmv8R26dWw==
+  version "17.0.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-17.0.7.tgz#5f2ca73d8baee8c286e96c95df557799ac0d1996"
+  integrity sha512-lBc3fY20hRFQ/pXQT2XdtmpJeXZnRH8N+WPnEzEfPTzuKmaJTA7k/xGWHBaPvKceKpbf0ZnMlLWY/0sFZ5rfkw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -9356,9 +9356,9 @@ no-case@^3.0.4:
     tslib "^2.0.3"
 
 node-abi@^2.7.0:
-  version "2.26.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/node-abi/-/node-abi-2.26.0.tgz#355d5d4bc603e856f74197adbf3f5117a396ba40"
-  integrity sha512-ag/Vos/mXXpWLLAYWsAoQdgS+gW7IwvgMLOgqopm/DbzAjazLltzgzpVMsFlgmo9TzG5hGXeaBZx2AI731RIsQ==
+  version "2.27.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/node-abi/-/node-abi-2.27.0.tgz#495e1009dcfc7ccfed88bd3323a003ef312ad254"
+  integrity sha512-JH2oiq6FY57bacOnTH1/iL/8+g8OUpY7WyXYMCwSVLsE4bU+WvJbTiCHLCwCRlTcT0VgqnWTXdic+hK5hL8cOQ==
   dependencies:
     semver "^5.4.1"
 
