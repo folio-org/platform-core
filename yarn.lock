@@ -9356,9 +9356,9 @@ no-case@^3.0.4:
     tslib "^2.0.3"
 
 node-abi@^2.7.0:
-  version "2.27.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/node-abi/-/node-abi-2.27.0.tgz#495e1009dcfc7ccfed88bd3323a003ef312ad254"
-  integrity sha512-JH2oiq6FY57bacOnTH1/iL/8+g8OUpY7WyXYMCwSVLsE4bU+WvJbTiCHLCwCRlTcT0VgqnWTXdic+hK5hL8cOQ==
+  version "2.28.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/node-abi/-/node-abi-2.28.0.tgz#bd7995b5d06efd247c86229f2c2eb0ca56af8ec8"
+  integrity sha512-81mGpZh1sdNcp2mRNYOuOx9AZ8iTtaWptMETxHVCo/bDXKFZmjhJ67nmwG6OmKHWrjILOaGqJScIvBrzcjwYeg==
   dependencies:
     semver "^5.4.1"
 
