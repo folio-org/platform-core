@@ -1705,9 +1705,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001474"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001474.tgz#d7c82eba0834d9c7e13c04efe696ee382c3694cd"
-  integrity sha512-bsak19l/EnGsGB2zRElqhMIPPHwaW9V+FRuk4xFqIQ27fdpiOSSfpibuexRh20dPToa0ti4hyiwxpY7driMgtg==
+  version "6.0.10001475"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001475.tgz#0cca18f009f0897f429f88ec62810e129875d63c"
+  integrity sha512-Cxu+7yY63jdi7eaSt0X2Qu9luGkUadvMKj7el5YAO5c46m0SIMojkYKqgxIkIS3DkVMuML2r74jUeXxMRyMITA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
@@ -9356,9 +9356,9 @@ no-case@^3.0.4:
     tslib "^2.0.3"
 
 node-abi@^2.7.0:
-  version "2.29.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/node-abi/-/node-abi-2.29.0.tgz#308fa925060e54795789c904edb68e282cbccd51"
-  integrity sha512-+xu2xkzOkdVS0YAVpiF+xsYM+hM1ylmeGUaG1OC3To6+pUIL4yoCqU6ggWpZeeiq0GFPE2uUOCf36Y4iq3JnOA==
+  version "2.30.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/node-abi/-/node-abi-2.30.0.tgz#8be53bf3e7945a34eea10e0fc9a5982776cf550b"
+  integrity sha512-g6bZh3YCKQRdwuO/tSZZYJAw622SjsRfJ2X0Iy4sSOHZ34/sPPdVBn8fev2tj7njzLwuqPw9uMtGsGkO5kIQvg==
   dependencies:
     semver "^5.4.1"
 
