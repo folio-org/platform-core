@@ -1125,9 +1125,9 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "5.0.1000374"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-5.0.1000374.tgz#20b9274b453c6630fc8b2d022151515e4284608e"
-  integrity sha512-ebVTSq7u6Z9hw5hMV92lmDb9l7VVJCONA7XZ7y0c5DtG/OGSy+WFxb4yctrDMQGz6UuUxED2uhI3kUQscNkFQw==
+  version "5.0.1000375"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-5.0.1000375.tgz#77fd7b3988e69b6d871c9388127911bdcd95276b"
+  integrity sha512-C3WAMuwla+kpwZg5tv0J6fZaLz7iPjLHSe6YJugVGrKrdCKVGj2xRAzqDsogJr81OSUfOPOef2WcA3C1UfxkRQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
