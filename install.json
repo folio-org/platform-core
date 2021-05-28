@@ -26,7 +26,7 @@
   "id" : "mod-event-config-2.0.0",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.7.0",
+  "id" : "mod-configuration-5.8.0-SNAPSHOT.94",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.14.0-SNAPSHOT.69",
