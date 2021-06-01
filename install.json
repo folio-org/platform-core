@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-5.1.0-SNAPSHOT.300",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.4.0-SNAPSHOT.375",
+  "id" : "mod-inventory-16.4.0-SNAPSHOT.376",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-16.1.0-SNAPSHOT.148",
@@ -83,7 +83,7 @@
   "id" : "folio_myprofile-5.0.1000124",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-2.1.100062",
+  "id" : "folio_plugin-create-inventory-records-2.1.100063",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-5.0.100079",
@@ -101,7 +101,7 @@
   "id" : "folio_search-4.0.1000222",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-5.0.100090",
+  "id" : "folio_servicepoints-5.0.100091",
   "action" : "enable"
 }, {
   "id" : "mod-password-validator-2.0.2",
@@ -125,7 +125,7 @@
   "id" : "mod-login-saml-2.2.1-SNAPSHOT.70",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-6.0.1000216",
+  "id" : "folio_tenant-settings-6.0.1000217",
   "action" : "enable"
 }, {
   "id" : "folio_users-6.0.10001481",
