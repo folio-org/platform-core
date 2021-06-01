@@ -89,7 +89,7 @@
   "id" : "folio_plugin-find-instance-5.0.100079",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-5.0.1000145",
+  "id" : "folio_plugin-find-user-5.0.1000146",
   "action" : "enable"
 }, {
   "id" : "folio_requests-5.0.1000655",
@@ -113,7 +113,7 @@
   "id" : "mod-users-bl-6.3.0-SNAPSHOT.102",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-7.2.1000892",
+  "id" : "folio_stripes-core-7.2.1000893",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-smart-components-6.1.1000969",
