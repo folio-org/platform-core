@@ -1460,9 +1460,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@~7.2.0":
-  version "7.2.1000889"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.2.1000889.tgz#f07804beeb6ab4b4112bc065c38f051300155716"
-  integrity sha512-JHlmekr0JSi2NFro4tOJAP0Ad6CpMhAQTcqQtHg3QrDuYMnjr2PWfRW8i/Xnj9DDDk/dW3YrCYjNvYJMG+kj6Q==
+  version "7.2.1000890"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.2.1000890.tgz#d00cea3b6db0a1438beefa1b5f93372e5c64a5a6"
+  integrity sha512-6LlpC7x3dIPjF6/gdx25+44IWUMsn4CCWFSTQJ8UsJygOn6283ajuwzau8YSmaVsPz3iEDAxejsnYRmTkpnDJw==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@formatjs/intl-displaynames" "^2.2.3"
