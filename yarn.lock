@@ -1460,9 +1460,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@~7.2.0":
-  version "7.2.1000890"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.2.1000890.tgz#d00cea3b6db0a1438beefa1b5f93372e5c64a5a6"
-  integrity sha512-6LlpC7x3dIPjF6/gdx25+44IWUMsn4CCWFSTQJ8UsJygOn6283ajuwzau8YSmaVsPz3iEDAxejsnYRmTkpnDJw==
+  version "7.2.1000891"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.2.1000891.tgz#5d091737e0cf4bbbdd5d9dbc5640bea7d0325766"
+  integrity sha512-0XlBx/fnUQIkYvK6crMa50kR/mbymGqmtdzy3o5fAbPw/7kon7j04Mf7c+RXroUqm2nsYKP7synjy0L2j99PEA==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@formatjs/intl-displaynames" "^2.2.3"
@@ -5226,9 +5226,9 @@ domhandler@^4.2.0:
     domelementtype "^2.2.0"
 
 dompurify@^2.2.0:
-  version "2.2.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/dompurify/-/dompurify-2.2.8.tgz#ce88e395f6d00b6dc53f80d6b2a6fdf5446873c6"
-  integrity sha512-9H0UL59EkDLgY3dUFjLV6IEUaHm5qp3mxSqWw7Yyx4Zhk2Jn2cmLe+CNPP3xy13zl8Bqg+0NehQzkdMoVhGRww==
+  version "2.2.9"
+  resolved "https://repository.folio.org/repository/npm-ci-all/dompurify/-/dompurify-2.2.9.tgz#4b42e244238032d9286a0d2c87b51313581d9624"
+  integrity sha512-+9MqacuigMIZ+1+EwoEltogyWGFTJZWU3258Rupxs+2CGs4H914G9er6pZbsme/bvb5L67o2rade9n21e4RW/w==
 
 domutils@^1.5.1, domutils@^1.7.0:
   version "1.7.0"
