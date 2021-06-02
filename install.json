@@ -65,7 +65,7 @@
   "id" : "folio_checkout-6.0.1000540",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-5.0.1000680",
+  "id" : "folio_circulation-5.0.1000681",
   "action" : "enable"
 }, {
   "id" : "folio_developer-5.0.1000214",
@@ -86,7 +86,7 @@
   "id" : "folio_plugin-create-inventory-records-2.1.100063",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-5.0.100079",
+  "id" : "folio_plugin-find-instance-5.0.100080",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-5.0.1000146",
@@ -116,7 +116,7 @@
   "id" : "folio_stripes-core-7.2.1000893",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.1.1000969",
+  "id" : "folio_stripes-smart-components-6.1.1000970",
   "action" : "enable"
 }, {
   "id" : "folio_tags-5.0.100089",
