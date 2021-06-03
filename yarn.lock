@@ -1589,9 +1589,9 @@
     minimist "^1.2.0"
 
 "@folio/stripes-util@~4.2.0":
-  version "4.2.100049"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-4.2.100049.tgz#1751cca22eb1797d77e0d5005317d8bec7c4d82f"
-  integrity sha512-eQqSaLHcsDm3BJKFSoJcR444lZrdg0TeEREizyxp8sdgasgbN8Ajz9lSq8rKIAwgLHCLKDJjt2DfundVA/1TUg==
+  version "4.2.100050"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-4.2.100050.tgz#90824fa583f0d928189213461429001c5050d415"
+  integrity sha512-Gw0OWn/IpB30db7C08sXY2HpG5o+baEcGuFy5t6CJhfog52MlpGtBmjcQZL2cAIlztSlT2R+9TCk/DQ1/9GX1Q==
   dependencies:
     json2csv "^4.2.1"
     lodash "^4.17.4"
@@ -2344,16 +2344,16 @@
   integrity sha512-+iTbntw2IZPb/anVDbypzfQa+ay64MW0Zo8aJ8gZPWMMK6/OubMVb6lUPMagqjOPnmtauXnFCACVl3O7ogjeqQ==
 
 "@testing-library/dom@^7.29.4":
-  version "7.31.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@testing-library/dom/-/dom-7.31.0.tgz#938451abd3ca27e1b69bb395d4a40759fd7f5b3b"
-  integrity sha512-0X7ACg4YvTRDFMIuTOEj6B4NpN7i3F/4j5igOcTI5NC5J+N4TribNdErCHOZF1LBWhhcyfwxelVwvoYNMUXTOA==
+  version "7.31.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@testing-library/dom/-/dom-7.31.2.tgz#df361db38f5212b88555068ab8119f5d841a8c4a"
+  integrity sha512-3UqjCpey6HiTZT92vODYLPxTBWlM8ZOOjr3LX5F37/VRipW2M1kX6I/Cm4VXzteZqfGfagg8yXywpcOgQBlNsQ==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/runtime" "^7.12.5"
     "@types/aria-query" "^4.2.0"
     aria-query "^4.2.2"
     chalk "^4.1.0"
-    dom-accessibility-api "^0.5.4"
+    dom-accessibility-api "^0.5.6"
     lz-string "^1.4.4"
     pretty-format "^26.6.2"
 
@@ -5131,10 +5131,10 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-dom-accessibility-api@^0.5.4:
-  version "0.5.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/dom-accessibility-api/-/dom-accessibility-api-0.5.5.tgz#8546a8f0574f6a3ec9160c610d14449128bd6208"
-  integrity sha512-8qdiSHWFg/rzd/oDByhKtBCR+1QtpNPcHDr94m3K+SLkFaPEhdCPA/Rm9hOPN9WUK9mEfNXH1zaM6F5e0yhw/A==
+dom-accessibility-api@^0.5.6:
+  version "0.5.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/dom-accessibility-api/-/dom-accessibility-api-0.5.6.tgz#3f5d43b52c7a3bd68b5fb63fa47b4e4c1fdf65a9"
+  integrity sha512-DplGLZd8L1lN64jlT27N9TVSESFR5STaEJvX+thCby7fuCHonfPpAlodYc3vuUYbDuDec5w8AMP7oCM5TWFsqw==
 
 dom-converter@^0.2:
   version "0.2.0"
