@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.9.0-SNAPSHOT.104",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.1.0-SNAPSHOT.302",
+  "id" : "mod-source-record-storage-5.1.0-SNAPSHOT.303",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-16.4.0-SNAPSHOT.378",
@@ -113,7 +113,7 @@
   "id" : "mod-users-bl-7.0.0-SNAPSHOT.103",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-7.2.1000897",
+  "id" : "folio_stripes-core-7.2.1000898",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-smart-components-6.1.1000973",
