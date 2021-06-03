@@ -1161,9 +1161,9 @@
     "@folio/plugin-find-user" "^5.0.0"
 
 "@folio/circulation@>=1.3.0", "@folio/circulation@^5.0.0":
-  version "5.0.1000681"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.0.1000681.tgz#c05430bf1c658904b12f47409a30ef7823b5c454"
-  integrity sha512-smzmg4tPsIy0Tlh7YccAtkBBE668MThOKTnD1qMziDjjLRJiQ1niE/YOzKD24Ttt72K4czthRe9vvzFWuaqU5Q==
+  version "5.0.1000682"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.0.1000682.tgz#f26d3e72a537acd1b7113d372966f8ea21bcafdc"
+  integrity sha512-t6t//Bw+reX6Oy385UIDwGdn9m58lT7SvDThcUuS40MhgFeX/+sfYsg4Wdm79RpNDdgcf6keTCL8FuyhHB19AA==
   dependencies:
     "@folio/stripes-template-editor" "^1.0.0"
     final-form "^4.18.2"
@@ -1171,6 +1171,7 @@
     final-form-set-field-data "^1.0.2"
     html-to-react "^1.3.3"
     lodash "^4.17.4"
+    moment-timezone "^0.5.33"
     prop-types "^15.5.10"
     react-codemirror2 "^1.0.0"
     react-final-form "^6.3.0"
@@ -2441,9 +2442,9 @@
   integrity sha512-1z8k4wzFnNjVK/tlxvrWuK5WMt6mydWWP7+zvH5eFep4oj+UkrfiJTRtjCeBXNpwaA/FYqqtb4/QS4ianFpIRA==
 
 "@types/node@*", "@types/node@>= 8":
-  version "15.6.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-15.6.2.tgz#c61d49f38af70da32424b5322eee21f97e627175"
-  integrity sha512-dxcOx8801kMo3KlU+C+/ctWrzREAH7YvoF3aoVpRdqgs+Kf7flp+PJDN/EX5bME3suDUZHsxes9hpvBmzYlWbA==
+  version "15.9.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-15.9.0.tgz#0b7f6c33ca5618fe329a9d832b478b4964d325a8"
+  integrity sha512-AR1Vq1Ei1GaA5FjKL5PBqblTZsL5M+monvGSZwe6sSIdGiuu7Xr/pNwWJY+0ZQuN8AapD/XMB5IzBAyYRFbocA==
 
 "@types/prop-types@*", "@types/prop-types@^15.7.3":
   version "15.7.3"
@@ -9202,7 +9203,7 @@ moment-range@^3.0.3:
   dependencies:
     es6-symbol "^3.1.0"
 
-moment-timezone@^0.5.14, moment-timezone@^0.5.17:
+moment-timezone@^0.5.14, moment-timezone@^0.5.17, moment-timezone@^0.5.33:
   version "0.5.33"
   resolved "https://repository.folio.org/repository/npm-ci-all/moment-timezone/-/moment-timezone-0.5.33.tgz#b252fd6bb57f341c9b59a5ab61a8e51a73bbd22c"
   integrity sha512-PTc2vcT8K9J5/9rDEPe5czSIKgLoGsH8UNpA4qZTVw0Vd/Uz19geE9abbIOQKaAQFcnQ3v5YEXrbSc5BpshH+w==
