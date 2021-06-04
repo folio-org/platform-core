@@ -36,7 +36,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-template-engine-1.14.0-SNAPSHOT.69",
+    "id": "mod-template-engine-1.14.0-SNAPSHOT.70",
     "action": "enable"
   },
   {
@@ -52,11 +52,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-5.1.0-SNAPSHOT.303",
+    "id": "mod-source-record-storage-5.1.0-SNAPSHOT.304",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-16.4.0-SNAPSHOT.378",
+    "id": "mod-inventory-16.4.0-SNAPSHOT.379",
     "action": "enable"
   },
   {
@@ -80,7 +80,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-data-export-4.1.0-SNAPSHOT.238",
+    "id": "mod-data-export-4.1.0-SNAPSHOT.239",
     "action": "enable"
   },
   {

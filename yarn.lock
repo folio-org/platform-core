@@ -1206,9 +1206,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "7.0.10001249"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-7.0.10001249.tgz#3c31b9ada4e9992d3b49a0e068c089fb81f7cc3a"
-  integrity sha512-SDwBy6G79Lz/tBvuTC+3gpmWFaGpdng6Fkl5+2099VFnx2JKipszRTZ6MnEJWeXvQvf8W9ZEmH44x5U6iEyMww==
+  version "7.0.10001250"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-7.0.10001250.tgz#09ef09b0c33a75e9f7186dea78b06e6847fb08ef"
+  integrity sha512-fVdq6ksDS0UquLx3Rpwp0203BRWxij9PBXCXA3QrTHwYhbFmIvU6ZBPXM4mKFjsSpJHpKfvQSkI2gD/CeBpgMg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1244,9 +1244,9 @@
     redux-form "^8.3.7"
 
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^2.0.0":
-  version "2.1.100063"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.1.100063.tgz#5dddf001e0c276ea126a224462a23e0fa33ff48f"
-  integrity sha512-jqzqSo+73E4L6K6QQy755cWopyAbfALpI/OoN2J7qhL+Ye7Stcwd2LqyT01lfuQWjA9pNDQwDzBPKiVbUBN8Lg==
+  version "2.1.100064"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.1.100064.tgz#4a25c6d0a3615a1f0b35deed61acf7771cd2e8ac"
+  integrity sha512-5BkkcATYm1QionxskiyFbLDXUevC7GhCyPI3RprPP4ySRbPg2CNOnNgUrTGh75Fr1N2rYXt1OBu9V8X9kyFQCw==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
