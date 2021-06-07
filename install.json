@@ -56,7 +56,7 @@
   "id" : "mod-notes-2.11.1-SNAPSHOT.175",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-22.0.0-SNAPSHOT.855",
+  "id" : "mod-circulation-22.0.0-SNAPSHOT.856",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-5.0.1000377",
@@ -77,7 +77,7 @@
   "id" : "mod-data-export-4.1.0-SNAPSHOT.239",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-7.0.10001250",
+  "id" : "folio_inventory-7.0.10001251",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-5.0.1000124",
