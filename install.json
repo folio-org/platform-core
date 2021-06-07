@@ -23,7 +23,7 @@
   "id" : "mod-circulation-storage-12.3.0-SNAPSHOT.283",
   "action" : "enable"
 }, {
-  "id" : "mod-event-config-2.0.0",
+  "id" : "mod-event-config-2.1.0-SNAPSHOT.48",
   "action" : "enable"
 }, {
   "id" : "mod-configuration-5.8.0-SNAPSHOT.94",
@@ -98,7 +98,7 @@
   "id" : "mod-codex-mux-2.10.1-SNAPSHOT.103",
   "action" : "enable"
 }, {
-  "id" : "folio_search-4.0.1000222",
+  "id" : "folio_search-4.1.1000223",
   "action" : "enable"
 }, {
   "id" : "folio_servicepoints-5.0.100091",
