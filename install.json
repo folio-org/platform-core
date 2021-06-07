@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-20.3.0-SNAPSHOT.578",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-6.0.1000112",
+  "id" : "folio_calendar-6.0.1000114",
   "action" : "enable"
 }, {
   "id" : "mod-users-18.0.0-SNAPSHOT.161",
@@ -62,13 +62,13 @@
   "id" : "folio_checkin-5.0.1000377",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-6.0.1000540",
+  "id" : "folio_checkout-6.0.1000541",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-5.0.1000682",
+  "id" : "folio_circulation-5.0.1000683",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-5.0.1000215",
+  "id" : "folio_developer-5.0.1000216",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.8.1-SNAPSHOT.59",
@@ -77,7 +77,7 @@
   "id" : "mod-data-export-4.1.0-SNAPSHOT.239",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-7.0.10001251",
+  "id" : "folio_inventory-7.0.10001252",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-5.0.1000124",
@@ -92,7 +92,7 @@
   "id" : "folio_plugin-find-user-5.0.1000146",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-5.0.1000655",
+  "id" : "folio_requests-5.0.1000656",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.10.1-SNAPSHOT.103",
@@ -113,10 +113,10 @@
   "id" : "mod-users-bl-7.0.0-SNAPSHOT.103",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-7.2.1000898",
+  "id" : "folio_stripes-core-7.2.1000899",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.1.1000973",
+  "id" : "folio_stripes-smart-components-6.1.1000974",
   "action" : "enable"
 }, {
   "id" : "folio_tags-5.0.100089",
@@ -128,7 +128,7 @@
   "id" : "folio_tenant-settings-6.0.1000218",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.10001485",
+  "id" : "folio_users-6.0.10001486",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.0.0-SNAPSHOT.87",
