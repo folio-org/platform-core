@@ -1706,9 +1706,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001483"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001483.tgz#a584ba5b72d679b7b6cb25c31109e6f40e92ff1b"
-  integrity sha512-07opVBQSX++QwV12eRgRjNGOQDZSox828H5qygRs3iSKeyNT4EebGqvvdmsh0CECb6CRFxbll/HozBUN0nLIIQ==
+  version "6.0.10001485"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001485.tgz#813bbe6f0de958f14b97aa59ec722d35c3b23771"
+  integrity sha512-OXMYyt9202s8tIFAFs5ivSbcr7T+uGr317PSIb388h+RqpNIdBJwZ9r4lGiSPVjN9+SnNkpSam6kLkslK5mLcA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
@@ -9425,9 +9425,9 @@ node-object-hash@^1.2.0:
   integrity sha512-UdS4swXs85fCGWWf6t6DMGgpN/vnlKeSGEQ7hJcrs7PBFoxoKLmibc3QRb7fwiYsjdL7PX8iI/TMSlZ90dgHhQ==
 
 node-releases@^1.1.71:
-  version "1.1.72"
-  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.72.tgz#14802ab6b1039a79a0c7d662b610a5bbd76eacbe"
-  integrity sha512-LLUo+PpH3dU6XizX3iVoubUNheF/owjXCZZ5yACDxNnPtgFuludV1ZL3ayK1kVep42Rmm0+R9/Y60NQbZ2bifw==
+  version "1.1.73"
+  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.73.tgz#dd4e81ddd5277ff846b80b52bb40c49edf7a7b20"
+  integrity sha512-uW7fodD6pyW2FZNZnp/Z3hvWKeEW1Y8R1+1CnErE8cXFXzl5blBOoVB41CvMer6P6Q0S5FXDwcHgFd1Wj0U9zg==
 
 noop-logger@^0.1.1:
   version "0.1.1"
