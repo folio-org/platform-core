@@ -1364,12 +1364,12 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-cli@^2.0.0":
-  version "2.2.1000250"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-2.2.1000250.tgz#a6084360995c050f4dacc049b02ecee0725881d2"
-  integrity sha512-rolx4hD4wjXnFfbf+I1FdcmkiUDRSNpiXTed9ubRGJNYPI7WT+Ad/tIU1j9MKwLqM5bzjs9Kg2h2089SBaIHRw==
+  version "2.3.1000252"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-2.3.1000252.tgz#c64c2363da8a9abe576427a8da8d143c0571ea63"
+  integrity sha512-42vtLP0/NSJ1Rayf3DJDCSrzY8OaANWawgu5VYReXm1mL/yj9Zrre6DKqEU9ifkgKZCdCOZ+GY8zI6U7epmlOA==
   dependencies:
     "@folio/stripes-testing" "^3.0.0"
-    "@folio/stripes-webpack" "^1.2.0"
+    "@folio/stripes-webpack" "^1.3.0"
     "@octokit/rest" "^17.1.4"
     babel-plugin-istanbul "^6.0.0"
     configstore "^3.1.1"
@@ -1449,9 +1449,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~6.2.0":
-  version "6.2.1000148"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-6.2.1000148.tgz#0fb3b2962a6fdffa6ddaa62fbc0881dd2acc0337"
-  integrity sha512-ih6xKcZZktwM1JH6eVsyaFkGlM0ICJBErurvPtbwBRmuSWNPmL4KTZzNGglkXF37Vt5wZ/P1EctOe+tgtIFPKw==
+  version "6.2.1000149"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-6.2.1000149.tgz#5cb390ccdd7c6a64d8f2fcd12642597b853bfd61"
+  integrity sha512-qP0ATLPiphF4CicByB4l9J57QWhHa+pJTRZUP2TipitXuIQfvgUsSy3SbZ0mgrzdrTaj7sj1vQczPHuYNDdsLw==
   dependencies:
     lodash "^4.17.11"
     prop-types "^15.5.10"
@@ -1597,7 +1597,7 @@
     lodash "^4.17.4"
     query-string "^5.0.0"
 
-"@folio/stripes-webpack@^1.2.0":
+"@folio/stripes-webpack@^1.3.0":
   version "1.3.100020"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-1.3.100020.tgz#364770119ccdfa4b0a41af5a9d977c5303340b58"
   integrity sha512-5Ae8/CdSXYYK0+uHVdMyw60TKRKyPXDNxBYfKSZg9Ns7lYGTEDnc6UrRcJKcdFzDjGIpEJuQFFM2nta/vgFEvg==
