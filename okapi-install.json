@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-20.3.0-SNAPSHOT.578",
+    "id": "mod-inventory-storage-21.0.0-SNAPSHOT.579",
     "action": "enable"
   },
   {
@@ -56,7 +56,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-16.4.0-SNAPSHOT.380",
+    "id": "mod-inventory-16.4.0-SNAPSHOT.381",
     "action": "enable"
   },
   {
@@ -84,7 +84,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-codex-mux-2.10.1-SNAPSHOT.103",
+    "id": "mod-codex-mux-2.11.0",
     "action": "enable"
   },
   {
