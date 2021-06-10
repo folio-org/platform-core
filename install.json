@@ -71,7 +71,7 @@
   "id" : "folio_developer-5.0.1000217",
   "action" : "enable"
 }, {
-  "id" : "mod-tags-0.9.0",
+  "id" : "mod-tags-0.10.0-SNAPSHOT.60",
   "action" : "enable"
 }, {
   "id" : "mod-data-export-4.1.0-SNAPSHOT.239",
