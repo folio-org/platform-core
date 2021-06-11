@@ -23,7 +23,7 @@
   "id" : "mod-circulation-storage-13.0.0-SNAPSHOT.285",
   "action" : "enable"
 }, {
-  "id" : "mod-event-config-2.1.0-SNAPSHOT.48",
+  "id" : "mod-event-config-2.2.0-SNAPSHOT.49",
   "action" : "enable"
 }, {
   "id" : "mod-configuration-5.8.0-SNAPSHOT.94",
@@ -35,7 +35,7 @@
   "id" : "mod-email-1.11.0-SNAPSHOT.54",
   "action" : "enable"
 }, {
-  "id" : "mod-sender-1.6.0-SNAPSHOT.29",
+  "id" : "mod-sender-1.7.0-SNAPSHOT.30",
   "action" : "enable"
 }, {
   "id" : "mod-notify-2.9.0-SNAPSHOT.105",
@@ -125,7 +125,7 @@
   "id" : "mod-login-saml-2.2.1-SNAPSHOT.70",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-6.0.1000218",
+  "id" : "folio_tenant-settings-6.0.1000219",
   "action" : "enable"
 }, {
   "id" : "folio_users-6.0.10001490",
