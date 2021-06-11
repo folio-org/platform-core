@@ -41,10 +41,10 @@
   "id" : "mod-notify-2.10.0-SNAPSHOT.106",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.1.0",
+  "id" : "mod-source-record-storage-5.2.0-SNAPSHOT.308",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-17.0.0-SNAPSHOT.384",
+  "id" : "mod-inventory-17.0.0-SNAPSHOT.385",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-16.1.0-SNAPSHOT.148",
