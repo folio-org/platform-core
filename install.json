@@ -2,13 +2,13 @@
   "id" : "mod-calendar-1.13.0-SNAPSHOT.121",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-21.1.0-SNAPSHOT.581",
+  "id" : "mod-inventory-storage-21.1.0-SNAPSHOT.582",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-6.0.1000115",
+  "id" : "folio_calendar-6.1.1000116",
   "action" : "enable"
 }, {
-  "id" : "mod-users-18.0.0-SNAPSHOT.161",
+  "id" : "mod-users-18.0.0-SNAPSHOT.163",
   "action" : "enable"
 }, {
   "id" : "mod-login-7.5.0-SNAPSHOT.98",
@@ -17,10 +17,10 @@
   "id" : "mod-permissions-5.15.0-SNAPSHOT.116",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.4.0-SNAPSHOT.162",
+  "id" : "mod-pubsub-2.4.0-SNAPSHOT.163",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-13.1.0-SNAPSHOT.286",
+  "id" : "mod-circulation-storage-13.1.0-SNAPSHOT.287",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.2.0-SNAPSHOT.49",
@@ -41,10 +41,10 @@
   "id" : "mod-notify-2.10.0-SNAPSHOT.106",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.2.0-SNAPSHOT.309",
+  "id" : "mod-source-record-storage-5.2.0-SNAPSHOT.311",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-17.0.0-SNAPSHOT.386",
+  "id" : "mod-inventory-17.1.0-SNAPSHOT.388",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-16.2.0-SNAPSHOT.152",
@@ -59,7 +59,7 @@
   "id" : "mod-circulation-22.1.0-SNAPSHOT.858",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-5.0.1000380",
+  "id" : "folio_checkin-5.0.1000381",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-6.0.1000542",
@@ -74,7 +74,7 @@
   "id" : "mod-tags-0.10.0-SNAPSHOT.60",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-4.1.0-SNAPSHOT.240",
+  "id" : "mod-data-export-4.1.0",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-7.0.10001255",
@@ -86,7 +86,7 @@
   "id" : "folio_plugin-create-inventory-records-2.1.100066",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-5.0.100081",
+  "id" : "folio_plugin-find-instance-5.1.100082",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-5.0.1000146",
@@ -110,7 +110,7 @@
   "id" : "mod-authtoken-2.9.0-SNAPSHOT.91",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-7.0.0-SNAPSHOT.103",
+  "id" : "mod-users-bl-7.1.0-SNAPSHOT.104",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-core-7.2.1000903",
