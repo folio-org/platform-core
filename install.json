@@ -17,7 +17,7 @@
   "id" : "mod-permissions-5.15.0-SNAPSHOT.116",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.4.0-SNAPSHOT.163",
+  "id" : "mod-pubsub-2.4.0-SNAPSHOT.164",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-13.1.0-SNAPSHOT.287",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-5.0.1000217",
   "action" : "enable"
 }, {
-  "id" : "mod-tags-0.10.0-SNAPSHOT.60",
+  "id" : "mod-tags-0.10.0-SNAPSHOT.62",
   "action" : "enable"
 }, {
   "id" : "mod-data-export-4.1.0",
