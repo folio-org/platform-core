@@ -12572,9 +12572,9 @@ tough-cookie@~2.5.0:
     punycode "^2.1.1"
 
 ts-invariant@^0.7.0:
-  version "0.7.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/ts-invariant/-/ts-invariant-0.7.3.tgz#13aae22a4a165393aaf5cecdee45ef4128d358b8"
-  integrity sha512-UWDDeovyUTIMWj+45g5nhnl+8oo+GhxL5leTaHn5c8FkQWfh8v66gccLd2/YzVmV5hoQUjCEjhrXnQqVDJdvKA==
+  version "0.7.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ts-invariant/-/ts-invariant-0.7.5.tgz#f9658719f9a7737b117d09820d952aacf6263f9c"
+  integrity sha512-qfVyqTYWEqADMtncLqwpUdMjMSXnsqOeqGtj1LeJNFDjz8oqZ1YxLEp29YCOq65z0LgEiERqQ8ThVjnfibJNpg==
   dependencies:
     tslib "^2.1.0"
 
