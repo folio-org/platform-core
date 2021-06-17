@@ -1178,9 +1178,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "5.0.1000217"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-5.0.1000217.tgz#6be553be9793ff1a6b2e54f638429acd883b1519"
-  integrity sha512-7ohlN+/KqUzCaeSI1NpiW4qoysj9OnFjNX9N+xnLAwbB4VCQTD8sUKBy5YFkHFzObq89TuI930xHDBRBXTV6yg==
+  version "5.1.1000218"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-5.1.1000218.tgz#d3596d91480a026c1e3346e1f4705be1bff5d2a1"
+  integrity sha512-7/DQtKDZNnXiXO3tY0o0oCTVKMMYKxkfrc/33G8TqPUXoGmH6naYkL61bo/N9utoLFcoftvqiNPcTEOuCBBLgA==
   dependencies:
     chart.js "^2.9.4"
     lodash "^4.17.4"
@@ -12671,9 +12671,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 typescript@^4.2.4:
-  version "4.3.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/typescript/-/typescript-4.3.3.tgz#5401db69bd3203daf1851a1a74d199cb3112c11a"
-  integrity sha512-rUvLW0WtF7PF2b9yenwWUi9Da9euvDRhmH7BLyBG4DCFfOJ850LGNknmRpp8Z8kXNUPObdZQEfKOiHtXuQHHKA==
+  version "4.3.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/typescript/-/typescript-4.3.4.tgz#3f85b986945bcf31071decdd96cf8bfa65f9dcbc"
+  integrity sha512-uauPG7XZn9F/mo+7MrsRjyvbxFpzemRjKEZXS4AK83oP2KKOJPvb+9cO/gmnv8arWZvhnjVOXz7B49m1l0e9Ew==
 
 ua-parser-js@^0.7.18, ua-parser-js@^0.7.28:
   version "0.7.28"
