@@ -1125,9 +1125,9 @@
     style-loader "^0.21.0"
 
 "@folio/checkin@>=1.3.0":
-  version "5.0.1000381"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-5.0.1000381.tgz#2eb24f3b43a4a474ffca83468ef4a69733440f2e"
-  integrity sha512-D+OXiW6fRQPB0JLg8UyZ150xjzziw3FTJB22mCj63vHMM1mZTf29+ahzyw7qHQOnpBNNXGM1aXCQ6MJcK9oOeA==
+  version "5.1.1000382"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-5.1.1000382.tgz#614e9422ccd84f8fc676a6e970465606a107fe97"
+  integrity sha512-sQ1tNjCWpcDoFAbZvMYrpIF1UKtpkRK2+pp7LivG4K9V4UJLrONzxNVoRVO+LcG2TXUEPfB1nFsfeVnc7kO8/w==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
@@ -10817,9 +10817,9 @@ react-overlays@^3.2.0:
     warning "^4.0.3"
 
 react-query@^3.13.0, react-query@^3.6.0, react-query@^3.9.8:
-  version "3.17.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.17.1.tgz#01c46bd0c5fa88f8e9ae6c8fc0d0adb4d47d9d0d"
-  integrity sha512-Wux1Dcoh0InYB2dNI1yGCP86Yy5bCGggJWYy91OhJG71QSsl9SRXSGFpT2b75beoe7SDNGZJDQMxbvIQ93o0Ag==
+  version "3.17.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.17.2.tgz#3ed5b0460a5a05332fbb175c36da55fb2d3ff929"
+  integrity sha512-icMtYL/+jUv0Q3n8GRz6CTyMYKh+l5EBKwhkr8qhbtYRORr43YGiN6EJSyw9WFaSQ9bwD1G9ZhaFxow9NMV0Sw==
   dependencies:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
