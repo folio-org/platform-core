@@ -1206,9 +1206,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "7.0.10001256"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-7.0.10001256.tgz#e5e5b6e21db2fb5be5d7f5a4742eaadd93f2df6a"
-  integrity sha512-kLMv0LlcC+d2PcZsDS+a/m2slLPqH+sNJ5E8DMQ9+YC7KUidkW7T1JnEj2s50/vEDwGL5H+n0EXo4FDs50neVQ==
+  version "7.0.10001257"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-7.0.10001257.tgz#16c9971b5b37e8be02c49b060f3b44150935bae1"
+  integrity sha512-qUSl0hvkdFJGKccfYULlu71TESj7RGbeI6bCkffsiWSDOtaD4BBtUi73S89QSxe9T4FVHBYCSEa3/bV/9j5P6A==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1345,9 +1345,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^2.1.0":
-  version "2.4.1000490"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.4.1000490.tgz#65dedac375a5237fa5192ea2684736357e0ba49c"
-  integrity sha512-LlU+xFconG4f1uUk2W7u8f0NXwzCCCJaWmikrSGnz5liBzkWkRCSNYsZihbBnJbAjodZ8azp20NU68pxYMymRw==
+  version "2.4.1000491"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.4.1000491.tgz#6f018008a5e27aebf8fd6f133df83d410e1dee10"
+  integrity sha512-SwVKYj65zmOJSmehkLA/Zla6FfV76nfc/bOnI0XNoLkvxc5y7mggHTHtshO95b+dhr/6dYPkT1di5/ADgz4kww==
   dependencies:
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
