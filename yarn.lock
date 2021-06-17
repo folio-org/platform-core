@@ -1279,9 +1279,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^3.0.0":
-  version "3.0.2000165"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.0.2000165.tgz#df8c47fb32829bf010853fcc02fb70199acf85df"
-  integrity sha512-asDRZtfQ+ak7EF9RdAJOlfm+v+u/1o91cz+itqPYTfLEH/eDlQTnlpNMA+Qk8kQpGjBhLMH+5z0jV/DNJiuP5g==
+  version "3.1.1000167"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.1.1000167.tgz#eefa31836816cf91628fc257c6d306e58647a627"
+  integrity sha512-bJ8UJ0Vu1h3R2jbulEQgKSGPyjGHRgpamGXAxNgW4HDK+IgNlRZ1UhqC/bLUgCuUA7/grsDHealrkdIA0vMTMw==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
