@@ -4,11 +4,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkin-5.1.1000382",
+    "id": "folio_checkin-5.1.1000383",
     "action": "enable"
   },
   {
-    "id": "folio_checkout-6.0.1000543",
+    "id": "folio_checkout-6.0.1000544",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-5.0.1000658",
+    "id": "folio_requests-5.1.1000660",
     "action": "enable"
   },
   {
@@ -52,11 +52,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-7.2.1000903",
+    "id": "folio_stripes-core-7.2.1000904",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-6.1.1000981",
+    "id": "folio_stripes-smart-components-6.1.1000982",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-6.0.10001492",
+    "id": "folio_users-6.0.10001493",
     "action": "enable"
   }
 ]
