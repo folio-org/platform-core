@@ -1,14 +1,10 @@
 [ 
   {
-    "id": "mod-codex-inventory-1.8.0",
+    "id": "mod-codex-inventory-2.0.0",
     "action": "enable"
   },
   {
-    "id": "mod-event-config-1.7.0",
-    "action": "enable"
-  },
-  {
-    "id": "okapi-4.7.3",
+    "id": "okapi-4.8.2",
     "action": "enable"
   }
 ]
