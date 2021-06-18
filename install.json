@@ -62,7 +62,7 @@
   "id" : "folio_checkin-5.1.1000383",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-6.0.1000544",
+  "id" : "folio_checkout-6.1.1000545",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-5.0.1000686",
@@ -77,7 +77,7 @@
   "id" : "mod-data-export-4.1.0",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-7.0.10001257",
+  "id" : "folio_inventory-7.1.10001258",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-5.0.1000124",
@@ -101,7 +101,7 @@
   "id" : "folio_search-4.1.1000223",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-5.0.100091",
+  "id" : "folio_servicepoints-5.0.100092",
   "action" : "enable"
 }, {
   "id" : "mod-password-validator-2.2.0-SNAPSHOT.44",

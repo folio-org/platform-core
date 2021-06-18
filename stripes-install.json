@@ -8,7 +8,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkout-6.0.1000544",
+    "id": "folio_checkout-6.1.1000545",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-7.0.10001257",
+    "id": "folio_inventory-7.1.10001258",
     "action": "enable"
   },
   {
@@ -48,7 +48,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_servicepoints-5.0.100091",
+    "id": "folio_servicepoints-5.0.100092",
     "action": "enable"
   },
   {
