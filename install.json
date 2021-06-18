@@ -17,13 +17,13 @@
   "id" : "mod-permissions-5.14.0",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.3.0",
+  "id" : "mod-pubsub-2.3.1",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-13.0.0",
   "action" : "enable"
 }, {
-  "id" : "mod-event-config-1.7.0",
+  "id" : "mod-event-config-2.1.0",
   "action" : "enable"
 }, {
   "id" : "mod-configuration-5.7.0",
@@ -41,10 +41,10 @@
   "id" : "mod-notify-2.9.0",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.0.4",
+  "id" : "mod-source-record-storage-5.1.0",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-16.3.2",
+  "id" : "mod-inventory-17.0.0",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-16.1.0",
@@ -56,43 +56,43 @@
   "id" : "mod-notes-2.12.0",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-20.1.7",
+  "id" : "mod-circulation-22.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-5.0.4",
+  "id" : "folio_checkin-5.1.0",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-6.0.0",
+  "id" : "folio_checkout-6.1.0",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-5.1.0",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-5.0.1",
+  "id" : "folio_developer-5.1.0",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.9.0",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-4.0.1",
+  "id" : "mod-data-export-4.1.0",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-7.0.3",
+  "id" : "folio_inventory-7.1.0",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-5.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-2.0.0",
+  "id" : "folio_plugin-create-inventory-records-2.1.0",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-5.1.0",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-5.0.0",
+  "id" : "folio_plugin-find-user-5.0.1",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-5.0.3",
+  "id" : "folio_requests-5.1.0",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.11.0",
@@ -101,7 +101,7 @@
   "id" : "folio_search-4.1.0",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-5.0.0",
+  "id" : "folio_servicepoints-5.0.1",
   "action" : "enable"
 }, {
   "id" : "mod-password-validator-2.1.0",
@@ -119,7 +119,7 @@
   "id" : "folio_stripes-smart-components-6.1.0",
   "action" : "enable"
 }, {
-  "id" : "folio_tags-5.0.0",
+  "id" : "folio_tags-5.0.1",
   "action" : "enable"
 }, {
   "id" : "mod-login-saml-2.2.0",
@@ -128,12 +128,12 @@
   "id" : "folio_tenant-settings-6.1.0",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.0.5",
+  "id" : "folio_users-6.1.0",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-inventory-1.8.0",
+  "id" : "mod-codex-inventory-2.0.0",
   "action" : "enable"
 }, {
-  "id" : "okapi-4.7.3",
+  "id" : "okapi-4.8.2",
   "action" : "enable"
 } ]
