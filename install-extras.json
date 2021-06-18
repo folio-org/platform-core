@@ -32,7 +32,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-pubsub-2.0.7",
+    "id": "mod-pubsub-2.0.8",
     "action": "enable"
   },
   {
@@ -64,11 +64,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-5.0.4",
+    "id": "mod-source-record-storage-5.0.5",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-16.3.2",
+    "id": "mod-inventory-16.3.3",
     "action": "enable"
   },
   {
@@ -112,7 +112,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-login-saml-2.1.1",
+    "id": "mod-login-saml-2.1.2",
     "action": "enable"
   },
   {
