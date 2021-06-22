@@ -1,6 +1,6 @@
 {
   "name": "@folio/platform-core",
-  "version": "4.7.0",
+  "version": "4.8.0",
   "license": "Apache-2.0",
   "repository": "folio-org/platform-core",
   "publishConfig": {
@@ -55,9 +55,10 @@
   },
   "resolutions": {
     "final-form": "4.20.1",
-    "react-hot-loader": "4.8.8",
     "@folio/react-intl-safe-html": "3.0.0",
     "@folio/stripes-cli": "^2.1.0",
+    "@rehooks/local-storage": "2.4.0",
+    "redux-form": "^8.0.0",
     "rxjs": "^5.4.3",
     "minimist": "^1.2.3",
     "moment": "2.29.1"
