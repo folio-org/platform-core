@@ -32,7 +32,7 @@
   "id" : "mod-template-engine-1.15.0-SNAPSHOT.71",
   "action" : "enable"
 }, {
-  "id" : "mod-email-1.12.0-SNAPSHOT.55",
+  "id" : "mod-email-1.12.0-SNAPSHOT.56",
   "action" : "enable"
 }, {
   "id" : "mod-sender-1.7.0-SNAPSHOT.30",
@@ -116,7 +116,7 @@
   "id" : "folio_stripes-core-7.2.1000904",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.1.1000984",
+  "id" : "folio_stripes-smart-components-6.1.1000985",
   "action" : "enable"
 }, {
   "id" : "folio_tags-5.0.100090",
