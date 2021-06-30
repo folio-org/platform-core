@@ -4,11 +4,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkin-5.0.4",
+    "id": "folio_checkin-5.0.5",
     "action": "enable"
   },
   {
-    "id": "folio_checkout-6.0.0",
+    "id": "folio_checkout-6.0.1",
     "action": "enable"
   },
   {
@@ -36,7 +36,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-user-5.0.0",
+    "id": "folio_plugin-find-user-5.0.1",
     "action": "enable"
   },
   {
@@ -48,7 +48,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_servicepoints-5.0.0",
+    "id": "folio_servicepoints-5.0.1",
     "action": "enable"
   },
   {
@@ -60,7 +60,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_tags-5.0.0",
+    "id": "folio_tags-5.0.1",
     "action": "enable"
   },
   {
