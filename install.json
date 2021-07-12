@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.13.0-SNAPSHOT.121",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-21.1.0-SNAPSHOT.584",
+  "id" : "mod-inventory-storage-21.1.0-SNAPSHOT.585",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-6.1.1000118",
@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-5.2.0-SNAPSHOT.325",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-17.1.0-SNAPSHOT.397",
+  "id" : "mod-inventory-17.1.0-SNAPSHOT.398",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-16.2.0-SNAPSHOT.152",
@@ -92,7 +92,7 @@
   "id" : "folio_plugin-find-user-5.0.1000148",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-5.1.1000662",
+  "id" : "folio_requests-5.1.1000663",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.104",
