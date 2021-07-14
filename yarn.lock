@@ -1179,9 +1179,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "5.1.1000219"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-5.1.1000219.tgz#2908d7194f146455b3a5939be2097d5290db206a"
-  integrity sha512-A9LBkx13fKvwDHJ1zM4uAUs0agu0vwKBol5om55v1oYkeEuT1kG+PmacMFlt0RqWnfTN2Iq/trp/un0L/RCAiQ==
+  version "5.1.1000220"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-5.1.1000220.tgz#c639ec50b8484ee6cf638261e869eb3b5b8830ae"
+  integrity sha512-R+wUOkidaS4wFJXdorlMqkEbS1VXAkets9cgf7JtAtxokBONetZpReEDbnosjnbwjg+sz2luMI+znl38BV3MDw==
   dependencies:
     chart.js "^2.9.4"
     lodash "^4.17.4"
