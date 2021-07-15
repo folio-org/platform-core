@@ -47,7 +47,7 @@
   "id" : "mod-inventory-17.1.0-SNAPSHOT.400",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-16.2.0-SNAPSHOT.152",
+  "id" : "mod-feesfines-16.2.0-SNAPSHOT.153",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.4.0-SNAPSHOT.54",
@@ -128,7 +128,7 @@
   "id" : "folio_tenant-settings-6.1.1000223",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.1.10001511",
+  "id" : "folio_users-6.1.10001512",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.1.0-SNAPSHOT.88",
