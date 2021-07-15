@@ -59,7 +59,7 @@
   "id" : "mod-circulation-22.1.0-SNAPSHOT.862",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-5.1.1000387",
+  "id" : "folio_checkin-5.1.1000388",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-6.1.1000554",
@@ -74,7 +74,7 @@
   "id" : "mod-tags-0.10.0-SNAPSHOT.62",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-4.1.1-SNAPSHOT.243",
+  "id" : "mod-data-export-4.1.1-SNAPSHOT.244",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-7.1.20001266",
