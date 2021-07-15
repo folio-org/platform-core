@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-21.0.0",
+    "id": "mod-inventory-storage-21.0.1",
     "action": "enable"
   },
   {
@@ -52,11 +52,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-5.1.0",
+    "id": "mod-source-record-storage-5.1.2",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-17.0.0",
+    "id": "mod-inventory-17.0.1",
     "action": "enable"
   },
   {
@@ -100,7 +100,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-login-saml-2.2.0",
+    "id": "mod-login-saml-2.2.1",
     "action": "enable"
   },
   {
