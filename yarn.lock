@@ -1142,10 +1142,10 @@
     react-hot-loader "^4.3.12"
     react-to-print "^2.3.2"
 
-"@folio/checkout@6.1.0":
-  version "6.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/checkout/-/checkout-6.1.0.tgz#b46ebc0328357c59264b0992c89815dacaddc786"
-  integrity sha512-ez0T2pW9pn+pwF7cScQkDfR0D43iywko6KTaJlxUzsaMdBVKjiM+JCAaG2+YW/dGbrYcne0UGg5ztwSJE9N1Rg==
+"@folio/checkout@6.1.1":
+  version "6.1.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/checkout/-/checkout-6.1.1.tgz#d516a15409cf14d3659fa55b6c804ed75aa00cc0"
+  integrity sha512-vQFJ/l5AGZ+LUY5o9KdGh8uUIIsLXRyzHm6P4gUHiZ5MvDXXENj305MTQFc3BjibXnZwapoQ1WT4JtPATQ5ddw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form "^4.19.1"
