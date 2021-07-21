@@ -1692,9 +1692,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "6.1.1000223"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-6.1.1000223.tgz#608d0750cd8389b8b8c65ae4bfad746486007da3"
-  integrity sha512-7ygPNbVwpPoqVnu9D8xXbYiNcHmRyl/ydjrFwkldZWNnH08N2rRWEkjGmNl1FQxhIRN9p+gLcewhKv282/ldZg==
+  version "6.1.1000224"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-6.1.1000224.tgz#a188bb24b6b0fa34e9e8e841b7d85e4c3727e81f"
+  integrity sha512-d4qToHfwY0myttvetsJlLaUvuw7tNEXLk8qJZeQfpd2GVbQWDpcdZ3khRlMU78nNDlHva1tbzFW+jxUJDNN2WA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
@@ -2249,12 +2249,12 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/plugin-request-log/-/plugin-request-log-1.0.4.tgz#5e50ed7083a613816b1e4a28aeec5fb7f1462e85"
   integrity sha512-mLUsMkgP7K/cnFEw07kWqXGF5LKrOkD+lhCrKvPHXWDywAwuDUeDwWBpc69XK3pNX0uKiVt8g5z96PJ6z9xCFA==
 
-"@octokit/plugin-rest-endpoint-methods@5.4.2":
-  version "5.4.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/plugin-rest-endpoint-methods/-/plugin-rest-endpoint-methods-5.4.2.tgz#d090e93ee68ec09985e1ff0a1d2d28581cc883a5"
-  integrity sha512-imNDDvUMy9YzECcP6zTcKNjwutSwqCYGMZjLPnBHF0kdb3V9URrHWmalD0ZvNEYjwbpm2zw8RPewj3ebCpMBRw==
+"@octokit/plugin-rest-endpoint-methods@5.5.0":
+  version "5.5.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/plugin-rest-endpoint-methods/-/plugin-rest-endpoint-methods-5.5.0.tgz#28f94a089029dffb8589447366eca5c441bb8d34"
+  integrity sha512-v4dNoHF8cXNx7C67yQx7oarHs5Wg2IiafWvp/ULkNcCOuXgQdBOkJtwidpYqPiRPUw4uHDkI6Tgfje+nXB+Deg==
   dependencies:
-    "@octokit/types" "^6.19.1"
+    "@octokit/types" "^6.21.0"
     deprecation "^2.3.1"
 
 "@octokit/request-error@^2.0.5", "@octokit/request-error@^2.1.0":
@@ -2279,16 +2279,16 @@
     universal-user-agent "^6.0.0"
 
 "@octokit/rest@^18.6.0":
-  version "18.6.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/rest/-/rest-18.6.8.tgz#f73ef3b59686df18206183551c2a835d1db1424f"
-  integrity sha512-n2aT0mJL9N/idCPmnBynCino1qNScfRHvr8OeskQdBNhUYAMc7cxoc8KLlv1DMWxlZUNhed+5kVdu7majVdVag==
+  version "18.7.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/rest/-/rest-18.7.0.tgz#3a0f6498a9495f3ecede582ab15efe38b298fac8"
+  integrity sha512-8K8BJFyPFRSfnwu+aSbdjU5w3EtxC33PkDlEi5tyVTYC+t4n7gaqygRg5ajJLCpb/ZzVaXXFJXC9OxQ9TvFRAw==
   dependencies:
     "@octokit/core" "^3.5.0"
     "@octokit/plugin-paginate-rest" "^2.6.2"
     "@octokit/plugin-request-log" "^1.0.2"
-    "@octokit/plugin-rest-endpoint-methods" "5.4.2"
+    "@octokit/plugin-rest-endpoint-methods" "5.5.0"
 
-"@octokit/types@^6.0.3", "@octokit/types@^6.16.1", "@octokit/types@^6.18.0", "@octokit/types@^6.19.1":
+"@octokit/types@^6.0.3", "@octokit/types@^6.16.1", "@octokit/types@^6.18.0", "@octokit/types@^6.21.0":
   version "6.21.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/types/-/types-6.21.0.tgz#723d0296d35296d6ec91247e770f24e6cd51d4ee"
   integrity sha512-VPSxn9uhCoOUMpxCsOAQhf8DgIx+uzFjZRYDiZS5+TvrKaEwBrWkjr/5NmUVvPbW6xdPC2n3yL3XCnoxa4rxvg==
