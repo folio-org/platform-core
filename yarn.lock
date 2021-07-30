@@ -10265,9 +10265,9 @@ pretender@^2.0.0:
     route-recognizer "^0.3.3"
 
 pretender@^3.4.3:
-  version "3.4.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/pretender/-/pretender-3.4.5.tgz#3e6a06c886e5c00c41f614a924df6241bac1754a"
-  integrity sha512-MV8oR4700shk2qGuHi1A/YBVYTSLtzrppZEvyvnvVgxMShoKZUHNOYGANBu0LgcPtjSJ5RBbvcn9PDknoU7xlA==
+  version "3.4.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/pretender/-/pretender-3.4.6.tgz#3c7b32731c3de4179515dcde420e862779089fc1"
+  integrity sha512-osOg7ydwQfN/Os5pY9Pl3JpX9cdlS29WD4rCHMFvNY06XIZok3kBh98eNEZe/U2QRgTfyOxSBbQZ6uodMMIztg==
   dependencies:
     fake-xml-http-request "^2.1.2"
     route-recognizer "^0.3.3"
