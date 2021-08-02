@@ -74,7 +74,7 @@
   "id" : "mod-tags-0.10.0-SNAPSHOT.62",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-4.1.1-SNAPSHOT.245",
+  "id" : "mod-data-export-4.1.1-SNAPSHOT.246",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-7.1.20001276",
@@ -128,7 +128,7 @@
   "id" : "folio_tenant-settings-6.1.1000225",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.1.10001526",
+  "id" : "folio_users-6.1.10001527",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.1.0-SNAPSHOT.88",
