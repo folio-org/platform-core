@@ -1705,9 +1705,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.1.10001529"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.1.10001529.tgz#93dccfab64d1cca6a064d37dfebf17c35c0ebed8"
-  integrity sha512-Ms6lSk9O6jY0Dq8PPhZ+DdpHA+wQJTo5dqSUHh0FU0/8l507CRIs0s/RUpgp1svvdtnqKnAtWD8e+K+jId5FzA==
+  version "6.1.10001530"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.1.10001530.tgz#e47747256cf784284dcd2267a7fc9604304b59cc"
+  integrity sha512-FkarHcgjc5L1SCsRfakORMVwMHpdIETdFj9posMy4Di70jWb3cx5+Uithk4rT1/9LgPaXkz6VThcTJBQECu2KA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
@@ -2458,9 +2458,9 @@
     "@types/istanbul-lib-report" "*"
 
 "@types/json-schema@^7.0.5":
-  version "7.0.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/json-schema/-/json-schema-7.0.8.tgz#edf1bf1dbf4e04413ca8e5b17b3b7d7d54b59818"
-  integrity sha512-YSBPTLTVm2e2OoQIDYx8HaeWJ5tTToLH67kXR7zYNGupXMEHa2++G8k+DczX2cFVgalypqtyZIcU19AFcmOpmg==
+  version "7.0.9"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/json-schema/-/json-schema-7.0.9.tgz#97edc9037ea0c38585320b28964dde3b39e4660d"
+  integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
 
 "@types/minimatch@*":
   version "3.0.5"
@@ -11128,9 +11128,9 @@ redux-thunk@^2.1.0:
   integrity sha512-km6dclyFnmcvxhAcrQV2AkZmPQjzPDjgVlQtR0EQjxZPyJ0BnMf3in1ryuR8A2qU0HldVRfxYXbFSKlI3N7Slw==
 
 redux@^4.0.0, redux@^4.0.1, redux@^4.0.4, redux@^4.0.5:
-  version "4.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/redux/-/redux-4.1.0.tgz#eb049679f2f523c379f1aff345c8612f294c88d4"
-  integrity sha512-uI2dQN43zqLWCt6B/BMGRMY6db7TTY4qeHHfGeKb3EOhmOKjU3KdWvNLJyqaHRksv/ErdNH7cFZWg9jXtewy4g==
+  version "4.1.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/redux/-/redux-4.1.1.tgz#76f1c439bb42043f985fbd9bf21990e60bd67f47"
+  integrity sha512-hZQZdDEM25UY2P493kPYuKqviVwZ58lEmGQNeQ+gXa+U0gYPUBf7NKYazbe3m+bs/DzM/ahN12DbF+NG8i0CWw==
   dependencies:
     "@babel/runtime" "^7.9.2"
 
