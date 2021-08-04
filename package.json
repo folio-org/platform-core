@@ -18,7 +18,7 @@
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
-    "@folio/calendar": "6.1.0",
+    "@folio/calendar": "6.1.2",
     "@folio/checkin": "5.1.0",
     "@folio/checkout": "6.1.1",
     "@folio/circulation": "5.1.0",
