@@ -50,13 +50,13 @@
   "id" : "mod-feesfines-16.2.0-SNAPSHOT.158",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-1.4.0-SNAPSHOT.56",
+  "id" : "mod-patron-blocks-1.4.0-SNAPSHOT.57",
   "action" : "enable"
 }, {
   "id" : "mod-notes-2.13.0-SNAPSHOT.178",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-22.1.0-SNAPSHOT.871",
+  "id" : "mod-circulation-22.1.0-SNAPSHOT.872",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-5.1.1000397",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-6.1.1000557",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-5.1.1000696",
+  "id" : "folio_circulation-5.1.1000697",
   "action" : "enable"
 }, {
   "id" : "folio_developer-5.2.1000226",
