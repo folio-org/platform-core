@@ -1705,9 +1705,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.1.10001533"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.1.10001533.tgz#fe56e95365a88122be03a3d86f4c5cf5a8afb751"
-  integrity sha512-thMum2qAH6e/y8A63sjyWVmibHTVccgKhfMaHCnVn+NFmtUEt9T8dvdpBEyNjDCgA6r5bR2O9w67jEd3aBObbw==
+  version "6.1.10001534"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.1.10001534.tgz#e5ecf1a807f82b2f351daa3c02ab80ca102dd07b"
+  integrity sha512-Jh6IrCdHtao0RZ6gEHu+nVebGUQ4abIq4MAhG50jA600XvZAvT9u+WGFd0E6CafIicH7wwhB/wpMLOAMoKahLQ==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
@@ -6557,9 +6557,9 @@ got@^6.7.1:
     url-parse-lax "^1.0.0"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.6:
-  version "4.2.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
-  integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
+  version "4.2.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/graceful-fs/-/graceful-fs-4.2.7.tgz#ed65e76e7c700c3e2c889ca65677ec0d210db1b3"
+  integrity sha512-b1suB8r7mlSJQIBs6typf13fz55WYPeE7/KYlQUvqB7E3hUkXhz4D8FVHkENHTqG8+mD2yyT9HgT5bNkGNiqeQ==
 
 graphql-tag@^2.12.3:
   version "2.12.5"
