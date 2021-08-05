@@ -2743,25 +2743,25 @@
     "@xtuc/long" "4.2.2"
 
 "@wry/context@^0.6.0":
-  version "0.6.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/context/-/context-0.6.0.tgz#f903eceb89d238ef7e8168ed30f4511f92d83e06"
-  integrity sha512-sAgendOXR8dM7stJw3FusRxFHF/ZinU0lffsA2YTyyIOfic86JX02qlPqPVqJNZJPAxFt+2EE8bvq6ZlS0Kf+Q==
+  version "0.6.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/context/-/context-0.6.1.tgz#c3c29c0ad622adb00f6a53303c4f965ee06ebeb2"
+  integrity sha512-LOmVnY1iTU2D8tv4Xf6MVMZZ+juIJ87Kt/plMijjN20NMAXGmH4u8bS1t0uT74cZ5gwpocYueV58YwyI8y+GKw==
   dependencies:
-    tslib "^2.1.0"
+    tslib "^2.3.0"
 
 "@wry/equality@^0.5.0":
-  version "0.5.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/equality/-/equality-0.5.1.tgz#b22e4e1674d7bf1439f8ccdccfd6a785f6de68b0"
-  integrity sha512-FZKbdpbcVcbDxQrKcaBClNsQaMg9nof1RKM7mReJe5DKUzM5u8S7T+PqwNqvib5O2j2xxF1R4p5O3+b6baTrbw==
+  version "0.5.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/equality/-/equality-0.5.2.tgz#72c8a7a7d884dff30b612f4f8464eba26c080e73"
+  integrity sha512-oVMxbUXL48EV/C0/M7gLVsoK6qRHPS85x8zECofEZOVvxGmIPLA9o5Z27cc2PoAyZz1S2VoM2A7FLAnpfGlneA==
   dependencies:
-    tslib "^2.1.0"
+    tslib "^2.3.0"
 
 "@wry/trie@^0.3.0":
-  version "0.3.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/trie/-/trie-0.3.0.tgz#3245e74988c4e3033299e479a1bf004430752463"
-  integrity sha512-Yw1akIogPhAT6XPYsRHlZZIS0tIGmAl9EYXHi2scf7LPKKqdqmow/Hu4kEqP2cJR3EjaU/9L0ZlAjFf3hFxmug==
+  version "0.3.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/trie/-/trie-0.3.1.tgz#2279b790f15032f8bcea7fc944d27988e5b3b139"
+  integrity sha512-WwB53ikYudh9pIorgxrkHKrQZcCqNM/Q/bDzZBffEaGUKGuHrRb3zZUT9Sh2qw9yogC7SsdRmQ1ER0pqvd3bfw==
   dependencies:
-    tslib "^2.1.0"
+    tslib "^2.3.0"
 
 "@xg-wang/whatwg-fetch@^3.0.0":
   version "3.0.0"
@@ -6557,9 +6557,9 @@ got@^6.7.1:
     url-parse-lax "^1.0.0"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.6:
-  version "4.2.7"
-  resolved "https://repository.folio.org/repository/npm-ci-all/graceful-fs/-/graceful-fs-4.2.7.tgz#ed65e76e7c700c3e2c889ca65677ec0d210db1b3"
-  integrity sha512-b1suB8r7mlSJQIBs6typf13fz55WYPeE7/KYlQUvqB7E3hUkXhz4D8FVHkENHTqG8+mD2yyT9HgT5bNkGNiqeQ==
+  version "4.2.8"
+  resolved "https://repository.folio.org/repository/npm-ci-all/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
+  integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
 
 graphql-tag@^2.12.3:
   version "2.12.5"
