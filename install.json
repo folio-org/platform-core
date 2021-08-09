@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.13.0-SNAPSHOT.121",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-22.0.0-SNAPSHOT.589",
+  "id" : "mod-inventory-storage-22.0.0-SNAPSHOT.590",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-6.1.1000120",
@@ -71,13 +71,13 @@
   "id" : "folio_developer-5.2.1000226",
   "action" : "enable"
 }, {
-  "id" : "mod-tags-0.10.0-SNAPSHOT.62",
+  "id" : "mod-tags-0.10.0-SNAPSHOT.63",
   "action" : "enable"
 }, {
   "id" : "mod-data-export-4.1.1-SNAPSHOT.249",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-7.1.20001278",
+  "id" : "folio_inventory-7.1.20001279",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-5.0.1000124",
