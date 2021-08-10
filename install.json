@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.13.0-SNAPSHOT.121",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-22.0.0-SNAPSHOT.590",
+  "id" : "mod-inventory-storage-22.0.0-SNAPSHOT.592",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-6.1.1000120",
@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-5.2.0-SNAPSHOT.332",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-17.1.0-SNAPSHOT.405",
+  "id" : "mod-inventory-17.1.0-SNAPSHOT.406",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-16.2.0-SNAPSHOT.158",
