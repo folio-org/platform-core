@@ -8826,9 +8826,9 @@ mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.4, mkdirp@^0.5.5, mkdir
     minimist "^1.2.5"
 
 mocha-jenkins-reporter@^0.4.1:
-  version "0.4.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/mocha-jenkins-reporter/-/mocha-jenkins-reporter-0.4.5.tgz#d12865e0d991afbaa1d011b966195ebb8936850f"
-  integrity sha512-QoKXaxWz3gpzCBgfaqu2OZKVyibAwRTD/BF7ApMfNgafzzch9s8hMNVPTxRom9smmUAfaDfzARWKvrQMK7XACA==
+  version "0.4.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/mocha-jenkins-reporter/-/mocha-jenkins-reporter-0.4.6.tgz#56ad047502a523ef552939c17545297c6408f34e"
+  integrity sha512-9Xtzi3ue6hPdqQdK95GOwjt5Fo2x7K0mhAMG0h0JsbKGe1CCGYHSn6kQA5J1JNUvf0Brp8N1oIFSVW8dqNhQBg==
   dependencies:
     diff "4.0.1"
     mkdirp "^0.5.4"
