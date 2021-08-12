@@ -3797,9 +3797,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001248:
-  version "1.0.30001250"
-  resolved "https://repository.folio.org/repository/npm-ci-all/caniuse-lite/-/caniuse-lite-1.0.30001250.tgz#7719197e30f567bc9deb9988c358ed0ab68bf158"
-  integrity sha512-98wdsAAUhKX0YquKnbpIcJScvv0dEgWZeflZ07ah2PnhwgMGvKi4yaxQ+CM0XUT9bqzMB9RrwoHWhmkOZSM/og==
+  version "1.0.30001251"
+  resolved "https://repository.folio.org/repository/npm-ci-all/caniuse-lite/-/caniuse-lite-1.0.30001251.tgz#6853a606ec50893115db660f82c094d18f096d85"
+  integrity sha512-HOe1r+9VkU4TFmnU70z+r7OLmtR+/chB1rdcJUeQlAinjEeb0cKL20tlAtOagNZhbrtLnCvV19B4FmF1rgzl6A==
 
 canvg@^3.0.6:
   version "3.0.7"
