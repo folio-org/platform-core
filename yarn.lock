@@ -1205,9 +1205,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "7.1.20001280"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-7.1.20001280.tgz#50f11115e9bf908c1e283ab10dd83e19d5c2d669"
-  integrity sha512-akAwB122yoptKjI9g2jneRyXofgP+/a4guMksf2dLhFecA1UusAT9m51r3ELxgDwLdXfIQcSUUr3UqEArvjr2w==
+  version "7.1.20001281"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-7.1.20001281.tgz#54578804334191c49595bf54d47cfedb0ded1be6"
+  integrity sha512-z2G+F5ivFLfoSxaCAVjhnULwnjoS1DEY18UQLbDP43tmAzwXhM26dIQrzxDieKG3/8ekqZ76GTYRh+s90Ekvrg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1460,9 +1460,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@~7.2.0":
-  version "7.2.10000012"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.2.10000012.tgz#f0783104ca3facb47ee26eb76b194cd719544066"
-  integrity sha512-2kwNMl5UqpuvRaJws2+jLvUzX7vmxNgXZ7ji8mO0sGnHezH5J994qMPkZTk0Luf08lRWWw9QJlgSZ8C94c1V2w==
+  version "7.2.10000023"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.2.10000023.tgz#40cc7fa27ec84d1ae52d7760a12b3f9e0f885c6b"
+  integrity sha512-IB8AgE/CoHOeTR/isxl9/96Zdo5QbUVm9zk/77sCOtUU+f4hsB9nL5ULF5HzzYCarJKNnQAi882WOLG53FUPFA==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@formatjs/intl-displaynames" "^2.2.3"
