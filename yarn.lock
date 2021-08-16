@@ -10811,9 +10811,9 @@ react-inspector@^5.1.0:
     prop-types "^15.0.0"
 
 react-intl@^5.7.0:
-  version "5.20.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-5.20.8.tgz#ba523fb584d754e64f5e837bbd98bac3c94a6efd"
-  integrity sha512-tjZeJeEwmj5rp+0iEcKdrMjeAPL5i1qGdc1nBUOggaZPvSBJkkT6TzZ6rzru1WI+t6CehuEm6FfODKT8HYGgww==
+  version "5.20.9"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-5.20.9.tgz#ca086e5c4d800edb9dab5b7a236842106b99ac41"
+  integrity sha512-nObPjUkECRMjgmXKfP2OehvloosUPeneXK5+hntu1liig/yfyJ2i37HFFKyzStK6wynwJARwFBgjPQQDd1oLzw==
   dependencies:
     "@formatjs/intl" "1.14.0"
     "@formatjs/intl-displaynames" "5.2.2"
