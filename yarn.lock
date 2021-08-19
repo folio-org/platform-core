@@ -1159,9 +1159,9 @@
     "@folio/plugin-find-user" "^5.0.0"
 
 "@folio/circulation@>=1.3.0", "@folio/circulation@^5.0.0":
-  version "5.1.1000706"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.1.1000706.tgz#eb0848e55a2288d90f5d4ac8fd54d2dba40ba95b"
-  integrity sha512-3gvSBeKHxOaXoeyUNXosH3X+hNwv3VYACVPkWdlfoKmCs3tmGUG+951ahgVXWzzrJDZX7C7MVw1BDQ2GhAoMig==
+  version "5.1.1000710"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.1.1000710.tgz#4e06e8c7534d4581734d90dd81d9d8197001347f"
+  integrity sha512-2DqjDPJEvLZvxROGh5+Y1Y/Mq6qjtEfDyUs2/zKgZrW7irbjRQQ9ogQdS8vfj3Rs2zb7GszFYAWU+sV+V3MLbA==
   dependencies:
     "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
@@ -1538,9 +1538,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~6.1.2":
-  version "6.1.10001008"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.1.10001008.tgz#d8123faeb2470773ef088ca145104fc1c06c51e7"
-  integrity sha512-bchy1qx47Y9RCigTCZ1fmDRuLa4CrL8bxlfb5JhXfiIZ5qkOPeoiKybEKCRM6RwCs1zwEgdWOcGrl4lOF5wXoA==
+  version "6.1.10001009"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.1.10001009.tgz#e9dcc04a7f3aaaafb38a229f91a2545446a27492"
+  integrity sha512-S81nET9Ot0mAVjCLFy0xQy4KBB55H2nO+9Dz2Q6mXjX2l+VbYb2utgYABnX/LaQty5lYX+naxy9L/E2R5zA1Gg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "2.4.0"
