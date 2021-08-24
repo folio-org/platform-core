@@ -1243,9 +1243,9 @@
     redux-form "^8.3.7"
 
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^2.0.0":
-  version "2.1.100070"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.1.100070.tgz#272e8ea6bef8b3a2137f3b188c2ba7fc36fe19a7"
-  integrity sha512-5ur/W9H+qyuZlCKewhDLX6Z8Y3cpahlITJVvtQ0WGRbOzVKGH/Ftp4JnUgmOGSka43uNpEAjL63IXqdbv+Uxsw==
+  version "2.1.100071"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.1.100071.tgz#3a1f7768c6389fe430732b1d156f675a352b3104"
+  integrity sha512-SvegaedJxvVookuVyaYe/NZSjBYYzExlRfBEhEgBkwzV8fSd4FlwHpLKW6vFwFVZVpfXkPrR6UtI8J84w4V1EA==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
