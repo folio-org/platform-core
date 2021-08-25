@@ -47,7 +47,7 @@
   "id" : "mod-inventory-17.1.0-SNAPSHOT.406",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-16.2.0-SNAPSHOT.160",
+  "id" : "mod-feesfines-16.2.0-SNAPSHOT.161",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.4.0-SNAPSHOT.58",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-6.1.1000563",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-5.1.1000711",
+  "id" : "folio_circulation-5.1.1000712",
   "action" : "enable"
 }, {
   "id" : "folio_developer-5.2.1000228",
@@ -128,7 +128,7 @@
   "id" : "folio_tenant-settings-6.1.1000227",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.2.10001544",
+  "id" : "folio_users-6.2.10001545",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.1.0-SNAPSHOT.89",
