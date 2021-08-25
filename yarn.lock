@@ -1205,9 +1205,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "7.1.20001287"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-7.1.20001287.tgz#d1e3c04d490e4cf48b025775eccb7906e0dfe501"
-  integrity sha512-XNAGeIpmqI1Px/9c877uY+KqyRz7nMC5fw2qR6bB7fRne2zZUIEHXkV9IoBB30DaEAMQIETZgHgm/sReG43yPA==
+  version "7.1.20001288"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-7.1.20001288.tgz#2ca3464a7350bd26e555f85600faf111e020de2f"
+  integrity sha512-Mb2bhNQ+NnZLRmECDNPmwZrPTIzZrNApm46fTrmAvWAvWnOhR+f8+jJsWudS4YVuvElRzqql5jgNoFoNUniu/g==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
