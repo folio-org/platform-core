@@ -1363,9 +1363,9 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-cli@^2.0.0":
-  version "2.4.1000254"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-2.4.1000254.tgz#f11ed969076b25b8dbd2cc4d8633fa943efae402"
-  integrity sha512-Qfd23GT3Nzn4Dl5nb9mbvQA2wR/fQ1SygnFaeDf5PffmwLP90QYJc3uRPXzESmIVpbMAKd+qc2YqYln0DhWWxg==
+  version "2.4.1000255"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-2.4.1000255.tgz#3ede2e2e1a65eb57725073c10b072e9420ad25cc"
+  integrity sha512-Tb0CVZ6b+xLEhlWRMRhbFLn3tXyuI1N0FEKKZWocyrJWNMUvRm1nw7grgQcIxhE0TJ1duUm2/1TmvZnDx4X+vw==
   dependencies:
     "@folio/stripes-testing" "^3.0.0"
     "@folio/stripes-webpack" "^1.4.0"
