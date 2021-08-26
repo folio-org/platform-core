@@ -1538,9 +1538,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~6.1.2":
-  version "6.1.10001010"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.1.10001010.tgz#abeee1727cff81246fbbd1ef6537c6fdd19cd45b"
-  integrity sha512-cIjE2KpZdj2QXecsLGUmuCewRruxn3U2p9yqPWxABBmWu7Nsye2K9tat8jeAX+Tq9m/2q+/+WbSMyh9QNfs9Qw==
+  version "6.1.1000005"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-6.1.1000005.tgz#8fd9826763cdf3a85e6aa9b2a9a4fa3923a34aed"
+  integrity sha512-J3y+S/khL6rnRz8/jrRb/VFGp5Kp76zMx0lbuJbaoet5wEb0zDSrgvtEctlZufJxQ6gEn4SgtuOcOBQ6G9PEaQ==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "2.4.0"
@@ -1588,9 +1588,9 @@
     minimist "^1.2.0"
 
 "@folio/stripes-util@~4.2.0":
-  version "4.2.100051"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-4.2.100051.tgz#0fb1ef5c8615a33c46aec6fa9771733f98c348ae"
-  integrity sha512-+W4zCGL5Pqj7+Tm7zAdwpHwu2OyFlg/sAUE5LA4IRoD3yLMKYSwYe9C7Yje4Z8/BerVfdC/EGVckGQuNnLhrDg==
+  version "4.2.1000003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-4.2.1000003.tgz#55225ac00fcafdb7fdaca62b5f20f991cd4aafeb"
+  integrity sha512-igkxkX9O17kXkEc3KaNkZHh9FYq+a+nNiHH8w/JqHs+5q9K4ygXlLJGjSYg9oODiwxKqr20elTlx2SoLx960mg==
   dependencies:
     json2csv "^4.2.1"
     lodash "^4.17.4"
@@ -1667,9 +1667,9 @@
     webpack-virtual-modules "^0.1.10"
 
 "@folio/stripes@^6.0.0":
-  version "6.2.2000117"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-6.2.2000117.tgz#90c9ebf7c329283c1f4de6af89460d7ccd12f49f"
-  integrity sha512-IgsxS6PezpEo4n8rFbtq9xe9W2fvnEaNpWldiPuXHVPXPoA3On5bV0kEZ1RYXGE8iUoplhkq90k0rAmvlLYrPw==
+  version "6.2.20000010"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-6.2.20000010.tgz#266f92e2e0087ece899cac1799d826c640250163"
+  integrity sha512-qJ5BzlunZep2PqrrrCgFgCt8Hcr46oL21FeOldczKWTCpbIYsLAeO5kdccTyo3QUvc7KYJCOuHwKZnH+TN1fEQ==
   dependencies:
     "@folio/stripes-components" "~9.2.1"
     "@folio/stripes-connect" "~6.2.0"
