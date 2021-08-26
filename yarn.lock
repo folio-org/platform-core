@@ -1460,9 +1460,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@~7.2.0":
-  version "7.2.10000051"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.2.10000051.tgz#98359011690f4e94df0da6819d85c17070517e58"
-  integrity sha512-bI0SDRyRw7sC8SdMHgBzr8t25qxZ1jmdoPmsQPNeabDho6vBqiHyvU4UPyoRpqYlKu7jnB8srQIxgXJY2xD+Eg==
+  version "7.2.10000055"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.2.10000055.tgz#366a4d06ba894c21c8b2c9405444a753ef464d35"
+  integrity sha512-e3yPT/FBWeQOvO8MWNwBTGRgMZpHKl6fH6pcENkaKu4nNVWgSwXj8fVneu35qT+FrXnzb29jMkfhhNw0i2gmIw==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@formatjs/intl-displaynames" "^2.2.3"
@@ -1501,9 +1501,9 @@
     swr "^0.4.1"
 
 "@folio/stripes-final-form@~5.1.0":
-  version "5.1.100073"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-5.1.100073.tgz#811dd24878b63a66df7317b8630406c59426e8e0"
-  integrity sha512-lAivoIdu0CwVigDniehnzrNEh8JC0geT9ohOCc0B6tDK+4JItmsQooDLUiCdadZ4+dm+p+UNs031fgAuwGVxRg==
+  version "5.1.1000005"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-5.1.1000005.tgz#174eb542e1c198a68bc2f3088b883c56a2d7633f"
+  integrity sha512-j8oZxY6n1Vi3xRnCupYjU+G/17pEcfYu0slEzN/rcjniYZQvCP4ygbVVuGZXEIsflUt+yC9Tj9Q+UmKcRE7mQA==
   dependencies:
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"

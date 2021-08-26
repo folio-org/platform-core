@@ -56,7 +56,7 @@
   "id" : "mod-notes-2.13.0-SNAPSHOT.178",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-22.1.0-SNAPSHOT.880",
+  "id" : "mod-circulation-22.1.0-SNAPSHOT.881",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-5.1.1000402",
@@ -113,7 +113,7 @@
   "id" : "mod-users-bl-7.1.0-SNAPSHOT.106",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-7.2.10000051",
+  "id" : "folio_stripes-core-7.2.10000055",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-smart-components-6.1.10001010",
