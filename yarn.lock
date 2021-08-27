@@ -1159,9 +1159,9 @@
     "@folio/plugin-find-user" "^5.0.0"
 
 "@folio/circulation@>=1.3.0", "@folio/circulation@^5.0.0":
-  version "5.1.1000712"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.1.1000712.tgz#4e28970a335760f2ce79cfbce1c7b695ffe5516d"
-  integrity sha512-QFlUFpgKlXIoKiRHWCrLOgBZJjVJTNLNfuOoTRdOOXLSaoP41Di6XiziAzgiLeET1F/Sqn23SPCRYcj72+Om5A==
+  version "5.1.1000714"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.1.1000714.tgz#1547ff5f1069b3124aba4f5d007682d7c92cd84c"
+  integrity sha512-TmAnfHNcmrUZgmaBuEtE+XPc6yA4xZ3DKffY+tJEu+RSn71UrBxT4Oj1uR9XTpvFkMVLKN5OjN0DGKixFnteUw==
   dependencies:
     "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
@@ -1667,9 +1667,9 @@
     webpack-virtual-modules "^0.1.10"
 
 "@folio/stripes@^6.0.0":
-  version "6.2.20000016"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-6.2.20000016.tgz#d509aed4ee79fce1067283bfa23437b9c4e9a5a0"
-  integrity sha512-NlwWG5hwcOO6praj2zAjlzWeYZVoaR44ve+6Wx1XSOm5/bV5n3EHYBHdK3s/GSnanhhdaQ7n5eGtixs77jM2OA==
+  version "6.2.20000021"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-6.2.20000021.tgz#5ac9a453b854978f9c0dc53b10f8f3a938d17623"
+  integrity sha512-e1xv1j5oVp0YeABbl7B/3WI4Y0ayPcjtUCmFNJbz24xianAt828dvdLiEsSUSgWP7yDRQb5Cvbj06ZU2Q5Ar8A==
   dependencies:
     "@folio/stripes-components" "~9.2.1"
     "@folio/stripes-connect" "~6.2.0"
