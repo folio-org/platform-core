@@ -50,13 +50,13 @@
   "id" : "mod-notes-2.13.0-SNAPSHOT.179",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-22.1.0-SNAPSHOT.884",
+  "id" : "mod-circulation-22.1.0-SNAPSHOT.885",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.2.1-SNAPSHOT.339",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-17.1.0-SNAPSHOT.409",
+  "id" : "mod-inventory-17.1.0-SNAPSHOT.410",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-5.1.1000402",
