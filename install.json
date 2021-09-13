@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-22.0.0-SNAPSHOT.596",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-6.1.1000122",
+  "id" : "folio_calendar-6.1.1000123",
   "action" : "enable"
 }, {
   "id" : "mod-users-18.1.0-SNAPSHOT.167",
@@ -59,16 +59,16 @@
   "id" : "mod-inventory-17.1.0-SNAPSHOT.412",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-5.1.1000402",
+  "id" : "folio_checkin-5.1.1000403",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-6.1.1000566",
+  "id" : "folio_checkout-6.1.1000567",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-5.1.1000732",
+  "id" : "folio_circulation-5.1.1000733",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-5.2.1000229",
+  "id" : "folio_developer-5.2.1000230",
   "action" : "enable"
 }, {
   "id" : "mod-tags-0.10.0-SNAPSHOT.63",
@@ -80,28 +80,28 @@
   "id" : "folio_inventory-7.1.20001298",
   "action" : "enable"
 }, {
-  "id" : "folio_myprofile-5.0.1000124",
+  "id" : "folio_myprofile-5.0.1000125",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-2.1.100071",
+  "id" : "folio_plugin-create-inventory-records-2.1.100072",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-5.1.100083",
+  "id" : "folio_plugin-find-instance-5.1.100084",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-5.0.1000148",
+  "id" : "folio_plugin-find-user-5.0.1000149",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-5.1.1000674",
+  "id" : "folio_requests-5.1.1000675",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.104",
   "action" : "enable"
 }, {
-  "id" : "folio_search-4.1.1000224",
+  "id" : "folio_search-4.1.1000225",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-5.0.100092",
+  "id" : "folio_servicepoints-5.0.100093",
   "action" : "enable"
 }, {
   "id" : "mod-password-validator-2.2.0-SNAPSHOT.46",
@@ -113,22 +113,22 @@
   "id" : "mod-users-bl-7.1.0-SNAPSHOT.106",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-7.2.10000072",
+  "id" : "folio_stripes-core-7.2.10000077",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-6.1.10000027",
+  "id" : "folio_stripes-smart-components-6.1.10000031",
   "action" : "enable"
 }, {
-  "id" : "folio_tags-5.0.100090",
+  "id" : "folio_tags-5.0.100091",
   "action" : "enable"
 }, {
   "id" : "mod-login-saml-2.2.2-SNAPSHOT.74",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-6.1.1000230",
+  "id" : "folio_tenant-settings-6.1.1000231",
   "action" : "enable"
 }, {
-  "id" : "folio_users-6.2.100000604",
+  "id" : "folio_users-6.2.100000608",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.1.0-SNAPSHOT.89",
