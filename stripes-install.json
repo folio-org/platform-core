@@ -12,7 +12,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_circulation-5.1.1000733",
+    "id": "folio_circulation-6.0.1000734",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-7.1.20001299",
+    "id": "folio_inventory-7.1.20001300",
     "action": "enable"
   },
   {
@@ -56,7 +56,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-6.1.10000031",
+    "id": "folio_stripes-smart-components-6.1.10001010",
     "action": "enable"
   },
   {
