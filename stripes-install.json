@@ -1,6 +1,6 @@
 [
   {
-    "id": "folio_calendar-6.1.1000123",
+    "id": "folio_calendar-6.1.1000124",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-7.1.20001300",
+    "id": "folio_inventory-7.1.20001302",
     "action": "enable"
   },
   {
@@ -44,7 +44,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_search-4.1.1000225",
+    "id": "folio_search-5.0.1000226",
     "action": "enable"
   },
   {
@@ -52,11 +52,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-7.2.10000077",
+    "id": "folio_stripes-core-8.0.10000082",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-6.1.10001010",
+    "id": "folio_stripes-smart-components-7.0.10000042",
     "action": "enable"
   },
   {

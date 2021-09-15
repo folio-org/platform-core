@@ -4,11 +4,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-22.0.0-SNAPSHOT.597",
+    "id": "mod-inventory-storage-22.0.0-SNAPSHOT.598",
     "action": "enable"
   },
   {
-    "id": "mod-users-18.1.0-SNAPSHOT.169",
+    "id": "mod-users-18.1.0-SNAPSHOT.171",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-22.1.0-SNAPSHOT.886",
+    "id": "mod-circulation-22.1.0-SNAPSHOT.887",
     "action": "enable"
   },
   {
@@ -76,7 +76,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-tags-0.10.0-SNAPSHOT.63",
+    "id": "mod-search-1.5.0-SNAPSHOT.120",
+    "action": "enable"
+  },
+  {
+    "id": "mod-tags-0.10.0-SNAPSHOT.64",
     "action": "enable"
   },
   {
