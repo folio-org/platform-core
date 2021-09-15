@@ -82,52 +82,7 @@ pipeline {
       }
     }
 
-/*
- *   stage('Build FOLIO instance') {
- *     steps {
- *       checkout([$class: 'GitSCM',
- *                 branches: [[name: '*/master']],
- *                 doGenerateSubmoduleConfigurations: false,
- *                 extensions: [[$class: 'SubmoduleOption',
- *                 disableSubmodules: false,
- *                 parentCredentials: false,
- *                 recursiveSubmodules: true,
- *                 reference: '',
- *                 trackingSubmodules: true],
- *                 [$class: 'RelativeTargetDirectory', relativeTargetDir: 'folio-infrastructure']],
- *                 submoduleCfg: [],
- *                 userRemoteConfigs: [[credentialsId: 'id-jenkins-github-personal-token-with-username',
- *                                     url: 'https://github.com/folio-org/folio-infrastructure']]
- *               ])
- *
- *       withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',
- *                         accessKeyVariable: 'AWS_ACCESS_KEY_ID',
- *                         credentialsId: 'jenkins-aws',
- *                         secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
- * 
- *         dir("${env.WORKSPACE}/folio-infrastructure") { 
- *           logFileFilter {
- *             ansiblePlaybook(credentialsId: '11657186-f4d4-4099-ab72-2a32e023cced',
- *                             disableHostKeyChecking: true,
- *                             installation: 'Ansible',
- *                             inventory: 'CI/ansible/inventory',
- *                             playbook: "CI/ansible/build-snapshot-platform.yml",
- *                             sudoUser: null,
- *                             vaultCredentialsId: 'ansible-vault-pass',
- *                             extraVars: [ec2_group: "${env.ec2_group}",
- *                                         instance_type: "${env.ec2_instanceType}",
- *                                         build_module_list_files: "${env.WORKSPACE}",
- *                                         folio_config: "${env.folio_config}" ],
- *                             extras: "-e \"{\\\"docker_image_repo\\\":{\\\"username\\\":\\\"${env.DOCKERHUB_CI_PULL_USR}\\\",\\\"password\\\":\\\"${env.DOCKERHUB_CI_PULL_PSW}\\\"}}\"")
- *           }
- *         }
- *       }
- *     }
- *   }
- */
-
     // If stripes build is successful, update yarn.lock and commit
-
 
    stage('Update Branch Install Artifacts') {
      steps {
