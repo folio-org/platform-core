@@ -131,9 +131,9 @@
   "id" : "folio_users-6.1.4",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-inventory-2.0.0",
+  "id" : "okapi-4.8.2",
   "action" : "enable"
 }, {
-  "id" : "okapi-4.8.2",
+  "id" : "mod-codex-inventory-2.0.0",
   "action" : "enable"
 } ]
