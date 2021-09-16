@@ -55,8 +55,12 @@
   },
   "resolutions": {
     "final-form": "4.20.1",
+    "@folio/plugin-create-inventory-records": "2.1.0",
+    "@folio/plugin-find-instance": "5.1.1",
+    "@folio/plugin-find-user": "5.0.1",
     "@folio/react-intl-safe-html": "3.0.0",
     "@folio/stripes-cli": "^2.1.0",
+    "@folio/stripes-final-form": "~5.1.0",
     "@rehooks/local-storage": "2.4.0",
     "redux-form": "^8.0.0",
     "rxjs": "^5.4.3",
