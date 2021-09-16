@@ -1723,9 +1723,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.2.100000639"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.2.100000639.tgz#c96f05545943871e7d9abaa2b052f3079a123ccd"
-  integrity sha512-ZXRFqQOj0XkfqZz/pe7TsdIPlAPcds7VxFKfcwASZytO5BdoouPzmFCxBjC3kBLG593loqIBarMqG/ar7WXdDQ==
+  version "6.2.100000647"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.2.100000647.tgz#66b36eb1547426397cce66af3454daef1ba934f3"
+  integrity sha512-Avg/5GdVJcECI5OLWjT+iNchePrIyRodeD+R8WOwZwiUgjYWXHQbTW7uQHYJqHv8w0rqC5bEJvZjIbKVSpepyw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
@@ -2224,9 +2224,9 @@
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
 "@octokit/auth-token@^2.4.4":
-  version "2.4.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/auth-token/-/auth-token-2.4.5.tgz#568ccfb8cb46f36441fac094ce34f7a875b197f3"
-  integrity sha512-BpGYsPgJt05M7/L/5FoE1PiAbdxXFZkX/3kDYcsvd1v6UhlnE5e96dTDr0ezX/EFwciQxf3cNV0loipsURU+WA==
+  version "2.5.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/auth-token/-/auth-token-2.5.0.tgz#27c37ea26c205f28443402477ffd261311f21e36"
+  integrity sha512-r5FVUJCOLl19AxiuZD2VRZ/ORjp/4IN98Of6YJoJOkY75CIBuYfmiNHGrDwXr+aLGG55igl9QrxX3hbiXlLb+g==
   dependencies:
     "@octokit/types" "^6.0.3"
 
