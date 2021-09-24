@@ -56,7 +56,7 @@
   "id" : "mod-source-record-storage-5.2.1-SNAPSHOT.351",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-17.1.0-SNAPSHOT.418",
+  "id" : "mod-inventory-17.1.0-SNAPSHOT.419",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-6.0.1000406",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-7.0.1000571",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-6.0.1000744",
+  "id" : "folio_circulation-6.0.1000745",
   "action" : "enable"
 }, {
   "id" : "folio_developer-5.2.1000231",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.1.1",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-8.0.10001305",
+  "id" : "folio_inventory-8.0.10001306",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-5.0.1000126",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-6.1.1000231",
   "action" : "enable"
 }, {
-  "id" : "folio_users-7.0.100000689",
+  "id" : "folio_users-7.0.100000700",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.1.0-SNAPSHOT.89",
