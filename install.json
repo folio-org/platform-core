@@ -53,10 +53,16 @@
   "id" : "mod-circulation-22.1.0-SNAPSHOT.889",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.2.1-SNAPSHOT.351",
+  "id" : "mod-source-record-storage-5.2.1-SNAPSHOT.352",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-17.1.0-SNAPSHOT.419",
+  "id" : "mod-data-import-converter-storage-1.12.0-SNAPSHOT.173",
+  "action" : "enable"
+}, {
+  "id" : "mod-source-record-manager-3.2.0-SNAPSHOT.474",
+  "action" : "enable"
+}, {
+  "id" : "mod-inventory-17.1.0-SNAPSHOT.420",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-6.0.1000406",
