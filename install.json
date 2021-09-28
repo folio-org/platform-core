@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.12.0",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-21.0.4",
+  "id" : "mod-inventory-storage-21.0.6",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-6.1.2",
@@ -26,7 +26,7 @@
   "id" : "mod-event-config-2.1.0",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.7.0",
+  "id" : "mod-configuration-5.7.1",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.14.0",
@@ -44,7 +44,7 @@
   "id" : "mod-source-record-storage-5.1.6",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-17.0.5",
+  "id" : "mod-inventory-17.0.6",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-16.1.1",
@@ -74,7 +74,7 @@
   "id" : "mod-tags-0.9.0",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-4.1.0",
+  "id" : "mod-data-export-4.1.1",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-7.1.4",
