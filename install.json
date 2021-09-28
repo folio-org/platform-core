@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.13.0-SNAPSHOT.122",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-22.0.0-SNAPSHOT.602",
+  "id" : "mod-inventory-storage-22.0.0-SNAPSHOT.603",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-7.0.1000127",
@@ -50,7 +50,7 @@
   "id" : "mod-notes-2.13.0-SNAPSHOT.179",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-22.1.0-SNAPSHOT.889",
+  "id" : "mod-circulation-22.1.0-SNAPSHOT.890",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.2.1-SNAPSHOT.352",
