@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.13.0-SNAPSHOT.122",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-22.0.0-SNAPSHOT.603",
+  "id" : "mod-inventory-storage-22.0.0-SNAPSHOT.606",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-7.0.1000127",
@@ -11,13 +11,13 @@
   "id" : "mod-users-18.2.0-SNAPSHOT.174",
   "action" : "enable"
 }, {
-  "id" : "mod-login-7.5.0-SNAPSHOT.98",
+  "id" : "mod-login-7.6.0-SNAPSHOT.100",
   "action" : "enable"
 }, {
   "id" : "mod-permissions-5.15.0-SNAPSHOT.117",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.4.0-SNAPSHOT.171",
+  "id" : "mod-pubsub-2.5.0-SNAPSHOT.172",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-13.1.0-SNAPSHOT.290",
@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.10.0-SNAPSHOT.106",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-16.2.0-SNAPSHOT.165",
+  "id" : "mod-feesfines-17.1.0-SNAPSHOT.166",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.4.0-SNAPSHOT.58",
@@ -53,7 +53,7 @@
   "id" : "mod-circulation-22.1.0-SNAPSHOT.891",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.2.1-SNAPSHOT.352",
+  "id" : "mod-source-record-storage-5.2.1-SNAPSHOT.354",
   "action" : "enable"
 }, {
   "id" : "mod-data-import-converter-storage-1.12.0-SNAPSHOT.173",
@@ -62,7 +62,7 @@
   "id" : "mod-source-record-manager-3.2.0-SNAPSHOT.475",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-17.1.0-SNAPSHOT.420",
+  "id" : "mod-inventory-17.1.0-SNAPSHOT.422",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-6.0.1000406",
@@ -95,13 +95,13 @@
   "id" : "folio_plugin-create-inventory-records-3.0.100074",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-5.1.100085",
+  "id" : "folio_plugin-find-instance-6.0.100086",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-6.0.1000150",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-6.0.1000677",
+  "id" : "folio_requests-6.0.1000678",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.104",
@@ -116,7 +116,7 @@
   "id" : "mod-password-validator-2.2.0-SNAPSHOT.46",
   "action" : "enable"
 }, {
-  "id" : "mod-authtoken-2.9.0-SNAPSHOT.91",
+  "id" : "mod-authtoken-2.10.0-SNAPSHOT.92",
   "action" : "enable"
 }, {
   "id" : "mod-users-bl-7.1.0-SNAPSHOT.106",
@@ -131,7 +131,7 @@
   "id" : "folio_tags-6.0.100092",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.2.2-SNAPSHOT.74",
+  "id" : "mod-login-saml-2.4.0-SNAPSHOT.75",
   "action" : "enable"
 }, {
   "id" : "folio_tenant-settings-6.1.1000231",
