@@ -26,7 +26,7 @@
   "id" : "mod-event-config-2.1.0",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.7.0",
+  "id" : "mod-configuration-5.7.1",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.14.0",
