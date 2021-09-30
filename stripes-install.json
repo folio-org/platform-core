@@ -4,23 +4,23 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkin-6.0.1000407",
+    "id": "folio_checkin-6.0.1000408",
     "action": "enable"
   },
   {
-    "id": "folio_checkout-7.0.1000571",
+    "id": "folio_checkout-7.0.1000572",
     "action": "enable"
   },
   {
-    "id": "folio_circulation-6.0.1000749",
+    "id": "folio_circulation-6.0.1000750",
     "action": "enable"
   },
   {
-    "id": "folio_developer-5.2.1000231",
+    "id": "folio_developer-5.2.1000232",
     "action": "enable"
   },
   {
-    "id": "folio_inventory-8.0.10001312",
+    "id": "folio_inventory-8.0.10001313",
     "action": "enable"
   },
   {
@@ -52,7 +52,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-8.0.100000107",
+    "id": "folio_stripes-core-8.0.100000119",
     "action": "enable"
   },
   {
