@@ -2282,9 +2282,9 @@
     universal-user-agent "^6.0.0"
 
 "@octokit/openapi-types@^10.6.1":
-  version "10.6.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/openapi-types/-/openapi-types-10.6.1.tgz#4eb303e7da4de3d17216db80e3be6309f03b9fcc"
-  integrity sha512-53YKy8w8+sHQhUONhTiYt6MqNqPolejYr6rK/3VOevpORAIYGQEX2pmXnnhgdSsjHy176e5ZBgVt0ppOGziS7g==
+  version "10.6.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/openapi-types/-/openapi-types-10.6.2.tgz#a9c3a7f9d258d4b0cfdc0fac54f1a81654e00888"
+  integrity sha512-ea+1PU8aRTdr3ilcfmkxw4uFdSICiWl1fP7tYGYRf2gzgbN8Q5wEyHZX7SRjIpbjhJZQ9AAWj5KZC1RuTU7TUw==
 
 "@octokit/plugin-paginate-rest@^2.16.4":
   version "2.16.5"
