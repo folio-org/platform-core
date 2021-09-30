@@ -1108,9 +1108,9 @@
   integrity sha512-50M5zC0xjEE9maNayWNNUKatR6NSEPrwNOVjEZKVRL3n3DdNwBV5OIE2xuwVIaWz1Wgbdg/lsojLefRNzOIapA==
 
 "@folio/calendar@>=2.0.5":
-  version "7.0.1000127"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-7.0.1000127.tgz#d513b9ce683b5cf634529786977fe02b0bf5163e"
-  integrity sha512-FlybQeEkKhI8t8bB/9Ct4JJzCz2qk0abktPj2aNvsVHjf0cz8AXnbqwewzH6iwVVI3s/JChiESOK/Od4mhDNsA==
+  version "7.0.1000128"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-7.0.1000128.tgz#4cd20b386776bf00f5502381eae6740bb019bd7b"
+  integrity sha512-XgzEyQ869IgqShGIleHQLX/bqtxyvnoKSdHmqg+zxYV8F+96lkH1uxPRHJNK87v6h2qybxcWVbm186cvA6kxog==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     lodash "^4.17.5"
@@ -1744,9 +1744,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "7.0.100000717"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000717.tgz#7f0c1cb7eef21fd3c491bedd39abadb492ba917c"
-  integrity sha512-gDxcvd3NspD5SOzBgHhtX5e2yYLowFHk7ZP7uHU0DjMhFZJrIZnHpxlaijXnsT2p4qPWWptUyBN1adRTO9O41g==
+  version "7.0.100000728"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000728.tgz#c697a0096fffd5ec83a22874e380c8266c345497"
+  integrity sha512-5jAYqvrJA9xrzfxIA1jqVb6yCtrxBTmSJwL5MSgHANDy8ywFBCNP/Mt+A0xBkwCyc2/ZVDxi1+0zz0zcGvqY8Q==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
@@ -10783,9 +10783,9 @@ react-final-form-listeners@^1.0.2, react-final-form-listeners@^1.0.3:
     "@babel/runtime" "^7.12.5"
 
 react-final-form@^6.3.0, react-final-form@^6.4.0, react-final-form@^6.5.6:
-  version "6.5.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form/-/react-final-form-6.5.6.tgz#30c8035b1c2d405cb3ff1a1a6de53976da3f2103"
-  integrity sha512-UwmB+nzIccV/3SJ8/HRvAOVAKTvoFBCVnbn1LXb7cydsR+uDz3Py8HtE99N27Ke45DgPZ9t+tp4qRVYXEWHyyw==
+  version "6.5.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form/-/react-final-form-6.5.7.tgz#0c1098accf0f0011adee5a46076ed1b99ed1b1ea"
+  integrity sha512-o7tvJXB+McGiXOILqIC8lnOcX4aLhIBiF/Xi9Qet35b7XOS8R7KL8HLRKTfnZWQJm6MCE15v1U0SFive0NcxyA==
   dependencies:
     "@babel/runtime" "^7.15.4"
 
