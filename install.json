@@ -20,7 +20,7 @@
   "id" : "mod-pubsub-2.5.0-SNAPSHOT.172",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-13.1.0-SNAPSHOT.290",
+  "id" : "mod-circulation-storage-13.2.0-SNAPSHOT.291",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.2.0-SNAPSHOT.49",
