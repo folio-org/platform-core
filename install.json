@@ -32,7 +32,7 @@
   "id" : "mod-template-engine-1.15.0-SNAPSHOT.72",
   "action" : "enable"
 }, {
-  "id" : "mod-email-1.12.0-SNAPSHOT.57",
+  "id" : "mod-email-1.13.0-SNAPSHOT.58",
   "action" : "enable"
 }, {
   "id" : "mod-sender-1.7.0-SNAPSHOT.30",
@@ -44,7 +44,7 @@
   "id" : "mod-feesfines-17.1.0-SNAPSHOT.166",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-1.4.0-SNAPSHOT.58",
+  "id" : "mod-patron-blocks-1.4.0",
   "action" : "enable"
 }, {
   "id" : "mod-notes-2.13.0-SNAPSHOT.179",
