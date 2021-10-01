@@ -71,10 +71,10 @@
   "id" : "folio_developer-5.2.1000232",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.5.0-SNAPSHOT.128",
+  "id" : "mod-search-1.5.0",
   "action" : "enable"
 }, {
-  "id" : "mod-tags-0.10.0-SNAPSHOT.64",
+  "id" : "mod-tags-1.0.0",
   "action" : "enable"
 }, {
   "id" : "mod-data-export-4.2.0-SNAPSHOT.263",
@@ -116,7 +116,7 @@
   "id" : "mod-users-bl-7.1.0-SNAPSHOT.106",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-8.0.100000119",
+  "id" : "folio_stripes-core-8.0.100000122",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-smart-components-7.0.10000059",
