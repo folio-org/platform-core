@@ -12,15 +12,15 @@
     "action": "enable"
   },
   {
-    "id": "folio_circulation-6.0.1000750",
+    "id": "folio_circulation-6.0.1000751",
     "action": "enable"
   },
   {
-    "id": "folio_developer-5.2.1000232",
+    "id": "folio_developer-5.2.1000233",
     "action": "enable"
   },
   {
-    "id": "folio_inventory-8.0.10001314",
+    "id": "folio_inventory-8.0.10001315",
     "action": "enable"
   },
   {
@@ -52,7 +52,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-8.0.100000122",
+    "id": "folio_stripes-core-8.0.100000126",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-6.1.1000231",
+    "id": "folio_tenant-settings-7.0.1000234",
     "action": "enable"
   },
   {
