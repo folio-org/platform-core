@@ -8,7 +8,7 @@
   "id" : "folio_calendar-7.0.1000128",
   "action" : "enable"
 }, {
-  "id" : "mod-users-18.2.0-SNAPSHOT.174",
+  "id" : "mod-users-18.2.0-SNAPSHOT.175",
   "action" : "enable"
 }, {
   "id" : "mod-login-7.6.0-SNAPSHOT.100",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-5.2.1000232",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.6.0-SNAPSHOT.130",
+  "id" : "mod-search-1.6.0-SNAPSHOT.131",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.0.1-SNAPSHOT.66",
