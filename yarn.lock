@@ -1320,9 +1320,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^4.0.0":
-  version "4.0.1000192"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.1000192.tgz#821af6e0a761a9d32ab2143fee055f130393f00a"
-  integrity sha512-HYtQdGZ/gbsrtr6xjNin7w3kZsznOFlONXaxjCZvj3WPJdGfIGSAbnHJ/13d3zzi9FEU1O4BTC2g98VDQaGXdQ==
+  version "4.0.1000193"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.1000193.tgz#ef37939d6585a1442c09ce447e4fbc05d84edff3"
+  integrity sha512-kY+NgG3DZFTNkKBPUibwAgPTQfF8hfTn0XjnKXTQO5rd4reCW4HAZLGM37F+OILRhiEWv66DW+UZobiFVWiGDw==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1540,9 +1540,9 @@
     swr "^0.4.1"
 
 "@folio/stripes-final-form@~6.0.0":
-  version "6.0.10000023"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-6.0.10000023.tgz#8209b6cd5863d62614b02d2ace3178400f8b230d"
-  integrity sha512-Hpm295la5dusln5bc3mjiwt4fGDlwzWvr8wsdmuA6KmQrFxg2sXF58nRePV7CyKPaYhqlSwXUSbuOlHZtQMPAQ==
+  version "6.0.1000003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-6.0.1000003.tgz#76fefff61417c28f506eba4669f484fa4506e445"
+  integrity sha512-svyhfW2zszVKktTpG7V8LYuxxIvgrY3XF4sXDujVNppwWhHj1FcPBEb6nahoNI/bvGGd5174fzp8b7kCaivuJw==
   dependencies:
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
@@ -1627,9 +1627,9 @@
     minimist "^1.2.0"
 
 "@folio/stripes-util@~5.0.0":
-  version "5.0.10000012"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-5.0.10000012.tgz#52e117737a21e4fee41257c5c8dfa85f662afb9d"
-  integrity sha512-ohir4+ujfZZkgvk8rLD32oCGWQLJSObi/VwFo8xrVtfT+D20Y2TSj5p16C2ys5TklnU3wiV0IPbdhTIfrOaCHg==
+  version "5.0.1000003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-5.0.1000003.tgz#5a4ba855916c330926987dd30d54b6b9fbddc28f"
+  integrity sha512-GgRRWoxVJF5mCXsfnJ+2vis+y+MIgtgQ8n6caChJG8soFoPnRudhtJT13Gv13ypPTlPRIjhqZX57zspuYkJ5qw==
   dependencies:
     json2csv "^4.2.1"
     lodash "^4.17.4"
@@ -1706,9 +1706,9 @@
     webpack-virtual-modules "^0.1.10"
 
 "@folio/stripes@^7.0.0":
-  version "7.0.10000033"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-7.0.10000033.tgz#8f70fb0a9f04ad8eddeca595fea73574418c46be"
-  integrity sha512-dOAPp/4ELepDvXmJNvHu/zTblObTGIpR+aTU/MqfpGIMVGUVMQzoiyzPgt0j2LLTulXrzWRF2vv4F9LNe8LLUg==
+  version "7.0.1000003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-7.0.1000003.tgz#dae4b21fbdf9ef54c59f856104d7f62d44242e1d"
+  integrity sha512-c9zIA2Ywv/KMuNm07XELa3jxGV+X94Bo6b7yKcpsHOO55eezh4uCfzqp2UnyB1aviVr7HzD3Ucd+nAljNwudYw==
   dependencies:
     "@folio/stripes-components" "~10.0.0"
     "@folio/stripes-connect" "~7.0.0"
