@@ -8,7 +8,7 @@
   "id" : "folio_calendar-7.0.1000128",
   "action" : "enable"
 }, {
-  "id" : "mod-users-18.2.0-SNAPSHOT.175",
+  "id" : "mod-users-18.2.0-SNAPSHOT.177",
   "action" : "enable"
 }, {
   "id" : "mod-login-7.6.0-SNAPSHOT.100",
@@ -47,7 +47,7 @@
   "id" : "mod-patron-blocks-1.5.0-SNAPSHOT.59",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-2.13.0",
+  "id" : "mod-notes-2.14.0-SNAPSHOT.180",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-22.1.0-SNAPSHOT.891",
@@ -107,7 +107,7 @@
   "id" : "folio_servicepoints-6.0.100094",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.2.0",
+  "id" : "mod-password-validator-2.3.0-SNAPSHOT.47",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.10.0-SNAPSHOT.92",
