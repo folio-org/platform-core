@@ -1158,9 +1158,9 @@
     "@folio/plugin-find-user" "^5.0.0"
 
 "@folio/circulation@>=1.3.0":
-  version "6.0.1000751"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-6.0.1000751.tgz#5a6a50c683254077ab54588f291d93f60ee5f796"
-  integrity sha512-AOeHCTuLzsYZKqX6GNHIChYw5ecjIKQC0Zf/V2tL3FRTO14iLYvx3HsCYnRaKkfpnlGqykboGWdmg+MsvQRSnQ==
+  version "6.0.1000754"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-6.0.1000754.tgz#75d45a26a876e27b44221807c2d13a9294932af3"
+  integrity sha512-ItQmVJOm0vTTFgXWFrlXokBDbljU/yeu5igwyKsI+s1at3Hgsy5FERw4IuP6HQ/zeiK4UyB52MW4D9vHAJZECQ==
   dependencies:
     "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
@@ -4816,9 +4816,9 @@ date-arithmetic@^4.0.1:
   integrity sha512-QWxYLR5P/6GStZcdem+V1xoto6DMadYWpMXU82ES3/RfR3Wdwr3D0+be7mgOJ+Ov0G9D5Dmb9T17sNLQYj9XOg==
 
 date-fns@^2.16.1:
-  version "2.24.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/date-fns/-/date-fns-2.24.0.tgz#7d86dc0d93c87b76b63d213b4413337cfd1c105d"
-  integrity sha512-6ujwvwgPID6zbI0o7UbURi2vlLDR9uP26+tW6Lg+Ji3w7dd0i3DOcjcClLjLPranT60SSEFBwdSyYwn/ZkPIuw==
+  version "2.25.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/date-fns/-/date-fns-2.25.0.tgz#8c5c8f1d958be3809a9a03f4b742eba894fc5680"
+  integrity sha512-ovYRFnTrbGPD4nqaEqescPEv1mNwvt+UTqI3Ay9SzNtey9NZnYu6E2qCcBBgJ6/2VF1zGGygpyTDITqpQQ5e+w==
 
 date-format@^2.1.0:
   version "2.1.0"
