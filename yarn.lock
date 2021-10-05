@@ -1194,9 +1194,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "5.2.1000233"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-5.2.1000233.tgz#e8e76dc285cfc8a8d5e419650e2e8e262c7a7a2c"
-  integrity sha512-DIEElA+YdWOoQlGRISY7AAdfW6ap24WRW94k7Iu7kTshrklQWSSuHPi3PB4uEzgo/4o+V/N6SVFPo6iOETBDJg==
+  version "6.0.1000234"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.0.1000234.tgz#ce681f8814d56d78473bbd3883ecc3e453773f6a"
+  integrity sha512-G/LUBzOgFct1pxA+IfKWzOosnjaqV8kd1nCjm2OEUdtxyJvXGjj7UYnIlgrzX5yQsRNBCiq4jzuhbzVrsGXI5g==
   dependencies:
     chart.js "^2.9.4"
     lodash "^4.17.4"
@@ -1222,9 +1222,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "8.0.10001316"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-8.0.10001316.tgz#0429cf7d8e87953ad4f5464d00f6f37451e46172"
-  integrity sha512-BRJvC+K3Wf1G73PCUTxT5O6FVBaxSOJFQiQVcx7VLTbxTm+LTMkYifnhK+05QLU8T8dLL8XrCH+nnbuV0F8OWw==
+  version "8.0.10001317"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-8.0.10001317.tgz#e03149901b5648ca2c15587a31591a6537be9d78"
+  integrity sha512-WuOz9HTXPnLpxxxBFCTtKorYVq6ZRFDpvhslq0fbc1bSx3wavkfsjKXa1t5EqidUmb5e513bzV7kbcZHQgDcnw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
