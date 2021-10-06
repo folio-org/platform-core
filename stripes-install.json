@@ -52,7 +52,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-8.0.100000126",
+    "id": "folio_stripes-core-8.0.1000003",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-7.0.10000013",
+    "id": "folio_users-7.0.10000019",
     "action": "enable"
   }
 ]

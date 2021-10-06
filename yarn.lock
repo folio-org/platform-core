@@ -1458,9 +1458,9 @@
     uuid "^8.3.2"
 
 "@folio/stripes-core@~8.0.0":
-  version "8.0.100000126"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.0.100000126.tgz#7e2af908b2cadd1c0a8d7a2822e4b9cf86acf971"
-  integrity sha512-EHrFx5YpXxLeVbaoMLtgWVtqV94ev6/IuZJFiL0mR/+WuJN6QaHXe9cGX2xor6suNkpT9H26SlmBpkebWIU4BA==
+  version "8.0.1000003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.0.1000003.tgz#34c102c1ed741f88b1eb8eb77376918ccbd201f2"
+  integrity sha512-188bKJf1w8bewN/RFC7NlFE25LwhiaYeJz28I05PV2s3oUd/UPiHl9OwrAvOcrM51I4+UmdgmLlgKEbH3HAIQg==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@formatjs/intl-displaynames" "^2.2.3"
@@ -1702,9 +1702,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "7.0.10000013"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.10000013.tgz#3e1c63afea62e70db1121ea0822fe8c89a44f8f9"
-  integrity sha512-YHlYXE3EbDjdSlc5p+ZwU6vavh9lYsakf5aeDh6k9TQOLo9JmawVfWV+kIuC3pVW450NtgKDD/1J8BZ2OVe8yw==
+  version "7.0.10000019"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.10000019.tgz#596f9223fa4b99c88a501844ad0bc1a5cd063b99"
+  integrity sha512-ngyKnkuIqT6qUWi+otYx+GFkojcoDxAVdESc0ZSXU5nqtUJftgVxCIFs9uT/iTYs0OEOVzjbml57zJLU9DO2ZQ==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
