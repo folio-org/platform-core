@@ -68,7 +68,7 @@
   "id" : "folio_circulation-6.0.1000757",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-6.0.1000234",
+  "id" : "folio_developer-6.0.1000235",
   "action" : "enable"
 }, {
   "id" : "mod-search-1.6.0-SNAPSHOT.132",
@@ -116,7 +116,7 @@
   "id" : "mod-users-bl-7.2.0-SNAPSHOT.107",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-8.0.1000003",
+  "id" : "folio_stripes-core-8.0.1000007",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-smart-components-7.0.1000008",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.0.1000234",
   "action" : "enable"
 }, {
-  "id" : "folio_users-7.0.10000030",
+  "id" : "folio_users-7.0.10000037",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.2.0-SNAPSHOT.90",
