@@ -1326,9 +1326,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/search@>=1.3.0":
-  version "5.0.1000227"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-5.0.1000227.tgz#c21788f25e830ebe6120d5ac087e113ba7a8a6cb"
-  integrity sha512-sLBBNR9/zVAUN2wrhwU1dMeE8Wr1oG8cx6NytTk3iFKrgCkZ2LsWxrK0y6dVHSKx/cASns4826HiKzcVzbpoCQ==
+  version "5.0.1000228"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-5.0.1000228.tgz#6c4c4b78403fcc954179a3c50527863b196e2e03"
+  integrity sha512-pdIn4ftK1BZO18UbhXbrJVYoOyzArkoODOLbgbVVRaiwRIvFaaoFN8pdkAel2kOXxu4G9jOKxuqU/ix+k1GjHQ==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
@@ -1535,9 +1535,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.0.0":
-  version "7.0.10000074"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.0.10000074.tgz#89713000d8fe56ba4dee2e52b951a4a1925bbea8"
-  integrity sha512-9nL1hciIqRmlbKJ4Jh5WWR/F6rZl1iqjnzRIasPD3Gda/HqPwutqzRWz9J29WgJj7TUhiEyQ4fb1jwcpzx23kw==
+  version "7.0.1000005"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.0.1000005.tgz#d22873725d606c266f6ea93e319c6ec6b86c82d9"
+  integrity sha512-oM5mR52J5rzyyO5DTQJzsAflBMKvyF+mXemKX2uYeAdYOwxyb3+kLVJqWRfw3F2V0dV+KEBmLsB3PoVhh5st6w==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "2.4.0"
@@ -1702,9 +1702,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "7.0.10000026"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.10000026.tgz#07fc9ed442b5cbb7851dd0b03d986012828a94ae"
-  integrity sha512-alO4nAD5qfHPmL3xLZGeFcAtj7QL5rkHPOBwBpP9O6erzoH1mQItBTisLXZ02QW3/dPvr1/RhTritFQHKXk2Gw==
+  version "7.0.10000030"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.10000030.tgz#585a48127eaa37b38fbbab7db8ed053f78d74ff9"
+  integrity sha512-4nALqYnFzn9yuC7qlxu93w1pAJy+X2pZW4KqvW2E+ezkL1LGySJpKU1oCensxsw4u8fxDiqt1tUrXecqs00NEg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
