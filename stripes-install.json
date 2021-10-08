@@ -1,74 +1,74 @@
 [
   {
-    "id": "folio_calendar-6.1.2",
+    "id": "folio_calendar-7.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_checkin-5.1.0",
+    "id": "folio_checkin-6.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_checkout-6.1.2",
+    "id": "folio_checkout-7.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_circulation-5.1.1",
+    "id": "folio_circulation-6.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_developer-5.2.2",
+    "id": "folio_developer-6.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_inventory-7.1.4",
+    "id": "folio_inventory-8.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_myprofile-5.0.0",
+    "id": "folio_myprofile-6.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-create-inventory-records-2.1.0",
+    "id": "folio_plugin-create-inventory-records-3.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-instance-5.1.1",
+    "id": "folio_plugin-find-instance-6.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-user-5.0.1",
+    "id": "folio_plugin-find-user-6.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_requests-5.1.2",
+    "id": "folio_requests-6.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_search-4.1.0",
+    "id": "folio_search-5.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_servicepoints-5.0.1",
+    "id": "folio_servicepoints-6.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-7.2.0",
+    "id": "folio_stripes-core-8.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-6.1.2",
+    "id": "folio_stripes-smart-components-7.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_tags-5.0.1",
+    "id": "folio_tags-6.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-6.1.2",
+    "id": "folio_tenant-settings-7.0.0",
     "action": "enable"
   },
   {
-    "id": "folio_users-6.1.4",
+    "id": "folio_users-7.0.1",
     "action": "enable"
   }
 ]
