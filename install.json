@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.0.1000235",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.6.0-SNAPSHOT.133",
+  "id" : "mod-search-1.6.0-SNAPSHOT.134",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.0.1-SNAPSHOT.66",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.0.1000235",
   "action" : "enable"
 }, {
-  "id" : "folio_users-7.0.10000075",
+  "id" : "folio_users-7.0.10000060",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.2.0-SNAPSHOT.90",
