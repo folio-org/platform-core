@@ -65,10 +65,10 @@
   "id" : "folio_checkout-7.0.1000575",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-6.0.1000762",
+  "id" : "folio_circulation-6.0.1000763",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-6.0.1000235",
+  "id" : "folio_developer-6.0.1000236",
   "action" : "enable"
 }, {
   "id" : "mod-search-1.6.0-SNAPSHOT.134",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.2.1-SNAPSHOT.266",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-8.0.10001320",
+  "id" : "folio_inventory-8.0.10001321",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-6.0.1000127",
