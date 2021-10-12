@@ -1414,9 +1414,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.0.0":
-  version "10.0.10000059"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.0.10000059.tgz#8e791f083241154e0568647ea1e56444e9d66666"
-  integrity sha512-KeI1K7Fob8v82lZTWuJsf3ChyxdzB/LVhta0SnG+6o3lB2UwcRgl8LhhpnLOQvvB7uP1VPtT8N1/KrnGfohVvQ==
+  version "10.0.10000072"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.0.10000072.tgz#64f7fab74653f43af6b9be14bcdd60586ad2293b"
+  integrity sha512-BbOiQnwqt4IPs60CLgbBunblQES8M5iyyfC89PmySKkbhbdQf67/SA72XDYiZmmhiwHj8gMRvGGfI93NGo1pgw==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -5219,9 +5219,9 @@ ejs@^2.2.4:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.3.857:
-  version "1.3.866"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.866.tgz#d446338f5ad6948b27a50739760e7b0b5cc5032f"
-  integrity sha512-iYze6TpDXWxk+sfcpUUdTs6Pv/3kG45Pnjer2DxEeFw0N08bZeNLuz97s2lMgy8yObon48o0WHY2Bkg3xuAPOA==
+  version "1.3.867"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.867.tgz#7cb484db4b57c28da0b65c51e434c3a1f3f9aa0d"
+  integrity sha512-WbTXOv7hsLhjJyl7jBfDkioaY++iVVZomZ4dU6TMe/SzucV6mUAs2VZn/AehBwuZMiNEQDaPuTGn22YK5o+aDw==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
