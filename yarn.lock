@@ -1158,9 +1158,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/circulation@>=1.3.0", "@folio/circulation@^6.0.0":
-  version "6.0.1000763"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-6.0.1000763.tgz#044f8ad685638958e994f8d9f2d7c147f77d34d2"
-  integrity sha512-P/hfT4m9crLH0eSVGLberbNLp7Wj+ts7VExNeywM2Xeec3MVFkmbr+z98KIeTqqG9qfDQeiP3/CTKtIEquhH4Q==
+  version "6.0.1000764"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-6.0.1000764.tgz#49536a6e978d672432ca2553abf6d5c7396c9bf4"
+  integrity sha512-Y5VDscohHn7Iu7eWTFNHAGjKOJ4uA1GcyyKQp+dKfUWJaai1L9dvXlMDL2HaCC61ejzkspUk9G5u70tsp1yaMw==
   dependencies:
     "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
@@ -1204,9 +1204,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "8.0.10001321"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-8.0.10001321.tgz#247c8f02b28e86184b8ba52ab96cdbe8f38f1a41"
-  integrity sha512-FTROAlSruGeAKLg2ThE56rLKEVhNzSe+L5Qn7rddjN/NTaw1KEfvMZuaEDD0/CmLguoAaH5nBYvbB7yTTVlZhw==
+  version "8.0.10001322"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-8.0.10001322.tgz#d5f89560934ac18c390efbffe1c1ed92b009d18a"
+  integrity sha512-GkhXx8+ml9HRKYpN+4iVKA5tM4nSHlzIwMrYRgJkwPZ2Maez31QQRBMfmYOcDW+yVOC8HQ+33TOC5TOdG4bI2Q==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
