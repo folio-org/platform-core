@@ -1108,9 +1108,9 @@
   integrity sha512-50M5zC0xjEE9maNayWNNUKatR6NSEPrwNOVjEZKVRL3n3DdNwBV5OIE2xuwVIaWz1Wgbdg/lsojLefRNzOIapA==
 
 "@folio/calendar@>=2.0.5":
-  version "7.0.1000128"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-7.0.1000128.tgz#4cd20b386776bf00f5502381eae6740bb019bd7b"
-  integrity sha512-XgzEyQ869IgqShGIleHQLX/bqtxyvnoKSdHmqg+zxYV8F+96lkH1uxPRHJNK87v6h2qybxcWVbm186cvA6kxog==
+  version "7.0.1000129"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-7.0.1000129.tgz#2dea4787aaf49a0266d5ff2e99e5e2ce6ba95df1"
+  integrity sha512-EuQtdfAY+Ur7uoBLGvSnC+jYPXNcUxeGVt/imRCh82OaWa5zjr5lfEBUyLS1rFbzMJjGNN9WtLrye1hJGn9RGg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     lodash "^4.17.5"
@@ -1257,9 +1257,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-instance@>=1.1.0", "@folio/plugin-find-instance@^6.0.0":
-  version "6.0.100087"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-6.0.100087.tgz#32dde958f2142e6dd10efef8dd9c2fb6dc97d14f"
-  integrity sha512-P+3rnbZgQ3NbpclhhYUaFgJmGheQIepJcjYUkk6ZY852e0WsUIuTKWkezmXHwXtxJsaI6rqAnE8Z0mk3SLZ/ug==
+  version "6.0.100088"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-6.0.100088.tgz#5052894935e65bda99186177545f8855c6763c8a"
+  integrity sha512-WoewQD7YgHb0kT3uVdI8xmpWIaRI2G3Cy4qdrquOcHxmyqLbW4Z8trLaIz8qB244PzS8SHoZo+OiVK5yHjWnNQ==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
@@ -1688,9 +1688,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "7.0.1000235"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.0.1000235.tgz#0cbbbf51d227d6cbbbad3569212d39518482f1c6"
-  integrity sha512-A/KXEsq/yz+2gDTXrApL4Sujc15WkdHwW5lpbh4pathIUTLgrXsLyVugT8lrvpxeYs20CdcUFGoRW3SMqzjDDw==
+  version "7.0.1000236"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.0.1000236.tgz#92a473c9f196227f51eb72131afd7c32fcc942bc"
+  integrity sha512-psg6wP4r3k5Elr7wjpVdZaNIjHulFA9L8vthBMfDkFS5I/hqSF7XJ+FvCp2eG+RiQVjPgaV+eCzu7dDHPEY7Bg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"

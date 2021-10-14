@@ -1,6 +1,6 @@
 [
   {
-    "id": "folio_calendar-7.0.1000128",
+    "id": "folio_calendar-7.0.1000129",
     "action": "enable"
   },
   {
@@ -32,7 +32,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-instance-6.0.100087",
+    "id": "folio_plugin-find-instance-6.0.100088",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-7.0.1000235",
+    "id": "folio_tenant-settings-7.0.1000236",
     "action": "enable"
   },
   {
