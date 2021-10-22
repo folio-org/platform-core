@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.12.0",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-21.0.8",
+  "id" : "mod-inventory-storage-21.0.9",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-6.1.2",
@@ -56,7 +56,7 @@
   "id" : "mod-notes-2.12.0",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-22.0.4",
+  "id" : "mod-circulation-22.0.5",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-5.1.0",
@@ -86,7 +86,7 @@
   "id" : "folio_plugin-create-inventory-records-2.1.0",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-5.1.1",
+  "id" : "folio_plugin-find-instance-5.1.2",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-5.0.1",
