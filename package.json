@@ -26,7 +26,7 @@
     "@folio/inventory": "7.1.4",
     "@folio/myprofile": "5.0.0",
     "@folio/plugin-create-inventory-records": "2.1.0",
-    "@folio/plugin-find-instance": "5.1.1",
+    "@folio/plugin-find-instance": "5.1.2",
     "@folio/plugin-find-user": "5.0.1",
     "@folio/requests": "5.1.2",
     "@folio/search": "4.1.0",
@@ -56,7 +56,7 @@
   "resolutions": {
     "final-form": "4.20.1",
     "@folio/plugin-create-inventory-records": "2.1.0",
-    "@folio/plugin-find-instance": "5.1.1",
+    "@folio/plugin-find-instance": "5.1.2",
     "@folio/plugin-find-user": "5.0.1",
     "@folio/react-intl-safe-html": "3.0.0",
     "@folio/stripes-cli": "^2.1.0",
