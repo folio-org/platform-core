@@ -28,23 +28,23 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-create-inventory-records-3.0.100075",
+    "id": "folio_plugin-create-inventory-records-3.0.1000003",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-instance-6.0.100088",
+    "id": "folio_plugin-find-instance-6.0.1000003",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-user-6.0.1000151",
+    "id": "folio_plugin-find-user-6.0.1000003",
     "action": "enable"
   },
   {
-    "id": "folio_requests-6.0.1000680",
+    "id": "folio_requests-6.0.1000003",
     "action": "enable"
   },
   {
-    "id": "folio_search-5.0.1000232",
+    "id": "folio_search-5.0.1000005",
     "action": "enable"
   },
   {
