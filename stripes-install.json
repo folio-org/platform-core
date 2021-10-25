@@ -1,6 +1,6 @@
 [
   {
-    "id": "folio_calendar-7.0.1000130",
+    "id": "folio_calendar-7.0.1000003",
     "action": "enable"
   },
   {
@@ -8,11 +8,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkout-7.0.1000575",
+    "id": "folio_checkout-7.0.1000003",
     "action": "enable"
   },
   {
-    "id": "folio_circulation-6.0.1000766",
+    "id": "folio_circulation-6.0.1000003",
     "action": "enable"
   },
   {
