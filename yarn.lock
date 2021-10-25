@@ -1176,9 +1176,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "6.0.1000237"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.0.1000237.tgz#4690042a34a9f70cb66a4cbb507599bfce318e52"
-  integrity sha512-KLXHjQbK3iOXULW/Cj/7ZCCcTlonQhaWeiWDVu3doJhhZKyTurPPxRgTFqauDlOfimp41Z7TGwPaiQYVGp2J6A==
+  version "6.0.1000003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.0.1000003.tgz#440bd6ad757ceabe44aaa058a49b7525f6f68b50"
+  integrity sha512-tv3P5db/m8JMPviOoKg+Jy5HxpxIf/+bjjIcTZA3GLyncm87xqSC+3PpdbAOz57JH9K1GE+vGYnDXP9cYjsVDw==
   dependencies:
     chart.js "^2.9.4"
     lodash "^4.17.4"
@@ -1234,9 +1234,9 @@
     "@folio/quick-marc" "^5.0.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "6.0.1000128"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-6.0.1000128.tgz#785f72d2a4a7a4120aab302c705f0fe1c42676e6"
-  integrity sha512-kH9W/j5fmN87adxxK948wMhPGX2Cq1yOMpWffnDI7MKfBej/Wvi+V0Mu3l99/raGY+J9OVzJpxNLVmN+tjgDTQ==
+  version "6.0.1000003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-6.0.1000003.tgz#2f3077f05342852019ca1430b71de7bfcd25dbea"
+  integrity sha512-NDeULxJFSccsUP+6Y6x0kFjvu7CYWuYcFzosacIdbnOeufkllW5Hqbf0+oJINbxl8HVPZ6dGzqh4zY0beuUEIw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     prop-types "^15.6.0"
@@ -8055,9 +8055,9 @@ jsontoxml@^1.0.1:
   integrity sha512-dtKGq0K8EWQBRqcAaePSgKR4Hyjfsz/LkurHSV3Cxk4H+h2fWDeaN2jzABz+ZmOJylgXS7FGeWmbZ6jgYUMdJQ==
 
 jspdf-autotable@^3.5.14:
-  version "3.5.22"
-  resolved "https://repository.folio.org/repository/npm-ci-all/jspdf-autotable/-/jspdf-autotable-3.5.22.tgz#eb248b17dc8c9a8cdf2aa0627d2b888a6dbee9c3"
-  integrity sha512-TMmoALEgwGJDzEjYzG2CFWCSFWskjIGSIpyODUzreNu+2wU7BxA8KQ+CQfIzkZMlrPjj6mETsz6HVbwD2B9xdQ==
+  version "3.5.23"
+  resolved "https://repository.folio.org/repository/npm-ci-all/jspdf-autotable/-/jspdf-autotable-3.5.23.tgz#c46448ef93b51fc958feb6a2974257dde63c8f79"
+  integrity sha512-uIYxQsdKrDdbhygEFlbTVoaxawZMZXMasAOryQ1oMFTragcxLhhWIfc8peLCBXuB7fJ5SICtPZ2De7Pk7eS8SQ==
 
 jspdf@^2.3.1:
   version "2.4.0"
