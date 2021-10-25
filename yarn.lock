@@ -1330,9 +1330,9 @@
     react-hot-loader "^4.3.12"
 
 "@folio/servicepoints@>=1.1.0":
-  version "6.0.100095"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-6.0.100095.tgz#642e1a41e775765a51b8e40b180c75eb339970ac"
-  integrity sha512-Q6/Xs74EM/wTE1eJm3Zd2KpLYicG2jV1TKWzAyV8LhZJ9jAQmNqtdLm1HL0BHlxRDj7Q95F6UeJCYmTAe8S9Ag==
+  version "6.0.1000003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-6.0.1000003.tgz#3eb9c9f9c94c0a00d7f80cfa74a49778e60199f3"
+  integrity sha512-oqSuAmST7ymf+WFFoGTsMH79fwVmAwQ/Hls3AYGgPX9cUnNy1X7UFW5i99byZGP3xe7bnHXZMYYE7W2NGI/65w==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     lodash "^4.17.4"
@@ -1675,9 +1675,9 @@
     redux "~4.0.0"
 
 "@folio/tags@>=1.1.0":
-  version "6.0.100093"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-6.0.100093.tgz#af3e042b8716a842e1f7d6692f8956ec4bf315c9"
-  integrity sha512-3RNm5Tm2aL4n7GGVEsLfpVffT+zLTsCTL/wDiFyR0Q8mQtcF8B+PbtTrBMnlGLocLgiSCQIYp7kbQ7PUaJllKA==
+  version "6.0.1000003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-6.0.1000003.tgz#588d85049f10604a8a24d75396fd259aa4d256a4"
+  integrity sha512-pdaKuOF9FKyzMM9cBCKAP2lTu1gxyx3H05L3xaAQFamP+DLcCr0FxwC6vSLyFHcvkZGn6c/FEJRMrDOQr7ZNXA==
   dependencies:
     prop-types "^15.5.10"
     redux-form "^8.3.7"
