@@ -77,10 +77,10 @@
   "id" : "mod-tags-1.0.1-SNAPSHOT.66",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-4.3.0-SNAPSHOT.273",
+  "id" : "mod-data-export-4.3.0-SNAPSHOT.274",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-8.0.10000020",
+  "id" : "folio_inventory-9.0.10000036",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-6.0.1000003",
