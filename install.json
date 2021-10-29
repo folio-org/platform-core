@@ -20,7 +20,7 @@
   "id" : "mod-pubsub-2.5.0-SNAPSHOT.172",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-13.2.0-SNAPSHOT.292",
+  "id" : "mod-circulation-storage-13.2.0-SNAPSHOT.293",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.2.0-SNAPSHOT.49",
@@ -74,7 +74,7 @@
   "id" : "mod-search-1.6.0-SNAPSHOT.139",
   "action" : "enable"
 }, {
-  "id" : "mod-tags-1.0.1-SNAPSHOT.66",
+  "id" : "mod-tags-1.0.1-SNAPSHOT.67",
   "action" : "enable"
 }, {
   "id" : "mod-data-export-4.3.0-SNAPSHOT.275",
@@ -89,7 +89,7 @@
   "id" : "folio_plugin-create-inventory-records-3.0.1000003",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-6.0.10000020",
+  "id" : "folio_plugin-find-instance-6.0.10000028",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-6.0.1000003",
