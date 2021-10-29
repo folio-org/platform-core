@@ -70,5 +70,21 @@
   {
     "id": "folio_users-7.0.1",
     "action": "enable"
+  },
+  {
+    "id": "edge-caiasoft-1.1.0",
+    "action": "enable"
+  },
+  {
+    "id": "edge-dematic-1.3.0",
+    "action": "enable"
+  },
+  {
+    "id": "edge-oai-pmh-2.4.0",
+    "action": "enable"
+  },
+  {
+    "id": "edge-sip2-2.1.0",
+    "action": "enable"
   }
 ]
