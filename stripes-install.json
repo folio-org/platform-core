@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-6.0.10000020",
+    "id": "folio_requests-6.0.10000023",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-7.0.100000161",
+    "id": "folio_users-7.0.100000166",
     "action": "enable"
   }
 ]
