@@ -1691,9 +1691,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "7.0.10000036"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.0.10000036.tgz#6cb50d16fde66f8f93ae434d6a668dfe44797741"
-  integrity sha512-0nqHUWogF0NLOk5w6s/mFKXpc4PivA4RE3fSufrAlf1ZYireb6CFDpzhyxjLVJzUEYGZOb3Z8yVy4gwummvBxA==
+  version "7.0.10000043"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.0.10000043.tgz#9914a9bc3ac98468666a99d10274b0427ebcf7e3"
+  integrity sha512-/0el9ZRfyRpHpOjXcSIKgULKsYYzIdRC2q3Ln0gZtLewoGlb0ZsJkUvPhjRa7ul07HuI+fY6CjWeYuM3a5aTIQ==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     final-form "^4.18.2"
