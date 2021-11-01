@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-9.0.10000064",
+    "id": "folio_inventory-9.0.10000068",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-6.0.10000027",
+    "id": "folio_requests-6.0.10000031",
     "action": "enable"
   },
   {
@@ -56,7 +56,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-7.0.10000032",
+    "id": "folio_stripes-smart-components-7.0.10000036",
     "action": "enable"
   },
   {
