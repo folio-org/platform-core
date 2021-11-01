@@ -16,6 +16,10 @@
     "action": "enable"
   },
   {
+    "id": "folio_data-export-5.0.0",
+    "action": "enable"
+  },
+  {
     "id": "folio_developer-6.0.0",
     "action": "enable"
   },
