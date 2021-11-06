@@ -23,7 +23,7 @@
     "@folio/checkout": "7.0.0",
     "@folio/circulation": "6.0.0",
     "@folio/developer": "6.0.0",
-    "@folio/inventory": "8.0.2",
+    "@folio/inventory": "8.0.3",
     "@folio/myprofile": "6.0.0",
     "@folio/plugin-create-inventory-records": "3.0.0",
     "@folio/plugin-find-instance": "6.0.0",
