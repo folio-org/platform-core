@@ -71,10 +71,10 @@
   "id" : "folio_developer-6.0.10000025",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.6.0-SNAPSHOT.142",
+  "id" : "mod-search-1.6.0-SNAPSHOT.143",
   "action" : "enable"
 }, {
-  "id" : "mod-tags-1.0.1-SNAPSHOT.68",
+  "id" : "mod-tags-1.0.2-SNAPSHOT.69",
   "action" : "enable"
 }, {
   "id" : "mod-data-export-4.3.0-SNAPSHOT.277",
