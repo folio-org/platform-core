@@ -1130,9 +1130,9 @@
     redux-form "^8.3.7"
 
 "@folio/checkin@>=1.3.0":
-  version "6.0.10000015"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-6.0.10000015.tgz#8145efa3c7481cfd191ffcb5114725293bbeed0b"
-  integrity sha512-uuwNdfllDLM06uAS+CDy6p1lIA30FtaTg4XeqLNpeV5+hDWhalXyI8RimqKJm47ZeiUcVNtW8ep2kfDjfC+fEQ==
+  version "6.0.10000019"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-6.0.10000019.tgz#b93a88a67b5c47e5aa751bfde369d6a33070ca4a"
+  integrity sha512-T5r8GimtSJsPo6OQuhq+kwH+u6vPtxQKNNtVVQrwkSnLuddA9GmtclrOCZwTMgRlZRSYgL+HCw78ZV/6kjQ7QA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     dateformat "^2.0.0"
