@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-22.1.0-SNAPSHOT.620",
+    "id": "mod-inventory-storage-22.1.0-SNAPSHOT.621",
     "action": "enable"
   },
   {
@@ -24,7 +24,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-13.2.0-SNAPSHOT.293",
+    "id": "mod-circulation-storage-13.2.0-SNAPSHOT.294",
     "action": "enable"
   },
   {
@@ -104,7 +104,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-login-saml-2.4.0-SNAPSHOT.75",
+    "id": "mod-login-saml-2.4.0-SNAPSHOT.76",
     "action": "enable"
   },
   {
