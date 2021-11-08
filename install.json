@@ -26,7 +26,7 @@
   "id" : "mod-event-config-2.1.0",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.7.1",
+  "id" : "mod-configuration-5.7.2",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.15.0",
@@ -56,10 +56,10 @@
   "id" : "mod-source-record-storage-5.2.1",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.0.1",
+  "id" : "mod-inventory-18.0.2",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-6.0.0",
+  "id" : "folio_checkin-6.0.1",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-7.0.0",
@@ -74,7 +74,7 @@
   "id" : "mod-search-1.5.1",
   "action" : "enable"
 }, {
-  "id" : "mod-tags-1.0.0",
+  "id" : "mod-tags-1.0.1",
   "action" : "enable"
 }, {
   "id" : "mod-data-export-4.2.1",
