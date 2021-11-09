@@ -26,7 +26,7 @@
     "@folio/inventory": "8.0.4",
     "@folio/myprofile": "6.0.0",
     "@folio/plugin-create-inventory-records": "3.0.0",
-    "@folio/plugin-find-instance": "6.0.0",
+    "@folio/plugin-find-instance": "6.1.1",
     "@folio/plugin-find-user": "6.0.0",
     "@folio/requests": "6.0.0",
     "@folio/search": "5.0.0",
