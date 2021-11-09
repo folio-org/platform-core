@@ -50,7 +50,7 @@
   "id" : "mod-notes-2.14.0-SNAPSHOT.180",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-22.2.0-SNAPSHOT.899",
+  "id" : "mod-circulation-22.2.0-SNAPSHOT.900",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.3.0-SNAPSHOT.365",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-7.0.10000014",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-6.0.10000032",
+  "id" : "folio_circulation-6.0.10000042",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.0.10000025",
@@ -125,10 +125,10 @@
   "id" : "folio_tags-6.0.1000003",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.4.0-SNAPSHOT.76",
+  "id" : "mod-login-saml-2.4.0-SNAPSHOT.77",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-7.0.10000069",
+  "id" : "folio_tenant-settings-7.0.10000085",
   "action" : "enable"
 }, {
   "id" : "folio_users-7.0.100000200",
