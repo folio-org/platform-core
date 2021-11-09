@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.3.0-SNAPSHOT.277",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.0.10000084",
+  "id" : "folio_inventory-9.0.10000096",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-6.0.1000003",
@@ -89,7 +89,7 @@
   "id" : "folio_plugin-create-inventory-records-3.0.1000003",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-6.1.10000056",
+  "id" : "folio_plugin-find-instance-6.1.10000061",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-6.0.1000003",
