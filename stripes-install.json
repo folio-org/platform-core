@@ -1,6 +1,6 @@
 [
   {
-    "id": "folio_calendar-7.0.10000023",
+    "id": "folio_calendar-7.0.10000039",
     "action": "enable"
   },
   {
@@ -12,7 +12,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_circulation-6.0.10000042",
+    "id": "folio_circulation-6.0.10000046",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-9.0.10000099",
+    "id": "folio_inventory-9.0.100000103",
     "action": "enable"
   },
   {
@@ -36,11 +36,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-user-6.0.1000003",
+    "id": "folio_plugin-find-user-6.0.10000010",
     "action": "enable"
   },
   {
-    "id": "folio_requests-6.0.10000035",
+    "id": "folio_requests-6.0.10000039",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-7.0.10000085",
+    "id": "folio_tenant-settings-7.0.10000095",
     "action": "enable"
   },
   {
