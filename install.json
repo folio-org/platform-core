@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-22.1.0-SNAPSHOT.621",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-7.0.10000039",
+  "id" : "folio_calendar-7.0.10000043",
   "action" : "enable"
 }, {
   "id" : "mod-users-18.2.0-SNAPSHOT.178",
@@ -71,13 +71,13 @@
   "id" : "folio_developer-6.0.10000025",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.6.0-SNAPSHOT.144",
+  "id" : "mod-search-1.6.0-SNAPSHOT.145",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.0.2-SNAPSHOT.70",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-4.3.0-SNAPSHOT.279",
+  "id" : "mod-data-export-4.3.0-SNAPSHOT.280",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-9.0.100000103",
@@ -107,7 +107,7 @@
   "id" : "folio_servicepoints-6.0.1000003",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.3.0-SNAPSHOT.48",
+  "id" : "mod-password-validator-2.3.0-SNAPSHOT.49",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.10.0-SNAPSHOT.95",
