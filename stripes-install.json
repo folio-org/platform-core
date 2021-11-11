@@ -1,6 +1,6 @@
 [
   {
-    "id": "folio_calendar-7.0.10000049",
+    "id": "folio_calendar-7.0.10000053",
     "action": "enable"
   },
   {
@@ -64,11 +64,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-7.0.10000095",
+    "id": "folio_tenant-settings-7.0.100000113",
     "action": "enable"
   },
   {
-    "id": "folio_users-7.0.100000220",
+    "id": "folio_users-7.0.100000227",
     "action": "enable"
   }
 ]
