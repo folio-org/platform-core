@@ -71,16 +71,16 @@
   "id" : "folio_developer-6.0.0",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.5.1",
+  "id" : "mod-search-1.5.2",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.0.1",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-4.2.1",
+  "id" : "mod-data-export-4.2.2",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-8.0.4",
+  "id" : "folio_inventory-8.0.5",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-6.0.0",
