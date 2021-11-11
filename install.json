@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-22.1.0-SNAPSHOT.622",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-7.0.10000056",
+  "id" : "folio_calendar-7.0.10000059",
   "action" : "enable"
 }, {
   "id" : "mod-users-18.2.0-SNAPSHOT.178",
@@ -14,7 +14,7 @@
   "id" : "mod-login-7.6.0-SNAPSHOT.104",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-6.0.0-SNAPSHOT.123",
+  "id" : "mod-permissions-6.0.0-SNAPSHOT.124",
   "action" : "enable"
 }, {
   "id" : "mod-pubsub-2.5.0-SNAPSHOT.172",
@@ -59,13 +59,13 @@
   "id" : "mod-inventory-18.1.0-SNAPSHOT.445",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-6.0.10000019",
+  "id" : "folio_checkin-6.0.10000029",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-7.1.10000029",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-6.0.10000053",
+  "id" : "folio_circulation-6.0.10000058",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.0.10000035",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.0.100000113",
   "action" : "enable"
 }, {
-  "id" : "folio_users-7.0.100000232",
+  "id" : "folio_users-7.0.100000235",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.2.0-SNAPSHOT.90",
