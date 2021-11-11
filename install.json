@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.13.0",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-22.0.1",
+  "id" : "mod-inventory-storage-22.0.2",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-7.0.0",
@@ -107,7 +107,7 @@
   "id" : "folio_servicepoints-6.0.0",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.2.0",
+  "id" : "mod-password-validator-2.2.1",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.9.0",

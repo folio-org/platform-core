@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-22.0.1",
+    "id": "mod-inventory-storage-22.0.2",
     "action": "enable"
   },
   {
@@ -92,7 +92,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-password-validator-2.2.0",
+    "id": "mod-password-validator-2.2.1",
     "action": "enable"
   },
   {
