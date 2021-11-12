@@ -1,5 +1,37 @@
 [
   {
+    "id": "mod-organizations-storage-4.1.0",
+    "action": "enable"
+  },
+  {
+    "id": "mod-finance-storage-8.0.1",
+    "action": "enable"
+  },
+  {
+    "id": "mod-finance-4.3.1",
+    "action": "enable"
+  },
+  {
+    "id": "mod-orders-storage-13.1.0",
+    "action": "enable"
+  },
+  {
+    "id": "mod-orders-12.2.1",
+    "action": "enable"
+  },
+  {
+    "id": "mod-invoice-storage-5.2.0",
+    "action": "enable"
+  },
+  {
+    "id": "mod-invoice-5.2.1",
+    "action": "enable"
+  },
+  {
+    "id": "mod-data-import-converter-storage-1.12.0",
+    "action": "enable"
+  },
+  {
     "id": "mod-calendar-1.13.0",
     "action": "enable"
   },
@@ -109,6 +141,14 @@
   },
   {
     "id": "mod-codex-inventory-2.1.0",
+    "action": "enable"
+  },
+  {
+    "id": "mod-source-record-manager-3.2.4",
+    "action": "enable"
+  },
+  {
+    "id": "mod-data-import-2.2.0",
     "action": "enable"
   }
 ]
