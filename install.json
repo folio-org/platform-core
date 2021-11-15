@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-22.0.2",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-7.0.1",
+  "id" : "folio_calendar-7.0.2",
   "action" : "enable"
 }, {
   "id" : "mod-users-18.1.1",
@@ -47,16 +47,16 @@
   "id" : "mod-patron-blocks-1.4.0",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-2.13.0",
+  "id" : "mod-notes-2.13.1",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-22.1.1",
+  "id" : "mod-circulation-22.1.2",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.2.2",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.0.2",
+  "id" : "mod-inventory-18.0.3",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-6.0.1",
@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-6.0.0",
+  "id" : "folio_requests-6.0.2",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.11.0",
@@ -107,7 +107,7 @@
   "id" : "folio_servicepoints-6.0.0",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.2.1",
+  "id" : "mod-password-validator-2.2.2",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.9.0",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.0.1",
   "action" : "enable"
 }, {
-  "id" : "folio_users-7.0.2",
+  "id" : "folio_users-7.0.4",
   "action" : "enable"
 }, {
   "id" : "okapi-4.8.2",
