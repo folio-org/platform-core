@@ -18,12 +18,12 @@
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
-    "@folio/calendar": "7.0.0",
+    "@folio/calendar": "7.0.1",
     "@folio/checkin": "6.0.1",
     "@folio/checkout": "7.1.0",
     "@folio/circulation": "6.0.0",
     "@folio/developer": "6.0.0",
-    "@folio/inventory": "8.0.5",
+    "@folio/inventory": "8.0.6",
     "@folio/myprofile": "6.0.0",
     "@folio/plugin-create-inventory-records": "3.0.0",
     "@folio/plugin-find-instance": "6.1.1",
@@ -33,7 +33,7 @@
     "@folio/servicepoints": "6.0.0",
     "@folio/stripes": "7.0.1",
     "@folio/tags": "6.0.0",
-    "@folio/tenant-settings": "7.0.0",
+    "@folio/tenant-settings": "7.0.1",
     "@folio/users": "7.0.2",
     "moment": "~2.29.0",
     "react": "~17.0.2",
