@@ -24,6 +24,22 @@
     "action": "enable"
   },
   {
+    "id": "folio_export-manager-2.0.0",
+    "action": "enable"
+  },
+  {
+    "id": "folio_data-export-5.0.0",
+    "action": "enable"
+  },
+  {
+    "id": "folio_oai-pmh-3.0.0",
+    "action": "enable"
+  },
+  {
+    "id": "folio_plugin-bursar-export-2.0.1",
+    "action": "enable"
+  },
+  {
     "id": "folio_myprofile-6.0.0",
     "action": "enable"
   },
@@ -69,6 +85,18 @@
   },
   {
     "id": "folio_users-7.0.2",
+    "action": "enable"
+  },
+  {
+    "id": "edge-dematic-1.3.0",
+    "action": "enable"
+  },
+  {
+    "id": "edge-caiasoft-1.1.0",
+    "action": "enable"
+  },
+  {
+    "id": "edge-oai-pmh-2.4.0",
     "action": "enable"
   }
 ]
