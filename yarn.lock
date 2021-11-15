@@ -1689,9 +1689,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "7.0.100000113"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.0.100000113.tgz#c5f32252e58cc8e350e4ba7aab4b773c3537d995"
-  integrity sha512-/Jdy6oEiDDi/Putr4767Wsx1dOzXjlR8/9ni0Bp2rQq7PFH/rKsjsPq4waeGiBAFfmy6nrpiay79zauA9pgH2g==
+  version "7.0.100000120"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.0.100000120.tgz#92af770be1e9349cc786e6e5a1ed5ef0cf2c37d2"
+  integrity sha512-yCDlUEkLtt/2IB7TEY6HRVoigC0yxIW8Km4tumo05/jmB2HaF+8N4dPEC2WRaqCTVVEb/hcF6c9T4aHkgpZpPQ==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     final-form "^4.18.2"
@@ -4703,9 +4703,9 @@ csso@^4.0.2:
     css-tree "^1.1.2"
 
 csstype@^3.0.2:
-  version "3.0.9"
-  resolved "https://repository.folio.org/repository/npm-ci-all/csstype/-/csstype-3.0.9.tgz#6410af31b26bd0520933d02cbc64fce9ce3fbf0b"
-  integrity sha512-rpw6JPxK6Rfg1zLOYCSwle2GFOOsnjmDYDaBwEcwoOg4qlsIVCN789VkBZDJAGi4T07gI4YSutR43t9Zz4Lzuw==
+  version "3.0.10"
+  resolved "https://repository.folio.org/repository/npm-ci-all/csstype/-/csstype-3.0.10.tgz#2ad3a7bed70f35b965707c092e5f30b327c290e5"
+  integrity sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==
 
 csv-loader@^3.0.3:
   version "3.0.3"
