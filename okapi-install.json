@@ -96,10 +96,6 @@
     "action": "enable"
   },
   {
-    "id": "mod-data-export-4.2.2",
-    "action": "enable"
-  },
-  {
     "id": "mod-codex-mux-2.11.0",
     "action": "enable"
   },
