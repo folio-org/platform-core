@@ -1284,9 +1284,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^4.0.1":
-  version "4.0.3000227"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000227.tgz#474c280160707f8433fba79b1b668afbe43fdc89"
-  integrity sha512-/taby6POWbPl2xe/y3GmShjV47aE4/h2guEPu1mESOk9iLLF2RTou/VZNj7PvhKL7qKKhQx3t1JDw+WuJYuZIw==
+  version "4.0.3000228"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000228.tgz#861c094a136b6c99b3f2cb9ddab50d7c0411b60c"
+  integrity sha512-eOxryJyNUOkp8GqC2kiAhBBFJ56P3OlGMZhlzbvxZyiHo0wQChtFTUP1SAL3q7xRwb4ywBsijfEwQDmy3IX6CA==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1689,9 +1689,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "7.0.100000120"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.0.100000120.tgz#92af770be1e9349cc786e6e5a1ed5ef0cf2c37d2"
-  integrity sha512-yCDlUEkLtt/2IB7TEY6HRVoigC0yxIW8Km4tumo05/jmB2HaF+8N4dPEC2WRaqCTVVEb/hcF6c9T4aHkgpZpPQ==
+  version "7.0.100000123"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.0.100000123.tgz#c572127bfee19e451d754793544005911f71fff8"
+  integrity sha512-PrrLgLvaktdUTyBn+U0N+xz/82Aau8vKXJYFPnGqHlUsos5YALtK7dzCRoZ2EaeeFAtSdv+7EzoTYJpP0vFmVA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     final-form "^4.18.2"
@@ -11786,9 +11786,9 @@ snapdragon@^0.8.1:
     use "^3.1.0"
 
 socket.io-adapter@~2.3.2:
-  version "2.3.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/socket.io-adapter/-/socket.io-adapter-2.3.2.tgz#039cd7c71a52abad984a6d57da2c0b7ecdd3c289"
-  integrity sha512-PBZpxUPYjmoogY0aoaTmo1643JelsaS1CiAwNjRVdrI0X9Seuc19Y2Wife8k88avW6haG8cznvwbubAZwH4Mtg==
+  version "2.3.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/socket.io-adapter/-/socket.io-adapter-2.3.3.tgz#4d6111e4d42e9f7646e365b4f578269821f13486"
+  integrity sha512-Qd/iwn3VskrpNO60BeRyCyr8ZWw9CPZyitW4AQwmRZ8zCiyDiL+znRnWX6tDHXnWn1sJrM1+b6Mn6wEDJJ4aYQ==
 
 socket.io-parser@~4.0.4:
   version "4.0.4"
