@@ -70,5 +70,21 @@
   {
     "id": "folio_users-7.0.4",
     "action": "enable"
+  },
+  {
+    "id": "folio_data-import-5.0.2",
+    "action": "enable"
+  },
+  {
+    "id": "folio_inventory-8.0.6",
+    "action": "enable"
+  },
+  {
+    "id": "folio_plugin-create-inventory-records-3.0.0",
+    "action": "enable"
+  },
+  {
+    "id": "folio_inn-reach-1.2.0",
+    "action": "enable"
   }
 ]
