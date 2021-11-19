@@ -65,7 +65,7 @@
   "id" : "folio_checkout-7.1.10000029",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-6.0.10000097",
+  "id" : "folio_circulation-6.0.100000101",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.0.10000035",
@@ -80,13 +80,13 @@
   "id" : "mod-data-export-4.3.0-SNAPSHOT.283",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.0.100000145",
+  "id" : "folio_inventory-9.0.100000149",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-6.0.1000003",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-3.0.1000003",
+  "id" : "folio_plugin-create-inventory-records-3.0.10000014",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-6.1.10000077",

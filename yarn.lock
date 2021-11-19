@@ -1164,9 +1164,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/circulation@>=1.3.0", "@folio/circulation@^6.0.0":
-  version "6.0.10000097"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-6.0.10000097.tgz#ead46d4b78d6b3775b9a502f21a1b436aaeb3bd1"
-  integrity sha512-Fm/YQ4o0gVN45OKet5NiGGe11c4KNkByzILyx+My0NKKl6mwbwc5y19eJ09ohxIW+52GTq+IUBrqdAcZf+UvKg==
+  version "6.0.100000101"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-6.0.100000101.tgz#e30c6f4bfafbe503c04ef045b224cf1a1fbd99c5"
+  integrity sha512-SIP/YmJRU45p6GhO1tXnOQV3oGnyyQV9YDFEYrxQu4ftNqhfppvf+8m6D2LPI0SEWsPUFCtx/71j8YunB60bZA==
   dependencies:
     "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
@@ -1210,9 +1210,9 @@
     webpack "^4.41.2"
 
 "@folio/inventory@>=1.4.0":
-  version "9.0.100000145"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.0.100000145.tgz#d316fbbb01cbcd0160283c4af08d4497b3bc2e26"
-  integrity sha512-kQb1fe9oUFophuZv69fYUJ2YUWz/Hx8xv9QgKc5A/6H3NA+dQV8/sHF76bWNYWEf8QxxzaNM7QjwbDOHE34KVg==
+  version "9.0.100000149"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.0.100000149.tgz#b5ed95268c53ce9162cf38be468cb0f2f611e997"
+  integrity sha512-3/6YGKRJGUmfMyyKNzu7FaZi8ThZbNgBAWrKZX8gTzE336bTXy2sZ9P0B/TE//TX+uOhzHKhWbCTzdMCOcH13w==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1248,9 +1248,9 @@
     redux-form "^8.3.7"
 
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^3.0.0":
-  version "3.0.1000003"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-3.0.1000003.tgz#85c91af356089a77df192f902f8d993b85a77374"
-  integrity sha512-ryUrlKlFIQI/HEldCqa/UicElRQiO86K6GsHUYrM76CsKfjd+vOMzMVDEz59vUQHguf3NKuoYzn4O4OPVU/U4w==
+  version "3.0.10000014"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-3.0.10000014.tgz#7190e5a0323de08b02c77a98cdd05231e798e8ef"
+  integrity sha512-spTZxKhLiniAbCOPImuAg1YEghajESqia9MIs4fTRvvQ74JSMxib0suF7Zao/T7BI2wIxbXY9htHoE3LnZNhhw==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
@@ -1284,9 +1284,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^4.0.1":
-  version "4.0.3000228"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000228.tgz#861c094a136b6c99b3f2cb9ddab50d7c0411b60c"
-  integrity sha512-eOxryJyNUOkp8GqC2kiAhBBFJ56P3OlGMZhlzbvxZyiHo0wQChtFTUP1SAL3q7xRwb4ywBsijfEwQDmy3IX6CA==
+  version "4.0.3000229"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000229.tgz#6e0fdf643d050420219ee44aa3169af8a45eaf67"
+  integrity sha512-GioIxqwroSTivoRUS98LyVGKLk9aNUAOZQUeZOOIGKj+MyBh6vgx2++JbH+UHODKkEI+ewbhejZ/T+NTNpZEgQ==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1416,9 +1416,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.1.0":
-  version "10.1.100000324"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000324.tgz#af059dbbbe1382433bfee936b925aec19d305d61"
-  integrity sha512-jhQPX3ZVkEnHLXPRJoLOhy9iINEvmIZ2czA2rMIArn7mYp+dHeTD+EZ4a4Ogd1X3ZD0GDZLVSkFkO/Namz2yjA==
+  version "10.1.100000330"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000330.tgz#ca00204a52c7aad6351777f547c6f122638661b6"
+  integrity sha512-smPHdveacY2flp+21zB3bbWdwgBS7cJPxOLkfbA1T2uWqb4izpuWsuWbrfYWE6VCK+bMUbV14pqGVONdBtJDxA==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
