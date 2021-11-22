@@ -76,10 +76,6 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-8.0.6",
-    "action": "enable"
-  },
-  {
     "id": "folio_plugin-create-inventory-records-3.0.0",
     "action": "enable"
   },
