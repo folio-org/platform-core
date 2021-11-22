@@ -10827,9 +10827,9 @@ react-overlays@^4.1.1:
     warning "^4.0.3"
 
 react-query@^3.13.0, react-query@^3.6.0, react-query@^3.9.8:
-  version "3.33.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.33.3.tgz#3a9b12b2d189b88d950f81f31d7aa8224ddba1c6"
-  integrity sha512-SDuNTszxDdZdA9n241sV9hDdHgkS5TzXFar+cb4IMO9t6MU4NakSRAuwlNNmpRcFR6/yIbLwICzvOlkAXaM4KA==
+  version "3.33.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.33.4.tgz#486d81d04824e314bc46e587e272c522013a5ec8"
+  integrity sha512-mNPnVjJfMQpflX7kU2JW6AR3Z++Xh0OMHs452WQf4uYNm21LU0zo+VjRGQtv0fih4gYfCGB7QJckRM27ywHnpA==
   dependencies:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
