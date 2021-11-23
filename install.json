@@ -65,7 +65,7 @@
   "id" : "folio_checkout-7.1.0",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-6.0.0",
+  "id" : "folio_circulation-6.0.1",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.0.0",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.0.1",
   "action" : "enable"
 }, {
-  "id" : "folio_users-7.0.4",
+  "id" : "folio_users-7.0.5",
   "action" : "enable"
 }, {
   "id" : "okapi-4.8.2",
