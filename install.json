@@ -107,7 +107,7 @@
   "id" : "folio_servicepoints-6.0.1000003",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.3.0-SNAPSHOT.49",
+  "id" : "mod-password-validator-2.3.0-SNAPSHOT.50",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.10.0-SNAPSHOT.95",
