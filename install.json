@@ -8,7 +8,7 @@
   "id" : "folio_calendar-7.0.10000070",
   "action" : "enable"
 }, {
-  "id" : "mod-users-18.2.0-SNAPSHOT.178",
+  "id" : "mod-users-18.2.0-SNAPSHOT.179",
   "action" : "enable"
 }, {
   "id" : "mod-login-7.6.0-SNAPSHOT.107",
@@ -113,7 +113,7 @@
   "id" : "mod-authtoken-2.10.0-SNAPSHOT.95",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-7.2.0-SNAPSHOT.107",
+  "id" : "mod-users-bl-7.2.0-SNAPSHOT.108",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-core-8.1.10000081",
