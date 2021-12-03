@@ -59,7 +59,7 @@
   "id" : "mod-inventory-18.1.0-SNAPSHOT.463",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-6.0.10000037",
+  "id" : "folio_checkin-6.0.10000040",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-7.1.10000029",
