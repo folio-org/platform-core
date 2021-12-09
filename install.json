@@ -50,7 +50,7 @@
   "id" : "mod-notes-2.14.0-SNAPSHOT.181",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-22.2.0-SNAPSHOT.911",
+  "id" : "mod-circulation-22.2.0-SNAPSHOT.912",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.3.0-SNAPSHOT.378",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.0.10000085",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.6.0-SNAPSHOT.167",
+  "id" : "mod-search-1.6.0-SNAPSHOT.168",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.0.2-SNAPSHOT.70",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.3.0-SNAPSHOT.283",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.0.100000214",
+  "id" : "folio_inventory-9.0.100000219",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-6.0.1000003",
