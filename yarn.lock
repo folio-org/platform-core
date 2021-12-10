@@ -1116,9 +1116,9 @@
   integrity sha512-50M5zC0xjEE9maNayWNNUKatR6NSEPrwNOVjEZKVRL3n3DdNwBV5OIE2xuwVIaWz1Wgbdg/lsojLefRNzOIapA==
 
 "@folio/calendar@>=2.0.5":
-  version "7.0.10000079"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-7.0.10000079.tgz#809c9091f66302981cab426920caca5f116d7556"
-  integrity sha512-fUNQOfyghcAJh7e5omUUXkjUI/u1cgno1h7AKQQ2Rt0So3tuklDpS/UZhF+XoR1d4upeOHaISC3L/Cae+xbknA==
+  version "7.0.10000093"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-7.0.10000093.tgz#273fcebff43369fc60c96fca1f6ba6513864d48f"
+  integrity sha512-lZ4DsYiW6YLvXPeD8ro6xkb4YHiKLhBHM6tntRetbF9sZDUvpcAEleBe8IQC7PIkIwck8pTdG2lhALrFHUvGnw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     lodash "^4.17.5"
@@ -1284,9 +1284,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^4.0.1":
-  version "4.0.3000235"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000235.tgz#f3b32da4780816ec907d0b564e94a512dd5d0928"
-  integrity sha512-yG929AnnFuaZhAAP3lCnXPBnFdEzVNXCVQUsWp2A/T2KjL/ZlMd1kV4byfvr/bKIy8kREL2DObp1LzUu36Sqyw==
+  version "4.0.3000236"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000236.tgz#e65908066d719acea385446e76ce0db851f0b901"
+  integrity sha512-o8YYjs2kdgj7HMHEtV5/Gvaug8iD0lzG5KmfrXI8xxwVpR0X/ly0mvQlwZNy/SjFMZSiGhUNq7XynCMglMPHYw==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
