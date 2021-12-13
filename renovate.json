@@ -32,7 +32,7 @@
       "baseBranchList": ["main", "master"],
       "packagePatterns": ["^@folio/"],
       "groupName": "Main branch updates",
-      "updateTypes": ["minor","patch"], 
+      "updateTypes": ["patch"], 
       "enabled": true
     },
     {
