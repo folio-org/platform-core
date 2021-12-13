@@ -17,7 +17,7 @@
   "id" : "mod-permissions-5.14.2",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.4.0",
+  "id" : "mod-pubsub-2.4.1",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-13.1.0",
@@ -134,7 +134,7 @@
   "id" : "folio_users-7.0.5",
   "action" : "enable"
 }, {
-  "id" : "okapi-4.8.2",
+  "id" : "okapi-4.8.3",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.1.0",
