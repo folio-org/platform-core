@@ -68,10 +68,10 @@
   "id" : "folio_circulation-6.0.100000107",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-6.0.10000091",
+  "id" : "folio_developer-6.0.10000095",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.6.0-SNAPSHOT.168",
+  "id" : "mod-search-1.6.0-SNAPSHOT.169",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.0.2-SNAPSHOT.70",
