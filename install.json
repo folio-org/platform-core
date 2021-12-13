@@ -14,7 +14,7 @@
   "id" : "mod-login-7.6.0-SNAPSHOT.109",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-6.0.0-SNAPSHOT.127",
+  "id" : "mod-permissions-6.0.0-SNAPSHOT.128",
   "action" : "enable"
 }, {
   "id" : "mod-pubsub-2.5.0-SNAPSHOT.174",
@@ -125,7 +125,7 @@
   "id" : "folio_tags-6.0.1000003",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.4.0-SNAPSHOT.84",
+  "id" : "mod-login-saml-2.4.0-SNAPSHOT.85",
   "action" : "enable"
 }, {
   "id" : "folio_tenant-settings-7.0.100000133",
