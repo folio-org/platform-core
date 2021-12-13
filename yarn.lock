@@ -1416,9 +1416,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.1.0":
-  version "10.1.100000367"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000367.tgz#e5a430b691f1e84a589c4a5d82cde75dfb2d9dd8"
-  integrity sha512-IkfL+VyR3+U6rb0GEagF7dafQ+iEZBaT0x2OsRlzp4qzyd22ZR0m/AbjQpm5PyewTmB7RczZD/fb1HJaoQJAWQ==
+  version "10.1.100000402"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000402.tgz#6a843d02150d13d468cbbc9b589a1e6876e05bbc"
+  integrity sha512-hZh5zsS+ZIuXfee1U6ezf/g8kPDfmmX5C5K3bTDh+Jiaelc1x+DVQsKd6UenviNCAXhJM7tvnEz7URggRCbNkw==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1460,9 +1460,9 @@
     uuid "^8.3.2"
 
 "@folio/stripes-core@~8.1.0":
-  version "8.1.10000088"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.1.10000088.tgz#6982b42ea20e4f76bdb8c7c9bb65c9e1e25dc064"
-  integrity sha512-Cm2q8aGfxgz2kch38W57tBZQ9/6i1z9eHFHSF+ecw8F0YNQGCE34LBJu92Tu9a6MqGOE7N9A07cYuXW7Tj9sqQ==
+  version "8.1.100000115"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.1.100000115.tgz#5257f462391ad8a5e8cc548a05ee8e82f8db7f43"
+  integrity sha512-WmbwCHG3rpSoLWsdYtURIIQGhv06sAyzGZpgCKmXDRD0Zgp1X3JoF+N0mBf/+cKsmKzDNjaCdzrul7tkSdV0Tg==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@formatjs/intl-displaynames" "^2.2.3"
@@ -1537,9 +1537,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.1.0":
-  version "7.1.100000112"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.1.100000112.tgz#c2966e80dc0643eae6ca671ef05b0f8ba479d922"
-  integrity sha512-43qQvdoQzT9ASr+vpdb+mstjiC2GwAMTqj5vHz6Edw67COWIYGSlat53uWrckapN6E5P5MCJDLKmLJqbHEHa6g==
+  version "7.1.100000125"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.1.100000125.tgz#8fa9836e43dbf77eba4b3ab830586626c71a5411"
+  integrity sha512-/btNoYmFRRDOi5DqqkXMbdEvKCbw2xZoJl/41fdxRHKpWxusScr1cZpVq67fb2Lp6uXxCsaCPgqeTmOEzZiDbw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "2.4.0"
