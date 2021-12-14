@@ -110,7 +110,7 @@
   "id" : "mod-password-validator-2.3.0-SNAPSHOT.50",
   "action" : "enable"
 }, {
-  "id" : "mod-authtoken-2.10.0-SNAPSHOT.96",
+  "id" : "mod-authtoken-2.10.0-SNAPSHOT.97",
   "action" : "enable"
 }, {
   "id" : "mod-users-bl-7.2.0-SNAPSHOT.108",
