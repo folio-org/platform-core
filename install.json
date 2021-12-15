@@ -107,7 +107,7 @@
   "id" : "mod-password-validator-2.0.2",
   "action" : "enable"
 }, {
-  "id" : "mod-authtoken-2.7.0",
+  "id" : "mod-authtoken-2.7.1",
   "action" : "enable"
 }, {
   "id" : "mod-users-bl-6.2.0",
@@ -134,6 +134,6 @@
   "id" : "mod-codex-inventory-1.8.0",
   "action" : "enable"
 }, {
-  "id" : "okapi-4.7.3",
+  "id" : "okapi-4.7.5",
   "action" : "enable"
 } ]
