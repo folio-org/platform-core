@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.10.0-SNAPSHOT.109",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-17.1.0-SNAPSHOT.168",
+  "id" : "mod-feesfines-17.1.0-SNAPSHOT.169",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.5.0-SNAPSHOT.62",
@@ -74,7 +74,7 @@
   "id" : "mod-search-1.6.0-SNAPSHOT.171",
   "action" : "enable"
 }, {
-  "id" : "mod-tags-1.0.2-SNAPSHOT.70",
+  "id" : "mod-tags-1.0.2-SNAPSHOT.71",
   "action" : "enable"
 }, {
   "id" : "mod-data-export-4.3.0-SNAPSHOT.283",
@@ -107,7 +107,7 @@
   "id" : "folio_servicepoints-6.0.1000003",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.3.0-SNAPSHOT.50",
+  "id" : "mod-password-validator-2.3.0-SNAPSHOT.51",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.10.0-SNAPSHOT.97",
