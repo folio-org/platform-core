@@ -29,7 +29,7 @@
   "id" : "mod-configuration-5.7.2",
   "action" : "enable"
 }, {
-  "id" : "mod-template-engine-1.15.0",
+  "id" : "mod-template-engine-1.15.1",
   "action" : "enable"
 }, {
   "id" : "mod-email-1.12.0",
