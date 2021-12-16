@@ -98,7 +98,7 @@
   "id" : "folio_requests-6.0.2",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-mux-2.11.0",
+  "id" : "mod-codex-mux-2.11.1",
   "action" : "enable"
 }, {
   "id" : "folio_search-5.0.0",
