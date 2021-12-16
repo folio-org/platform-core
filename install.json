@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.3.0-SNAPSHOT.284",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.0.100000301",
+  "id" : "folio_inventory-9.0.100000306",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-6.0.1000003",
@@ -113,7 +113,7 @@
   "id" : "mod-authtoken-2.10.0-SNAPSHOT.97",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-7.2.0-SNAPSHOT.108",
+  "id" : "mod-users-bl-7.2.0-SNAPSHOT.109",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-core-8.1.100000119",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.0.100000133",
   "action" : "enable"
 }, {
-  "id" : "folio_users-7.0.100000441",
+  "id" : "folio_users-7.0.100000445",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.2.0-SNAPSHOT.90",
