@@ -107,7 +107,7 @@
   "id" : "folio_servicepoints-6.0.0",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.2.2",
+  "id" : "mod-password-validator-2.2.3",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.9.1",
