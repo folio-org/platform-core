@@ -1437,9 +1437,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.1.0":
-  version "10.1.100000435"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000435.tgz#ed9014985e95f62e3f742944515adfc65f684505"
-  integrity sha512-zD7i1N9Xo0sC+Gb3jc6Z7T7GPQH4XaXOpFS4OWiSxmsMk151+Es18AYhVqd4jKhVR//Zb46qTvM3cg5FC3J5yw==
+  version "10.1.100000441"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000441.tgz#24509e05086e79f0a49d97802c0be1eae4825e7e"
+  integrity sha512-j6DsXU+X0xxIbBIhmb/6sjwVpr6n+pIk1sA+Xd44XS8idoR4/H1GzFHKgMlAsjoXB24L0aAN6mQJY5aQVeHhww==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -13049,9 +13049,9 @@ webpack-bundle-analyzer@^4.4.2:
     ws "^7.3.1"
 
 webpack-dev-middleware@^5.2.1:
-  version "5.2.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-dev-middleware/-/webpack-dev-middleware-5.2.2.tgz#eb5193faa5479ca1086b9f7bed68b89c731bff62"
-  integrity sha512-DjZyYrsHhkikAFNvSNKrpnziXukU1EChFAh9j4LAm6ndPLPW8cN0KhM7T+RAiOqsQ6ABfQ8hoKIs9IWMTjov+w==
+  version "5.3.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-dev-middleware/-/webpack-dev-middleware-5.3.0.tgz#8fc02dba6e72e1d373eca361623d84610f27be7c"
+  integrity sha512-MouJz+rXAm9B1OTOYaJnn6rtD/lWZPy2ufQCH3BPs8Rloh/Du6Jze4p7AeLYHkVi0giJnYLaSGDC7S+GM9arhg==
   dependencies:
     colorette "^2.0.10"
     memfs "^3.2.2"
