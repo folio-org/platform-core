@@ -8,7 +8,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-21.0.9",
+    "id": "mod-inventory-storage-21.0.10",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-permissions-5.14.2",
+    "id": "mod-permissions-5.14.3",
     "action": "enable"
   },
   {
@@ -32,7 +32,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-event-config-2.1.0",
+    "id": "mod-event-config-2.1.1",
     "action": "enable"
   },
   {
@@ -48,7 +48,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-sender-1.6.0",
+    "id": "mod-sender-1.6.1",
     "action": "enable"
   },
   {
@@ -56,11 +56,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-5.1.8",
+    "id": "mod-source-record-storage-5.1.9",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-17.0.7",
+    "id": "mod-inventory-17.0.8",
     "action": "enable"
   },
   {
@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-notes-2.12.0",
+    "id": "mod-notes-2.12.1",
     "action": "enable"
   },
   {
@@ -80,11 +80,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-tags-0.9.0",
+    "id": "mod-tags-0.9.1",
     "action": "enable"
   },
   {
-    "id": "mod-data-export-4.1.1",
+    "id": "mod-data-export-4.1.2",
     "action": "enable"
   },
   {
@@ -92,7 +92,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-password-validator-2.1.0",
+    "id": "mod-password-validator-2.1.1",
     "action": "enable"
   },
   {
@@ -100,7 +100,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-users-bl-7.0.0",
+    "id": "mod-users-bl-7.0.1",
     "action": "enable"
   },
   {
@@ -108,7 +108,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-codex-inventory-2.0.0",
+    "id": "mod-codex-inventory-2.0.1",
     "action": "enable"
   }
 ]
