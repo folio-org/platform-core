@@ -30,7 +30,7 @@
   "packageRules": [
     { 
       "baseBranchList": ["main", "master"],
-      "packagePatterns": ["^@folio/"],
+      "packagePatterns": ["^@folio/", "^folioorg/"],
       "groupName": "Main branch updates",
       "updateTypes": ["patch"], 
       "enabled": true
