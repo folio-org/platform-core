@@ -107,7 +107,7 @@
   "id" : "mod-password-validator-2.1.1",
   "action" : "enable"
 }, {
-  "id" : "mod-authtoken-2.8.1",
+  "id" : "mod-authtoken-2.8.2",
   "action" : "enable"
 }, {
   "id" : "mod-users-bl-7.0.1",
