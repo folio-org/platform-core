@@ -17,7 +17,7 @@
   "id" : "mod-permissions-5.14.3",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.4.1",
+  "id" : "mod-pubsub-2.4.2",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-13.1.1",
