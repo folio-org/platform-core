@@ -62,7 +62,7 @@
   "id" : "folio_checkin-6.0.10000062",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-7.1.10000044",
+  "id" : "folio_checkout-7.1.10000062",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-6.0.100000147",
@@ -86,7 +86,7 @@
   "id" : "folio_myprofile-6.0.1000003",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-3.0.10000014",
+  "id" : "folio_plugin-create-inventory-records-3.0.10000032",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-6.1.20000081",
