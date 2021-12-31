@@ -1551,9 +1551,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.1.0":
-  version "7.1.100000156"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.1.100000156.tgz#4bbb11fcba12ef01c7a3fb9e0c9cdcd6c5c55972"
-  integrity sha512-cUhM0ydSlerrxaKnFXgXl0j9MKv4cZiQ9f5H099bNHecv9sBLeJt56b8NIyTSQNEXxweykkAbTPqlW1ykiPvrg==
+  version "7.1.100000173"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.1.100000173.tgz#0ed19b70e9a010164844d9d0aadaa5effb905ed7"
+  integrity sha512-YLedhsthFtKH6OiVvCcZ5qNbhtmOBMoizYUntRL1484g3PEkpDr3wIqAHrJOqaNYMpb0fQS8BmZpmH1vyElVsw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "2.4.0"
@@ -4978,9 +4978,9 @@ ejs@^2.2.4:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.4.17:
-  version "1.4.30"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.30.tgz#0f75a1dce26dffbd5a0f7212e5b87fe0b61cbc76"
-  integrity sha512-609z9sIMxDHg+TcR/VB3MXwH+uwtrYyeAwWc/orhnr90ixs6WVGSrt85CDLGUdNnLqCA7liv426V20EecjvflQ==
+  version "1.4.31"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.31.tgz#8d5ccc3f8253cd142b07afaa84f200fd33a7f2a6"
+  integrity sha512-t3XVQtk+Frkv6aTD4RRk0OqosU+VLe1dQFW83MDer78ZD6a52frgXuYOIsLYTQiH2Lm+JB2OKYcn7zrX+YGAiQ==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
