@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.3.0-SNAPSHOT.286",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.0.100000352",
+  "id" : "folio_inventory-9.0.100000360",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-6.0.1000003",
@@ -125,7 +125,7 @@
   "id" : "folio_tags-6.0.1000003",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.4.0-SNAPSHOT.87",
+  "id" : "mod-login-saml-2.4.0-SNAPSHOT.88",
   "action" : "enable"
 }, {
   "id" : "folio_tenant-settings-7.0.100000148",
