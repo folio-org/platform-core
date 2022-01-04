@@ -1430,9 +1430,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.1.0":
-  version "10.1.100000468"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000468.tgz#6074028903db7ca3302bd87b4129eaf917d69318"
-  integrity sha512-pbu9JpATnC6ziPG0h5crSTLU8zfJXZc8v3DaYgz9AWCi0ObSOyoURjm/wZWoIuAMlAwSsCSnBxfMAhzdMUNs6A==
+  version "10.1.100000473"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000473.tgz#924e2476f7ee233d75902b14ac025bec72b34256"
+  integrity sha512-OCO4w0IJ+pumj+6tT766/zZHaTK9f+Tub1RvdO5mc45mUtmRj8Oag65EbFBAn4b1jLUE2IVvr5jqTL7ZEocWXw==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -2297,11 +2297,9 @@
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
 "@popperjs/core@^2.5.3":
-  version "2.11.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@popperjs/core/-/core-2.11.1.tgz#81178278931b46924f4b9d08e9caf65ba91e3a7f"
-  integrity sha512-lfBpADue1tq3+ZLp7E/r8qQB2XWlrml6BuwDzeJ3cNx7h2K1ww5mCs0Vdt9S5EIJHalPifCTt3TFtCTmnQetlA==
-  dependencies:
-    closure-compiler "^0.2.12"
+  version "2.11.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@popperjs/core/-/core-2.11.2.tgz#830beaec4b4091a9e9398ac50f865ddea52186b9"
+  integrity sha512-92FRmppjjqz29VMJ2dn+xdyXZBrMlE42AV6Kq6BwjWV7CNUW1hs2FtxSNLQE+gJhaZ6AAmYuO9y8dshhcBl7vA==
 
 "@rehooks/local-storage@2.4.0":
   version "2.4.0"
@@ -2488,9 +2486,9 @@
   integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "17.0.7"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-17.0.7.tgz#4a53d8332bb65a45470a2f9e2611f1ced637a5cb"
-  integrity sha512-1QUk+WAUD4t8iR+Oj+UgI8oJa6yyxaB8a8pHaC8uqM6RrS1qbL7bf3Pwl5rHv0psm2CuDErgho6v5N+G+5fwtQ==
+  version "17.0.8"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-17.0.8.tgz#50d680c8a8a78fe30abe6906453b21ad8ab0ad7b"
+  integrity sha512-YofkM6fGv4gDJq78g4j0mMuGMkZVxZDgtU0JRdx6FgiJDG+0fY0GKVolOV8WqVmEhLCXkQRjwDdKyPxJp/uucg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -3937,13 +3935,6 @@ cloneable-readable@^1.0.0:
     inherits "^2.0.1"
     process-nextick-args "^2.0.0"
     readable-stream "^2.3.5"
-
-closure-compiler@^0.2.12:
-  version "0.2.12"
-  resolved "https://repository.folio.org/repository/npm-ci-all/closure-compiler/-/closure-compiler-0.2.12.tgz#6c3087cad12742c79e47f0ce50e87af91cf8e171"
-  integrity sha1-bDCHytEnQseeR/DOUOh6+Rz44XE=
-  dependencies:
-    google-closure-compiler "20150901.x"
 
 clsx@^1.0.4:
   version "1.1.1"
@@ -6261,11 +6252,6 @@ globby@^9.0.0:
     ignore "^4.0.3"
     pify "^4.0.1"
     slash "^2.0.0"
-
-google-closure-compiler@20150901.x:
-  version "20150901.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/google-closure-compiler/-/google-closure-compiler-20150901.0.0.tgz#3d01c6cade65790a9bfb4e30b2158b7635acbade"
-  integrity sha1-PQHGyt5leQqb+04wshWLdjWsut4=
 
 got@^6.7.1:
   version "6.7.1"
