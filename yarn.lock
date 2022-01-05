@@ -1160,9 +1160,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "7.1.10000065"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-7.1.10000065.tgz#828d7f2abb1abb5b816014efc05b307c5764ef14"
-  integrity sha512-M9TW9Zb/dox1/k8K1/zl5TfycMZw1aQtw/44aPxh4kjnBhs/wj/TF1PfaP8kwMyd83teFv7w03+Bf1fq5sLNsg==
+  version "7.1.10000069"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-7.1.10000069.tgz#129798a2a84dd0e05bf6090e36a27bbb562e3661"
+  integrity sha512-1ywyECc0qsvnakayhlqJ2u/jOFPyUeUTLz4JOzJ/Tbrj7RZz7MKFJshtYXDtpnqhCmgkGw4TYDLHH4OWMd9tNg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     final-form "^4.19.1"
@@ -1224,9 +1224,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.0.100000360"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.0.100000360.tgz#e975f6ed316ebef7961328da772bd119d235ed78"
-  integrity sha512-+1j6+OJcwhOsNJ3aseYTSYq8cvrN9qtIVb2VOnAS71i/Qty8r6FBb3h7yIEFRJdv5O7DA739Hz+tMvuVsWFA6g==
+  version "9.0.100000370"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.0.100000370.tgz#38febed26c123ad45d5a8975c1075c1220592119"
+  integrity sha512-SFMfgt1h+kyepVrYqbnGWQ2rm22vvc1MSi4FS6A2GnYOEYeEoH7MhtSJh5z2gRZh7eOwlL9kXE7Ujkbs/AUIZg==
   dependencies:
     "@folio/quick-marc" "^4.0.1"
     "@folio/react-intl-safe-html" "^3.0.0"
@@ -1298,9 +1298,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^4.0.1":
-  version "4.0.3000240"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000240.tgz#7aede370c86b0b89562cd42cab89ec6b463ac93e"
-  integrity sha512-AFf4sBSYRvq7ZlKUjpyB1ntn5Q/FJ8o3Ldli1SVyj7n92my864IckuGE5pfEcYA6ziZf3dGnY0L+6lr1/KFmcw==
+  version "4.0.3000241"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000241.tgz#fd2f3d76836f1406a6338a44c10dc86f1d2eb905"
+  integrity sha512-fm1PCkAI2RFVhQ42Y/F8nYN4DF/fnVXAn+c+9qd4scAi3uRfYMKZU0S625lbKsp/u3vAytl6QL3+siOSaluwFA==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1430,9 +1430,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.1.0":
-  version "10.1.100000473"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000473.tgz#924e2476f7ee233d75902b14ac025bec72b34256"
-  integrity sha512-OCO4w0IJ+pumj+6tT766/zZHaTK9f+Tub1RvdO5mc45mUtmRj8Oag65EbFBAn4b1jLUE2IVvr5jqTL7ZEocWXw==
+  version "10.1.100000486"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000486.tgz#2cba97799596fe3b8017495d4d3806b2285c7903"
+  integrity sha512-6Qg8wE60TBXifB+2RbiQcI7n0AQucUqx7FfX0Hn/MS+43uypefbVdp+x6437Fe66yu3cK6BHRT9vhfnQHt/RlA==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1721,9 +1721,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "7.0.100000507"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000507.tgz#359f66fdcc02523cb2a5984ae8fba0eeffba79d0"
-  integrity sha512-GdDcAWjNbHC8eKTS0iZrBB06Bk1DTvPx4jIJWTKedi6HLO3OnmGu6iQuKIUMF6fKmqd1TQ428VaapT1DLYbjKg==
+  version "7.0.100000513"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000513.tgz#54957ddb2999bf03b16bc0acaf89aea7225575c5"
+  integrity sha512-o6z4/CSVXDCKNr4N26bLo6LOzEgcbxl/DIATn4R0PtGGHxQswV622DcXqeT61jrlvwIu7MMdjoDOy36ayf3+hA==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
@@ -9790,9 +9790,9 @@ prop-types-extra@^1.1.0:
     warning "^4.0.0"
 
 prop-types@^15.0.0, prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.0:
-  version "15.8.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/prop-types/-/prop-types-15.8.0.tgz#d237e624c45a9846e469f5f31117f970017ff588"
-  integrity sha512-fDGekdaHh65eI3lMi5OnErU6a8Ighg2KjcjQxO7m8VHyWjcPyj5kiOgV1LQDOOOgVy3+5FgjXvdSSX7B8/5/4g==
+  version "15.8.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
   dependencies:
     loose-envify "^1.4.0"
     object-assign "^4.1.1"
