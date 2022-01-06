@@ -16,6 +16,14 @@
     "action": "enable"
   },
   {
+    "id": "folio_data-export-5.0.0",
+    "action": "enable"
+  },
+  {
+    "id": "folio_data-import-5.0.3",
+    "action": "enable"
+  },
+  {
     "id": "folio_developer-6.0.0",
     "action": "enable"
   },
@@ -33,6 +41,14 @@
   },
   {
     "id": "folio_plugin-find-instance-6.1.2",
+    "action": "enable"
+  },
+  {
+    "id": "folio_export-manager-2.0.0",
+    "action": "enable"
+  },
+   {
+    "id": "folio_quick-marc-4.0.3",
     "action": "enable"
   },
   {
