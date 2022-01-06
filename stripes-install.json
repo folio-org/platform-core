@@ -51,7 +51,7 @@
     "id": "folio_export-manager-2.0.0",
     "action": "enable"
   },
-   {
+  {
     "id": "folio_quick-marc-4.0.3",
     "action": "enable"
   },

@@ -125,7 +125,6 @@
   },
   {
     "id": "mod-authtoken-2.9.1",
-
     "action": "enable"
   },
   {
@@ -151,7 +150,7 @@
   {
     "id": "mod-data-export-worker-1.2.2",
     "action": "enable"
-  }
+  },
   {
     "id": "mod-data-import-2.2.0",
     "action": "enable"
