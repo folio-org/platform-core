@@ -1721,9 +1721,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "7.0.100000531"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000531.tgz#e9ea6d26324709687e2c9bf709c01018e8365f55"
-  integrity sha512-3x0Fz5W+PZt+mu7R6/7xtN74AfDEadoDecIq2x8AxP7kWO8voncdGAEEO2bVpbKr6JVHeQxGFz2wRwDkzHI1Iw==
+  version "7.0.100000535"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000535.tgz#d6adf6078ecd3ac14fb901169df5c67e4166ee52"
+  integrity sha512-HbUpOhymb+ZH1akOTw7smBMaZyvBztdAhDbKoN1SYiZk++/3niSWJlCzMJg0mHySif7V/sfZKpWi1QybV+ohag==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
@@ -4978,9 +4978,9 @@ ejs@^2.2.4:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.4.17:
-  version "1.4.36"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.36.tgz#446c6184dbe5baeb5eae9a875490831e4bc5319a"
-  integrity sha512-MbLlbF39vKrXWlFEFpCgDHwdlz4O3LmHM5W4tiLRHjSmEUXjJjz8sZkMgWgvYxlZw3N1iDTmCEtOkkESb5TMCg==
+  version "1.4.37"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.37.tgz#eedd53cad229ae2d1632b958a92a3d7d7b27f553"
+  integrity sha512-XIvFB1omSAxYgHYX48sC+HR8i/p7lx7R+0cX9faElg1g++h9IilCrJ12+bQuY+d96Wp7zkBiJwMOv+AhLtLrTg==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
