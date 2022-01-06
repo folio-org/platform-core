@@ -20,6 +20,10 @@
     "action": "enable"
   },
   {
+    "id": "folio_plugin-bursar-export-2.0.0",
+    "action": "enable"
+  },
+  {
     "id": "folio_data-import-5.0.3",
     "action": "enable"
   },
