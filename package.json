@@ -54,6 +54,7 @@
     "lodash": "^4.17.5"
   },
   "resolutions": {
+    "colors": "1.4.0",
     "final-form": "4.20.1",
     "@folio/plugin-create-inventory-records": "2.1.0",
     "@folio/plugin-find-instance": "5.1.2",
