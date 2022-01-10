@@ -1,106 +1,106 @@
 [
   {
-    "id": "mod-finance-storage-8.0.1",
+    "id": "mod-finance-storage-8.0.2",
     "action": "enable"
   },
   {
-    "id": "mod-orders-storage-13.1.0",
+    "id": "mod-orders-storage-13.1.2",
     "action": "enable"
   },
   {
-    "id": "mod-configuration-5.7.2",
+    "id": "mod-configuration-5.7.3",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-22.0.2",
+    "id": "mod-inventory-storage-22.0.4",
     "action": "enable"
   },
   {
-    "id": "mod-users-18.1.1",
+    "id": "mod-users-18.1.2",
     "action": "enable"
   },
   {
-    "id": "mod-login-7.5.0",
+    "id": "mod-login-7.5.1",
     "action": "enable"
   },
   {
-    "id": "mod-permissions-5.14.2",
+    "id": "mod-permissions-5.14.3",
     "action": "enable"
   },
   {
-    "id": "mod-pubsub-2.4.0",
+    "id": "mod-pubsub-2.4.2",
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-13.1.0",
+    "id": "mod-circulation-storage-13.1.1",
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-5.2.2",
+    "id": "mod-source-record-storage-5.2.6",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-18.0.2",
+    "id": "mod-inventory-18.0.5",
     "action": "enable"
   },
   {
-    "id": "mod-organizations-storage-4.1.0",
+    "id": "mod-organizations-storage-4.1.1",
     "action": "enable"
   },
   {
-    "id": "mod-finance-4.3.1",
+    "id": "mod-finance-4.3.3",
     "action": "enable"
   },
   {
-    "id": "mod-calendar-1.13.0",
+    "id": "mod-calendar-1.13.1",
     "action": "enable"
   },
   {
-    "id": "mod-event-config-2.1.0",
+    "id": "mod-event-config-2.1.1",
     "action": "enable"
   },
   {
-    "id": "mod-template-engine-1.15.0",
+    "id": "mod-template-engine-1.15.1",
     "action": "enable"
   },
   {
-    "id": "mod-email-1.12.0",
+    "id": "mod-email-1.12.1",
     "action": "enable"
   },
   {
-    "id": "mod-sender-1.6.0",
+    "id": "mod-sender-1.6.1",
     "action": "enable"
   },
   {
-    "id": "mod-notify-2.9.0",
+    "id": "mod-notify-2.9.1",
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-17.0.1",
+    "id": "mod-feesfines-17.0.2",
     "action": "enable"
   },
   {
-    "id": "mod-patron-blocks-1.4.0",
+    "id": "mod-patron-blocks-1.4.1",
     "action": "enable"
   },
   {
-    "id": "mod-notes-2.13.0",
+    "id": "mod-notes-2.13.2",
     "action": "enable"
   },
   {
-    "id": "mod-circulation-22.1.1",
+    "id": "mod-circulation-22.1.4",
     "action": "enable"
   },
   {
-    "id": "mod-tags-1.0.1",
+    "id": "mod-tags-1.0.2",
     "action": "enable"
   },
   {
-    "id": "mod-orders-12.2.1",
+    "id": "mod-orders-12.2.5",
     "action": "enable"
   },
   {
-    "id": "mod-agreements-5.0.5",
+    "id": "mod-agreements-5.0.6",
     "action": "enable"
   }, 
   {
@@ -108,39 +108,39 @@
     "action": "enable"
   }, 
   {
-    "id": "mod-search-1.5.2",
+    "id": "mod-search-1.5.3",
     "action": "enable"
   },
   {
-    "id": "mod-data-export-4.2.2",
+    "id": "mod-data-export-4.2.4",
     "action": "enable"
   },
   {
-    "id": "mod-data-import-converter-storage-1.12.0",
+    "id": "mod-data-import-converter-storage-1.12.1",
     "action": "enable"
   },
   {
-    "id": "mod-codex-mux-2.11.0",
+    "id": "mod-codex-mux-2.11.1",
     "action": "enable"
   },
   {
-    "id": "mod-password-validator-2.2.1",
+    "id": "mod-password-validator-2.2.3",
     "action": "enable"
   },
   {
-    "id": "mod-authtoken-2.9.0",
+    "id": "mod-authtoken-2.9.1",
     "action": "enable"
   },
   {
-    "id": "mod-users-bl-7.1.0",
+    "id": "mod-users-bl-7.1.1",
     "action": "enable"
   },
   {
-    "id": "mod-login-saml-2.3.0",
+    "id": "mod-login-saml-2.3.1",
     "action": "enable"
   },
   {
-    "id": "mod-codex-inventory-2.1.0",
+    "id": "mod-codex-inventory-2.1.1",
     "action": "enable"
   },
   {
