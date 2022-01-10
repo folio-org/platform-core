@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-18.0.5",
+    "id": "mod-inventory-18.0.6",
 
     "action": "enable"
   },
@@ -113,11 +113,15 @@
     "action": "enable"
   },
   {
-    "id": "mod-data-import-converter-storage-1.12.0",
+    "id": "mod-data-import-converter-storage-1.12.1",
     "action": "enable"
   },
   {
-    "id": "mod-source-record-manager-3.2.5",
+    "id": "mod-patron-blocks-1.4.1",
+    "action": "enable"
+  },
+  {
+    "id": "mod-source-record-manager-3.2.7",
     "action": "enable"
   },
   {
@@ -125,11 +129,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-inn-reach-1.0.1",
+    "id": "mod-inn-reach-1.0.2",
     "action": "enable"
   },
   {
-    "id": "edge-inn-reach-1.0.1",
+    "id": "edge-inn-reach-1.0.3",
     "action": "enable"
   }
 ]
