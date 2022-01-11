@@ -84,6 +84,10 @@
     "action": "enable"
   },
   {
+    "id": "mod-patron-5.1.0-SNAPSHOT.87",
+    "action": "enable"
+  },
+  {
     "id": "mod-search-1.6.0-SNAPSHOT.182",
     "action": "enable"
   },
