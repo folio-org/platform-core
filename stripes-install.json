@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-9.0.100000373",
+    "id": "folio_inventory-9.0.100000392",
     "action": "enable"
   },
   {
@@ -52,11 +52,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-8.1.100000131",
+    "id": "folio_stripes-core-8.1.100000156",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-7.1.100000185",
+    "id": "folio_stripes-smart-components-7.1.100000198",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-7.0.100000547",
+    "id": "folio_users-7.0.100000566",
     "action": "enable"
   }
 ]
