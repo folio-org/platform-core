@@ -1430,9 +1430,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.1.0":
-  version "10.1.100000523"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000523.tgz#a3664d3361aa9c2027fc6f0776f3fb85003e4269"
-  integrity sha512-5p7tyTYwjf/Uf5FBA52FtmYwSshiZ6srIMBXiRIhP1apl1kipqfcTGiCB+c86KpWXwtDm2oEaX3nWmFTp7msfw==
+  version "10.1.100000526"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000526.tgz#eb79f6c479cb5c06117ae40d835ca6a4c9c38134"
+  integrity sha512-DFMNGEoO5EkiPFcWJb88efVlCbpYKqCtVj7UmnaO2i/OESTiTty89fXqWV9zkLT/l9bDpx78SoK98JZRZgIv0A==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -9410,9 +9410,9 @@ postcss-custom-media@^8.0.0:
   integrity sha512-FvO2GzMUaTN0t1fBULDeIvxr5IvbDXcIatt6pnJghc736nqNgsGao5NT+5+WVLAQiTt6Cb3YUms0jiPaXhL//g==
 
 postcss-custom-properties@^12.0.0:
-  version "12.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-custom-properties/-/postcss-custom-properties-12.1.0.tgz#be7a5645ece96ad8bf33c0b1d63fc8bbc1caf3c0"
-  integrity sha512-6PjtLgi2RSB0WBylqwutfUqwAimbUYfCST4qf2F/0R5DBIVsJrADzaLSys1XnU4zOwjS89QMsIpaWwlEqy+T5A==
+  version "12.1.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-custom-properties/-/postcss-custom-properties-12.1.2.tgz#066ecdb03779178ad60b8153755e79a2e70d17a9"
+  integrity sha512-Zvd+k66PHBYYPiXtdjNVx2l54Y9kQC7K1eUHzBND97RW/ayNxfaPOW+9NL3r0nsVbX1asPLdkDj585Wg0NBJCA==
   dependencies:
     postcss-value-parser "^4.2.0"
 
