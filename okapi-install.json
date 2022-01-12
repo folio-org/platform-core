@@ -4,11 +4,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-22.1.0-SNAPSHOT.651",
+    "id": "mod-source-record-manager-3.3.0-SNAPSHOT.537",
     "action": "enable"
   },
   {
-    "id": "mod-inn-reach-1.1.0-SNAPSHOT.163",
+    "id": "mod-inventory-storage-22.1.0-SNAPSHOT.651",
     "action": "enable"
   },
   {
@@ -24,11 +24,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-permissions-6.0.0-SNAPSHOT.134",
+    "id": "mod-data-import-2.3.0-SNAPSHOT.222",
     "action": "enable"
   },
   {
-    "id": "edge-inn-reach-1.0.4-SNAPSHOT.21",
+    "id": "mod-permissions-6.0.0-SNAPSHOT.134",
     "action": "enable"
   },
   {
@@ -125,6 +125,14 @@
   },
   {
     "id": "mod-codex-inventory-2.2.0-SNAPSHOT.91",
+    "action": "enable"
+  },
+  {
+    "id": "mod-inn-reach-1.1.0-SNAPSHOT.163",
+    "action": "enable"
+  },
+  {
+    "id": "edge-inn-reach-1.0.4-SNAPSHOT.21",
     "action": "enable"
   }
 ]
