@@ -4,15 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-manager-3.3.0-SNAPSHOT.537",
-    "action": "enable"
-  },
-  {
     "id": "mod-inventory-storage-22.1.0-SNAPSHOT.651",
-    "action": "enable"
-  },
-  {
-    "id": "mod-data-import-converter-storage-1.13.0-SNAPSHOT.183",
     "action": "enable"
   },
   {
@@ -24,23 +16,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-data-import-2.3.0-SNAPSHOT.222",
-    "action": "enable"
-  },
-  {
     "id": "mod-permissions-6.0.0-SNAPSHOT.134",
     "action": "enable"
   },
   {
     "id": "mod-pubsub-2.5.0-SNAPSHOT.175",
-    "action": "enable"
-  },
-  {
-    "id": "mod-feesfines-17.1.0-SNAPSHOT.169",
-    "action": "enable"
-  },
-  {
-    "id": "mod-patron-blocks-1.5.0-SNAPSHOT.64",
     "action": "enable"
   },
   {
@@ -72,6 +52,14 @@
     "action": "enable"
   },
   {
+    "id": "mod-feesfines-17.1.0-SNAPSHOT.169",
+    "action": "enable"
+  },
+  {
+    "id": "mod-patron-blocks-1.5.0-SNAPSHOT.64",
+    "action": "enable"
+  },
+  {
     "id": "mod-notes-2.14.0-SNAPSHOT.183",
     "action": "enable"
   },
@@ -85,10 +73,6 @@
   },
   {
     "id": "mod-inventory-18.1.0-SNAPSHOT.485",
-    "action": "enable"
-  },
-  {
-    "id": "mod-patron-5.1.0-SNAPSHOT.87",
     "action": "enable"
   },
   {
@@ -125,6 +109,22 @@
   },
   {
     "id": "mod-codex-inventory-2.2.0-SNAPSHOT.91",
+    "action": "enable"
+  },
+  {
+    "id": "mod-data-import-converter-storage-1.13.0-SNAPSHOT.183",
+    "action": "enable"
+  },
+  {
+    "id": "mod-data-import-2.3.0-SNAPSHOT.222",
+    "action": "enable"
+  },
+  {
+    "id": "mod-patron-5.1.0-SNAPSHOT.87",
+    "action": "enable"
+  },
+  {
+    "id": "mod-source-record-manager-3.3.0-SNAPSHOT.537",
     "action": "enable"
   },
   {
