@@ -32,6 +32,14 @@
     "action": "enable"
   },
   {
+    "id": "mod-feesfines-17.1.0-SNAPSHOT.169",
+    "action": "enable"
+  },
+  {
+    "id": "mod-patron-blocks-1.5.0-SNAPSHOT.64",
+    "action": "enable"
+  },
+  {
     "id": "mod-circulation-storage-13.2.0-SNAPSHOT.296",
     "action": "enable"
   },
@@ -57,14 +65,6 @@
   },
   {
     "id": "mod-notify-2.10.0-SNAPSHOT.109",
-    "action": "enable"
-  },
-  {
-    "id": "mod-feesfines-17.1.0-SNAPSHOT.169",
-    "action": "enable"
-  },
-  {
-    "id": "mod-patron-blocks-1.5.0-SNAPSHOT.64",
     "action": "enable"
   },
   {
