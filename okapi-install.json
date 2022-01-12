@@ -116,15 +116,15 @@
     "action": "enable"
   },
   {
-    "id": "mod-data-import-2.3.0-SNAPSHOT.222",
-    "action": "enable"
-  },
-  {
     "id": "mod-patron-5.1.0-SNAPSHOT.87",
     "action": "enable"
   },
   {
     "id": "mod-source-record-manager-3.3.0-SNAPSHOT.537",
+    "action": "enable"
+  },
+  {
+    "id": "mod-data-import-2.3.0-SNAPSHOT.222",
     "action": "enable"
   },
   {
