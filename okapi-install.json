@@ -1,6 +1,6 @@
 [
   {
-    "id": "mod-calendar-1.14.0-SNAPSHOT.124",
+    "id": "mod-calendar-1.14.0-SNAPSHOT.125",
     "action": "enable"
   },
   {
@@ -24,7 +24,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-13.2.0-SNAPSHOT.297",
+    "id": "mod-circulation-storage-13.2.0-SNAPSHOT.298",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-22.2.0-SNAPSHOT.933",
+    "id": "mod-circulation-22.2.0-SNAPSHOT.934",
     "action": "enable"
   },
   {
