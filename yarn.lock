@@ -1178,9 +1178,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/circulation@>=1.3.0", "@folio/circulation@^6.0.0":
-  version "6.0.100000208"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-6.0.100000208.tgz#690740cfc228895eb6226be4eb174de8973a9a47"
-  integrity sha512-aHeZxhAwgYe3P1Rpb/qKmqRrKCgb0+KD1oBUVXxdOY41vLorvi2+vfoh9LyWnTCNXghM4AZaFzlmGQQRIbZkAA==
+  version "6.0.100000214"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-6.0.100000214.tgz#28cfef19005f891143246e426e9057e56a05b709"
+  integrity sha512-vzAPycpmXiWGqIenLpwFYlry2FRX1xKA8osTwulTuM+KiRvE4WtPNwapEecPI3Zz7aMaKKH5zLZpp5Fnq0/aRw==
   dependencies:
     "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
@@ -1298,9 +1298,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^4.0.1":
-  version "4.0.3000245"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000245.tgz#c318e64245ba43f0759021976cf75119862c16f7"
-  integrity sha512-etrAqP8B2Fl9GTW1GH5eWfgJtdkU+OegXaR2Djf+8bU4UfgQNr914j1NS977TJteivbwU5sWvP8m7rtcMQ2a6g==
+  version "4.0.3000246"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000246.tgz#4755e653b10d40c4c169f7601d2e572666fce23f"
+  integrity sha512-XHaDc3x+u1/U3LABmsh0tNtqwxP5RZ/u9f6/wDR/5hjB83ZUf0IoHt5fzGTf89GAgA6ezsZJH0SCVp5KMaPDhw==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
