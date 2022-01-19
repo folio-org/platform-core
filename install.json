@@ -23,7 +23,7 @@
   "id" : "mod-circulation-storage-13.2.0-SNAPSHOT.298",
   "action" : "enable"
 }, {
-  "id" : "mod-event-config-2.2.0-SNAPSHOT.50",
+  "id" : "mod-event-config-2.2.0-SNAPSHOT.51",
   "action" : "enable"
 }, {
   "id" : "mod-configuration-5.8.0-SNAPSHOT.104",
@@ -32,7 +32,7 @@
   "id" : "mod-template-engine-1.16.0-SNAPSHOT.75",
   "action" : "enable"
 }, {
-  "id" : "mod-email-1.13.0-SNAPSHOT.60",
+  "id" : "mod-email-1.13.0-SNAPSHOT.61",
   "action" : "enable"
 }, {
   "id" : "mod-sender-1.7.0-SNAPSHOT.31",
