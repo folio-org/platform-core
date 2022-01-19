@@ -1699,9 +1699,9 @@
     redux "~4.0.0"
 
 "@folio/tags@>=1.1.0":
-  version "6.0.10000024"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-6.0.10000024.tgz#cb0bd30c43422fbb60bb5e7925481fba18107dbf"
-  integrity sha512-cD/lR2ZXEr43LPRzTJKB0nZTHpS07scDM5MsO6W9wB6c8hlHHF7p/HKEo4qwBqjlASJJbgt1MjCnM45qvW/Nwg==
+  version "6.0.10000029"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-6.0.10000029.tgz#a6b27119259ee9925e182e7cfbd7fb9183153294"
+  integrity sha512-i2uOlYnGcdIIt//imjQuLrBPQC2WEUxPyVnKsFeMw2v9GjwHG6Uf8G9o7XoMzCk8Rr121jG2RFsCBy49jgWG8w==
   dependencies:
     prop-types "^15.5.10"
     redux-form "^8.3.7"
@@ -1721,9 +1721,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "7.0.100000641"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000641.tgz#8f29e49fdd4e35b226be18af1c9668f1851a645c"
-  integrity sha512-PihmfyOVtuDaj4jJ/vQPCO0v4lI+ogtbVK0VjdZWR/ifcBV/SWijXHkIp5M45EdJNAQc8Z1XNeO0lj5f3NNOwA==
+  version "7.0.100000647"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000647.tgz#5a0784fa8751443e3340554f4310920f124871c2"
+  integrity sha512-t2LT6hPsKxNY6iKZ8+AwS0FCgAk/3FJI5KjJIEjbGdh8uHiZW6kWilBUqHtFwBKBqOMxuOFOdxhhryHsh5e5gQ==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
