@@ -1298,9 +1298,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^4.0.1":
-  version "4.0.3000248"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000248.tgz#307a104685e412d2672cb88375d8bf41db9653d5"
-  integrity sha512-quT3Yn+Lmu44lJFEXs2vgHqQyqXyQ+tjxqLN9ZmbLjD2PcEcSF3hXGiKUYGp6UJhnme6G4blr3ysk4dftBKbXA==
+  version "4.0.3000251"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000251.tgz#c02c3dbc702086ad3c69ab13fca83331824a3984"
+  integrity sha512-fMHwv9T4RI6DIlHmFHaBkyZrG71/ZuVbYec9rBaF0aPZ19oOsT1NqvWwHO/IY14R9V2eUh5cwdQ7HUI9fk5ViQ==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -10257,9 +10257,9 @@ react-overlays@^4.1.1:
     warning "^4.0.3"
 
 react-query@^3.13.0, react-query@^3.6.0, react-query@^3.9.8:
-  version "3.34.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.34.8.tgz#a3be8523fd95f766b04c32847a1b58d8231db03c"
-  integrity sha512-pl9e2VmVbgKf29Qn/WpmFVtB2g17JPqLLyOQg3GfSs/S2WABvip5xlT464vfXtilLPcJVg9bEHHlqmC38/nvDw==
+  version "3.34.11"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.34.11.tgz#314983ce13fef087d933cf1079aa2df93cb8f97c"
+  integrity sha512-vRC9J8dklE6rQ1uQHveNgoXOH4ceOn6Ww2+XUYOrEsUaSBZ76aQ/VTzDanXJn+E78lFQn0ajdSomduXP55iCwg==
   dependencies:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
