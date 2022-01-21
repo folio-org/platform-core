@@ -4,15 +4,15 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkin-6.0.10000072",
+    "id": "folio_checkin-6.0.100000116",
     "action": "enable"
   },
   {
-    "id": "folio_checkout-7.1.10000069",
+    "id": "folio_checkout-7.1.10000081",
     "action": "enable"
   },
   {
-    "id": "folio_circulation-6.0.100000218",
+    "id": "folio_circulation-6.0.100000221",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-9.0.100000503",
+    "id": "folio_inventory-9.0.100000518",
     "action": "enable"
   },
   {
@@ -28,7 +28,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-create-inventory-records-3.0.10000037",
+    "id": "folio_plugin-create-inventory-records-3.0.10000045",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-7.0.100000440",
+    "id": "folio_requests-7.0.100000446",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-7.0.100000655",
+    "id": "folio_users-7.0.100000663",
     "action": "enable"
   }
 ]
