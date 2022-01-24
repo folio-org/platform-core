@@ -47,7 +47,7 @@
   "id" : "mod-patron-blocks-1.5.0-SNAPSHOT.65",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-2.14.0-SNAPSHOT.183",
+  "id" : "mod-notes-3.0.0-SNAPSHOT.184",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-22.2.0-SNAPSHOT.943",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.0.100000125",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.6.0-SNAPSHOT.187",
+  "id" : "mod-search-1.6.0-SNAPSHOT.188",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.0.3-SNAPSHOT.73",
