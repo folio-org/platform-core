@@ -38,7 +38,7 @@
   "id" : "mod-sender-1.7.0-SNAPSHOT.31",
   "action" : "enable"
 }, {
-  "id" : "mod-notify-2.10.0-SNAPSHOT.109",
+  "id" : "mod-notify-2.10.0-SNAPSHOT.110",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-17.1.0-SNAPSHOT.170",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.0.100000125",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.6.0-SNAPSHOT.186",
+  "id" : "mod-search-1.6.0-SNAPSHOT.187",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.0.3-SNAPSHOT.73",
