@@ -20,7 +20,7 @@
   "id" : "mod-pubsub-2.5.0-SNAPSHOT.181",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-13.2.0-SNAPSHOT.298",
+  "id" : "mod-circulation-storage-13.2.0-SNAPSHOT.299",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.2.0-SNAPSHOT.51",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.0.100000148",
   "action" : "enable"
 }, {
-  "id" : "folio_users-7.0.100000663",
+  "id" : "folio_users-7.0.100000670",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.2.0-SNAPSHOT.91",
