@@ -1,6 +1,6 @@
 # FOLIO core platform
 
-Copyright (C) 2015-2021 The Open Library Foundation
+Copyright (C) 2015-2020 The Open Library Foundation
 
 This software is distributed under the terms of the Apache License,
 Version 2.0. See the file "[LICENSE](LICENSE)" for more information.
@@ -95,19 +95,6 @@ $ yarn test-int --run WD:loan_renewal
 Example running "new_user" test in `ui-users`:
 ```
 $ yarn test-regression --run users:new_user
-```
-
-## Build stripes using the Dockerfile
-The included Dockerfile allows for building a container that serves the stripes platform using Nginx. Pass in the Okapi URL and tenant ID as build arguments. The defaults are shown below:
-
-```
-docker build -f docker/Dockerfile \
-  --build-arg OKAPI_URL=http://localhost:9130 \
-  --build-arg TENANT_ID=diku -t stripes .
-```
-The nginx server name can be passed to the container at runtime. The defualt value is `localhost` if no argument as passed. For example, to have nginx use `127.0.0.1` as the server name:
-```
-docker run stripes 127.0.0.1
 ```
 
 ## Additional information
