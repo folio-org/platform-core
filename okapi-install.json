@@ -113,7 +113,6 @@
   },
   {
     "id": "mod-codex-mux-2.11.1",
-
     "action": "enable"
   },
   {
@@ -163,9 +162,6 @@
   {
     "id": "edge-oai-pmh-2.4.0",
     "action": "enable"
-  },
-  {
-    "id": "edge-sip2-2.1.0",
   },
   {
     "id": "mod-data-export-worker-1.2.2",
