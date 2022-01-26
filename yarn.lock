@@ -1224,9 +1224,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.0.100000580"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.0.100000580.tgz#36fa878321fee1a68bb346663470dd732b3ba874"
-  integrity sha512-rCi8vwLyQ0TcJpSgm/Q9DZqbtRA0Np8MNnkH1NpNE7R+JiC/HIF33KlOvtFxUGLsmoNa3mlI1OXsZC704ed2sg==
+  version "9.0.100000598"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.0.100000598.tgz#c9ab252e1676e2d777a3e92173dc395c4495c7b1"
+  integrity sha512-xqEi0VQhwzrKO7JvBC8h2XRspMmIO8Kt80Gr66QGOy5Kbq6swWsyYJrB4iyhXKA4bYW7jC/Q0BAgkPGOsoULxQ==
   dependencies:
     "@folio/quick-marc" "^4.0.1"
     "@folio/react-intl-safe-html" "^3.0.0"
@@ -4890,9 +4890,9 @@ domhandler@^4.0, domhandler@^4.0.0, domhandler@^4.2.0, domhandler@^4.2.2, domhan
     domelementtype "^2.2.0"
 
 dompurify@^2.2.0:
-  version "2.3.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/dompurify/-/dompurify-2.3.4.tgz#1cf5cf0105ccb4debdf6db162525bd41e6ddacc6"
-  integrity sha512-6BVcgOAVFXjI0JTjEvZy901Rghm+7fDQOrNIcxB4+gdhj6Kwp6T9VBhBY/AbagKHJocRkDYGd6wvI+p4/10xtQ==
+  version "2.3.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/dompurify/-/dompurify-2.3.5.tgz#c83ed5a3ae5ce23e52efe654ea052ffb358dd7e3"
+  integrity sha512-kD+f8qEaa42+mjdOpKeztu9Mfx5bv9gVLO6K9jRx4uGvh6Wv06Srn4jr1wPNY2OOUGGSKHNFN+A8MA3v0E0QAQ==
 
 domutils@^1.7.0:
   version "1.7.0"
