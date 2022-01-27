@@ -2492,9 +2492,9 @@
   integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "17.0.12"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-17.0.12.tgz#f7aa331b27f08244888c47b7df126184bc2339c5"
-  integrity sha512-4YpbAsnJXWYK/fpTVFlMIcUIho2AYCi4wg5aNPrG1ng7fn/1/RZfCIpRCiBX+12RVa34RluilnvCqD+g3KiSiA==
+  version "17.0.13"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-17.0.13.tgz#5ed7ed7c662948335fcad6c412bb42d99ea754e3"
+  integrity sha512-Y86MAxASe25hNzlDbsviXl8jQHb0RDvKt4c40ZJQ1Don0AAL0STLZSs4N+6gLEO55pedy7r2cLwS+ZDxPm/2Bw==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -4810,9 +4810,9 @@ doctrine@^3.0.0:
     esutils "^2.0.2"
 
 dom-accessibility-api@^0.5.6:
-  version "0.5.10"
-  resolved "https://repository.folio.org/repository/npm-ci-all/dom-accessibility-api/-/dom-accessibility-api-0.5.10.tgz#caa6d08f60388d0bb4539dd75fe458a9a1d0014c"
-  integrity sha512-Xu9mD0UjrJisTmv7lmVSDMagQcU9R5hwAbxsaAE/35XPnPLJobbuREfV/rraiSaEj/UOvgrzQs66zyTWTlyd+g==
+  version "0.5.11"
+  resolved "https://repository.folio.org/repository/npm-ci-all/dom-accessibility-api/-/dom-accessibility-api-0.5.11.tgz#79d5846c4f90eba3e617d9031e921de9324f84ed"
+  integrity sha512-7X6GvzjYf4yTdRKuCVScV+aA9Fvh5r8WzWrXBH9w82ZWB/eYDMGCnazoC/YAqAzUJWHzLOnZqr46K3iEyUhUvw==
 
 dom-converter@^0.2.0:
   version "0.2.0"
