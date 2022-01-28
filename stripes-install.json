@@ -20,6 +20,10 @@
     "action": "enable"
   },
   {
+    "id": "folio_circulation-log-2.0.1000114",
+    "action": "enable"
+  },
+  {
     "id": "folio_data-export-5.0.1000288",
     "action": "enable"
   },
