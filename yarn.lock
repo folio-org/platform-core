@@ -1299,9 +1299,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^4.0.1":
-  version "4.0.3000257"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000257.tgz#38fc3565e67f9393b33dd81526306bfa9cea872b"
-  integrity sha512-P+b7Evk7gwrKBTxA+8vPdHHU7lmmqdCZdDysIB8EHcKCCNs8+bNQig/IGgdn3atdzdwn4gWRtW0ZiYIAdVSOWQ==
+  version "4.0.3000258"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000258.tgz#73da115ed7c537af25495b9a6081412e0304b03a"
+  integrity sha512-xP6oMt1LVxSS3PT4iJvcjJgVs1X9pRXMeHTMKi1/9RPdCOBKeK8j5N2qxCh5Fw6dkeMfsk2uQfF3UTANwmO53g==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -8538,7 +8538,7 @@ nanoid@3.1.20:
   resolved "https://repository.folio.org/repository/npm-ci-all/nanoid/-/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
   integrity sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==
 
-nanoid@^3.1.30:
+nanoid@^3.2.0:
   version "3.2.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/nanoid/-/nanoid-3.2.0.tgz#62667522da6673971cca916a6d3eff3f415ff80c"
   integrity sha512-fmsZYa9lpn69Ad5eDn7FMcnnSR+8R34W9qJEijxYhTbfOWzr22n1QxCMzXLK+ODyW2973V3Fux959iQoUxzUIA==
@@ -9701,13 +9701,13 @@ postcss@^7.0.32:
     source-map "^0.6.1"
 
 postcss@^8.2.15, postcss@^8.3.5, postcss@^8.3.9:
-  version "8.4.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/postcss/-/postcss-8.4.5.tgz#bae665764dfd4c6fcc24dc0fdf7e7aa00cc77f95"
-  integrity sha512-jBDboWM8qpaqwkMwItqTQTiFikhs/67OYVvblFFTM7MrZjt6yMKd6r2kgXizEbTTljacm4NldIlZnhbjr84QYg==
+  version "8.4.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/postcss/-/postcss-8.4.6.tgz#c5ff3c3c457a23864f32cb45ac9b741498a09ae1"
+  integrity sha512-OovjwIzs9Te46vlEx7+uXB0PLijpwjXGKXjVGGPIGubGpq7uh5Xgf6D6FiJ/SzJMBosHDp6a2hiXOS97iBXcaA==
   dependencies:
-    nanoid "^3.1.30"
+    nanoid "^3.2.0"
     picocolors "^1.0.0"
-    source-map-js "^1.0.1"
+    source-map-js "^1.0.2"
 
 prebuild-install@^6.1.2:
   version "6.1.4"
@@ -11228,7 +11228,7 @@ source-list-map@^2.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==
 
-source-map-js@^1.0.1:
+source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
