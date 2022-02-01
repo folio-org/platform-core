@@ -1431,9 +1431,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.1.0":
-  version "10.1.100000602"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000602.tgz#df66489cc68aa71211e7e5a1ac3f8d408c9d5d04"
-  integrity sha512-FMwT+yTEj2YUGs1cw2roY9wgDa/3k7LvSYkYfWeFPzvZ7YE4BRnlX0JHwRJeSGqo1M1sDD84AHUdgQy8mjqPXQ==
+  version "10.1.100000608"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000608.tgz#a334bf02d297b26badc50fb2e3c57181b9a0c289"
+  integrity sha512-uwsbQbvbVIekqIWglBD4dJ26DfaTyBB0qmsRqX2eeZPxyb/5SUZun7HFL0w8GJJZ1Ihf3NSqYaFK711bmtVZ3w==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -4198,9 +4198,9 @@ core-js-pure@^3.20.2:
   integrity sha512-VaJUunCZLnxuDbo1rNOzwbet9E1K9joiXS5+DQMPtgxd24wfsZbJZMMfQLGYMlCUvSxLfsRUUhoOR2x28mFfeg==
 
 core-js@^3.0.0, core-js@^3.6.0, core-js@^3.6.1, core-js@^3.8.3:
-  version "3.20.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/core-js/-/core-js-3.20.3.tgz#c710d0a676e684522f3db4ee84e5e18a9d11d69a"
-  integrity sha512-vVl8j8ph6tRS3B8qir40H7yw7voy17xL0piAjlbBUsH7WIfzoedL/ZOr1OV9FyZQLWXsayOJyV4tnRyXR85/ag==
+  version "3.21.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/core-js/-/core-js-3.21.0.tgz#f479dbfc3dffb035a0827602dd056839a774aa71"
+  integrity sha512-YUdI3fFu4TF/2WykQ2xzSiTQdldLB4KVuL9WeAy5XONZYt5Cun/fpQvctoKbCgvPhmzADeesTk/j2Rdx77AcKQ==
 
 core-util-is@1.0.2:
   version "1.0.2"
