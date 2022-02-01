@@ -1142,9 +1142,9 @@
     redux-form "^8.3.7"
 
 "@folio/checkin@>=1.3.0":
-  version "6.0.100000123"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-6.0.100000123.tgz#509c4180412a92d67bffc07851d47bcf0f1a7153"
-  integrity sha512-wMevroJ33Y1umtY8uQj0Od/lLRAFFkT7VFXEv4j/ncweNloTsWgq7nHwqTlCsxExvhgkIcGrUMDF6e96RhSg/Q==
+  version "6.0.100000129"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-6.0.100000129.tgz#6e02b4c3c84a3c4ebf0a8c89377bdd3e9fd41e03"
+  integrity sha512-6KRmMJf7/GTujPqzSRyu7W1yrQkWPbbmGQKoz6TE5Lf/ieuHHGD82/Bc74AHPThG24OWswJ5bZTNjN1K15PUQA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     dateformat "^2.0.0"
@@ -1299,9 +1299,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^4.0.1":
-  version "4.0.3000258"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000258.tgz#73da115ed7c537af25495b9a6081412e0304b03a"
-  integrity sha512-xP6oMt1LVxSS3PT4iJvcjJgVs1X9pRXMeHTMKi1/9RPdCOBKeK8j5N2qxCh5Fw6dkeMfsk2uQfF3UTANwmO53g==
+  version "4.0.3000259"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000259.tgz#85f4f8c9e94d4812a79603b4da3cd9ea060f743b"
+  integrity sha512-pT0i8jW244j/LOqqnCpPJH9Ef7WAvvp683mCK3JnrX68j3wV4VhIZW1TZAXU/Eh5cou13Pof2+sOd5IKkjqoUw==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
