@@ -65,13 +65,13 @@
   "id" : "folio_checkout-7.1.10000089",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-6.0.100000247",
+  "id" : "folio_circulation-6.0.100000250",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.0.100000131",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.6.0-SNAPSHOT.193",
+  "id" : "mod-search-1.6.0-SNAPSHOT.194",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.0.3-SNAPSHOT.73",
