@@ -1,5 +1,5 @@
 [ {
-  "id" : "mod-calendar-1.14.0-SNAPSHOT.125",
+  "id" : "mod-calendar-1.14.0-SNAPSHOT.126",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-storage-23.0.0-SNAPSHOT.657",
@@ -14,13 +14,13 @@
   "id" : "mod-login-7.6.0-SNAPSHOT.112",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-6.0.0-SNAPSHOT.134",
+  "id" : "mod-permissions-6.0.0-SNAPSHOT.135",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.5.0-SNAPSHOT.182",
+  "id" : "mod-pubsub-2.5.0-SNAPSHOT.184",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-13.2.0-SNAPSHOT.302",
+  "id" : "mod-circulation-storage-13.2.0-SNAPSHOT.303",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.2.0-SNAPSHOT.52",
@@ -38,10 +38,10 @@
   "id" : "mod-sender-1.7.0-SNAPSHOT.33",
   "action" : "enable"
 }, {
-  "id" : "mod-notify-2.10.0-SNAPSHOT.110",
+  "id" : "mod-notify-2.10.0-SNAPSHOT.111",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-17.1.0-SNAPSHOT.170",
+  "id" : "mod-feesfines-17.1.0-SNAPSHOT.171",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.5.0-SNAPSHOT.65",

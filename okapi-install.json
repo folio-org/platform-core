@@ -1,6 +1,6 @@
 [
   {
-    "id": "mod-calendar-1.14.0-SNAPSHOT.125",
+    "id": "mod-calendar-1.14.0-SNAPSHOT.126",
     "action": "enable"
   },
   {
@@ -16,15 +16,15 @@
     "action": "enable"
   },
   {
-    "id": "mod-permissions-6.0.0-SNAPSHOT.134",
+    "id": "mod-permissions-6.0.0-SNAPSHOT.135",
     "action": "enable"
   },
   {
-    "id": "mod-pubsub-2.5.0-SNAPSHOT.182",
+    "id": "mod-pubsub-2.5.0-SNAPSHOT.184",
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-13.2.0-SNAPSHOT.302",
+    "id": "mod-circulation-storage-13.2.0-SNAPSHOT.303",
     "action": "enable"
   },
   {
@@ -48,11 +48,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-notify-2.10.0-SNAPSHOT.110",
+    "id": "mod-notify-2.10.0-SNAPSHOT.111",
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-17.1.0-SNAPSHOT.170",
+    "id": "mod-feesfines-17.1.0-SNAPSHOT.171",
     "action": "enable"
   },
   {
