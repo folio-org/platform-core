@@ -50,13 +50,13 @@
   "id" : "mod-notes-3.0.0-SNAPSHOT.185",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-22.2.0-SNAPSHOT.947",
+  "id" : "mod-circulation-22.2.0-SNAPSHOT.948",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.3.0-SNAPSHOT.397",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.1.0-SNAPSHOT.493",
+  "id" : "mod-inventory-18.1.0-SNAPSHOT.494",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-6.0.100000133",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.0.100000159",
   "action" : "enable"
 }, {
-  "id" : "folio_users-7.0.100000731",
+  "id" : "folio_users-7.0.100000746",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.2.0-SNAPSHOT.92",
