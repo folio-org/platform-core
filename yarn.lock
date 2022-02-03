@@ -2185,9 +2185,9 @@
     regenerator-runtime "^0.13.3"
 
 "@jridgewell/resolve-uri@^3.0.3":
-  version "3.0.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@jridgewell/resolve-uri/-/resolve-uri-3.0.3.tgz#b80093f4edbb5490c49746231513669c8f518acb"
-  integrity sha512-fuIOnc81C5iRNevb/XPiM8Khp9bVjreydRQ37rt0C/dY0PAW1DRvEM3WrKX/5rStS5lbgwS0FCgqSndh9tvK5w==
+  version "3.0.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@jridgewell/resolve-uri/-/resolve-uri-3.0.4.tgz#b876e3feefb9c8d3aa84014da28b5e52a0640d72"
+  integrity sha512-cz8HFjOFfUBtvN+NXYSFMHYRdxZMaEl0XypVrhzxBgadKIXhIkRd8aMeHhmF56Sl7SuS8OnUpQ73/k9LE4VnLg==
 
 "@jridgewell/trace-mapping@^0.2.2":
   version "0.2.2"
