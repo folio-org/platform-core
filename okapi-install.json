@@ -24,11 +24,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-13.2.0-SNAPSHOT.301",
+    "id": "mod-circulation-storage-13.2.0-SNAPSHOT.302",
     "action": "enable"
   },
   {
-    "id": "mod-event-config-2.2.0-SNAPSHOT.51",
+    "id": "mod-event-config-2.2.0-SNAPSHOT.52",
     "action": "enable"
   },
   {
@@ -36,15 +36,15 @@
     "action": "enable"
   },
   {
-    "id": "mod-template-engine-1.16.0-SNAPSHOT.75",
+    "id": "mod-template-engine-1.16.0-SNAPSHOT.76",
     "action": "enable"
   },
   {
-    "id": "mod-email-1.13.0-SNAPSHOT.61",
+    "id": "mod-email-1.13.0-SNAPSHOT.62",
     "action": "enable"
   },
   {
-    "id": "mod-sender-1.7.0-SNAPSHOT.32",
+    "id": "mod-sender-1.7.0-SNAPSHOT.33",
     "action": "enable"
   },
   {
