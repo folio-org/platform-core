@@ -1309,9 +1309,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^4.0.1":
-  version "4.0.3000264"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000264.tgz#b83c51bfbae348eaf5ba33f37809237360200ae0"
-  integrity sha512-KMwi/ydC6rkkXc+vrLbgfbGNuIE2O7qVRp6MRY/wEYr4Yky6AfDNwgat0ekzFz3pCze2FsCKJDYV1EiHiZemMA==
+  version "4.0.3000265"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.3000265.tgz#420d6a390e9ab25eb57a3e74526fd63f6c100eb2"
+  integrity sha512-IaB/xTrw05GYyw28nk0aPBY0JZEVmOkZ/JMTpYJT58B58NGIaPI44XtnhdO4KCVgSeAowf5xiCKJydWU1gUTZA==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -1732,9 +1732,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "7.0.100000763"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000763.tgz#cded1cc09bd7826885bcd04ae07d085145ac01f6"
-  integrity sha512-lVd144EX65nHJMcoltmsYCvFLopXYbMkpKxsG8jNuqy5xaFvl4X4sev3AXrqc+FwbP02R8QJ+zNaoIY2elVecw==
+  version "7.0.100000766"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000766.tgz#947045419ea34a73a343e365ea1f6bd755fe53a9"
+  integrity sha512-7EsZ4c59ZVQ/vlMNVAZYqYR3Iv5sntn8yJP2SjdXXIyfAaXiFIrrBx7A2GrU5xi7UT2yf+BJEcGfFubmUGeMZg==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
