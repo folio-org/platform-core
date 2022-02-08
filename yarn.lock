@@ -1621,9 +1621,9 @@
     query-string "^5.0.0"
 
 "@folio/stripes-webpack@^3.0.0":
-  version "3.0.20000048"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-3.0.20000048.tgz#fd046a74a4f83514407d3178b0465b19b4bcb003"
-  integrity sha512-J09vdO1CpH3XpClMtXyFn1kzhLQZwyz0dexZwagt3gQ0C1Jh7YaeI2M1H+YFzOqtBf60qenx+3RPs+/r1Xm3ag==
+  version "3.0.20000057"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-3.0.20000057.tgz#3e4d93ebe1ab21a6935eaecec32350ba9ba710f0"
+  integrity sha512-rcmleL3DbIE+IaFHuNw9nFAFWJ+JCZAlTvW7BeeFrIPzXw3n8InyizhRQd5mCI1Tku7NYj3Bp31N5cF2aSwEng==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
