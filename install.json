@@ -26,7 +26,7 @@
   "id" : "mod-event-config-2.2.0-SNAPSHOT.52",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.8.0-SNAPSHOT.104",
+  "id" : "mod-configuration-5.8.0-SNAPSHOT.105",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.16.0-SNAPSHOT.76",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-7.1.100000112",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-6.0.100000268",
+  "id" : "folio_circulation-6.0.100000271",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.0.100000135",
