@@ -59,16 +59,16 @@
   "id" : "mod-inventory-18.1.0-SNAPSHOT.499",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-6.0.100000133",
+  "id" : "folio_checkin-6.0.100000138",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-7.1.100000112",
+  "id" : "folio_checkout-7.1.100000116",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-6.0.100000271",
+  "id" : "folio_circulation-6.0.100000275",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-6.0.100000135",
+  "id" : "folio_developer-6.0.100000139",
   "action" : "enable"
 }, {
   "id" : "mod-search-1.6.0-SNAPSHOT.195",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.3.0-SNAPSHOT.293",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.0.100000791",
+  "id" : "folio_inventory-9.0.100000797",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-6.0.1000003",
@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.0.10000010",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.0.100000504",
+  "id" : "folio_requests-7.0.100000510",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.105",
@@ -128,7 +128,7 @@
   "id" : "mod-login-saml-2.5.0-SNAPSHOT.92",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-7.0.100000159",
+  "id" : "folio_tenant-settings-7.0.100000165",
   "action" : "enable"
 }, {
   "id" : "folio_users-7.0.100000766",
