@@ -1485,9 +1485,9 @@
     uuid "^8.3.2"
 
 "@folio/stripes-core@~8.1.0":
-  version "8.1.100000179"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.1.100000179.tgz#05465184c8f963f7023460b21c1d7d4ab342639d"
-  integrity sha512-7aNU8zkRFXpzCZR2reCKl7UDlNMwcTr2J680TzypFC9zcwW1eDtvQsr10GFdo2iu+4xlKioZSUxsA76jQskFbA==
+  version "8.1.100000183"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.1.100000183.tgz#de5bbdf33ca7675a5fc5c44d58b9278e1ca7518e"
+  integrity sha512-a8djOEmEWa9tq0G4+hwqDD8CYGVOOGBjbrzjeC/TR+CtU+nbUEuo4ZxKZwlVb7m5OZ6IjBSvx8IKPe0+DRyfIw==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@formatjs/intl-displaynames" "^2.2.3"
@@ -1562,9 +1562,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.1.0":
-  version "7.1.100000285"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.1.100000285.tgz#8a0367b8159a11c83d2476ad9d258838aefb236d"
-  integrity sha512-QBmZoYF9u6SNG1Y3PjSl4exaMTXUoc8WfGVlTvnkbEVv/0mbnmsC2B+Zs/lLZOuhauxClveudi+w5RhRL8FWeQ==
+  version "7.1.100000289"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.1.100000289.tgz#489be1c0a21a311acfd9efeb009f342ed43fed53"
+  integrity sha512-IHfJZKKJvEeWEO4nLYjCImfn37ixpFkmAF900h8ISHbD2RmvXBP/5CIWlP2mtCfkRGw/aNwjgH1qweJ6qLwM/w==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "2.4.0"
@@ -4990,9 +4990,9 @@ ejs@^2.2.4:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.4.17:
-  version "1.4.67"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.67.tgz#699e59d6959d05f87865e12b3055bbcf492bbbee"
-  integrity sha512-A6a2jEPLueEDfb7kvh7/E94RKKnIb01qL+4I7RFxtajmo+G9F5Ei7HgY5PRbQ4RDrh6DGDW66P0hD5XI2nRAcg==
+  version "1.4.68"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.68.tgz#d79447b6bd1bec9183f166bb33d4bef0d5e4e568"
+  integrity sha512-cId+QwWrV8R1UawO6b9BR1hnkJ4EJPCPAr4h315vliHUtVUJDk39Sg1PMNnaWKfj5x+93ssjeJ9LKL6r8LaMiA==
 
 element-is-visible@^1.0.0:
   version "1.0.0"

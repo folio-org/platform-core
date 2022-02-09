@@ -116,10 +116,10 @@
   "id" : "mod-users-bl-7.2.0-SNAPSHOT.110",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-8.1.100000179",
+  "id" : "folio_stripes-core-8.1.100000183",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.1.100000285",
+  "id" : "folio_stripes-smart-components-7.1.100000289",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.0.10000029",
