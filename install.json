@@ -17,7 +17,7 @@
   "id" : "mod-permissions-5.14.4",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.4.2",
+  "id" : "mod-pubsub-2.4.3",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-13.1.1",
@@ -26,7 +26,7 @@
   "id" : "mod-event-config-2.1.1",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.7.3",
+  "id" : "mod-configuration-5.7.5",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.15.1",
@@ -53,10 +53,10 @@
   "id" : "mod-circulation-22.1.4",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.2.6",
+  "id" : "mod-source-record-storage-5.2.8",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.0.6",
+  "id" : "mod-inventory-18.0.7",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-6.0.1",
@@ -125,13 +125,13 @@
   "id" : "folio_tags-6.0.0",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.4.0",
+  "id" : "mod-login-saml-2.4.1",
   "action" : "enable"
 }, {
   "id" : "folio_tenant-settings-7.0.1",
   "action" : "enable"
 }, {
-  "id" : "folio_users-7.0.5",
+  "id" : "folio_users-7.0.6",
   "action" : "enable"
 }, {
   "id" : "okapi-4.9.1",
