@@ -20,7 +20,7 @@
   "id" : "mod-pubsub-2.5.0-SNAPSHOT.184",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-13.2.0-SNAPSHOT.303",
+  "id" : "mod-circulation-storage-13.2.0-SNAPSHOT.304",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.2.0-SNAPSHOT.52",
@@ -53,7 +53,7 @@
   "id" : "mod-circulation-22.2.0-SNAPSHOT.949",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.3.0-SNAPSHOT.399",
+  "id" : "mod-source-record-storage-5.3.0-SNAPSHOT.400",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-18.1.0-SNAPSHOT.499",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-7.1.100000116",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-6.0.100000275",
+  "id" : "folio_circulation-6.0.100000278",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.0.100000139",
