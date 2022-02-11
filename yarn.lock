@@ -1441,9 +1441,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.1.0":
-  version "10.1.100000642"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000642.tgz#6be34932e80aee3699a36c2166c4ad4f2d1559ca"
-  integrity sha512-lDnHCvJaDQwLJSX52npPSto4I5S8cttAppzSNyCNQS2w5ps2KHfyNLb0dQ5uEX+qJBwtywpzhCdwrmqj3PrSHg==
+  version "10.1.100000649"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.1.100000649.tgz#2cd22db0b2864bfd5110161d996586ef93b40906"
+  integrity sha512-5LQBgIilQpiMNcp8rQZJJfWplaDyhibNNHpQP/Xl+E9SJvNHhHpToq4vG5gvbPd9cMP6OmHnm3/rogTYRC89qg==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1732,9 +1732,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "7.0.100000776"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000776.tgz#fcf8a5e90f5e13e7c95a6f5710f29f5cb76ce1d2"
-  integrity sha512-f10AED08el5gYNX5MiS/DDE/qHdbzCVMwJ8dHgRaGa8uMSRVmiW1aTmDVoZvU28XslJ5MGKQ0XpMwh1VqE6wgQ==
+  version "7.0.100000779"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000779.tgz#8006265e376aaa9f484aa20d782a45db35c520ba"
+  integrity sha512-Z8yPCEDUt0N0CA6iWqmw5p0dK7GnDZxQKjbYz/pzv0zRjjCrbSs6O9nT/v186HABGR8hu0A6udg4/zOGLvphaQ==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
