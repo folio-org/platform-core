@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.0.100000139",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.6.0-SNAPSHOT.197",
+  "id" : "mod-search-1.6.0-SNAPSHOT.198",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.0.3-SNAPSHOT.74",
@@ -128,7 +128,7 @@
   "id" : "mod-login-saml-2.5.0-SNAPSHOT.92",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-7.0.100000165",
+  "id" : "folio_tenant-settings-7.0.100000169",
   "action" : "enable"
 }, {
   "id" : "folio_users-7.0.100000766",
