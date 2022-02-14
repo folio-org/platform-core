@@ -56,7 +56,7 @@
   "id" : "mod-source-record-storage-5.3.0-SNAPSHOT.400",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.1.0-SNAPSHOT.500",
+  "id" : "mod-inventory-18.1.0-SNAPSHOT.501",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-6.0.100000138",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-7.1.100000116",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-6.0.100000278",
+  "id" : "folio_circulation-6.0.100000297",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.0.100000139",
@@ -119,7 +119,7 @@
   "id" : "folio_stripes-core-8.1.100000183",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.1.100000289",
+  "id" : "folio_stripes-smart-components-7.1.100000296",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.0.10000029",
