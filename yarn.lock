@@ -1188,9 +1188,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/circulation@>=1.3.0", "@folio/circulation@^6.0.0":
-  version "6.0.100000314"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-6.0.100000314.tgz#3f5c30c7d4370320eeed7434467c84de5249ab49"
-  integrity sha512-gpZKCVeIOQIhS06ov+XIxaaFO+FGarYEUvIhWoabChTAbISDVg+sIWWD0ohwBGMzYKVAqqXzCWuB8RG+GHBI1Q==
+  version "6.0.100000317"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-6.0.100000317.tgz#c9f1e6ca1aacf03411b67dae4f1927328a7a84b3"
+  integrity sha512-RsSUCxZ2OzQIjr4NtfTYYUaoqY25bJUP0rYbOJESliXe/NQVANqn1WrkXt1d7hAxXf7MaBeRK9hgvXz8Ap3K/g==
   dependencies:
     "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
@@ -1732,9 +1732,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "7.0.100000779"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000779.tgz#8006265e376aaa9f484aa20d782a45db35c520ba"
-  integrity sha512-Z8yPCEDUt0N0CA6iWqmw5p0dK7GnDZxQKjbYz/pzv0zRjjCrbSs6O9nT/v186HABGR8hu0A6udg4/zOGLvphaQ==
+  version "7.0.100000791"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.0.100000791.tgz#5c1448407786fc9c5227a0bcca568bf4340ad71c"
+  integrity sha512-RNP0J/gO1YhIOyLf+4B5r67dil83ICdHEwpmwpxHg4+QfNepW6j6uvMujdqAvYoFT+9LHLOwaRejETlgzeeOxA==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
@@ -4990,9 +4990,9 @@ ejs@^2.2.4:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.4.17:
-  version "1.4.70"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.70.tgz#b389047a844ccc84bd185f480f52d2b6306a4cfd"
-  integrity sha512-joSEu0IwP/rOY8mHcQ6J2MEm5GgsvVcrNDSGg2wQiV0epjsq6pNvRk4UA2nqV8aK0PPL+Z1Z/uD73bG8swzroA==
+  version "1.4.71"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.71.tgz#17056914465da0890ce00351a3b946fd4cd51ff6"
+  integrity sha512-Hk61vXXKRb2cd3znPE9F+2pLWdIOmP7GjiTj45y6L3W/lO+hSnUSUhq+6lEaERWBdZOHbk2s3YV5c9xVl3boVw==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
