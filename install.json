@@ -11,7 +11,7 @@
   "id" : "mod-users-18.2.0-SNAPSHOT.182",
   "action" : "enable"
 }, {
-  "id" : "mod-login-7.6.0-SNAPSHOT.112",
+  "id" : "mod-login-7.6.0-SNAPSHOT.113",
   "action" : "enable"
 }, {
   "id" : "mod-permissions-6.0.0-SNAPSHOT.136",
@@ -110,7 +110,7 @@
   "id" : "mod-password-validator-2.3.0-SNAPSHOT.55",
   "action" : "enable"
 }, {
-  "id" : "mod-authtoken-2.10.0-SNAPSHOT.104",
+  "id" : "mod-authtoken-2.10.0-SNAPSHOT.105",
   "action" : "enable"
 }, {
   "id" : "mod-users-bl-7.2.0-SNAPSHOT.110",
