@@ -1728,9 +1728,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "7.1.100000847"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.1.100000847.tgz#5cd0f6a3349fc99016ed590ef11beabc519b499c"
-  integrity sha512-QUfTFHsJCcd6EuP/RoVKN+wa4pP2TfOq9jRr1UPoDm93Fe7jzpn7FdT3NasLbut3XtZnZz7ZhTpE2DAoWBQIcg==
+  version "7.1.100000850"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.1.100000850.tgz#f552fa8901b070eb26a2d1ce75f7aa38f1d8ee14"
+  integrity sha512-OetrTQh5qt6xmeJR0/Nc7zbshpoyGq7me5ZFpkGHFD0dGvB5oaIPXAm6dJ01yAskjElYkme7T3X0zO/VXNY02Q==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
@@ -4789,9 +4789,9 @@ doctrine@^3.0.0:
     esutils "^2.0.2"
 
 dom-accessibility-api@^0.5.6:
-  version "0.5.11"
-  resolved "https://repository.folio.org/repository/npm-ci-all/dom-accessibility-api/-/dom-accessibility-api-0.5.11.tgz#79d5846c4f90eba3e617d9031e921de9324f84ed"
-  integrity sha512-7X6GvzjYf4yTdRKuCVScV+aA9Fvh5r8WzWrXBH9w82ZWB/eYDMGCnazoC/YAqAzUJWHzLOnZqr46K3iEyUhUvw==
+  version "0.5.12"
+  resolved "https://repository.folio.org/repository/npm-ci-all/dom-accessibility-api/-/dom-accessibility-api-0.5.12.tgz#0fea9b3f28976a52fed7298d2cfdcdff29811cda"
+  integrity sha512-gQ2mON6fLWZeM8ubjzL7RtMeHS/g8hb82j4MjHmcQECD7pevWsMlhqwp9BjIRrQvmyJMMyv/XiO1cXzeFlUw4g==
 
 dom-converter@^0.2.0:
   version "0.2.0"
