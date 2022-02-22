@@ -1,6 +1,6 @@
 [
   {
-    "id": "mod-calendar-1.14.0",
+    "id": "mod-calendar-1.15.0-SNAPSHOT.127",
     "action": "enable"
   },
   {
@@ -8,7 +8,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-users-18.2.0-SNAPSHOT.182",
+    "id": "mod-users-18.3.0-SNAPSHOT.183",
     "action": "enable"
   },
   {
@@ -100,7 +100,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-users-bl-7.2.0-SNAPSHOT.110",
+    "id": "mod-users-bl-7.2.0",
     "action": "enable"
   },
   {
