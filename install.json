@@ -32,7 +32,7 @@
   "id" : "mod-template-engine-1.16.0-SNAPSHOT.76",
   "action" : "enable"
 }, {
-  "id" : "mod-email-1.13.0-SNAPSHOT.62",
+  "id" : "mod-email-1.14.0-SNAPSHOT.63",
   "action" : "enable"
 }, {
   "id" : "mod-sender-1.7.0-SNAPSHOT.33",
@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.10.0-SNAPSHOT.111",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-17.1.0-SNAPSHOT.171",
+  "id" : "mod-feesfines-17.2.0-SNAPSHOT.172",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.5.0-SNAPSHOT.69",
@@ -50,7 +50,7 @@
   "id" : "mod-notes-3.0.0-SNAPSHOT.186",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-22.2.0-SNAPSHOT.956",
+  "id" : "mod-circulation-23.1.0-SNAPSHOT.957",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.3.0-SNAPSHOT.402",
@@ -113,13 +113,13 @@
   "id" : "mod-authtoken-2.11.0-SNAPSHOT.106",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-7.2.0",
+  "id" : "mod-users-bl-7.3.0-SNAPSHOT.111",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-8.1.100000206",
+  "id" : "folio_stripes-core-8.2.100000216",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.1.100000362",
+  "id" : "folio_stripes-smart-components-7.2.100000369",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.0.10000029",
@@ -134,6 +134,6 @@
   "id" : "folio_users-7.1.100000867",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-inventory-2.2.0-SNAPSHOT.92",
+  "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.93",
   "action" : "enable"
 } ]
