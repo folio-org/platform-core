@@ -23,7 +23,7 @@
   "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.305",
   "action" : "enable"
 }, {
-  "id" : "mod-event-config-2.2.0-SNAPSHOT.52",
+  "id" : "mod-event-config-2.2.0",
   "action" : "enable"
 }, {
   "id" : "mod-configuration-5.8.0-SNAPSHOT.105",
@@ -44,7 +44,7 @@
   "id" : "mod-feesfines-17.2.0-SNAPSHOT.172",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-1.5.0",
+  "id" : "mod-patron-blocks-1.6.0-SNAPSHOT.70",
   "action" : "enable"
 }, {
   "id" : "mod-notes-3.0.0-SNAPSHOT.186",
