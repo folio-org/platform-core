@@ -38,7 +38,7 @@
   "id" : "mod-sender-1.7.0-SNAPSHOT.33",
   "action" : "enable"
 }, {
-  "id" : "mod-notify-2.10.0-SNAPSHOT.111",
+  "id" : "mod-notify-2.10.0",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-17.2.0-SNAPSHOT.172",
@@ -59,7 +59,7 @@
   "id" : "mod-inventory-18.1.0-SNAPSHOT.505",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-6.0.100000148",
+  "id" : "folio_checkin-6.0.100000156",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-7.1.100000116",
