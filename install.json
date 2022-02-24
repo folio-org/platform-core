@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-23.0.0",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-7.0.10000093",
+  "id" : "folio_calendar-7.1.100000131",
   "action" : "enable"
 }, {
   "id" : "mod-users-18.3.0-SNAPSHOT.183",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-8.0.100000133",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.0.100000335",
+  "id" : "folio_circulation-7.0.100000339",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.0.100000147",
