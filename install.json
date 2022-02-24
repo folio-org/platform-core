@@ -56,7 +56,7 @@
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.403",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.1.0-SNAPSHOT.505",
+  "id" : "mod-inventory-18.1.0-SNAPSHOT.506",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-7.0.100000159",
@@ -89,7 +89,7 @@
   "id" : "folio_plugin-create-inventory-records-3.0.10000045",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-6.1.200000120",
+  "id" : "folio_plugin-find-instance-6.1.300000123",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-6.0.10000039",
