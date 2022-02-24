@@ -1187,7 +1187,25 @@
     "@folio/plugin-create-inventory-records" "^3.0.0"
     "@folio/plugin-find-user" "^6.0.0"
 
-"@folio/circulation@>=1.3.0", "@folio/circulation@^6.0.0":
+"@folio/circulation@>=1.3.0":
+  version "7.0.100000335"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-7.0.100000335.tgz#385a26646b0ce07ca5eb8363307ae24a0f1abda3"
+  integrity sha512-9OIW+6Ph1UteQYuyJzBJMxoMoasQXNe/VY3OfBVMKUCKSrA55bIilqsNmu31mO0xw4ui0hH976vWit5aqFA7iw==
+  dependencies:
+    "@folio/stripes-template-editor" "^3.0.0"
+    codemirror "^5.61.1"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.1"
+    final-form-set-field-data "^1.0.2"
+    html-to-react "^1.3.3"
+    lodash "^4.17.4"
+    moment-timezone "^0.5.33"
+    prop-types "^15.5.10"
+    react-codemirror2 "^7.2.1"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+
+"@folio/circulation@^6.0.0":
   version "6.0.100000326"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-6.0.100000326.tgz#7fe8a00477f685c446f3419271e70124cf470fb1"
   integrity sha512-iZSCdvlYUgzFERzwwnxbWTShVCzithQSzxWPXJeF1RuyR+shhoOLnrGepSpif+qiSs+1qdTArU+UFSLohdnaEg==
