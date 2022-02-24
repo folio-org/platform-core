@@ -1151,9 +1151,9 @@
     redux-form "^8.3.7"
 
 "@folio/checkin@>=1.3.0":
-  version "6.0.100000156"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-6.0.100000156.tgz#e4fca00218b401c92e2840dacbdb838d61552f5e"
-  integrity sha512-YMsIK1EKc1etUjmgA90OkBWtAyjUK6YB72eaRtb2JYanquzXFYIqPqMzN0+vH4hKR6HpQwZdMjdbf2WmHP1D6w==
+  version "7.0.100000159"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.0.100000159.tgz#9b4b3038b34f3fd8f9adc3568e5b8ab3ebd711ef"
+  integrity sha512-zE0wFmnLFzPY/GSF1KzptdXdIGNM1IK7Z2x/mbDY8/7hb6CPiDR3uuFRlpd7UIp/C1nspjeo8+TjYxgxDfeueg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     dateformat "^2.0.0"
@@ -1169,9 +1169,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "7.1.100000116"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-7.1.100000116.tgz#01b497cf45d78784337d8ce2a50fd011a162f59a"
-  integrity sha512-sYwMO/hCG7jg/VlGaEPAcechg0/GLzWzkiGe+ac46+oSBuxkDUCm1pgbT484BVEwCfwjY+9u0S9qay/CkLop2g==
+  version "8.0.100000133"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.0.100000133.tgz#394394404801658a53bb6277fcfb09c65b20b42e"
+  integrity sha512-MYvvXIb986MEPeZS212AooFCGxiEGTCfwUVbgqIL+dDrWi1omXr/107iDswf0TTVn5HU4+E07LLSAskzfwWjQA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     final-form "^4.19.1"
