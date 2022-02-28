@@ -14,7 +14,7 @@
   "id" : "mod-login-7.7.0-SNAPSHOT.115",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-6.1.0-SNAPSHOT.137",
+  "id" : "mod-permissions-6.1.0-SNAPSHOT.138",
   "action" : "enable"
 }, {
   "id" : "mod-pubsub-2.5.1-SNAPSHOT.187",
@@ -38,7 +38,7 @@
   "id" : "mod-sender-1.8.0-SNAPSHOT.34",
   "action" : "enable"
 }, {
-  "id" : "mod-notify-2.11.0-SNAPSHOT.112",
+  "id" : "mod-notify-2.11.0-SNAPSHOT.113",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-17.2.0-SNAPSHOT.172",
@@ -107,7 +107,7 @@
   "id" : "folio_servicepoints-6.0.1000003",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.3.0-SNAPSHOT.55",
+  "id" : "mod-password-validator-2.3.0-SNAPSHOT.56",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.11.0-SNAPSHOT.108",
