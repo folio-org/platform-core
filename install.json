@@ -65,7 +65,7 @@
   "id" : "folio_checkout-8.0.100000133",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.0.100000360",
+  "id" : "folio_circulation-7.0.100000379",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.0.100000147",
