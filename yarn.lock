@@ -1332,11 +1332,11 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.0.10000010"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.10000010.tgz#ca065d2b7cd7403e7c12f5d2eb8dbdadd7700164"
-  integrity sha512-2GEhi0QnQGmUHsVKk3n3vPMU5Ru9SE/vRYX40PckKW7QvnoxdW1i55oj//ichrcw/2V7Ku8wzh5xOQyYSJZ5UQ==
+  version "5.0.10000013"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.10000013.tgz#7c27edfb4050fc6c5a7347d9e3bfdbc774595ae4"
+  integrity sha512-76xRVAQQbjvjSduqLaJwpx5JHuabxX3YR4SUlybGeiIwnC7bmQhh0SsH/+dcUnzC5yqpc4f8hsUlI1APRejVUg==
   dependencies:
-    "@folio/stripes-acq-components" "^2.1.0"
+    "@folio/stripes-acq-components" "~3.1.0"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
     lodash "^4.17.5"
@@ -1393,10 +1393,10 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@^2.1.0":
-  version "2.4.3000516"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.4.3000516.tgz#3b85602ddbff2a595c22e69f0a9e7428db964da0"
-  integrity sha512-4BW3YGF5SGuOuwvKELI7kZuwoJgfrZ6a7kQCrOCjNz5sni7LAMUKpH+lFfgcgTCO6O8azrFceypN6Cjl/GLG2w==
+"@folio/stripes-acq-components@~3.1.0":
+  version "3.1.1000567"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-3.1.1000567.tgz#83e97152c3ab94d6014e867ee96d4a7516477940"
+  integrity sha512-xSjLiDm+BvRlMNv1zqekND8PJ/7QEskeT8AQIy56ji19Z9mAwUuxcXgqXe3lmYt7i7sS/Us5B8tAabRJ82KaGQ==
   dependencies:
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
@@ -1410,6 +1410,7 @@
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.1"
     react-hot-loader "^4.3.12"
+    react-virtualized-auto-sizer "^1.0.6"
     redux-form "^8.3.0"
 
 "@folio/stripes-cli@^2.4.0":
@@ -10406,7 +10407,7 @@ react-transition-group@^2.2.1, react-transition-group@^2.4.0:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react-virtualized-auto-sizer@^1.0.2:
+react-virtualized-auto-sizer@^1.0.2, react-virtualized-auto-sizer@^1.0.6:
   version "1.0.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-virtualized-auto-sizer/-/react-virtualized-auto-sizer-1.0.6.tgz#66c5b1c9278064c5ef1699ed40a29c11518f97ca"
   integrity sha512-7tQ0BmZqfVF6YYEWcIGuoR3OdYe8I/ZFbNclFlGOC3pMqunkYF/oL30NCjSGl9sMEb17AnzixDz98Kqc3N76HQ==
