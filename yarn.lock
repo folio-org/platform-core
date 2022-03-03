@@ -1193,9 +1193,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/circulation@>=1.3.0":
-  version "7.0.100000382"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-7.0.100000382.tgz#4636018af244f56ae6078f024ee44581f82ce6c7"
-  integrity sha512-mvAjd0sjsSSRJUImpsQzI7IfZwjzWaHWqNzeK/Y1V9GO2vME/poKtC8Dzimavs2Q8r9NvUWqsz92bnTjbyHpfA==
+  version "7.0.100000387"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-7.0.100000387.tgz#e7998d57209b08d147e1fbfcf0e1ea5e1201bc94"
+  integrity sha512-91I2y5Bs8L607nkc5FMtu7g8TcfKf6x7xgVEZC/BGOJZdRgBp5rxQOuKssBbrvUifnadP68LmA4mhSNIUYQBUw==
   dependencies:
     "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
@@ -1229,9 +1229,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "6.0.100000147"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.0.100000147.tgz#0dbea674b5179b74086d0eb5d9b712c0884ea30b"
-  integrity sha512-StutssVbd8U7ZEWmYeIuMYfmkxFyilcvBrv2UqiAjvFBv3VlXM350aXDGxAnSDzViYMoqZyOlDPAl73GIwookQ==
+  version "6.0.100000152"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.0.100000152.tgz#73777effe293bd683d80e05c024b65c8a2c91f3a"
+  integrity sha512-3gNzzDH25B0B3V7nCmWu3TzO7T1qrJiQ+aQE1alllfAp5i+HIWxFmJChVC2m0/8IZNDHljBtG6eodZNTr54pFg==
   dependencies:
     chart.js "^2.9.4"
     lodash "^4.17.4"
@@ -1257,9 +1257,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.0.100000864"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.0.100000864.tgz#aa079294a9421846918ff026213400a3442661b2"
-  integrity sha512-IKg7I2/QELcngkPfjOzzuLD1+m2UsoCqxaWdU+H9gOJW/ILLWfC5sYT9fyd0KFDaeF3oobKC1y5t4gC3kzG+DQ==
+  version "9.0.100000870"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.0.100000870.tgz#95fb4a41775d42157314f588bb86ce03fdb713db"
+  integrity sha512-5fDFWGMxakNrXgwmjQPaVJxA4LhAOMRaat+6zjDqWAc+CVn5+S6e7eSXhSLduwIMhh8gdBW6rd0QL2sLwivC4w==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1286,9 +1286,9 @@
     "@folio/plugin-find-instance" "^6.0.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "7.0.10000070"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-7.0.10000070.tgz#9c59704bbdf469bdb18a06f6ddde8c54b98d8776"
-  integrity sha512-XYlv8X+oYlnbU4GbCANp5e6vztn6YOE+14xtchYECxq7nlj6rpUIkLeA+HrHEFLiLfGh9GKGf7WmdvwtgxuQoA==
+  version "7.0.10000075"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-7.0.10000075.tgz#660ed606b59317018ec0e104cdd3f120452bab2a"
+  integrity sha512-8tttULAD8LcPZnvolk1fpZBtJi6cwjz+hkzaltLmHJ0ngwu7+b6Ke+52TfFHMxu+ue3ya7iATnx5iIJ4qYNg/g==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     eslint-import-resolver-webpack "^0.13.2"
@@ -1385,18 +1385,18 @@
     react-hot-loader "^4.3.12"
 
 "@folio/servicepoints@>=1.1.0":
-  version "6.0.1000003"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-6.0.1000003.tgz#3eb9c9f9c94c0a00d7f80cfa74a49778e60199f3"
-  integrity sha512-oqSuAmST7ymf+WFFoGTsMH79fwVmAwQ/Hls3AYGgPX9cUnNy1X7UFW5i99byZGP3xe7bnHXZMYYE7W2NGI/65w==
+  version "6.1.10000041"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-6.1.10000041.tgz#4b439e2c4f656b62eecda4f02a08d7df069303e1"
+  integrity sha512-LaCGbCaj+dBUva4UGByTw2pg04ffvLd3t9SY3UzALnmiiqy9DqwYvfVzNy3sbTawZiqnwiTgb/zhRWmX5l+ZcQ==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@~3.1.0":
-  version "3.1.1000567"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-3.1.1000567.tgz#83e97152c3ab94d6014e867ee96d4a7516477940"
-  integrity sha512-xSjLiDm+BvRlMNv1zqekND8PJ/7QEskeT8AQIy56ji19Z9mAwUuxcXgqXe3lmYt7i7sS/Us5B8tAabRJ82KaGQ==
+  version "3.1.1000568"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-3.1.1000568.tgz#ce97a182c3eea6ef0d71d1b1bda723f49a31232e"
+  integrity sha512-qJ2HHw26059gquwJg9D4RO4z/2szUb/B5kQeMy1w7srwUC+nICgXQIaiCCcfAzXMuAqF185b8SvDetCKokshYw==
   dependencies:
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
@@ -1465,9 +1465,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.2.0":
-  version "10.2.100000760"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.100000760.tgz#6176c758ca9eb43a49d19ebefce203bcba71ac55"
-  integrity sha512-+Br7BFKVoHI5b3KqzUE+FbH6949U5ZLCTUaAo1VW7/erPhGev9WHl5YWR3LAQ6IkK1gGkcJuyrwHmWBTB1fquw==
+  version "10.2.100000774"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.100000774.tgz#647e00476b256c1f5707b748f55e1f0043edab3a"
+  integrity sha512-ET+6OvROASKpz5C86YNQ8Iw3IOFc5ZEhmC0x82OwGehGRP//f5NU1Eq2hIGzD4XKt3SMjWx1+gyLGZ88hVohTQ==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1752,9 +1752,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "7.1.100000896"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.1.100000896.tgz#99e89ab7a627e50e85a6a73f71b8a4c502bbe142"
-  integrity sha512-ifd57U2eoCcQucZEN7NzKxtV3Rkc09jZUgYQe2FixNoAhxePlb/8g822826ihsN9WZEuPCWLtSexOeA0uoe5wQ==
+  version "7.1.100000906"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-7.1.100000906.tgz#8f94758e2b1040bbf1d0553bf0077b47f59de50e"
+  integrity sha512-76Q+zSayJGlZJFB2uc7tIQSuni//+kFKUbdI5yXL1AR3It+vrjJmerH+QXmbOONnNBGVxpUO9RmpxgvoCrSdcQ==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
@@ -4520,9 +4520,9 @@ csso@^4.0.2, csso@^4.2.0:
     css-tree "^1.1.2"
 
 csstype@^3.0.2:
-  version "3.0.10"
-  resolved "https://repository.folio.org/repository/npm-ci-all/csstype/-/csstype-3.0.10.tgz#2ad3a7bed70f35b965707c092e5f30b327c290e5"
-  integrity sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==
+  version "3.0.11"
+  resolved "https://repository.folio.org/repository/npm-ci-all/csstype/-/csstype-3.0.11.tgz#d66700c5eacfac1940deb4e3ee5642792d85cd33"
+  integrity sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw==
 
 csv-loader@^3.0.3:
   version "3.0.3"
@@ -5074,7 +5074,7 @@ enhanced-resolve@^4.0.0:
     memory-fs "^0.5.0"
     tapable "^1.0.0"
 
-enhanced-resolve@^5.8.3:
+enhanced-resolve@^5.9.2:
   version "5.9.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/enhanced-resolve/-/enhanced-resolve-5.9.2.tgz#0224dcd6a43389ebfb2d55efee517e5466772dd9"
   integrity sha512-GIm3fQfwLJ8YZx2smuHpBKkXC1yOk+OBEmKckVyL0i/ea8mqDEykK3ld5dgH1QYPNyT/lIllxV2LULnxCHaHkA==
@@ -12469,9 +12469,9 @@ webpack-virtual-modules@^0.4.3:
   integrity sha512-5NUqC2JquIL2pBAAo/VfBP6KuGkHIZQXW/lNKupLPfhViwh8wNsu0BObtl09yuKZszeEUfbXz8xhrHvSG16Nqw==
 
 webpack@^5.58.1, webpack@^5.61.0:
-  version "5.69.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-5.69.1.tgz#8cfd92c192c6a52c99ab00529b5a0d33aa848dc5"
-  integrity sha512-+VyvOSJXZMT2V5vLzOnDuMz5GxEqLk7hKWQ56YxPW/PQRUuKimPqmEIJOx8jHYeyo65pKbapbW464mvsKbaj4A==
+  version "5.70.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-5.70.0.tgz#3461e6287a72b5e6e2f4872700bc8de0d7500e6d"
+  integrity sha512-ZMWWy8CeuTTjCxbeaQI21xSswseF2oNOwc70QSKNePvmxE7XW36i7vpBMYZFAUHPwQiEbNGCEYIOOlyRbdGmxw==
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"
@@ -12482,7 +12482,7 @@ webpack@^5.58.1, webpack@^5.61.0:
     acorn-import-assertions "^1.7.6"
     browserslist "^4.14.5"
     chrome-trace-event "^1.0.2"
-    enhanced-resolve "^5.8.3"
+    enhanced-resolve "^5.9.2"
     es-module-lexer "^0.9.0"
     eslint-scope "5.1.1"
     events "^3.2.0"
