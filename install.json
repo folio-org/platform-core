@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.15.0-SNAPSHOT.127",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-23.1.0-SNAPSHOT.669",
+  "id" : "mod-inventory-storage-23.1.0-SNAPSHOT.670",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-7.1.100000131",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.4.0-SNAPSHOT.297",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.0.100000870",
+  "id" : "folio_inventory-9.0.100000877",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.0.10000075",
