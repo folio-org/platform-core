@@ -65,7 +65,7 @@
   "id" : "folio_checkout-8.0.100000133",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.0.100000387",
+  "id" : "folio_circulation-7.0.100000393",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.2.100000159",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.4.0-SNAPSHOT.297",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.1.100000883",
+  "id" : "folio_inventory-9.1.100000886",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.0.10000075",
