@@ -14,13 +14,13 @@
   "id" : "mod-login-7.7.0-SNAPSHOT.115",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-6.1.0-SNAPSHOT.138",
+  "id" : "mod-permissions-6.1.0-SNAPSHOT.139",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.5.1-SNAPSHOT.189",
+  "id" : "mod-pubsub-2.5.1-SNAPSHOT.191",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.305",
+  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.306",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.3.0-SNAPSHOT.53",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.1.100000180",
   "action" : "enable"
 }, {
-  "id" : "folio_users-7.2.100000927",
+  "id" : "folio_users-7.2.100000930",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.93",
