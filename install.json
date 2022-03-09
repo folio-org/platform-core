@@ -53,7 +53,7 @@
   "id" : "mod-circulation-23.1.0-SNAPSHOT.958",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.404",
+  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.406",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-18.2.0-SNAPSHOT.509",
