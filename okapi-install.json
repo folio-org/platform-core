@@ -160,18 +160,6 @@
     "action": "enable"
   },
   {
-    "id": "edge-caiasoft-1.2.0-SNAPSHOT.15",
-    "action": "enable"
-  },
-  {
-    "id": "edge-dematic-1.4.0-SNAPSHOT.39",
-    "action": "enable"
-  },
-  {
-    "id": "edge-oai-pmh-2.5.0-SNAPSHOT.75",
-    "action": "enable"
-  },
-  {
     "id": "mod-data-export-worker-1.4.0-SNAPSHOT.165",
     "action": "enable"
   },
@@ -180,11 +168,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-invoice-storage-5.3.0-SNAPSHOT.109",
+    "id": "mod-invoice-storage-5.4.0-SNAPSHOT.113",
     "action": "enable"
   },
   {
-    "id": "mod-invoice-5.3.0-SNAPSHOT.283",
+    "id": "mod-invoice-5.4.0-SNAPSHOT.290",
     "action": "enable"
   },
   {
@@ -192,11 +180,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-kb-ebsco-java-3.10.0-SNAPSHOT.310",
+    "id": "mod-kb-ebsco-java-3.11.0-SNAPSHOT.316",
     "action": "enable"
   },
   {
-    "id": "mod-quick-marc-2.3.0-SNAPSHOT.149",
+    "id": "mod-quick-marc-2.4.0-SNAPSHOT.154",
     "action": "enable"
   }
 ]
