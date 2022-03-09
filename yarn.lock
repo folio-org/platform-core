@@ -1257,9 +1257,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.1.100000886"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.100000886.tgz#2fa8165747ce99fbf443d94fb5ffbfdfbee83106"
-  integrity sha512-Hwdswl0aw7sKwc7KQF/uJiJaGLIzEPI401/x0ftJ3wIS6Q7lFjj/ITgDBmWO4fbINvByqROKBDAnQgtVnvJKHA==
+  version "9.1.100000901"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.100000901.tgz#07aa7ff20ef889691a45ca74950c54b10187d12e"
+  integrity sha512-y4jvd7oAJGI+p5DM+KZoZttIE8r/ApqSCetzPq9v3WiZ/ZP3e8vkkDDSTKwaTcuMtg8QUZkurlRaE+NUZ1vChg==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1348,7 +1348,7 @@
     react-router-prop-types "^1.0.4"
     uuid "^8.3.2"
 
-"@folio/react-intl-safe-html@^3.0.0", "@folio/react-intl-safe-html@^3.1.0":
+"@folio/react-intl-safe-html@^3.1.0":
   version "3.1.100019"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/react-intl-safe-html/-/react-intl-safe-html-3.1.100019.tgz#6b326a0446a1121f7f06c28ccf8a1e25e23c8ab7"
   integrity sha512-Pj4znI9iy5RnRD23weAd6SqWjSgAz66GFIBYxOdtf677gQwg54eNxoxL3tAEKY+9PGYEeW5550SNX9mS7Blawg==
@@ -1385,11 +1385,10 @@
     react-hot-loader "^4.3.12"
 
 "@folio/servicepoints@>=1.1.0":
-  version "6.1.10000041"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-6.1.10000041.tgz#4b439e2c4f656b62eecda4f02a08d7df069303e1"
-  integrity sha512-LaCGbCaj+dBUva4UGByTw2pg04ffvLd3t9SY3UzALnmiiqy9DqwYvfVzNy3sbTawZiqnwiTgb/zhRWmX5l+ZcQ==
+  version "6.1.10000044"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-6.1.10000044.tgz#45766b90e42262893a96ac91542ab4011d51f37f"
+  integrity sha512-Dh0daooSGE3mdW5FXh4wTeg5RP6MRJ2ZBZUYotx6QvvXlXhlF0SKDI/OSgESFtQ5BzTn/7gayII37Jel9GiAmg==
   dependencies:
-    "@folio/react-intl-safe-html" "^3.0.0"
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
@@ -1583,9 +1582,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.2.0":
-  version "7.2.100000430"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000430.tgz#ed0a11fc80859177851b2775cda2af82c49c53e3"
-  integrity sha512-G2w+/zqKl/5yAV1aZQlg753KshrjYoBmyc8MGKZ4DR92mWTfstazHYgAUOI5Dq4X/xfsyHr7P1Hl3SIsjh2VnA==
+  version "7.2.100000433"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000433.tgz#7eb4e889737b2330e10fdfeb8a747c0ced14a232"
+  integrity sha512-mm6KEUayGqjL+bNoF3s1uR7lufD23lfkzhTreoXIu9Z3/kGZYRaXhv8FR+ZLFYHmlAx4xXapSqrFsC1/Ijxtkg==
   dependencies:
     "@rehooks/local-storage" "2.4.0"
     classnames "^2.2.6"
