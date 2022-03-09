@@ -17,7 +17,7 @@
   "id" : "mod-permissions-6.1.0-SNAPSHOT.139",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.5.1-SNAPSHOT.191",
+  "id" : "mod-pubsub-2.5.1-SNAPSHOT.192",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.306",
@@ -50,7 +50,7 @@
   "id" : "mod-notes-3.1.0-SNAPSHOT.188",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-23.1.0-SNAPSHOT.958",
+  "id" : "mod-circulation-23.1.0-SNAPSHOT.959",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.406",
@@ -59,7 +59,7 @@
   "id" : "mod-inventory-18.2.0-SNAPSHOT.509",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-7.0.100000164",
+  "id" : "folio_checkin-7.0.100000167",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-8.0.100000144",
