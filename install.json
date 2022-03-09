@@ -56,16 +56,16 @@
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.404",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.2.0-SNAPSHOT.508",
+  "id" : "mod-inventory-18.2.0-SNAPSHOT.509",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-7.0.100000159",
+  "id" : "folio_checkin-7.0.100000164",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-8.0.100000133",
+  "id" : "folio_checkout-8.0.100000140",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.0.100000393",
+  "id" : "folio_circulation-7.0.100000396",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.2.100000159",
@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.2.10000052",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.0.100000558",
+  "id" : "folio_requests-7.0.100000566",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.105",
