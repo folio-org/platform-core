@@ -20,7 +20,7 @@
   "id" : "mod-pubsub-2.5.1-SNAPSHOT.192",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.306",
+  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.307",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.3.0-SNAPSHOT.53",
@@ -56,7 +56,7 @@
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.407",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.2.0-SNAPSHOT.510",
+  "id" : "mod-inventory-18.2.0-SNAPSHOT.511",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-7.0.100000167",
