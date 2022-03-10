@@ -53,7 +53,7 @@
   "id" : "mod-circulation-23.1.0-SNAPSHOT.960",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.407",
+  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.408",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-18.2.0-SNAPSHOT.511",
@@ -125,7 +125,7 @@
   "id" : "folio_tags-6.1.10000040",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.5.0-SNAPSHOT.92",
+  "id" : "mod-login-saml-2.5.0-SNAPSHOT.93",
   "action" : "enable"
 }, {
   "id" : "folio_tenant-settings-7.1.100000187",
