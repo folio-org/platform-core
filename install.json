@@ -53,7 +53,7 @@
   "id" : "mod-circulation-23.1.0-SNAPSHOT.961",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.408",
+  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.409",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-18.2.0-SNAPSHOT.511",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.2.100000159",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.7.0-SNAPSHOT.209",
+  "id" : "mod-search-1.7.0-SNAPSHOT.210",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.2.0-SNAPSHOT.76",
