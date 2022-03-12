@@ -1144,9 +1144,9 @@
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
 "@folio/calendar@>=2.0.5":
-  version "7.1.100000131"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-7.1.100000131.tgz#cd52cbce3046ef72ffc7fe434633afed6474f9fb"
-  integrity sha512-HAvtqy1QkcHp/1b64AsNW7meGRyGEilS7p0zg7SUMnBOeJ114tbyyrtc2tgqFOFS0H8tEdhj5dI8Pc6ps4iedw==
+  version "7.1.100000140"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-7.1.100000140.tgz#bb6f3dbac4ec9da069b4a805f264ae6acb7c67b7"
+  integrity sha512-iA5DVLqSftjs/HYjIk56SKNMUgkRmI2Y89/fp2vY8oR35NMScvPNcsJ1zuX+Ya1/z0Usx1oZZyB5lzrrqr92BQ==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     lodash "^4.17.5"
