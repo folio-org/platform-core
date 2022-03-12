@@ -1257,9 +1257,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.1.100000911"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.100000911.tgz#4227106be920cb1c789c87d607725cc085659ee3"
-  integrity sha512-UlZKidwfDspd9D+yWHJShre+3rTQtKvCOwbc+zkZB4B4xmkIQ+2NPkrwFVONVpS88za5E8y/SByw9+HxpsMy2Q==
+  version "9.1.100000916"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.100000916.tgz#f9eb556ad941f131607f3f3445e7cdee10a866ea"
+  integrity sha512-+72tI/VgcLtKwTnOfbMCVyLkXxEc9nIiv+6cUjuKLBFCgvfuIJk9Swadrg1V2bTIJBze/AwE4Sdv5udKfjxbBA==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
