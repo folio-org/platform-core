@@ -29,7 +29,7 @@
   "id" : "mod-configuration-5.8.0-SNAPSHOT.105",
   "action" : "enable"
 }, {
-  "id" : "mod-template-engine-1.17.0-SNAPSHOT.77",
+  "id" : "mod-template-engine-1.17.0-SNAPSHOT.78",
   "action" : "enable"
 }, {
   "id" : "mod-email-1.14.0-SNAPSHOT.63",
@@ -56,7 +56,7 @@
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.409",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.2.0-SNAPSHOT.511",
+  "id" : "mod-inventory-18.2.0-SNAPSHOT.512",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-7.0.100000167",
