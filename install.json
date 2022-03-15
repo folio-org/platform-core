@@ -1,139 +1,139 @@
 [ {
-  "id" : "mod-calendar-1.14.0-SNAPSHOT.124",
+  "id" : "mod-calendar-1.15.0-SNAPSHOT.127",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-22.1.0-SNAPSHOT.651",
+  "id" : "mod-inventory-storage-23.1.0-SNAPSHOT.672",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-7.0.10000093",
+  "id" : "folio_calendar-7.1.100000143",
   "action" : "enable"
 }, {
-  "id" : "mod-users-18.2.0-SNAPSHOT.180",
+  "id" : "mod-users-18.3.0-SNAPSHOT.184",
   "action" : "enable"
 }, {
-  "id" : "mod-login-7.6.0-SNAPSHOT.111",
+  "id" : "mod-login-7.7.0-SNAPSHOT.116",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-6.0.0-SNAPSHOT.134",
+  "id" : "mod-permissions-6.1.0-SNAPSHOT.141",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.5.0-SNAPSHOT.175",
+  "id" : "mod-pubsub-2.5.1-SNAPSHOT.193",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-13.2.0-SNAPSHOT.297",
+  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.307",
   "action" : "enable"
 }, {
-  "id" : "mod-event-config-2.2.0-SNAPSHOT.50",
+  "id" : "mod-event-config-2.3.0-SNAPSHOT.53",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.8.0-SNAPSHOT.102",
+  "id" : "mod-configuration-5.8.0-SNAPSHOT.105",
   "action" : "enable"
 }, {
-  "id" : "mod-template-engine-1.16.0-SNAPSHOT.75",
+  "id" : "mod-template-engine-1.17.0-SNAPSHOT.78",
   "action" : "enable"
 }, {
-  "id" : "mod-email-1.13.0-SNAPSHOT.60",
+  "id" : "mod-email-1.14.0-SNAPSHOT.63",
   "action" : "enable"
 }, {
-  "id" : "mod-sender-1.7.0-SNAPSHOT.31",
+  "id" : "mod-sender-1.8.0-SNAPSHOT.34",
   "action" : "enable"
 }, {
-  "id" : "mod-notify-2.10.0-SNAPSHOT.109",
+  "id" : "mod-notify-2.11.0-SNAPSHOT.114",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-17.1.0-SNAPSHOT.169",
+  "id" : "mod-feesfines-17.2.0-SNAPSHOT.173",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-1.5.0-SNAPSHOT.64",
+  "id" : "mod-patron-blocks-1.6.0-SNAPSHOT.70",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-2.14.0-SNAPSHOT.183",
+  "id" : "mod-notes-3.1.0-SNAPSHOT.188",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-22.2.0-SNAPSHOT.929",
+  "id" : "mod-circulation-23.1.0-SNAPSHOT.962",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.3.0-SNAPSHOT.386",
+  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.409",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.1.0-SNAPSHOT.486",
+  "id" : "mod-inventory-18.2.0-SNAPSHOT.512",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-6.0.10000072",
+  "id" : "folio_checkin-7.0.100000167",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-7.1.10000069",
+  "id" : "folio_checkout-8.0.100000154",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-6.0.100000173",
+  "id" : "folio_circulation-7.0.100000396",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-6.0.100000125",
+  "id" : "folio_developer-6.2.100000159",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.6.0-SNAPSHOT.182",
+  "id" : "mod-search-1.7.0-SNAPSHOT.210",
   "action" : "enable"
 }, {
-  "id" : "mod-tags-1.0.3-SNAPSHOT.72",
+  "id" : "mod-tags-1.2.0-SNAPSHOT.76",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-4.3.0-SNAPSHOT.286",
+  "id" : "mod-data-export-4.4.0-SNAPSHOT.299",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.0.100000419",
+  "id" : "folio_inventory-9.1.100000916",
   "action" : "enable"
 }, {
-  "id" : "folio_myprofile-6.0.1000003",
+  "id" : "folio_myprofile-7.0.10000075",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-3.0.10000037",
+  "id" : "folio_plugin-create-inventory-records-3.2.10000065",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-6.1.20000081",
+  "id" : "folio_plugin-find-instance-6.2.100000150",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-6.0.10000010",
+  "id" : "folio_plugin-find-user-6.2.10000052",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.0.100000390",
+  "id" : "folio_requests-7.0.100000593",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.105",
   "action" : "enable"
 }, {
-  "id" : "folio_search-5.0.10000018",
+  "id" : "folio_search-5.1.10000052",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-6.0.1000003",
+  "id" : "folio_servicepoints-6.1.10000044",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.3.0-SNAPSHOT.53",
+  "id" : "mod-password-validator-2.3.1-SNAPSHOT.57",
   "action" : "enable"
 }, {
-  "id" : "mod-authtoken-2.10.0-SNAPSHOT.101",
+  "id" : "mod-authtoken-2.11.0-SNAPSHOT.110",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-7.2.0-SNAPSHOT.109",
+  "id" : "mod-users-bl-7.3.0-SNAPSHOT.112",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-8.1.100000156",
+  "id" : "folio_stripes-core-8.2.100000239",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.1.100000219",
+  "id" : "folio_stripes-smart-components-7.2.100000442",
   "action" : "enable"
 }, {
-  "id" : "folio_tags-6.0.1000003",
+  "id" : "folio_tags-6.1.10000040",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.5.0-SNAPSHOT.90",
+  "id" : "mod-login-saml-2.5.0-SNAPSHOT.93",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-7.0.100000148",
+  "id" : "folio_tenant-settings-7.1.100000187",
   "action" : "enable"
 }, {
-  "id" : "folio_users-7.0.100000598",
+  "id" : "folio_users-7.2.100000940",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-inventory-2.2.0-SNAPSHOT.91",
+  "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.93",
   "action" : "enable"
 } ]
