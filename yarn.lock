@@ -1737,9 +1737,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "7.1.100000187"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.1.100000187.tgz#8126dffa5f83484801f082a69966bde5590075e9"
-  integrity sha512-w3pDsuoYKlDIWBQDP/Y52eVxSIj/4Fw/IhXePO3IwkMu6Y4a+fcKWUyxKWjl8tMSb/XwDydp1bXNHfFZmTtfDw==
+  version "7.1.100000192"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.1.100000192.tgz#437e0f6aa8bb46f9967f3c93cc076efd81875e3f"
+  integrity sha512-ffizy5CaRz4W27zLkz3a5f8b/t8bnyujZlx+CHn7Ol+vgv50tSK9dFbaBnh7NI1iD78gaERtTg+T3BCrS38zOg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     final-form "^4.18.2"
@@ -9115,9 +9115,9 @@ pako@^1.0.5, pako@~1.0.5:
   integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
 
 papaparse@^5.2.0:
-  version "5.3.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/papaparse/-/papaparse-5.3.1.tgz#770b7a9124d821d4b2132132b7bd7dce7194b5b1"
-  integrity sha512-Dbt2yjLJrCwH2sRqKFFJaN5XgIASO9YOFeFP8rIBRG2Ain8mqk5r1M6DkfvqEVozVcz3r3HaUGw253hA1nLIcA==
+  version "5.3.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/papaparse/-/papaparse-5.3.2.tgz#d1abed498a0ee299f103130a6109720404fbd467"
+  integrity sha512-6dNZu0Ki+gyV0eBsFKJhYr+MdQYAzFUGlBMNj3GNrmHxmz1lfRa24CjFObPXtjcetlOv5Ad299MhIK0znp3afw==
 
 param-case@^3.0.4:
   version "3.0.4"
