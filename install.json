@@ -62,7 +62,7 @@
   "id" : "folio_checkin-7.0.100000167",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-8.0.100000154",
+  "id" : "folio_checkout-8.0.100000157",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-7.0.100000396",
@@ -92,7 +92,7 @@
   "id" : "folio_plugin-find-instance-6.2.100000150",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-6.2.10000052",
+  "id" : "folio_plugin-find-user-6.2.10000057",
   "action" : "enable"
 }, {
   "id" : "folio_requests-7.0.100000593",
