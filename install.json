@@ -56,7 +56,7 @@
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.409",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.2.0-SNAPSHOT.513",
+  "id" : "mod-inventory-18.2.0-SNAPSHOT.515",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-7.0.100000167",
@@ -119,7 +119,7 @@
   "id" : "folio_stripes-core-8.2.100000239",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.2.100000442",
+  "id" : "folio_stripes-smart-components-7.2.100000450",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.1.10000040",
