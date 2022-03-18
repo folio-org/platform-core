@@ -12,7 +12,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-23.1.0-SNAPSHOT.672",
+    "id": "mod-inventory-storage-23.1.0-SNAPSHOT.676",
     "action": "enable"
   },
   {
@@ -60,7 +60,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-17.2.0-SNAPSHOT.173",
+    "id": "mod-feesfines-17.2.0-SNAPSHOT.175",
     "action": "enable"
   },
   {
@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-23.1.0-SNAPSHOT.962",
+    "id": "mod-circulation-23.1.0-SNAPSHOT.966",
     "action": "enable"
   },
   {
@@ -80,11 +80,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-5.4.0-SNAPSHOT.409",
+    "id": "mod-source-record-storage-5.4.0-SNAPSHOT.410",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-18.2.0-SNAPSHOT.512",
+    "id": "mod-inventory-18.2.0-SNAPSHOT.516",
     "action": "enable"
   },
   {
@@ -104,11 +104,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-audit-2.4.0-SNAPSHOT.117",
+    "id": "mod-audit-2.4.0-SNAPSHOT.118",
     "action": "enable"
   },
   {
-    "id": "mod-search-1.7.0-SNAPSHOT.210",
+    "id": "mod-search-1.7.0-SNAPSHOT.211",
     "action": "enable"
   },
   {
@@ -116,7 +116,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-data-export-4.4.0-SNAPSHOT.299",
+    "id": "mod-data-export-4.4.0-SNAPSHOT.301",
     "action": "enable"
   },
   {
