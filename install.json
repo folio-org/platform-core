@@ -77,7 +77,7 @@
   "id" : "mod-tags-1.2.0-SNAPSHOT.76",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-4.4.0-SNAPSHOT.308",
+  "id" : "mod-data-export-4.5.0-SNAPSHOT.309",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-9.1.100000931",
@@ -113,7 +113,7 @@
   "id" : "mod-authtoken-2.11.0-SNAPSHOT.110",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-7.3.0-SNAPSHOT.112",
+  "id" : "mod-users-bl-7.3.0-SNAPSHOT.113",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-core-8.2.100000239",
