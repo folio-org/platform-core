@@ -1256,9 +1256,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.1.100000943"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.100000943.tgz#a1334030c9431fc6ca680899b1b0858594f994cf"
-  integrity sha512-9n71ORD/jnGzryzHsQvJTVIieIn28Nd+8tAYrjLoKir3wLmu05y0lgXSghi2sAEpKIZKEGlE6D/r37ghcqrFcQ==
+  version "9.1.100000950"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.100000950.tgz#fde6d0b73f1016be80375b073edb76db89c27830"
+  integrity sha512-vxEfCpfEIbqIfopFUAxtW3d+sEY5hHF/6qp0eLYqC9qsLunfzcNd4+zNyN/KsnwRrMBtJn6dw6PuIzSZu3fL1A==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -9509,9 +9509,9 @@ postcss-discard-overridden@^5.1.0:
   integrity sha512-21nOL7RqWR1kasIVdKs8HNqQJhFxLsyRfAnUDm4Fe4t4mCWL9OJiHvlHPjcd8zc5Myu89b/7wZDnOSjFgeWRtw==
 
 postcss-import@^14.0.2:
-  version "14.0.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-import/-/postcss-import-14.0.2.tgz#60eff77e6be92e7b67fe469ec797d9424cae1aa1"
-  integrity sha512-BJ2pVK4KhUyMcqjuKs9RijV5tatNzNa73e/32aBVE/ejYPe37iH+6vAu9WvqUkB5OAYgLHzbSvzHnorybJCm9g==
+  version "14.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-import/-/postcss-import-14.1.0.tgz#a7333ffe32f0b8795303ee9e40215dac922781f0"
+  integrity sha512-flwI+Vgm4SElObFVPpTIT7SU7R3qk2L7PyduMcokiaVKuWv9d/U+Gm/QAd8NDLuykTWTkcrjOeD2Pp1rMeBTGw==
   dependencies:
     postcss-value-parser "^4.0.0"
     read-cache "^1.0.0"

@@ -71,16 +71,16 @@
   "id" : "folio_developer-6.2.100000163",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.7.0-SNAPSHOT.215",
+  "id" : "mod-search-1.7.0-SNAPSHOT.216",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.2.0-SNAPSHOT.76",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-4.5.0-SNAPSHOT.310",
+  "id" : "mod-data-export-4.5.0-SNAPSHOT.311",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.1.100000943",
+  "id" : "folio_inventory-9.1.100000950",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.0.10000075",
