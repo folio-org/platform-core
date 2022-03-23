@@ -1462,9 +1462,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.2.0":
-  version "10.2.100000883"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.100000883.tgz#0e28071427d8f82dd54847ad95540c449b582b1d"
-  integrity sha512-PNC5xaaInO5aBQB/aXqvRZesjxQNwSyvMJ40pIsaF5cHPEq6PEVd1pmAs0vf6ioC5U3M+IWzWGDvqNeG6F31zw==
+  version "10.2.100000888"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.100000888.tgz#83099798d92b877b99716aa6585b36450e1377ae"
+  integrity sha512-mYpwEuE+0Bv6eVTKcXd4aJakpy2dh18JC+qS71bOWz3UD2xhSS/VgS44rJvV5fxIFhXT535vPtBv2eXbe1Qlng==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -2515,9 +2515,9 @@
   integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "17.0.22"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-17.0.22.tgz#38b6c4b9b2f3ed9f2e376cce42a298fb2375251e"
-  integrity sha512-8FwbVoG4fy+ykY86XCAclKZDORttqE5/s7dyWZKLXTdv3vRy5HozBEinG5IqhvPXXzIZEcTVbuHlQEI6iuwcmw==
+  version "17.0.23"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-17.0.23.tgz#3b41a6e643589ac6442bdbd7a4a3ded62f33f7da"
+  integrity sha512-UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==
 
 "@types/node@16.9.1":
   version "16.9.1"
