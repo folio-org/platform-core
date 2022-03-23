@@ -14,7 +14,7 @@
   "id" : "mod-login-7.7.0-SNAPSHOT.116",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-6.1.0-SNAPSHOT.142",
+  "id" : "mod-permissions-6.1.0-SNAPSHOT.143",
   "action" : "enable"
 }, {
   "id" : "mod-pubsub-2.5.1-SNAPSHOT.193",
@@ -53,7 +53,7 @@
   "id" : "mod-circulation-23.1.0-SNAPSHOT.966",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.412",
+  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.413",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-18.2.0-SNAPSHOT.517",
