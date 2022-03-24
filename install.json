@@ -14,7 +14,7 @@
   "id" : "mod-login-7.7.0-SNAPSHOT.116",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-6.1.0-SNAPSHOT.144",
+  "id" : "mod-permissions-6.1.0-SNAPSHOT.145",
   "action" : "enable"
 }, {
   "id" : "mod-pubsub-2.5.1-SNAPSHOT.193",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.5.0-SNAPSHOT.312",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.1.100000975",
+  "id" : "folio_inventory-9.1.100000983",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.0.10000075",
@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.2.10000062",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.0.100000616",
+  "id" : "folio_requests-7.0.100000628",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.105",
