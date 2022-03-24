@@ -1173,9 +1173,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "8.0.100000171"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.0.100000171.tgz#61608804e07c1a5a1d4413021d644d12ee9c5b90"
-  integrity sha512-VxKRF5Hy4b8T+Vt6X5tlwPKTPBBCuo8HSxplvQIxMX6P5vf6io+DDZNGNaCsZEaqRws+e+lV73RkAf/a3YM6dg==
+  version "8.0.100000174"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.0.100000174.tgz#415d694948bd0c334b0323e11afc593ef88bb26c"
+  integrity sha512-OPffsF+xc9JK/1KjYlwZPC/sJCmV7/wn5lZOh1Z7DgbFmVNesbjpDmBTAKNNUO6fYAVhRduPp3txV/bJGba2aA==
   dependencies:
     final-form "^4.19.1"
     inactivity-timer "^1.0.0"
