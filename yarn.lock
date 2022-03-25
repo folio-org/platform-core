@@ -1255,9 +1255,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.1.100000991"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.100000991.tgz#e66a38b5edb2421a55f72f99781eada20f713985"
-  integrity sha512-mkP25/mJrhACfhar6w3qiMT9Jf2D0U2xR9AaswIvf+lvV+iCDhg3RkVuS6UjF1tgzbx11hkd3MZ5VwbxMTr2PQ==
+  version "9.1.1000001011"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001011.tgz#2566239ce1ea175a53e620672166dba74d8d866b"
+  integrity sha512-5ZKprETa/C69LI0eDC/BWhHS4n4GVDisMmlcIUxJwjGytVNLfn6WpwAd1zVzgj0vZcyrn/LxaLbV/vs+ziTuaQ==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1411,9 +1411,9 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-cli@^2.4.0":
-  version "2.5.10000061"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-2.5.10000061.tgz#3b166f93803f47c8798600ec46a7df3f9272a70c"
-  integrity sha512-zxPJ+RFgKdj5E6ecIUu/Kq2+FIkD95C0Bx0cXof7JVKPmT/LsqhYmpHf95jN/M1Gq4H6b3CzapPa/0qOE6fakQ==
+  version "2.5.10000064"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-2.5.10000064.tgz#5f16876c73c6ab99236c9cb2010a8bc8a3794a6a"
+  integrity sha512-FBxvAVWsC7cI+46HKbF0dfVrVR/xACHq5FUKL0W/gpWXv5vx4NMEydtC0vVB4CpHHxjIwGbSL9cboeY9R9RcBQ==
   dependencies:
     "@folio/stripes-testing" "^3.0.0"
     "@folio/stripes-webpack" "^3.0.3"
