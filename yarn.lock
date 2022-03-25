@@ -7254,9 +7254,9 @@ isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
 
 isbinaryfile@^4.0.8:
-  version "4.0.9"
-  resolved "https://repository.folio.org/repository/npm-ci-all/isbinaryfile/-/isbinaryfile-4.0.9.tgz#a2ff303ebf746461a304c34da2932b2b4e5a1153"
-  integrity sha512-GhwgwhMeEkMF/PmVpA+zRGCxoQvJ7PONqsKI+eq+ivgYolKe7AQdlqLFiSEBSTrO3YsQ2jvgwT2Gd6Z1TDcoaw==
+  version "4.0.10"
+  resolved "https://repository.folio.org/repository/npm-ci-all/isbinaryfile/-/isbinaryfile-4.0.10.tgz#0c5b5e30c2557a2f06febd37b7322946aaee42b3"
+  integrity sha512-iHrqe5shvBUcFbmZq9zOQHBoeOhZJu6RQGrDpBgenUm/Am+F3JM2MgQj+rK3Z601fzrL5gLZWtAPH2OBaSVcyw==
 
 isexe@^2.0.0:
   version "2.0.0"
