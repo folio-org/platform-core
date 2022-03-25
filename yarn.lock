@@ -1462,9 +1462,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.2.0":
-  version "10.2.100000893"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.100000893.tgz#8dcc53a8997cd6840b554bf93618e8fe5e8fcce7"
-  integrity sha512-+ZzA9AUOXSB3LiLR97HT/Pr3lzGtbXkwbQufAUpCAGXkM9EV17KHSnrugGd3C+j9mN/ZuNeMj3bMoEfLqsE1lQ==
+  version "10.2.100000910"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.100000910.tgz#dc9ff40375bab43c5523c8ab81ff669273b1cb24"
+  integrity sha512-tGPClstibYI/jW5CUBsPTSI+9dOancwqSD+ZeaWcLurnc5X7CB+/tA0x+ZoOxRabK60wESISeWaW/ZcO3hR+Kg==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1638,9 +1638,9 @@
     query-string "^5.0.0"
 
 "@folio/stripes-webpack@^3.0.3":
-  version "3.1.10000087"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-3.1.10000087.tgz#8dc43144cf3bba2b5b4917181bbe56067b7ac9e2"
-  integrity sha512-9PIJ5tk9/ubEGZ4MBiZvj1HP+/+XIU3+3O9rUaDaA90z9QcsjxnSZcNgnMJx15iLVnYxa2oLoZ7Kg5Xcsab4PA==
+  version "3.1.10000090"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-3.1.10000090.tgz#180b5394636cf352757a87d7ed042a19cfae78d1"
+  integrity sha512-q4LGDe84qQPxxDYlLNweBxZyO+cxggIkaC//oNhrL5hKV2kjwhuZKq44l0+bLe5bCvgfMrR3UJBf9wOcdWV3Vw==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
@@ -1687,7 +1687,7 @@
     postcss-calc "^8.0.0"
     postcss-color-function folio-org/postcss-color-function
     postcss-custom-media "^8.0.0"
-    postcss-custom-properties "^12.0.0"
+    postcss-custom-properties "12.1.4"
     postcss-import "^14.0.2"
     postcss-loader "^6.2.0"
     postcss-media-minmax "^5.0.0"
@@ -9480,10 +9480,10 @@ postcss-custom-media@^8.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/postcss-custom-media/-/postcss-custom-media-8.0.0.tgz#1be6aff8be7dc9bf1fe014bde3b71b92bb4552f1"
   integrity sha512-FvO2GzMUaTN0t1fBULDeIvxr5IvbDXcIatt6pnJghc736nqNgsGao5NT+5+WVLAQiTt6Cb3YUms0jiPaXhL//g==
 
-postcss-custom-properties@^12.0.0:
-  version "12.1.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-custom-properties/-/postcss-custom-properties-12.1.5.tgz#e669cfff89b0ea6fc85c45864a32b450cb6b196f"
-  integrity sha512-FHbbB/hRo/7cxLGkc2NS7cDRIDN1oFqQnUKBiyh4b/gwk8DD8udvmRDpUhEK836kB8ggUCieHVOvZDnF9XhI3g==
+postcss-custom-properties@12.1.4:
+  version "12.1.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-custom-properties/-/postcss-custom-properties-12.1.4.tgz#e3d8a8000f28094453b836dff5132385f2862285"
+  integrity sha512-i6AytuTCoDLJkWN/MtAIGriJz3j7UX6bV7Z5t+KgFz+dwZS15/mlTJY1S0kRizlk6ba0V8u8hN50Fz5Nm7tdZw==
   dependencies:
     postcss-value-parser "^4.2.0"
 
