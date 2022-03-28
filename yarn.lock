@@ -1255,9 +1255,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.1.1000001021"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001021.tgz#46dd1197b6d802b833513ee18fcb85aa02f2f26e"
-  integrity sha512-W5CGiFRCAAH85SbXZn5WycyZnwFd7f9Hs0vC5BXa3yExaeMXUrbLvNQ0NLhfYAurVGB//GoZ3NJsqSTv9TP0OQ==
+  version "9.1.1000001031"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001031.tgz#6009c0ca0517a2e1d005f0d5539cb719662c64ad"
+  integrity sha512-j2fNkjI97eQ8PgOtiQ5fvG7qzps27MMgxBe43eaxKtHgIzeLV9feBalG7Oc/OAVZpDtN2hhca8b5zfWLVH56qQ==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1391,9 +1391,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@~3.1.0":
-  version "3.1.1000575"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-3.1.1000575.tgz#bbeb9cf8b898d7d5f85b25b55abd62d337761c35"
-  integrity sha512-edVDpU8C/p8ygywH+Y/vS+7De2tyNCZGpmh6VJMY5Bg04vyeC/k26kpwCh+n+vZ8PNMA206lPqvBiGmhnQ+7Cw==
+  version "3.1.1000576"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-3.1.1000576.tgz#091517b4b87ca9a4b54901ea8593909224195a1f"
+  integrity sha512-XUeZk3d2C0eFikIfF+J3yxKtY4svqyZgECo0eiRD6ckCTfa/Mh42FVi9nWW0n6E5sTMT76fIxMLRJZ+UjTe+HQ==
   dependencies:
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
@@ -1406,7 +1406,6 @@
     react-dropzone "^10.0.0"
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.1"
-    react-hot-loader "^4.3.12"
     react-virtualized-auto-sizer "^1.0.6"
     redux-form "^8.3.0"
 
