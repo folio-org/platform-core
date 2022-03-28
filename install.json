@@ -53,7 +53,7 @@
   "id" : "mod-circulation-23.1.0-SNAPSHOT.967",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.415",
+  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.416",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-18.2.0-SNAPSHOT.518",
@@ -83,7 +83,7 @@
   "id" : "folio_inventory-9.1.1000001031",
   "action" : "enable"
 }, {
-  "id" : "folio_myprofile-7.0.10000075",
+  "id" : "folio_myprofile-7.0.10000080",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-create-inventory-records-3.2.10000071",
@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.2.10000062",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.0.100000628",
+  "id" : "folio_requests-7.0.100000657",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.105",
