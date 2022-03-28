@@ -26,7 +26,7 @@
   "id" : "mod-event-config-2.3.0-SNAPSHOT.53",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.8.0-SNAPSHOT.105",
+  "id" : "mod-configuration-5.8.0-SNAPSHOT.106",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.17.0-SNAPSHOT.78",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.1.100000196",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.1.1000001085",
+  "id" : "folio_users-8.1.1000001090",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.93",
