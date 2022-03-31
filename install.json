@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-23.1.0-SNAPSHOT.678",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-7.1.100000143",
+  "id" : "folio_calendar-7.1.100000150",
   "action" : "enable"
 }, {
   "id" : "mod-users-18.3.0-SNAPSHOT.185",
@@ -20,7 +20,7 @@
   "id" : "mod-pubsub-2.5.1-SNAPSHOT.193",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.307",
+  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.308",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.3.0-SNAPSHOT.53",
