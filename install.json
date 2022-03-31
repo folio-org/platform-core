@@ -50,7 +50,7 @@
   "id" : "mod-notes-3.1.0-SNAPSHOT.188",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-23.1.0-SNAPSHOT.974",
+  "id" : "mod-circulation-23.1.0-SNAPSHOT.975",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.416",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.1.100000196",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.1.1000001102",
+  "id" : "folio_users-8.1.1000001113",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.93",
