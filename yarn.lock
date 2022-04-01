@@ -1330,9 +1330,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.0.10000046"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.10000046.tgz#1743a63e7345b7e1c70ce09f6b07863738c0377a"
-  integrity sha512-XQIlb20gm66/wpYs2Ke5RprH5/yz2HQ9xsbVKBvSohCQBPUMIlv4MO+yIzFXF47MBVv7K7j6hka63JqkNXmipg==
+  version "5.0.10000053"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.10000053.tgz#4469c6489d4f2571ca1dca42c75816349d9377af"
+  integrity sha512-sAzw5/LE9uPLNqQMXWpUQXNvrLrfJpbMq23qkvbMJ+W62AuVYSYShyhJmI7FukAPtyf5CkEhN9WnOBqsP2iJJg==
   dependencies:
     "@folio/stripes-acq-components" "~3.1.0"
     final-form "^4.18.2"
@@ -10199,9 +10199,9 @@ react-final-form-listeners@^1.0.2, react-final-form-listeners@^1.0.3:
     "@babel/runtime" "^7.12.5"
 
 react-final-form@^6.3.0, react-final-form@^6.4.0, react-final-form@^6.5.6:
-  version "6.5.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form/-/react-final-form-6.5.8.tgz#08b17bc6d4124300a9f2ea1f6b2e608150d3bab0"
-  integrity sha512-j8Rmr5zAaMliNbh+CPnY734exHfk7MjQ8I6ZcykcChmPDFPV2aF40PFAcmQ/KreA10AI8ew0tff6q0gVqwFaGA==
+  version "6.5.9"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form/-/react-final-form-6.5.9.tgz#644797d4c122801b37b58a76c87761547411190b"
+  integrity sha512-x3XYvozolECp3nIjly+4QqxdjSSWfcnpGEL5K8OBT6xmGrq5kBqbA6+/tOqoom9NwqIPPbxPNsOViFlbKgowbA==
   dependencies:
     "@babel/runtime" "^7.15.4"
 
