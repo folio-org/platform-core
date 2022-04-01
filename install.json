@@ -53,7 +53,7 @@
   "id" : "mod-circulation-23.1.0-SNAPSHOT.975",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.416",
+  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.417",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-18.2.0-SNAPSHOT.519",
@@ -89,7 +89,7 @@
   "id" : "folio_plugin-create-inventory-records-3.2.10000071",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-6.2.100000156",
+  "id" : "folio_plugin-find-instance-6.2.100000162",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-6.2.10000062",
