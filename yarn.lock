@@ -1330,9 +1330,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.0.10000067"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.10000067.tgz#a94c43ea5c9131eb00f7ef10765bf7ee321ae84e"
-  integrity sha512-7HTCHqJ44A8rjDSR01cczg80Onz70jz4Yq3qvqAXK1g23iCiMBIV0x1n8DL453f70cL0AQKHIz1JK3c/NIV5eA==
+  version "5.0.10000070"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.10000070.tgz#a2d51ac6b62c66dfa65e74a1e031bc5df36ef372"
+  integrity sha512-HmqdmQHBdaZn4y+Hv9GdmcyYT0AWwR2F99kXt+AaK4wDSLEdHFXMFoz/lIq/YopOjwBqQ6ECHpKXu3aGl9cbZg==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
@@ -1342,7 +1342,6 @@
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.0"
     react-final-form-listeners "^1.0.2"
-    react-hot-loader "^4.3.12"
     react-router-prop-types "^1.0.4"
     uuid "^8.3.2"
 
