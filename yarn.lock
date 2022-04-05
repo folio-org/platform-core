@@ -1144,9 +1144,9 @@
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
 "@folio/calendar@>=2.0.5":
-  version "7.1.100000150"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-7.1.100000150.tgz#34b698c7cf24905d487efed5454dbb972ca1696d"
-  integrity sha512-AVwzc1Vu76EyXmx43tXC4oXQbkXSIMVQAop00Y3chh//QxJRkyT+Y5+PSlf2RBQll2eMT2Js5Hbvj6qtx4YLmA==
+  version "7.1.100000157"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-7.1.100000157.tgz#6f280d12d27140bae77d2a16f12bc8f80760fc58"
+  integrity sha512-rXDkDwob4/R7ZY9neeoX+JpeIzwWMXZRNMQ/1tkVarLthotw4ZfbWCh8kTHAgE/3XiPuIpCXp4ondhAGnZKV1w==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     lodash "^4.17.5"
@@ -1156,9 +1156,9 @@
     redux-form "^8.3.7"
 
 "@folio/checkin@>=1.3.0":
-  version "7.0.100000180"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.0.100000180.tgz#f008bdd3dd6d27ce443669c9912c3fcb06b19142"
-  integrity sha512-UIul4QBwtFVd6EUlxivmn7w7lwP6eSBes8N0jw+PFFXWMGHapUVn9VHLMWR3w/AzEBbXaUBUVOMQTLD/h7MZAw==
+  version "7.0.100000191"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.0.100000191.tgz#070d314ac8da9f1e3d8ae4857c34ec473043025a"
+  integrity sha512-uUdbZgojYmrHziOICT6OLwFaMLbw4j2++wNLLxsm4cC7v8rrhA8wFLwFGCO3YZYicjtquQB3OiDgDKZL/wpR4w==
   dependencies:
     dateformat "^2.0.0"
     final-form "^4.19.1"
@@ -1227,9 +1227,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "6.2.100000167"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.2.100000167.tgz#9fe65bf9304d8b3a8d6bc161c11c453e3840ba32"
-  integrity sha512-qkRbTTZUru+CU1MC4CeiCbmWRcUxIMyf0UoieMppgRdQ/gS6ZXaIiKPzOSB/PRG5Gt6C6jJFdOGu7ksK+6Klfw==
+  version "6.2.100000171"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.2.100000171.tgz#8a259e6b5205324413abe95b302acbd6eed20978"
+  integrity sha512-jDfB0/CbfAL2X2ASFrEpTH7iP3+xnGvm6vfGRJ9YJuqWnzLOzpxIP8OXc/3FFkhTwu5OdCyUCcrQDKDXn4HpUQ==
   dependencies:
     chart.js "^2.9.4"
     lodash "^4.17.4"
@@ -1460,9 +1460,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.2.0":
-  version "10.2.100000910"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.100000910.tgz#dc9ff40375bab43c5523c8ab81ff669273b1cb24"
-  integrity sha512-tGPClstibYI/jW5CUBsPTSI+9dOancwqSD+ZeaWcLurnc5X7CB+/tA0x+ZoOxRabK60wESISeWaW/ZcO3hR+Kg==
+  version "10.2.100000952"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.100000952.tgz#849e8f920ee10c3bfad5e13bb5221c6581342e07"
+  integrity sha512-GpaKsEXZsmgeifqppS/iXPGUWDsIwSYXeKHy3QrGBf2bUNbuzqwfrkPynwJCPTZIpPaExpWA8Ia+MIoUCX0tzA==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1578,9 +1578,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.2.0":
-  version "7.2.100000509"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000509.tgz#990b2487dd68ece6431ede068de36c87502897c1"
-  integrity sha512-8hTOVNjBUF78kp/I3MWa0h3/QZQ3pQ/5gv3X6txnuQmBAQdondUZgYmSRwLqtwsffLQKK8UKzvHdgId/2jlVdw==
+  version "7.2.100000513"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000513.tgz#6b03c9a9cc70559b13177b0ed3eae0ad547d0f76"
+  integrity sha512-4ursCrlKvCdUHUB3mQ6BFM2kHRs7cxe++U3f83RDqQrPv0yxOF+WIWIwmhvDJ5rTOXFmIug9bEIz0Bh+NDpwag==
   dependencies:
     "@rehooks/local-storage" "2.4.0"
     classnames "^2.2.6"
@@ -1603,9 +1603,9 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-template-editor@^3.0.0":
-  version "3.0.100032"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-template-editor/-/stripes-template-editor-3.0.100032.tgz#e9326aa582cb33c5ec4dc8080cc175cd948e80ff"
-  integrity sha512-SIh4o9Sio7/gQmxeB/odcfMid850g2dFIZSSf45HinaZxbSASv39mbNrecd/P0s1QebYJU96UIJb5BdNz/ZBfQ==
+  version "3.0.100033"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-template-editor/-/stripes-template-editor-3.0.100033.tgz#14e9c9ba27ba228589e767daa633a0d30075399f"
+  integrity sha512-pBK4wu8wI63y4wq8htIf2Ysr2ipYTNxzxe2tdeMQsB7oeD186gEW5Azn8+TaYHajdqhTT1X2FEU3bD2dMBcyVA==
   dependencies:
     html-to-react "^1.3.3"
     lodash "^4.17.4"
@@ -1733,9 +1733,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "7.1.100000200"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.1.100000200.tgz#6291333a07acaeece6682f526ab5c3a0b2c0dc10"
-  integrity sha512-muofSi1eQspZcJ50LOfbRUChWT7RMGnyENk64e5I6wIbKpZ8M9cVjeF/ohcZoR4gg9jZ5ZbpvfLMWE3TqN5UbQ==
+  version "7.1.100000206"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.1.100000206.tgz#320610cec134293ca672560624ef5f704c62055c"
+  integrity sha512-S9pC3qgigdv3UV9tmDkCcYfFiuRIzXdmDg0jcoxMNpFGL24SA4bnuOvCjSeXfno4xhNErMMfwn9ujIkJxI09Iw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     final-form "^4.18.2"
@@ -1747,9 +1747,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "8.1.1000001148"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.1.1000001148.tgz#1e1a7f65e69e4f55f32be3cf824f779c21c36b3a"
-  integrity sha512-FS0e3M3RTiYXoZ+uUA894FjPuKWCyllHImbqIkaxcwOY4ykG+NEqK48zB+Bvhtumdm18QUhQeLpVOEtUevnJjw==
+  version "8.1.1000001152"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.1.1000001152.tgz#a500313e8db2abf3c89da7e6349286734c152fde"
+  integrity sha512-vZbuXIbDTVIOx4WzF700RmVD8AfNgo2ETr7Oht4KKVhk2o7HFddxkineGfOTOsCs7gocUHWjoatMKSZbj5XDdA==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
