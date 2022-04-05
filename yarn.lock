@@ -1191,9 +1191,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/circulation@>=1.3.0":
-  version "7.0.100000441"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-7.0.100000441.tgz#1784c97b3660c0d2951fd796413b21a4d281d295"
-  integrity sha512-IKQYM37ataPt5DzDp/2rFDnd3/HDUy9Lxn5pWcOdpwvblzJrVVgP7p61rgqEqTODp6hVJ8oUJavOUEuR8bh3ZA==
+  version "7.0.100000446"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-7.0.100000446.tgz#b5ee85c6f4b241355a175e98e03f28ef71f12060"
+  integrity sha512-JAL4y4kgMP7bu7rQbgOXES/m3nkJpzUkqjetZe2i2q9K1lFBSdKg9go9hb0uoXEXeMnccdLAV1Qy7AlY2rWEIw==
   dependencies:
     "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
@@ -1578,9 +1578,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.2.0":
-  version "7.2.100000502"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000502.tgz#4eb13d35bf2778598603fcffd34bcda67d7d3cda"
-  integrity sha512-ycmxh2zKHd/ko9eWjJJjArcg1GYDLGQRKFn3WCLCVy7tpLjX9tAQ+CFAvXYcGrUguHCbp9lAFqrefZkT176vJw==
+  version "7.2.100000509"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000509.tgz#990b2487dd68ece6431ede068de36c87502897c1"
+  integrity sha512-8hTOVNjBUF78kp/I3MWa0h3/QZQ3pQ/5gv3X6txnuQmBAQdondUZgYmSRwLqtwsffLQKK8UKzvHdgId/2jlVdw==
   dependencies:
     "@rehooks/local-storage" "2.4.0"
     classnames "^2.2.6"
