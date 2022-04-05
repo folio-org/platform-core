@@ -1460,9 +1460,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.2.0":
-  version "10.2.100000952"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.100000952.tgz#849e8f920ee10c3bfad5e13bb5221c6581342e07"
-  integrity sha512-GpaKsEXZsmgeifqppS/iXPGUWDsIwSYXeKHy3QrGBf2bUNbuzqwfrkPynwJCPTZIpPaExpWA8Ia+MIoUCX0tzA==
+  version "10.2.100000953"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.100000953.tgz#a9e366b76a26f9da8835a920b07f00a490bd10e9"
+  integrity sha512-4r5egktMBMzkpTeMKTQoUOsAArgIq+0ymyGKdYDJoAYAMsjn4MfqV6qSWQbZz5VZQRRJJuXdZNOIr/krX8sbcA==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1482,7 +1482,6 @@
     query-string "^6.1.0"
     react-flexbox-grid "1.1.3"
     react-highlight-words "^0.16.0"
-    react-hot-loader "^4.0.0"
     react-overlays "^4.1.1"
     react-quill "^1.3.3"
     react-svg-loader "^3.0.3"
@@ -10286,7 +10285,7 @@ react-highlight-words@^0.16.0:
     memoize-one "^4.0.0"
     prop-types "^15.5.8"
 
-react-hot-loader@^4.0.0, react-hot-loader@^4.3.12:
+react-hot-loader@^4.3.12:
   version "4.13.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-hot-loader/-/react-hot-loader-4.13.0.tgz#c27e9408581c2a678f5316e69c061b226dc6a202"
   integrity sha512-JrLlvUPqh6wIkrK2hZDfOyq/Uh/WeVEr8nc7hkn2/3Ul0sx1Kr5y4kOGNacNRoj7RhwLNcQ3Udf1KJXrqc0ZtA==
