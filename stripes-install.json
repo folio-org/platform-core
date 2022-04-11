@@ -12,7 +12,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_circulation-7.0.100000472",
+    "id": "folio_circulation-7.0.300000494",
     "action": "enable"
   },
   {
@@ -24,7 +24,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_myprofile-7.0.10000080",
+    "id": "folio_myprofile-7.0.10000085",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-7.1.100000206",
+    "id": "folio_tenant-settings-7.1.100000209",
     "action": "enable"
   },
   {
