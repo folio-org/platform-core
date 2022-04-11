@@ -59,7 +59,7 @@
   "id" : "mod-inventory-18.2.0-SNAPSHOT.520",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-7.0.100000201",
+  "id" : "folio_checkin-7.0.100000208",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-8.0.100000192",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.2.100000171",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.7.0-SNAPSHOT.232",
+  "id" : "mod-search-1.7.0-SNAPSHOT.233",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.2.0-SNAPSHOT.78",
