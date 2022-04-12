@@ -1365,9 +1365,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^3.1.1":
-  version "3.1.1000578"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-3.1.1000578.tgz#95bc0f1c0d63a87e322d60eb6ce8da5a5e88b401"
-  integrity sha512-CphdViTDLSnWateFpYKdaQykNVWf3aZJbK4adCvcRN5it0YnrTnEQvYNowXh9bmwoUKbjXoWO7DBm7U0Fn2zyA==
+  version "3.1.1000579"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-3.1.1000579.tgz#67d43ca7df6d8db2b90883c263fe126bc64967f1"
+  integrity sha512-Qe/Uxew44TtcaULT3+7zG7RQg1D4N3s9UWQ63jHNnpaQbtN+Dl2HJ2/2nXexIKIiCxzN3E3CnTJY7CQKYq/k0g==
   dependencies:
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
@@ -1577,9 +1577,9 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-template-editor@^3.0.0":
-  version "3.0.100033"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-template-editor/-/stripes-template-editor-3.0.100033.tgz#14e9c9ba27ba228589e767daa633a0d30075399f"
-  integrity sha512-pBK4wu8wI63y4wq8htIf2Ysr2ipYTNxzxe2tdeMQsB7oeD186gEW5Azn8+TaYHajdqhTT1X2FEU3bD2dMBcyVA==
+  version "3.0.100034"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-template-editor/-/stripes-template-editor-3.0.100034.tgz#a1af536b49c1164e0730eb542d56d0f53cbc265d"
+  integrity sha512-lWezpLOUGAIvVX6lr+yNOgY9d123K0LWhgV5rmZaGbr4k+hFiqFpk8Z2/u8YBTxqLfpC/fAgD3dAmtaXlsfDiQ==
   dependencies:
     html-to-react "^1.3.3"
     lodash "^4.17.4"
@@ -5146,9 +5146,9 @@ error-stack-parser@^2.0.6:
     stackframe "^1.1.1"
 
 es-abstract@^1.17.2, es-abstract@^1.19.1, es-abstract@^1.19.2:
-  version "1.19.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/es-abstract/-/es-abstract-1.19.3.tgz#4dd9da55868192756c83c5c30c7878d04e77125d"
-  integrity sha512-4axXLNovnMYf0+csS5rVnS5hLmV1ek+ecx9MuCjByL1E5Nn54avf6CHQxIjgQIHBnfX9AMxTRIy0q+Yu5J/fXA==
+  version "1.19.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/es-abstract/-/es-abstract-1.19.4.tgz#79a95527af382eb276075627e53762393ce8b57a"
+  integrity sha512-flV8e5g9/xulChMG48Fygk1ptpo4lQRJ0eJYtxJFgi7pklLx7EFcOJ34jnvr8pbWlaFN/AT1cZpe0hiFel9Hqg==
   dependencies:
     call-bind "^1.0.2"
     es-to-primitive "^1.2.1"
@@ -8160,10 +8160,12 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-lru-cache@^7.4.0:
-  version "7.8.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/lru-cache/-/lru-cache-7.8.1.tgz#68ee3f4807a57d2ba185b7fd90827d5c21ce82bb"
-  integrity sha512-E1v547OCgJvbvevfjgK9sNKIVXO96NnsTsFPBlg4ZxjhsJSODoH9lk8Bm0OxvHNm6Vm5Yqkl/1fErDxhYL8Skg==
+lru-cache@^6.0.0:
+  version "6.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
+  integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
+  dependencies:
+    yallist "^4.0.0"
 
 lz-string@^1.4.4:
   version "1.4.4"
@@ -11055,11 +11057,11 @@ semver@^6.0.0, semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
 semver@^7.1.3, semver@^7.3.4, semver@^7.3.5:
-  version "7.3.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/semver/-/semver-7.3.6.tgz#5d73886fb9c0c6602e79440b97165c29581cbb2b"
-  integrity sha512-HZWqcgwLsjaX1HBD31msI/rXktuIhS+lWvdE4kN9z+8IVT4Itc7vqU2WvYsyD6/sjYCt4dEKH/m1M3dwI9CC5w==
+  version "7.3.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/semver/-/semver-7.3.7.tgz#12c5b649afdbf9049707796e22a4028814ce523f"
+  integrity sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==
   dependencies:
-    lru-cache "^7.4.0"
+    lru-cache "^6.0.0"
 
 send@0.17.2:
   version "0.17.2"
@@ -12799,6 +12801,11 @@ yallist@^2.1.2:
   version "2.1.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
   integrity sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
+
+yallist@^4.0.0:
+  version "4.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
+  integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
 yaml@^1.10.0, yaml@^1.10.2:
   version "1.10.2"
