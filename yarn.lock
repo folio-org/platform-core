@@ -1149,9 +1149,9 @@
     redux-form "^8.3.7"
 
 "@folio/checkin@>=1.3.0":
-  version "7.0.100000208"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.0.100000208.tgz#18c810ab845064885f0d156ab2e884ea930f058c"
-  integrity sha512-af+V0StXeq8tFLeg7XGmd1vycBCFpSJ1UJ5cqmT//C6qIKC3lNhFHXkwKg8zweAnRvYg4HpimWR1WihsduNSGA==
+  version "7.0.100000220"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.0.100000220.tgz#5a9341b89b2f7bd6d43987bbc769aaf1deebcda4"
+  integrity sha512-TNkLI2QdlK+StKpfiM09JZTzQd+L3nHASPjZbdJixCYlMWSXPLnnrPb/ugj/H3DZ4Tiqlhfud+G/FNOOPhJ7cg==
   dependencies:
     dateformat "^2.0.0"
     final-form "^4.19.1"
