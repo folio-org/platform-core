@@ -56,10 +56,10 @@
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.420",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.2.0-SNAPSHOT.522",
+  "id" : "mod-inventory-18.2.0-SNAPSHOT.523",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-7.0.100000247",
+  "id" : "folio_checkin-7.0.100000250",
   "action" : "enable"
 }, {
   "id" : "folio_checkout-8.0.100000192",
