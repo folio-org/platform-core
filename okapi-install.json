@@ -12,11 +12,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-23.1.0-SNAPSHOT.676",
+    "id": "mod-inventory-storage-23.1.0-SNAPSHOT.679",
     "action": "enable"
   },
   {
-    "id": "mod-users-18.3.0-SNAPSHOT.184",
+    "id": "mod-users-18.3.0-SNAPSHOT.186",
     "action": "enable"
   },
   {
@@ -24,7 +24,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-permissions-6.1.0-SNAPSHOT.142",
+    "id": "mod-permissions-6.1.0-SNAPSHOT.147",
     "action": "enable"
   },
   {
@@ -32,7 +32,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-14.1.0-SNAPSHOT.307",
+    "id": "mod-circulation-storage-14.1.0-SNAPSHOT.311",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-configuration-5.8.0-SNAPSHOT.105",
+    "id": "mod-configuration-5.8.0-SNAPSHOT.107",
     "action": "enable"
   },
   {
@@ -60,11 +60,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-17.2.0-SNAPSHOT.175",
+    "id": "mod-feesfines-17.2.0-SNAPSHOT.177",
     "action": "enable"
   },
   {
-    "id": "mod-patron-blocks-1.6.0-SNAPSHOT.70",
+    "id": "mod-patron-blocks-1.6.0-SNAPSHOT.72",
     "action": "enable"
   },
   {
@@ -72,19 +72,23 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-23.1.0-SNAPSHOT.966",
+    "id": "mod-circulation-23.1.0-SNAPSHOT.992",
     "action": "enable"
   },
   {
-    "id": "mod-tags-1.2.0-SNAPSHOT.76",
+    "id": "mod-tags-1.2.0-SNAPSHOT.78",
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-5.4.0-SNAPSHOT.410",
+    "id": "mod-orders-12.4.0-SNAPSHOT.524",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-18.2.0-SNAPSHOT.516",
+    "id": "mod-source-record-storage-5.4.0-SNAPSHOT.420",
+    "action": "enable"
+  },
+  {
+    "id": "mod-inventory-18.2.0-SNAPSHOT.524",
     "action": "enable"
   },
   {
@@ -92,15 +96,15 @@
     "action": "enable"
   },
   {
-    "id": "mod-finance-4.5.0-SNAPSHOT.165",
+    "id": "mod-finance-4.5.0-SNAPSHOT.166",
     "action": "enable"
   },
   {
-    "id": "mod-agreements-5.2.0-SNAPSHOT.468",
+    "id": "mod-agreements-5.2.0-SNAPSHOT.471",
     "action": "enable"
   },
   {
-    "id": "mod-licenses-4.2.0-SNAPSHOT.210",
+    "id": "mod-licenses-4.2.0-SNAPSHOT.211",
     "action": "enable"
   },
   {
@@ -108,15 +112,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-search-1.7.0-SNAPSHOT.211",
+    "id": "mod-search-1.7.0-SNAPSHOT.233",
     "action": "enable"
   },
   {
-    "id": "mod-orders-12.4.0-SNAPSHOT.516",
-    "action": "enable"
-  },
-  {
-    "id": "mod-data-export-4.4.0-SNAPSHOT.301",
+    "id": "mod-data-export-4.5.0-SNAPSHOT.317",
     "action": "enable"
   },
   {
@@ -160,19 +160,19 @@
     "action": "enable"
   },
   {
-    "id": "mod-quick-marc-2.4.0-SNAPSHOT.157",
+    "id": "mod-quick-marc-2.4.0-SNAPSHOT.164",
     "action": "enable"
   },
   {
-    "id": "mod-authtoken-2.11.0-SNAPSHOT.110",
+    "id": "mod-authtoken-2.11.0-SNAPSHOT.113",
     "action": "enable"
   },
   {
-    "id": "mod-users-bl-7.3.0-SNAPSHOT.112",
+    "id": "mod-users-bl-7.3.0-SNAPSHOT.113",
     "action": "enable"
   },
   {
-    "id": "mod-login-saml-2.5.0-SNAPSHOT.93",
+    "id": "mod-login-saml-2.5.0-SNAPSHOT.98",
     "action": "enable"
   },
   {
