@@ -62,10 +62,10 @@
   "id" : "folio_checkin-7.0.100000250",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-8.0.100000192",
+  "id" : "folio_checkout-8.0.100000203",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.0.300000513",
+  "id" : "folio_circulation-7.0.300000517",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.2.100000175",
@@ -125,7 +125,7 @@
   "id" : "folio_tags-6.1.10000040",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.5.0-SNAPSHOT.98",
+  "id" : "mod-login-saml-2.5.0-SNAPSHOT.99",
   "action" : "enable"
 }, {
   "id" : "folio_tenant-settings-7.1.100000213",
