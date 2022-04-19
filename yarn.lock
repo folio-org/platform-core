@@ -1435,9 +1435,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~10.2.0":
-  version "10.2.100000998"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.100000998.tgz#ac4b33cc6d9534172092a7950787c8f258abeba3"
-  integrity sha512-NXgp9Y345UOf0p7sN6WHGoKDHqsGdINZTYJM1z7GPzYss8suiOxf2ArfRmLxn4IkkBJlSOYJYDGPbhu+UMS0fg==
+  version "10.2.1000001009"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.1000001009.tgz#17007f9bf0c0c3b56c8d2f2dca2061d21196e9ff"
+  integrity sha512-Lc/lgeL8xeHMUpX1MmWsxISxGXksZsZTouv0VLrOzjGW4sHzEeKmzO8WnxR68jXZnzgF8v+SbBi8qq8sk3txhQ==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -3145,9 +3145,9 @@ axobject-query@^2.0.2:
   integrity sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==
 
 babel-loader@^8.0.0:
-  version "8.2.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/babel-loader/-/babel-loader-8.2.4.tgz#95f5023c791b2e9e2ca6f67b0984f39c82ff384b"
-  integrity sha512-8dytA3gcvPPPv4Grjhnt8b5IIiTcq/zeXOPk4iTYI0SVXcsmuGg7JtBRDp8S9X+gJfhQ8ektjXZlDu1Bb33U8A==
+  version "8.2.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/babel-loader/-/babel-loader-8.2.5.tgz#d45f585e654d5a5d90f5350a779d7647c5ed512e"
+  integrity sha512-OSiFfH89LrEMiWd4pLNqGz4CwJDtbs2ZVc+iGu2HrkRfPxId9F2anQj38IxWpmRfsUY0aBZYi1EFcd3mhtRMLQ==
   dependencies:
     find-cache-dir "^3.3.1"
     loader-utils "^2.0.0"
