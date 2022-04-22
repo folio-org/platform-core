@@ -56,7 +56,7 @@
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.420",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.2.0-SNAPSHOT.525",
+  "id" : "mod-inventory-18.2.0-SNAPSHOT.526",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-7.0.100000250",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.2.100000179",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.7.0-SNAPSHOT.234",
+  "id" : "mod-search-1.7.0-SNAPSHOT.235",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.2.0-SNAPSHOT.79",

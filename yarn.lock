@@ -1304,9 +1304,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.0.100000108"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.100000108.tgz#86bd244b58f46a5f1839f0a8b74ca3a21bc49753"
-  integrity sha512-LEEYbRf+bMKT0Bt4tMfFbSfnLer9O9n/+H4iiz/pEu4ORoJSapv0VWsVVlYK4ytnEmjGtigw8lYF4ScyeEI6ww==
+  version "5.0.100000111"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.100000111.tgz#769afa5e3fb306d05ac3296614f56e18f26cef2f"
+  integrity sha512-+7V9YzBfx/EQ7gFDqo/vvayHCf135HM0w50dpmakVKCq7tw7TWrfWxNFtp/isFpDH08FAClUblsuKy61ts4Ybg==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
@@ -1682,9 +1682,9 @@
     webpack-virtual-modules "^0.4.3"
 
 "@folio/stripes@^7.0.0":
-  version "7.2.10000049"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-7.2.10000049.tgz#c30cbde109f897ca167a8487d3eae0a845e63bfc"
-  integrity sha512-fJnfi7/wHLLw1g1LNqqynXdpItbjBtkz4OuI8gpEYPxlcRrMgC+ixdJwru+mmqYXAIEZGqkvm+vduTSZVZNMBg==
+  version "7.2.10000082"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes/-/stripes-7.2.10000082.tgz#c9216a1f8e1cf6b67df68f57cf8f5eda21e17b3e"
+  integrity sha512-1T1p1WYCfMWvB9XmXkcPm5WXv93AlFXhrZbAkSiwdIttnCvRNiOi1QrElc80jtaodnLujsRChmDWC1jyhPQBDA==
   dependencies:
     "@folio/stripes-components" "~10.2.0"
     "@folio/stripes-connect" "~7.1.0"
