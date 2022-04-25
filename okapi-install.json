@@ -32,7 +32,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-configuration-5.8.0-SNAPSHOT.107",
+    "id": "mod-configuration-5.8.0-SNAPSHOT.108",
     "action": "enable"
   },
   {
@@ -92,7 +92,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-password-validator-2.3.1-SNAPSHOT.60",
+    "id": "mod-password-validator-2.3.2-SNAPSHOT.61",
     "action": "enable"
   },
   {
@@ -100,7 +100,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-users-bl-7.3.0-SNAPSHOT.113",
+    "id": "mod-users-bl-7.3.0-SNAPSHOT.114",
     "action": "enable"
   },
   {

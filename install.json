@@ -26,7 +26,7 @@
   "id" : "mod-event-config-2.3.0-SNAPSHOT.53",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.8.0-SNAPSHOT.107",
+  "id" : "mod-configuration-5.8.0-SNAPSHOT.108",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.17.0-SNAPSHOT.78",
@@ -107,13 +107,13 @@
   "id" : "folio_servicepoints-6.1.10000044",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.3.1-SNAPSHOT.60",
+  "id" : "mod-password-validator-2.3.2-SNAPSHOT.61",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.11.0-SNAPSHOT.113",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-7.3.0-SNAPSHOT.113",
+  "id" : "mod-users-bl-7.3.0-SNAPSHOT.114",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-core-8.2.100000370",
