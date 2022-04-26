@@ -1259,9 +1259,9 @@
     "@folio/plugin-find-instance" "^6.0.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "7.0.10000085"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-7.0.10000085.tgz#7d1a4424166bd04702d2766c9182fd65b23d60d0"
-  integrity sha512-3ACReukOxB/g45bdCyKoiMXHS6f3DyEzpYnBgQXzYJpC9uVL1PYT6DV37818DHm6aTiWsZSH9MqLWqYWyW7y4w==
+  version "7.0.10000090"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-7.0.10000090.tgz#1fa25b98ff225dea526088a69d3e376860870f85"
+  integrity sha512-CLnSQiZ2tR7uImz86cYdYf55ZXAet7XDr25PnMwCvM+/hfJIE+DEpnh/vbdehvU57xJ055xkOiEoNVXCJA/avQ==
   dependencies:
     eslint-import-resolver-webpack "^0.13.2"
     prop-types "^15.6.0"
@@ -1698,9 +1698,9 @@
     redux "~4.0.0"
 
 "@folio/tags@>=1.1.0":
-  version "6.1.10000040"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-6.1.10000040.tgz#02817a07b85f0259ccf3db8caa3c7807eddc8d94"
-  integrity sha512-WTIvNcbMun8oyNofiV+3woHkG+opP9D4U2mLU2CFf2ouW6cB+gyTtZgcGNre9DZjVUAPNOCf7QhEuUNma1So5Q==
+  version "6.1.10000050"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-6.1.10000050.tgz#259eaf50238aa71b54025849dbaf1e778f4cf3e6"
+  integrity sha512-6mJavMNclYKF5ivFq0v17X3/QCxOEqzAOmc9fvu2ITk3pxsfnYtFg8yksmX2qNKcGvbnS6gQ4bNB+87b9DJZnQ==
   dependencies:
     prop-types "^15.5.10"
     redux-form "^8.3.7"
