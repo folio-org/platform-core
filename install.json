@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.15.0-SNAPSHOT.128",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-23.1.0-SNAPSHOT.680",
+  "id" : "mod-inventory-storage-23.1.0-SNAPSHOT.681",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-7.1.100000157",
@@ -23,7 +23,7 @@
   "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.314",
   "action" : "enable"
 }, {
-  "id" : "mod-event-config-2.3.0-SNAPSHOT.53",
+  "id" : "mod-event-config-2.3.0-SNAPSHOT.54",
   "action" : "enable"
 }, {
   "id" : "mod-configuration-5.8.0-SNAPSHOT.109",
@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.11.0-SNAPSHOT.114",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-17.2.0-SNAPSHOT.177",
+  "id" : "mod-feesfines-17.2.0-SNAPSHOT.178",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.6.0-SNAPSHOT.72",
@@ -50,7 +50,7 @@
   "id" : "mod-notes-3.1.0-SNAPSHOT.189",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-23.1.0-SNAPSHOT.995",
+  "id" : "mod-circulation-23.1.0-SNAPSHOT.996",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.423",
@@ -128,7 +128,7 @@
   "id" : "mod-login-saml-2.5.0-SNAPSHOT.100",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-7.1.100000213",
+  "id" : "folio_tenant-settings-7.1.100000222",
   "action" : "enable"
 }, {
   "id" : "folio_users-8.1.1000001266",
