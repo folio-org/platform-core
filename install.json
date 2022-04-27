@@ -1,5 +1,5 @@
 [ {
-  "id" : "mod-calendar-1.15.0-SNAPSHOT.127",
+  "id" : "mod-calendar-1.15.0-SNAPSHOT.128",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-storage-23.1.0-SNAPSHOT.680",
@@ -20,19 +20,19 @@
   "id" : "mod-pubsub-2.5.1-SNAPSHOT.194",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.313",
+  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.314",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.3.0-SNAPSHOT.53",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.8.0-SNAPSHOT.108",
+  "id" : "mod-configuration-5.8.0-SNAPSHOT.109",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.17.0-SNAPSHOT.78",
   "action" : "enable"
 }, {
-  "id" : "mod-email-1.14.0-SNAPSHOT.63",
+  "id" : "mod-email-1.14.0-SNAPSHOT.64",
   "action" : "enable"
 }, {
   "id" : "mod-sender-1.8.0-SNAPSHOT.34",
@@ -50,7 +50,7 @@
   "id" : "mod-notes-3.1.0-SNAPSHOT.189",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-23.1.0-SNAPSHOT.994",
+  "id" : "mod-circulation-23.1.0-SNAPSHOT.995",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.423",
@@ -77,7 +77,7 @@
   "id" : "mod-tags-1.2.0-SNAPSHOT.79",
   "action" : "enable"
 }, {
-  "id" : "mod-data-export-4.5.0-SNAPSHOT.318",
+  "id" : "mod-data-export-4.5.0-SNAPSHOT.319",
   "action" : "enable"
 }, {
   "id" : "folio_inventory-9.1.1000001160",
@@ -110,7 +110,7 @@
   "id" : "mod-password-validator-2.3.2-SNAPSHOT.61",
   "action" : "enable"
 }, {
-  "id" : "mod-authtoken-2.11.0-SNAPSHOT.113",
+  "id" : "mod-authtoken-2.11.0-SNAPSHOT.114",
   "action" : "enable"
 }, {
   "id" : "mod-users-bl-7.3.0-SNAPSHOT.115",
@@ -134,6 +134,6 @@
   "id" : "folio_users-8.1.1000001266",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.93",
+  "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.94",
   "action" : "enable"
 } ]

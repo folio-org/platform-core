@@ -1,6 +1,6 @@
 [
   {
-    "id": "mod-calendar-1.15.0-SNAPSHOT.127",
+    "id": "mod-calendar-1.15.0-SNAPSHOT.128",
     "action": "enable"
   },
   {
@@ -24,7 +24,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-14.1.0-SNAPSHOT.313",
+    "id": "mod-circulation-storage-14.1.0-SNAPSHOT.314",
     "action": "enable"
   },
   {
@@ -32,7 +32,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-configuration-5.8.0-SNAPSHOT.108",
+    "id": "mod-configuration-5.8.0-SNAPSHOT.109",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-email-1.14.0-SNAPSHOT.63",
+    "id": "mod-email-1.14.0-SNAPSHOT.64",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-23.1.0-SNAPSHOT.994",
+    "id": "mod-circulation-23.1.0-SNAPSHOT.995",
     "action": "enable"
   },
   {
@@ -84,7 +84,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-data-export-4.5.0-SNAPSHOT.318",
+    "id": "mod-data-export-4.5.0-SNAPSHOT.319",
     "action": "enable"
   },
   {
@@ -96,7 +96,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-authtoken-2.11.0-SNAPSHOT.113",
+    "id": "mod-authtoken-2.11.0-SNAPSHOT.114",
     "action": "enable"
   },
   {
@@ -108,7 +108,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-codex-inventory-2.3.0-SNAPSHOT.93",
+    "id": "mod-codex-inventory-2.3.0-SNAPSHOT.94",
     "action": "enable"
   }
 ]
