@@ -47,7 +47,7 @@
   "id" : "mod-patron-blocks-1.6.0-SNAPSHOT.73",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-3.1.0-SNAPSHOT.190",
+  "id" : "mod-notes-3.1.0-SNAPSHOT.191",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-23.1.0-SNAPSHOT.997",
@@ -56,7 +56,7 @@
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.425",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.2.0-SNAPSHOT.530",
+  "id" : "mod-inventory-18.2.0-SNAPSHOT.531",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-7.0.100000250",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.2.100000179",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.7.0-SNAPSHOT.237",
+  "id" : "mod-search-1.7.0-SNAPSHOT.238",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.2.0-SNAPSHOT.80",
