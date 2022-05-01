@@ -4,7 +4,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-23.1.0-SNAPSHOT.682",
+    "id": "mod-inventory-storage-23.1.0-SNAPSHOT.683",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-pubsub-2.5.1-SNAPSHOT.196",
+    "id": "mod-pubsub-2.5.1-SNAPSHOT.197",
     "action": "enable"
   },
   {
@@ -52,11 +52,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-17.2.0-SNAPSHOT.180",
+    "id": "mod-feesfines-17.2.0-SNAPSHOT.181",
     "action": "enable"
   },
   {
-    "id": "mod-patron-blocks-1.6.0-SNAPSHOT.74",
+    "id": "mod-patron-blocks-1.6.0-SNAPSHOT.75",
     "action": "enable"
   },
   {
