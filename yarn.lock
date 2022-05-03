@@ -1151,9 +1151,9 @@
     redux-form "^8.3.7"
 
 "@folio/checkin@>=1.3.0":
-  version "7.0.100000250"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.0.100000250.tgz#eda398a211af66e36f51b718658e02fd04ff9b1c"
-  integrity sha512-GkdLnTPKUT/ByXLSddEUeyAOnnFrEWfLFWLPMRhl+5vmpdstsvDnvlsDrwr7ugtaLqDZKoKCpH9s0y+lLinl2Q==
+  version "7.0.100000259"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.0.100000259.tgz#bad979e68910c50829a2bf220bd3e9bab1bb9ea8"
+  integrity sha512-r9OTYzCFG4Wh0hyPTAiSYj2few1vnwCLajPN9RZ9vOtl6CB9f5ohCRRzDA/89EyXiUoNBexkpTsGgW28z1QL2Q==
   dependencies:
     dateformat "^2.0.0"
     final-form "^4.19.1"
@@ -1164,7 +1164,6 @@
     prop-types "^15.6.0"
     react-barcode "^1.3.2"
     react-final-form "^6.4.0"
-    react-hot-loader "^4.3.12"
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
