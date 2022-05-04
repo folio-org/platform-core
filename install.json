@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-23.1.0-SNAPSHOT.687",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-7.1.100000157",
+  "id" : "folio_calendar-7.1.100000177",
   "action" : "enable"
 }, {
   "id" : "mod-users-18.3.0-SNAPSHOT.187",
@@ -86,7 +86,7 @@
   "id" : "folio_myprofile-7.0.10000090",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-3.2.10000071",
+  "id" : "folio_plugin-create-inventory-records-3.2.10000093",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-6.2.100000162",
@@ -104,7 +104,7 @@
   "id" : "folio_search-5.1.10000065",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-6.1.10000044",
+  "id" : "folio_servicepoints-6.1.10000053",
   "action" : "enable"
 }, {
   "id" : "mod-password-validator-2.3.2-SNAPSHOT.62",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.1.100000226",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.1.1000001287",
+  "id" : "folio_users-8.1.1000001292",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.94",
