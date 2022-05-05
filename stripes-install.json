@@ -8,7 +8,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkout-8.0.100000212",
+    "id": "folio_checkout-8.0.100000221",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-7.0.200000780",
+    "id": "folio_requests-7.0.200000783",
     "action": "enable"
   },
   {
