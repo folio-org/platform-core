@@ -86,7 +86,7 @@
   "id" : "folio_myprofile-7.0.10000090",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-3.2.10000093",
+  "id" : "folio_plugin-create-inventory-records-3.2.10000098",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-6.2.100000162",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.1.100000226",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.1.1000001295",
+  "id" : "folio_users-8.1.1000001304",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.94",
