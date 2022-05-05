@@ -1203,16 +1203,18 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "6.2.100000192"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.2.100000192.tgz#0b2327a0075221248aa86566733182d285a8fa88"
-  integrity sha512-7wbvggtZIDjrN3SUkTg02Kil7K3DTcKHspv3tCmyBfmW/9JbP0PQmOtxAIsd3qbwUzLCwmLzv3ppKE8I/+AeHw==
+  version "6.2.100000201"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.2.100000201.tgz#f277cc51fa3da41c32a75ce4bac7141f4bf3362b"
+  integrity sha512-lix5f+UimWlsM4tSyWB+qZ80Igmmt2JnyCLrk4+HsARrPpX9wVwpo6oj6v+7EAB/W2grW2hPgkypALFhvHC9xw==
   dependencies:
     chart.js "^2.9.4"
+    ky "^0.23.0"
     lodash "^4.17.4"
     prop-types "^15.6.0"
     react-chartjs-2 "^2.11.1"
     react-hot-loader "^4.3.12"
     react-inspector "^5.1.0"
+    react-query "^3.38.1"
     redux-form "^8.0.3"
 
 "@folio/eslint-config-stripes@^5.0.0":
@@ -10350,7 +10352,7 @@ react-overlays@^4.1.1:
     uncontrollable "^7.0.0"
     warning "^4.0.3"
 
-react-query@^3.13.0, react-query@^3.6.0, react-query@^3.9.8:
+react-query@^3.13.0, react-query@^3.38.1, react-query@^3.6.0, react-query@^3.9.8:
   version "3.38.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.38.1.tgz#4892304dae7eca7fa0ab5c8ae3e9748f0fca2df9"
   integrity sha512-CM9hsz6oib17hsBguGaMJr+a0swMzou2gvNHHjAusnXvkfTx6CTzx0Iwuplox1jI2j3WiY91BGrcIN6bp1n1Iw==
