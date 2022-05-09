@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.15.0-SNAPSHOT.128",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-23.1.0-SNAPSHOT.689",
+  "id" : "mod-inventory-storage-23.1.0-SNAPSHOT.690",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-7.1.100000177",
@@ -110,7 +110,7 @@
   "id" : "mod-password-validator-2.3.2-SNAPSHOT.62",
   "action" : "enable"
 }, {
-  "id" : "mod-authtoken-2.11.0-SNAPSHOT.115",
+  "id" : "mod-authtoken-2.11.0-SNAPSHOT.116",
   "action" : "enable"
 }, {
   "id" : "mod-users-bl-7.3.0-SNAPSHOT.118",
