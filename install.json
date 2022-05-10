@@ -56,7 +56,7 @@
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.426",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.2.0-SNAPSHOT.536",
+  "id" : "mod-inventory-18.2.0-SNAPSHOT.537",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-7.0.100000263",
@@ -107,7 +107,7 @@
   "id" : "folio_servicepoints-6.1.10000053",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.3.2-SNAPSHOT.63",
+  "id" : "mod-password-validator-2.3.2",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.11.0-SNAPSHOT.116",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.1.100000226",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.1.1000001338",
+  "id" : "folio_users-8.1.1000001345",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.94",
