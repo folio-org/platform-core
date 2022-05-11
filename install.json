@@ -11,10 +11,10 @@
   "id" : "mod-users-18.3.0-SNAPSHOT.188",
   "action" : "enable"
 }, {
-  "id" : "mod-login-7.7.0-SNAPSHOT.117",
+  "id" : "mod-login-7.7.0-SNAPSHOT.118",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-6.1.0-SNAPSHOT.149",
+  "id" : "mod-permissions-6.1.0-SNAPSHOT.150",
   "action" : "enable"
 }, {
   "id" : "mod-pubsub-2.5.2-SNAPSHOT.199",
@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.11.0-SNAPSHOT.115",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-17.2.0-SNAPSHOT.181",
+  "id" : "mod-feesfines-17.2.0-SNAPSHOT.182",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.6.0-SNAPSHOT.75",
