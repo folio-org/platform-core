@@ -18,7 +18,6 @@ module.exports = {
     '@folio/plugin-find-instance' : {},
     '@folio/plugin-find-user' : {},
     '@folio/requests' : {},
-    '@folio/search' : {},
     '@folio/servicepoints' : {},
     '@folio/tags': {},
     '@folio/tenant-settings' : {},
