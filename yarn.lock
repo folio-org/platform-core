@@ -1259,9 +1259,9 @@
     "@folio/plugin-find-instance" "^6.0.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "7.0.100000102"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-7.0.100000102.tgz#1e9434fd7b02803627c1bc4b14ee618870c4b705"
-  integrity sha512-qHMJ4QpOcWCSppTFj8L+QjQDGLzmFgLsMOKfqkpOCjydUgSFe1CZ+Vhjs60POezd55PxF3oLmpXFgf8PuE+5RQ==
+  version "7.0.100000109"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-7.0.100000109.tgz#87102f24507e358afbbd9b2d80421af321ffa946"
+  integrity sha512-6BgTGgYskd58IRKSbUiQrTE/JA7+MM1q7GERbNB3k/zKQZcF2zGnoNrJfCy3+SNFDSq3A78kaocpV/l75WdGuA==
   dependencies:
     prop-types "^15.6.0"
     react "^17.0.2"
@@ -4538,9 +4538,9 @@ csso@^4.0.2, csso@^4.2.0:
     css-tree "^1.1.2"
 
 csstype@^3.0.2:
-  version "3.0.11"
-  resolved "https://repository.folio.org/repository/npm-ci-all/csstype/-/csstype-3.0.11.tgz#d66700c5eacfac1940deb4e3ee5642792d85cd33"
-  integrity sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw==
+  version "3.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/csstype/-/csstype-3.1.0.tgz#4ddcac3718d787cf9df0d1b7d15033925c8f29f2"
+  integrity sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==
 
 csv-loader@^3.0.3:
   version "3.0.3"
