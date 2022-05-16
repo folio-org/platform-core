@@ -2806,10 +2806,12 @@ add-asset-html-webpack-plugin@^3.2.0:
     micromatch "^3.1.3"
     p-each-series "^1.0.0"
 
-agent-base@5:
-  version "5.1.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/agent-base/-/agent-base-5.1.1.tgz#e8fb3f242959db44d63be665db7a8e739537a32c"
-  integrity sha512-TMeqbNl2fMW0nMjTEPOwe3J/PRFP4vqeoNuQMG0HlMrtm5QxKqdvAkZ1pRBQ/ulIyDD5Yq0nJ7YbdD8ey0TO3g==
+agent-base@6, agent-base@^6.0.2:
+  version "6.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/agent-base/-/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
+  integrity sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==
+  dependencies:
+    debug "4"
 
 agent-base@^4.3.0:
   version "4.3.0"
@@ -3528,11 +3530,12 @@ browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.14.5, browserslist@^4
     picocolors "^1.0.0"
 
 browserstack-local@^1.3.7:
-  version "1.5.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/browserstack-local/-/browserstack-local-1.5.0.tgz#16f62954dfd9332f7f511bfe1d1780b248b2eaed"
-  integrity sha512-PjXOtBXcyGEDJwXxv3+0t6Plk6qQnkeTMUPodeu9wkiROP2P/BA44oYusEdvHEFTUt9Dhb3bCFIOJujnL7mFWw==
+  version "1.5.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/browserstack-local/-/browserstack-local-1.5.1.tgz#0d424474cc2b74a9d9a22d00a2282941ff636f34"
+  integrity sha512-T/wxyWDzvBHbDvl7fZKpFU7mYze6nrUkBhNy+d+8bXBqgQX10HTYvajIGO0wb49oGSLCPM0CMZTV/s7e6LF0sA==
   dependencies:
-    https-proxy-agent "^4.0.0"
+    agent-base "^6.0.2"
+    https-proxy-agent "^5.0.1"
     is-running "^2.1.0"
     ps-tree "=1.2.0"
     temp-fs "^0.9.9"
@@ -6689,12 +6692,12 @@ https-proxy-agent@^2.2.1:
     agent-base "^4.3.0"
     debug "^3.1.0"
 
-https-proxy-agent@^4.0.0:
-  version "4.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/https-proxy-agent/-/https-proxy-agent-4.0.0.tgz#702b71fb5520a132a66de1f67541d9e62154d82b"
-  integrity sha512-zoDhWrkR3of1l9QAL8/scJZyLu8j/gBkcwcaQOZh7Gyh/+uJQzGVETdgT30akuwkpL8HTRfssqI3BZuV18teDg==
+https-proxy-agent@^5.0.1:
+  version "5.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz#c59ef224a04fe8b754f3db0063a25ea30d0005d6"
+  integrity sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==
   dependencies:
-    agent-base "5"
+    agent-base "6"
     debug "4"
 
 iconv-lite@0.4.24, iconv-lite@^0.4.17, iconv-lite@^0.4.24:
