@@ -1230,9 +1230,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.1.1000001203"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001203.tgz#b5d238c574693f57668b184b0d0bf43df64b93e3"
-  integrity sha512-pWDE14tJou1izC8OEXwd4InxN58C3VxgPQyxIfJ1NgH2G5Fm4nyjNtK4Q2LWBISUKCptvGzgAY/dwkw1yLt/rw==
+  version "9.1.1000001211"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001211.tgz#4fe6ff9a5770d230f8c6061d5fc25ab6b01e9f17"
+  integrity sha512-eY6ghEzf0pqAX6DHXbjt57gwF418ung7f3UfJZMnSW6piEmawNALo3Tg/iPNThrYJKLTCJ8BB5g164EjEg9OyQ==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1259,15 +1259,11 @@
     "@folio/plugin-find-instance" "^6.0.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "7.0.100000109"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-7.0.100000109.tgz#87102f24507e358afbbd9b2d80421af321ffa946"
-  integrity sha512-6BgTGgYskd58IRKSbUiQrTE/JA7+MM1q7GERbNB3k/zKQZcF2zGnoNrJfCy3+SNFDSq3A78kaocpV/l75WdGuA==
+  version "7.0.100000112"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-7.0.100000112.tgz#7768fa61e92767a2f1083ef3ad7e6a88ced1d5a2"
+  integrity sha512-HKIp3jiZaixtz65ycYdY49lY1dGLGgS4elPeGAGq3KbTM8RNYGmw0a4nj9va3z2SrGKYNGOwnUt36ER4kGcbdw==
   dependencies:
     prop-types "^15.6.0"
-    react "^17.0.2"
-    react-dom "^17.0.2"
-    react-intl "^5.8.0"
-    react-router-dom "^5.0.0"
     redux-form "^8.3.7"
 
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^3.0.0":
@@ -10213,7 +10209,7 @@ react-dom-factories@^1.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
   integrity sha1-63cFxNs2+1AbOqOP91lhaqD/luA=
 
-react-dom@^17.0.2, react-dom@~17.0.2:
+react-dom@~17.0.2:
   version "17.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
   integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
@@ -10304,7 +10300,7 @@ react-inspector@^5.1.0:
     is-dom "^1.0.0"
     prop-types "^15.0.0"
 
-react-intl@^5.7.0, react-intl@^5.8.0:
+react-intl@^5.7.0:
   version "5.25.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-5.25.1.tgz#68a73aefc485c9bf70062381ae7f6f4791680879"
   integrity sha512-pkjdQDvpJROoXLMltkP/5mZb0/XqrqLoPGKUCfbdkP8m6U9xbK40K51Wu+a4aQqTEvEK5lHBk0fWzUV72SJ3Hg==
@@ -10400,7 +10396,7 @@ react-refresh@^0.11.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
   integrity sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==
 
-react-router-dom@^5.0.0, react-router-dom@^5.2.0:
+react-router-dom@^5.2.0:
   version "5.3.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-router-dom/-/react-router-dom-5.3.1.tgz#0151baf2365c5fcd8493f6ec9b9b31f34d0f8ae1"
   integrity sha512-f0pj/gMAbv9e8gahTmCEY20oFhxhrmHwYeIwH5EO5xu0qme+wXtsdB8YfUOAZzUz4VaXmb58m3ceiLtjMhqYmQ==
@@ -10500,7 +10496,7 @@ react-virtualized-auto-sizer@^1.0.2, react-virtualized-auto-sizer@^1.0.6:
   resolved "https://repository.folio.org/repository/npm-ci-all/react-virtualized-auto-sizer/-/react-virtualized-auto-sizer-1.0.6.tgz#66c5b1c9278064c5ef1699ed40a29c11518f97ca"
   integrity sha512-7tQ0BmZqfVF6YYEWcIGuoR3OdYe8I/ZFbNclFlGOC3pMqunkYF/oL30NCjSGl9sMEb17AnzixDz98Kqc3N76HQ==
 
-react@^17.0.2, react@~17.0.2:
+react@~17.0.2:
   version "17.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
