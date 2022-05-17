@@ -8,15 +8,15 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkout-8.0.100000231",
+    "id": "folio_checkout-8.0.100000235",
     "action": "enable"
   },
   {
-    "id": "folio_circulation-7.0.300000559",
+    "id": "folio_circulation-7.0.300000565",
     "action": "enable"
   },
   {
-    "id": "folio_developer-6.2.100000217",
+    "id": "folio_developer-6.2.100000221",
     "action": "enable"
   },
   {
@@ -32,7 +32,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-instance-6.2.100000174",
+    "id": "folio_plugin-find-instance-6.2.100000180",
     "action": "enable"
   },
   {
