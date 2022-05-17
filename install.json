@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.2.10000077",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.0.200000798",
+  "id" : "folio_requests-7.0.200000822",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.105",
@@ -116,10 +116,10 @@
   "id" : "mod-users-bl-7.3.0-SNAPSHOT.118",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-8.2.100000395",
+  "id" : "folio_stripes-core-8.2.100000430",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.2.100000592",
+  "id" : "folio_stripes-smart-components-7.2.100000609",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.1.10000050",

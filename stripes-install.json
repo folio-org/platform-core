@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-7.0.200000798",
+    "id": "folio_requests-7.0.200000822",
     "action": "enable"
   },
   {
@@ -52,11 +52,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-8.2.100000395",
+    "id": "folio_stripes-core-8.2.100000430",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-7.2.100000592",
+    "id": "folio_stripes-smart-components-7.2.100000609",
     "action": "enable"
   },
   {

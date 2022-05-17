@@ -1324,9 +1324,9 @@
   integrity sha512-Pj4znI9iy5RnRD23weAd6SqWjSgAz66GFIBYxOdtf677gQwg54eNxoxL3tAEKY+9PGYEeW5550SNX9mS7Blawg==
 
 "@folio/requests@>=1.4.1":
-  version "7.0.200000798"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.0.200000798.tgz#907d8ae8d8e456f7a19fc7889b8a6089513b3c18"
-  integrity sha512-aoKOQKPt9hJCKLRCdIQ85cCxjvJvCTzfyKboSKrrgnlzGQ/ErGga5nAc7R5Aa0PPDX2SWsKwjwvAGSabYilM5A==
+  version "7.0.200000822"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.0.200000822.tgz#bc01e8bce772d9ee7b7286f20708cfd6c75733b1"
+  integrity sha512-BqHGHPZIBpAXwfi5sqq5r+ge5OtnAXzUs1graR1dULMEaVyN0Gi30+/p8VagtPasLO4ZXMeSSBZuwH+Q9sZaEg==
   dependencies:
     babel-plugin-module-resolver "^4.1.0"
     html-to-react "^1.3.3"
@@ -1475,9 +1475,9 @@
     uuid "^8.3.2"
 
 "@folio/stripes-core@~8.2.0":
-  version "8.2.100000395"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.2.100000395.tgz#44b3c3d3fb8218bd0bd2e8865470cc7986043a71"
-  integrity sha512-6dQgFZrDDC5whUMRxrrsY0qOKYtyH1ETZdmnoNOrhVbce3amKh+i0THDjMVNAAQjxfOGqQNN4Rot5GbuqleNzg==
+  version "8.2.100000430"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.2.100000430.tgz#51f4972d80b859fb685cfc6a252044800715a742"
+  integrity sha512-yEt25sV/HW2NWfCElagjFSXuD1/qxZqbqTRUAoG3EeBWX/aIfpCGv0wcKm52TAO3g++FBneV8UDrdwR7jzSxLA==
   dependencies:
     "@apollo/client" "^3.2.1"
     classnames "^2.2.5"
@@ -1549,9 +1549,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.2.0":
-  version "7.2.100000592"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000592.tgz#371bb054af121d78f7dd36b3b241ae2a6d9aefc8"
-  integrity sha512-JZZumP0yzd6YOO5s66RjiN6PUOTcSFhgwOuMAoVDH3B4N1wKI/AtAfxWcUs5RehE48QMoXJO7CjBPpTuhKOcMg==
+  version "7.2.100000609"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000609.tgz#6e3e244f1c0975ed5aad92cbe96633bdfea49a30"
+  integrity sha512-p0haTkLU5AO6XxfZUDCuGfbalgq5tCa1HAdOfvHkocNvTjzGpAm87NaR3km55kcA/SkY3WB+cGlSIPZs54DG9w==
   dependencies:
     "@rehooks/local-storage" "2.4.0"
     classnames "^2.2.6"
@@ -11330,9 +11330,9 @@ socket.io-parser@~4.0.4:
     debug "~4.3.1"
 
 socket.io@^4.4.1:
-  version "4.5.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/socket.io/-/socket.io-4.5.0.tgz#78ae2e84784c29267086a416620c18ef95b37186"
-  integrity sha512-slTYqU2jCgMjXwresG8grhUi/cC6GjzmcfqArzaH3BN/9I/42eZk9yamNvZJdBfTubkjEdKAKs12NEztId+bUA==
+  version "4.5.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/socket.io/-/socket.io-4.5.1.tgz#aa7e73f8a6ce20ee3c54b2446d321bbb6b1a9029"
+  integrity sha512-0y9pnIso5a9i+lJmsCdtmTTgJFFSvNQKDnPQRz28mGNnxbmqYg2QPtJTLFxhymFZhAIn50eHAKzJeiNaKr+yUQ==
   dependencies:
     accepts "~1.3.4"
     base64id "~2.0.0"
