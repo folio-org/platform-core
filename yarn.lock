@@ -1717,9 +1717,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "8.1.1000001434"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.1.1000001434.tgz#e60bca1869d05ebeffabd9726fa9da814b1b08b9"
-  integrity sha512-C4M08eWTNpTQqxVP5JTVs2i/2o0cE3dhyqqaodxKw2Z5r+1+6dVYrtdL19NMbZSRHj66J1edjaSxt/q/XXXkng==
+  version "8.1.1000001447"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.1.1000001447.tgz#2648174ad36cb9176a277b1f6dd2431d5c7c5c7d"
+  integrity sha512-aAdkuGY0t4SE5cpaJNzfRzwDW0S5hixu1aNG3N9YoZQIUIQERvJMrm5i3zIh2h3BZ6K3y5cL4I04IjviFeSCag==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
@@ -12546,9 +12546,9 @@ webpack-bundle-analyzer@^4.4.2:
     ws "^7.3.1"
 
 webpack-dev-middleware@^5.2.1:
-  version "5.3.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-dev-middleware/-/webpack-dev-middleware-5.3.2.tgz#a7621d9a4e5d16e6b59976f9c78873e47b5e6496"
-  integrity sha512-PKp4aIEDC2FFJgNMRjdXhpy5ad7xeTqHb+/90Vr3yMymzzDxOVZw3Paj+vqKEMDXfGjuIvh8y99USoBOHZJcEg==
+  version "5.3.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-dev-middleware/-/webpack-dev-middleware-5.3.3.tgz#efae67c2793908e7311f1d9b06f2a08dcc97e51f"
+  integrity sha512-hj5CYrY0bZLB+eTO+x/j67Pkrquiy7kWepMHmUMoPsmcUaeEnQJqFzHJOyxgWlq746/wUuA64p9ta34Kyb01pA==
   dependencies:
     colorette "^2.0.10"
     memfs "^3.4.3"
