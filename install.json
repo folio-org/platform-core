@@ -47,7 +47,7 @@
   "id" : "mod-patron-blocks-1.6.0-SNAPSHOT.75",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-3.1.0-SNAPSHOT.194",
+  "id" : "mod-notes-3.1.0-SNAPSHOT.195",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-23.1.0-SNAPSHOT.1002",
@@ -74,7 +74,7 @@
   "id" : "mod-search-1.7.0-SNAPSHOT.252",
   "action" : "enable"
 }, {
-  "id" : "mod-tags-1.2.0-SNAPSHOT.80",
+  "id" : "mod-tags-1.2.0-SNAPSHOT.81",
   "action" : "enable"
 }, {
   "id" : "mod-data-export-4.5.0-SNAPSHOT.319",
