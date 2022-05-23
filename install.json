@@ -29,7 +29,7 @@
   "id" : "mod-configuration-5.8.0-SNAPSHOT.109",
   "action" : "enable"
 }, {
-  "id" : "mod-template-engine-1.17.0-SNAPSHOT.79",
+  "id" : "mod-template-engine-1.17.0-SNAPSHOT.80",
   "action" : "enable"
 }, {
   "id" : "mod-email-1.14.0-SNAPSHOT.64",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.2.100000221",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.7.0-SNAPSHOT.253",
+  "id" : "mod-search-1.7.0-SNAPSHOT.254",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.2.0-SNAPSHOT.81",
@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.2.10000077",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.0.200000872",
+  "id" : "folio_requests-7.0.200000875",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.105",
