@@ -20,7 +20,7 @@
   "id" : "mod-pubsub-2.5.2-SNAPSHOT.199",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.317",
+  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.318",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.3.0-SNAPSHOT.54",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-8.0.100000245",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.0.300000565",
+  "id" : "folio_circulation-7.0.300000598",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.2.100000221",
