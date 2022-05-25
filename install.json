@@ -53,7 +53,7 @@
   "id" : "mod-circulation-23.1.0-SNAPSHOT.1003",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.428",
+  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.429",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-18.2.0-SNAPSHOT.540",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.1.100000235",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.1.1000001447",
+  "id" : "folio_users-8.1.1000001443",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.94",
