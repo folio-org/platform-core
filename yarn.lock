@@ -1256,9 +1256,9 @@
     "@folio/plugin-find-instance" "^6.0.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "7.0.100000112"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-7.0.100000112.tgz#7768fa61e92767a2f1083ef3ad7e6a88ced1d5a2"
-  integrity sha512-HKIp3jiZaixtz65ycYdY49lY1dGLGgS4elPeGAGq3KbTM8RNYGmw0a4nj9va3z2SrGKYNGOwnUt36ER4kGcbdw==
+  version "7.0.100000122"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-7.0.100000122.tgz#f6b1809089818a2abd46969a39846015d1499588"
+  integrity sha512-Lfkro2ShULynGp5YFp5pIRnf+mIbVquE7pXDEOpz5vrfyvkbRUOn7VtRPB/CrfEOw4b1P1HMO0kWtavJTghu2w==
   dependencies:
     prop-types "^15.6.0"
     redux-form "^8.3.7"
@@ -1713,9 +1713,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "8.1.1000001495"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.1.1000001495.tgz#e320bd7bfa111dc9b0ac03c326c95a8f81045e79"
-  integrity sha512-qbi+zfYF0Q8I1Ngg4m34CDA8abCsHyjd/DqV39/GuTeDJgtnwmijp/gkqoRZxqjCqvXs1yH9Ps9HRYvojdK4Dg==
+  version "8.1.1000001510"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.1.1000001510.tgz#e2ef1739b3318bf1314ebbd18f9a15c804ca0fb4"
+  integrity sha512-V+x+30+Ubju6hA3t/8Mes2R5LvrPFrYVGAhxJnXg6oEfKlzDlI/Xs7yMY2Fo/aJ3jc0dompO+TE/+bfdG21oDA==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
