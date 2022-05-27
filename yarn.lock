@@ -1227,9 +1227,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.1.1000001338"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001338.tgz#e9232cc2ecc107800fd83acbf4a2875ec62a7806"
-  integrity sha512-+1TD10lVyLSw+vdi32iB1p9XSwogziK2qN8cufZfckEthET4bSolwkC9UHsVljQ5EndYXRqFopjjTIbjD7ByTA==
+  version "9.1.1000001347"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001347.tgz#e6e031536a9e8aa6a6b7794b090c2ef526c0d315"
+  integrity sha512-u1KCVvZnsdHDwJOirH1R5Pcxlh+UOwbJ3gW5Fb609m3bG8D6Adprrp1yFpqjFZs6mmsDOTcoQoK7u3f0R37SEA==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -4654,7 +4654,7 @@ destroy@1.2.0:
 detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
-  integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
+  integrity sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==
 
 detect-node@^2.0.4, detect-node@^2.1.0:
   version "2.1.0"
