@@ -4749,7 +4749,7 @@ dom-helpers@^5.1.0, dom-helpers@^5.2.0:
 dom-serialize@^2.2.1:
   version "2.2.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/dom-serialize/-/dom-serialize-2.2.1.tgz#562ae8999f44be5ea3076f5419dcd59eb43ac95b"
-  integrity sha1-ViromZ9Evl6jB29UGdzVnrQ6yVs=
+  integrity sha512-Yra4DbvoW7/Z6LBN560ZwXMjoNOSAN2wRsKFGc4iBeso+mpIA6qj1vfdf9HpMaKAqG6wXTy+1SYEzmNpKXOSsQ==
   dependencies:
     custom-event "~1.0.0"
     ent "~2.2.0"
