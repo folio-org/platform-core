@@ -1429,9 +1429,9 @@
     yargs "^17.3.1"
 
 "@folio/stripes-components@~10.2.0":
-  version "10.2.1000001270"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.1000001270.tgz#666bbe449f229e1805837cecc17297c8dae314e2"
-  integrity sha512-9SjzsekPbReZR+FxyVlp+S3tPgf0XIeIEDjwyS/06Nfox+mM9+z+rrG69T16Pm+y5NW5B6QZLyNvssuu07RGgw==
+  version "10.2.1000001274"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.1000001274.tgz#d1895b11e676577af23f0818624dcb3e01d7efbf"
+  integrity sha512-5jVmq6AvCiRavd42s6J1pafL4V5sNElOXbp7IZOYESVuY4gYT4nCdODpgwJBUD8I0xhWj8pVGgHs8LarAckmKQ==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1472,9 +1472,9 @@
     uuid "^8.3.2"
 
 "@folio/stripes-core@~8.2.0":
-  version "8.2.100000461"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.2.100000461.tgz#20ea7df5f90ecc6f7b2f8319b9ae049aeea14a09"
-  integrity sha512-nTylN2kfsQywhR9GjXREsAQhTpf3pGtYVkFeILXjusBIB5qdoQiDBzpCyvgvWnR5nNppRUi9bFphSg9bxlT0TA==
+  version "8.2.100000465"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.2.100000465.tgz#3f184eace6e4dd7a28dade70426ed63e292b36f2"
+  integrity sha512-JD/wIZdIRrv7lldHWjzZr1l9k0LlApHGtL9DRQRpok2MUQcLMIGyleqkKzRjbcQM3FDr2Add/ftuP8UrGFKVBQ==
   dependencies:
     "@apollo/client" "^3.2.1"
     classnames "^2.2.5"
@@ -4611,12 +4611,12 @@ define-properties@^1.1.3, define-properties@^1.1.4:
 delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
-  integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+  integrity sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==
 
 delegates@^1.0.0:
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
-  integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
+  integrity sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==
 
 depd@2.0.0, depd@~2.0.0:
   version "2.0.0"
