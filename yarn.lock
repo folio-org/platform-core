@@ -4664,7 +4664,7 @@ detect-node@^2.0.4, detect-node@^2.1.0:
 di@^0.0.1:
   version "0.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/di/-/di-0.0.1.tgz#806649326ceaa7caa3306d75d985ea2748ba913c"
-  integrity sha1-gGZJMmzqp8qjMG112YXqJ0i6kTw=
+  integrity sha512-uJaamHkagcZtHPqCIHZxnFrXlunQXgBOsZSUOWwFw31QJCAbyTBoHMW75YOTur5ZNx8pIeAKgf6GWIgaqqiLhA==
 
 diff@4.0.1:
   version "4.0.1"
@@ -4700,7 +4700,7 @@ dir-glob@^3.0.1:
 doctrine@1.5.0:
   version "1.5.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/doctrine/-/doctrine-1.5.0.tgz#379dce730f6166f76cefa4e6707a159b02c5a6fa"
-  integrity sha1-N53Ocw9hZvds76TmcHoVmwLFpvo=
+  integrity sha512-lsGyRuYr4/PIB0txi+Fy2xOMI2dGaTguCaotzFGkVZuKR5usKfcRWIFKNM3QNrU7hh/+w2bwTW+ZeXPK5l8uVg==
   dependencies:
     esutils "^2.0.2"
     isarray "^1.0.0"
@@ -4881,9 +4881,9 @@ effection@^1.0.0:
   integrity sha512-ITAAnuI7sJqKhjvYlnm66NHaW7zrXzqgsGsjVaaqFHYDWPN8WylVj46xASfkrtwq5wmklbzy6tvRYaj2C4rDHw==
 
 electron-to-chromium@^1.4.118:
-  version "1.4.140"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.140.tgz#1b5836b7244aff341a11c8efd63dfe003dee4a19"
-  integrity sha512-NLz5va823QfJBYOO/hLV4AfU4Crmkl/6Hl2pH3qdJcmi0ySZ3YTWHxOlDm3uJOFBEPy3pIhu8gKQo6prQTWKKA==
+  version "1.4.141"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.141.tgz#4dd9119e8a99f1c83c51dfcf1bed79ea541f08d6"
+  integrity sha512-mfBcbqc0qc6RlxrsIgLG2wCqkiPAjEezHxGTu7p3dHHFOurH4EjS9rFZndX5axC8264rI1Pcbw8uQP39oZckeA==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
