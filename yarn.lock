@@ -7885,7 +7885,7 @@ memoize-one@^5.0.0, memoize-one@^5.1.1:
 memory-fs@^0.2.0:
   version "0.2.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/memory-fs/-/memory-fs-0.2.0.tgz#f2bb25368bc121e391c2520de92969caee0a0290"
-  integrity sha1-8rslNovBIeORwlIN6Slpyu4KApA=
+  integrity sha512-+y4mDxU4rvXXu5UDSGCGNiesFmwCHuefGMoPCO1WYucNYj7DsLqrFaa2fXVI0H+NNiPTwwzKwspn9yTZqUGqng==
 
 memory-fs@^0.5.0:
   version "0.5.0"
@@ -7898,7 +7898,7 @@ memory-fs@^0.5.0:
 merge-descriptors@1.0.1:
   version "1.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/merge-descriptors/-/merge-descriptors-1.0.1.tgz#b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
-  integrity sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=
+  integrity sha512-cCi6g3/Zr1iqQi6ySbseM1Xvooa98N0w31jzUYrXPX2xqObmFGHJ0tQ5u74H3mVh7wLouTseZyYIq39g8cNp1w==
 
 merge-stream@^2.0.0:
   version "2.0.0"
