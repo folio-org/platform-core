@@ -11,9 +11,9 @@
     "@jridgewell/trace-mapping" "^0.3.9"
 
 "@apollo/client@^3.2.1":
-  version "3.6.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@apollo/client/-/client-3.6.5.tgz#6a7baaf05852187b0eac1c6064e721d47326d70c"
-  integrity sha512-xGAZzv1f5abyH45MSU5eOLyGQuP4Ps0OhP36pSCtt6pCICI3n4yDkdftFCPvqDVqVTuciX1kkyeJPfGodz5kwg==
+  version "3.6.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@apollo/client/-/client-3.6.6.tgz#3fb1f5b11da9a64b51b5a86b62450bee034e7f41"
+  integrity sha512-AzNLN043wy0bDTTR9wzKYSu+I1IT2Ox3+vWckxgIt88Jfw5jHBvumf3lXE1JlgvbFCTiKS/Sa66AadQXWMVBRQ==
   dependencies:
     "@graphql-typed-document-node/core" "^3.1.1"
     "@wry/context" "^0.6.0"
@@ -1546,9 +1546,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.2.0":
-  version "7.2.100000630"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000630.tgz#6cb7fc7cc474248ae9c70a67fd05559e041f4e35"
-  integrity sha512-BhrXFwb3hwVku/pijvJVGLciwEFwSSTg1nYyh9Dojd8fSSDzHmS33K5I2uUDfET3dXeV9bN4eZcYXnn/l3qzUg==
+  version "7.2.100000653"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000653.tgz#d87027f99b7be3ff9faefb97df88a3ceee5e1614"
+  integrity sha512-BAc/Sg+805+hFz175ctJ/OKge7NJU7hx/Y71nE/kv3QS2PTGSu2c1QQxrMq+Nzb1XXv9qYEqgy/jltkcHDBlwQ==
   dependencies:
     "@rehooks/local-storage" "2.4.0"
     classnames "^2.2.6"
