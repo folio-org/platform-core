@@ -53,7 +53,7 @@
   "id" : "mod-circulation-23.1.0-SNAPSHOT.1004",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.429",
+  "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.430",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-18.2.0-SNAPSHOT.541",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.5.0-SNAPSHOT.319",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.1.1000001347",
+  "id" : "folio_inventory-9.1.1000001363",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.0.100000125",
@@ -122,7 +122,7 @@
   "id" : "folio_stripes-smart-components-7.2.100000630",
   "action" : "enable"
 }, {
-  "id" : "folio_tags-6.1.10000050",
+  "id" : "folio_tags-6.1.10000061",
   "action" : "enable"
 }, {
   "id" : "mod-login-saml-2.5.0-SNAPSHOT.101",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.1.100000235",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.1.1000001541",
+  "id" : "folio_users-8.1.1000001574",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.94",
