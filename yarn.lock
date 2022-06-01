@@ -1227,9 +1227,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.1.1000001381"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001381.tgz#341a6ff369eb5806dacc45f8a108fc603c9a17a3"
-  integrity sha512-/bFTYNPXB5NqkfOmYZjm2cRsRPHz7HjAHocAf7ej6SNPzqVrMyD4CA0Vdl0F2KmiHScG1F6gld65r4fGcE7oEA==
+  version "9.1.1000001385"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001385.tgz#40cd778455732ccbed27a4f13d48221c7d112ac4"
+  integrity sha512-SmtvZUkVrk775kjbcKpKwQUS7Tf2AxZy/VbUpAOgRgUfBtWPG7q6CyOER2HJ+B3V2jMv67bfQ9rquttes2h25g==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1300,9 +1300,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.0.100000208"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.100000208.tgz#1d5b0ed3d408a683eb2f1fba1290090d2eed75c6"
-  integrity sha512-XkzWxunLi4/uA90tBPWRVl9ey6DxYlhtzKAE7zA9C6ZW1oR29obtXJ0bta9VEq8FMaw+pTGDO/s+BapH5UzNQQ==
+  version "5.0.100000212"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.100000212.tgz#c4a445ec8d759641f8195a82ecc3b4fedcaca97b"
+  integrity sha512-55S0zLVViLn0ojreJJ1WKRMCfIIrtLV3FJv7wxWPD+zkvaz+jIN18kfMQMINRmgrXIhexAtGW2JhGU2azpYTpA==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
@@ -1321,9 +1321,9 @@
   integrity sha512-Pj4znI9iy5RnRD23weAd6SqWjSgAz66GFIBYxOdtf677gQwg54eNxoxL3tAEKY+9PGYEeW5550SNX9mS7Blawg==
 
 "@folio/requests@>=1.4.1":
-  version "7.0.200000927"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.0.200000927.tgz#1c21f8cb9f6743bf00fa3328629f92a028c5d44f"
-  integrity sha512-bqwWYQo6tH9OiycXwREyKUywlP8F4EY1tkInAkRZtvXgdQtbgHTOxaQt/W68rmFgcOe4arjOD/i2zjakdgvE1g==
+  version "7.0.200000944"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.0.200000944.tgz#7527e1a429fc12a391006bcadd25e0dfa1cf09ee"
+  integrity sha512-Qw173EUe6A75nbhDkO/3ekXa+75c7aqwBZMDCQiBc41y6fWVMedc3JerE2Wksr7tUae26F2RrKcnqz3q4VZEzA==
   dependencies:
     babel-plugin-module-resolver "^4.1.0"
     html-to-react "^1.3.3"
