@@ -1227,9 +1227,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.1.1000001368"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001368.tgz#ab83c71e1eaa3cca24a877b1431530fcc4f78f11"
-  integrity sha512-UgBKcE198VPdoHKlDj0yZl8uC4lnmSpPVjEP1J0lFRU26FnHuMf30dIHSaWsc37BFaIr5zKvcgbGG6MyVHvBXw==
+  version "9.1.1000001381"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001381.tgz#341a6ff369eb5806dacc45f8a108fc603c9a17a3"
+  integrity sha512-/bFTYNPXB5NqkfOmYZjm2cRsRPHz7HjAHocAf7ej6SNPzqVrMyD4CA0Vdl0F2KmiHScG1F6gld65r4fGcE7oEA==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -8930,14 +8930,14 @@ pify@^4.0.1:
 pinkie-promise@^2.0.0:
   version "2.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/pinkie-promise/-/pinkie-promise-2.0.1.tgz#2135d6dfa7a358c069ac9b178776288228450ffa"
-  integrity sha1-ITXW36ejWMBprJsXh3YogihFD/o=
+  integrity sha512-0Gni6D4UcLTbv9c57DfxDGdr41XfgUjqWZu492f0cIGr16zDU06BWP/RAEvOuo7CQ0CNjHaLlM59YJJFm3NWlw==
   dependencies:
     pinkie "^2.0.0"
 
 pinkie@^2.0.0:
   version "2.0.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
-  integrity sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
+  integrity sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==
 
 pirates@^4.0.5:
   version "4.0.5"
