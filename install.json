@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-23.1.0-SNAPSHOT.699",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-7.1.100000177",
+  "id" : "folio_calendar-7.1.100000193",
   "action" : "enable"
 }, {
   "id" : "mod-users-18.3.0-SNAPSHOT.192",
@@ -59,13 +59,13 @@
   "id" : "mod-inventory-18.2.0-SNAPSHOT.541",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-7.0.100000286",
+  "id" : "folio_checkin-7.0.100000293",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-8.0.100000248",
+  "id" : "folio_checkout-8.0.100000253",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.0.300000670",
+  "id" : "folio_circulation-7.0.300000674",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.2.100000221",
@@ -119,7 +119,7 @@
   "id" : "folio_stripes-core-8.2.100000465",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.2.100000653",
+  "id" : "folio_stripes-smart-components-7.2.100000667",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.1.10000061",

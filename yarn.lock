@@ -1136,9 +1136,9 @@
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
 "@folio/calendar@>=2.0.5":
-  version "7.1.100000177"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-7.1.100000177.tgz#3cf5bd9c01f62a973feeab5d3f93e8b038342a86"
-  integrity sha512-QwvE4T8BlFcjMJfRocnx7ccs/WelwsE1nBrzvhqspQjkwPhD0fLpTjgcskM0gbp1tPeLKBqZyiSucuTcp2eLwQ==
+  version "7.1.100000193"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-7.1.100000193.tgz#cc6401a9469e561ed2ca9afb52cfd98985d3796e"
+  integrity sha512-N6CCff0IbwOfF5C7W7vwIIF99i4ZUxNZjTvaul9u98CaAC+h2cH1rnCcIUIO+cgsihnkREsy4J4ukSwh+gn7Bg==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
     lodash "^4.17.5"
@@ -1148,9 +1148,9 @@
     redux-form "^8.3.7"
 
 "@folio/checkin@>=1.3.0":
-  version "7.0.100000286"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.0.100000286.tgz#07e4031fe62ab454f95a88f0ef9c61e9e3902dd5"
-  integrity sha512-ZHLyusWelT2XX638ZUUXXJSLgEwVgH9pf1XzB2ojYdMX1BOw3tsrYit/orgQIQFposUbNPN21wfqlGYpaIJGqQ==
+  version "7.0.100000293"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.0.100000293.tgz#6ba809b6e555cf15585a53a5808a76b3a830e76f"
+  integrity sha512-+FalepIlXp45Jz8n6TKKJWHlZp69t+nBynIJhGXewuf3MovmoSh1MyAHcesD2NzZuM4sHLXxvznvApoFZtomtQ==
   dependencies:
     dateformat "^2.0.0"
     final-form "^4.19.1"
@@ -1164,9 +1164,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "8.0.100000248"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.0.100000248.tgz#6394c9c06f06385388f8542349af86d72f4a3066"
-  integrity sha512-ZE34vjpl+K4VNpsiu9BhXUoJCChcB6dlTYjk0RjppOo4uQ/tLpFvBPUbIVznyaRrI+oXq/3IQCEIvzlGejoa/w==
+  version "8.0.100000253"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.0.100000253.tgz#da6c0dfb3cc74f48b91c8d9600474539b65a21ef"
+  integrity sha512-aUW1Wk8462QlC6wHhGjIhMRFQNUSeRLzOWxCU3rk/XU5gm0E3wJHfRpw5LTwKtvd7BobPEMTQqCs6dcsvXD4vQ==
   dependencies:
     final-form "^4.19.1"
     inactivity-timer "^1.0.0"
@@ -1181,9 +1181,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/circulation@>=1.3.0", "@folio/circulation@^7.0.0":
-  version "7.0.300000670"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-7.0.300000670.tgz#f4293610b919211eaec7822ea07c6c35785871a8"
-  integrity sha512-HSy9SPgNN+7iUJIy6Lgw6RjgSdUsGTKvOy1RiQDDuy5ESlO6yO82oU/tRnk8EkA4uL7IRDmvHGuu4MGSBRTMUw==
+  version "7.0.300000674"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-7.0.300000674.tgz#98f62fe14053a26b4266dc1b6d7b699854a910c1"
+  integrity sha512-sILKcl4/ZoQUhvWxjfF215CF57ODf8s5xm+kWBWK2Ty+EpKJttfA1eA1re2Zkl6LYBqq4Y8ps4fWzT4oS3WbXA==
   dependencies:
     "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
@@ -1546,9 +1546,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.2.0":
-  version "7.2.100000653"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000653.tgz#d87027f99b7be3ff9faefb97df88a3ceee5e1614"
-  integrity sha512-BAc/Sg+805+hFz175ctJ/OKge7NJU7hx/Y71nE/kv3QS2PTGSu2c1QQxrMq+Nzb1XXv9qYEqgy/jltkcHDBlwQ==
+  version "7.2.100000667"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000667.tgz#d5655aaf9f6e064b13187365540bd0f5655d9482"
+  integrity sha512-KgvKFlzbJ8md4NPOqNxofQ/yy14pps2+yVFDPpPedW8ILzMzfKrf671ML2g2pPrMpKLcedgBQTCTxFRnYbv4NQ==
   dependencies:
     "@rehooks/local-storage" "2.4.0"
     classnames "^2.2.6"
@@ -8947,7 +8947,7 @@ pirates@^4.0.5:
 pixelmatch@^4.0.0, pixelmatch@^4.0.2:
   version "4.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/pixelmatch/-/pixelmatch-4.0.2.tgz#8f47dcec5011b477b67db03c243bc1f3085e8854"
-  integrity sha1-j0fc7FARtHe2fbA8JDvB8wheiFQ=
+  integrity sha512-J8B6xqiO37sU/gkcMglv6h5Jbd9xNER7aHzpfRdNmV4IbQBzBpe4l9XmbG+xPF/znacgu2jfEw+wHffaq/YkXA==
   dependencies:
     pngjs "^3.0.0"
 
