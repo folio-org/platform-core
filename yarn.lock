@@ -8591,7 +8591,7 @@ ora@^5.4.1:
 os-browserify@^0.3.0:
   version "0.3.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/os-browserify/-/os-browserify-0.3.0.tgz#854373c7f5c2315914fc9bfc6bd8238fdda1ec27"
-  integrity sha1-hUNzx/XCMVkU/Jv8a9gjj92h7Cc=
+  integrity sha512-gjcpUc3clBf9+210TRaDWbf+rZZZEshZ+DlXMRCeAjp0xhTrnQsKHypIy1J3d5hKdUzj69t708EHtU8P6bUn0A==
 
 os-tmpdir@~1.0.2:
   version "1.0.2"
