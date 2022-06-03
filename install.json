@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.2.100000221",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.7.0-SNAPSHOT.256",
+  "id" : "mod-search-1.7.0-SNAPSHOT.257",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.2.0-SNAPSHOT.81",
@@ -113,7 +113,7 @@
   "id" : "mod-authtoken-2.11.0-SNAPSHOT.116",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-7.3.0-SNAPSHOT.118",
+  "id" : "mod-users-bl-7.3.0-SNAPSHOT.119",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-core-8.2.100000465",
@@ -134,6 +134,6 @@
   "id" : "folio_users-8.1.1000001597",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.94",
+  "id" : "mod-codex-inventory-2.3.0-SNAPSHOT.95",
   "action" : "enable"
 } ]
