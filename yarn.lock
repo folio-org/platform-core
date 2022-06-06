@@ -1509,9 +1509,9 @@
     use-deep-compare "^1.1.0"
 
 "@folio/stripes-final-form@~6.0.0":
-  version "6.0.10000049"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-6.0.10000049.tgz#e7fa7f349e706c63988d8bae57d8f98bc5fecd23"
-  integrity sha512-pr7QYDLopklRYcZ4UrIEE22NbLw2KL7GpRoYTj5fzYJ6MUFEqLgobxo7yWPYxon1ihdcDmlgGqZmwSDJOJy6Tw==
+  version "6.0.10000054"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-6.0.10000054.tgz#0756a08b1733f4784d177c3f4b62ac8a36296596"
+  integrity sha512-9DuIgDFkc79XJri8iCVN0V7R0xNcNFNbcKCpd8jl9yAUlkzMNjAJQLoWK8bvDFf8JPP68Wz9nVCXPq+bKBOuDQ==
   dependencies:
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
@@ -1522,9 +1522,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/stripes-form@~7.0.0":
-  version "7.0.10000057"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-7.0.10000057.tgz#1811e4c4a656fbeeaddd564463ac1846cfe4d9da"
-  integrity sha512-jeWPeSV0dIpI4tJK6wmVQjNPmjyU/1RPI/1Q/RL6mZd728EcbJBqgJyhZIrl9/m2kSXXnEnDZXe/VSVNOBYbgA==
+  version "7.0.10000062"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-7.0.10000062.tgz#8ac99369389c3e27d0aef3ce00a1131ee2acc022"
+  integrity sha512-mn+1Y48PA8PkC5a54r6KTUucJpKOsXrej+Cz1s/bJtMcDre0wFSrTVR74+ATv95ts3qLJFKI5FDdU6XZL9J+oA==
   dependencies:
     flat "^4.0.0"
     prop-types "^15.5.10"
