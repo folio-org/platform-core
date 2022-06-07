@@ -1472,9 +1472,9 @@
     uuid "^8.3.2"
 
 "@folio/stripes-core@~8.2.0":
-  version "8.2.100000484"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.2.100000484.tgz#e2999b3bc15b3cd2006e434c14cf437ac63f4b2d"
-  integrity sha512-ExUSOaEP8ILoqLr/737TJ4DYk16glSFOegFc+kCw8GhRTrIfMzPuYLKN52+DIZyk4y2ukmqgjG9z/D2ulOHUHA==
+  version "8.2.100000509"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.2.100000509.tgz#a9e03ca5b88bb8c6e2071225710c478c6a52c8f7"
+  integrity sha512-UjNMB1LoxC7YY7+3VcpHihOgIyZ2eLMmWQxtdMajoOBsy9dtvKTlTgd4a/43M/iJWkFDLgJO9im9syV/qMd0Kw==
   dependencies:
     "@apollo/client" "^3.2.1"
     classnames "^2.2.5"
@@ -1546,9 +1546,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.2.0":
-  version "7.2.100000681"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000681.tgz#f78249d5c7951b05a6d228258d9c045a3b3d77aa"
-  integrity sha512-yqAQdslWVMbJs96+2jTTwFtBtjQmu2FPp50hb6bPqIW1tsO8WdTpDrLXO1ciClTOaryA3c/OBJRIpFpr533D4Q==
+  version "7.2.100000694"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.100000694.tgz#4b465177a57cb7f17ae0e163cfc73d2e3c2e04e5"
+  integrity sha512-jHRG4kiIN3vSLeH8TweZ4peGifHYT/Ws/8KQJei/r4dzZTb6+StsHv0GYM4jPo11fHeaCx6+z84pJ5Ik7IFtFQ==
   dependencies:
     "@rehooks/local-storage" "2.4.0"
     classnames "^2.2.6"
