@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.2.100000221",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.7.0-SNAPSHOT.257",
+  "id" : "mod-search-1.7.0-SNAPSHOT.258",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.2.0-SNAPSHOT.81",
@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.2.10000077",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.0.200000972",
+  "id" : "folio_requests-7.0.200000975",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.105",
