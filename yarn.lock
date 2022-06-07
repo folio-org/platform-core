@@ -9983,14 +9983,14 @@ react@~17.0.2:
 read-cache@^1.0.0:
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/read-cache/-/read-cache-1.0.0.tgz#e664ef31161166c9751cdbe8dbcf86b5fb58f774"
-  integrity sha1-5mTvMRYRZsl1HNvo28+GtftY93Q=
+  integrity sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==
   dependencies:
     pify "^2.3.0"
 
 read-chunk@^1.0.1:
   version "1.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/read-chunk/-/read-chunk-1.0.1.tgz#5f68cab307e663f19993527d9b589cace4661194"
-  integrity sha1-X2jKswfmY/GZk1J9m1icrORmEZQ=
+  integrity sha512-5NLTTdX45dKFtG8CX5pKmvS9V5u9wBE+gkklN7xhDuhq3pA2I4O7ALfKxosCMcLHOhkxj6GNacZhfXtp5nlCdg==
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
