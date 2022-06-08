@@ -26,7 +26,7 @@
   "id" : "mod-event-config-2.3.0-SNAPSHOT.54",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.8.0-SNAPSHOT.113",
+  "id" : "mod-configuration-5.8.0-SNAPSHOT.114",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.17.0-SNAPSHOT.81",
@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.2.10000077",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.0.200000975",
+  "id" : "folio_requests-7.0.200000987",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.105",
