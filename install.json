@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.5.0-SNAPSHOT.319",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.1.1000001431",
+  "id" : "folio_inventory-9.1.1000001438",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.0.100000125",
@@ -119,7 +119,7 @@
   "id" : "folio_stripes-core-8.2.100000518",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.2.100000732",
+  "id" : "folio_stripes-smart-components-7.2.100000735",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.1.10000061",
