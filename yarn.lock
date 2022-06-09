@@ -1604,9 +1604,9 @@
     query-string "^5.0.0"
 
 "@folio/stripes-webpack@^4.0.0":
-  version "4.0.100000142"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-4.0.100000142.tgz#1d96e1eb714fb69c778b863b48f745f39a8ca2d6"
-  integrity sha512-QCxzYcPFMl4JEcEzz1ico7w10NN6Zl/RC21JAjKBHMSO6EEN7Yjlz9/kd8Oo6aJCRQ8zSylgeXlVLWJZZwTagw==
+  version "4.0.100000159"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-4.0.100000159.tgz#4ca144940aef3e56931256f399ac806dc068f557"
+  integrity sha512-mK6UP6G7ZKyVaeV3a92jt8exKBF79keCTpVj8OIYFCzLWVw8PtohfvL449nw4LLYRZbNT5UJVN3Dn820dfZudQ==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
@@ -11055,7 +11055,7 @@ supports-color@8.1.1, supports-color@^8.0.0:
 supports-color@^4.5.0:
   version "4.5.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/supports-color/-/supports-color-4.5.0.tgz#be7a0de484dec5c5cddf8b3d59125044912f635b"
-  integrity sha1-vnoN5ITexcXN34s9WRJQRJEvY1s=
+  integrity sha512-ycQR/UbvI9xIlEdQT1TQqwoXtEldExbCEAJgRo5YXlmSKjv6ThHnP9/vwGa1gr19Gfw+LkFd7KqYMhzrRC5JYw==
   dependencies:
     has-flag "^2.0.0"
 
