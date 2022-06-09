@@ -20,7 +20,7 @@
   "id" : "mod-pubsub-2.5.2-SNAPSHOT.201",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.318",
+  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.319",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.3.0-SNAPSHOT.54",
@@ -50,7 +50,7 @@
   "id" : "mod-notes-3.1.0-SNAPSHOT.196",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-23.1.0-SNAPSHOT.1005",
+  "id" : "mod-circulation-23.1.0-SNAPSHOT.1006",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.4.0-SNAPSHOT.433",
