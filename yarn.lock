@@ -1429,9 +1429,9 @@
     yargs "^17.3.1"
 
 "@folio/stripes-components@~10.2.0":
-  version "10.2.1000001331"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.1000001331.tgz#ed50b484ea8d3b71eb4154ee5a932669b66950cf"
-  integrity sha512-bUBRZWGvHY79RgMCgzMF7adDagFEiIfx9WesETA9K3SMs6cPr6qrGubDYoUQ9fBI9czJEIcnLZ5r5tRr31lrFQ==
+  version "10.2.1000001341"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.1000001341.tgz#76ebbd3bb6b05845f349ea478d910a87a7219fb5"
+  integrity sha512-n0T80/+qivz3Dq7eP07tTO4WmYuqOtrGXExmy1wFMBQO7S6mZHUC6FiUa4lydt2LXq/zleATIN74aktA+k1JPw==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -11158,7 +11158,7 @@ tai-password-strength@^1.1.1:
 tapable@^0.1.8:
   version "0.1.10"
   resolved "https://repository.folio.org/repository/npm-ci-all/tapable/-/tapable-0.1.10.tgz#29c35707c2b70e50d07482b5d202e8ed446dafd4"
-  integrity sha1-KcNXB8K3DlDQdIK10gLo7URtr9Q=
+  integrity sha512-jX8Et4hHg57mug1/079yitEKWGB3LCwoxByLsNim89LABq8NqgiX+6iYVOsq0vX8uJHkU+DZ5fnq95f800bEsQ==
 
 tapable@^1.0.0:
   version "1.1.3"
