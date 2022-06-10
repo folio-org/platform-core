@@ -1181,9 +1181,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/circulation@>=1.3.0", "@folio/circulation@^7.0.0":
-  version "7.0.300000678"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-7.0.300000678.tgz#8a1faef87a93ec036bd49465a75d067b4512fbe7"
-  integrity sha512-b9q6O+ffR+vSQh/sjXXx98sYlLKDOvelFM/pXq1IX87GDIV5MvAlH570yPAmP7srT5A9vSdaDcPtUKGqVtYsfw==
+  version "7.0.300000683"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-7.0.300000683.tgz#89a3f2bd7714a147ac6e02a5c4a2915fda4cf15a"
+  integrity sha512-aJo8FagzYdXPjQy4SP+fLsk0lACn90og6q1Nuw9rBGlLYyU7GJvMjdsyt+RFKr3HJAsOCSW+flgl7uzJolhA6w==
   dependencies:
     "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
@@ -1713,9 +1713,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "8.1.1000001643"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.1.1000001643.tgz#d541327207526910e69eb01634c5ccebc4abe36a"
-  integrity sha512-Ctv5OhRBtHB7GqNIJQMWit/XXpXxC8VlFmHrfu6+So6yczeNt8fsRZC3X3rTK7HwVmS9doyy2ABaF37b8Txr9A==
+  version "8.1.1000001667"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.1.1000001667.tgz#7d594503212c1175cf4f15cc599bf8ad86b3c26a"
+  integrity sha512-fSzmHLgtW29gBgpouP9cBTI3/bIQkomX8OiWvw1/dqJSCyIPFptUU7sI0wK+app3PCISRwRYlffuvGzPTo30Ug==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
