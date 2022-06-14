@@ -12,11 +12,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-login-7.7.0-SNAPSHOT.118",
+    "id": "mod-login-7.7.0-SNAPSHOT.119",
     "action": "enable"
   },
   {
-    "id": "mod-permissions-6.1.0-SNAPSHOT.152",
+    "id": "mod-permissions-6.2.0-SNAPSHOT.153",
     "action": "enable"
   },
   {
@@ -100,7 +100,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-users-bl-7.3.0",
+    "id": "mod-users-bl-7.4.0-SNAPSHOT.120",
     "action": "enable"
   },
   {

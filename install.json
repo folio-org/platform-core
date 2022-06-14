@@ -11,10 +11,10 @@
   "id" : "mod-users-18.4.0-SNAPSHOT.197",
   "action" : "enable"
 }, {
-  "id" : "mod-login-7.7.0-SNAPSHOT.118",
+  "id" : "mod-login-7.7.0-SNAPSHOT.119",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-6.1.0-SNAPSHOT.152",
+  "id" : "mod-permissions-6.2.0-SNAPSHOT.153",
   "action" : "enable"
 }, {
   "id" : "mod-pubsub-2.5.2-SNAPSHOT.201",
@@ -113,7 +113,7 @@
   "id" : "mod-authtoken-2.11.0-SNAPSHOT.116",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-7.3.0",
+  "id" : "mod-users-bl-7.4.0-SNAPSHOT.120",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-core-8.2.100000533",
