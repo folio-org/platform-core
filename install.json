@@ -23,7 +23,7 @@
   "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.321",
   "action" : "enable"
 }, {
-  "id" : "mod-event-config-2.3.0-SNAPSHOT.54",
+  "id" : "mod-event-config-2.3.0-SNAPSHOT.55",
   "action" : "enable"
 }, {
   "id" : "mod-configuration-5.8.0-SNAPSHOT.114",
@@ -32,13 +32,13 @@
   "id" : "mod-template-engine-1.17.0-SNAPSHOT.81",
   "action" : "enable"
 }, {
-  "id" : "mod-email-1.14.0-SNAPSHOT.66",
+  "id" : "mod-email-1.14.0-SNAPSHOT.67",
   "action" : "enable"
 }, {
   "id" : "mod-sender-1.8.0-SNAPSHOT.36",
   "action" : "enable"
 }, {
-  "id" : "mod-notify-2.11.0-SNAPSHOT.115",
+  "id" : "mod-notify-2.11.0-SNAPSHOT.116",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-17.2.0-SNAPSHOT.187",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.5.0-SNAPSHOT.319",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.1.1000001463",
+  "id" : "folio_inventory-9.1.1000001476",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.0.100000125",
