@@ -1256,9 +1256,9 @@
     "@folio/plugin-find-instance" "^6.0.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "7.0.100000125"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-7.0.100000125.tgz#f2ea6f7fd8e5ae5ae16a3eeb1db80fbd6a4f7246"
-  integrity sha512-JORIPV6T9W6ln1xTXeTP7wkyqOIfvpoBLyCO65s2SlJdyMox9N1F2rOx5XbBX1oOw0VlI4QXCw0t5cYF241F0A==
+  version "7.1.100000133"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-7.1.100000133.tgz#332ddeefd37306d49373352a3f32be54174e9626"
+  integrity sha512-Ro0E788NVVi+Zo8GbgWqxm7EWaFiuL/v+s79xuZtwSifeeEPTR/eRrKoXhjC7AciNdwzLnf7aUO38z58HQ5a/A==
   dependencies:
     prop-types "^15.6.0"
     redux-form "^8.3.7"
@@ -1692,9 +1692,9 @@
     redux "~4.0.0"
 
 "@folio/tags@>=1.1.0":
-  version "6.1.10000061"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-6.1.10000061.tgz#a9ca6b964d86b70db0c605770a09814dd4e4fd52"
-  integrity sha512-kAy8yVMcjLgoDY6E83YXMM7YNWIdnOBuTRVa8iU7SVcMRWBpaSEc7XVBfQ47aV1/5HyscezcrsKeKxZpa6CU6w==
+  version "6.2.10000068"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tags/-/tags-6.2.10000068.tgz#751844d8d492af59e393356704c32a5a8626dc13"
+  integrity sha512-2cNg9Q0MsDhLpNOZXdn7Ci/cQr3yyRzx513TEX7n1+Q+ggv8+TpkmWCCe0OWobeNCJhg+fxP2iXe7Am2Bpxk3g==
   dependencies:
     prop-types "^15.5.10"
     redux-form "^8.3.7"
@@ -1713,9 +1713,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "8.1.1000001683"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.1.1000001683.tgz#dbc3f3037f9554987c22e88fadc706df70e9c4ea"
-  integrity sha512-DUM3qyfOR1gPQ15IZb598Hq7T/qbxdMhMZGNGOLsAdx6cc//zbDV6nIC2D/jmzdwi9MJSpkzpi6hoG19YCsWwQ==
+  version "8.1.1000001689"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.1.1000001689.tgz#f87b3a401e92c5f759115b172d0ee8184b0c643e"
+  integrity sha512-rpHrZwHjfVN8V7UjG9kGpMtXtpJEhOny4bjIVvCZcwWK5wWG4+yVxUNeTWWqDU17jCR3c/7d67WejvOwa2/RtA==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"

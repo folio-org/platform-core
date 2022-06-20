@@ -83,7 +83,7 @@
   "id" : "folio_inventory-9.1.1000001479",
   "action" : "enable"
 }, {
-  "id" : "folio_myprofile-7.0.100000125",
+  "id" : "folio_myprofile-7.1.100000133",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-create-inventory-records-3.2.100000111",
@@ -122,7 +122,7 @@
   "id" : "folio_stripes-smart-components-7.2.100000786",
   "action" : "enable"
 }, {
-  "id" : "folio_tags-6.1.10000061",
+  "id" : "folio_tags-6.2.10000068",
   "action" : "enable"
 }, {
   "id" : "mod-login-saml-2.5.0-SNAPSHOT.102",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.1.100000235",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.1.1000001683",
+  "id" : "folio_users-8.1.1000001689",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.4.0-SNAPSHOT.96",
