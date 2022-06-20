@@ -26,7 +26,7 @@
   "id" : "mod-event-config-2.3.0-SNAPSHOT.55",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.8.0-SNAPSHOT.114",
+  "id" : "mod-configuration-5.9.0-SNAPSHOT.115",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.17.0-SNAPSHOT.82",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.5.0-SNAPSHOT.319",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.1.1000001479",
+  "id" : "folio_inventory-9.1.1000001483",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.1.100000133",
