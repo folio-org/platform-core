@@ -1164,9 +1164,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "8.0.100000269"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.0.100000269.tgz#9e9bb537114e716a25aae5fba96175fd9d663779"
-  integrity sha512-6aE11Ci1LlNoYDZqPGV7zYyr3hhC/tTzGk3diVBRANBfn399cSQjvhTIB4mPq1Tt5sK/HE5N346sfNbOeyWkjg==
+  version "8.0.100000289"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.0.100000289.tgz#71600b0317c1795af2a7589fa006e1598e65c2b8"
+  integrity sha512-nr19biyAD5BKVNoV5K2hdOzjHvJ8j9hYlc6fO3raHppIiglKxCkBispJ18DtxpGxjodhZLAXiQoMw7+r4tW15Q==
   dependencies:
     final-form "^4.19.1"
     inactivity-timer "^1.0.0"
@@ -11579,9 +11579,9 @@ unquote@~1.1.1:
   integrity sha512-vRCqFv6UhXpWxZPyGDh/F3ZpNv8/qo7w6iufLpQg9aKnQ71qM4B5KiI7Mia9COcjEhrO9LueHpMYjYzsWH3OIg==
 
 update-browserslist-db@^1.0.0:
-  version "1.0.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/update-browserslist-db/-/update-browserslist-db-1.0.3.tgz#6c47cb996f34afb363e924748e2f6e4d983c6fc1"
-  integrity sha512-ufSazemeh9Gty0qiWtoRpJ9F5Q5W3xdIPm1UZQqYQv/q0Nyb9EMHUB2lu+O9x1re9WsorpMAUu4Y6Lxcs5n+XQ==
+  version "1.0.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/update-browserslist-db/-/update-browserslist-db-1.0.4.tgz#dbfc5a789caa26b1db8990796c2c8ebbce304824"
+  integrity sha512-jnmO2BEGUjsMOe/Fg9u0oczOe/ppIDZPebzccl1yDWGLFP16Pa1/RM5wEoKYPG2zstNcDuAStejyxsOuKINdGA==
   dependencies:
     escalade "^3.1.1"
     picocolors "^1.0.0"
