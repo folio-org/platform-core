@@ -65,7 +65,7 @@
   "id" : "folio_checkout-8.0.100000289",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.0.300000756",
+  "id" : "folio_circulation-7.0.300000762",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.2.100000231",
@@ -119,7 +119,7 @@
   "id" : "folio_stripes-core-8.2.100000547",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.2.100000793",
+  "id" : "folio_stripes-smart-components-7.2.100000805",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.2.10000068",
