@@ -1321,9 +1321,9 @@
   integrity sha512-Pj4znI9iy5RnRD23weAd6SqWjSgAz66GFIBYxOdtf677gQwg54eNxoxL3tAEKY+9PGYEeW5550SNX9mS7Blawg==
 
 "@folio/requests@>=1.4.1":
-  version "7.0.2000001003"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.0.2000001003.tgz#1c46656ec827e439fe664ae600b0910c6f24f923"
-  integrity sha512-Qb4rU3/flMnw17Oy2+M5StqBuameGeJtrHWmpoI1Ud5lLS9rSTyNMDrDSpFnYJHxHdadXwTR5g4oFkCIywoKQA==
+  version "7.0.2000001006"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.0.2000001006.tgz#f4f2eda2ac9b77cb4315322c6f81e3ec05d947ce"
+  integrity sha512-zD8ZKdkZrZfIxuAjccAwNPWpfsO5g5gSsKUZJDbwcSU3QqLm8QkWl8UjgJpLv9tcqBxiHmge9n2YjAedKK5gdw==
   dependencies:
     babel-plugin-module-resolver "^4.1.0"
     html-to-react "^1.3.3"
@@ -1700,9 +1700,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "7.1.100000259"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.1.100000259.tgz#fc44bf35cbbb2d5d30c2039608bba0d15d871a60"
-  integrity sha512-KtrNDZxdBOTSLytcRpjwl1p/dEv6Ps3UJLg7bx+cS8MDrSZpmZm5DBWctl2Sw3IdeDL0ied2kPk0kvDy2dEjCA==
+  version "7.1.100000263"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-7.1.100000263.tgz#98d61df7ef0fa1a1bd1585a1eee981dda1c0ee08"
+  integrity sha512-FJtxqydUNhNwSyTS43RvuAR7YhS5PIWVWt8WcFHkYdzm0G54uSPioq26XzLl9vIPEdIsFmPGwai1MrgMeLvVnQ==
   dependencies:
     final-form "^4.18.2"
     lodash "^4.17.4"

@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.2.10000077",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.0.2000001003",
+  "id" : "folio_requests-7.0.2000001006",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0-SNAPSHOT.105",
@@ -128,7 +128,7 @@
   "id" : "mod-login-saml-2.5.0-SNAPSHOT.103",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-7.1.100000259",
+  "id" : "folio_tenant-settings-7.1.100000263",
   "action" : "enable"
 }, {
   "id" : "folio_users-8.1.1000001694",
