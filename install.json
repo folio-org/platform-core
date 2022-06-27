@@ -38,7 +38,7 @@
   "id" : "mod-sender-1.8.0-SNAPSHOT.36",
   "action" : "enable"
 }, {
-  "id" : "mod-notify-2.11.0-SNAPSHOT.116",
+  "id" : "mod-notify-2.12.0-SNAPSHOT.117",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-17.2.0-SNAPSHOT.187",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.5.0-SNAPSHOT.320",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.1.1000001502",
+  "id" : "folio_inventory-9.1.1000001509",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.1.100000137",

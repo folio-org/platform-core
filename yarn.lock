@@ -1227,9 +1227,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.1.1000001502"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001502.tgz#4621bcde83b887898c597833a1006c6e93d307aa"
-  integrity sha512-yZYGKsFEHpzJYD5BIe8Vc+5x5RHkn+NPIznaxBFJSsMTwEbq9A9mXBM8+bBkj9rOeFKtaYUulu8Gxpnqiy+RmQ==
+  version "9.1.1000001509"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.1.1000001509.tgz#a0f54d04a9e831448b332d78ca7054f15714630c"
+  integrity sha512-/miLmH2zms3pJWZMMHeFdON+jOhvaCx9Rv82Sudsu2CJXQOFw78PIGzDmYzNU9+4rIYE/HCqroraO0HyQrp5vA==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -5803,9 +5803,9 @@ flatted@^2.0.0:
   integrity sha512-r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==
 
 flatted@^3.2.5:
-  version "3.2.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/flatted/-/flatted-3.2.5.tgz#76c8584f4fc843db64702a6bd04ab7a8bd666da3"
-  integrity sha512-WIWGi2L3DyTUvUrwRKgGi9TwxQMUEqPOPQBVi71R96jZXJdFskXEmf54BoZaS1kknGODoIGASGEzBUYdyMCBJg==
+  version "3.2.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/flatted/-/flatted-3.2.6.tgz#022e9218c637f9f3fc9c35ab9c9193f05add60b2"
+  integrity sha512-0sQoMh9s0BYsm+12Huy/rkKxVu4R1+r96YX5cG44rHV0pQ6iC3Q+mkoMFaGWObMFYQxCVT+ssG1ksneA2MI9KQ==
 
 flexboxgrid@^6.3.0:
   version "6.3.1"
