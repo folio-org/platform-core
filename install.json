@@ -20,7 +20,7 @@
   "id" : "mod-pubsub-2.5.2-SNAPSHOT.202",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-storage-14.1.0-SNAPSHOT.323",
+  "id" : "mod-circulation-storage-14.2.0-SNAPSHOT.324",
   "action" : "enable"
 }, {
   "id" : "mod-event-config-2.4.0-SNAPSHOT.56",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.5.0-SNAPSHOT.320",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.1.1000001515",
+  "id" : "folio_inventory-9.1.1000001520",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.1.100000137",
