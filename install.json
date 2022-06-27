@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.12.0-SNAPSHOT.117",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-17.2.0-SNAPSHOT.187",
+  "id" : "mod-feesfines-18.1.0-SNAPSHOT.188",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.6.0-SNAPSHOT.76",
@@ -89,7 +89,7 @@
   "id" : "folio_plugin-create-inventory-records-3.2.100000111",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-6.2.100000180",
+  "id" : "folio_plugin-find-instance-6.3.100000195",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-6.2.10000077",
@@ -104,7 +104,7 @@
   "id" : "folio_search-5.1.10000065",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-6.1.10000053",
+  "id" : "folio_servicepoints-6.1.10000064",
   "action" : "enable"
 }, {
   "id" : "mod-password-validator-2.3.2",
@@ -116,7 +116,7 @@
   "id" : "mod-users-bl-7.4.0-SNAPSHOT.120",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-8.2.100000555",
+  "id" : "folio_stripes-core-8.2.100000558",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-smart-components-7.2.100000825",
