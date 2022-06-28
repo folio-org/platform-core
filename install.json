@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.5.0-SNAPSHOT.320",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.1.1000001535",
+  "id" : "folio_inventory-9.2.1000001543",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.1.100000141",
@@ -92,13 +92,13 @@
   "id" : "folio_plugin-find-instance-6.3.100000195",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-6.2.100000103",
+  "id" : "folio_plugin-find-user-6.3.100000107",
   "action" : "enable"
 }, {
   "id" : "folio_requests-7.0.2000001012",
   "action" : "enable"
 }, {
-  "id" : "mod-codex-mux-2.12.0-SNAPSHOT.105",
+  "id" : "mod-codex-mux-2.12.0",
   "action" : "enable"
 }, {
   "id" : "folio_search-5.1.10000065",
@@ -107,7 +107,7 @@
   "id" : "folio_servicepoints-6.1.10000064",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.3.2",
+  "id" : "mod-password-validator-2.5.0-SNAPSHOT.66",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.12.0-SNAPSHOT.118",
