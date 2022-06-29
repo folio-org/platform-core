@@ -50,7 +50,7 @@
   "id" : "mod-notes-3.2.0-SNAPSHOT.200",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-23.2.0-SNAPSHOT.1019",
+  "id" : "mod-circulation-23.2.0-SNAPSHOT.1020",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.440",
@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.3.100000111",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.1.1000001023",
+  "id" : "folio_requests-7.1.1000001029",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.13.0-SNAPSHOT.110",
