@@ -1149,9 +1149,9 @@
     redux-form "^8.3.7"
 
 "@folio/checkin@>=1.3.0":
-  version "7.0.100000309"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.0.100000309.tgz#1dc5191322feba78d05f575999b59929cfc18fd4"
-  integrity sha512-h05D0Xw4RH+KZqYc0gNTs91jRdnisbQomR1jregfOFRA4hpByFIsPWbF/uafyj6qRlFYod7SEAOV333KrzbAxw==
+  version "7.1.100000313"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.1.100000313.tgz#335b154619f91101b63c10de13d286e69ad3abb0"
+  integrity sha512-EUSp9ielx384s3LnfIy6qzpqKqAorGFPKqwbrJU9gkdSrsZkYkH8xDbi0ws03sqQEVra2nS+GuFuFR23NWSJhw==
   dependencies:
     dateformat "^2.0.0"
     final-form "^4.19.1"
@@ -1165,9 +1165,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "8.0.100000300"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.0.100000300.tgz#0bd6df932777443f5cea1e6a3ef62d396b157bfa"
-  integrity sha512-4uExgwK07lPMbs1gAn6eY2g4Jsn8VpzkvfMj4OjnOYB34RSRIlxFUE6U9nie5xU0FLTkL6tWZ72VNsbUUxjaeg==
+  version "8.1.100000304"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.1.100000304.tgz#f565b13f4153f629ef4efdd42dfeb2ac241b3f68"
+  integrity sha512-eDKroms5TiQblBQ42SbAvJ/aASGRlHflLNSHJGfr9fKsLzVNuQBvdMWq6453HxMiO8nzyYvm+f4ijzgiXvZULQ==
   dependencies:
     final-form "^4.19.1"
     inactivity-timer "^1.0.0"
@@ -1322,9 +1322,9 @@
   integrity sha512-Pj4znI9iy5RnRD23weAd6SqWjSgAz66GFIBYxOdtf677gQwg54eNxoxL3tAEKY+9PGYEeW5550SNX9mS7Blawg==
 
 "@folio/requests@>=1.4.1":
-  version "7.0.2000001012"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.0.2000001012.tgz#b11fb2e3795df42f1f565b9e181236227190ce1c"
-  integrity sha512-ZZ7IpgrDUESEuHC/LwTCapWJXVGsPqcC6hWVvIUiGIKwOo0eNHfAD5633/KWG8wGpJy7YZTRe2vGhJUeteoVDQ==
+  version "7.1.1000001023"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.1.1000001023.tgz#4524df0542ea018469afb4a641b4bf295b63cd86"
+  integrity sha512-NkOGduSgAV9+hKFxFau67LV1nqZwE6l1QX9h3jJJ/OL+fb1otcEHH4hvAiRwqcK9AleZEUi/x1+aHzJ0zqG4Jg==
   dependencies:
     babel-plugin-module-resolver "^4.1.0"
     html-to-react "^1.3.3"

@@ -59,10 +59,10 @@
   "id" : "mod-inventory-18.3.0-SNAPSHOT.546",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-7.0.100000309",
+  "id" : "folio_checkin-7.1.100000313",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-8.0.100000300",
+  "id" : "folio_checkout-8.1.100000304",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-7.0.300000777",
@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.3.100000111",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.0.2000001012",
+  "id" : "folio_requests-7.1.1000001023",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.12.0",
