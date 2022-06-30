@@ -12,7 +12,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_circulation-7.1.100000812",
+    "id": "folio_circulation-7.1.100000819",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-8.2.1000001761",
+    "id": "folio_users-8.2.1000001770",
     "action": "enable"
   }
 ]
