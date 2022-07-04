@@ -1228,9 +1228,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.2.1000001561"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000001561.tgz#c52bd656c717bc70fa84b012f8cdf9c21ac364fc"
-  integrity sha512-YqBmwGzVVvvybPRoAVldyccggk2oMjO/B1qXtutp8XAjClppHesmNNIklogW7tqjhq087aGniLnykyW3IXdx3Q==
+  version "9.2.1000001568"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000001568.tgz#0bb33df1c289381aacbbcc1bab9abd6d62629b6f"
+  integrity sha512-tvE4qTpzgY/SvGG8kHcAZSI275m8rXXcA9rkj4A3F1dBO3cg41TJk/Y/QWXBc6CvNhue0oXRVa7V/S9WOvLKBQ==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -9431,9 +9431,9 @@ ps-tree@=1.2.0:
     event-stream "=3.3.4"
 
 psl@^1.1.28:
-  version "1.8.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
-  integrity sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
+  version "1.9.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/psl/-/psl-1.9.0.tgz#d0df2a137f00794565fcaf3b2c00cd09f8d5a5a7"
+  integrity sha512-E/ZsdU4HLs/68gYzgGTkMicWTLPdAftJLfJFlLUAAKZGkStNU72sZjT66SnMDVOfOWY/YAoiD7Jxa9iHvngcag==
 
 public-encrypt@^4.0.0:
   version "4.0.3"
