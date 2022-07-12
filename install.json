@@ -119,13 +119,13 @@
   "id" : "folio_stripes-core-8.2.100000571",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.2.100000860",
+  "id" : "folio_stripes-smart-components-7.2.100000863",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.2.10000078",
   "action" : "enable"
 }, {
-  "id" : "mod-login-saml-2.5.0-SNAPSHOT.106",
+  "id" : "mod-login-saml-2.5.0-SNAPSHOT.107",
   "action" : "enable"
 }, {
   "id" : "folio_tenant-settings-7.2.100000290",
