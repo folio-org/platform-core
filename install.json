@@ -5,7 +5,7 @@
   "id" : "mod-inventory-storage-24.1.0-SNAPSHOT.712",
   "action" : "enable"
 }, {
-  "id" : "folio_calendar-7.2.100000220",
+  "id" : "folio_calendar-7.2.100000224",
   "action" : "enable"
 }, {
   "id" : "mod-users-18.4.0-SNAPSHOT.205",
@@ -59,13 +59,13 @@
   "id" : "mod-inventory-18.3.0-SNAPSHOT.547",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-7.1.100000322",
+  "id" : "folio_checkin-7.1.100000326",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-8.1.100000313",
+  "id" : "folio_checkout-8.1.100000317",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.1.100000827",
+  "id" : "folio_circulation-7.1.100000831",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.3.100000248",
@@ -80,10 +80,10 @@
   "id" : "mod-data-export-4.6.0-SNAPSHOT.323",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.2.1000001644",
+  "id" : "folio_inventory-9.2.1000001648",
   "action" : "enable"
 }, {
-  "id" : "folio_myprofile-7.1.100000150",
+  "id" : "folio_myprofile-7.1.100000154",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-create-inventory-records-3.2.100000111",
@@ -92,7 +92,7 @@
   "id" : "folio_plugin-find-instance-6.3.100000195",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-6.3.100000111",
+  "id" : "folio_plugin-find-user-6.3.100000117",
   "action" : "enable"
 }, {
   "id" : "folio_requests-7.1.1000001040",
@@ -104,7 +104,7 @@
   "id" : "folio_search-5.1.10000065",
   "action" : "enable"
 }, {
-  "id" : "folio_servicepoints-6.1.10000064",
+  "id" : "folio_servicepoints-6.1.10000073",
   "action" : "enable"
 }, {
   "id" : "mod-password-validator-2.5.0-SNAPSHOT.66",
@@ -116,10 +116,10 @@
   "id" : "mod-users-bl-7.4.0-SNAPSHOT.120",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-8.2.100000579",
+  "id" : "folio_stripes-core-8.2.100000585",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.2.100000888",
+  "id" : "folio_stripes-smart-components-7.2.100000895",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.2.10000078",
@@ -128,10 +128,10 @@
   "id" : "mod-login-saml-2.5.0-SNAPSHOT.107",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-7.2.100000290",
+  "id" : "folio_tenant-settings-7.2.100000294",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.2.1000001810",
+  "id" : "folio_users-8.2.1000001815",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.4.0-SNAPSHOT.97",
