@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.3.100000117",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.1.1000001046",
+  "id" : "folio_requests-7.1.1000001051",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.13.0-SNAPSHOT.111",
@@ -119,7 +119,7 @@
   "id" : "folio_stripes-core-8.2.100000588",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.2.100000903",
+  "id" : "folio_stripes-smart-components-7.2.100000906",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.2.10000078",
