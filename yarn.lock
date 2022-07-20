@@ -1228,9 +1228,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.2.1000001662"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000001662.tgz#f1ff43336125c78289f32210bde14a02e3439d05"
-  integrity sha512-/sPe7loIoMjJtm8I+SjwhTBI/FXdEQgnmfOMpWxDVZf1iPmCAFbet+JDYWKVGU9SlCOyvXln+mTttzaceVzQFA==
+  version "9.2.1000001665"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000001665.tgz#cf54190cd1156d8a46480bceb0203b1e5298190b"
+  integrity sha512-TN+xvlgAdYycXzs87+0tN1bR1dXuJX1ifGGaWngQ63anjBz8Cgd4R5LXAT6MjJV2Z0EDfDBbvAAUtkwSvujr0Q==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1322,9 +1322,9 @@
   integrity sha512-Pj4znI9iy5RnRD23weAd6SqWjSgAz66GFIBYxOdtf677gQwg54eNxoxL3tAEKY+9PGYEeW5550SNX9mS7Blawg==
 
 "@folio/requests@>=1.4.1":
-  version "7.1.1000001054"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.1.1000001054.tgz#0649d584ef9eb6ecb8bf349a0ccca970f669e11c"
-  integrity sha512-YXW1Syrldq83uEppBzGM28LqB5l0Jfcl2ROQMD8LGQWv+qjZdt14BPUJC7dOoOfsU3je76wEwpHPxCmmUUExjg==
+  version "7.1.1000001059"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.1.1000001059.tgz#e92ed2032c78405716b2018cbd43c04a2e0baad5"
+  integrity sha512-7UVaka+eKDHcMXh71MGELRd48W/RSHn0ZKQDojvmyLjxd9NK3h5ARA444yTH+TnDAwwKgNXv0Bn91wB9jJ+1WA==
   dependencies:
     babel-plugin-module-resolver "^4.1.0"
     html-to-react "^1.3.3"
