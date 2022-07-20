@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.16.0-SNAPSHOT.131",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-25.0.0-SNAPSHOT.713",
+  "id" : "mod-inventory-storage-25.0.0-SNAPSHOT.714",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-7.2.100000224",
@@ -71,7 +71,7 @@
   "id" : "folio_developer-6.3.100000248",
   "action" : "enable"
 }, {
-  "id" : "mod-search-1.8.0-SNAPSHOT.270",
+  "id" : "mod-search-1.8.0-SNAPSHOT.271",
   "action" : "enable"
 }, {
   "id" : "mod-tags-1.3.0-SNAPSHOT.85",
