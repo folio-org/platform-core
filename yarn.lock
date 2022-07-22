@@ -1228,9 +1228,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.2.1000001672"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000001672.tgz#d9f598310de563628469dce8bc2870cd39b300dd"
-  integrity sha512-ZbQjHDOBeE0rLpkdqETKSPiSdsXzA73toYPCXqbNMvTgsXHYzgehhAE2KWyK+Ajx76ZrQNhRDQ4NWpNeD4p/0g==
+  version "9.2.1000001685"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000001685.tgz#b96f6b1884c78adf7699e0caffb981f68ba5936f"
+  integrity sha512-fwrSKQYQziipSC1X8/Vo8gTfZC/ED9KgsARlbw83yKYzHF3PRIlnSfhD35OgpjGTfhl7Cb+C3dsOMcE9tZ6GwA==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -4492,9 +4492,9 @@ date-arithmetic@^4.0.1:
   integrity sha512-QWxYLR5P/6GStZcdem+V1xoto6DMadYWpMXU82ES3/RfR3Wdwr3D0+be7mgOJ+Ov0G9D5Dmb9T17sNLQYj9XOg==
 
 date-fns@^2.16.1:
-  version "2.29.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/date-fns/-/date-fns-2.29.0.tgz#0abb17a5f224d5d91cc1fe02e847ce80ab7372a5"
-  integrity sha512-itxguwZHwBR0ats0VpYAVyY65dq1DEsDsfsGxFG11Rrho+zQJTCcjKbxQ7LiU5M2omLJ272bnn63yYFk/YGuVw==
+  version "2.29.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/date-fns/-/date-fns-2.29.1.tgz#9667c2615525e552b5135a3116b95b1961456e60"
+  integrity sha512-dlLD5rKaKxpFdnjrs+5azHDFOPEu4ANy/LTh04A1DTzMM7qoajmKCBc8pkKRFT41CNzw+4gQh79X5C+Jq27HAw==
 
 date-format@^4.0.10, date-format@^4.0.11:
   version "4.0.13"
