@@ -1322,9 +1322,9 @@
   integrity sha512-Pj4znI9iy5RnRD23weAd6SqWjSgAz66GFIBYxOdtf677gQwg54eNxoxL3tAEKY+9PGYEeW5550SNX9mS7Blawg==
 
 "@folio/requests@>=1.4.1":
-  version "7.1.1000001059"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.1.1000001059.tgz#e92ed2032c78405716b2018cbd43c04a2e0baad5"
-  integrity sha512-7UVaka+eKDHcMXh71MGELRd48W/RSHn0ZKQDojvmyLjxd9NK3h5ARA444yTH+TnDAwwKgNXv0Bn91wB9jJ+1WA==
+  version "7.1.1000001064"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.1.1000001064.tgz#39d102895adf254159d1a140ce20cb184489ff37"
+  integrity sha512-1KrSkxm/73SLzhB7jQtJZwZEXhyk3JvD0octcBzhsU7MR8iE94kJ/+6Hh5UFlr38lVL2lsRw3l/MntU99Aa2uQ==
   dependencies:
     babel-plugin-module-resolver "^4.1.0"
     html-to-react "^1.3.3"
@@ -4497,9 +4497,9 @@ date-fns@^2.16.1:
   integrity sha512-itxguwZHwBR0ats0VpYAVyY65dq1DEsDsfsGxFG11Rrho+zQJTCcjKbxQ7LiU5M2omLJ272bnn63yYFk/YGuVw==
 
 date-format@^4.0.10, date-format@^4.0.11:
-  version "4.0.12"
-  resolved "https://repository.folio.org/repository/npm-ci-all/date-format/-/date-format-4.0.12.tgz#82c3607e33f8d25fa25b3415b565fe726a34574d"
-  integrity sha512-L018twW1B6J49/vmoxFSWTwKfUaKJI42cJ2xz1WeNSKaS4uVN5D44f3KfEuYUlZvFybWDJt6YuqVDPZp+IIF/g==
+  version "4.0.13"
+  resolved "https://repository.folio.org/repository/npm-ci-all/date-format/-/date-format-4.0.13.tgz#87c3aab3a4f6f37582c5f5f63692d2956fa67890"
+  integrity sha512-bnYCwf8Emc3pTD8pXnre+wfnjGtfi5ncMDKy7+cWZXbmRAsdWkOQHrfC1yz/KiwP5thDp2kCHWYWKBX4HP1hoQ==
 
 dateformat@^2.0.0:
   version "2.2.0"
