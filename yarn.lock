@@ -1299,9 +1299,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.1.100000281"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.100000281.tgz#0fa3295e5af2cb802cc1cd806e84cb45722bb425"
-  integrity sha512-4zAYcpYOJQa6ys7+BhIGxS+gGFnsuMaSK53yYYv2DbKuHOBqHazXSskbdC55t4AL/ntGHK+obZKiGInUpvNdAA==
+  version "5.1.100000287"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.100000287.tgz#3d4bf84f70b2ab79b509ffb0070e292bf568e3a8"
+  integrity sha512-aP6s9swbSQf6KAbcPTOPGkoibgKQP7m4JoNlVAxDjgBxr1q1zGN/FpWSviarBxNeH9l+eqwnT38iXK3vYdImJA==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
@@ -1341,9 +1341,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/search@>=1.3.0":
-  version "5.1.10000065"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-5.1.10000065.tgz#51af4d753982a100e7bf4b65a954a4cca6870204"
-  integrity sha512-GgVeUTXAK8Gsxf+9uvMPc6Hp69eEr9s6f7lIalOz9Opwjp5p9jFAyl2cOlVLChzkLbIHzAsuedX8y3P8EjX2ZA==
+  version "5.1.10000086"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/search/-/search-5.1.10000086.tgz#fdf8994586e0e1ef0f9954ffd18bd2978a6b2856"
+  integrity sha512-ZAgHaKeZo4UgbudcCfUf2oq+3IlhDg1mJQmLwjHZd5OPrGTKwRjDEjAtfjNS1K/7hEMiKBdVSlo1NhEGY0QC8A==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
