@@ -2384,9 +2384,9 @@
     type-detect "^4.0.8"
 
 "@sinonjs/text-encoding@^0.7.1":
-  version "0.7.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@sinonjs/text-encoding/-/text-encoding-0.7.1.tgz#8da5c6530915653f3a1f38fd5f101d8c3f8079c5"
-  integrity sha512-+iTbntw2IZPb/anVDbypzfQa+ay64MW0Zo8aJ8gZPWMMK6/OubMVb6lUPMagqjOPnmtauXnFCACVl3O7ogjeqQ==
+  version "0.7.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@sinonjs/text-encoding/-/text-encoding-0.7.2.tgz#5981a8db18b56ba38ef0efb7d995b12aa7b51918"
+  integrity sha512-sXXKG+uL9IrKqViTtao2Ws6dy0znu9sOaP1di/jKGW1M6VssO8vlpXCQcpZ+jisQ1tTFAC5Jo/EOzFbggBagFQ==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
