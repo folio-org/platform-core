@@ -1296,9 +1296,9 @@
     sinon "^9.0.2"
 
 "@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@^6.0.0":
-  version "6.3.100000121"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-6.3.100000121.tgz#cbb98af2c70112e4174c1340a6e09e71d953795d"
-  integrity sha512-jthH0U7rkdcu1A84vR7uw5q3WVzG2CGfsp91DcVb4TFm6PMXnk2zQ9lb3vekrp6szaeGxUdoHntso/bJMw8iWA==
+  version "6.3.100000126"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-6.3.100000126.tgz#e7ff0daef8a90506b34704d8ab3b1b4a02000a82"
+  integrity sha512-no6LChOqFui6NcipEsJNnXjY5Tz/4JR/Fx4ef1aqumueo6RhQrZ8iqSrc/KwK2k2cMeTaF5I92FphXjnqNUz0Q==
   dependencies:
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
