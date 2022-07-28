@@ -1276,6 +1276,13 @@
     react-final-form-arrays "^3.1.0"
     react-final-form-listeners "^1.0.2"
 
+"@folio/plugin-find-authority@^0.1.0":
+  version "0.1.10000038"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-0.1.10000038.tgz#d1a2fccf810720be3563736158edcdc8906e977c"
+  integrity sha512-ew8BrkzYorLy+QbOY4H51CsgVNTHFeQGCuRrbJgh5O/d0hWGH2N6vmdAEqxa/haAXjK0Xy2RA1QnwTOc3iySzQ==
+  dependencies:
+    prop-types "^15.6.0"
+
 "@folio/plugin-find-instance@>=1.1.0", "@folio/plugin-find-instance@^6.0.0":
   version "6.3.100000195"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-6.3.100000195.tgz#da916418393fea5710cc65bf5d0e876c04ad5ae5"
@@ -1299,9 +1306,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.1.100000293"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.100000293.tgz#d6cf6858b34b7070f6b0794a2458adc0f299c347"
-  integrity sha512-UuRqzZykOkU0DL6aMuDWe7qLLNuPg899khosJmZypZFtGHy+MQN4rBmu2YV6pZ0Lj2mE3dD6HcftBcpu/2M4Iw==
+  version "5.1.100000296"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.100000296.tgz#1b085b802b69735e5763821b4f2dd1bf1b14b2e7"
+  integrity sha512-ql1rwZOOe8+PPVIHGPCe1/qf8qTHwDau2IEocV7P7J1gtnXPm0UyjVc2hvsc3LwrRxeOs69VUw7hDYC2WnivMA==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
@@ -1313,6 +1320,8 @@
     react-final-form-listeners "^1.0.2"
     react-router-prop-types "^1.0.4"
     uuid "^8.3.2"
+  optionalDependencies:
+    "@folio/plugin-find-authority" "^0.1.0"
 
 "@folio/react-intl-safe-html@^3.1.0":
   version "3.1.100019"
@@ -3640,9 +3649,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001335, caniuse-lite@^1.0.30001370:
-  version "1.0.30001372"
-  resolved "https://repository.folio.org/repository/npm-ci-all/caniuse-lite/-/caniuse-lite-1.0.30001372.tgz#133db3d1d259d8f97cc2d83ac7cb519daf36e07e"
-  integrity sha512-tBgBhIXBIqORB9ieUEYBKRfSlaF6YPq7WNNqcreF6Cl24UKNGIvE5/rP59dOGN6TRIS/5zOMHAMSRrVNmifWWw==
+  version "1.0.30001373"
+  resolved "https://repository.folio.org/repository/npm-ci-all/caniuse-lite/-/caniuse-lite-1.0.30001373.tgz#2dc3bc3bfcb5d5a929bec11300883040d7b4b4be"
+  integrity sha512-pJYArGHrPp3TUqQzFYRmP/lwJlj8RCbVe3Gd3eJQkAV8SAC6b19XS9BjMvRdvaS8RMkaTN8ZhoHP6S1y8zzwEQ==
 
 canvg@^3.0.6:
   version "3.0.10"
