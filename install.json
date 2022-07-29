@@ -47,7 +47,7 @@
   "id" : "mod-patron-blocks-1.7.0-SNAPSHOT.77",
   "action" : "enable"
 }, {
-  "id" : "mod-notes-4.0.0-SNAPSHOT.201",
+  "id" : "mod-notes-4.0.0-SNAPSHOT.202",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-23.2.0-SNAPSHOT.1024",
@@ -107,7 +107,7 @@
   "id" : "folio_servicepoints-6.1.10000073",
   "action" : "enable"
 }, {
-  "id" : "mod-password-validator-2.5.0-SNAPSHOT.66",
+  "id" : "mod-password-validator-2.5.0-SNAPSHOT.67",
   "action" : "enable"
 }, {
   "id" : "mod-authtoken-2.12.0-SNAPSHOT.118",
