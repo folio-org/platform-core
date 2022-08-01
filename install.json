@@ -56,7 +56,7 @@
   "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.444",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.3.0-SNAPSHOT.549",
+  "id" : "mod-inventory-18.3.0-SNAPSHOT.551",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-7.1.100000342",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.6.0-SNAPSHOT.325",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.2.1000001733",
+  "id" : "folio_inventory-9.2.1000001742",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.1.100000154",
