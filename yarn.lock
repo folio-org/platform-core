@@ -1536,9 +1536,9 @@
     use-deep-compare "^1.1.0"
 
 "@folio/stripes-final-form@~6.1.0":
-  version "6.1.10000074"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-6.1.10000074.tgz#fdd448af1d6f92c88d2e8f8eef41d4962c0677c7"
-  integrity sha512-yJ2UTw5da8Cvf79NoTeu84BiY5SmLZJr5azZMrW8N2pPUA2fqjdlEZUZamkDry0afd1SVTwpv5EsCmIQDZZJRw==
+  version "6.1.10000077"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-final-form/-/stripes-final-form-6.1.10000077.tgz#d57acb44d5768e6e8757e6c4c8edd07c06947f52"
+  integrity sha512-J6a4rspAgO2DnHLbeM6PDxDXtyK5IpxOSaz2zReSNjjxn6m046rsSmEhob5t7kMeiVYlcC9Ib+kQtyTgZanlUQ==
   dependencies:
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
