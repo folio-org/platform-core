@@ -50,7 +50,7 @@
   "id" : "mod-notes-4.0.0-SNAPSHOT.202",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-23.2.0-SNAPSHOT.1024",
+  "id" : "mod-circulation-23.2.0-SNAPSHOT.1025",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.444",
@@ -62,7 +62,7 @@
   "id" : "folio_checkin-7.1.100000342",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-8.1.100000321",
+  "id" : "folio_checkout-8.1.100000326",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-7.1.100000840",
@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.3.100000126",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.1.1000001073",
+  "id" : "folio_requests-7.1.1000001105",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.13.0-SNAPSHOT.111",
