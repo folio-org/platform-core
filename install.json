@@ -53,10 +53,10 @@
   "id" : "mod-circulation-23.2.0-SNAPSHOT.1026",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.444",
+  "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.445",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.3.0-SNAPSHOT.551",
+  "id" : "mod-inventory-18.3.0-SNAPSHOT.552",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-7.1.100000346",
