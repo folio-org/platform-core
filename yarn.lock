@@ -1336,9 +1336,9 @@
   integrity sha512-Pj4znI9iy5RnRD23weAd6SqWjSgAz66GFIBYxOdtf677gQwg54eNxoxL3tAEKY+9PGYEeW5550SNX9mS7Blawg==
 
 "@folio/requests@>=1.4.1":
-  version "7.1.1000001109"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.1.1000001109.tgz#92d709ec9d08aae05f95b6b6927d9016c032673f"
-  integrity sha512-7YnUyC6DVbaEFt6t4Qq/OJ3pIxGYeoPl0FgmXcRRs7QtB7SURS/x90dXq8iM7OEk4ryr9YCw12wdVDBcXBi3ew==
+  version "7.1.1000001115"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.1.1000001115.tgz#28bbed16d056656de1afa92221f48c3c39affaa6"
+  integrity sha512-ldivj1m+rG92xRYwZYDNVangR51rlA2XK13nmQNuggQDkl4idizVf8a8v8BioVfqIKEp52tXoj5DycDY5cB3Ow==
   dependencies:
     babel-plugin-module-resolver "^4.1.0"
     html-to-react "^1.3.3"
