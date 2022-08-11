@@ -65,10 +65,10 @@
   "id" : "folio_checkout-8.1.100000341",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.1.100000850",
+  "id" : "folio_circulation-7.1.100000864",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-6.3.100000282",
+  "id" : "folio_developer-6.3.100000288",
   "action" : "enable"
 }, {
   "id" : "mod-search-1.8.0-SNAPSHOT.277",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.2.100000305",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.2.1000001902",
+  "id" : "folio_users-8.2.1000001907",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.4.0-SNAPSHOT.97",
