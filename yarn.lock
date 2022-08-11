@@ -1374,9 +1374,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@^3.0.2", "@folio/stripes-acq-components@^3.1.1":
-  version "3.2.20000061"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-3.2.20000061.tgz#676c8d8722257d329262498120481f3b24bcabba"
-  integrity sha512-bcnLcBGUvNh8+FmV8BATJVF9U/ZpN83ZfjkZDiM7zOlPbLnkVh0C/W8CMYUDfT5hZKHsDO3OT+mlHED/uD1L5w==
+  version "3.2.20000067"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-3.2.20000067.tgz#e3caafc1146187e9530cac489e9731fe0212bece"
+  integrity sha512-TqcZowugVhnCZgxq+XbLo01d7c3rD0z+3WGzugDLKcedDdfx5b/jMiA+wZo2jH2HdkwjIyv1SDG+/kA2FAofNg==
   dependencies:
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
