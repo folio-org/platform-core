@@ -53,7 +53,7 @@
   "id" : "mod-circulation-23.2.0-SNAPSHOT.1026",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.445",
+  "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.446",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-18.3.0-SNAPSHOT.552",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-8.1.100000341",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.1.100000864",
+  "id" : "folio_circulation-7.1.100000873",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.3.100000293",
