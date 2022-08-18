@@ -1394,9 +1394,9 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-authority-components@^1.0.0":
-  version "1.0.10000057"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-1.0.10000057.tgz#3550855dbed9048e9873e5f04d06ca05712032c8"
-  integrity sha512-BH4S0HZrsRaIbzaUZzjePTR2KPMUiHb/ufmZGfjLYViFrBKoXygGDU4AIRCp6kBhihrwTmfJe0rXwrNr52NBJw==
+  version "1.0.10000065"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-1.0.10000065.tgz#2f19e8e35ca8ae6690b1df7ff30cc4753e88f71f"
+  integrity sha512-mBqdP39f8m8zszMWVM6/cM5jpcmTEfuBdraj8wlAgnxjRQwZdKK9Y8mhEISjy5JASsiQGGmpqW8ALgUEIOC8Wg==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@folio/stripes-acq-components" "^3.0.2"
