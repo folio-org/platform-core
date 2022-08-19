@@ -50,7 +50,7 @@
   "id" : "mod-notes-4.0.0-SNAPSHOT.206",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-23.2.0-SNAPSHOT.1027",
+  "id" : "mod-circulation-23.2.0-SNAPSHOT.1028",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.446",
@@ -68,7 +68,7 @@
   "id" : "folio_circulation-7.1.100000877",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-6.3.100000304",
+  "id" : "folio_developer-6.3.100000307",
   "action" : "enable"
 }, {
   "id" : "mod-search-1.8.0-SNAPSHOT.281",

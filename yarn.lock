@@ -1204,9 +1204,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "6.3.100000304"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.3.100000304.tgz#7587cad0b49a34e043c6d83597f8d1d52331c4c9"
-  integrity sha512-HynVnz5jH9MZ6RaO3Iv8er7pjfQYspyWwd0lXpMd4cyDaQ4xGW0HVQPo16ig54RHM71SO0duVqnWJkYbLd3rwQ==
+  version "6.3.100000307"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.3.100000307.tgz#3d806594c88b52d06a28cf46ca7d2a313bc3a613"
+  integrity sha512-Bnr6Ah7XQgfjmODSXdmOcLuQNktYe3EWlyutca8nvuEmR3ZMmhrtFg12iuRCwsbtcLNK0p4Twe7GAG75WXyZ+w==
   dependencies:
     chart.js "^2.9.4"
     ky "^0.23.0"
@@ -5855,9 +5855,9 @@ flatted@^2.0.0:
   integrity sha512-r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==
 
 flatted@^3.2.6:
-  version "3.2.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/flatted/-/flatted-3.2.6.tgz#022e9218c637f9f3fc9c35ab9c9193f05add60b2"
-  integrity sha512-0sQoMh9s0BYsm+12Huy/rkKxVu4R1+r96YX5cG44rHV0pQ6iC3Q+mkoMFaGWObMFYQxCVT+ssG1ksneA2MI9KQ==
+  version "3.2.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/flatted/-/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
+  integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
 
 flexboxgrid@^6.3.0:
   version "6.3.1"
