@@ -1283,9 +1283,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-authority@^1.0.0":
-  version "1.0.10000083"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.10000083.tgz#ceffae1be1627dea571cfe7cd97c94a0707b0120"
-  integrity sha512-qj/CBbODohWR1zOBh8zYTrU9yC4jpocaIPNn7MUu1W9xJCo9gUS4P73LUSIPwB4LVGBUC+WBNncwSmm+aXViYA==
+  version "1.0.10000086"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.10000086.tgz#7163f67bfbe16b04ae7f5a9f72a9e49f8984bbff"
+  integrity sha512-efwFC1rQORLBsLQ9GMihZCKpMbuqKrZ7BxQfp/r3LRWGyByMG5zUBeym7QloM70UupuwgEDc+GmMJhvkRovtEw==
   dependencies:
     "@folio/stripes-authority-components" "^1.0.0"
     query-string "^7.0.1"
@@ -1394,9 +1394,9 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-authority-components@^1.0.0":
-  version "1.0.10000065"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-1.0.10000065.tgz#2f19e8e35ca8ae6690b1df7ff30cc4753e88f71f"
-  integrity sha512-mBqdP39f8m8zszMWVM6/cM5jpcmTEfuBdraj8wlAgnxjRQwZdKK9Y8mhEISjy5JASsiQGGmpqW8ALgUEIOC8Wg==
+  version "1.0.10000072"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-1.0.10000072.tgz#308c635b0aaae377feba62634eb0c152496d5bcf"
+  integrity sha512-w4KXCUgMycEfP99PLtL7LpQISL9lyNWpKr38X6MwO0u0C1m3uAKFk1HIgfkfS5w7t963vys4w5yawyub/YvReQ==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@folio/stripes-acq-components" "^3.0.2"
