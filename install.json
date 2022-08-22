@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.16.0-SNAPSHOT.131",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-25.0.0-SNAPSHOT.726",
+  "id" : "mod-inventory-storage-25.0.0-SNAPSHOT.727",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-7.2.100000274",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-8.1.100000346",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.1.100000877",
+  "id" : "folio_circulation-7.1.100000882",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.3.100000307",
@@ -92,10 +92,10 @@
   "id" : "folio_plugin-find-instance-6.3.100000195",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-6.3.100000136",
+  "id" : "folio_plugin-find-user-6.4.100000140",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.1.1000001129",
+  "id" : "folio_requests-7.1.1000001134",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.13.0-SNAPSHOT.111",
