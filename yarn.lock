@@ -4856,9 +4856,9 @@ domhandler@^5.0, domhandler@^5.0.1, domhandler@^5.0.2:
     domelementtype "^2.3.0"
 
 dompurify@^2.2.0:
-  version "2.3.11"
-  resolved "https://repository.folio.org/repository/npm-ci-all/dompurify/-/dompurify-2.3.11.tgz#868f0765cb992a8af052d57b1d29ef6c929c13f1"
-  integrity sha512-q4c/TZfHWTPGgNBaMimQ1+bEfgo2d1G5wEnolfF3+IX2WoVw/QzOwqTyu+ylTLZDGzmsTQUnZ1gKpAGedceXMA==
+  version "2.3.12"
+  resolved "https://repository.folio.org/repository/npm-ci-all/dompurify/-/dompurify-2.3.12.tgz#0c8a5cabc5d7a7cf2635645cfd5061deab73f3d2"
+  integrity sha512-KkCEdpWPXBkF9IP9afmYPDB24nRZRUsThsjuWKM8Cpp9+WXKJmC6FZxSyPIiiQezkYa3+Mm1oo6dh60NxBXkyw==
 
 domutils@^1.7.0:
   version "1.7.0"
