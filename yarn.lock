@@ -1394,9 +1394,9 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-authority-components@^1.0.0":
-  version "1.0.10000072"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-1.0.10000072.tgz#308c635b0aaae377feba62634eb0c152496d5bcf"
-  integrity sha512-w4KXCUgMycEfP99PLtL7LpQISL9lyNWpKr38X6MwO0u0C1m3uAKFk1HIgfkfS5w7t963vys4w5yawyub/YvReQ==
+  version "1.0.10000086"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-1.0.10000086.tgz#fba2742131af3ba4aec2844b7f3c2338bf319433"
+  integrity sha512-pnGsleWisrRWbsbgbsGL1e2gak0bllXOq9SV4DXgy+B1BSLh5O188E5UmivxkKGZcsg47wFatK9s0ZPNqtFalg==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@folio/stripes-acq-components" "^3.0.2"
@@ -4945,9 +4945,9 @@ effection@^1.0.0:
   integrity sha512-ITAAnuI7sJqKhjvYlnm66NHaW7zrXzqgsGsjVaaqFHYDWPN8WylVj46xASfkrtwq5wmklbzy6tvRYaj2C4rDHw==
 
 electron-to-chromium@^1.4.202:
-  version "1.4.226"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.226.tgz#837ea1d19b8305a913cd5f31d135681c4b6d63b1"
-  integrity sha512-CvevLaSiUp0u12K0e+QhMX1hn724nSUNO9ToBek+FMHk/5RofrQs5MChjrD0re0IwqxDFxFMSZD+uic05i2Z5w==
+  version "1.4.227"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.227.tgz#28e46e2a701fed3188db3ca7bf0a3a475e484046"
+  integrity sha512-I9VVajA3oswIJOUFg2PSBqrHLF5Y+ahIfjOV9+v6uYyBqFZutmPxA6fxocDUUmgwYevRWFu1VjLyVG3w45qa/g==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
