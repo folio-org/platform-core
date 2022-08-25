@@ -1283,11 +1283,10 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-authority@^1.0.0":
-  version "1.0.10000086"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.10000086.tgz#7163f67bfbe16b04ae7f5a9f72a9e49f8984bbff"
-  integrity sha512-efwFC1rQORLBsLQ9GMihZCKpMbuqKrZ7BxQfp/r3LRWGyByMG5zUBeym7QloM70UupuwgEDc+GmMJhvkRovtEw==
+  version "1.0.100000111"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000111.tgz#164ac9e497557774810eb0b52f8525df3a12ec3f"
+  integrity sha512-u6zibo0bVz8HQcaOX8Wq3cYglfESX8ZdSHtQrtb12iHJYLQQMYfIzUTCpV6we8h8yTM/x+OesHdN4i4lh4eIkA==
   dependencies:
-    "@folio/stripes-authority-components" "^1.0.0"
     query-string "^7.0.1"
 
 "@folio/plugin-find-instance@>=1.1.0", "@folio/plugin-find-instance@^6.0.0":
@@ -1373,7 +1372,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@^3.0.2", "@folio/stripes-acq-components@^3.1.1":
+"@folio/stripes-acq-components@^3.1.1":
   version "3.2.40000093"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-3.2.40000093.tgz#ba72c43b951a9f412bc7e6f84a6d8ab08a7d4466"
   integrity sha512-ozQ371jFpfZJLEciASDw1Zctw3XG2zejBeUyC621d1vpHhSopaoAmaWUp6BoQ0jmupz/725tMB60jDq0+umWFw==
@@ -1392,17 +1391,6 @@
     react-final-form-arrays "^3.1.1"
     react-virtualized-auto-sizer "^1.0.6"
     redux-form "^8.3.0"
-
-"@folio/stripes-authority-components@^1.0.0":
-  version "1.0.100000111"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-1.0.100000111.tgz#3180bc65df6f34bf9f3d16b41c2ae614b13bcdc2"
-  integrity sha512-MgJbj0pfLIW25kwRAS5tM7/qP/rmJa05d94TrENUITTOIkPrnjEWcFJlDiIWdYSi480XQyn3n7dxqTwnvPRtJg==
-  dependencies:
-    "@folio/quick-marc" "^5.0.0"
-    "@folio/stripes-acq-components" "^3.0.2"
-    "@rehooks/local-storage" "2.4.0"
-    prop-types "^15.6.0"
-    query-string "^7.0.1"
 
 "@folio/stripes-cli@^2.4.0":
   version "2.6.100000161"
