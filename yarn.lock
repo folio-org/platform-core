@@ -1312,9 +1312,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.1.200000398"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.200000398.tgz#7dd5ffa727ac793bdb27214044a5f5e158a3e556"
-  integrity sha512-0puybkgfSOFOGaC5XOgq2qNs2knpv5ls3NptkXLgpbSZ7A+2mh67Sw818ZwhwbFnanTdcGmgdiI9k9whHaI65Q==
+  version "5.1.200000409"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.200000409.tgz#2d98f1e53b3edd47b15044bc77e2ef82a1a360f4"
+  integrity sha512-dyB5pLJOhwb6UsjDY+vtHJTFfs/o8HDEG56PBO05AvGSTKjVnJwIF26m34cnQXqOIx+I2WGiA6FylY3BVIjqPg==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
@@ -4933,9 +4933,9 @@ effection@^1.0.0:
   integrity sha512-ITAAnuI7sJqKhjvYlnm66NHaW7zrXzqgsGsjVaaqFHYDWPN8WylVj46xASfkrtwq5wmklbzy6tvRYaj2C4rDHw==
 
 electron-to-chromium@^1.4.202:
-  version "1.4.231"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.231.tgz#ae6de219c20aa690bc3d217ff151b208a9bd8ed6"
-  integrity sha512-E8WsUC60chToZUfxvVUXBb1U/mR/Df3GFX+mO3edtQnRTUt6L2XgpqBVWcGD/xrzQdINL1g/CEBPPn0YJ86Y6Q==
+  version "1.4.232"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.232.tgz#67a0a874b0057662244230d18d3a9847c135a9d9"
+  integrity sha512-nd+FW8xHjM+PxNWG44nKnwHaBDdVpJUZuI2sS2JJPt/QpdombnmoCRWEEQNnzaktdIQhsNWdD+dlqxwO8Bn99g==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
