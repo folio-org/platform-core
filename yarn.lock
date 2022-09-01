@@ -1283,9 +1283,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-authority@^1.0.0":
-  version "1.0.100000121"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000121.tgz#569c0470d353e273a12ef867df3929d103f3d9d1"
-  integrity sha512-LiMaMlDN12vR3hbyDLSjARAzkoOFUZhgOfaodocipPEJMgwagLS94sTRz3VeaFPBdALmCmmIPzuyHi+OYv7F6Q==
+  version "1.0.100000126"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000126.tgz#a4128d91e23f5055ee27bd12911812bd18794ddb"
+  integrity sha512-ACiw4VODEBtLztWS16hS93DVCvCI8630eXpqTW8nvPylxPAqVZ2YkRPHl64QkrkaR+Sjt8yIj3KAzSCXI7flqw==
   dependencies:
     query-string "^7.0.1"
 
@@ -1312,9 +1312,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.1.200000452"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.200000452.tgz#878a8fbfcb024ca3505aa31a99d1def4b5510ebe"
-  integrity sha512-r+Q8VNnM0sTB9OhJBexozbrL+TzdCFYcdEMCKMvfuqYQHxWE0Ii3OEz/E66Kk2kh0m01WNHxrR4YtLNFXMO07A==
+  version "5.1.200000457"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.200000457.tgz#03e44327ac47b1f8b558dffebac2241bdafb4124"
+  integrity sha512-7Ct5WJMJ7IJdoefy6m7vW8BpHxR7VtjrOEzIg1lphbS2PgMsPvQGKBW5+D3n7oJn/sMWI6vIJsYPR/c9PlW7iQ==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
