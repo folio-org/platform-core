@@ -1729,9 +1729,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "8.2.1000001953"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.2.1000001953.tgz#c2a57653d3ee28b938a2de06c3978cbc5656bce4"
-  integrity sha512-5sVTCX7qs/w6NDJbqf7s7PFSHL9XKYzMA95NxUGw8QmyAMmX/ceK8QAprjf+FYyfYVQHXvQPrF3uWTJOAtscSA==
+  version "8.2.1000001974"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.2.1000001974.tgz#32cdf71c91723df53d70d36c9cef59c29f9580cf"
+  integrity sha512-fiZAqXqTBmCeiS3hU0zMO2D3tCOXoHfK+VBai2Ov4cjzjmKpzVZavk+o7YMS958fn7UlZE+muLaH0reqgfA2yA==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
@@ -4297,9 +4297,9 @@ css-color-function@~1.3.3:
     rgb "~0.1.0"
 
 css-declaration-sorter@^6.3.0:
-  version "6.3.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/css-declaration-sorter/-/css-declaration-sorter-6.3.0.tgz#72ebd995c8f4532ff0036631f7365cce9759df14"
-  integrity sha512-OGT677UGHJTAVMRhPO+HJ4oKln3wkBTwtDFH0ojbqm+MJm6xuDMHp2nkhh/ThaBqq20IbraBQSWKfSLNHQO9Og==
+  version "6.3.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/css-declaration-sorter/-/css-declaration-sorter-6.3.1.tgz#be5e1d71b7a992433fb1c542c7a1b835e45682ec"
+  integrity sha512-fBffmak0bPAnyqc/HO8C3n2sHrp9wcqQz6ES9koRF2/mLOVAx9zIQ3Y7R29sYCteTPqMCwns4WYQoCX91Xl3+w==
 
 css-line-break@^2.1.0:
   version "2.1.0"
