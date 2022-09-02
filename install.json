@@ -2,7 +2,7 @@
   "id" : "mod-calendar-1.16.0-SNAPSHOT.131",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-25.0.0-SNAPSHOT.727",
+  "id" : "mod-inventory-storage-25.0.0-SNAPSHOT.731",
   "action" : "enable"
 }, {
   "id" : "folio_calendar-7.2.100000274",
@@ -56,7 +56,7 @@
   "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.452",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-18.3.0-SNAPSHOT.553",
+  "id" : "mod-inventory-18.3.0-SNAPSHOT.554",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-7.1.100000371",
@@ -86,7 +86,7 @@
   "id" : "folio_myprofile-7.1.100000154",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-3.2.100000161",
+  "id" : "folio_plugin-create-inventory-records-3.2.100000164",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-6.3.100000195",
