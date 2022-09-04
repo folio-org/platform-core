@@ -1204,9 +1204,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/developer@>=1.5.0":
-  version "6.3.100000313"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.3.100000313.tgz#85ed44353a8e4cdd2163e5bb1f0a2e13b2382383"
-  integrity sha512-dwwspRFSlo3h4u70rkzT/auEBU3PdFzlBiVVzAgiPrk30vQqSSo9BWYj4CmDKqDmPGvZrKYIuKqZkV6PTB6oHg==
+  version "6.3.100000317"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-6.3.100000317.tgz#b45d2a137283d87863ced3e9e0c02b30fc540f32"
+  integrity sha512-yrzhfpKfEbD2j5M1W8NH89qNTU+DhukPlXcuOEHqJgLBHD5UKzYGiB2O7rtju7FQunXEXwrnq21XhozALiO3Uw==
   dependencies:
     chart.js "^2.9.4"
     ky "^0.23.0"
@@ -1537,9 +1537,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/stripes-form@~7.1.0":
-  version "7.1.10000089"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-7.1.10000089.tgz#21720caf9b15adba9fb3b262586cef75c5ae9b55"
-  integrity sha512-dQsXdCM2AKa0amSN9LUAGdBpEkwFzzHEAYa1Nd1LWJne5K6XjRRunjS4Wv+eYRsOWOJ6szbESWm9K8nY/bxlQQ==
+  version "7.1.10000098"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-7.1.10000098.tgz#5672cde6433f1fe4c24f3a82fe8301f098d0174e"
+  integrity sha512-aSQ6SIyJm5W4adqZ55WyUvqvhmyY4LP7cbFVMfFthIkaHJsqgKK05/jKTHcRO4Deeasj7VIdlRQOROrdohyOZg==
   dependencies:
     flat "^4.0.0"
     prop-types "^15.5.10"
