@@ -1,18 +1,18 @@
 [
   {
-    "id": "folio_calendar-7.2.100000274",
+    "id": "folio_calendar-7.2.100000301",
     "action": "enable"
   },
   {
-    "id": "folio_checkin-7.1.100000371",
+    "id": "folio_checkin-7.1.100000375",
     "action": "enable"
   },
   {
-    "id": "folio_checkout-8.1.100000354",
+    "id": "folio_checkout-8.1.100000358",
     "action": "enable"
   },
   {
-    "id": "folio_circulation-7.1.100000882",
+    "id": "folio_circulation-7.1.100000886",
     "action": "enable"
   },
   {
@@ -20,35 +20,35 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-9.2.1000001890",
+    "id": "folio_inventory-9.2.1000001896",
     "action": "enable"
   },
   {
-    "id": "folio_myprofile-7.1.100000154",
+    "id": "folio_myprofile-7.1.100000163",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-create-inventory-records-3.2.100000164",
+    "id": "folio_plugin-create-inventory-records-3.2.100000168",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-instance-6.3.100000195",
+    "id": "folio_plugin-find-instance-6.3.100000209",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-user-6.4.100000140",
+    "id": "folio_plugin-find-user-6.4.100000144",
     "action": "enable"
   },
   {
-    "id": "folio_requests-7.1.1000001137",
+    "id": "folio_requests-7.1.1000001141",
     "action": "enable"
   },
   {
-    "id": "folio_search-5.1.100000101",
+    "id": "folio_search-5.1.100000105",
     "action": "enable"
   },
   {
-    "id": "folio_servicepoints-6.1.10000073",
+    "id": "folio_servicepoints-6.1.10000082",
     "action": "enable"
   },
   {
@@ -56,19 +56,19 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-7.2.1000001038",
+    "id": "folio_stripes-smart-components-7.2.1000001050",
     "action": "enable"
   },
   {
-    "id": "folio_tags-6.2.10000078",
+    "id": "folio_tags-6.2.10000089",
     "action": "enable"
   },
   {
-    "id": "folio_tenant-settings-7.2.100000311",
+    "id": "folio_tenant-settings-7.2.100000315",
     "action": "enable"
   },
   {
-    "id": "folio_users-8.2.1000001974",
+    "id": "folio_users-8.2.1000001980",
     "action": "enable"
   }
 ]
