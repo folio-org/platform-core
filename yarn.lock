@@ -1232,9 +1232,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.2.1000001896"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000001896.tgz#00bbab30603906297a26da64095b13a5d1ea818f"
-  integrity sha512-A7c6mP6dLotb1DFOcmHjM/tyGiuBsyYNIOofiNbp/inujgGquBtMQhUSxtw1vWMVHqb5Kgg2PVXtkfXKfR/CyQ==
+  version "9.2.1000001901"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000001901.tgz#e74ea66e2ba54821cf4fb176b35ed7f81312154b"
+  integrity sha512-9bO4w6Zo6a3eSsGJNURsJ47ZM1qKUuUdwGwVjkhCJD3Ex8TOna/5WdUwn0UoosHZT3bLz6cTXyzEv5EcC83tCA==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -2547,9 +2547,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "18.7.14"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-18.7.14.tgz#0fe081752a3333392d00586d815485a17c2cf3c9"
-  integrity sha512-6bbDaETVi8oyIARulOE9qF1/Qdi/23z6emrUh0fNJRUmjznqrixD4MpGDdgOFk5Xb0m2H6Xu42JGdvAxaJR/wA==
+  version "18.7.15"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-18.7.15.tgz#20ae1ec80c57ee844b469f968a1cd511d4088b29"
+  integrity sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==
 
 "@types/node@16.9.1":
   version "16.9.1"
