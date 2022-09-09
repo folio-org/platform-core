@@ -41,7 +41,7 @@
   "id" : "mod-notify-2.12.0-SNAPSHOT.117",
   "action" : "enable"
 }, {
-  "id" : "mod-feesfines-18.1.0-SNAPSHOT.191",
+  "id" : "mod-feesfines-18.1.0-SNAPSHOT.192",
   "action" : "enable"
 }, {
   "id" : "mod-patron-blocks-1.7.0-SNAPSHOT.77",
@@ -53,7 +53,7 @@
   "id" : "mod-circulation-23.2.0-SNAPSHOT.1038",
   "action" : "enable"
 }, {
-  "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.452",
+  "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.453",
   "action" : "enable"
 }, {
   "id" : "mod-inventory-18.3.0-SNAPSHOT.555",
