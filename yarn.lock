@@ -1233,9 +1233,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.2.1000001925"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000001925.tgz#8e3c13138704093eabd056f22e810433a340f3b8"
-  integrity sha512-/6p7jXd2XtOdaiiwWu6rw6lxIlPqzXMQN27G64K3Coo/yK/WE+SDarGu+gbVPUnSAtDBkfQ3+G6meDn4K2UUZg==
+  version "9.2.1000001928"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000001928.tgz#f0061b7f9c85fb9db07f93f8087dec49a7eb2b09"
+  integrity sha512-LwIVgS8TZilNgWJo04qxIQ+FzdIf7U7ldn3oP++US8ht79CD3+e1aM93e0/5Bt+/J6XAyB3vr8LK6ghKUZipXQ==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1284,9 +1284,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-authority@^1.0.0":
-  version "1.0.100000146"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000146.tgz#21b114c91f8865bd368f77a5e9115f3962a1d699"
-  integrity sha512-vJFsJlpQrhJhdy4ZK8ndwNHiGVA7nXGV3LFSWiELDGHL9+PxfRjfjQNt8AATtjrdHRvTmgdzX8XOo/f0mZBRyg==
+  version "1.0.100000159"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000159.tgz#0c5ad39ef84d165240387607718d1993d955073b"
+  integrity sha512-n8agFzdnvkuRWf4/mMrtKCcgg0p5pp8lMP2sZYoksoFPjA2IneQm1wl+l1tCpz1GbrCozy0KfvWD0mqF4KPn2Q==
   dependencies:
     query-string "^7.0.1"
 
