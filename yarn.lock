@@ -1284,9 +1284,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-authority@^1.0.0":
-  version "1.0.100000162"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000162.tgz#7f77cf6c94b211ca1f5bf05b05cfae17c6b1baaf"
-  integrity sha512-LrwsMxazHkFpqev0L5ctPqgVx3BEbmZJoyM1kWWVUXRATBS0vgXrzlxJGa+SRyqU+dQgAXzvOsgGMwqiAxhZsA==
+  version "1.0.100000167"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000167.tgz#de07a5d28d872440f79cd920c79e7bdea9d7adc9"
+  integrity sha512-khbrYlvYn7ld2Uj3L2lIPoVkIernAfmLhuYkwk/dstNKmgWWKVLe3pMy74GXarEPGQULTYflp/NKp48N2kI/1w==
   dependencies:
     query-string "^7.0.1"
 
@@ -10110,9 +10110,9 @@ redux@~4.0.0:
     symbol-observable "^1.2.0"
 
 regenerate-unicode-properties@^10.0.1:
-  version "10.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/regenerate-unicode-properties/-/regenerate-unicode-properties-10.0.1.tgz#7f442732aa7934a3740c779bb9b3340dccc1fb56"
-  integrity sha512-vn5DU6yg6h8hP/2OkQo3K7uVILvY4iu0oI4t3HFa81UPkhGJwkRwM10JEc3upjdhHjs/k8GJY1sRBhk5sr69Bw==
+  version "10.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/regenerate-unicode-properties/-/regenerate-unicode-properties-10.1.0.tgz#7c3192cab6dd24e21cb4461e5ddd7dd24fa8374c"
+  integrity sha512-d1VudCLoIGitcU/hEg2QqvyGZQmdC0Lf8BqdOMXGFSvJP4bNV1+XqbPQeHHLD51Jh4QJJ225dlIFvY4Ly6MXmQ==
   dependencies:
     regenerate "^1.4.2"
 
@@ -11539,9 +11539,9 @@ unicode-match-property-value-ecmascript@^2.0.0:
   integrity sha512-7Yhkc0Ye+t4PNYzOGKedDhXbYIBe1XEQYQxOPyhcXNMJ0WCABqqj6ckydd6pWRZTHV4GuCPKdBAUiMc60tsKVw==
 
 unicode-property-aliases-ecmascript@^2.0.0:
-  version "2.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.0.0.tgz#0a36cb9a585c4f6abd51ad1deddb285c165297c8"
-  integrity sha512-5Zfuy9q/DFr4tfO7ZPeVXb1aPoeQSdeFMLpYuFebehDAhbuevLs5yxSZmIFN1tP5F9Wl4IpJrYojg85/zgyZHQ==
+  version "2.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.1.0.tgz#43d41e3be698bd493ef911077c9b131f827e8ccd"
+  integrity sha512-6t3foTQI9qne+OZoVQB/8x8rk2k1eVy1gRXhV3oFQ5T6R1dqQ1xtin3XqSlx3+ATBkliTaR/hHyJBm+LVPNM8w==
 
 unique-string@^1.0.0:
   version "1.0.0"
