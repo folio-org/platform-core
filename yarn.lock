@@ -1284,9 +1284,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-authority@^1.0.0":
-  version "1.0.100000167"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000167.tgz#de07a5d28d872440f79cd920c79e7bdea9d7adc9"
-  integrity sha512-khbrYlvYn7ld2Uj3L2lIPoVkIernAfmLhuYkwk/dstNKmgWWKVLe3pMy74GXarEPGQULTYflp/NKp48N2kI/1w==
+  version "1.0.100000170"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000170.tgz#f6bdc59e7528c498d2a8aeaf322c593f0634362d"
+  integrity sha512-fuvTcXRhFiuRrKyTGL/hoFs3WkDgGzO2/04be+lzFc0dGd8G3RdGmdfsi4hl1OJAyUXsNLkGcqL4jIGiBXRKug==
   dependencies:
     query-string "^7.0.1"
 
