@@ -89,7 +89,7 @@
   "id" : "folio_plugin-create-inventory-records-3.2.100000176",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-instance-6.3.100000216",
+  "id" : "folio_plugin-find-instance-6.3.100000220",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-user-6.4.100000148",

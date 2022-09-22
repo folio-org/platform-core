@@ -1291,9 +1291,9 @@
     query-string "^7.0.1"
 
 "@folio/plugin-find-instance@>=1.1.0", "@folio/plugin-find-instance@^6.0.0":
-  version "6.3.100000216"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-6.3.100000216.tgz#439e104b392d2bcfd111cf7f8f093dede67c5e9e"
-  integrity sha512-whODXeiWdevKEgrRSj1uLuH83gTK8oYbvqG79mgVNl0ZBbm4+yY85Ra+9FdtM0Ulwlt/G0rOzXG5BqHyjU7zWQ==
+  version "6.3.100000220"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-6.3.100000220.tgz#a508ff11daa50c943130bbc6bbb4a6b3ebd0618d"
+  integrity sha512-OcSCYVfkhQmFq9ZYZ232/CVMoiT1NLF3KpLAYo8OjOySlswqDKjAOOhW3+t27oIwi8W27LcmI7sIBLUVoPsvag==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
