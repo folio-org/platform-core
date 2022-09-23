@@ -8,7 +8,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-users-19.0.0-SNAPSHOT.209",
+    "id": "mod-users-19.0.0-SNAPSHOT.210",
     "action": "enable"
   },
   {
@@ -92,11 +92,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-password-validator-2.5.0-SNAPSHOT.68",
+    "id": "mod-password-validator-2.5.0-SNAPSHOT.69",
     "action": "enable"
   },
   {
-    "id": "mod-authtoken-2.12.0-SNAPSHOT.119",
+    "id": "mod-authtoken-2.12.0-SNAPSHOT.120",
     "action": "enable"
   },
   {
