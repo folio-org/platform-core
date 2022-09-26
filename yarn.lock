@@ -1154,9 +1154,9 @@
     redux-form "^8.3.7"
 
 "@folio/checkin@>=1.3.0":
-  version "7.1.100000387"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.1.100000387.tgz#d79bd9816136679c3c60ade040916f1190c6de26"
-  integrity sha512-mhP3vLA44ul9aAvF5C5+1skgM/F5kqRyxHL/p0pbubs9ovl/9wghS4JUxl0YwJ4wQvk2grSFUB13degH3D/LgQ==
+  version "7.1.100000390"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.1.100000390.tgz#c6acf8a4432f9078abb75db9a7e51cdbb49e7157"
+  integrity sha512-EbyOinKF9Y4DcEYvdPsW84oxK258X4MebVtiGn+QEpDhxm2tf2LHnRPkTzvUqH4QyQQ2VCAe7dO7Ts0ehectiw==
   dependencies:
     dateformat "^2.0.0"
     final-form "^4.19.1"
@@ -2550,9 +2550,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "18.7.21"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-18.7.21.tgz#63ee6688070e456325b6748dc492a7b948593871"
-  integrity sha512-rLFzK5bhM0YPyCoTC8bolBjMk7bwnZ8qeZUBslBfjZQou2ssJdWslx9CZ8DGM+Dx7QXQiiTVZ/6QO6kwtHkZCA==
+  version "18.7.22"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-18.7.22.tgz#76f7401362ad63d9d7eefa7dcdfa5fcd9baddff3"
+  integrity sha512-TsmoXYd4zrkkKjJB0URF/mTIKPl+kVcbqClB2F/ykU7vil1BfWZVndOnpEIozPv4fURD28gyPFeIkW2G+KXOvw==
 
 "@types/node@16.9.1":
   version "16.9.1"
