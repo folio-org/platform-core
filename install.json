@@ -62,10 +62,10 @@
   "id" : "folio_checkin-7.1.100000390",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-8.1.100000383",
+  "id" : "folio_checkout-8.1.100000389",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.1.100000907",
+  "id" : "folio_circulation-7.1.100000914",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.3.100000332",
@@ -80,13 +80,13 @@
   "id" : "mod-data-export-4.6.0-SNAPSHOT.329",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.2.1000001982",
+  "id" : "folio_inventory-9.2.1000001986",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.1.100000163",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-3.2.100000187",
+  "id" : "folio_plugin-create-inventory-records-3.2.100000191",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-6.3.100000220",
@@ -95,7 +95,7 @@
   "id" : "folio_plugin-find-user-6.4.100000148",
   "action" : "enable"
 }, {
-  "id" : "folio_requests-7.1.1000001164",
+  "id" : "folio_requests-7.1.1000001180",
   "action" : "enable"
 }, {
   "id" : "mod-codex-mux-2.13.0-SNAPSHOT.111",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.2.100000327",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.2.1000002106",
+  "id" : "folio_users-8.2.1000002113",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.4.0-SNAPSHOT.98",
