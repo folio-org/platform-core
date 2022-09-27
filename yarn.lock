@@ -1314,9 +1314,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.1.200000527"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.200000527.tgz#eb962cff764d945395aecb5e680ef736046c8632"
-  integrity sha512-oeSdAAU+ds5J/ZM1d85fTZ12uYsvY1oUIvSG0GevsMVDF5dAKUO5R6AairnV3A+wekeKRwX7+7cNaLlDc63RlA==
+  version "5.1.200000538"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.200000538.tgz#1386c3da096d6088013c3401e28b77e31348b79b"
+  integrity sha512-fioIi2CEWGK6RGfauoulgdbm8DJJrGNQGU39xYFDGmWc5y1j0LdPCYSxa5U90hFrshym9oEA/0JpygNCTHLZXA==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
@@ -1326,6 +1326,7 @@
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.0"
     react-final-form-listeners "^1.0.2"
+    react-query "^3.39.2"
     react-router-prop-types "^1.0.4"
     uuid "^8.3.2"
   optionalDependencies:
@@ -9855,7 +9856,7 @@ react-overlays@^4.1.1:
     uncontrollable "^7.0.0"
     warning "^4.0.3"
 
-react-query@^3.13.0, react-query@^3.38.1, react-query@^3.6.0, react-query@^3.9.8:
+react-query@^3.13.0, react-query@^3.38.1, react-query@^3.39.2, react-query@^3.6.0, react-query@^3.9.8:
   version "3.39.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.39.2.tgz#9224140f0296f01e9664b78ed6e4f69a0cc9216f"
   integrity sha512-F6hYDKyNgDQfQOuR1Rsp3VRzJnWHx6aRnnIZHMNGGgbL3SBgpZTDg8MQwmxOgpCAoqZJA+JSNCydF1xGJqKOCA==
