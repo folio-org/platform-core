@@ -56,7 +56,7 @@
   "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.456",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-19.0.0-SNAPSHOT.561",
+  "id" : "mod-inventory-19.0.0-SNAPSHOT.562",
   "action" : "enable"
 }, {
   "id" : "folio_checkin-7.1.100000390",
@@ -65,7 +65,7 @@
   "id" : "folio_checkout-8.1.100000389",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.1.100000914",
+  "id" : "folio_circulation-7.1.100000919",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.3.100000332",
