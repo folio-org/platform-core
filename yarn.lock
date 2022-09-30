@@ -1170,9 +1170,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "8.1.100000389"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.1.100000389.tgz#b28e207f26ff7d78d0f3586534f106c51ea678b9"
-  integrity sha512-hQnYMJSx7BoALn0iRTOMfXCmn6gGDxTRWGFIOi1v5b2cOXrv2ijYqk3VMRQQfAi6cQP28mOiiYCNAzon7m5bmg==
+  version "8.1.100000394"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.1.100000394.tgz#2208783b2bfcc3ef3159304e5034ce5ccc6b752a"
+  integrity sha512-X7CLpHmUIh6T25Exs/MaG21VDYXkm5rOouIeJkML1cSaOIxX03jrdDQ5eFrCHCoSWHPMoxEqA4vXkYat2Jm8Ug==
   dependencies:
     final-form "^4.19.1"
     inactivity-timer "^1.0.0"
@@ -1448,9 +1448,9 @@
     yargs "^17.3.1"
 
 "@folio/stripes-components@~10.2.0":
-  version "10.2.1000001818"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.1000001818.tgz#19cbb731c3f87e4e2d1b80277d5042e957d40411"
-  integrity sha512-qTK+gI0l3fCPJg1pN0IaGs229XblUKak8sqBBz+cvO/VQXqtws+KDiR3Fjgq2IyMKLFJ/p5gea0j4gP8FUfkJw==
+  version "10.2.1000001822"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.1000001822.tgz#a9f9bc8e46d076dc7ae16790792d9f3f439a743b"
+  integrity sha512-/3KuMI/AJDB0WbxZAABdLMayxVeP8A9w5hM7DrAGdErJGOxRcecC6IHLghe81Z6VQHCp0j9wVeHrTUutU9SGow==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
