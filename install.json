@@ -68,7 +68,7 @@
   "id" : "folio_circulation-7.1.100000919",
   "action" : "enable"
 }, {
-  "id" : "folio_developer-6.3.100000332",
+  "id" : "folio_developer-6.3.100000337",
   "action" : "enable"
 }, {
   "id" : "mod-search-1.8.0-SNAPSHOT.294",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.6.0-SNAPSHOT.330",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.2.1000002075",
+  "id" : "folio_inventory-9.2.1000002083",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.1.100000163",
@@ -101,7 +101,7 @@
   "id" : "mod-codex-mux-2.13.0-SNAPSHOT.111",
   "action" : "enable"
 }, {
-  "id" : "folio_search-5.1.100000109",
+  "id" : "folio_search-5.1.100000116",
   "action" : "enable"
 }, {
   "id" : "folio_servicepoints-6.1.10000082",

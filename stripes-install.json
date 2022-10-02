@@ -16,11 +16,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_developer-6.3.100000332",
+    "id": "folio_developer-6.3.100000337",
     "action": "enable"
   },
   {
-    "id": "folio_inventory-9.2.1000002075",
+    "id": "folio_inventory-9.2.1000002083",
     "action": "enable"
   },
   {
@@ -44,7 +44,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_search-5.1.100000109",
+    "id": "folio_search-5.1.100000116",
     "action": "enable"
   },
   {
