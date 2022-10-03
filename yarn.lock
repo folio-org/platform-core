@@ -1234,9 +1234,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.2.1000002083"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000002083.tgz#3f4f917cfac71cb0ed77bba4b9372119071b98bc"
-  integrity sha512-2hwllHjLRA1Mx0GzWgLVDj1Q0r5Z3hHEdppzskj6kCXsIBFxFK1sh2DRSpQKxbLnPfWjoFiYP1tA8SUVEWVLIg==
+  version "9.2.1000002093"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000002093.tgz#0f0804e2d3bffe789cd9ca4caeb5231606e0ac2a"
+  integrity sha512-6x+uJ7p29D3/Ko/smVMqBxJ25h6oxONjSMO4WBLwXkb1tyPdzETrV1/hDzW5bvTM4HqhcneFlFzBjbSnLhlDKw==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@folio/stripes-acq-components" "^3.2.0"
@@ -1286,9 +1286,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-authority@^1.0.0":
-  version "1.0.100000183"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000183.tgz#f6d8d3e071b114cd36ea8d858b16bab85a7de567"
-  integrity sha512-7xA2V3zO1zGYZA63vW9c2cHipx7dDw2jY4qu3BRRwHlKExY9ZslaqzLombStiINFmfmZLT12mJyaNYGKw2gJyg==
+  version "1.0.100000194"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000194.tgz#6aecc60f183b7c3647035258b02322a09152262a"
+  integrity sha512-p3rgyB3ZVnURI7NGr1nJL7hU7L3sgeK/5XW5wy+8Wo2niayFgHJ61rm0xMirqSVudHFgR3mLIKXsfq5N5VPf8Q==
   dependencies:
     query-string "^7.0.1"
 
@@ -1734,9 +1734,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "8.2.1000002159"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.2.1000002159.tgz#55f52a9374c9c4ecf7db284363be99ad2e15928b"
-  integrity sha512-KIL4hrhMbtnMRfTz/bLN95BG7S0kEWIim8bCEOmxLoJjcbQxwDXyiZSGQl2vlHJYAQ1cuAzuUH5HsBNFRBY95A==
+  version "8.2.1000002168"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.2.1000002168.tgz#3a323627056bfc35a086fac25c98076323916a4d"
+  integrity sha512-VZiCibNlF6eLxrgwVO9Wn9TLeTDypsbI22SW5qDt1eXmPJKeJ4+NRjCGJRQS2mAANeMob7mWsEiCWRQlaF6S2A==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
