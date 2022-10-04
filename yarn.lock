@@ -1286,9 +1286,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-authority@^1.0.0":
-  version "1.0.100000194"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000194.tgz#6aecc60f183b7c3647035258b02322a09152262a"
-  integrity sha512-p3rgyB3ZVnURI7NGr1nJL7hU7L3sgeK/5XW5wy+8Wo2niayFgHJ61rm0xMirqSVudHFgR3mLIKXsfq5N5VPf8Q==
+  version "1.0.100000201"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-1.0.100000201.tgz#f36bd4ac34a65a0a4a3acda2b07cd77dd43ad265"
+  integrity sha512-KaAS4T444QggYBNB7Y+46cACedXeOyZHxXdRPeFw3iyMCHQAOBw1bOeTNrYDCJURHmXxSnoQxv23SfvJDJUrTg==
   dependencies:
     query-string "^7.0.1"
 
@@ -1734,9 +1734,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "8.2.1000002172"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.2.1000002172.tgz#91720bce7d3bd8f7b781ab6515121688491c45d5"
-  integrity sha512-8lz23k9RbHIiVanFhkH4/PCZ1E5uooFXs9uqj+n4m7GMhDL+b5GOJKUFS98r/i8GLoUFH4OQc+YPaD7c/0P7KQ==
+  version "8.2.1000002177"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.2.1000002177.tgz#41cdef1d2e3b552a6352f5e3c2796286227421fa"
+  integrity sha512-zm7+7E3xCGwKOmsVuXGtQxXJoiRr/rUX7TOimZ/0SGYBmoJ0PS/gbN5VT+kMCMuFKCvEi7taGoyQOn72qlmCpw==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
