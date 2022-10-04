@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-pubsub-2.7.0-SNAPSHOT.208",
+    "id": "mod-pubsub-2.7.0-SNAPSHOT.209",
     "action": "enable"
   },
   {
@@ -36,19 +36,19 @@
     "action": "enable"
   },
   {
-    "id": "mod-template-engine-1.18.0-SNAPSHOT.83",
+    "id": "mod-template-engine-1.18.0-SNAPSHOT.84",
     "action": "enable"
   },
   {
-    "id": "mod-email-1.15.0-SNAPSHOT.69",
+    "id": "mod-email-1.15.0-SNAPSHOT.70",
     "action": "enable"
   },
   {
-    "id": "mod-sender-1.9.0-SNAPSHOT.37",
+    "id": "mod-sender-1.9.0-SNAPSHOT.38",
     "action": "enable"
   },
   {
-    "id": "mod-notify-2.12.0-SNAPSHOT.117",
+    "id": "mod-notify-2.12.0-SNAPSHOT.118",
     "action": "enable"
   },
   {
@@ -56,7 +56,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-patron-blocks-1.7.0-SNAPSHOT.78",
+    "id": "mod-patron-blocks-1.7.0-SNAPSHOT.79",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-23.2.0-SNAPSHOT.1046",
+    "id": "mod-circulation-23.2.0-SNAPSHOT.1047",
     "action": "enable"
   },
   {
