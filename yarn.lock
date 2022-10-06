@@ -1234,9 +1234,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.2.1000002173"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000002173.tgz#e7a5e7dc8820dbeb34f8f5dab8fb57b00037dd9e"
-  integrity sha512-NACBawSrpZJEvUwnE7XFgfHdETLZcM9DFqY3baIcISoZoPEDNi7FkYYwZIiXtRVdTD9YYfoqjB/C1RaX/RwVjA==
+  version "9.2.1000002182"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000002182.tgz#905fe764972aa46e5b13eae632bfc9d5fb23494e"
+  integrity sha512-0O1KgT9oz6BiuutGlGexoavzFujwday6x/Swtx6fMO0j2Ph0z14lcYoDZqxQ8iVrlRrr77csr5x0hSCrxfTW1A==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@folio/stripes-acq-components" "^3.2.0"
@@ -1734,9 +1734,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "8.2.1000002202"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.2.1000002202.tgz#dcf000abb6619ea5dbeb01975edebc71c1738317"
-  integrity sha512-AkFd3lB3gb0pFF52MFvtQRYDimkGLhHtOK4lBCxAwMZHx7YEtV3EAVaNuupBLTNH8yDOMHHF0w4xEelODUWA3A==
+  version "8.2.1000002208"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.2.1000002208.tgz#9b83d9b906c75225e438c42d2f2ba655b5e54f1d"
+  integrity sha512-p1THRMcjFogw/JZXjQabU5/m8xHUWtSI0yP8RwPzC2wzscufJX2+krSbQBWWqJT+ne6LGlip3WdgGCl9P3NubA==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
