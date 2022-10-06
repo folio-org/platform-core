@@ -44,13 +44,13 @@
   "id" : "mod-feesfines-18.1.0-SNAPSHOT.195",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-1.7.0-SNAPSHOT.79",
+  "id" : "mod-patron-blocks-1.7.0-SNAPSHOT.80",
   "action" : "enable"
 }, {
   "id" : "mod-notes-4.0.0-SNAPSHOT.212",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-23.2.0-SNAPSHOT.1049",
+  "id" : "mod-circulation-23.2.0-SNAPSHOT.1050",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.458",
