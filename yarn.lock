@@ -1234,9 +1234,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.2.1000002202"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000002202.tgz#766d3bbce0fa29f04d235fb9cb91e20645017bc7"
-  integrity sha512-hllCcx2yALHjnyYmmS4GhzXtom6lMHI44gbG3Bdbf53+GmMpmZumSgLi4mZKQNZFWkkZEu4/Ffuy1FTLcXlCcQ==
+  version "9.2.1000002205"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000002205.tgz#dc2d7a80bc523428050edf76a027461a4b85ada8"
+  integrity sha512-xw2UpX0QcTAZs/NMww7r/oGt1wP5YCk5QTgcU8ZulSx9eJCVH9h0O/YSTu5sRq0CXqP1grlZqI9t6tZ1umK3nQ==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@folio/stripes-acq-components" "^3.2.0"
@@ -4177,9 +4177,9 @@ deep-is@~0.1.3:
   integrity sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==
 
 default-require-extensions@^3.0.0:
-  version "3.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/default-require-extensions/-/default-require-extensions-3.0.0.tgz#e03f93aac9b2b6443fc52e5e4a37b3ad9ad8df96"
-  integrity sha512-ek6DpXq/SCpvjhpFsLFRVtIxJCRw6fUR42lYMVZuUMK7n8eMz4Uh5clckdBjEpLhn/gEBZo7hDJnJcwdKLKQjg==
+  version "3.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/default-require-extensions/-/default-require-extensions-3.0.1.tgz#bfae00feeaeada68c2ae256c62540f60b80625bd"
+  integrity sha512-eXTJmRbm2TIt9MgWTsOH1wEuhew6XGZcMeGKCtLedIg/NCsg1iBePXkceTdK4Fii7pzmN9tGsZhKzZ4h7O/fxw==
   dependencies:
     strip-bom "^4.0.0"
 
