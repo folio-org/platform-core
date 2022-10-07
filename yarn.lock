@@ -1370,9 +1370,9 @@
     react-hot-loader "^4.3.12"
 
 "@folio/servicepoints@>=1.1.0":
-  version "6.1.10000082"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-6.1.10000082.tgz#f4f81bb023e34df68e6a2511f0f0916b12950107"
-  integrity sha512-489uYU4Ly6SCQ+I390QbfDb7fippkN9T+l0Lf882S3cvBUhreDTZLHjoB9vb3w8wkylKWuEA0jHgbkoEVeJGfg==
+  version "6.2.100000103"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-6.2.100000103.tgz#077090a75ce86e7d1d8719c7f4c82d5bd77a9b49"
+  integrity sha512-uDyko2s76MuNuHibl/lnR4nYazu2DBzJunZQej/hN6ZUi32hFAWcj44q+VIABaOqKZ2eflhaE+U8WUKieW1lhA==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
