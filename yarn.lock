@@ -1315,9 +1315,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.1.200000608"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.200000608.tgz#b8cd9fd8e2430a7efabd3cc9509f14fe833a6b27"
-  integrity sha512-UwPMz2tXcJilo0GTCOqbVavJ8NmmJWwHb6ymOQTVeJHGd/DtuhEk6Em3cZ5y7lWHy5PjmdXkAqfldmzk33vPyg==
+  version "5.1.200000619"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.200000619.tgz#aa4c717ba93364ae9478cd7265ffd750d8c70800"
+  integrity sha512-O3xL5FrS4ZX1KeZ3/EMwp2W3iH+3fF8PovOVWPKJzjjxsV0iipPkSEBtrUdZI81iZV76BUhT7Su+bf1g8jbakg==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
@@ -1625,9 +1625,9 @@
     query-string "^5.0.0"
 
 "@folio/stripes-webpack@^4.0.0":
-  version "4.1.100000222"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-4.1.100000222.tgz#c7decf73cf5300fd898b41e9aa1286539095e780"
-  integrity sha512-pGNzt3mp2V0z14Fw+ntNz+mXCSaMSnm99aMNl3g8a6i9jK+Ti8ul+c9cQ4DW4O9g2s6A49OKSGhAtfcAXaq/8g==
+  version "4.1.100000225"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-4.1.100000225.tgz#0aca22662824f6b8f658875e507577b72fa684cd"
+  integrity sha512-3TytkV58qHnYdjFGx/n1issr8F17do37waqn0MRSluCJURuqR6crVUg/P2spPAdBT+t3DIpRWZbZ7962Y4TRxg==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
