@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.6.0-SNAPSHOT.332",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.2.1000002223",
+  "id" : "folio_inventory-9.2.1000002227",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.1.100000163",
@@ -113,7 +113,7 @@
   "id" : "mod-password-validator-2.5.0-SNAPSHOT.70",
   "action" : "enable"
 }, {
-  "id" : "mod-users-bl-7.4.0-SNAPSHOT.123",
+  "id" : "mod-users-bl-7.4.0-SNAPSHOT.124",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-core-8.2.100000700",
