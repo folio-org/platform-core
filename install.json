@@ -17,7 +17,7 @@
   "id" : "mod-permissions-6.2.0-SNAPSHOT.155",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.7.0-SNAPSHOT.209",
+  "id" : "mod-pubsub-2.7.0-SNAPSHOT.210",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-14.2.0-SNAPSHOT.334",
@@ -119,7 +119,7 @@
   "id" : "folio_stripes-core-8.2.100000704",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.2.1000001123",
+  "id" : "folio_stripes-smart-components-7.2.1000001128",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.2.10000093",
