@@ -1566,9 +1566,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.2.0":
-  version "7.2.1000001128"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.1000001128.tgz#7e1be4c0ca34c270201cafb9a9543388d47cc3bc"
-  integrity sha512-XexyvEx/IzDntcxtBYZmWJPswtP6qVK7G+IBsjNb1ZvzMEUrbXMyhI/nKO6Qp/Fz4bI5zXnkDiyr4MOJ0Oxw2Q==
+  version "7.2.1000001131"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.2.1000001131.tgz#6a30ba10b5a383fd86b8fa6d06a0b1d968a7126e"
+  integrity sha512-oZ/1frARHpihTNyHBXuaOZB3ior2GuTvEcGvxwuZ1JNLOJVymguLNfb8H76LpdVQkTWrguDsIIkn8Q4qNoa6BQ==
   dependencies:
     "@rehooks/local-storage" "2.4.0"
     classnames "^2.2.6"
@@ -8482,9 +8482,9 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.1.0, postcss-value-parser@^
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
 postcss@^8.3.5, postcss@^8.3.9, postcss@^8.4.7:
-  version "8.4.17"
-  resolved "https://repository.folio.org/repository/npm-ci-all/postcss/-/postcss-8.4.17.tgz#f87863ec7cd353f81f7ab2dec5d67d861bbb1be5"
-  integrity sha512-UNxNOLQydcOFi41yHNMcKRZ39NeXlr8AxGuZJsdub8vIb12fHzcq37DTU/QtbI6WLxNg2gF9Z+8qtRwTj1UI1Q==
+  version "8.4.18"
+  resolved "https://repository.folio.org/repository/npm-ci-all/postcss/-/postcss-8.4.18.tgz#6d50046ea7d3d66a85e0e782074e7203bc7fbca2"
+  integrity sha512-Wi8mWhncLJm11GATDaQKobXSNEYGUHeQLiQqDFG1qQ5UTDPTEvKw0Xt5NsTpktGTwLps3ByrWsBrG0rB8YQ9oA==
   dependencies:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
