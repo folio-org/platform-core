@@ -1234,9 +1234,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.2.1000002241"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000002241.tgz#e825e78d48486ecb31c14359e60d3c74e5ec3eaa"
-  integrity sha512-drEnyLO6zWn67rXydvoyxdJmbLZQCgJaFlWH1t/BtMjXgoY3j0cv9xK1w0ewn/Yh7HwBhQWO5jWDescFpANDXw==
+  version "9.2.1000002255"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000002255.tgz#ae12247bb05d664684db2ce35420c44cd9890223"
+  integrity sha512-QqcYY63E80GZp7vdyNgbgo4t1AApjWDuy8je2g3TMY3/WBWa8vGd9Q1WQmuJb1NbjXu5l+uM3A6JXTphMc6BMw==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@folio/stripes-acq-components" "^3.2.0"
@@ -1315,9 +1315,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.1.200000634"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.200000634.tgz#d46038f07a5edeb57e88e5a58adc1c90aeb7978b"
-  integrity sha512-HlJd9iE5XxMek7AiV26FFlDCUer/loIE5kAnBnGmZAaO4t1HnrsfKMm2V0yKP+hlGOsSN92BtQ92jlO7b0HLDQ==
+  version "5.1.200000637"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.200000637.tgz#156b94aabf63e6645d541c6f70c0f645174c0e7c"
+  integrity sha512-dgwwHhEdoJ9EniKo80H8TXq5Pp7tnsAyxS4uO72WiDtZvP6kvN+Befo+ANKHwSpiGR2mCJFdQJNH96aEqJGN0A==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
@@ -1339,9 +1339,9 @@
   integrity sha512-Pj4znI9iy5RnRD23weAd6SqWjSgAz66GFIBYxOdtf677gQwg54eNxoxL3tAEKY+9PGYEeW5550SNX9mS7Blawg==
 
 "@folio/requests@>=1.4.1":
-  version "7.1.1000001192"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.1.1000001192.tgz#d849f2ee2f2992e29684c4e3bc5cdfc15e1617e0"
-  integrity sha512-bIDCAVQaZL2n5alOTLh+5UtpbRwwQtXSfKQ/D5CQ1wNaN22cjgwjCr5f9Ssi7wyWiFlF3zq6AEQlsH0FIud5DQ==
+  version "7.1.1000001197"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.1.1000001197.tgz#99ad981398b637e861d63b80da98afb86f2a7285"
+  integrity sha512-evhaKbQr/KLluC4ZxgxswNR4jaG+FVI4oqJ4z/EvUTnmDxSnzqxj7T+RRR2VfdGxJ4YG3L33WJ7AsmNz+ZjS3g==
   dependencies:
     babel-plugin-module-resolver "^4.1.0"
     final-form "^4.20.7"
