@@ -52,11 +52,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_stripes-core-8.2.100000704",
+    "id": "folio_stripes-core-8.3.100000707",
     "action": "enable"
   },
   {
-    "id": "folio_stripes-smart-components-7.2.1000001131",
+    "id": "folio_stripes-smart-components-7.3.1000001134",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-8.2.1000002259",
+    "id": "folio_users-8.2.1000002262",
     "action": "enable"
   }
 ]

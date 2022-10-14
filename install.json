@@ -14,7 +14,7 @@
   "id" : "mod-login-7.8.0-SNAPSHOT.123",
   "action" : "enable"
 }, {
-  "id" : "mod-permissions-6.2.0-SNAPSHOT.155",
+  "id" : "mod-permissions-6.2.0-SNAPSHOT.156",
   "action" : "enable"
 }, {
   "id" : "mod-pubsub-2.7.0-SNAPSHOT.211",
@@ -26,7 +26,7 @@
   "id" : "mod-event-config-2.4.0-SNAPSHOT.57",
   "action" : "enable"
 }, {
-  "id" : "mod-configuration-5.9.0-SNAPSHOT.117",
+  "id" : "mod-configuration-5.9.0-SNAPSHOT.118",
   "action" : "enable"
 }, {
   "id" : "mod-template-engine-1.18.0-SNAPSHOT.84",
@@ -116,10 +116,10 @@
   "id" : "mod-users-bl-7.4.0-SNAPSHOT.124",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-8.2.100000704",
+  "id" : "folio_stripes-core-8.3.100000707",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.2.1000001131",
+  "id" : "folio_stripes-smart-components-7.3.1000001134",
   "action" : "enable"
 }, {
   "id" : "folio_tags-6.2.10000093",
@@ -131,7 +131,7 @@
   "id" : "folio_tenant-settings-7.2.100000373",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.2.1000002259",
+  "id" : "folio_users-8.2.1000002262",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.4.0-SNAPSHOT.101",
