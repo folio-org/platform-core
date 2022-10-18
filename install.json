@@ -17,7 +17,7 @@
   "id" : "mod-permissions-6.2.0-SNAPSHOT.156",
   "action" : "enable"
 }, {
-  "id" : "mod-pubsub-2.7.0-SNAPSHOT.211",
+  "id" : "mod-pubsub-2.7.0",
   "action" : "enable"
 }, {
   "id" : "mod-circulation-storage-15.1.0-SNAPSHOT.335",
@@ -38,13 +38,13 @@
   "id" : "mod-sender-1.9.0-SNAPSHOT.39",
   "action" : "enable"
 }, {
-  "id" : "mod-notify-2.12.0-SNAPSHOT.119",
+  "id" : "mod-notify-2.13.0-SNAPSHOT.120",
   "action" : "enable"
 }, {
   "id" : "mod-feesfines-18.2.0-SNAPSHOT.196",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-1.7.0-SNAPSHOT.80",
+  "id" : "mod-patron-blocks-1.7.0",
   "action" : "enable"
 }, {
   "id" : "mod-notes-4.0.0-SNAPSHOT.213",
@@ -80,7 +80,7 @@
   "id" : "mod-data-export-4.6.0-SNAPSHOT.333",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.2.1000002261",
+  "id" : "folio_inventory-9.2.1000002272",
   "action" : "enable"
 }, {
   "id" : "folio_myprofile-7.1.100000163",

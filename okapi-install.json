@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-pubsub-2.7.0-SNAPSHOT.211",
+    "id": "mod-pubsub-2.7.0",
     "action": "enable"
   },
   {
@@ -48,7 +48,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-notify-2.12.0-SNAPSHOT.119",
+    "id": "mod-notify-2.13.0-SNAPSHOT.120",
     "action": "enable"
   },
   {
@@ -56,7 +56,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-patron-blocks-1.7.0-SNAPSHOT.80",
+    "id": "mod-patron-blocks-1.7.0",
     "action": "enable"
   },
   {
