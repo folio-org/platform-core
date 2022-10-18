@@ -23,13 +23,13 @@
   "id" : "mod-circulation-storage-15.1.0-SNAPSHOT.335",
   "action" : "enable"
 }, {
-  "id" : "mod-event-config-2.4.0-SNAPSHOT.57",
+  "id" : "mod-event-config-2.5.0-SNAPSHOT.58",
   "action" : "enable"
 }, {
   "id" : "mod-configuration-5.9.0-SNAPSHOT.118",
   "action" : "enable"
 }, {
-  "id" : "mod-template-engine-1.18.0-SNAPSHOT.84",
+  "id" : "mod-template-engine-1.19.0-SNAPSHOT.85",
   "action" : "enable"
 }, {
   "id" : "mod-email-1.15.0-SNAPSHOT.70",
@@ -44,7 +44,7 @@
   "id" : "mod-feesfines-18.2.0-SNAPSHOT.196",
   "action" : "enable"
 }, {
-  "id" : "mod-patron-blocks-1.7.0",
+  "id" : "mod-patron-blocks-1.8.0-SNAPSHOT.82",
   "action" : "enable"
 }, {
   "id" : "mod-notes-4.0.0-SNAPSHOT.213",
