@@ -50,7 +50,7 @@
   "id" : "mod-notes-4.0.0-SNAPSHOT.213",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-23.2.0-SNAPSHOT.1051",
+  "id" : "mod-circulation-23.2.0",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.5.0-SNAPSHOT.459",
