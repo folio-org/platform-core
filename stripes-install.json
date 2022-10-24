@@ -28,11 +28,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-create-inventory-records-3.2.100000191",
+    "id": "folio_plugin-create-inventory-records-3.2.100000196",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-instance-6.3.100000233",
+    "id": "folio_plugin-find-instance-6.3.100000236",
     "action": "enable"
   },
   {
@@ -48,7 +48,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_servicepoints-6.2.100000107",
+    "id": "folio_servicepoints-6.3.100000112",
     "action": "enable"
   },
   {

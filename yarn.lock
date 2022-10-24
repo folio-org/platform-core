@@ -1269,9 +1269,9 @@
     redux-form "^8.3.7"
 
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^3.0.0":
-  version "3.2.100000191"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-3.2.100000191.tgz#027ebc7144f75c4895f1e749d52ac45ea2b8b1a8"
-  integrity sha512-wuArJnX4gnY+ZYWzUxRQ2aRfyVhOFCdI62NKqkEgth8d1TUyV4Qsq8plY381hdCGv3qO3CZpKdkEhUx5MvFZuw==
+  version "3.2.100000196"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-3.2.100000196.tgz#9a6e543182b7e7233ee542a9985bf61d46e9e9e0"
+  integrity sha512-hgTM7MbqNB/QurXJM8l4OSmmzWCuIBdlpuRVlszgYkAU5JKO+H8uQgj9+QiJQ1tSv4xcKh8fkjfZxqEmucKubA==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
@@ -1290,9 +1290,9 @@
     query-string "^7.0.1"
 
 "@folio/plugin-find-instance@>=1.1.0", "@folio/plugin-find-instance@^6.0.0":
-  version "6.3.100000233"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-6.3.100000233.tgz#5c061c2a174abcc7c390048c9a19dd47eeef5795"
-  integrity sha512-FZAeGuSzF0t0p6a4K5JD917m9srl0C+E0708t1RLLK0Z/oQYM1QSDhNvoNo66zFtQbhQtc/NsTPZLNm1IvSu/w==
+  version "6.3.100000236"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-6.3.100000236.tgz#b0d6e29aa50575605c306a83f11a929ac9216b5c"
+  integrity sha512-NmN3L/irVDuSljO53uz7dTqMRaNOSW0IcK2/ROL9tZC+f0aObFBpaO1ghtGLBOyAKN0bm5OhuWI0VcQFUKU2EA==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
@@ -1367,9 +1367,9 @@
     react-hot-loader "^4.3.12"
 
 "@folio/servicepoints@>=1.1.0":
-  version "6.2.100000107"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-6.2.100000107.tgz#7b9d8edb44692aee6fe3d741ab909fa41786ceac"
-  integrity sha512-9SpewEGAZCL2wGJTMKjfeIgZitmb1mS4iggNMNpc9iu88wHCsrI4R72plrKxNEX+nyXgzkBgOhp/pAmdpjiNnQ==
+  version "6.3.100000112"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/servicepoints/-/servicepoints-6.3.100000112.tgz#669c06ec1fe5392207befd3befbc3d36c571ce94"
+  integrity sha512-CD+jEmuuovCD5QyVjUzrFccfMJvbwgXUZwLpV5kazvpfHa+aTXwyHFBA0KuZ7W4AVeg32c/Bs7ymII5/wQlGag==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
@@ -2284,9 +2284,9 @@
   integrity sha512-taW5/WYqo36N7V39oYyHP9Ipfd5pNFvGTIQsNGj86xV88YQ7GnI30/yMfKDF7Zgin0m3e+ikX88FvImnK4RjGw==
 
 "@types/react-dom@>=16.9.0":
-  version "18.0.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react-dom/-/react-dom-18.0.6.tgz#36652900024842b74607a17786b6662dd1e103a1"
-  integrity sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==
+  version "18.0.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react-dom/-/react-dom-18.0.7.tgz#ee7cf8ec4e6977e3f0a7b1d38bd89c75aa2aec28"
+  integrity sha512-HaXc+BbqAZE1RdsK3tC8SbkFy6UL2xF76lT9rQs5JkPrJg3rWA3Ou/Lhw3YJQzEDkBpmJ79nBsfnd05WrBd2QQ==
   dependencies:
     "@types/react" "*"
 
@@ -2308,9 +2308,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@16 || 17 || 18", "@types/react@>=16.9.0", "@types/react@>=16.9.11":
-  version "18.0.21"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-18.0.21.tgz#b8209e9626bb00a34c76f55482697edd2b43cc67"
-  integrity sha512-7QUCOxvFgnD5Jk8ZKlUAhVcRj7GuJRjnjjiY/IUBWKgOlnvDvTMLD4RTF7NPyVmbRhNrbomZiOepg7M/2Kj1mA==
+  version "18.0.22"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-18.0.22.tgz#97782d995d999617de116cf61f437f1351036fc7"
+  integrity sha512-4yWc5PyCkZN8ke8K9rQHkTXxHIWHxLzzW6RI1kXVoepkD3vULpKzC2sDtAMKn78h92BRYuzf+7b/ms7ajE6hFw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
