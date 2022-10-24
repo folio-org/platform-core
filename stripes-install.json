@@ -16,7 +16,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_developer-6.3.100000341",
+    "id": "folio_developer-6.4.100000348",
     "action": "enable"
   },
   {
@@ -28,11 +28,11 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-create-inventory-records-3.2.100000196",
+    "id": "folio_plugin-create-inventory-records-3.3.100000201",
     "action": "enable"
   },
   {
-    "id": "folio_plugin-find-instance-6.3.100000236",
+    "id": "folio_plugin-find-instance-6.4.100000240",
     "action": "enable"
   },
   {
@@ -68,7 +68,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_users-8.2.1000002262",
+    "id": "folio_users-8.3.1000002269",
     "action": "enable"
   }
 ]
