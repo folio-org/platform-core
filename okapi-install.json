@@ -1,10 +1,10 @@
 [
   {
-    "id": "mod-calendar-1.16.0-SNAPSHOT.131",
+    "id": "mod-calendar-2.0.0-SNAPSHOT.132",
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-25.0.0-SNAPSHOT.766",
+    "id": "mod-inventory-storage-25.1.0-SNAPSHOT.770",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-23.3.0-SNAPSHOT.1054",
+    "id": "mod-circulation-23.3.0-SNAPSHOT.1055",
     "action": "enable"
   },
   {

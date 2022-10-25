@@ -1,14 +1,14 @@
 [ {
-  "id" : "mod-calendar-1.16.0-SNAPSHOT.131",
+  "id" : "mod-calendar-2.0.0-SNAPSHOT.132",
   "action" : "enable"
 }, {
-  "id" : "mod-inventory-storage-25.0.0-SNAPSHOT.766",
-  "action" : "enable"
-}, {
-  "id" : "folio_calendar-7.3.100000513",
+  "id" : "mod-inventory-storage-25.1.0-SNAPSHOT.770",
   "action" : "enable"
 }, {
   "id" : "mod-users-19.1.0-SNAPSHOT.214",
+  "action" : "enable"
+}, {
+  "id" : "folio_calendar-8.0.100000523",
   "action" : "enable"
 }, {
   "id" : "mod-login-7.9.0-SNAPSHOT.125",
@@ -50,7 +50,7 @@
   "id" : "mod-notes-4.1.0-SNAPSHOT.214",
   "action" : "enable"
 }, {
-  "id" : "mod-circulation-23.3.0-SNAPSHOT.1054",
+  "id" : "mod-circulation-23.3.0-SNAPSHOT.1055",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.6.0-SNAPSHOT.461",
@@ -80,10 +80,10 @@
   "id" : "mod-data-export-4.6.0-SNAPSHOT.338",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.2.1000002279",
+  "id" : "folio_inventory-9.2.1000002286",
   "action" : "enable"
 }, {
-  "id" : "folio_myprofile-7.1.100000163",
+  "id" : "folio_myprofile-7.2.100000173",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-create-inventory-records-3.3.100000201",
@@ -122,7 +122,7 @@
   "id" : "folio_stripes-smart-components-7.3.1000001134",
   "action" : "enable"
 }, {
-  "id" : "folio_tags-6.2.10000093",
+  "id" : "folio_tags-6.3.100000101",
   "action" : "enable"
 }, {
   "id" : "mod-login-saml-2.6.0-SNAPSHOT.111",
