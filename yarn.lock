@@ -1244,9 +1244,9 @@
     webpack "^5.61.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.2.1000002286"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000002286.tgz#0e4e111ab4c2916fdce22618424d1028b79f0f87"
-  integrity sha512-q5QIk0wt85sGAO9SSSSuUsg4CZVwXQPOKRQ7whp1xYzf0z2U+7WTJ1FQHU8I+jzDKf+7OJK0TFrF7K3141W/3g==
+  version "9.2.1000002289"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.2.1000002289.tgz#cbc6a630acda4481adc9a6386d1e7acde11307fe"
+  integrity sha512-Zb0Lwn0fhEm1NfLRmjGOjen7W78SA8dFAVzGMowVlWiIDlQgvuea6xovPQMsTnWU/X32R+KUlHKvX47Ued+YJQ==
   dependencies:
     "@folio/quick-marc" "^5.0.0"
     "@folio/stripes-acq-components" "^3.2.0"
@@ -10884,9 +10884,9 @@ webidl-conversions@^3.0.0:
   integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
 
 webpack-bundle-analyzer@^4.4.2:
-  version "4.6.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.6.1.tgz#bee2ee05f4ba4ed430e4831a319126bb4ed9f5a6"
-  integrity sha512-oKz9Oz9j3rUciLNfpGFjOb49/jEpXNmWdVH8Ls//zNcnLlQdTGXQQMsBbb/gR7Zl8WNLxVCq+0Hqbx3zv6twBw==
+  version "4.7.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.7.0.tgz#33c1c485a7fcae8627c547b5c3328b46de733c66"
+  integrity sha512-j9b8ynpJS4K+zfO5GGwsAcQX4ZHpWV+yRiHDiL+bE0XHJ8NiPYLTNVQdlFYWxtpg9lfAQNlwJg16J9AJtFSXRg==
   dependencies:
     acorn "^8.0.4"
     acorn-walk "^8.0.0"
