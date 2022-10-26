@@ -1140,9 +1140,9 @@
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
 "@folio/calendar@>=2.0.5":
-  version "8.0.100000529"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-8.0.100000529.tgz#f2fb78caf0c852c3fd9df9537930b8bdc8a20794"
-  integrity sha512-hIkhXYUGY8kAgD5t3zHUq+qK0sugdqD3d0/vfyHe57zhY1/OY1hMd+46UbctgRMCTKGfQciuc1C0h6ZmPGZGUw==
+  version "8.0.100000541"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-8.0.100000541.tgz#2761643ef74372a3d9901ab03349557318663fee"
+  integrity sha512-6BJx8MtdonKpOVsSre4/JUdEgmoaW925Vggple7rVI6V9yds4Yeu7EuEhklxVub0K9hb/OM9AnsXYKuhtREv1w==
   dependencies:
     "@types/memoizee" "^0.4.8"
     "@types/react-router-dom" "^5.2.0"
@@ -1316,9 +1316,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@^5.0.0":
-  version "5.2.100000689"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.2.100000689.tgz#dbbc6a75f07d764e2c5014f8a54bd533af9a48b3"
-  integrity sha512-bVkWKVUqjLjq2iHD9fkLud1GFxR7zEQOljZzewbKf2jyabc5iYgVQawgK6JTTpPyz/I6B4fGTmPnskzNVta/WQ==
+  version "5.2.100000694"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.2.100000694.tgz#2aac202547f3a612a783781067430e4e27600d8f"
+  integrity sha512-cwYmO37ywkFkiD9voLI1qyU6+StJeuHlo3y7s4fHKm6q4IpmbeyfCy2YffsvRygExYgCWNAhixz530rtIanycw==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
@@ -1335,9 +1335,9 @@
     "@folio/plugin-find-authority" "^1.0.0"
 
 "@folio/requests@>=1.4.1":
-  version "7.2.1000001210"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.2.1000001210.tgz#7861f5c550d9431afb3d0e2a87a2eb3e191d5ce4"
-  integrity sha512-VFaJtX3rKil3Tb51UbYxtL9nNd/SjzZhhhfgZbKrwJla5x+ilLcGFCvd+w2qcTfOQm9Wljjei/mCRJOIF3IsOQ==
+  version "7.2.1000001214"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-7.2.1000001214.tgz#ee8591fbaf3c8dcd3e8cf6d13184380975c7e7f5"
+  integrity sha512-oWpP0poKQelWu8kmDoUwHiTb/ilwV7oqQdRCUI93bgzl84s1ulGsCkvd+IaXLFt5HiZCssCeVmLMnVXSJXz7Vg==
   dependencies:
     babel-plugin-module-resolver "^4.1.0"
     final-form "^4.20.7"
