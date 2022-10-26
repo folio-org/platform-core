@@ -59,13 +59,13 @@
   "id" : "mod-inventory-19.1.0-SNAPSHOT.570",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-7.2.100000396",
+  "id" : "folio_checkin-7.2.100000402",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-8.2.100000404",
+  "id" : "folio_checkout-8.2.100000409",
   "action" : "enable"
 }, {
-  "id" : "folio_circulation-7.2.100000924",
+  "id" : "folio_circulation-7.2.100000929",
   "action" : "enable"
 }, {
   "id" : "folio_developer-6.4.100000352",
@@ -80,19 +80,19 @@
   "id" : "mod-data-export-4.7.0-SNAPSHOT.339",
   "action" : "enable"
 }, {
-  "id" : "folio_inventory-9.2.1000002289",
+  "id" : "folio_inventory-9.2.1000002295",
   "action" : "enable"
 }, {
-  "id" : "folio_myprofile-7.2.100000173",
+  "id" : "folio_myprofile-7.2.100000177",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-create-inventory-records-3.3.100000201",
+  "id" : "folio_plugin-create-inventory-records-3.3.100000205",
   "action" : "enable"
 }, {
   "id" : "folio_plugin-find-instance-6.4.100000240",
   "action" : "enable"
 }, {
-  "id" : "folio_plugin-find-user-6.4.100000157",
+  "id" : "folio_plugin-find-user-6.4.100000162",
   "action" : "enable"
 }, {
   "id" : "folio_requests-7.2.1000001210",
@@ -101,7 +101,7 @@
   "id" : "mod-codex-mux-2.13.0-SNAPSHOT.114",
   "action" : "enable"
 }, {
-  "id" : "folio_search-5.1.100000116",
+  "id" : "folio_search-5.1.100000121",
   "action" : "enable"
 }, {
   "id" : "folio_servicepoints-6.3.100000112",
@@ -116,22 +116,22 @@
   "id" : "mod-users-bl-7.5.0-SNAPSHOT.125",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-8.3.100000707",
+  "id" : "folio_stripes-core-8.3.100000724",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-smart-components-7.3.1000001134",
+  "id" : "folio_stripes-smart-components-7.3.1000001141",
   "action" : "enable"
 }, {
-  "id" : "folio_tags-6.3.100000101",
+  "id" : "folio_tags-6.3.100000106",
   "action" : "enable"
 }, {
   "id" : "mod-login-saml-2.6.0-SNAPSHOT.111",
   "action" : "enable"
 }, {
-  "id" : "folio_tenant-settings-7.3.100000389",
+  "id" : "folio_tenant-settings-7.3.100000393",
   "action" : "enable"
 }, {
-  "id" : "folio_users-8.3.1000002277",
+  "id" : "folio_users-8.3.1000002281",
   "action" : "enable"
 }, {
   "id" : "mod-codex-inventory-2.4.0-SNAPSHOT.101",
