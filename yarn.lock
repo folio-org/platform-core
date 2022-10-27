@@ -1140,9 +1140,9 @@
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
 "@folio/calendar@>=2.0.5":
-  version "8.0.100000541"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-8.0.100000541.tgz#2761643ef74372a3d9901ab03349557318663fee"
-  integrity sha512-6BJx8MtdonKpOVsSre4/JUdEgmoaW925Vggple7rVI6V9yds4Yeu7EuEhklxVub0K9hb/OM9AnsXYKuhtREv1w==
+  version "8.0.100000544"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-8.0.100000544.tgz#f54db40c665706a08aacdbe0f6d0307f80d7c030"
+  integrity sha512-DcG/EaUaoG/g4RURVMBeqMVgxxx/tucryFZa0nmZLTiYTmTXjCGHR+g+bDdMhPkEoQKMTRSiMmXucevGGeanmQ==
   dependencies:
     "@types/memoizee" "^0.4.8"
     "@types/react-router-dom" "^5.2.0"
