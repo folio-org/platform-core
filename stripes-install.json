@@ -44,10 +44,6 @@
     "action": "enable"
   },
   {
-    "id": "folio_search-5.1.100000121",
-    "action": "enable"
-  },
-  {
     "id": "folio_servicepoints-6.3.100000112",
     "action": "enable"
   },
