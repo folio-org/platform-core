@@ -1156,9 +1156,9 @@
     utility-types "^3.10.0"
 
 "@folio/checkin@>=1.3.0":
-  version "7.2.100000402"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.2.100000402.tgz#83a8425f2a378c00fd2bdaf0cc077b2ed04d5463"
-  integrity sha512-RkVFo7y6Zq6e6H9a8IDGu3cqyF4YqsYp76CNfRb2yMDpxmSFI46PyYSyS50t94x/D6s8/NGY1xYrtXOHtRDXvw==
+  version "7.2.100000407"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-7.2.100000407.tgz#4166baae897c3873674078e561eaf8591f44a443"
+  integrity sha512-wa5HT0+eO51DNvrBGO5dQOElwauIdT39tJsvoDbCFvKzgD66Me0I3A3Aolyt0APeQDKsyFrGXKCvFUiYarttZg==
   dependencies:
     dateformat "^2.0.0"
     final-form "^4.19.1"
@@ -1172,9 +1172,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "8.2.100000409"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.2.100000409.tgz#d73239fc478502d61793ae5a431d68e18176951b"
-  integrity sha512-HtFpcPVLzQJWlTc1vFPRG+MUFyFCZYBgmXb3ryiYaioN2YRUsjIH/sSlPuVwRwJ8La8A1TV+Zfbqlh1TV/ZI6A==
+  version "8.2.100000414"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.2.100000414.tgz#c9482541ee956bd8963f17557e75d0d2ad0ab640"
+  integrity sha512-78yHa7Uy7yfi/zdXH0toy7uw01Ykf8Z0eWSNvWk9qvcse+mYR3zFJjmXalgyQ9mZx0zolyML0V1kckuLRhCUjw==
   dependencies:
     final-form "^4.19.1"
     inactivity-timer "^1.0.0"
@@ -1479,9 +1479,9 @@
     uuid "^8.3.2"
 
 "@folio/stripes-core@~8.3.0":
-  version "8.3.100000724"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.3.100000724.tgz#f899b6940c2c082d3183c5a91a86ab7c261cb2d6"
-  integrity sha512-nzIBeqgd48XELk3OQynlNwlOvOq9LA9t/uo5Vs/bUvVlSGkTYlEKIT+en36YMhfbbcFb7v+CbUkfAhCYYx77jQ==
+  version "8.3.100000733"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-8.3.100000733.tgz#bf2e7d69c2670fa87021a817a1f99d0c16698e64"
+  integrity sha512-gpGRXiuxbzhqG2cpKZQZ11NU3W3MXHAXm/rU+UrMQKj2QVNKr2VF9qUOvqhGCq1eBqsp9A31mfEvkduBp02duw==
   dependencies:
     "@apollo/client" "^3.2.1"
     classnames "^2.2.5"

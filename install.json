@@ -59,10 +59,10 @@
   "id" : "mod-inventory-19.1.0-SNAPSHOT.570",
   "action" : "enable"
 }, {
-  "id" : "folio_checkin-7.2.100000402",
+  "id" : "folio_checkin-7.2.100000407",
   "action" : "enable"
 }, {
-  "id" : "folio_checkout-8.2.100000409",
+  "id" : "folio_checkout-8.2.100000414",
   "action" : "enable"
 }, {
   "id" : "folio_circulation-7.2.100000929",
@@ -110,7 +110,7 @@
   "id" : "mod-users-bl-7.5.0-SNAPSHOT.125",
   "action" : "enable"
 }, {
-  "id" : "folio_stripes-core-8.3.100000724",
+  "id" : "folio_stripes-core-8.3.100000733",
   "action" : "enable"
 }, {
   "id" : "folio_stripes-smart-components-7.3.1000001141",
