@@ -1,6 +1,6 @@
 [
   {
-    "id": "folio_calendar-8.0.100000544",
+    "id": "folio_calendar-8.0.100000549",
     "action": "enable"
   },
   {
@@ -20,7 +20,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_inventory-9.3.1000002313",
+    "id": "folio_inventory-9.3.1000002323",
     "action": "enable"
   },
   {
@@ -28,7 +28,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_plugin-create-inventory-records-3.3.100000205",
+    "id": "folio_plugin-create-inventory-records-3.3.100000210",
     "action": "enable"
   },
   {
@@ -40,7 +40,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_requests-7.2.1000001214",
+    "id": "folio_requests-7.2.1000001219",
     "action": "enable"
   },
   {
