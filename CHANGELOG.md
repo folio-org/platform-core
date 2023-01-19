@@ -1,8 +1,9 @@
 # Change history for platform-core
 
-## 1.4.0 (IN PROGRESS)
+## 5.0.0 (IN PROGRESS)
 
 * Update integration tests to accommodate MCL aria changes, STRIPES-596
+* Upgrade `react-redux` to `v8`. Refs STRIPES-834.
 
 ## [1.3.0](https://github.com/folio-org/platform-core/tree/v1.3.0-SNAPSHOT) (2019-01-23)
 
