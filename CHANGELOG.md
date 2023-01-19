@@ -13,6 +13,7 @@
 * Provide `react-titled`. Refs STCOR-503.
 * Update `@folio/stripes-cli` to `v2`. Refs STRIPES-733.
 * Provide `react-query` and `swr`. Refs STRIPES-735.
+* Upgrade `react-redux` to `v8`. Refs STRIPES-834.
 
 ## [1.3.0](https://github.com/folio-org/platform-core/tree/v1.3.0-SNAPSHOT) (2019-01-23)
 
